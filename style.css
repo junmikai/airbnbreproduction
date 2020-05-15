@@ -131,4 +131,22 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.section-layout > .search > .form > #plusbtn.section-form > .right {
+  margin-top: -5px;
+  margin-right: 5px;
+}
+
+.section-layout > .search > .form > #plusbtn.section-form > .right > .btn {
+  background: #D70466;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.section-layout > .search > .form > #plusbtn.section-form > .right .fa-search {
+  margin-right: 5px;
+}
 /*# sourceMappingURL=style.css.map */

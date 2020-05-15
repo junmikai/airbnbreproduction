@@ -106,7 +106,19 @@ $black-shadow:0 0 3px rgb(180, 180, 180);
     width:40%;
     @include space-between;
   }
-  > .search > .form > .section-form > .btn{
-
+  > .search > .form > #plusbtn.section-form > .right{
+    margin-top:-5px;
+    margin-right:5px;
+  }
+  > .search > .form > #plusbtn.section-form > .right > .btn{
+    background:#D70466;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 8px;
+    color: #fff;
+    font-size:14px;
+  }
+  > .search > .form > #plusbtn.section-form > .right .fa-search{
+    margin-right:5px;
   }
 }
