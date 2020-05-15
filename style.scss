@@ -1,11 +1,46 @@
 .section-layout{
   width:100%;
-  > .covid{
+  /*コロナウイルスに関する注意事項*/
+  > .covid{ 
     background-color:#f5f5f5;
     text-align:center;
     font-size:14px;
-    height:50px;
-    line-height:50px;
+    height:55px;
+    line-height:55px;
     color:#3f3f3f;
+  }
+  /*ヘッダー*/
+  > .topheader{
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin:0px 55px;
+  }
+  > .topheader > .logo{
+    margin-left:15px;
+    margin-top:10px;
+  }
+  > .topheader > .menu{
+    text-decoration:none;
+  }
+  > .topheader > .menu ul li{
+    display: inline;
+    padding-right:20px;
+  }
+  > .topheader > .menu ul li a{
+    text-decoration:none;
+    font-weight: bold;
+    color:#3f3f3f;
+    font-size:14px;
+  }
+  > .topheader > .menu ul li a .fa-globe{
+    margin-right:7px;
+  }
+  > .topheader > .menu ul li a.register{
+    display: inline-block;
+    padding: 0.7em 1.1em;
+    box-shadow: 0 0 3px rgb(180, 180, 180);
+    border-radius: 20px;
   }
 }
