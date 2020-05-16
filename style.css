@@ -9,6 +9,7 @@
   /*検索フォーム*/
   /*キャッチコピー*/
   /*オンライン体験*/
+  /*最新情報*/
 }
 
 .section-layout > .covid {
@@ -312,5 +313,51 @@
 
 .section-layout > .onlineexperience > .imagebox > .right > .bottom > .explanation p {
   width: 330px;
+}
+
+.section-layout > .news {
+  height: 500px;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 70px;
+}
+
+.section-layout > .news > .latestinformation {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.section-layout > .news > .section-informations {
+  height: 300px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section-layout > .news > .section-informations > .section-information {
+  width: 25%;
+  margin-right: 15px;
+}
+
+.section-layout > .news > .section-informations > .section-information ul > .title {
+  font-size: 19px;
+  padding-bottom: 10px;
+}
+
+.section-layout > .news > .section-informations > .section-information ul > li {
+  list-style: none;
+  border-top: solid 1px #cdcdcd;
+  padding: 15px 0px;
+  font-weight: bold;
+}
+
+.section-layout > .news > .section-informations > .section-information ul > li > span {
+  color: #959595;
+  font-size: 14px;
+  font-weight: normal;
 }
 /*# sourceMappingURL=style.css.map */
