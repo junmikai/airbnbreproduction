@@ -7,6 +7,7 @@
   /*コロナウイルスに関する注意事項*/
   /*ヘッダー*/
   /*検索フォーム*/
+  /*キャッチコピー*/
 }
 
 .section-layout > .covid {
@@ -146,7 +147,22 @@
   font-size: 14px;
 }
 
-.section-layout > .search > .form > #plusbtn.section-form > .right > .btn .fa-search {
+.section-layout > .search > .form > #plusbtn.section-form > .right > .btn > .fa-search {
   margin-right: 5px;
+}
+
+.section-layout > .catchcopy {
+  font-size: 50px;
+  width: 700px;
+  height: 300px;
+  margin: 80px 0px 0px 70px;
+  line-height: 120%;
+}
+
+.section-layout > .catchcopy > p {
+  color: #92174d;
+  background: -webkit-linear-gradient(0deg, #92174d, #e41d5c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /*# sourceMappingURL=style.css.map */

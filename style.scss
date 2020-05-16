@@ -116,9 +116,23 @@ $black-shadow:0 0 3px rgb(180, 180, 180);
       border-radius: 8px;
       color: #fff;
       font-size:14px;
-      .fa-search{
+      > .fa-search{
         margin-right:5px;
       }
     }
+  }
+  /*キャッチコピー*/
+  > .catchcopy{
+    font-size:50px;
+    width:700px;
+    height:300px;
+    margin:80px 0px 0px 70px;
+    line-height: 120%;
+    > p{
+      color: rgb(146, 23, 77);
+      background: -webkit-linear-gradient(0deg, rgb(146, 23, 77), rgb(228, 29, 92));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }   
   }
 }
