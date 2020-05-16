@@ -309,4 +309,40 @@ $white:#fff;
       line-height:35px;
     }
   }
+  > .topfooter{
+    @include space-between;
+    margin:70px 70px 30px 70px; 
+    padding-top:30px;
+    border-top: solid 1px #cdcdcd;
+    color:#1f1f1f;
+    
+    > .left{
+      font-size:13px;
+      >span{
+        padding:0px 8px;
+      }
+    }
+    > .right{
+      @include space-between;
+      font-size:13px;
+      font-weight: bold;
+      height:30px;
+      width:300px;
+      > .japan{
+        @include space-between;
+        > .fa-globe{
+          margin:3px 5px 0px 0px;
+        }
+        > p{
+          margin:0px 4px;
+          text-decoration: underline;
+        }
+      }
+      > .sns{
+        letter-spacing: 10px;
+        font-size:18px;
+      }
+    }
+  }
+ 
 }

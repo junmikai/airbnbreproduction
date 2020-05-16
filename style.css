@@ -389,4 +389,61 @@
   color: #5f5f5f;
   line-height: 35px;
 }
+
+.section-layout > .topfooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 70px 70px 30px 70px;
+  padding-top: 30px;
+  border-top: solid 1px #cdcdcd;
+  color: #1f1f1f;
+}
+
+.section-layout > .topfooter > .left {
+  font-size: 13px;
+}
+
+.section-layout > .topfooter > .left > span {
+  padding: 0px 8px;
+}
+
+.section-layout > .topfooter > .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+  width: 300px;
+}
+
+.section-layout > .topfooter > .right > .japan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-layout > .topfooter > .right > .japan > .fa-globe {
+  margin: 3px 5px 0px 0px;
+}
+
+.section-layout > .topfooter > .right > .japan > p {
+  margin: 0px 4px;
+  text-decoration: underline;
+}
+
+.section-layout > .topfooter > .right > .sns {
+  letter-spacing: 10px;
+  font-size: 18px;
+}
 /*# sourceMappingURL=style.css.map */
