@@ -1,11 +1,31 @@
  /*グローバル変数*/
 $light-black:#3f3f3f;
 $black-shadow:0 0 3px rgb(180, 180, 180);
+$white:#fff;
 
  /*mixin*/
 @mixin space-between{
   display: flex;
   justify-content:space-between;
+}
+@mixin division{
+  width:49.5%;
+  border-radius:25px;
+  height:100%;
+}
+
+@mixin division-second{
+  width:48%;
+  height:100%;
+  border-radius:25px;
+}
+
+@mixin explanation{
+  background-color:#252525;
+  height:75px;
+  border-radius:0px 0px 25px 25px;
+  position: relative;
+  padding:10px 0px 0px 15px;
 }
 
 /*全体*/
@@ -71,7 +91,7 @@ $black-shadow:0 0 3px rgb(180, 180, 180);
         margin: 0 0 0 8px;
         padding: 4px 5px;
         border-radius: 4px;
-        color: #fff;
+        color: $white;
         font-size: 3px;
         font-weight:bold ;
       }
@@ -82,7 +102,7 @@ $black-shadow:0 0 3px rgb(180, 180, 180);
     width:100%;
     margin-top:25px;
     padding:13px 10px;
-    background-color: white;
+    background-color:$white;
     border-radius: 10px;
     box-shadow:$black-shadow;
     display: flex;
@@ -111,10 +131,9 @@ $black-shadow:0 0 3px rgb(180, 180, 180);
     margin-right:5px;
     > .btn{
       background:#D70466;
-      color: #fff;
+      color:$white;
       padding: 12px 22px;
       border-radius: 8px;
-      color: #fff;
       font-size:14px;
       > .fa-search{
         margin-right:5px;
@@ -134,5 +153,97 @@ $black-shadow:0 0 3px rgb(180, 180, 180);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }   
+  }
+
+  /*オンライン体験*/
+  > .onlineexperience{
+    background-color: black;
+    height:1000px;
+    padding:60px;
+    color:$white;
+    > .top{
+      height:120px;
+      @include space-between;
+    }
+  }
+  > .onlineexperience >.top > .left{
+    width:450px;
+    > .title{
+      font-size:30px;
+      font-weight: bold;
+    }
+  }
+  > .onlineexperience >.top > .right{
+    border: solid 1px #fff;
+    width:100px;
+    height:35px;
+    border-radius: 8px;
+    text-align: center;
+    line-height:35px;
+    font-size:14px;
+    
+  }
+  > .onlineexperience > .imagebox{
+    @include space-between;
+    width:100%;
+    height:80%;
+    margin-top:20px;
+    font-weight:bold; 
+    letter-spacing:0.5px;
+    font-size:15px;
+    > .left{
+      @include division;
+      background-image:url("/Users/mikaijun/airbnb/image/sangría.png");
+      > .explanation{
+       @include explanation;
+       top:89.5%;
+       p{
+         width:330px;
+       }
+      }
+    }
+    > .right{
+      @include division;
+      > .top{
+        @include space-between;
+        height:50%;
+        > .yoga{
+          @include division-second;
+          background-image:url("/Users/mikaijun/airbnb/image/yoga.png");
+          > .explanation{
+            @include explanation;
+            top:79%;
+            p{
+              width:300px;
+            }
+           }
+        }
+        > .music{
+          @include division-second;
+          background-image:url("/Users/mikaijun/airbnb/image/music.png");
+          > .explanation{
+            @include explanation;
+            top:79%;
+            p{
+              width:310px;
+            }
+           }
+        }
+      }
+      > .bottom{
+        width:100%;
+        height:45%;
+        margin-top:30px;
+        background-image:url("/Users/mikaijun/airbnb/image/penguin.png");
+        border-radius:30px;
+        > .explanation{
+          @include explanation;
+          top:77.5%;
+          p{
+            width:330px;
+          }
+         }
+      }
+    }
   }
 }

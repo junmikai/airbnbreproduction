@@ -8,6 +8,7 @@
   /*ヘッダー*/
   /*検索フォーム*/
   /*キャッチコピー*/
+  /*オンライン体験*/
 }
 
 .section-layout > .covid {
@@ -96,7 +97,7 @@
   width: 100%;
   margin-top: 25px;
   padding: 13px 10px;
-  background-color: white;
+  background-color: #fff;
   border-radius: 10px;
   -webkit-box-shadow: 0 0 3px #b4b4b4;
           box-shadow: 0 0 3px #b4b4b4;
@@ -143,7 +144,6 @@
   color: #fff;
   padding: 12px 22px;
   border-radius: 8px;
-  color: #fff;
   font-size: 14px;
 }
 
@@ -164,5 +164,153 @@
   background: -webkit-linear-gradient(0deg, #92174d, #e41d5c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.section-layout > .onlineexperience {
+  background-color: black;
+  height: 1000px;
+  padding: 60px;
+  color: #fff;
+}
+
+.section-layout > .onlineexperience > .top {
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-layout > .onlineexperience > .top > .left {
+  width: 450px;
+}
+
+.section-layout > .onlineexperience > .top > .left > .title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.section-layout > .onlineexperience > .top > .right {
+  border: solid 1px #fff;
+  width: 100px;
+  height: 35px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 14px;
+}
+
+.section-layout > .onlineexperience > .imagebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 80%;
+  margin-top: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+
+.section-layout > .onlineexperience > .imagebox > .left {
+  width: 49.5%;
+  border-radius: 25px;
+  height: 100%;
+  background-image: url("/Users/mikaijun/airbnb/image/sangría.png");
+}
+
+.section-layout > .onlineexperience > .imagebox > .left > .explanation {
+  background-color: #252525;
+  height: 75px;
+  border-radius: 0px 0px 25px 25px;
+  position: relative;
+  padding: 10px 0px 0px 15px;
+  top: 89.5%;
+}
+
+.section-layout > .onlineexperience > .imagebox > .left > .explanation p {
+  width: 330px;
+}
+
+.section-layout > .onlineexperience > .imagebox > .right {
+  width: 49.5%;
+  border-radius: 25px;
+  height: 100%;
+}
+
+.section-layout > .onlineexperience > .imagebox > .right > .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50%;
+}
+
+.section-layout > .onlineexperience > .imagebox > .right > .top > .yoga {
+  width: 48%;
+  height: 100%;
+  border-radius: 25px;
+  background-image: url("/Users/mikaijun/airbnb/image/yoga.png");
+}
+
+.section-layout > .onlineexperience > .imagebox > .right > .top > .yoga > .explanation {
+  background-color: #252525;
+  height: 75px;
+  border-radius: 0px 0px 25px 25px;
+  position: relative;
+  padding: 10px 0px 0px 15px;
+  top: 79%;
+}
+
+.section-layout > .onlineexperience > .imagebox > .right > .top > .yoga > .explanation p {
+  width: 300px;
+}
+
+.section-layout > .onlineexperience > .imagebox > .right > .top > .music {
+  width: 48%;
+  height: 100%;
+  border-radius: 25px;
+  background-image: url("/Users/mikaijun/airbnb/image/music.png");
+}
+
+.section-layout > .onlineexperience > .imagebox > .right > .top > .music > .explanation {
+  background-color: #252525;
+  height: 75px;
+  border-radius: 0px 0px 25px 25px;
+  position: relative;
+  padding: 10px 0px 0px 15px;
+  top: 79%;
+}
+
+.section-layout > .onlineexperience > .imagebox > .right > .top > .music > .explanation p {
+  width: 310px;
+}
+
+.section-layout > .onlineexperience > .imagebox > .right > .bottom {
+  width: 100%;
+  height: 45%;
+  margin-top: 30px;
+  background-image: url("/Users/mikaijun/airbnb/image/penguin.png");
+  border-radius: 30px;
+}
+
+.section-layout > .onlineexperience > .imagebox > .right > .bottom > .explanation {
+  background-color: #252525;
+  height: 75px;
+  border-radius: 0px 0px 25px 25px;
+  position: relative;
+  padding: 10px 0px 0px 15px;
+  top: 77.5%;
+}
+
+.section-layout > .onlineexperience > .imagebox > .right > .bottom > .explanation p {
+  width: 330px;
 }
 /*# sourceMappingURL=style.css.map */
