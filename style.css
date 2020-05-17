@@ -251,8 +251,7 @@
 
 .section-layout > .onlineexperience {
   background-color: black;
-  height: 1000px;
-  padding: 60px;
+  padding: 60px 60px 80px 60px;
   color: #fff;
 }
 
@@ -264,6 +263,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .section-layout > .onlineexperience > .top > .left {
@@ -292,11 +292,11 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 80%;
-  margin-top: 20px;
   font-weight: bold;
   letter-spacing: 0.5px;
   font-size: 15px;
+  width: 95vw;
+  height: 45vw;
 }
 
 .section-layout > .onlineexperience > .imagebox > .left {
@@ -307,13 +307,21 @@
   background-size: cover;
 }
 
+@media (min-width: 740px) and (max-width: 1130px) {
+  .section-layout > .onlineexperience > .imagebox > .left {
+    width: 75vw;
+    height: 45vw;
+    margin-right: 20px;
+  }
+}
+
 .section-layout > .onlineexperience > .imagebox > .left > .explanation {
   background-color: #252525;
   height: 75px;
   border-radius: 0px 0px 25px 25px;
   position: relative;
   padding: 10px 0px 0px 15px;
-  top: 89.5%;
+  top: 91%;
 }
 
 .section-layout > .onlineexperience > .imagebox > .left > .explanation p {
@@ -337,6 +345,15 @@
   width: 100%;
 }
 
+@media (max-width: 1130px) {
+  .section-layout > .onlineexperience > .imagebox > .right > .top {
+    display: initial;
+    -webkit-box-pack: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+  }
+}
+
 .section-layout > .onlineexperience > .imagebox > .right > .top > .yoga {
   width: 48%;
   height: 100%;
@@ -345,13 +362,20 @@
   background-size: cover;
 }
 
+@media (min-width: 740px) and (max-width: 1130px) {
+  .section-layout > .onlineexperience > .imagebox > .right > .top > .yoga {
+    width: 25vw;
+    height: 20vw;
+  }
+}
+
 .section-layout > .onlineexperience > .imagebox > .right > .top > .yoga > .explanation {
   background-color: #252525;
   height: 75px;
   border-radius: 0px 0px 25px 25px;
   position: relative;
   padding: 10px 0px 0px 15px;
-  top: 79%;
+  top: 81%;
 }
 
 .section-layout > .onlineexperience > .imagebox > .right > .top > .yoga > .explanation p {
@@ -364,7 +388,14 @@
   border-radius: 25px;
   background-image: url("/Users/mikaijun/airbnb/image/music.png");
   background-size: cover;
-  padding-top: 1%;
+}
+
+@media (min-width: 740px) and (max-width: 1130px) {
+  .section-layout > .onlineexperience > .imagebox > .right > .top > .music {
+    margin-top: 50px;
+    width: 25vw;
+    height: 20vw;
+  }
 }
 
 .section-layout > .onlineexperience > .imagebox > .right > .top > .music > .explanation {
@@ -373,7 +404,7 @@
   border-radius: 0px 0px 25px 25px;
   position: relative;
   padding: 10px 0px 0px 15px;
-  top: 79%;
+  top: 81%;
 }
 
 .section-layout > .onlineexperience > .imagebox > .right > .top > .music > .explanation p {
@@ -383,10 +414,16 @@
 .section-layout > .onlineexperience > .imagebox > .right > .bottom {
   width: 100%;
   height: 45%;
-  margin-top: 30px;
+  margin-top: 40px;
   background-image: url("/Users/mikaijun/airbnb/image/penguin.png");
   background-size: cover;
   border-radius: 30px;
+}
+
+@media (min-width: 740px) and (max-width: 1130px) {
+  .section-layout > .onlineexperience > .imagebox > .right > .bottom {
+    display: none;
+  }
 }
 
 .section-layout > .onlineexperience > .imagebox > .right > .bottom > .explanation {
@@ -395,7 +432,7 @@
   border-radius: 0px 0px 25px 25px;
   position: relative;
   padding: 10px 0px 0px 15px;
-  top: 77.5%;
+  top: 78%;
 }
 
 .section-layout > .onlineexperience > .imagebox > .right > .bottom > .explanation p {

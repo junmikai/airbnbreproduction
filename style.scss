@@ -216,12 +216,12 @@ width:100%;
   /*オンライン体験*/
   > .onlineexperience{
     background-color: black;
-    height:1000px;
-    padding:60px;
-    color:$white;
+    padding:60px 60px 80px 60px;
+    color:$white;  
     > .top{
       height:120px;
       @include space-between;
+      margin-bottom:20px;
     }
   }
   > .onlineexperience >.top > .left{
@@ -242,18 +242,23 @@ width:100%;
   }
   > .onlineexperience > .imagebox{
     @include space-between;
-    height:80%;
-    margin-top:20px;
     font-weight:bold; 
     letter-spacing:0.5px;
-    font-size:15px;   
+    font-size:15px; 
+    width: 95vw;
+    height: 45vw;  
     > .left{
       @include division;
       background-image:url("/Users/mikaijun/airbnb/image/sangría.png");
       background-size:cover;
+        @media (min-width:740px) and (max-width: 1130px) {
+          width: 75vw;
+          height: 45vw;
+          margin-right:20px; 
+      }
       > .explanation{
        @include explanation;
-       top:89.5%;
+       top:91%;
        p{
         width:100%;
        }
@@ -265,19 +270,20 @@ width:100%;
         @include space-between;
         height:50%;
         width:100%;
-      //   @media (max-width: 1350px) {
-      //     @include clear_space-between;
-      //  }
+        @media (max-width: 1130px) {
+          @include clear_space-between;
+       }
         > .yoga{
           @include division-second;
           background-image:url("/Users/mikaijun/airbnb/image/yoga.png");
           background-size:cover;
-        //   @media (max-width: 1350px) {
-        //     height:50%;
-        //  }
+          @media (min-width:740px) and (max-width: 1130px) {
+            width: 25vw;
+            height: 20vw; 
+         }
           > .explanation{
             @include explanation;
-            top:79%;
+            top:81%;
             p{
               width:100%;
             }
@@ -287,13 +293,14 @@ width:100%;
           @include division-second;
           background-image:url("/Users/mikaijun/airbnb/image/music.png");
           background-size:cover;
-          padding-top: 1%;
-        //   @media (max-width: 1350px) {
-        //     height:50%;
-        //  }
+          @media (min-width:740px) and (max-width: 1130px) {
+            margin-top:50px;
+            width: 25vw;
+            height: 20vw; 
+         }
           > .explanation{
             @include explanation;
-            top:79%;
+            top:81%;
             p{
               width:100%;
             }
@@ -303,16 +310,16 @@ width:100%;
       > .bottom{
         width:100%;
         height:45%;
-        margin-top:30px;
+        margin-top:40px;
         background-image:url("/Users/mikaijun/airbnb/image/penguin.png");
         background-size:cover;
         border-radius:30px;
-        // @media (max-width:1350px){
-        //   display: none;
-        //  }
+        @media (min-width:740px) and (max-width: 1130px){
+          display: none;
+         }
         > .explanation{
           @include explanation;
-          top:77.5%;
+          top:78%;
           p{
             width:100%;
           }
