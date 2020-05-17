@@ -292,7 +292,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
   height: 80%;
   margin-top: 20px;
   font-weight: bold;
@@ -305,6 +304,7 @@
   border-radius: 25px;
   height: 100%;
   background-image: url("/Users/mikaijun/airbnb/image/sangría.png");
+  background-size: cover;
 }
 
 .section-layout > .onlineexperience > .imagebox > .left > .explanation {
@@ -317,7 +317,7 @@
 }
 
 .section-layout > .onlineexperience > .imagebox > .left > .explanation p {
-  width: 330px;
+  width: 100%;
 }
 
 .section-layout > .onlineexperience > .imagebox > .right {
@@ -334,6 +334,8 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 50%;
+  width: 100%;
+  position: relative;
 }
 
 .section-layout > .onlineexperience > .imagebox > .right > .top > .yoga {
@@ -341,6 +343,7 @@
   height: 100%;
   border-radius: 25px;
   background-image: url("/Users/mikaijun/airbnb/image/yoga.png");
+  background-size: cover;
 }
 
 .section-layout > .onlineexperience > .imagebox > .right > .top > .yoga > .explanation {
@@ -353,7 +356,7 @@
 }
 
 .section-layout > .onlineexperience > .imagebox > .right > .top > .yoga > .explanation p {
-  width: 300px;
+  width: 100%;
 }
 
 .section-layout > .onlineexperience > .imagebox > .right > .top > .music {
@@ -361,6 +364,8 @@
   height: 100%;
   border-radius: 25px;
   background-image: url("/Users/mikaijun/airbnb/image/music.png");
+  background-size: cover;
+  padding-top: 1%;
 }
 
 .section-layout > .onlineexperience > .imagebox > .right > .top > .music > .explanation {
@@ -373,7 +378,7 @@
 }
 
 .section-layout > .onlineexperience > .imagebox > .right > .top > .music > .explanation p {
-  width: 310px;
+  width: 100%;
 }
 
 .section-layout > .onlineexperience > .imagebox > .right > .bottom {
@@ -381,6 +386,7 @@
   height: 45%;
   margin-top: 30px;
   background-image: url("/Users/mikaijun/airbnb/image/penguin.png");
+  background-size: cover;
   border-radius: 30px;
 }
 
@@ -394,7 +400,7 @@
 }
 
 .section-layout > .onlineexperience > .imagebox > .right > .bottom > .explanation p {
-  width: 330px;
+  width: 100%;
 }
 
 .section-layout > .news {
