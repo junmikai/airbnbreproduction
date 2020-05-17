@@ -246,19 +246,34 @@ width:100%;
     letter-spacing:0.5px;
     font-size:15px; 
     width: 95vw;
-    height: 45vw;  
+    height: 45vw;
+      @media (max-width: 900px) {
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        height:650px;
+      }
     > .left{
       @include division;
       background-image:url("/Users/mikaijun/airbnb/image/sangría.png");
       background-size:cover;
-        @media (min-width:740px) and (max-width: 1130px) {
+      position: relative;
+        @media (min-width:900px) and (max-width: 1130px) {
           width: 75vw;
           height: 45vw;
           margin-right:20px; 
-      }
+        }
+          @media (max-width: 900px) {
+            display: inline-block;
+            width:600px;
+            height:600px;
+            margin:16px;
+          }
       > .explanation{
        @include explanation;
-       top:91%;
+       position: absolute;
+       width:100%;
+       bottom:0;
        p{
         width:100%;
        }
@@ -273,17 +288,27 @@ width:100%;
         @media (max-width: 1130px) {
           @include clear_space-between;
        }
+       
         > .yoga{
           @include division-second;
           background-image:url("/Users/mikaijun/airbnb/image/yoga.png");
           background-size:cover;
-          @media (min-width:740px) and (max-width: 1130px) {
+          position: relative;
+          @media (min-width:900px) and (max-width: 1130px) {
             width: 25vw;
-            height: 20vw; 
-         }
+            height: 20vw;
+          }
+          @media (max-width: 900px) {
+            display: inline-block;
+            width:600px;
+            height: 600px;
+            margin: 16px;
+          }
           > .explanation{
             @include explanation;
-            top:81%;
+            position: absolute;
+            width:100%;
+            bottom:0;
             p{
               width:100%;
             }
@@ -293,14 +318,23 @@ width:100%;
           @include division-second;
           background-image:url("/Users/mikaijun/airbnb/image/music.png");
           background-size:cover;
-          @media (min-width:740px) and (max-width: 1130px) {
+          position: relative;
+          @media (min-width:900px) and (max-width: 1130px) {
             margin-top:50px;
             width: 25vw;
-            height: 20vw; 
-         }
+            height: 20vw;
+          }
+          @media (max-width: 900px) {
+            display: inline-block;
+            width:600px;
+            height: 600px;
+            margin: 16px;
+          }
           > .explanation{
             @include explanation;
-            top:81%;
+            position: absolute;
+            width:100%;
+            bottom:0;
             p{
               width:100%;
             }
@@ -310,16 +344,25 @@ width:100%;
       > .bottom{
         width:100%;
         height:45%;
-        margin-top:40px;
+        margin-top:35px;
         background-image:url("/Users/mikaijun/airbnb/image/penguin.png");
         background-size:cover;
         border-radius:30px;
-        @media (min-width:740px) and (max-width: 1130px){
+        position: relative;
+        @media (min-width:900px) and (max-width: 1130px){
           display: none;
          }
+          @media (max-width: 900px) {
+            display: inline-block;
+            width: 600px;
+            height: 600px;
+            margin: 16px;
+          }
         > .explanation{
           @include explanation;
-          top:78%;
+          position: absolute;
+          width:100%;
+          bottom:0px;
           p{
             width:100%;
           }
