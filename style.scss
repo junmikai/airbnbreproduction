@@ -217,18 +217,31 @@ width:100%;
   > .onlineexperience{
     background-color: black;
     padding:60px 60px 80px 60px;
-    color:$white;  
+    color:$white;
+    @media (max-width: 900px) {
+      padding:20px;
+    }  
     > .top{
       height:120px;
       @include space-between;
       margin-bottom:20px;
+      @media (max-width: 900px) {
+        margin-bottom:initial;
+        height:initial;
+      }
     }
   }
   > .onlineexperience >.top > .left{
     width:450px;
+    @media (max-width: 900px) {
+      width:100%;
+    }
     > .title{
       font-size:30px;
       font-weight: bold;
+      @media (max-width: 900px) {
+        font-size:22px;
+      }
     }
   }
   > .onlineexperience >.top > .right{
@@ -239,6 +252,9 @@ width:100%;
     text-align: center;
     line-height:35px;
     font-size:14px;
+    @media (max-width: 900px) {
+      display:none;
+    }
   }
   > .onlineexperience > .imagebox{
     @include space-between;
