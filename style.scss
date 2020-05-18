@@ -502,7 +502,16 @@ width:100%;
     padding-top:30px;
     border-top: solid 1px #cdcdcd;
     color:#1f1f1f;
-    
+    @media (max-width: 1130px) {
+      flex-wrap :wrap-reverse;
+      width:700px;
+      margin:0 auto;
+      text-align: center;
+      }
+      @media (max-width: 730px) {
+        text-align:initial;
+        margin:10px;
+      }
     > .left{
       font-size:13px;
       >span{
@@ -515,6 +524,12 @@ width:100%;
       font-weight: bold;
       height:30px;
       width:300px;
+      @media (max-width: 1130px) {
+        margin:0 auto;
+        }
+        @media (max-width: 730px) {
+          margin:initial;
+        }
       > .japan{
         @include space-between;
         > .fa-globe{
@@ -528,6 +543,9 @@ width:100%;
       > .sns{
         letter-spacing: 10px;
         font-size:18px;
+        @media (max-width: 730px) {
+          display: none;
+        }
       }
     }
   }
