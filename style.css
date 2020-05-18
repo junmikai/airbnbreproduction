@@ -16,6 +16,7 @@
   /*キャッチコピー*/
   /*オンライン体験*/
   /*最新情報*/
+  /*リンク集*/
 }
 
 .section-layout > .covid {
@@ -621,6 +622,7 @@
 
 .section-layout > .section-linkcollections {
   height: 300px;
+  width: 100%;
   padding: 40px 80px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -630,14 +632,45 @@
           justify-content: space-between;
 }
 
+@media (max-width: 1130px) {
+  .section-layout > .section-linkcollections {
+    display: inline;
+  }
+}
+
+@media (max-width: 730px) {
+  .section-layout > .section-linkcollections {
+    display: none;
+  }
+}
+
 .section-layout > .section-linkcollections > .section-linkcollection {
   width: 25%;
 }
 
-.section-layout > .section-linkcollections > .section-linkcollection ul > .title {
+@media (max-width: 1130px) {
+  .section-layout > .section-linkcollections > .section-linkcollection {
+    width: 100%;
+    border-bottom: solid 1px #838383;
+    margin: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.section-layout > .section-linkcollections > .section-linkcollection > .title {
   font-weight: bold;
   font-size: 12px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 1130px) {
+  .section-layout > .section-linkcollections > .section-linkcollection ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .section-layout > .section-linkcollections > .section-linkcollection ul > li {
@@ -645,6 +678,12 @@
   list-style: none;
   color: #5f5f5f;
   line-height: 35px;
+}
+
+@media (max-width: 1130px) {
+  .section-layout > .section-linkcollections > .section-linkcollection ul > li {
+    width: 33%;
+  }
 }
 
 .section-layout > .topfooter {
