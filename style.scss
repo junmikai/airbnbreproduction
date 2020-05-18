@@ -32,6 +32,16 @@ $white:#fff;
   position: relative;
   padding:10px 0px 0px 15px;
 }
+
+@mixin max-width900{
+  display: inline-block;
+  width: 90vw;
+  height: 80vw;
+  margin:16px;
+}
+
+
+
 .body{
   width:100vw;
   height:100vh;
@@ -280,10 +290,7 @@ width:100%;
           margin-right:20px; 
         }
           @media (max-width: 900px) {
-            display: inline-block;
-            width:600px;
-            height:600px;
-            margin:16px;
+            @include max-width900;
           }
       > .explanation{
        @include explanation;
@@ -315,10 +322,7 @@ width:100%;
             height: 20vw;
           }
           @media (max-width: 900px) {
-            display: inline-block;
-            width:600px;
-            height: 600px;
-            margin: 16px;
+            @include max-width900;
           }
           > .explanation{
             @include explanation;
@@ -341,10 +345,7 @@ width:100%;
             height: 20vw;
           }
           @media (max-width: 900px) {
-            display: inline-block;
-            width:600px;
-            height: 600px;
-            margin: 16px;
+            @include max-width900;
           }
           > .explanation{
             @include explanation;
@@ -369,10 +370,7 @@ width:100%;
           display: none;
          }
           @media (max-width: 900px) {
-            display: inline-block;
-            width: 600px;
-            height: 600px;
-            margin: 16px;
+            @include max-width900;
           }
         > .explanation{
           @include explanation;

@@ -359,8 +359,8 @@
 @media (max-width: 900px) {
   .section-layout > .onlineexperience > .imagebox > .left {
     display: inline-block;
-    width: 600px;
-    height: 600px;
+    width: 90vw;
+    height: 80vw;
     margin: 16px;
   }
 }
@@ -425,8 +425,8 @@
 @media (max-width: 900px) {
   .section-layout > .onlineexperience > .imagebox > .right > .top > .yoga {
     display: inline-block;
-    width: 600px;
-    height: 600px;
+    width: 90vw;
+    height: 80vw;
     margin: 16px;
   }
 }
@@ -466,8 +466,8 @@
 @media (max-width: 900px) {
   .section-layout > .onlineexperience > .imagebox > .right > .top > .music {
     display: inline-block;
-    width: 600px;
-    height: 600px;
+    width: 90vw;
+    height: 80vw;
     margin: 16px;
   }
 }
@@ -506,8 +506,8 @@
 @media (max-width: 900px) {
   .section-layout > .onlineexperience > .imagebox > .right > .bottom {
     display: inline-block;
-    width: 600px;
-    height: 600px;
+    width: 90vw;
+    height: 80vw;
     margin: 16px;
   }
 }
