@@ -228,6 +228,7 @@ width:100%;
     background-color: black;
     padding:60px 60px 80px 60px;
     color:$white;
+    position: relative;
     @media (max-width: 900px) {
       padding:20px;
     }  
@@ -263,7 +264,9 @@ width:100%;
     line-height:35px;
     font-size:14px;
     @media (max-width: 900px) {
-      display:none;
+     position: absolute;
+     bottom:35px;
+     left:50px;
     }
   }
   > .onlineexperience > .imagebox{
@@ -278,6 +281,7 @@ width:100%;
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
         height:650px;
+        margin-bottom:50px;
       }
     > .left{
       @include division;
