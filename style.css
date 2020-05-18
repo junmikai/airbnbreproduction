@@ -539,6 +539,19 @@
   border-bottom: solid 1px #cdcdcd;
 }
 
+@media (max-width: 1130px) {
+  .section-layout > .news {
+    height: 900px;
+  }
+}
+
+@media (max-width: 730px) {
+  .section-layout > .news {
+    padding: 10px;
+    height: 400px;
+  }
+}
+
 .section-layout > .news > .latestinformation {
   font-size: 22px;
   font-weight: bold;
@@ -546,18 +559,46 @@
 
 .section-layout > .news > .section-informations {
   height: 300px;
+  width: 100%;
   margin-top: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+}
+
+@media (max-width: 730px) {
+  .section-layout > .news > .section-informations {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: initial;
+    height: 350px;
+  }
 }
 
 .section-layout > .news > .section-informations > .section-information {
-  width: 25%;
+  width: 23%;
   margin-right: 15px;
+  float: left;
+}
+
+@media (max-width: 1130px) {
+  .section-layout > .news > .section-informations > .section-information {
+    width: 45%;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 730px) {
+  .section-layout > .news > .section-informations > .section-information {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 730px) {
+  .section-layout > .news > .section-informations > .section-information ul {
+    width: 500px;
+  }
 }
 
 .section-layout > .news > .section-informations > .section-information ul > .title {
