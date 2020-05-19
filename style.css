@@ -75,6 +75,35 @@
   border-bottom: solid 1px #dbdada;
 }
 
+.section-layout > .topheader > .searchheader {
+  height: 50px;
+  width: 25%;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px #b4b4b4;
+          box-shadow: 0 0 10px #b4b4b4;
+  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-layout > .topheader > .searchheader > .section-form {
+  border-right: thin solid #dddddd;
+  text-align: center;
+  line-height: 45px;
+  font-size: 14px;
+  padding: 0px 10px;
+  color: gray;
+}
+
+.section-layout > .topheader > .searchheader > .fas {
+  margin: 0 auto;
+  line-height: 45px;
+  font-size: 18px;
+  color: red;
+}
+
 .section-layout > .topheader > .logo {
   margin-left: 15px;
   margin-top: 10px;
@@ -94,6 +123,10 @@
 
 .section-layout > .topheader > .menu ul li .fa-globe {
   margin-right: 7px;
+}
+
+.section-layout > .topheader > .menu ul li .host {
+  display: none;
 }
 
 .section-layout > .topheader > .menu ul li .register {
@@ -148,7 +181,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 50px 0px 60px 70px;
+  margin: 50px 40px 60px 70px;
   padding-top: 30px;
 }
 

@@ -89,6 +89,29 @@ position: relative;
     top: 0;
     border-bottom:solid 1px rgb(219, 218, 218);
   }
+  > .topheader > .searchheader {
+    height:50px;
+    width:25%;
+    background-color:$white;
+    border-radius: 10px;
+    box-shadow:$black-shadow;
+    display:none;
+    display:flex;
+    > .section-form{
+      border-right: thin solid rgb(221, 221, 221);
+      text-align: center;
+      line-height:45px;
+      font-size:14px;
+      padding:0px 10px;
+      color:gray;
+    }
+    > .fas{
+      margin:0 auto;
+      line-height:45px;
+      font-size:18px;
+      color:red;
+    }
+  }
   > .topheader > .logo{
     margin-left:15px;
     margin-top:10px;
@@ -105,20 +128,21 @@ position: relative;
       .fa-globe{
         margin-right:7px;
       }
+      .host{
+        display: none;
+      }
       .register{
         display: inline-block;
         padding: 0.7em 1.1em;
         border-radius: 20px;
         box-shadow:$black-shadow;
       }
-  }
-  
+  } 
   > .searchform{
     @media (min-width:840px){
       display: none;
      }
   }
-
   /*ヘッダー未表示時の検索フォーム*/
 .form2{
   position:relative;
@@ -151,7 +175,7 @@ position: relative;
   > .search{
     height:150px;
     align-items: center;
-    margin:50px 0px 60px 70px;
+    margin:50px 40px 60px 70px;
     padding-top:30px;
     @media (max-width: 840px){
       display: none;
