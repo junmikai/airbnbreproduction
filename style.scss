@@ -243,7 +243,7 @@ position: relative;
   }
   /*キャッチコピー*/
   > .catchcopy{
-    margin:0px 0px 70px 70px;
+    margin:50px 0px 70px 70px;
     width:45%;
     > p{
       color: rgb(146, 23, 77);
@@ -256,6 +256,7 @@ position: relative;
      }
      @media (max-width: 950px) {
         font-size: 30px;
+        width:150%;
      }
     }   
   }
