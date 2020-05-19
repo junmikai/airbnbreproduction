@@ -46,6 +46,8 @@ $white:#fff;
   width:100vw;
   height:100vh;
 }
+
+
 /*全体*/
 .section-layout{
 width:100%;
@@ -71,11 +73,21 @@ position: relative;
   > .topheader{
     height:80px;
     align-items: center;
-    margin:0px 55px;
     @include space-between;
+    background: #FFFFFF;
+    left: 0px;
+    z-index:100;
+    width: 100%;
+    position: absolute;
     @media (max-width:840px){
       display: none;
      }
+  }
+  > .m_fixed {
+    left: 0;
+    position: fixed;
+    top: 0;
+    border-bottom:solid 1px rgb(219, 218, 218);
   }
   > .topheader > .logo{
     margin-left:15px;
@@ -112,7 +124,7 @@ position: relative;
   position:relative;
   margin:20px;
   @media (min-width:841px){
-    display: none;
+    display:none;
    }
   }
   .sbox2{
@@ -139,7 +151,7 @@ position: relative;
   > .search{
     height:150px;
     align-items: center;
-    margin:0px 0px 60px 70px;
+    margin:50px 0px 60px 70px;
     padding-top:30px;
     @media (max-width: 840px){
       display: none;
@@ -559,7 +571,7 @@ position: relative;
     bottom: 0; 
     background-color:$white;
     @media (min-width: 730px) {
-      display: none;
+      opacity: 0;
     }
     > .icons{
       display: flex;

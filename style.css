@@ -49,19 +49,30 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0px 55px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background: #FFFFFF;
+  left: 0px;
+  z-index: 100;
+  width: 100%;
+  position: absolute;
 }
 
 @media (max-width: 840px) {
   .section-layout > .topheader {
     display: none;
   }
+}
+
+.section-layout > .m_fixed {
+  left: 0;
+  position: fixed;
+  top: 0;
+  border-bottom: solid 1px #dbdada;
 }
 
 .section-layout > .topheader > .logo {
@@ -137,7 +148,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0px 0px 60px 70px;
+  margin: 50px 0px 60px 70px;
   padding-top: 30px;
 }
 
@@ -791,7 +802,7 @@
 
 @media (min-width: 730px) {
   .section-layout > .hidingfooter {
-    display: none;
+    opacity: 0;
   }
 }
 
