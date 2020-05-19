@@ -76,8 +76,8 @@
 }
 
 .section-layout > .topheader > .searchheader {
-  height: 50px;
-  width: 25%;
+  height: 45px;
+  width: 350px;
   background-color: #fff;
   border-radius: 10px;
   -webkit-box-shadow: 0 0 10px #b4b4b4;
@@ -390,7 +390,11 @@
 }
 
 .section-layout > .onlineexperience > .imagebox > .left {
-  width: 49.5%;
+  width: 100%;
+}
+
+.section-layout > .onlineexperience > .imagebox > .left .sangría {
+  width: 90%;
   border-radius: 25px;
   height: 100%;
   background-image: url("/Users/mikaijun/airbnb/image/sangría.png");
@@ -399,15 +403,15 @@
 }
 
 @media (min-width: 900px) and (max-width: 1130px) {
-  .section-layout > .onlineexperience > .imagebox > .left {
-    width: 75vw;
-    height: 45vw;
+  .section-layout > .onlineexperience > .imagebox > .left .sangría {
+    width: 60vw;
+    height: 50vw;
     margin-right: 20px;
   }
 }
 
 @media (max-width: 900px) {
-  .section-layout > .onlineexperience > .imagebox > .left {
+  .section-layout > .onlineexperience > .imagebox > .left .sangría {
     display: inline-block;
     width: 90vw;
     height: 80vw;
@@ -415,7 +419,7 @@
   }
 }
 
-.section-layout > .onlineexperience > .imagebox > .left > .explanation {
+.section-layout > .onlineexperience > .imagebox > .left .sangría > .explanation {
   background-color: #252525;
   height: 75px;
   border-radius: 0px 0px 25px 25px;
@@ -426,12 +430,12 @@
   bottom: 0;
 }
 
-.section-layout > .onlineexperience > .imagebox > .left > .explanation p {
+.section-layout > .onlineexperience > .imagebox > .left .sangría > .explanation p {
   width: 100%;
 }
 
 .section-layout > .onlineexperience > .imagebox > .right {
-  width: 49.5%;
+  width: 90%;
   border-radius: 25px;
   height: 100%;
 }
@@ -468,7 +472,7 @@
 @media (min-width: 900px) and (max-width: 1130px) {
   .section-layout > .onlineexperience > .imagebox > .right > .top > .yoga {
     width: 25vw;
-    height: 20vw;
+    height: 22.5vw;
   }
 }
 
@@ -509,7 +513,7 @@
   .section-layout > .onlineexperience > .imagebox > .right > .top > .music {
     margin-top: 50px;
     width: 25vw;
-    height: 20vw;
+    height: 22.5vw;
   }
 }
 

@@ -9,7 +9,7 @@ $white:#fff;
   justify-content:space-between;
 }
 @mixin division{
-  width:49.5%;
+  width:90%;
   border-radius:25px;
   height:100%;
 }
@@ -90,8 +90,8 @@ position: relative;
     border-bottom:solid 1px rgb(219, 218, 218);
   }
   > .topheader > .searchheader {
-    height:50px;
-    width:25%;
+    height:45px;
+    width:350px;
     background-color:$white;
     border-radius: 10px;
     box-shadow:$black-shadow;
@@ -321,13 +321,15 @@ position: relative;
         margin-bottom:50px;
       }
     > .left{
-      @include division;
-      background-image:url("/Users/mikaijun/airbnb/image/sangría.png");
-      background-size:cover;
-      position: relative;
+      width:100%;
+      .sangría{
+        @include division;
+        background-image:url("/Users/mikaijun/airbnb/image/sangría.png");
+        background-size:cover;
+        position: relative;
         @media (min-width:900px) and (max-width: 1130px) {
-          width: 75vw;
-          height: 45vw;
+          width: 60vw;
+          height: 50vw;
           margin-right:20px; 
         }
           @media (max-width: 900px) {
@@ -340,9 +342,10 @@ position: relative;
        bottom:0;
        p{
         width:100%;
-       }
+        }
       }
-    }
+    }    
+  }
     > .right{
       @include division;
       > .top{
@@ -360,7 +363,7 @@ position: relative;
           position: relative;
           @media (min-width:900px) and (max-width: 1130px) {
             width: 25vw;
-            height: 20vw;
+            height: 22.5vw;
           }
           @media (max-width: 900px) {
             @include max-width900;
@@ -383,7 +386,7 @@ position: relative;
           @media (min-width:900px) and (max-width: 1130px) {
             margin-top:50px;
             width: 25vw;
-            height: 20vw;
+            height: 22.5vw;
           }
           @media (max-width: 900px) {
             @include max-width900;
