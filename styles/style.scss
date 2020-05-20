@@ -1,9 +1,7 @@
 @import "settings";
 @import "tools";
+@import "responsive";
  
-
-
-
 .body{
   width:100vw;
   height:100vh;
@@ -36,7 +34,7 @@ position: relative;
     height:80px;
     align-items: center;
     @include space-between;
-    background: #FFFFFF;
+    background: $white;
     left: 0px;
     z-index:100;
     width: 100%;
@@ -49,7 +47,7 @@ position: relative;
     left: 0;
     position: fixed;
     top: 0;
-    border-bottom:solid 1px rgb(219, 218, 218);
+    border-bottom:solid 1px $border;
   }
   > .topheader > .searchheader {
     height:45px;
@@ -60,7 +58,7 @@ position: relative;
     display:none;
     display:flex;
     > .section-form{
-      border-right: thin solid rgb(221, 221, 221);
+      border-right: thin solid $border;
       text-align: center;
       line-height:45px;
       font-size:14px;
@@ -172,7 +170,7 @@ position: relative;
     display: flex;
     >.section-form{
       width:30%;
-      border-right: thin solid rgb(221, 221, 221);
+      border-right: thin solid $border;
       height: 40px;
       margin:3px 0px 0px 19px;
     }
@@ -278,9 +276,7 @@ position: relative;
     width: 95vw;
     height: 45vw;
       @media (max-width: 900px) {
-        overflow-x: auto;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
+        @include scroll;
         height:650px;
         margin-bottom:50px;
       }
@@ -289,8 +285,7 @@ position: relative;
       .sangría{
         @include division;
         background-image:url("/Users/mikaijun/airbnb/image/sangría.png");
-        background-size:cover;
-        position: relative;
+        @include background-size;
         @media (min-width:900px) and (max-width: 1130px) {
           width: 60vw;
           height: 50vw;
@@ -301,9 +296,7 @@ position: relative;
           }
       > .explanation{
        @include explanation;
-       position: absolute;
-       width:100%;
-       bottom:0;
+       @include explanation-font;
        p{
         width:100%;
         }
@@ -323,8 +316,7 @@ position: relative;
         > .yoga{
           @include division-second;
           background-image:url("/Users/mikaijun/airbnb/image/yoga.png");
-          background-size:cover;
-          position: relative;
+          @include background-size;
           @media (min-width:900px) and (max-width: 1130px) {
             width: 25vw;
             height: 22.5vw;
@@ -334,9 +326,7 @@ position: relative;
           }
           > .explanation{
             @include explanation;
-            position: absolute;
-            width:100%;
-            bottom:0;
+            @include explanation-font;
             p{
               width:100%;
             }
@@ -345,8 +335,7 @@ position: relative;
         > .music{
           @include division-second;
           background-image:url("/Users/mikaijun/airbnb/image/music.png");
-          background-size:cover;
-          position: relative;
+          @include background-size;
           @media (min-width:900px) and (max-width: 1130px) {
             margin-top:50px;
             width: 25vw;
@@ -357,9 +346,7 @@ position: relative;
           }
           > .explanation{
             @include explanation;
-            position: absolute;
-            width:100%;
-            bottom:0;
+            @include explanation-font;
             p{
               width:100%;
             }
@@ -382,9 +369,7 @@ position: relative;
           }
         > .explanation{
           @include explanation;
-          position: absolute;
-          width:100%;
-          bottom:0px;
+          @include explanation-font;
           p{
             width:100%;
           }
@@ -417,8 +402,7 @@ position: relative;
     width:100%;
     margin-top:30px;
       @media (max-width: 730px) {
-        overflow-x: auto;
-        white-space: nowrap;
+        @include scroll;
         display: flex;
         margin-top:initial;
         height:350px;
@@ -573,12 +557,10 @@ position: relative;
       > .section-icon{
         width:33%;
         > .far{
-          font-size:25px;
-          color: rgb(114, 113, 113);
+          @include footersize;
         }
         >.fab{
-          font-size:25px;
-          color: rgb(114, 113, 113);
+          @include footersize;
         }
         > .word{
           font-size:10px;

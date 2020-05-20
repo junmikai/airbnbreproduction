@@ -8,18 +8,15 @@
   border-radius:25px;
   height:100%;
 }
-
 @mixin clear_space-between {
   display:initial;
   justify-content:initial;
 }
-  
 @mixin division-second{
   width:48%;
   height:100%;
   border-radius:25px;
 }
-
 @mixin explanation{
   background-color:#252525;
   height:75px;
@@ -27,10 +24,26 @@
   position: relative;
   padding:10px 0px 0px 15px;
 }
-
+@mixin explanation-font{
+  position: absolute;
+  width:100%;
+  bottom:0;
+}
 @mixin max-width900{
   display: inline-block;
   width: 90vw;
   height: 80vw;
   margin:16px;
+}
+@mixin scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+@mixin background-size{
+  background-size:cover;
+  position: relative;
+}
+@mixin footersize{
+  font-size:25px;
+  color: rgb(114, 113, 113);
 }
