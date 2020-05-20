@@ -1,0 +1,36 @@
+/*mixin*/
+@mixin space-between{
+  display: flex;
+  justify-content:space-between;
+}
+@mixin division{
+  width:90%;
+  border-radius:25px;
+  height:100%;
+}
+
+@mixin clear_space-between {
+  display:initial;
+  justify-content:initial;
+}
+  
+@mixin division-second{
+  width:48%;
+  height:100%;
+  border-radius:25px;
+}
+
+@mixin explanation{
+  background-color:#252525;
+  height:75px;
+  border-radius:0px 0px 25px 25px;
+  position: relative;
+  padding:10px 0px 0px 15px;
+}
+
+@mixin max-width900{
+  display: inline-block;
+  width: 90vw;
+  height: 80vw;
+  margin:16px;
+}
