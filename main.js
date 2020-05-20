@@ -1,3 +1,7 @@
+$(function() {
+  $( '.searchheader' ).hide();
+});
+
 //トップから50pxスクロールするとヘッダーが固定される
 $( window ).on( 'scroll', function() {
   if ( 50 < jQuery( this ).scrollTop() ) { 
