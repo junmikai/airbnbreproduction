@@ -203,30 +203,17 @@ position: relative;
     padding:60px 60px 80px 60px;
     color:$white;
     position: relative;
-    @media (max-width: 900px) {
-      padding:20px;
-    }  
     > .top{
       height:120px;
       @include space-between;
       margin-bottom:20px;
-      @media (max-width: 900px) {
-        margin-bottom:initial;
-        height:initial;
-      }
     }
   }
   > .onlineexperience >.top > .left{
     width:450px;
-    @media (max-width: 900px) {
-      width:100%;
-    }
     > .title{
       font-size:30px;
       font-weight: bold;
-      @media (max-width: 900px) {
-        font-size:22px;
-      }
     }
   }
   > .onlineexperience >.top > .right{
@@ -237,11 +224,6 @@ position: relative;
     text-align: center;
     line-height:35px;
     font-size:14px;
-    @media (max-width: 900px) {
-     position: absolute;
-     bottom:35px;
-     left:50px;
-    }
   }
   > .onlineexperience > .imagebox{
     @include space-between;
@@ -250,25 +232,12 @@ position: relative;
     font-size:15px; 
     width: 95vw;
     height: 45vw;
-      @media (max-width: 900px) {
-        @include scroll;
-        height:650px;
-        margin-bottom:50px;
-      }
     > .left{
       width:100%;
       .sangría{
         @include division;
         background-image:url("/Users/mikaijun/airbnb/image/sangría.png");
         @include background-size;
-        @media (min-width:900px) and (max-width: 1130px) {
-          width: 60vw;
-          height: 50vw;
-          margin-right:20px; 
-        }
-          @media (max-width: 900px) {
-            @include max-width900;
-          }
       > .explanation{
        @include explanation;
        @include explanation-font;
@@ -284,21 +253,10 @@ position: relative;
         @include space-between;
         height:50%;
         width:100%;
-        @media (max-width: 1130px) {
-          @include clear_space-between;
-       }
-       
         > .yoga{
           @include division-second;
           background-image:url("/Users/mikaijun/airbnb/image/yoga.png");
           @include background-size;
-          @media (min-width:900px) and (max-width: 1130px) {
-            width: 25vw;
-            height: 22.5vw;
-          }
-          @media (max-width: 900px) {
-            @include max-width900;
-          }
           > .explanation{
             @include explanation;
             @include explanation-font;
@@ -311,14 +269,6 @@ position: relative;
           @include division-second;
           background-image:url("/Users/mikaijun/airbnb/image/music.png");
           @include background-size;
-          @media (min-width:900px) and (max-width: 1130px) {
-            margin-top:50px;
-            width: 25vw;
-            height: 22.5vw;
-          }
-          @media (max-width: 900px) {
-            @include max-width900;
-          }
           > .explanation{
             @include explanation;
             @include explanation-font;
@@ -336,12 +286,6 @@ position: relative;
         background-size:cover;
         border-radius:30px;
         position: relative;
-        @media (min-width:900px) and (max-width: 1130px){
-          display: none;
-         }
-          @media (max-width: 900px) {
-            @include max-width900;
-          }
         > .explanation{
           @include explanation;
           @include explanation-font;

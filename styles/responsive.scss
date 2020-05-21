@@ -1,3 +1,5 @@
+@import "tools";
+
 .section-layout{
   > .covid{ 
     @media (max-width: 750px){
@@ -30,5 +32,90 @@
         width:150%;
       }
     }   
+  }
+  /*オンライン体験*/
+  > .onlineexperience{
+    @media (max-width: 900px) {
+      padding:20px;
+    }  
+    > .top{
+      @media (max-width: 900px) {
+        margin-bottom:initial;
+        height:initial;
+      }
+    }
+  }
+  > .onlineexperience >.top > .left{
+    width:450px;
+    @media (max-width: 900px) {
+      width:100%;
+    }
+    > .title{
+      @media (max-width: 900px) {
+        font-size:22px;
+      }
+    }
+  }
+  > .onlineexperience >.top > .right{
+    @media (max-width: 900px) {
+     position: absolute;
+     bottom:35px;
+     left:50px;
+    }
+  }
+  > .onlineexperience > .imagebox{
+      @media (max-width: 900px) {
+        @include scroll;
+        height:650px;
+        margin-bottom:50px;
+      }
+    > .left{
+      width:100%;
+      .sangría{
+        @media (min-width:900px) and (max-width: 1130px) {
+          width: 60vw;
+          height: 50vw;
+          margin-right:20px; 
+        }
+          @media (max-width: 900px) {
+            @include max-width900;
+          }
+    }    
+  }
+    > .right{
+      > .top{
+        @media (max-width: 1130px) {
+          @include clear_space-between;
+       }
+       
+        > .yoga{
+          @media (min-width:900px) and (max-width: 1130px) {
+            width: 25vw;
+            height: 22.5vw;
+          }
+          @media (max-width: 900px) {
+            @include max-width900;
+          }
+        }
+        > .music{
+          @media (min-width:900px) and (max-width: 1130px) {
+            margin-top:50px;
+            width: 25vw;
+            height: 22.5vw;
+          }
+          @media (max-width: 900px) {
+            @include max-width900;
+          }
+        }
+      }
+      > .bottom{
+        @media (min-width:900px) and (max-width: 1130px){
+          display: none;
+         }
+          @media (max-width: 900px) {
+            @include max-width900;
+          }
+      }
+    }
   }
 }
