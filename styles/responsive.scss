@@ -114,8 +114,98 @@
          }
           @media (max-width: 900px) {
             @include max-width900;
-          }
+        }
       }
+    }
+  }
+
+  > .news{
+      @media (max-width: 1130px) {
+        height:900px;
+      }
+      @media (max-width: 730px) {
+        padding:10px;
+        height:400px;
+      }
+  }
+  > .news > .section-informations{
+      @media (max-width: 730px) {
+        @include scroll;
+        display: flex;
+        margin-top:initial;
+        height:350px;
+      }
+    > .section-information{
+      @media (max-width: 1130px) {
+        width:45%;
+        margin-top:50px;
+      }
+      @media (max-width: 730px) {
+        display:inline-block;
+        width:100%;
+      }
+    }
+  }
+  > .news > .section-informations > .section-information ul{
+    @media (max-width: 730px) {
+      width:500px;
+    }
+  }
+  > .section-linkcollections{
+      @media (max-width: 1130px) {
+      display: inline;
+      }
+      @media (max-width: 730px) {
+        display: none;
+      }
+    > .section-linkcollection{
+      @media (max-width: 1130px) {
+        width:100%;
+        border-bottom:solid 1px rgb(131, 131, 131);
+        margin:20px;
+        padding-bottom:20px;
+      }
+    }
+  }
+  > .section-linkcollections > .section-linkcollection ul{
+    @media (max-width: 1130px) {
+      display:flex;
+      flex-wrap: wrap;
+      }
+    > li{
+      @media (max-width: 1130px) {
+        width:33%;
+      }
+    }
+  }
+  > .topfooter{
+    @media (max-width: 1130px) {
+      flex-wrap :wrap-reverse;
+      width:700px;
+      margin:0 auto;
+      text-align: center;
+      }
+      @media (max-width: 730px) {
+        text-align:initial;
+        margin:10px;
+      }
+    > .right{
+      @media (max-width: 1130px) {
+        margin:0 auto;
+        }
+        @media (max-width: 730px) {
+          margin:initial;
+        }
+      > .sns{
+        @media (max-width: 730px) {
+          display: none;
+        }
+      }
+    }
+  }
+  > .hidingfooter{
+    @media (min-width: 730px) {
+      opacity: 0;
     }
   }
 }
