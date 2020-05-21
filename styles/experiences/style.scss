@@ -1,3 +1,5 @@
+@import "mixin";
+
 .body{
   width:100vw;
   height:100vh;
@@ -5,10 +7,13 @@
 
 .section-layout{
   width:100%;
+  // 黒枠
   > .blackbox{
     background-color:black;
     height:1000px;
     padding:20px 40px;
+    
+    // 黒枠/ヘッダー
     > .experiencesheader{
     display: flex;
     justify-content:space-between;
@@ -56,6 +61,46 @@
           background-color:rgb(51, 51, 51);
         }
       }
+    }
+  }
+    // 黒枠/画像
+    >.blackbox > .imagebox{
+      width:90vw;
+      height:32vw;
+      display:flex;
+      margin:20px auto;
+      position: relative;
+      > .imagesmile{ 
+        @include imagebox ;
+        background-image:url("/Users/mikaijun/airbnb/image/dance.png");
+    }
+      > .imagephoenix{ 
+        @include imagebox ;
+        background-image:url("/Users/mikaijun/airbnb/image/phoenix.png");
+    }
+      > .smallimages{
+        width:15vw;
+        > .imagedrink{
+          @include smallimagebox;
+          background-image:url("/Users/mikaijun/airbnb/image/drink.png");
+          margin-bottom:5px;
+      }
+        > .imageshoot{
+          @include smallimagebox;
+          background-image:url("/Users/mikaijun/airbnb/image/shoot.png");
+      }
+    }
+      > .imagecooking{ 
+        @include imagebox ;
+        background-image:url("/Users/mikaijun/airbnb/image/cooking.png");
+    }
+    > .snsbtn{
+      background-color:red;
+      width:200px;
+      height:50px;
+      position: absolute;
+      right:30px;
+      top:20px;
     }
   }
 }

@@ -1,0 +1,10 @@
+@mixin imagebox {
+  width:28vw;
+  margin:0px 5px;
+  background-size:cover;
+}
+
+@mixin smallimagebox{
+  height:49.5%;
+  background-size:cover;
+}
