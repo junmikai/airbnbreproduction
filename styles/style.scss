@@ -24,9 +24,6 @@ position: relative;
     > p{
       margin: 0 auto;
     }
-    @media (max-width: 750px){
-      height:70px;
-     }
   }
 
   /*ヘッダー*/
@@ -39,9 +36,6 @@ position: relative;
     z-index:100;
     width: 100%;
     position: absolute;
-    @media (max-width:840px){
-      display: none;
-     }
   }
   > .m_fixed {
     left: 0;
@@ -98,19 +92,11 @@ position: relative;
         box-shadow:$black-shadow;
       }
   } 
-  > .searchform{
-    @media (min-width:840px){
-      display: none;
-     }
-  }
   
   /*ヘッダー未表示時の検索フォーム*/
 .form2{
   position:relative;
   margin:20px;
-  @media (min-width:841px){
-    display:none;
-   }
   }
   .sbox2{
   width:100%;
@@ -138,9 +124,6 @@ position: relative;
     align-items: center;
     margin:50px 40px 60px 70px;
     padding-top:30px;
-    @media (max-width: 840px){
-      display: none;
-     }
   }
   > .search > .menu ul li{
     display: inline;
@@ -211,14 +194,6 @@ position: relative;
       background: -webkit-linear-gradient(0deg, rgb(146, 23, 77), rgb(228, 29, 92));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      @media (max-width: 1920px) {
-        font-size: calc(1.875rem + ((1vw - 9.5px) * 2.5773));
-        min-height: 0vw;
-     }
-     @media (max-width: 950px) {
-        font-size: 30px;
-        width:150%;
-     }
     }   
   }
 
