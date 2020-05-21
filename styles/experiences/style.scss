@@ -1,0 +1,61 @@
+.body{
+  width:100vw;
+  height:100vh;
+}
+
+.section-layout{
+  width:100%;
+  > .blackbox{
+    background-color:black;
+    height:1000px;
+    padding:20px 40px;
+    > .experiencesheader{
+    display: flex;
+    justify-content:space-between;
+    padding:0px 20px;
+    }
+  }
+  > .blackbox > .experiencesheader{
+    > .searchbox{
+      display: flex;
+      height:45px;
+      background-color:rgb(51, 51, 51);
+      border-radius: 15px;
+      color:rgb(223, 221, 221);
+      font-size:14px;
+      width:280px;
+      > .section-form{
+        width:40%;
+        border-right: thin solid rgb(150, 150, 150);
+        text-align: center;
+        line-height:45px;
+      }
+      > .section-form:nth-child(3){
+        border-right:initial;
+        font-size:20px;
+        width:10%;
+        padding-left:20px;
+      }
+    }
+    > .menu ul{
+      display: flex;
+      list-style: none;
+       li{
+        padding:10px;
+         a{
+          text-decoration:none;
+          font-size:15px;
+          color:#fff;
+        }
+         .fa-globe{
+          margin-right:7px;
+        }
+        .register{
+          padding:15px;
+          border-radius: 20px;
+          background-color:rgb(51, 51, 51);
+        }
+      }
+    }
+  }
+}
