@@ -1,7 +1,6 @@
 @import "tools";
 
 
-
 .section-layout{
   @media (max-width: 740px){
     > .covid{ 
@@ -21,7 +20,6 @@
         display: flex;
         margin-top:initial;
     }
-
       > .news{
         height:auto;
         > .section-informations > .section-information{
@@ -29,25 +27,25 @@
           margin-top:50px;
       }
     }
-       .section-linkcollections{
+      > .section-linkcollections{
         display: none;
-      }
+    }
       > .topfooter{
             text-align:initial;
             margin:10px;
-        > .right{
-              margin:initial;
-          > .sns{
-              display: none;
-          }
+          > .right{
+                margin:initial;
+            > .sns{
+                display: none;
         }
       }
+    }
   }
 
   @media (min-width:740px){
     > .hidingfooter{
       opacity: 0;
-}
+    }
   }
 
   @media (min-width: 900px){
@@ -123,7 +121,6 @@
         padding-bottom:20px;
       }
     }
-
     > .section-linkcollections > .section-linkcollection ul{
         display:flex;
         flex-wrap: wrap;
