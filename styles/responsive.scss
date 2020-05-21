@@ -42,10 +42,14 @@
           }
         }
       }
-      > .hidingfooter{
-          opacity: 0;
-    }
   }
+
+  @media (min-width:740px){
+    > .hidingfooter{
+      opacity: 0;
+}
+  }
+
   @media (min-width: 900px){
     > .form2{
       display:none;

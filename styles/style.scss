@@ -94,29 +94,45 @@ position: relative;
   } 
   
   /*ヘッダー未表示時の検索フォーム*/
-.form2{
-  position:relative;
-  margin:20px;
-  }
-  .sbox2{
+.searchform{
+  background-color:$white;
   width:100%;
-  height:45px;
-  border-radius:20px;
-  background:$white;
-  box-shadow:$black-shadow;
-  padding-left:50px;
-  font-size:15px;
-  }
-  .sbtn2{
-  height:50px;
-  position:absolute; 
-  top:-2px;
-  left:15px;
-  color:#666;
-  border:none;
-  font-size:17px;
-  z-index: 1;
-  }
+  height:70px;
+  z-index:99;
+  .form2{
+    position:relative;
+    background: $white;
+    width: 95%;
+    position: absolute;
+    margin:10px;
+    }
+    > .m_fixed {
+      left: 0;
+      position: fixed;
+      top: 0;
+      border-bottom:solid 1px $border;
+    }
+    .sbox2{
+    width:100%;
+    height:45px;
+    border-radius:20px;
+    background:$white;
+    box-shadow:$black-shadow;
+    padding-left:50px;
+    font-size:15px;
+    }
+    .sbtn2{
+    height:50px;
+    position:absolute; 
+    top:-2px;
+    left:15px;
+    color:#666;
+    border:none;
+    font-size:17px;
+    z-index: 1;
+    }
+}
+
 
   /*検索フォーム*/
   > .search{

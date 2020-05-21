@@ -11,6 +11,14 @@ $( window ).on( 'scroll', function() {
   }
 });
 
+$( window ).on( 'scroll', function() {
+  if ( 75 < jQuery( this ).scrollTop() ) { 
+    $( '.searchform' ).addClass( 'm_fixed' );
+  } else {
+    $( '.searchform' ).removeClass( 'm_fixed' );
+  }
+});
+
 //トップから210pxスクロールするとヘッダーに検索フォームが追加される
 $( window ).on( 'scroll', function() {
   if ( 210 < jQuery( this ).scrollTop() ) { 
