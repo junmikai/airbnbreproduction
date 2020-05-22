@@ -118,7 +118,6 @@
   // 黒枠/説明文
   > .blackbox > .explanation{
     @include mainpage;
-    height:35vw;
   }
   > .blackbox > .explanation >.left{
     width:25%;
@@ -201,25 +200,41 @@
         p{
           line-height:1.7;
         }
-        
       }
-      
     }
-    
   }
   > .blackbox > .explanation >.right{
-    width:60%;
-    background-color:yellow;
-    margin-left:60px;
+    width:50%;
+    margin-left:80px;
+    
     > .devise{
-      height:100px;
-      background-color:blue;
-      margin-top:10px;
+      margin:30px 0px;
+      display: flex;
+      border-top:gray solid 1px;
+      border-bottom:gray solid 1px;
+      color:#fff;
+      font-size:14px;
+      line-height:57px;
+      padding:10px 0px;
+
     }
-    > .spec{
+    > .specs{
       height:150px;
-      background-color:blue;
+      width:70%;
       margin-top:20px;
+      display: flex;
+      justify-content:space-between;
+      font-size:13px;
+      color:#fff;
+    }
+    > .specs > .section-spec{
+      > .fas{
+        color:gray;
+        margin-bottom:10px;
+      }
+      > .section-title{
+        color:gray;
+      }
     }
   }
 }

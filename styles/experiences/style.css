@@ -185,7 +185,6 @@
   display: flex;
   margin: 20px auto;
   position: relative;
-  height: 35vw;
 }
 
 .section-layout > .blackbox > .explanation > .left {
@@ -294,20 +293,43 @@
 }
 
 .section-layout > .blackbox > .explanation > .right {
-  width: 60%;
-  background-color: yellow;
-  margin-left: 60px;
+  width: 50%;
+  margin-left: 80px;
 }
 
 .section-layout > .blackbox > .explanation > .right > .devise {
-  height: 100px;
-  background-color: blue;
-  margin-top: 10px;
+  margin: 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: gray solid 1px;
+  border-bottom: gray solid 1px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 57px;
+  padding: 10px 0px;
 }
 
-.section-layout > .blackbox > .explanation > .right > .spec {
+.section-layout > .blackbox > .explanation > .right > .specs {
   height: 150px;
-  background-color: blue;
+  width: 70%;
   margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 13px;
+  color: #fff;
+}
+
+.section-layout > .blackbox > .explanation > .right > .specs > .section-spec > .fas {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.section-layout > .blackbox > .explanation > .right > .specs > .section-spec > .section-title {
+  color: gray;
 }
 /*# sourceMappingURL=style.css.map */
