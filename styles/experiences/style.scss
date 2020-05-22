@@ -11,13 +11,13 @@
   > .blackbox{
     background-color:black;
     height:1000px;
-    padding:20px 40px;
+    padding:20px 120px;
     
     // 黒枠/ヘッダー
     > .experiencesheader{
     display: flex;
     justify-content:space-between;
-    padding:0px 20px;
+    padding:0px 40px;
     }
   }
   > .blackbox > .experiencesheader{
@@ -116,7 +116,12 @@
           padding-right:10px;
         }
       }
-      
     }
+  }
+  > .blackbox > .explanation{
+    width:1000px;
+    height:300px;
+    background-color:red;
+    margin-left:100px;
   }
 }
