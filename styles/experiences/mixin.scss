@@ -22,3 +22,11 @@
   font-size:14px;
   font-weight: bold;
 }
+
+@mixin mainpage{
+  width:95vw;
+  max-width:1200px;
+  display:flex;
+  margin:20px auto;
+  position: relative;
+}

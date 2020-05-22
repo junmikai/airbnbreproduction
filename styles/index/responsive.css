@@ -1,0 +1,195 @@
+@charset "UTF-8";
+@media (max-width: 740px) {
+  .section-layout > .covid {
+    height: 70px;
+  }
+  .section-layout > .topheader {
+    display: none;
+  }
+  .section-layout > .search {
+    display: none;
+  }
+  .section-layout > .news {
+    padding: 10px;
+  }
+  .section-layout > .news > .section-informations {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: initial;
+  }
+  .section-layout > .news {
+    height: auto;
+  }
+  .section-layout > .news > .section-informations > .section-information {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .section-layout > .section-linkcollections {
+    display: none;
+  }
+  .section-layout > .topfooter {
+    text-align: initial;
+    margin: 10px;
+  }
+  .section-layout > .topfooter > .right {
+    margin: initial;
+  }
+  .section-layout > .topfooter > .right > .sns {
+    display: none;
+  }
+}
+
+@media (min-width: 740px) {
+  .section-layout > .hidingfooter {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .section-layout > .form2 {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .section-layout > .onlineexperience {
+    padding: 20px;
+  }
+  .section-layout > .onlineexperience > .top {
+    margin-bottom: initial;
+    height: initial;
+  }
+  .section-layout > .onlineexperience > .top > .left {
+    width: 100%;
+  }
+  .section-layout > .onlineexperience > .top > .left > .title {
+    font-size: 22px;
+  }
+  .section-layout > .onlineexperience > .top > .right {
+    position: absolute;
+    bottom: 35px;
+    left: 50px;
+  }
+  .section-layout > .onlineexperience > .imagebox {
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 650px;
+    margin-bottom: 50px;
+  }
+  .section-layout > .onlineexperience > .imagebox > .left > .sangría {
+    display: inline-block;
+    width: 90vw;
+    height: 80vw;
+    margin: 16px;
+  }
+  .section-layout > .onlineexperience > .imagebox > .right > .top {
+    display: initial;
+    -webkit-box-pack: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+  }
+  .section-layout > .onlineexperience > .imagebox > .right > .top > .yoga {
+    display: inline-block;
+    width: 90vw;
+    height: 80vw;
+    margin: 16px;
+  }
+  .section-layout > .onlineexperience > .imagebox > .right > .top > .music {
+    display: inline-block;
+    width: 90vw;
+    height: 80vw;
+    margin: 16px;
+  }
+  .section-layout > .onlineexperience > .imagebox > .right > .bottom {
+    display: inline-block;
+    width: 90vw;
+    height: 80vw;
+    margin: 16px;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) {
+  .section-layout .right > .top {
+    display: initial;
+    -webkit-box-pack: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+  }
+  .section-layout > .news {
+    height: 850px;
+  }
+  .section-layout > .news > .section-informations > .section-information {
+    width: 45%;
+    margin-top: 50px;
+  }
+  .section-layout > .section-linkcollections {
+    display: inline;
+  }
+  .section-layout > .section-linkcollections > .section-linkcollection {
+    width: 100%;
+    border-bottom: solid 1px #838383;
+    margin: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .section-linkcollections > .section-linkcollection ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .section-linkcollections > .section-linkcollection ul > li {
+    width: 33%;
+  }
+  .section-layout > .topfooter {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section-layout > .topfooter > .right {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1130px) {
+  .section-layout > .onlineexperience > .imagebox > .left .sangría {
+    width: 60vw;
+    height: 50vw;
+    margin-right: 20px;
+  }
+  .section-layout > .onlineexperience > .imagebox > .right > .top {
+    display: initial;
+  }
+  .section-layout > .onlineexperience > .imagebox > .right > .top > .yoga {
+    width: 25vw;
+    height: 22.5vw;
+  }
+  .section-layout > .onlineexperience > .imagebox > .right > .top > .music {
+    margin-top: 50px;
+    width: 25vw;
+    height: 22.5vw;
+  }
+  .section-layout > .onlineexperience > .imagebox > .right > .bottom {
+    display: none;
+  }
+}
+
+@media (max-width: 1920px) {
+  .section-layout > .catchcopy > p {
+    font-size: calc(1.875rem + ((1vw - 9.5px) * 2.5773));
+    min-height: 0vw;
+  }
+}
+
+@media (max-width: 950px) {
+  .section-layout > .catchcopy > p {
+    font-size: 30px;
+    width: 150%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
