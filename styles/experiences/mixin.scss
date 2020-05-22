@@ -8,3 +8,17 @@
   height:49.5%;
   background-size:cover;
 }
+
+@mixin snsbtn{
+  background-color:#fcfcfc;
+  border-radius: 5px;
+  display: flex;
+  justify-content:space-between;
+}
+
+@mixin snsbtn-font{
+  padding:12px 15px 15px 15px;
+  line-height:1;
+  font-size:14px;
+  font-weight: bold;
+}

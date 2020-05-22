@@ -65,8 +65,8 @@
   }
     // 黒枠/画像
     >.blackbox > .imagebox{
-      width:90vw;
-      height:32vw;
+      width:75vw;
+      height:30vw;
       display:flex;
       margin:20px auto;
       position: relative;
@@ -95,12 +95,28 @@
         background-image:url("/Users/mikaijun/airbnb/image/cooking.png");
     }
     > .snsbtn{
-      background-color:red;
       width:200px;
-      height:50px;
+      height:40px;
       position: absolute;
       right:30px;
       top:20px;
+      display: flex;
+      justify-content:space-between;
+      > .share{
+        @include snsbtn;
+        @include snsbtn-font;
+        > .fas{
+          padding-right:10px;
+        }
+      }
+      > .like{
+        @include snsbtn;
+        @include snsbtn-font;
+        > .far{
+          padding-right:10px;
+        }
+      }
+      
     }
   }
 }
