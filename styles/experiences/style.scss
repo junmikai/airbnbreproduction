@@ -206,7 +206,6 @@
   > .blackbox > .explanation >.right{
     width:50%;
     margin-left:80px;
-    
     > .devise{
       margin:30px 0px;
       display: flex;
@@ -216,7 +215,6 @@
       font-size:14px;
       line-height:57px;
       padding:10px 0px;
-
     }
     > .specs{
       height:150px;
@@ -238,14 +236,10 @@
     }
   }
   
-  // 白枠説明
   // 体験できる事
     > .canexperience{
       display: flex;
-      color:#5f5f5f;
-      margin:0 auto;
-      max-width:1200px;
-      padding:45px;
+      @include center;
       > .title{
         @include title;
       }
@@ -257,13 +251,10 @@
       }
     }
     > .challenge-background{
-      color:#5f5f5f;
       height:400px;
       background-color:rgb(240, 239, 239);
       > .challenge{
-        margin:0 auto;
-        max-width:1200px;
-        padding:45px;
+        @include center;
         display: flex;
         padding-top:120px;
         > .title{
@@ -283,5 +274,36 @@
         }
       }
     }
-
+    > .hosts{
+      @include center;
+      display: flex;
+      > .title{
+        @include title;
+      }
+      > .hostdata{
+        padding-left:100px;
+        > img{
+          border-radius: 50%; 
+        }
+        > .hostname{
+          font-size:22px;
+          font-weight: bold;
+          margin-top:10px;
+        }
+        > .hosttext{
+          line-height:2.0;
+          max-width:1000px;
+      }
+      > .contact{
+        color:#008489;
+        margin:30px 0px;
+        border: #008489 solid 2px;
+        border-radius:5px;
+        width:140px;
+        padding:10px 20px;
+        font-weight: bold;
+        
+      }
+    }
+  }
 }

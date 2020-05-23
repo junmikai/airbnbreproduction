@@ -36,3 +36,10 @@
   font-size:33px;
   font-weight: bold;
 }
+
+@mixin center{
+    margin:0 auto;
+    max-width:1200px;
+    padding:45px;
+    color:#5f5f5f;
+}

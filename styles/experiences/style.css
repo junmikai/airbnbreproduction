@@ -337,10 +337,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #5f5f5f;
   margin: 0 auto;
   max-width: 1200px;
   padding: 45px;
+  color: #5f5f5f;
 }
 
 .section-layout > .canexperience > .title {
@@ -356,7 +356,6 @@
 }
 
 .section-layout > .challenge-background {
-  color: #5f5f5f;
   height: 400px;
   background-color: #f0efef;
 }
@@ -365,6 +364,7 @@
   margin: 0 auto;
   max-width: 1200px;
   padding: 45px;
+  color: #5f5f5f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -391,6 +391,51 @@
 }
 
 .section-layout > .challenge-background > .challenge > .texts > .section-text > .minititle {
+  font-weight: bold;
+}
+
+.section-layout > .hosts {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 45px;
+  color: #5f5f5f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-layout > .hosts > .title {
+  width: 300px;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.section-layout > .hosts > .hostdata {
+  padding-left: 100px;
+}
+
+.section-layout > .hosts > .hostdata > img {
+  border-radius: 50%;
+}
+
+.section-layout > .hosts > .hostdata > .hostname {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.section-layout > .hosts > .hostdata > .hosttext {
+  line-height: 2.0;
+  max-width: 1000px;
+}
+
+.section-layout > .hosts > .hostdata > .contact {
+  color: #008489;
+  margin: 30px 0px;
+  border: #008489 solid 2px;
+  border-radius: 5px;
+  width: 140px;
+  padding: 10px 20px;
   font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
