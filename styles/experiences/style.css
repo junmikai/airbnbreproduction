@@ -333,23 +333,28 @@
   color: gray;
 }
 
-.section-layout > .canexperience {
-  padding: 50px 10px;
+.section-layout .explanations {
+  margin: 0 auto;
+  padding: 45px;
+  max-width: 1200px;
+}
+
+.section-layout .explanations > .canexperience {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   color: #5f5f5f;
 }
 
-.section-layout > .canexperience > .title {
-  width: 40%;
-  text-align: center;
+.section-layout .explanations > .canexperience > .title {
+  width: 300px;
   font-size: 35px;
   font-weight: bold;
 }
 
-.section-layout > .canexperience > .text {
-  width: 770px;
-  line-height: 2;
+.section-layout .explanations > .canexperience > .text {
+  max-width: 900px;
+  line-height: 2.0;
+  padding-left: 100px;
 }
 /*# sourceMappingURL=style.css.map */

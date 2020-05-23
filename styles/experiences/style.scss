@@ -237,21 +237,33 @@
       }
     }
   }
+  // 白枠説明
+  .explanations{
+    margin:0 auto;
+    padding:45px;
+    max-width:1200px;
   // 体験できる事
-  > .canexperience{
-    padding:50px 10px;
-    display: flex;
-    color:#5f5f5f;
-    > .title{
-      width:40%;
-      text-align: center;
-      font-size:35px;
-      font-weight: bold;
+    > .canexperience{
+      display: flex;
+      color:#5f5f5f;
+      > .title{
+        @include title;
+      }
+      > .text{
+        max-width:900px;
+        line-height:2.0;
+        padding-left:100px;
+      }
     }
-    > .text{
-      width:770px;
-      line-height:2;
-    }
+    // > .challenge{
+    //   padding:50px 15px;
+    //   display:flex;
+    //   color:#5f5f5f;
+    //   height:400px;
+    //   background-color:gray;
+    //   > .title{
+    //     @include title;
+    //   }
+    // }
   }
-  
 }

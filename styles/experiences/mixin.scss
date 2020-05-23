@@ -30,3 +30,9 @@
   margin:20px auto;
   position: relative;
 }
+
+@mixin title{
+  width:300px;
+  font-size:35px;
+  font-weight: bold;
+}
