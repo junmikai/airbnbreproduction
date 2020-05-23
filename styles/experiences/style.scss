@@ -290,8 +290,7 @@
           border-radius: 50%; 
         }
         > .hostname{
-          font-size:22px;
-          font-weight: bold;
+          @include size22;
           margin-top:10px;
         }
         > .hosttext{
@@ -334,6 +333,54 @@
         }
         span{
           color:#008489;
+        }
+      }
+    }
+  }
+  // 参加方法
+  > .participation{
+    @include center;
+    display: flex;
+    > .title{
+      @include title;
+    }
+    > .texts{
+      padding-left:100px;
+      width:100%;
+      > .videocall{
+        border-bottom:#e6e6e6 solid 1px;
+        padding-bottom:50px;
+        > .section-title{
+          @include size22;
+          margin:10px 0px;
+        }
+        > .section-details{
+          margin:20px 0px;
+          font-size:18px;
+          span{
+            font-weight:bold;
+            text-decoration: underline
+          }
+        }
+        > .comment{
+          background-color:rgb(240, 239, 239);
+          padding:20px;
+          border-radius: 10px;
+          font-size:15px;
+          width:800px;
+          span{
+            font-size:13px;
+            font-weight: bold;
+          }
+        }
+      }
+      > .charter{
+        > .section-title{
+          @include size22;
+          margin:10px 0px;
+        }
+        > .section-details{
+          font-size:18px;
         }
       }
     }

@@ -481,4 +481,69 @@
 .section-layout > .belongings > .texts > .section-text span {
   color: #008489;
 }
+
+.section-layout > .participation {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 45px;
+  color: #5f5f5f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-layout > .participation > .title {
+  width: 300px;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.section-layout > .participation > .texts {
+  padding-left: 100px;
+  width: 100%;
+}
+
+.section-layout > .participation > .texts > .videocall {
+  border-bottom: #e6e6e6 solid 1px;
+  padding-bottom: 50px;
+}
+
+.section-layout > .participation > .texts > .videocall > .section-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.section-layout > .participation > .texts > .videocall > .section-details {
+  margin: 20px 0px;
+  font-size: 18px;
+}
+
+.section-layout > .participation > .texts > .videocall > .section-details span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.section-layout > .participation > .texts > .videocall > .comment {
+  background-color: #f0efef;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 800px;
+}
+
+.section-layout > .participation > .texts > .videocall > .comment span {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.section-layout > .participation > .texts > .charter > .section-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.section-layout > .participation > .texts > .charter > .section-details {
+  font-size: 18px;
+}
 /*# sourceMappingURL=style.css.map */
