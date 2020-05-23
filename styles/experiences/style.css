@@ -333,7 +333,7 @@
   color: gray;
 }
 
-.section-layout .explanations > .canexperience {
+.section-layout > .canexperience {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -343,25 +343,25 @@
   padding: 45px;
 }
 
-.section-layout .explanations > .canexperience > .title {
+.section-layout > .canexperience > .title {
   width: 300px;
   font-size: 33px;
   font-weight: bold;
 }
 
-.section-layout .explanations > .canexperience > .text {
+.section-layout > .canexperience > .text {
   max-width: 900px;
   line-height: 2.0;
   padding-left: 100px;
 }
 
-.section-layout .explanations > .challenge-background {
+.section-layout > .challenge-background {
   color: #5f5f5f;
   height: 400px;
   background-color: #f0efef;
 }
 
-.section-layout .explanations > .challenge-background > .challenge {
+.section-layout > .challenge-background > .challenge {
   margin: 0 auto;
   max-width: 1200px;
   padding: 45px;
@@ -371,13 +371,13 @@
   padding-top: 120px;
 }
 
-.section-layout .explanations > .challenge-background > .challenge > .title {
+.section-layout > .challenge-background > .challenge > .title {
   width: 300px;
   font-size: 33px;
   font-weight: bold;
 }
 
-.section-layout .explanations > .challenge-background > .challenge > .texts {
+.section-layout > .challenge-background > .challenge > .texts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -385,12 +385,12 @@
   padding-left: 100px;
 }
 
-.section-layout .explanations > .challenge-background > .challenge > .texts > .section-text {
+.section-layout > .challenge-background > .challenge > .texts > .section-text {
   margin: 0px 20px;
   width: 33%;
 }
 
-.section-layout .explanations > .challenge-background > .challenge > .texts > .section-text > .minititle {
+.section-layout > .challenge-background > .challenge > .texts > .section-text > .minititle {
   font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
