@@ -337,6 +337,7 @@
       }
     }
   }
+
   // 参加方法
   > .participation{
     @include center;
@@ -383,6 +384,34 @@
           font-size:18px;
         }
       }
+    }
+  }
+
+  // レビュー
+  > .guestreview{
+    @include center;
+    display: flex;
+    >.titles{
+      >.title{
+        @include title;
+        margin-bottom:10px;
+      }
+      > .totalreview{
+        font-weight: bold;
+        > .fas{
+          color:#008489;
+        }
+      }
+      > .traditional{
+        margin-top:20px;
+        border:#4d4d4d solid 2px;
+        padding:10px 20px;
+        width:255px;
+        color:#4d4d4d;
+        font-weight: bold;
+        border-radius:5px ;
+      }
+      
     }
   }
 }

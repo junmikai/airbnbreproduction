@@ -345,7 +345,7 @@
 
 .section-layout > .canexperience > .title {
   width: 300px;
-  font-size: 33px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -373,7 +373,7 @@
 
 .section-layout > .challenge-background > .challenge > .title {
   width: 300px;
-  font-size: 33px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -406,7 +406,7 @@
 
 .section-layout > .hosts > .title {
   width: 300px;
-  font-size: 33px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -451,7 +451,7 @@
 
 .section-layout > .belongings > .title {
   width: 300px;
-  font-size: 33px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -494,7 +494,7 @@
 
 .section-layout > .participation > .title {
   width: 300px;
-  font-size: 33px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -545,5 +545,40 @@
 
 .section-layout > .participation > .texts > .charter > .section-details {
   font-size: 18px;
+}
+
+.section-layout > .guestreview {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 45px;
+  color: #5f5f5f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-layout > .guestreview > .titles > .title {
+  width: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-layout > .guestreview > .titles > .totalreview {
+  font-weight: bold;
+}
+
+.section-layout > .guestreview > .titles > .totalreview > .fas {
+  color: #008489;
+}
+
+.section-layout > .guestreview > .titles > .traditional {
+  margin-top: 20px;
+  border: #4d4d4d solid 2px;
+  padding: 10px 20px;
+  width: 255px;
+  color: #4d4d4d;
+  font-weight: bold;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
