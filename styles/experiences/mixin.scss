@@ -48,3 +48,13 @@
   font-size:22px;
   font-weight: bold;
 }
+
+@mixin greenbtn {
+  color:#008489;
+  margin:20px 0px;
+  border: #008489 solid 2px;
+  border-radius:5px;
+  width:140px;
+  padding:10px 20px;
+  font-weight: bold;
+}

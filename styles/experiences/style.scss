@@ -298,13 +298,7 @@
           max-width:1000px;
       }
       > .contact{
-        color:#008489;
-        margin:20px 0px;
-        border: #008489 solid 2px;
-        border-radius:5px;
-        width:140px;
-        padding:10px 20px;
-        font-weight: bold;
+         @include greenbtn;
       }
     }
   }
@@ -513,6 +507,11 @@
         }
       }
     }
+  }
+
+  > .reservation > .daychoice{
+    @include greenbtn;
+    width:130px;
   }
 
   // 注意
