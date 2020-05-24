@@ -634,4 +634,30 @@
 .section-layout > .guestreview > .reviews > .section-review > .down span {
   color: #008489;
 }
+
+.section-layout > .guestreview > .reviews > .section-review:nth-child(5) > .down {
+  border-bottom: initial;
+}
+
+.section-layout > .guestreview > .reviews > .section-review > .pagination {
+  color: #008489;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-layout > .guestreview > .reviews > .section-review > .pagination span {
+  letter-spacing: 40px;
+}
+
+.section-layout > .guestreview > .reviews > .section-review > .pagination > .bot {
+  margin-right: 20px;
+}
+
+.section-layout > .guestreview > .reviews > .section-review > .pagination > .fas {
+  font-size: 30px;
+  margin-left: 30px;
+  line-height: 0.7;
+}
 /*# sourceMappingURL=style.css.map */
