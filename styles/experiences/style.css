@@ -771,8 +771,9 @@
 
 .section-layout > .otherexperiences {
   margin: 0 auto;
-  max-width: 1300px;
-  padding: 45px;
+  max-width: 1920px;
+  padding: 45px 160px;
+  border-bottom: #e6e6e6 solid 1px;
 }
 
 .section-layout > .otherexperiences > .title {
