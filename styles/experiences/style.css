@@ -586,6 +586,10 @@
   padding-left: 100px;
 }
 
+.section-layout > .guestreview > .reviews > .section-review {
+  margin-bottom: 30px;
+}
+
 .section-layout > .guestreview > .reviews > .section-review > .top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -623,8 +627,11 @@
 
 .section-layout > .guestreview > .reviews > .section-review > .down {
   margin-top: 15px;
-  font-size: 17px;
   border-bottom: #e6e6e6 solid 1px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+}
+
+.section-layout > .guestreview > .reviews > .section-review > .down span {
+  color: #008489;
 }
 /*# sourceMappingURL=style.css.map */

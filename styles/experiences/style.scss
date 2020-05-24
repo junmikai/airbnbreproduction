@@ -415,6 +415,7 @@
     > .reviews{
       padding-left:100px;
       >.section-review{
+        margin-bottom:30px;
         >.top{
           display:flex;
           > .left{
@@ -446,9 +447,11 @@
       }
       > .section-review > .down{
         margin-top:15px;
-        font-size:17px;
         border-bottom:#e6e6e6 solid 1px;
-        padding-bottom:40px;
+        padding-bottom:30px;
+        span{
+          color:#008489;
+        }
       } 
     }  
   }
