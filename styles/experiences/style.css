@@ -660,4 +660,54 @@
   margin-left: 30px;
   line-height: 0.7;
 }
+
+.section-layout > .reservation {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 45px;
+  color: #5f5f5f;
+}
+
+.section-layout > .reservation > .title {
+  width: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.section-layout > .reservation > .calendars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-layout > .reservation > .calendars > .section-calendar {
+  width: 25%;
+}
+
+.section-layout > .reservation > .calendars > .section-calendar > .month {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.section-layout > .reservation > .calendars > .section-calendar > .calendar table {
+  width: 90%;
+}
+
+.section-layout > .reservation > .calendars > .section-calendar > .calendar table tr th {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.section-layout > .reservation > .calendars > .section-calendar > .calendar table tr td {
+  background-color: #f0efef;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 10px;
+  padding: 7px;
+}
+
+.section-layout > .reservation > .calendars > .section-calendar > .calendar table tr > .none {
+  opacity: 0;
+}
 /*# sourceMappingURL=style.css.map */
