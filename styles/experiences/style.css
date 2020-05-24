@@ -710,4 +710,47 @@
 .section-layout > .reservation > .calendars > .section-calendar > .calendar table tr > .none {
   opacity: 0;
 }
+
+.section-layout > .note {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 45px;
+  color: #5f5f5f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-layout > .note > .title {
+  width: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  width: 450px;
+}
+
+.section-layout > .note > .texts > .section-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: #e6e6e6 solid 1px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.section-layout > .note > .texts > .section-text > .minititle {
+  width: 250px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.section-layout > .note > .texts > .section-text > .text {
+  width: 31vw;
+}
+
+.section-layout > .note > .texts > .section-text > .text > span {
+  color: #008489;
+  font-weight: bold;
+  font-size: 14px;
+}
 /*# sourceMappingURL=style.css.map */
