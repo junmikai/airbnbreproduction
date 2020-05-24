@@ -764,4 +764,95 @@
   font-weight: bold;
   font-size: 14px;
 }
+
+.section-layout > .note > .texts > .section-text:nth-child(4) {
+  border-bottom: initial;
+}
+
+.section-layout > .otherexperiences {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 45px;
+}
+
+.section-layout > .otherexperiences > .title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+
+.section-layout > .otherexperiences > .experiences {
+  margin-top: 30px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-layout > .otherexperiences > .experiences > .section-experience {
+  width: 16.6%;
+  height: 100%;
+  margin: 0px 7px;
+  color: #313131;
+}
+
+.section-layout > .otherexperiences > .experiences > .section-experience > .image {
+  background-image: url("/Users/mikaijun/airbnb/image/Chernobyl.png");
+  background-size: cover;
+  border-radius: 10px;
+  height: 17vw;
+}
+
+.section-layout > .otherexperiences > .experiences > .section-experience > .country {
+  margin: 5px 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.section-layout > .otherexperiences > .experiences > .section-experience > .minititle {
+  margin-bottom: 6px;
+}
+
+.section-layout > .otherexperiences > .experiences > .section-experience > .price {
+  font-size: 15px;
+}
+
+.section-layout > .otherexperiences > .experiences > .section-experience > .review {
+  font-size: 12px;
+}
+
+.section-layout > .otherexperiences > .experiences > .section-experience > .review > .fas {
+  margin-right: 3px;
+}
+
+.section-layout > .otherexperiences > .experiences > .section-experience > .review span {
+  color: #616161;
+  margin-left: 3px;
+}
+
+.section-layout > .otherexperiences > .experiences > .section-experience:nth-child(2) > .image {
+  background-image: url("/Users/mikaijun/airbnb/image/farm.png");
+}
+
+.section-layout > .otherexperiences > .experiences > .section-experience:nth-child(3) > .image {
+  background-image: url("/Users/mikaijun/airbnb/image/zazen.png");
+}
+
+.section-layout > .otherexperiences > .experiences > .section-experience:nth-child(4) > .image {
+  background-image: url("/Users/mikaijun/airbnb/image/gogh.png");
+}
+
+.section-layout > .otherexperiences > .experiences > .section-experience:nth-child(5) > .image {
+  background-image: url("/Users/mikaijun/airbnb/image/yagi.png");
+}
+
+.section-layout > .otherexperiences > .experiences > .section-experience:nth-child(6) > .image {
+  background-image: url("/Users/mikaijun/airbnb/image/table.png");
+}
+
+.section-layout > .otherexperiences > .allshow {
+  margin-top: 50px;
+  color: #008489;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
