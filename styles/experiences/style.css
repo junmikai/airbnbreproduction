@@ -581,4 +581,50 @@
   font-weight: bold;
   border-radius: 5px;
 }
+
+.section-layout > .guestreview > .reviews {
+  padding-left: 100px;
+}
+
+.section-layout > .guestreview > .reviews > .section-review > .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-layout > .guestreview > .reviews > .section-review > .top > .left > img {
+  border-radius: 50%;
+}
+
+.section-layout > .guestreview > .reviews > .section-review > .top > .right {
+  margin-left: 20px;
+}
+
+.section-layout > .guestreview > .reviews > .section-review > .top > .right > .reviewuser {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+}
+
+.section-layout > .guestreview > .reviews > .section-review > .top > .right > .reviewuser > .username {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.section-layout > .guestreview > .reviews > .section-review > .top > .right > .reviewuser > .month {
+  font-size: 13px;
+  line-height: 2;
+}
+
+.section-layout > .guestreview > .reviews > .section-review > .top > .right > .reviewstar > .fas {
+  color: #008489;
+}
+
+.section-layout > .guestreview > .reviews > .section-review > .down {
+  margin-top: 15px;
+  font-size: 17px;
+  border-bottom: #e6e6e6 solid 1px;
+  padding-bottom: 40px;
+}
 /*# sourceMappingURL=style.css.map */

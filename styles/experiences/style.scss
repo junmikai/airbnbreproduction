@@ -411,7 +411,45 @@
         font-weight: bold;
         border-radius:5px ;
       }
-      
     }
+    > .reviews{
+      padding-left:100px;
+      >.section-review{
+        >.top{
+          display:flex;
+          > .left{
+            > img{
+              border-radius: 50%; 
+            }
+          }
+        }
+      }
+     > .section-review > .top > .right{
+      margin-left:20px;
+        > .reviewuser{
+          display:flex;
+          font-size:15px;
+          > .username{
+            font-weight: bold;
+            margin-right:5px;
+          }
+          > .month{
+            font-size:13px;
+            line-height:2;
+          }
+        }
+        > .reviewstar{
+          > .fas{
+            color:#008489;
+          }
+        }
+      }
+      > .section-review > .down{
+        margin-top:15px;
+        font-size:17px;
+        border-bottom:#e6e6e6 solid 1px;
+        padding-bottom:40px;
+      } 
+    }  
   }
 }
