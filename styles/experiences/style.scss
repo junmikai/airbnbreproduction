@@ -10,12 +10,11 @@
   // 黒枠
   > .blackbox{
     background-color:black;
-    padding:20px 0px;
     // 黒枠/ヘッダー
     > .experiencesheader{
-    display: flex;
+    display:flex;
     justify-content:space-between;
-    max-width:1400px;
+    max-width:1300px;
     margin:0 auto;
     }
   }
@@ -28,6 +27,7 @@
       color:rgb(223, 221, 221);
       font-size:14px;
       width:280px;
+      z-index: 1;
       > .section-form{
         width:40%;
         border-right: thin solid rgb(150, 150, 150);
@@ -362,7 +362,7 @@
           padding:20px;
           border-radius: 10px;
           font-size:15px;
-          width:800px;
+          max-width:800px;
           span{
             font-size:13px;
             font-weight: bold;

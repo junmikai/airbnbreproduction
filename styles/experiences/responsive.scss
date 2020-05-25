@@ -1,0 +1,32 @@
+.section-layout{
+  @media (max-width: 740px){
+    // 黒枠
+    > .blackbox{
+      // 黒枠/ヘッダー
+      > .experiencesheader{
+        display: none;
+      }
+      > .whiteheader{
+        background-color:#fff;
+        height:65px;
+        padding:20px 20px;
+        display: flex;
+        justify-content:space-between;
+        > .left{
+          font-size:14px;
+          font-weight: bold;
+        }
+        >.right{
+          color:rgb(116, 114, 114);
+          font-size:17px;
+          >.fas{
+            margin-right:15px;
+          }
+        }
+      }
+      >.imagebox > .snsbtn {
+        display: none;
+      }
+    }
+  }
+}

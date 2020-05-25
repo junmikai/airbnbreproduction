@@ -9,7 +9,6 @@
 
 .section-layout > .blackbox {
   background-color: black;
-  padding: 20px 0px;
 }
 
 .section-layout > .blackbox > .experiencesheader {
@@ -19,7 +18,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 1400px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -33,6 +32,7 @@
   color: #dfdddd;
   font-size: 14px;
   width: 280px;
+  z-index: 1;
 }
 
 .section-layout > .blackbox > .experiencesheader > .searchbox > .section-form {
@@ -529,7 +529,7 @@
   padding: 20px;
   border-radius: 10px;
   font-size: 15px;
-  width: 800px;
+  max-width: 800px;
 }
 
 .section-layout > .participation > .texts > .videocall > .comment span {

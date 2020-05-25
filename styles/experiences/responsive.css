@@ -1,0 +1,31 @@
+@media (max-width: 740px) {
+  .section-layout > .blackbox > .experiencesheader {
+    display: none;
+  }
+  .section-layout > .blackbox > .whiteheader {
+    background-color: #fff;
+    height: 65px;
+    padding: 20px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .section-layout > .blackbox > .whiteheader > .left {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .blackbox > .whiteheader > .right {
+    color: #747272;
+    font-size: 17px;
+  }
+  .section-layout > .blackbox > .whiteheader > .right > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .blackbox > .imagebox > .snsbtn {
+    display: none;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
