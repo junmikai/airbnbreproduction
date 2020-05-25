@@ -82,3 +82,8 @@
     padding:20px 0px 0px 20px;
   }
 }
+
+@mixin textresponsive{
+    padding-left:20px;
+    width:90%;
+}

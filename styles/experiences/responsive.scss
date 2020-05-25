@@ -68,6 +68,7 @@
       }
     }
   }
+
   // 体験できること
   >.canexperience{
     @include titleresponsive;
@@ -96,6 +97,7 @@
       @include challengeresponsive;
     }
   }
+
   // ホスト
   > .hosts{
     @include titleresponsive;
@@ -109,15 +111,33 @@
       }
     }
   }
+
   // 持ち物
   >.belongings{
     @include titleresponsive;
-    .texts{
-      padding-left:20px;
-      width:90%;
+    >.texts{
+      @include textresponsive;
+    }
+  }
+  // 参加方法
+  >.participation{
+    @include titleresponsive; 
+    >.texts{
+      @include textresponsive;
+      width:98%;
+      margin-top:30px;
+      >.videocall > .section-title {
+        font-size:18px;
+      }
+      .charter > .section-title {
+        font-size:18px;
+        margin:20px 0px;
+      }
     }
   }
 }
+  
+
 
   @media (min-width:741px) and (max-width: 1130px){
   >.blackbox{
@@ -155,7 +175,6 @@
         padding-left:initial;
         >.section-text >.minitext{
           font-size:16px;
-          
         }
       }
     }

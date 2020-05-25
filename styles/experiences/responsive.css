@@ -129,9 +129,29 @@
     font-size: 23px;
     padding: 20px 0px 0px 20px;
   }
-  .section-layout > .belongings .texts {
+  .section-layout > .belongings > .texts {
     padding-left: 20px;
     width: 90%;
+  }
+  .section-layout > .participation {
+    display: initial;
+  }
+  .section-layout > .participation > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .participation > .texts {
+    padding-left: 20px;
+    width: 90%;
+    width: 98%;
+    margin-top: 30px;
+  }
+  .section-layout > .participation > .texts > .videocall > .section-title {
+    font-size: 18px;
+  }
+  .section-layout > .participation > .texts .charter > .section-title {
+    font-size: 18px;
+    margin: 20px 0px;
   }
 }
 
