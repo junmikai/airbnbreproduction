@@ -1,7 +1,9 @@
 .section-layout{
   @media (max-width: 740px){
-    // 黒枠
+    
     > .blackbox{
+      padding-left:20px;
+      padding-right:5px;
       // 黒枠/ヘッダー
       > .experiencesheader{
         display: none;
@@ -27,6 +29,69 @@
       >.imagebox > .snsbtn {
         display: none;
       }
+      > .explanation{
+        display: initial;
+        >.left{
+          width:initial;
+          > .tags{
+            width:initial;
+          }
+        }
+        > .right{
+          width: initial;
+          margin-left:initial;
+          > .devise{
+            padding:initial;
+            position: relative;
+            line-height:initial;
+            height:60px;
+            p{
+              padding:10px;
+            }
+            img{
+              position: absolute;
+              right:-10px;
+            }
+          }
+          >.specs{
+            width:500px;
+            flex-wrap :wrap;
+            
+            >.section-spec{
+              width:200px;
+          }
+        }
+      }
     }
   }
+}
+
+  @media (min-width:741px) and (max-width: 1120px){
+    >.blackbox{
+      position: relative;
+      height:900px; 
+    }
+    >.blackbox > .explanation{
+      > .left {
+        width:55%;
+        .tags {
+          width:initial;
+        }
+      }
+      > .right {
+        margin-left: initial;
+        > .devise{
+          height:70px;
+          line-height:initial;
+          }
+        > .specs{
+          width:55vw;
+          height:initial;
+          position: absolute;
+          left:30px;
+          bottom:-100px;
+          }
+        }
+      } 
+    }
 }

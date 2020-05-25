@@ -1,4 +1,8 @@
 @media (max-width: 740px) {
+  .section-layout > .blackbox {
+    padding-left: 20px;
+    padding-right: 5px;
+  }
   .section-layout > .blackbox > .experiencesheader {
     display: none;
   }
@@ -26,6 +30,67 @@
   }
   .section-layout > .blackbox > .imagebox > .snsbtn {
     display: none;
+  }
+  .section-layout > .blackbox > .explanation {
+    display: initial;
+  }
+  .section-layout > .blackbox > .explanation > .left {
+    width: initial;
+  }
+  .section-layout > .blackbox > .explanation > .left > .tags {
+    width: initial;
+  }
+  .section-layout > .blackbox > .explanation > .right {
+    width: initial;
+    margin-left: initial;
+  }
+  .section-layout > .blackbox > .explanation > .right > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .blackbox > .explanation > .right > .devise p {
+    padding: 10px;
+  }
+  .section-layout > .blackbox > .explanation > .right > .devise img {
+    position: absolute;
+    right: -10px;
+  }
+  .section-layout > .blackbox > .explanation > .right > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .blackbox > .explanation > .right > .specs > .section-spec {
+    width: 200px;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1120px) {
+  .section-layout > .blackbox {
+    position: relative;
+    height: 900px;
+  }
+  .section-layout > .blackbox > .explanation > .left {
+    width: 55%;
+  }
+  .section-layout > .blackbox > .explanation > .left .tags {
+    width: initial;
+  }
+  .section-layout > .blackbox > .explanation > .right {
+    margin-left: initial;
+  }
+  .section-layout > .blackbox > .explanation > .right > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .blackbox > .explanation > .right > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

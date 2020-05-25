@@ -9,9 +9,11 @@
 
 .section-layout > .blackbox {
   background-color: black;
+  padding-bottom: 30px;
 }
 
 .section-layout > .blackbox > .experiencesheader {
+  padding-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,7 +271,7 @@
 }
 
 .section-layout > .blackbox > .explanation > .left > .translation {
-  width: 90%;
+  width: 270px;
 }
 
 .section-layout > .blackbox > .explanation > .left > .translation .border {

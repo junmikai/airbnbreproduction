@@ -10,8 +10,10 @@
   // 黒枠
   > .blackbox{
     background-color:black;
+    padding-bottom:30px;
     // 黒枠/ヘッダー
     > .experiencesheader{
+    padding-top:20px;
     display:flex;
     justify-content:space-between;
     max-width:1300px;
@@ -118,6 +120,7 @@
   // 黒枠/説明文
   > .blackbox > .explanation{
     @include mainpage;
+    
   }
   > .blackbox > .explanation >.left{
     width:25%;
@@ -185,7 +188,7 @@
       }
     }
     > .translation{
-      width:90%;
+      width:270px;
       .border{
         margin-top:5px;
         border: #fff solid 2px;
