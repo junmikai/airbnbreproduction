@@ -482,10 +482,14 @@
     }
     > .calendars{
       display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
     }
   }
   > .reservation > .calendars  > .section-calendar{
-    width:25%;
+    display: inline-block;
+    padding:0px 30px;
     > .month{
       font-size:18px;
       margin-bottom:20px;

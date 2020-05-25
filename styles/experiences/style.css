@@ -682,10 +682,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
 
 .section-layout > .reservation > .calendars > .section-calendar {
-  width: 25%;
+  display: inline-block;
+  padding: 0px 30px;
 }
 
 .section-layout > .reservation > .calendars > .section-calendar > .month {
