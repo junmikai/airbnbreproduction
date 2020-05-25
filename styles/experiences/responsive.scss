@@ -1,3 +1,5 @@
+@import "mixin";
+
 .section-layout{
   @media (max-width: 740px){
     // 黒枠
@@ -66,6 +68,7 @@
       }
     }
   }
+  // 体験できること
   >.canexperience{
     display: initial;
     >.title{
@@ -77,6 +80,8 @@
       margin:30px 20px;
     }
   }
+
+  // チャレンジ
   > .challenge-background{
     height:auto;
     > .challenge{
@@ -93,49 +98,50 @@
 
   > .challenge-background  > .challenge{
     > .texts{
-      display: initial;
-      > .section-text{
-        width:95%;
-        display: flex;
-        margin-bottom:30px;
-        > .minititle{
-          display: none;
-        }
-        >.minitext{
-          margin-left:20px;
-          font-size:14px;
-        }
-      }
+      @include challengeresponsive;
     }
   }
 }
 
-  @media (min-width:741px) and (max-width: 1120px){
-    >.blackbox{
-      position: relative;
-      height:900px; 
+  @media (min-width:741px) and (max-width: 1130px){
+  >.blackbox{
+    position: relative;
+    height:900px; 
+  }
+  >.blackbox > .explanation{
+    > .left {
+      width:55%;
+      .tags {
+        width:initial;
+      }
     }
-    >.blackbox > .explanation{
-      > .left {
-        width:55%;
-        .tags {
-          width:initial;
+    > .right {
+      margin-left: initial;
+      > .devise{
+        height:70px;
+        line-height:initial;
+        }
+      > .specs{
+        width:55vw;
+        height:initial;
+        position: absolute;
+        left:30px;
+        bottom:-100px;
         }
       }
-      > .right {
-        margin-left: initial;
-        > .devise{
-          height:70px;
-          line-height:initial;
-          }
-        > .specs{
-          width:55vw;
-          height:initial;
-          position: absolute;
-          left:30px;
-          bottom:-100px;
-          }
+    } 
+    > .challenge-background  > .challenge{
+      >.title{
+        width:280px;
+      }
+      > .texts{
+        @include challengeresponsive;
+        padding-left:initial;
+        >.section-text >.minitext{
+          font-size:16px;
+          
         }
-      } 
+      }
     }
+  }
 }

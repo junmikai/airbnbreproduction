@@ -58,3 +58,19 @@
   padding:10px 20px;
   font-weight: bold;
 }
+
+@mixin challengeresponsive{
+  display: initial;
+  > .section-text{
+    width:95%;
+    display: flex;
+    margin-bottom:30px;
+    > .minititle{
+      display: none;
+    }
+    >.minitext{
+      margin-left:20px;
+      font-size:14px;
+    }
+  }
+}
