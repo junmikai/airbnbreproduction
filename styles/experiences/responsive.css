@@ -186,6 +186,19 @@
   .section-layout > .reservation > .title {
     font-size: 22px;
   }
+  .section-layout > .section-linkcollections {
+    display: none;
+  }
+  .section-layout > .topfooter {
+    text-align: initial;
+    margin: 10px;
+  }
+  .section-layout > .topfooter > .right {
+    margin: initial;
+  }
+  .section-layout > .topfooter > .right > .sns {
+    display: none;
+  }
 }
 
 @media (min-width: 741px) and (max-width: 1130px) {
@@ -236,6 +249,35 @@
   }
   .section-layout > .challenge-background > .challenge > .texts > .section-text > .minitext {
     font-size: 16px;
+  }
+  .section-layout > .section-linkcollections {
+    display: inline;
+  }
+  .section-layout > .section-linkcollections > .section-linkcollection {
+    width: 100%;
+    border-bottom: solid 1px #838383;
+    margin: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .section-linkcollections > .section-linkcollection ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .section-linkcollections > .section-linkcollection ul > li {
+    width: 33%;
+  }
+  .section-layout > .topfooter {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section-layout > .topfooter > .right {
+    margin: 0 auto;
   }
 }
 
