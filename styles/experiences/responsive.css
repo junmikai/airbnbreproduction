@@ -153,6 +153,36 @@
     font-size: 18px;
     margin: 20px 0px;
   }
+  .section-layout > .guestreview {
+    display: initial;
+  }
+  .section-layout > .guestreview > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .guestreview > .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .guestreview > .titles > .title {
+    font-size: 23px;
+  }
+  .section-layout > .guestreview > .reviews {
+    padding: 30px 20px;
+  }
+  .section-layout > .guestreview > .reviews > .section-review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .guestreview > .reviews > .section-review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .guestreview > .reviews > .section-review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .guestreview > .reviews > .section-review > .pagination > .fas {
+    margin-left: initial;
+  }
 }
 
 @media (min-width: 741px) and (max-width: 1130px) {
