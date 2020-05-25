@@ -482,9 +482,7 @@
     }
     > .calendars{
       display: flex;
-      overflow-x: auto;
-      white-space: nowrap;
-      -webkit-overflow-scrolling: touch;
+      @include scroll2;
     }
   }
   > .reservation > .calendars  > .section-calendar{

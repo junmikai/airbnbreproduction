@@ -1,8 +1,9 @@
 @import "mixin";
 
 .section-layout{
+
+  // 740px以下
   @media (max-width: 740px){
-    // 黒枠
     > .blackbox{
       > .experiencesheader{
         display: none;
@@ -31,7 +32,6 @@
       }
       > .explanation{
         display: initial;
-
         >.left{
           width:initial;
           padding:0px 20px;
@@ -68,8 +68,6 @@
       }
     }
   }
-
-  // 体験できること
   >.canexperience{
     @include titleresponsive;
     >.text{
@@ -77,8 +75,6 @@
       margin:30px 20px;
     }
   }
-
-  // チャレンジ
   > .challenge-background{
     height:auto;
     > .challenge{
@@ -97,8 +93,6 @@
       @include challengeresponsive;
     }
   }
-
-  // ホスト
   > .hosts{
     @include titleresponsive;
     > .hostdata {
@@ -111,16 +105,12 @@
       }
     }
   }
-
-  // 持ち物
   >.belongings{
     @include titleresponsive;
     >.texts{
       @include textresponsive;
     }
   }
-
-  // 参加方法
   >.participation{
     @include titleresponsive; 
     >.texts{
@@ -136,8 +126,6 @@
       }
     }
   }
-
-  // レビュー
   >.guestreview{ 
     @include titleresponsive;
     >.titles{
@@ -165,18 +153,12 @@
       }
     }
   }
-
-  // 予約
   > .reservation > .title {
     font-size:22px;
   }
-
-  // リンク集
   > .section-linkcollections{
     display: none;
   }
-
-  // フッター
   > .topfooter{ 
     text-align:initial;
     margin:10px;
@@ -188,9 +170,10 @@
     }
   } 
 }
-  
 
 
+
+  // 741px~1130px
   @media (min-width:741px) and (max-width: 1130px){
   >.blackbox{
     position: relative;
@@ -230,8 +213,6 @@
         }
       }
     }
-    
-    // リンク集
     > .section-linkcollections{
       display: inline;
     > .section-linkcollection{
@@ -248,8 +229,6 @@
           width:33%;
       }
     }
-    
-    // フッター
     > .topfooter{
         flex-wrap :wrap-reverse;
         width:700px;
@@ -261,8 +240,10 @@
     }
   }
 
+
+
+  // 1130px以下
   @media (max-width: 1130px){
-  // 注意
   .note > .texts{
     width:100%;
     }
@@ -277,12 +258,23 @@
       display:none;
       }
     } 
-
   }
 
+  // 1130px以上
   @media (min-width: 1130px){
     > .note > .texts > .section-text > .fas {
       display:none;
     }
   }
+
+  // その他のオンライン体験
+  .otherexperiences > .experiences > .section-experience{
+    @media (min-width:741px) and (max-width: 1130px){
+      width: 20%;
+    }
+
+  } 
+
+
+
 }
