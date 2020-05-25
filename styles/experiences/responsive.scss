@@ -268,13 +268,18 @@
   }
 
   // その他のオンライン体験
-  .otherexperiences > .experiences > .section-experience{
-    @media (min-width:741px) and (max-width: 1130px){
-      width: 20%;
-    }
-
-  } 
-
-
-
+   .otherexperiences > .experiences > .section-experience > .image{
+    @media (min-width:1110px) and (max-width: 1440px){
+      height:22vw;
+      width:18vw;
+    } 
+    @media (min-width:740px) and (max-width: 1110px){
+      height:28vw;
+      width:23vw;
+    } 
+    @media (max-width: 740px){
+      height:55vw;
+      width:45vw;
+    } 
+  }  
 }

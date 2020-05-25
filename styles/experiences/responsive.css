@@ -304,9 +304,24 @@
   }
 }
 
-@media (min-width: 741px) and (max-width: 1130px) {
-  .section-layout .otherexperiences > .experiences > .section-experience {
-    width: 20%;
+@media (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout .otherexperiences > .experiences > .section-experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1110px) {
+  .section-layout .otherexperiences > .experiences > .section-experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 740px) {
+  .section-layout .otherexperiences > .experiences > .section-experience > .image {
+    height: 55vw;
+    width: 45vw;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

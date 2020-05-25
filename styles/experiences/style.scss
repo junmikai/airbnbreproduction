@@ -560,8 +560,8 @@
   // その他体験
   >.otherexperiences{
     margin:0 auto;
-    max-width:1920px;
-    padding:45px 160px;
+    max-width:1500px;
+    padding:100px 20px;
     border-bottom:#e6e6e6 solid 1px;
     > .title{
       font-size:30px;
@@ -570,28 +570,47 @@
     }
     > .experiences{
       margin-top:30px;
-      height:400px;
       display: flex;
+      overflow-x:auto;
     }
   }
   >.otherexperiences > .experiences > .section-experience{
-    width:16.6%;
     height:100%;
     margin:0px 7px;
     color:rgb(49, 49, 49);
+    
     >.image{
       background-image: url("/Users/mikaijun/airbnb/image/Chernobyl.png");
       background-size:cover;
       border-radius: 10px;
-      height:17vw;
+      height:15vw;
+      width:13vw;
+      position: relative;
+      >.online{
+        background-color:black;
+        width:65px;
+        height:20px;
+        font-size:12px;
+        color:#fff;
+        position: absolute;
+        left:15px;
+        top:10px;
+        border-radius: 5px;
+        font-weight: bold;
+        padding-left:3px;
+      }
     }
     >.country{
       margin:5px 0px;
       font-size:12px;
       font-weight: bold;
+      max-width:200px;
+      white-space:pre-wrap;
     }
     >.minititle{
       margin-bottom:6px;
+      max-width:200px;
+      white-space:pre-wrap;
     }
     >.price{
       font-size:15px;
