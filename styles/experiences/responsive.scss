@@ -2,8 +2,6 @@
   @media (max-width: 740px){
     
     > .blackbox{
-      padding-left:20px;
-      padding-right:5px;
       // 黒枠/ヘッダー
       > .experiencesheader{
         display: none;
@@ -14,6 +12,7 @@
         padding:20px 20px;
         display: flex;
         justify-content:space-between;
+        width:100%;
         > .left{
           font-size:14px;
           font-weight: bold;
@@ -31,8 +30,10 @@
       }
       > .explanation{
         display: initial;
+
         >.left{
           width:initial;
+          padding:0px 20px;
           > .tags{
             width:initial;
           }
@@ -40,6 +41,7 @@
         > .right{
           width: initial;
           margin-left:initial;
+          padding:0px 20px;
           > .devise{
             padding:initial;
             position: relative;
@@ -47,10 +49,11 @@
             height:60px;
             p{
               padding:10px;
+              width:90%;
             }
             img{
               position: absolute;
-              right:-10px;
+              right:0px;
             }
           }
           >.specs{

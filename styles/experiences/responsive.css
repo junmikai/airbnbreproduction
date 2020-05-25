@@ -1,8 +1,4 @@
 @media (max-width: 740px) {
-  .section-layout > .blackbox {
-    padding-left: 20px;
-    padding-right: 5px;
-  }
   .section-layout > .blackbox > .experiencesheader {
     display: none;
   }
@@ -16,6 +12,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    width: 100%;
   }
   .section-layout > .blackbox > .whiteheader > .left {
     font-size: 14px;
@@ -36,6 +33,7 @@
   }
   .section-layout > .blackbox > .explanation > .left {
     width: initial;
+    padding: 0px 20px;
   }
   .section-layout > .blackbox > .explanation > .left > .tags {
     width: initial;
@@ -43,6 +41,7 @@
   .section-layout > .blackbox > .explanation > .right {
     width: initial;
     margin-left: initial;
+    padding: 0px 20px;
   }
   .section-layout > .blackbox > .explanation > .right > .devise {
     padding: initial;
@@ -52,10 +51,11 @@
   }
   .section-layout > .blackbox > .explanation > .right > .devise p {
     padding: 10px;
+    width: 90%;
   }
   .section-layout > .blackbox > .explanation > .right > .devise img {
     position: absolute;
-    right: -10px;
+    right: 0px;
   }
   .section-layout > .blackbox > .explanation > .right > .specs {
     width: 500px;
