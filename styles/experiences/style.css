@@ -772,6 +772,10 @@
   font-size: 14px;
 }
 
+.section-layout > .note > .texts > .section-text > .fas {
+  font-size: 25px;
+}
+
 .section-layout > .note > .texts > .section-text:nth-child(4) {
   border-bottom: initial;
 }

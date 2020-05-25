@@ -183,6 +183,9 @@
   .section-layout > .guestreview > .reviews > .section-review > .pagination > .fas {
     margin-left: initial;
   }
+  .section-layout > .reservation > .title {
+    font-size: 22px;
+  }
 }
 
 @media (min-width: 741px) and (max-width: 1130px) {
@@ -233,6 +236,29 @@
   }
   .section-layout > .challenge-background > .challenge > .texts > .section-text > .minitext {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .section-layout .note > .texts {
+    width: 100%;
+  }
+  .section-layout .note > .texts > .section-text {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout .note > .texts > .section-text > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout .note > .texts > .section-text > .text {
+    display: none;
+  }
+}
+
+@media (min-width: 1130px) {
+  .section-layout > .note > .texts > .section-text > .fas {
+    display: none;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

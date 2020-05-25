@@ -165,6 +165,12 @@
       }
     }
   }
+
+  // 予約
+  > .reservation > .title {
+    font-size:22px;
+  }
+
 }
   
 
@@ -207,6 +213,31 @@
           font-size:16px;
         }
       }
+    }
+  }
+
+  @media (max-width: 1130px){
+  // 注意
+  .note > .texts{
+    width:100%;
+    }
+    .note > .texts > .section-text{
+      margin-bottom:20px;
+      padding-bottom:20px;
+      >.minititle{
+        font-size:18px;
+        width:90%;
+      }
+      >.text{
+      display:none;
+      }
+    } 
+
+  }
+
+  @media (min-width: 1130px){
+    > .note > .texts > .section-text > .fas {
+      display:none;
     }
   }
 }
