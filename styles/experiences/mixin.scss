@@ -74,3 +74,11 @@
     }
   }
 }
+
+@mixin titleresponsive{
+  display: initial;
+  >.title{
+    font-size:23px;
+    padding:20px 0px 0px 20px;
+  }
+}

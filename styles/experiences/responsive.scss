@@ -70,11 +70,7 @@
   }
   // 体験できること
   >.canexperience{
-    display: initial;
-    >.title{
-      font-size:23px;
-      padding:20px 0px 0px 20px;
-    }
+    @include titleresponsive;
     >.text{
       padding-left:initial;
       margin:30px 20px;
@@ -95,12 +91,25 @@
       }
     }
   }
-
   > .challenge-background  > .challenge{
     > .texts{
       @include challengeresponsive;
     }
   }
+  // ホスト
+  > .hosts{
+    @include titleresponsive;
+    > .hostdata {
+      padding:0px 20px;
+      img{
+        margin-top:30px;
+      }
+      >.hostname{
+        margin-top:30px;
+      }
+    }
+  }
+  
 }
 
   @media (min-width:741px) and (max-width: 1130px){
