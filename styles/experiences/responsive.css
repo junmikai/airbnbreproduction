@@ -122,6 +122,17 @@
   .section-layout > .hosts > .hostdata > .hostname {
     margin-top: 30px;
   }
+  .section-layout > .belongings {
+    display: initial;
+  }
+  .section-layout > .belongings > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .belongings .texts {
+    padding-left: 20px;
+    width: 90%;
+  }
 }
 
 @media (min-width: 741px) and (max-width: 1130px) {

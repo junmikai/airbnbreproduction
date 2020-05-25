@@ -109,7 +109,14 @@
       }
     }
   }
-  
+  // 持ち物
+  >.belongings{
+    @include titleresponsive;
+    .texts{
+      padding-left:20px;
+      width:90%;
+    }
+  }
 }
 
   @media (min-width:741px) and (max-width: 1130px){
