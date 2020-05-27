@@ -41,3 +41,12 @@ $(window).on('scroll', function () {
     $('.hidingfooter').slideDown();
   }
   });
+
+
+  $( document ).on( 'scroll', function() {
+    if ( 240 > jQuery( this ).scrollTop() ) { 
+      $( '.fixedfooter' ).addClass( 'black' );
+    } else {
+      $( '.fixedfooter' ).removeClass( 'black' );
+    }
+  });
