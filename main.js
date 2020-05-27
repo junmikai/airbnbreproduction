@@ -5,10 +5,18 @@ $(function() {
 //トップから50pxスクロールするとヘッダーが固定される
 $( window ).on( 'scroll', function() {
   if ( 50 < jQuery( this ).scrollTop() ) { 
-    $( '.topheader' ).addClass( 'm_fixed' );
+    $( '.fixedheader' ).show();
   } else {
-    $( '.topheader' ).removeClass( 'm_fixed' );
+    $( '.fixedheader' ).hide();
   }
+
+
+  if ( 1000 < $( this ).scrollTop() ) { 
+    $( '.fixedheader' ).show();
+  } else {
+    $( '.fixedheader' ).hide();
+  }
+  
 });
 
 $( window ).on( 'scroll', function() {
@@ -50,3 +58,10 @@ $(window).on('scroll', function () {
       $( '.fixedfooter' ).removeClass( 'black' );
     }
   });
+
+  //トップから50pxスクロールするとヘッダーが固定される
+$( window ).on( 'scroll', function() {
+  if ( 1000 > jQuery( this ).scrollTop() ) { 
+    
+  }
+});

@@ -1,4 +1,7 @@
 @media (max-width: 740px) {
+  .section-layout > .fixedheader {
+    opacity: 0;
+  }
   .section-layout > .blackbox > .experiencesheader {
     display: none;
   }

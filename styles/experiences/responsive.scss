@@ -4,6 +4,9 @@
 
   // 740px以下
   @media (max-width: 740px){
+    > .fixedheader{
+      opacity: 0;
+    }
     > .blackbox{
       > .experiencesheader{
         display: none;
