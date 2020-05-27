@@ -68,7 +68,11 @@
   .section-layout > .canexperience {
     display: initial;
   }
-  .section-layout > .canexperience > .title {
+  .section-layout > .canexperience > .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .canexperience > .sticky > .title {
     font-size: 23px;
     padding: 20px 0px 0px 20px;
   }
@@ -109,7 +113,11 @@
   .section-layout > .hosts {
     display: initial;
   }
-  .section-layout > .hosts > .title {
+  .section-layout > .hosts > .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .hosts > .sticky > .title {
     font-size: 23px;
     padding: 20px 0px 0px 20px;
   }
@@ -125,7 +133,11 @@
   .section-layout > .belongings {
     display: initial;
   }
-  .section-layout > .belongings > .title {
+  .section-layout > .belongings > .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .belongings > .sticky > .title {
     font-size: 23px;
     padding: 20px 0px 0px 20px;
   }
@@ -136,7 +148,11 @@
   .section-layout > .participation {
     display: initial;
   }
-  .section-layout > .participation > .title {
+  .section-layout > .participation > .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .participation > .sticky > .title {
     font-size: 23px;
     padding: 20px 0px 0px 20px;
   }
@@ -156,7 +172,11 @@
   .section-layout > .guestreview {
     display: initial;
   }
-  .section-layout > .guestreview > .title {
+  .section-layout > .guestreview > .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .guestreview > .sticky > .title {
     font-size: 23px;
     padding: 20px 0px 0px 20px;
   }
@@ -165,7 +185,10 @@
     width: 90%;
     margin-top: 30px;
   }
-  .section-layout > .guestreview > .titles > .title {
+  .section-layout > .guestreview > .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .guestreview > .titles > .sticky > .title {
     font-size: 23px;
   }
   .section-layout > .guestreview > .reviews {
@@ -188,6 +211,18 @@
   }
   .section-layout > .section-linkcollections {
     display: none;
+  }
+  .section-layout > .note {
+    display: initial;
+  }
+  .section-layout > .note > .sticky {
+    width: initial;
+    height: 80px;
+    position: initial;
+  }
+  .section-layout > .note > .sticky > .title {
+    font-size: 23px;
+    padding-left: 50px;
   }
   .section-layout > .topfooter {
     text-align: initial;

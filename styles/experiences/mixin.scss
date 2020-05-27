@@ -32,7 +32,6 @@
 }
 
 @mixin title{
-  width:300px;
   font-size:30px;
   font-weight: bold;
 }
@@ -77,9 +76,13 @@
 
 @mixin titleresponsive{
   display: initial;
-  >.title{
-    font-size:23px;
-    padding:20px 0px 0px 20px;
+  >.sticky {
+    width:initial;
+    position: initial;
+    >.title{
+      font-size:23px;
+      padding:20px 0px 0px 20px;
+    }
   }
 }
 
@@ -104,4 +107,13 @@
   line-height:50px;
   margin:10px 0px 0px 30px;
   border-radius: 5px;
+}
+
+@mixin sticky{
+  width: 20vw;
+  height: 10vh;
+  position: -webkit-sticky; 
+  position: sticky; 
+  top: 10px; 
+  left: 0; 
 }

@@ -244,14 +244,17 @@
     > .canexperience{
       display: flex;
       @include center;
-      > .title{
-        @include title;
+      >.sticky {
+        @include sticky;
+        > .title{
+          @include title;
+        }
       }
+     
       > .text{
         max-width:900px;
         line-height:2.0;
-        padding-left:100px;
-        
+        padding-left:60px;
       }
     }
 
@@ -285,8 +288,11 @@
     > .hosts{
       @include center;
       display: flex;
-      > .title{
-        @include title;
+      >.sticky {
+        @include sticky;
+        > .title{
+          @include title;
+        }
       }
       > .hostdata{
         padding-left:100px;
@@ -311,8 +317,11 @@
   > .belongings{
     @include center;
     display: flex;
-    > .title{
-      @include title;
+    >.sticky {
+      @include sticky;
+      > .title{
+        @include title;
+      }
     }
     > .texts{
       padding-left:100px;
@@ -341,9 +350,13 @@
   > .participation{
     @include center;
     display: flex;
-    > .title{
-      @include title;
+    >.sticky {
+      @include sticky;
+      > .title{
+        @include title;
+      }
     }
+    
     > .texts{
       padding-left:100px;
       width:100%;
@@ -391,12 +404,17 @@
     @include center;
     display: flex;
     >.titles{
-      >.title{
-        @include title;
-        margin-bottom:10px;
-      }
+      >.sticky {
+        @include sticky;
+        height:40vh;
+        >.title{
+          @include title;
+          margin-bottom:10px;
+        }
+     
       > .totalreview{
         font-weight: bold;
+        width:255px;
         > .fas{
           color:#008489;
         }
@@ -405,14 +423,15 @@
         margin-top:20px;
         border:#4d4d4d solid 2px;
         padding:10px 20px;
-        width:255px;
+        max-width:260px;
         color:#4d4d4d;
         font-weight: bold;
         border-radius:5px ;
       }
     }
+  }
     > .reviews{
-      padding-left:100px;
+      padding-left:120px;
       >.section-review{
         margin-bottom:30px;
         >.top{
@@ -525,17 +544,21 @@
   > .note{
     @include center;
     display: flex;
-    > .title{
-      @include title;
-      width:450px;
+    >.sticky {
+      @include sticky;
+      > .title{
+        @include title;
+      }
     }
   }
   > .note > .texts{
+    padding-left:30px;
     >.section-text{
       display: flex;
       border-bottom:#e6e6e6 solid 1px;
       padding-bottom:40px;
       margin-bottom:40px;
+      padding-left:30px;
       > .minititle{
         width:250px;
         font-size:24px;
@@ -660,10 +683,10 @@
     justify-content:space-between;
     background-color:#fff;
     line-height:70px;
-    padding:0px 40px;
+    padding:0px 50px;
     >.left{
       display: flex;
-      
+      padding-left:30px;
       >.image{
         img{
           margin-top:10px;

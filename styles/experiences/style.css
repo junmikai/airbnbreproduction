@@ -346,8 +346,16 @@
   color: #5f5f5f;
 }
 
-.section-layout > .canexperience > .title {
-  width: 300px;
+.section-layout > .canexperience > .sticky {
+  width: 20vw;
+  height: 10vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  left: 0;
+}
+
+.section-layout > .canexperience > .sticky > .title {
   font-size: 30px;
   font-weight: bold;
 }
@@ -355,7 +363,7 @@
 .section-layout > .canexperience > .text {
   max-width: 900px;
   line-height: 2.0;
-  padding-left: 100px;
+  padding-left: 60px;
 }
 
 .section-layout > .challenge-background {
@@ -375,7 +383,6 @@
 }
 
 .section-layout > .challenge-background > .challenge > .title {
-  width: 300px;
   font-size: 30px;
   font-weight: bold;
 }
@@ -407,8 +414,16 @@
   display: flex;
 }
 
-.section-layout > .hosts > .title {
-  width: 300px;
+.section-layout > .hosts > .sticky {
+  width: 20vw;
+  height: 10vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  left: 0;
+}
+
+.section-layout > .hosts > .sticky > .title {
   font-size: 30px;
   font-weight: bold;
 }
@@ -452,8 +467,16 @@
   display: flex;
 }
 
-.section-layout > .belongings > .title {
-  width: 300px;
+.section-layout > .belongings > .sticky {
+  width: 20vw;
+  height: 10vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  left: 0;
+}
+
+.section-layout > .belongings > .sticky > .title {
   font-size: 30px;
   font-weight: bold;
 }
@@ -496,8 +519,16 @@
   display: flex;
 }
 
-.section-layout > .participation > .title {
-  width: 300px;
+.section-layout > .participation > .sticky {
+  width: 20vw;
+  height: 10vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  left: 0;
+}
+
+.section-layout > .participation > .sticky > .title {
   font-size: 30px;
   font-weight: bold;
 }
@@ -561,33 +592,43 @@
   display: flex;
 }
 
-.section-layout > .guestreview > .titles > .title {
-  width: 300px;
+.section-layout > .guestreview > .titles > .sticky {
+  width: 20vw;
+  height: 10vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  left: 0;
+  height: 40vh;
+}
+
+.section-layout > .guestreview > .titles > .sticky > .title {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.section-layout > .guestreview > .titles > .totalreview {
+.section-layout > .guestreview > .titles > .sticky > .totalreview {
   font-weight: bold;
+  width: 255px;
 }
 
-.section-layout > .guestreview > .titles > .totalreview > .fas {
+.section-layout > .guestreview > .titles > .sticky > .totalreview > .fas {
   color: #008489;
 }
 
-.section-layout > .guestreview > .titles > .traditional {
+.section-layout > .guestreview > .titles > .sticky > .traditional {
   margin-top: 20px;
   border: #4d4d4d solid 2px;
   padding: 10px 20px;
-  width: 255px;
+  max-width: 260px;
   color: #4d4d4d;
   font-weight: bold;
   border-radius: 5px;
 }
 
 .section-layout > .guestreview > .reviews {
-  padding-left: 100px;
+  padding-left: 120px;
 }
 
 .section-layout > .guestreview > .reviews > .section-review {
@@ -673,7 +714,6 @@
 }
 
 .section-layout > .reservation > .title {
-  width: 300px;
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 50px;
@@ -740,11 +780,22 @@
   display: flex;
 }
 
-.section-layout > .note > .title {
-  width: 300px;
+.section-layout > .note > .sticky {
+  width: 20vw;
+  height: 10vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  left: 0;
+}
+
+.section-layout > .note > .sticky > .title {
   font-size: 30px;
   font-weight: bold;
-  width: 450px;
+}
+
+.section-layout > .note > .texts {
+  padding-left: 30px;
 }
 
 .section-layout > .note > .texts > .section-text {
@@ -754,6 +805,7 @@
   border-bottom: #e6e6e6 solid 1px;
   padding-bottom: 40px;
   margin-bottom: 40px;
+  padding-left: 30px;
 }
 
 .section-layout > .note > .texts > .section-text > .minititle {
@@ -903,13 +955,14 @@
           justify-content: space-between;
   background-color: #fff;
   line-height: 70px;
-  padding: 0px 40px;
+  padding: 0px 50px;
 }
 
 .section-layout > .fixedfooter > .left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 30px;
 }
 
 .section-layout > .fixedfooter > .left > .image img {
