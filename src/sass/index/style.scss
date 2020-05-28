@@ -259,7 +259,8 @@ position: relative;
        @include explanation;
        @include explanation-font;
        p{
-        width:100%;
+        max-width:50%;
+        padding:10px;
         }
       }
     }    
@@ -278,7 +279,8 @@ position: relative;
             @include explanation;
             @include explanation-font;
             p{
-              width:100%;
+              width:90%;
+              padding:10px;
             }
            }
         }
@@ -290,7 +292,8 @@ position: relative;
             @include explanation;
             @include explanation-font;
             p{
-              width:100%;
+              width:90%;
+              padding:10px;
             }
            }
         }
@@ -307,7 +310,8 @@ position: relative;
           @include explanation;
           @include explanation-font;
           p{
-            width:100%;
+            width:90%;
+            padding:10px;
           }
          }
       }
