@@ -251,7 +251,7 @@ position: relative;
       width:100%;
       .sangría{
         @include division;
-        background-image:url("/Users/mikaijun/airbnb/image/sangría.png");
+        background-image:url("/Users/mikaijun/airbnb/src/image/sangría.png");
         @include background-size;
       > .explanation{
        @include explanation;
@@ -270,7 +270,7 @@ position: relative;
         width:100%;
         > .yoga{
           @include division-second;
-          background-image:url("/Users/mikaijun/airbnb/image/yoga.png");
+          background-image:url("/Users/mikaijun/airbnb/src/image/yoga.png");
           @include background-size;
           > .explanation{
             @include explanation;
@@ -282,7 +282,7 @@ position: relative;
         }
         > .music{
           @include division-second;
-          background-image:url("/Users/mikaijun/airbnb/image/music.png");
+          background-image:url("/Users/mikaijun/airbnb/src/image/music.png");
           @include background-size;
           > .explanation{
             @include explanation;
@@ -297,7 +297,7 @@ position: relative;
         width:100%;
         height:45%;
         margin-top:35px;
-        background-image:url("/Users/mikaijun/airbnb/image/penguin.png");
+        background-image:url("/Users/mikaijun/airbnb/src/image/penguin.png");
         background-size:cover;
         border-radius:30px;
         position: relative;
