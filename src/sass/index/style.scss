@@ -319,17 +319,19 @@ position: relative;
     height:500px;
     width:100%;
     background-color:#f5f5f5;
-    padding:70px;
     border-bottom:solid 1px #cdcdcd;
     > .latestinformation{
       font-size:22px;
       font-weight: bold;
+      padding:30px 0px 0px 50px;
     }
   }
   > .news > .section-informations{
     height:300px;
     width:100%;
     margin-top:30px;
+    padding-left:50px;
+    width:95%;
     > .section-information{
       width:23%;
       margin-right:15px;
@@ -357,9 +359,10 @@ position: relative;
    /*リンク集*/
   > .section-linkcollections{
     height:300px;
-    width:100%;
-    padding:40px 80px;
+    width:90%;
     @include space-between;
+    margin-top:30px;
+    padding-left:50px;
     > .section-linkcollection{
       width:25%;
       > .title{

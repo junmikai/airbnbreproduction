@@ -292,7 +292,7 @@
           padding-top:45px;
           display: flex;
           width:85%;
-          padding-left:100px;
+          padding-left:70px;
           > .section-text{
             margin:0px 20px;
             width:33%;
@@ -715,7 +715,7 @@
     justify-content:space-between;
     background-color:#fff;
     line-height:70px;
-    padding:0px 50px;
+    padding:0px 0px;
     >.left{
       display: flex;
       padding-left:30px;
@@ -742,6 +742,7 @@
     }
     >.right{
       display: flex;
+      padding-right:30px;
       >.price{
         font-weight: bold;
         font-size:13px;
