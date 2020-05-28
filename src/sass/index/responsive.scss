@@ -24,6 +24,10 @@
         > .section-informations > .section-information{
           width:100%;
           margin-top:50px;
+          padding-right:50px;
+          ul{
+            width:500px;
+        }
       }
     }
       > .section-linkcollections{
@@ -181,6 +185,5 @@
         width:150%;
       }
     }   
-  }
-  
+  }  
 }
