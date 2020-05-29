@@ -1,6 +1,6 @@
 import "./sass/index/style.scss";
 import "./sass/index/responsive.scss";
-import "./sass/index/tools.scss";
+import "./sass/index/mixin.scss";
 import "./sass/index/settings.scss";
 import "./sass/index/color.scss";
 
