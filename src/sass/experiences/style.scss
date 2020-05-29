@@ -8,753 +8,925 @@
 .section-layout{
   width:100%;
   position: relative;
-    // 固定ヘッダー
-    >.fixedheader{
-      width:100%;
-      height:20px;
-      position: fixed;
-      background-color:#fff;
-      top: 0px;
-      left: 0px;
-      z-index: 1;
-      display:none;
-      border-bottom: rgb(212, 212, 212) solid 1px;
-      padding:15px 50px;
-      font-size:14px;
-      color:#01999e;
-      margin-bottom:30px;
-    }
-  // 黒枠
-  > .blackbox{
-    background-color:black;
-    padding-bottom:30px;
-    // 黒枠/ヘッダー
-    > .experiencesheader{
-    padding-top:20px;
-    display:flex;
-    justify-content:space-between;
-    max-width:1300px;
-    margin:0 auto;
-    }
-  }
-  > .blackbox > .experiencesheader{
-    > .searchbox{
-      display: flex;
-      height:45px;
-      background-color:rgb(51, 51, 51);
-      border-radius: 15px;
-      color:rgb(223, 221, 221);
-      font-size:14px;
-      width:280px;
-      z-index: 1;
-      > .section-form{
-        width:40%;
-        border-right: thin solid rgb(150, 150, 150);
-        text-align: center;
-        line-height:45px;
-      }
-      > .section-form:nth-child(3){
-        border-right:initial;
-        font-size:20px;
-        width:10%;
-        padding-left:20px;
-      }
-    }
-    > .menu ul{
-      display: flex;
-      list-style: none;
-       li{
-        padding:10px;
-         a{
-          text-decoration:none;
-          font-size:15px;
-          color:#fff;
-        }
-         .fa-globe{
-          margin-right:7px;
-        }
-        .register{
-          padding:15px;
-          border-radius: 20px;
-          background-color:rgb(51, 51, 51);
-        }
-      }
-    }
-  }
-    // 黒枠/画像
-    >.blackbox > .imagebox{
-      @include mainpage;
-      height:30vw;
-      > .imagesmile{ 
-        @include imagebox ;
-        background-image:url("/Users/mikaijun/airbnb/src/image/dance.png");
-    }
-      > .imagephoenix{ 
-        @include imagebox ;
-        background-image:url("/Users/mikaijun/airbnb/src/image/phoenix.png");
-    }
-      > .smallimages{
-        width:15vw;
-        > .imagedrink{
-          @include smallimagebox;
-          background-image:url("/Users/mikaijun/airbnb/src/image/drink.png");
-          margin-bottom:5px;
-      }
-        > .imageshoot{
-          @include smallimagebox;
-          background-image:url("/Users/mikaijun/airbnb/src/image/shoot.png");
-      }
-    }
-      > .imagecooking{ 
-        @include imagebox ;
-        background-image:url("/Users/mikaijun/airbnb/src/image/cooking.png");
-    }
-    > .snsbtn{
-      width:200px;
-      height:40px;
-      position: absolute;
-      right:30px;
-      top:20px;
-      display: flex;
-      justify-content:space-between;
-      > .share{
-        @include snsbtn;
-        @include snsbtn-font;
-        > .fas{
-          padding-right:10px;
-        }
-      }
-      > .like{
-        @include snsbtn;
-        @include snsbtn-font;
-        > .far{
-          padding-right:10px;
-        }
-      }
-    }
-  }
+}
 
-  // 黒枠/説明文
-  > .blackbox > .explanation{
-    @include mainpage;
-    
-  }
-  > .blackbox > .explanation >.left{
-    width:25%;
-    > .icon{
-      height:20px;
-      width:120px;
-      background-color:#fcfcfc;
-      border-radius: 5px;
-      display: flex;
-      line-height:1;
-      font-weight: bold;
-      padding:5px;
-      margin-bottom:10px;
-      > .fas{
-        padding-right:5px;
-        font-size:9px;
-      }
-      > p{
-        font-size:12px;
-        line-height:0.9;
-      }
-    }
-    > .title{
-      width:90%;
-      color:#fff;
-      font-size:30px;
-      line-height:1.1;
-      margin-bottom:10px;
-    }
-    > .country{
-      height:25px;
-      width:200px;
-      color:#fff;
-      margin-bottom:10px;
-    }
-    > .review{
-      height:25px;
-      width:150px;
-      font-size:14px;
-      color:#fff;
-      margin-bottom:10px;
-      span{
-        font-weight: bold;
-        margin-right:5px;
-        
-      }
-      .fas{
-        margin-right:5px;
-      }
-    }
-    > .tags{
-      height:50px;
-      width:200px;
-      display: flex;
-      font-size:12px;
-      flex-wrap :wrap;
-      margin-bottom:10px;
-      > .section-tag{
-        background-color:#333333;
-        border-radius: 3px;
-        height:20px;
-        padding:0px 5px;
-        margin-right:7px;
-        color:#fff;
-      }
-    }
-    > .translation{
-      width:270px;
-      .border{
-        margin-top:5px;
-        border: #fff solid 2px;
-        padding:10px 15px;
-        display: flex;
-        color:#fff;
-        text-align: center;
-        .fas{
-          margin-right:5px;
-          font-size:30px;
-        }
-        p{
-          line-height:1.7;
-        }
-      }
-    }
-  }
-  > .blackbox > .explanation >.right{
-    width:50%;
-    margin-left:80px;
-    > .devise{
-      margin:30px 0px;
-      display: flex;
-      border-top:gray solid 1px;
-      border-bottom:gray solid 1px;
-      color:#fff;
-      font-size:14px;
-      line-height:57px;
-      padding:10px 0px;
-    }
-    > .specs{
-      height:150px;
-      width:70%;
-      margin-top:20px;
-      display: flex;
-      justify-content:space-between;
-      font-size:13px;
-      color:#fff;
-    }
-    > .specs > .section-spec{
-      > .fas{
-        color:gray;
-        margin-bottom:10px;
-      }
-      > .section-title{
-        color:gray;
-      }
-    }
-  }
-  
-  // 体験できる事
-    > .canexperience{
-      display: flex;
-      @include center;
-      margin-bottom:40px;
-      >.sticky {
-        @include sticky;
-        > .title{
-          @include title;
-          padding-top:40px;
-        }
-      }
-     
-      > .text{
-        padding-top:45px;
-        max-width:900px;
-        line-height:2.0;
-        padding-left:60px;
-      }
-    }
+// 固定ヘッダー
+.section-layout > .fixedheader{
+  width:100%;
+  height:20px;
+  position: fixed;
+  background-color:#fff;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  display:none;
+  border-bottom: rgb(212, 212, 212) solid 1px;
+  padding:15px 50px;
+  font-size:14px;
+  color:#01999e;
+  margin-bottom:30px;
+}
 
-    // チャレンジ
-    > .challenge-background{
-      height:400px;
-      background-color:rgb(240, 239, 239);
-      > .challenge{
-        @include center;
-        display: flex;
-        padding-top:120px;
-        > .title{
-          @include title;
-        }
-        > .texts{
-          padding-top:45px;
-          display: flex;
-          width:85%;
-          padding-left:70px;
-          > .section-text{
-            margin:0px 20px;
-            width:33%;
-            > .minititle{
-              font-weight: bold;
-            }
-          }
-        }
-      }
-    }
 
-    // ホスト
-    > .hosts{
-      @include center;
-      display: flex;
-      >.sticky {
-        @include sticky;
-        > .title{
-          padding-top:45px;
-          @include title;
-        }
-      }
-      > .hostdata{
-        padding-top:45px;
-        padding-left:100px;
-        > img{
-          border-radius: 50%; 
-        }
-        > .hostname{
-          @include size22;
-          margin-top:10px;
-        }
-        > .hosttext{
-          line-height:2.0;
-          max-width:1000px;
-      }
-      > .contact{
-         @include greenbtn;
-      }
-    }
-  }
 
-  // 持ち物
-  > .belongings{
-    @include center;
-    display: flex;
-    >.sticky {
-      @include sticky;
-      > .title{
-        padding-top:45px;
-        @include title;
-      }
-    }
-    > .texts{
-      padding-top:45px;
-      padding-left:100px;
-      width:100%;
-      > .section-text{
-        height:65px;
-        margin-top:30px;
-        border-bottom:#e6e6e6 solid 1px;
-        display: flex;
-        > .far{
-          font-size:30px;
-          margin-right:10px;
-        }
-        > p{
-          line-height:2;
-          font-size:15px;
-        }
-        span{
-          color:#008489;
-        }
-      }
-    }
+// 黒枠
+.section-layout > .blackbox{
+  background-color:black;
+  padding-bottom:30px;
+}
+// 黒枠/ヘッダー
+.section-layout > .blackbox > .experiencesheader{
+  padding-top:20px;
+  display:flex;
+  justify-content:space-between;
+  max-width:1300px;
+  margin:0 auto;
+}
+// 黒枠/ヘッダー/検索ボックス
+.section-layout > .blackbox > .experiencesheader  > .searchbox{
+  display: flex;
+  height:45px;
+  background-color:rgb(51, 51, 51);
+  border-radius: 15px;
+  color:rgb(223, 221, 221);
+  font-size:14px;
+  width:280px;
+  z-index: 1;
+  > .section-form{
+    width:40%;
+    border-right: thin solid rgb(150, 150, 150);
+    text-align: center;
+    line-height:45px;
   }
-
-  // 参加方法
-  > .participation{
-    @include center;
-    display: flex;
-    >.sticky {
-      @include sticky;
-      > .title{
-        @include title;
-        padding-top:45px;
-      }
-    }
-    
-    > .texts{
-      padding-top:45px;
-      padding-left:100px;
-      width:100%;
-      > .videocall{
-        border-bottom:#e6e6e6 solid 1px;
-        padding-bottom:50px;
-        > .section-title{
-          @include size22;
-          margin:10px 0px;
-        }
-        > .section-details{
-          margin:20px 0px;
-          font-size:18px;
-          span{
-            font-weight:bold;
-            text-decoration: underline
-          }
-        }
-        > .comment{
-          background-color:rgb(240, 239, 239);
-          padding:20px;
-          border-radius: 10px;
-          font-size:15px;
-          max-width:800px;
-          span{
-            font-size:13px;
-            font-weight: bold;
-          }
-        }
-      }
-      > .charter{
-        > .section-title{
-          @include size22;
-          margin:10px 0px;
-        }
-        > .section-details{
-          font-size:18px;
-        }
-      }
-    }
+  > .section-form:nth-child(3){
+    border-right:initial;
+    font-size:20px;
+    width:10%;
+    padding-left:20px;
   }
-
-  // レビュー
-  > .guestreview{
-    @include center;
-    display: flex;
-    padding-top:45px;
-    margin-bottom:40px;
-    >.titles{
-      >.sticky {
-        @include sticky;
-        height:40vh;
-        >.title{
-          padding-top:45px;
-          @include title;
-          margin-bottom:10px;
-        }
-     
-      > .totalreview{
-        font-weight: bold;
-        width:255px;
-        > .fas{
-          color:#008489;
-        }
-      }
-      > .traditional{
-        margin-top:20px;
-        border:#4d4d4d solid 2px;
-        padding:10px 20px;
-        max-width:260px;
-        color:#4d4d4d;
-        font-weight: bold;
-        border-radius:5px ;
-      }
-    }
-  }
-    > .reviews{
-      padding-top:45px;
-      padding-left:120px;
-      >.section-review{
-        margin-bottom:30px;
-        >.top{
-          display:flex;
-          > .left{
-            > img{
-              border-radius: 50%; 
-            }
-          }
-        }
-      }
-     > .section-review > .top > .right{
-      margin-left:20px;
-        > .reviewuser{
-          display:flex;
-          font-size:15px;
-          > .username{
-            font-weight: bold;
-            margin-right:5px;
-          }
-          > .month{
-            font-size:13px;
-            line-height:2;
-          }
-        }
-        > .reviewstar{
-          > .fas{
-            color:#008489;
-          }
-        }
-      }
-      > .section-review > .down{
-        margin-top:15px;
-        border-bottom:#e6e6e6 solid 1px;
-        padding-bottom:30px;
-        span{
-          color:#008489;
-        }
-      }
-      > .section-review:nth-child(5) > .down{
-        border-bottom:initial;
-      }
-      > .section-review > .pagination{
-        color:#008489;
-        font-size:14px;
-        display: flex;
-        span{
-          letter-spacing:40px;
-        }
-        > .bot{
-          margin-right:20px;
-        }
-        > .fas{
-          font-size:30px;
-          margin-left:30px;
-          line-height:0.7;
-        }  
-      }
-    }  
-  }
-
-  // 予約
-  > .reservation{
-    @include center;
-    > .title{
-      @include title;
-      margin-bottom:50px;
-    }
-    > .calendars{
-      display: flex;
-      @include scroll2;
-    }
-  }
-  > .reservation > .calendars  > .section-calendar{
-    display: inline-block;
-    padding:0px 30px;
-    > .month{
-      font-size:18px;
-      margin-bottom:20px;
-    }
-  }
-  > .reservation > .calendars  > .section-calendar >.calendar{
-    table{
-      width:90%;
-      tr{
-        th{
-          font-weight: normal;
-          font-size:12px;
-        }
-        td{
-          background-color:rgb(240, 239, 239);
-          border-radius: 3px;
-          text-align: center;
-          font-size:10px;
-          padding:7px;
-        }
-        > .none{
-          opacity: 0;
-        }
-      }
-    }
-  }
-
-  > .reservation > .daychoice{
-    @include greenbtn;
-    width:130px;
-  }
-
-  // 注意
-  > .note{
-    @include center;
-    display: flex;
-    >.sticky {
-      @include sticky;
-      > .title{
-        @include title;
-        padding-top:45px;
-      }
-    }
-  }
-  > .note > .texts{
-    padding-top:45px;
-    padding-left:30px;
-    >.section-text{
-      display: flex;
-      border-bottom:#e6e6e6 solid 1px;
-      padding-bottom:40px;
-      margin-bottom:40px;
-      padding-left:30px;
-      > .minititle{
-        width:250px;
-        font-size:24px;
-        font-weight: bold;
-        margin-right:20px;
-      }
-      > .text{
-        width:31vw;
-        > span{
-          color:#008489;
-          font-weight: bold;
-          font-size:14px;     
-        }      
-      }
-      >.fas {
-        font-size:25px;
-      }
-    }
-    > .section-text:nth-child(4){
-      border-bottom:initial;
-    }
-  }
-  // その他体験
-  >.otherexperiences{
-    margin:0 auto;
-    max-width:1500px;
-    padding:100px 20px;
-    border-bottom:#e6e6e6 solid 1px;
-    > .title{
-      font-size:30px;
-      font-weight: bold;
-      color:#5f5f5f;
-    }
-    > .experiences{
-      margin-top:30px;
-      display: flex;
-      overflow-x:auto;
-    }
-  }
-  >.otherexperiences > .experiences > .section-experience{
-    height:100%;
-    margin:0px 7px;
-    color:rgb(49, 49, 49);
-    
-    >.image{
-      background-image: url("/Users/mikaijun/airbnb/src/image/Chernobyl.png");
-      background-size:cover;
-      border-radius: 10px;
-      height:15vw;
-      width:13vw;
-      position: relative;
-      >.online{
-        background-color:black;
-        width:65px;
-        height:20px;
-        font-size:12px;
-        color:#fff;
-        position: absolute;
-        left:15px;
-        top:10px;
-        border-radius: 5px;
-        font-weight: bold;
-        padding-left:3px;
-      }
-    }
-    >.country{
-      margin:5px 0px;
-      font-size:12px;
-      font-weight: bold;
-      max-width:200px;
-      white-space:pre-wrap;
-    }
-    >.minititle{
-      margin-bottom:6px;
-      max-width:200px;
-      white-space:pre-wrap;
-    }
-    >.price{
+}
+// 黒枠/ヘッダー/右メニュー
+.section-layout > .blackbox > .experiencesheader > .menu > ul{
+  display: flex;
+  list-style: none;
+    li{
+    padding:10px;
+      a{
+      text-decoration:none;
       font-size:15px;
+      color:#fff;
     }
-    >.review{
+      .fa-globe{
+      margin-right:7px;
+    }
+    .register{
+      padding:15px;
+      border-radius: 20px;
+      background-color:rgb(51, 51, 51);
+    }
+  }
+}
+
+// 黒枠/画像枠
+.section-layout >.blackbox > .imagebox{
+    @include mainpage;
+    height:30vw;
+}
+// 黒枠/画像枠/画像詳細
+.section-layout >.blackbox > .imagebox{
+  > .imagesmile{ 
+    @include imagebox ;
+    background-image:url("/Users/mikaijun/airbnb/src/image/dance.png");
+  }
+  > .imagephoenix{ 
+    @include imagebox ;
+    background-image:url("/Users/mikaijun/airbnb/src/image/phoenix.png");
+  }
+  > .smallimages{
+    width:15vw;
+    > .imagedrink{
+      @include smallimagebox;
+      background-image:url("/Users/mikaijun/airbnb/src/image/drink.png");
+      margin-bottom:5px;
+    }
+    > .imageshoot{
+      @include smallimagebox;
+      background-image:url("/Users/mikaijun/airbnb/src/image/shoot.png");
+    }
+  }
+  > .imagecooking{ 
+    @include imagebox ;
+    background-image:url("/Users/mikaijun/airbnb/src/image/cooking.png");
+  }
+} 
+// 黒枠/画像枠/SNSボタン
+.section-layout >.blackbox > .imagebox > .snsbtn{
+  width:200px;
+  height:40px;
+  position: absolute;
+  right:30px;
+  top:20px;
+  display: flex;
+  justify-content:space-between;
+  > .share{
+    @include snsbtn;
+    @include snsbtn-font;
+    > .fas{
+    padding-right:10px;
+  }
+}
+  > .like{
+    @include snsbtn;
+    @include snsbtn-font;
+    > .far{
+    padding-right:10px;
+    }
+  }
+}
+
+
+// 黒枠/説明文
+.section-layout > .blackbox > .explanation{
+  @include mainpage;
+}
+// 黒枠/説明文/左側アイコン
+.section-layout > .blackbox > .explanation >.left{
+  width:25%;
+  > .icon{
+    height:20px;
+    width:120px;
+    background-color:#fcfcfc;
+    border-radius: 5px;
+    display: flex;
+    line-height:1;
+    font-weight: bold;
+    padding:5px;
+    margin-bottom:10px;
+    > .fas{
+      padding-right:5px;
+      font-size:9px;
+    }
+    > p{
       font-size:12px;
-      >.fas{
-        margin-right:3px;
-      }
-      span{
-        color:rgb(97, 97, 97);
-        margin-left:3px;
-      }
+      line-height:0.9;
     }
   }
-  >.otherexperiences > .experiences > .section-experience:nth-child(2) > .image{
-    background-image: url("/Users/mikaijun/airbnb/src/image/farm.png");
+}
+// 黒枠/説明文/左側タイトル
+.section-layout > .blackbox > .explanation > .left > .title{
+  width:90%;
+  color:#fff;
+  font-size:30px;
+  line-height:1.1;
+  margin-bottom:10px;
+}
+// 黒枠/説明文/左側国名
+.section-layout > .blackbox > .explanation > .left > .country{
+  height:25px;
+  width:200px;
+  color:#fff;
+  margin-bottom:10px;
+}
+// 黒枠/説明文/左側レビュー
+.section-layout > .blackbox > .explanation > .left > .review{
+  height:25px;
+  width:150px;
+  font-size:14px;
+  color:#fff;
+  margin-bottom:10px;
+  span{
+    font-weight: bold;
+    margin-right:5px;
+    
   }
-  >.otherexperiences > .experiences > .section-experience:nth-child(3) > .image{
-    background-image: url("/Users/mikaijun/airbnb/src/image/zazen.png");
+  .fas{
+    margin-right:5px;
   }
-  >.otherexperiences > .experiences > .section-experience:nth-child(4) > .image{
-    background-image: url("/Users/mikaijun/airbnb/src/image/gogh.png");
+}
+// 黒枠/説明文/左側タグ
+.section-layout > .blackbox > .explanation > .left > .tags{
+  height:50px;
+  width:200px;
+  display: flex;
+  font-size:12px;
+  flex-wrap :wrap;
+  margin-bottom:10px;
+  > .section-tag{
+    background-color:#333333;
+    border-radius: 3px;
+    height:20px;
+    padding:0px 5px;
+    margin-right:7px;
+    color:#fff;
   }
-  >.otherexperiences > .experiences > .section-experience:nth-child(5) > .image{
-    background-image: url("/Users/mikaijun/airbnb/src/image/yagi.png");
+}
+// 黒枠/説明文/左側翻訳
+.section-layout > .blackbox > .explanation > .left > .translation{
+  width:270px;
+  > .border{
+    margin-top:5px;
+    border: #fff solid 2px;
+    padding:10px 15px;
+    display: flex;
+    color:#fff;
+    text-align: center;
+    > .fas{
+      margin-right:5px;
+      font-size:30px;
+    }
+    > p{
+      line-height:1.7;
+    }
   }
-  >.otherexperiences > .experiences > .section-experience:nth-child(6) > .image{
-    background-image: url("/Users/mikaijun/airbnb/src/image/table.png");
+}
+// 黒枠/説明文/右側全体
+.section-layout > .blackbox > .explanation >.right{
+  width:50%;
+  margin-left:80px;
+}
+// 黒枠/説明文/右側デバイス画像
+.section-layout > .blackbox > .explanation >.right > .devise{
+  margin:30px 0px;
+  display: flex;
+  border-top:gray solid 1px;
+  border-bottom:gray solid 1px;
+  color:#fff;
+  font-size:14px;
+  line-height:57px;
+  padding:10px 0px;
+}
+// 黒枠/説明文/右側詳細
+.section-layout > .blackbox > .explanation >.right > .specs{
+  height:150px;
+  width:70%;
+  margin-top:20px;
+  display: flex;
+  justify-content:space-between;
+  font-size:13px;
+  color:#fff;
+  > .section-spec{
+    > .fas{
+      color:gray;
+      margin-bottom:10px;
+    }
+    > .section-title{
+      color:gray;
+    }
   }
-  >.otherexperiences > .allshow{
-    margin-top:50px;
-    color:#008489;
+}
+
+  
+
+
+
+// 体験できる事
+.section-layout > .canexperience{
+  display: flex;
+  @include center;
+  margin-bottom:40px;
+}
+// 体験できる事/左タイトル
+.section-layout > .canexperience  >.sticky {
+  @include sticky;
+  > .title{
+    @include title;
+    padding-top:40px;
+  }
+}
+// 体験できる事/右テキスト
+.section-layout > .canexperience > .text{
+  padding-top:45px;
+  max-width:900px;
+  line-height:2.0;
+  padding-left:60px;
+}
+
+
+
+
+// チャレンジ
+.section-layout > .challenge-background{
+  height:400px;
+  background-color:rgb(240, 239, 239);
+}
+// チャレンジ/文字全体
+.section-layout > .challenge-background > .challenge{
+    @include center;
+    display: flex;
+    padding-top:120px;
+}
+// チャレンジ/左タイトル
+.section-layout > .challenge-background > .challenge > .title{
+  @include title;
+}
+// チャレンジ/右文字全体
+.section-layout > .challenge-background > .challenge > .texts{
+  padding-top:45px;
+  display: flex;
+  width:85%;
+  padding-left:70px;
+}
+// チャレンジ/右文字詳細
+.section-layout > .challenge-background > .challenge > .texts > .section-text{
+  margin:0px 20px;
+  width:33%;
+  > .minititle{
     font-weight: bold;
   }
+}
 
-  // 固定フッター
-  >.fixedfooter{
-    height:70px;
-    width:100%;
-    border-top:#d8d8d8 solid 1px;
-    position: absolute;
-    position: fixed;
-    bottom: 0;
+
+
+
+
+// ホスト
+.section-layout > .hosts{
+  @include center;
+  display: flex;
+}
+// ホスト/左タイトル
+.section-layout > .hosts >.sticky {
+  @include sticky;
+  > .title{
+    padding-top:45px;
+    @include title;
+  }
+}
+// ホスト/右側
+.section-layout > .hosts > .hostdata{
+  padding-top:45px;
+  padding-left:100px;
+  > img{
+    border-radius: 50%; 
+  }
+  > .hostname{
+    @include size22;
+    margin-top:10px;
+  }
+  > .hosttext{
+    line-height:2.0;
+    max-width:1000px;
+  } 
+  > .contact{
+    @include greenbtn;
+  }
+}
+
+
+
+
+// 持ち物
+.section-layout > .belongings{
+  @include center;
+  display: flex;
+}
+// 持ち物/左タイトル
+.section-layout > .belongings > .sticky {
+  @include sticky;
+  > .title{
+    padding-top:45px;
+    @include title;
+  }
+}
+// 持ち物/右側全体
+.section-layout > .belongings > .texts{
+  padding-top:45px;
+  padding-left:100px;
+  width:100%;
+}
+// 持ち物/右側テキスト詳細
+.section-layout > .belongings > .texts > .section-text{
+  height:65px;
+  margin-top:30px;
+  border-bottom:#e6e6e6 solid 1px;
+  display: flex;
+  > .far{
+    font-size:30px;
+    margin-right:10px;
+  }
+  > p{
+    line-height:2;
+    font-size:15px;
+  }
+  span{
+    color:#008489;
+  }
+}
+
+
+
+
+
+// 参加方法
+.section-layout > .participation{
+  @include center;
+  display: flex;
+}
+// 参加方法/左タイトル
+.section-layout > .participation > .sticky {
+  @include sticky;
+  > .title{
+    @include title;
+    padding-top:45px;
+  }
+}
+// 参加方法/右側全体
+.section-layout > .participation > .texts{
+  padding-top:45px;
+  padding-left:100px;
+  width:100%;
+}
+// 参加方法/ビデオ通話
+.section-layout > .participation > .texts > .videocall{
+  border-bottom:#e6e6e6 solid 1px;
+  padding-bottom:50px;
+  > .section-title{
+    @include size22;
+    margin:10px 0px;
+    }
+    > .section-details{
+    margin:20px 0px;
+    font-size:18px;
+    span{
+      font-weight:bold;
+      text-decoration: underline
+    }
+  }
+  > .comment{
+    background-color:rgb(240, 239, 239);
+    padding:20px;
+    border-radius: 10px;
+    font-size:15px;
+    max-width:800px;
+    span{
+      font-size:13px;
+      font-weight: bold;
+    }
+  }
+}
+// 参加方法/貸し切り
+.section-layout > .participation > .texts > .charter{
+  > .section-title{
+    @include size22;
+    margin:10px 0px;
+  }
+  > .section-details{
+    font-size:18px;
+  }
+}
+  
+
+
+// レビュー
+.section-layout > .guestreview{
+  @include center;
+  display: flex;
+  padding-top:45px;
+  margin-bottom:40px;
+}
+// レビュー/左側タイトル
+.section-layout > .guestreview >.titles{
+  >.sticky {
+    @include sticky;
+    height:40vh;
+    >.title{
+      padding-top:45px;
+      @include title;
+      margin-bottom:10px;
+    }
+  }
+}
+// レビュー/左側総合レビュー
+.section-layout > .guestreview >.titles > .sticky > .totalreview{
+  font-weight: bold;
+  width:255px;
+  > .fas{
+    color:#008489;
+  }
+}
+// レビュー/左側翻訳
+.section-layout > .guestreview >.titles > .sticky > .traditional{
+  margin-top:20px;
+  border:#4d4d4d solid 2px;
+  padding:10px 20px;
+  max-width:260px;
+  color:#4d4d4d;
+  font-weight: bold;
+  border-radius:5px ;
+}
+// レビュー/右側全体
+.section-layout > .guestreview > .reviews{
+  padding-top:45px;
+  padding-left:120px;
+} 
+// レビュー/右側レビュー事の空白
+.section-layout > .guestreview > .reviews > .section-review{
+  margin-bottom:30px;
+}
+// レビュー/右側画像
+.section-layout > .guestreview > .reviews > .section-review >.top{
+  display:flex;
+    img{
+    border-radius: 50%; 
+  }
+}
+// レビュー/右側画像との空白
+.section-layout > .guestreview > .reviews > .section-review > .top > .right{
+  margin-left:20px;
+}
+// レビュー/右側レビュワー情報
+.section-layout > .guestreview > .reviews > .section-review > .top > .right > .reviewuser{
+  display:flex;
+  font-size:15px;
+  > .username{
+    font-weight: bold;
+    margin-right:5px;
+  }
+  > .month{
+    font-size:13px;
+    line-height:2;
+  }
+}
+// レビュー/右側レビュー星
+.section-layout > .guestreview > .reviews > .section-review > .top > .right > .reviewstar{
+  > .fas{
+    color:#008489;
+  }
+}
+// レビュー/右側レビューコメント
+.section-layout > .guestreview > .reviews > .section-review > .down{
+  margin-top:15px;
+  border-bottom:#e6e6e6 solid 1px;
+  padding-bottom:30px;
+  span{
+    color:#008489;
+  }
+}
+// レビュー/右側レビュー5個目だけ下線なし
+.section-layout > .guestreview > .reviews > .section-review:nth-child(5) > .down{
+    border-bottom:initial;
+}
+// レビュー/ページネーション
+.section-layout > .guestreview > .reviews > .section-review > .pagination{
+  color:#008489;
+  font-size:14px;
+  display: flex;
+  span{
+    letter-spacing:40px;
+  }
+  > .bot{
+    margin-right:20px;
+  }
+  > .fas{
+    font-size:30px;
+    margin-left:30px;
+    line-height:0.7;
+  }  
+}
+ 
+
+
+// 予約全体設定
+.section-layout > .reservation{
+  @include center;
+  > .title{
+    @include title;
+    margin-bottom:50px;
+  }
+  > .calendars{
     display: flex;
-    justify-content:space-between;
-    background-color:#fff;
-    line-height:70px;
-    padding:0px 0px;
-    >.left{
-      display: flex;
-      padding-left:30px;
-      >.image{
-        img{
-          margin-top:10px;
-          border-radius: 50%;
-        }    
-      }
-      >.title{
-        margin:0px 10px;
-        font-size:13px;
-        font-weight: bold;
-      }
-      >.review{
-        font-size:10px;
-        font-weight: bold;
-        color:#008489;
-      }
-      >.reviewcount{
-        font-size:10px;
-        color:#5f5f5f;
-      }
+    @include scroll2;
+  }
+}
+
+// 予約全体設定/月表示
+.section-layout > .reservation > .calendars  > .section-calendar{
+  display: inline-block;
+  padding:0px 30px;
+  > .month{
+    font-size:18px;
+    margin-bottom:20px;
+  }
+}
+// 予約全体設定/カレンダー
+.section-layout > .reservation > .calendars  > .section-calendar >.calendar > table {
+  width:90%;
+  tr{
+    th{
+      font-weight: normal;
+      font-size:12px;
     }
-    >.right{
-      display: flex;
-      padding-right:30px;
-      >.price{
-        font-weight: bold;
-        font-size:13px;
-      }
-      >.daybtn{
-        @include daybtn;
-      }
+    td{
+      background-color:rgb(240, 239, 239);
+      border-radius: 3px;
+      text-align: center;
+      font-size:10px;
+      padding:7px;
+    }
+    > .none{
+      opacity: 0;
     }
   }
-  > .black{
-    background-color:#000;
+}
+// 予約全体設定/日付選択
+.section-layout > .reservation > .daychoice{
+  @include greenbtn;
+  width:130px;
+}
+
+// 注意
+.section-layout > .note{
+  @include center;
+  display: flex;
+}
+// 注意/左側タイトル
+.section-layout > .note >.sticky {
+  @include sticky;
+  > .title{
+    @include title;
+    padding-top:45px;
+  }
+}
+// 注意/右側全体
+.section-layout > .note > .texts{
+  padding-top:45px;
+  padding-left:30px;
+}
+// 注意/右側1つのテキスト詳細
+.section-layout > .note > .texts > .section-text{
+  display: flex;
+  border-bottom:#e6e6e6 solid 1px;
+  padding-bottom:40px;
+  margin-bottom:40px;
+  padding-left:30px;
+}
+
+// 注意/右側文字詳細
+.section-layout > .note > .texts > .section-text{
+  > .minititle{
+    width:250px;
+    font-size:24px;
+    font-weight: bold;
+    margin-right:20px;
+  }
+  > .text{
+    width:31vw;
+    > span{
+      color:#008489;
+      font-weight: bold;
+      font-size:14px;     
+    }      
+  }
+  >.fas {
+    font-size:25px;
+  }
+} 
+
+// 注意/右側最後下線なし
+.section-layout > .note > .texts > .section-text:nth-child(4){
+  border-bottom:initial;
+}
+
+
+
+// その他体験全体
+.section-layout >.otherexperiences{
+  margin:0 auto;
+  max-width:1500px;
+  padding:100px 20px;
+  border-bottom:#e6e6e6 solid 1px;
+  > .title{
+    font-size:30px;
+    font-weight: bold;
+    color:#5f5f5f;
+  }
+  > .experiences{
+    margin-top:30px;
+    display: flex;
+    overflow-x:auto;
+  }
+}
+// その他体験1つのサイズ
+.section-layout >.otherexperiences > .experiences > .section-experience{
+  height:100%;
+  margin:0px 7px;
+  color:rgb(49, 49, 49);
+}
+// その他体験画像
+.section-layout >.otherexperiences > .experiences > .section-experience > .image{
+  background-image: url("/Users/mikaijun/airbnb/src/image/Chernobyl.png");
+  background-size:cover;
+  border-radius: 10px;
+  height:15vw;
+  width:13vw;
+  position: relative;
+  >.online{
+    background-color:black;
+    width:65px;
+    height:20px;
+    font-size:12px;
     color:#fff;
-    border-top:initial ;
+    position: absolute;
+    left:15px;
+    top:10px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-left:3px;
   }
+}
+// その他体験国名
+.section-layout >.otherexperiences > .experiences > .section-experience >.country{
+  margin:5px 0px;
+  font-size:12px;
+  font-weight: bold;
+  max-width:200px;
+  white-space:pre-wrap;
+}
+// その他体験タイトル
+.section-layout >.otherexperiences > .experiences > .section-experience >.minititle{
+  margin-bottom:6px;
+  max-width:200px;
+  white-space:pre-wrap;
+}
+// その他体験値段
+.section-layout >.otherexperiences > .experiences > .section-experience >.price{
+  font-size:15px;
+}
+// その他レビュー
+.section-layout >.otherexperiences > .experiences > .section-experience > .review{
+  font-size:12px;
+  >.fas{
+    margin-right:3px;
+  }
+  span{
+    color:rgb(97, 97, 97);
+    margin-left:3px;
+  }
+}
+
+// その他2枚目以降の画像
+.section-layout > .otherexperiences > .experiences{
+  > .section-experience:nth-child(2) > .image{
+    background-image: url("/Users/mikaijun/airbnb/src/image/farm.png");
+  }
+  > .section-experience:nth-child(3) > .image{
+    background-image: url("/Users/mikaijun/airbnb/src/image/zazen.png");
+  }
+  > .section-experience:nth-child(4) > .image{
+    background-image: url("/Users/mikaijun/airbnb/src/image/gogh.png");
+  }
+  > .section-experience:nth-child(5) > .image{
+    background-image: url("/Users/mikaijun/airbnb/src/image/yagi.png");
+  }
+  > .section-experience:nth-child(6) > .image{
+    background-image: url("/Users/mikaijun/airbnb/src/image/table.png");
+  }
+}
+
+// その他体験全て表示
+.section-layout >.otherexperiences > .allshow{
+  margin-top:50px;
+  color:#008489;
+  font-weight: bold;
+}
+
+
+
+
+/*リンク集*/
+.section-layout > .linkcollections{
+  height:300px;
+  width:90%;
+  @include space-between;
+  margin-top:30px;
+  padding-left:50px;
+  > .linkcollection{
+    width:25%;
+    > .title{
+      font-weight:bold;
+      font-size:12px;
+      margin-bottom:10px;
+    }
+  }
+}
+
+.section-layout > .linkcollections > .linkcollection ul{
+  > li{
+    font-size:14px;
+    list-style: none;
+    color:#5f5f5f; 
+    line-height:35px;
+  }
+}
+
+
+
+
+
+/*フッター*/
+.section-layout > .topfooter{
+  @include space-between;
+  margin:70px 70px 30px 70px; 
+  padding:30px 0px 100px 0px;
+  border-top: solid 1px #cdcdcd;
+  color:#1f1f1f;
+}
+
+.section-layout > .topfooter > .left{
+  font-size:13px;
+  >span{
+    padding:0px 8px;
+  }
+}
+
+.section-layout > .topfooter  > .right{
+  @include space-between;
+  font-size:13px;
+  font-weight:bold;
+  height:30px;
+  width:300px;
+}
+
+.section-layout > .topfooter  > .right  > .japan{
+  @include space-between;
+  > .fa-globe{
+    margin:3px 5px 0px 0px;
+  }
+  > p{
+    margin:0px 4px;
+    text-decoration: underline;
+  }
+}
+
+.section-layout > .topfooter  > .right > .sns{
+  letter-spacing: 10px;
+  font-size:18px;
+}
+
+
+
+
+
+// 固定フッター全体
+.section-layout > .fixedfooter{
+  height:70px;
+  width:100%;
+  border-top:#d8d8d8 solid 1px;
+  position: absolute;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content:space-between;
+  background-color:#fff;
+  line-height:70px;
+  padding:0px 0px;
+}
+// 固定フッター左余白
+.section-layout > .fixedfooter > .left{
+  display: flex;
+  padding-left:30px;
+}
+// 固定フッター左画像
+.section-layout > .fixedfooter > .left >.image > img {
+  margin-top:10px;
+  border-radius: 50%;
+}
+// 固定フッター左詳細
+.section-layout > .fixedfooter > .left{
+  >.title{
+    margin:0px 10px;
+    font-size:13px;
+    font-weight: bold;
+  }
+  >.review{
+    font-size:10px;
+    font-weight: bold;
+    color:#008489;
+  }
+  >.reviewcount{
+    font-size:10px;
+    color:#5f5f5f;
+  }
+}
+ 
+// 固定フッター右余白
+.section-layout > .fixedfooter > .right{
+  display: flex;
+  padding-right:30px;
+}
+.section-layout > .fixedfooter > .right{
+  >.price{
+    font-weight: bold;
+    font-size:13px;
+  }
+  >.daybtn{
+    @include daybtn;
+  }
+}
+
+// 黒枠をスクロール過ぎると固定フッター背景が黒くなる
+.section-layout > .black{
+  background-color:#000;
+  color:#fff;
+  border-top:initial;
 }
