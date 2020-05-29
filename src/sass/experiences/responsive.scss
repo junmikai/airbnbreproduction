@@ -1,354 +1,341 @@
 @import "mixin";
 
-.section-layout{
-
-  // 740px以下
-  @media (max-width: 740px){
-    > .fixedheader{
-      opacity: 0;
-      width:10%;
-    }
-    > .blackbox{
-      > .experiencesheader{
-        display: none;
-      }
-      > .whiteheader{
-        background-color:#fff;
-        height:20px;
-        padding:20px 20px;
-        display: flex;
-        justify-content:space-between;
-        width:95%;
-        > .left{
-          font-size:14px;
-          font-weight: bold;
-        }
-        >.right{
-          color:rgb(116, 114, 114);
-          font-size:17px;
-          >.fas{
-            margin-right:15px;
-          }
-        }
-      }
-      >.imagebox > .snsbtn {
-        display: none;
-      }
-      > .explanation{
-        display: initial;
-        >.left{
-          width:initial;
-          padding:0px 20px;
-          > .tags{
-            width:initial;
-          }
-        }
-        > .right{
-          width: initial;
-          margin-left:initial;
-          padding:0px 20px;
-          > .devise{
-            padding:initial;
-            position: relative;
-            line-height:initial;
-            height:60px;
-            p{
-              padding:15px;
-              width:90%;
-            }
-            img{
-              position: absolute;
-              right:0px;
-            }
-          }
-          >.specs{
-            width:500px;
-            flex-wrap :wrap;
-            
-            >.section-spec{
-              width:200px;
-          }
-        }
-      }
+// 740px以下
+@media (max-width: 740px){
+  .section-layout > .fixedheader{
+    opacity: 0;
+    width:10%;
+  }
+  .section-layout > .blackbox > .experiencesheader{
+    display: none;
+  }
+  .section-layout > .blackbox > .whiteheader{
+    background-color:#fff;
+    height:20px;
+    padding:20px 20px;
+    display: flex;
+    justify-content:space-between;
+    width:95%;
+  }
+  .section-layout > .blackbox > .whiteheader > .left{
+    font-size:14px;
+    font-weight: bold;
+  }
+  .section-layout > .blackbox > .whiteheader >.right{
+    color:rgb(116, 114, 114);
+    font-size:17px;
+    >.fas{
+      margin-right:15px;
     }
   }
-  >.canexperience{
+  .section-layout > .blackbox > .imagebox > .snsbtn {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation{
+    display: initial;
+  }
+  .section-layout > .blackbox > .explanation > .left{
+    width:initial;
+    padding:0px 20px;
+    > .tags{
+      width:initial;
+    }
+  }
+  .section-layout > .blackbox > .explanation > .right{
+    width: initial;
+    margin-left:initial;
+    padding:0px 20px;
+  }
+  .section-layout > .blackbox > .explanation > .right  > .devise{
+    padding:initial;
+    position: relative;
+    line-height:initial;
+    height:60px;
+    p{
+      padding:15px;
+      width:90%;
+    }
+    img{
+      position: absolute;
+      right:0px;
+    }
+  }
+  .section-layout > .blackbox > .explanation > .right  > .specs{
+    width:500px;
+    flex-wrap :wrap;
+    >.section-spec{
+      width:200px;
+    }
+  }
+  .section-layout > .canexperience{
     @include titleresponsive;
     >.text{
       padding-left:initial;
       margin:30px 20px;
     }
   }
-  > .challenge-background{
+  .section-layout > .challenge-background{
     height:auto;
-    > .challenge{
-      display: initial;
-      >.title{
-        width:90%;
-        height:60px;
-        margin:10px 0px 0px 20px;
-        font-size:23px;
-        border-bottom:#cacaca solid 1px;
-      }
-    }
   }
-  > .challenge-background  > .challenge{
+  .section-layout > .challenge-background > .challenge{
+    display: initial;
+    >.title{
+      width:90%;
+      height:60px;
+      margin:10px 0px 0px 20px;
+      font-size:23px;
+      border-bottom:#cacaca solid 1px;
+    }
     > .texts{
       @include challengeresponsive;
     }
   }
-  > .hosts{
+  
+  .section-layout > .hosts{
     @include titleresponsive;
-    > .hostdata {
-      padding:0px 20px;
-      img{
-        margin-top:30px;
-      }
-      >.hostname{
-        margin-top:30px;
-      }
-    }
   }
-  >.belongings{
-    @include titleresponsive;
-    >.texts{
-      @include textresponsive;
-    }
-  }
-  >.participation{
-    @include titleresponsive; 
-    >.texts{
-      @include textresponsive;
-      width:95%;
+  .section-layout > .hosts > .hostdata{
+    padding:0px 20px;
+    img{
       margin-top:30px;
-      >.videocall > .section-title {
-        font-size:18px;
-      }
-      .charter > .section-title {
-        font-size:18px;
-        margin:20px 0px;
-      }
+    }
+    >.hostname{
+      margin-top:30px;
     }
   }
-  >.guestreview{ 
+ 
+  .section-layout >.belongings{
+    @include titleresponsive;
+    >.texts{
+      @include textresponsive;
+    }
+  }
+
+  .section-layout >.participation{
+    @include titleresponsive; 
+  }
+  .section-layout >.participation >.texts{
+    @include textresponsive;
+    width:95%;
+    margin-top:30px;
+  }
+  .section-layout >.participation >.texts >.videocall > .section-title {
+    font-size:18px;
+  }
+  .section-layout >.participation >.texts > .charter > .section-title {
+    font-size:18px;
+    margin:20px 0px;
+  }
+  .section-layout >.guestreview{ 
     @include titleresponsive;
     >.titles{
       @include textresponsive;
       margin-top:30px;
-      >.sticky{
-        width:initial;
-        >.title{
-          font-size:23px;
-        }
-      }
-    }
-    >.reviews{
-      padding:30px 20px;
-    }
-    >.reviews > .section-review >.pagination{
-      >span{
-        display: none;
-      }
-      >.bot{
-        display: none;
-      }
-      >.no233{
-        display: none;
-      }
-      >.fas{
-        margin-left:initial;
-      }
     }
   }
-  > .reservation > .title {
+  .section-layout > .guestreview  > .titles >.sticky{
+    width:initial;
+    >.title{
+      font-size:23px;
+    }
+  }
+  .section-layout > .guestreview  >.reviews{
+    padding:30px 20px;
+  }
+  .section-layout > .guestreview  >.reviews > .section-review >.pagination{
+    >span{
+      display: none;
+    }
+    >.bot{
+      display: none;
+    }
+    >.no233{
+      display: none;
+    }
+    >.fas{
+      margin-left:initial;
+    }
+  }
+ 
+
+  .section-layout > .reservation > .title {
     font-size:22px;
   }
-  > .section-linkcollections{
+  .section-layout > .linkcollections{
     display: none;
   }
-  >.note{
+  .section-layout >.note{
     display: initial;
-    >.sticky {
-      width:initial;
-      height:80px;
-      position: initial;
-      >.title{
-        font-size:23px;
-        padding-left:50px;
-      }
+  }
+  .section-layout >.note >.sticky {
+    width:initial;
+    height:80px;
+    position: initial;
+    >.title{
+      font-size:23px;
+      padding-left:50px;
     }
   }
-  > .topfooter{ 
+  .section-layout > .topfooter{ 
     text-align:initial;
     margin:10px;
-  > .right{
-        margin:initial;
-    > .sns{
-        display: none;
-      }
-    }
   } 
-  >.fixedfooter{
-    width:97%;
+  .section-layout > .topfooter > .right{
+    margin:initial;
+  > .sns{
+      display: none;
+    }
+  }
+  .section-layout  >.fixedfooter{
+  width:97%;
   }
 }
 
 
 
-  // 741px~1130px
-  @media (min-width:741px) and (max-width: 1130px){
-  >.blackbox{
+// 741px~1130px
+@media (min-width:741px) and (max-width: 1130px){
+  .section-layout>.blackbox{
     position: relative;
     height:900px; 
   }
-  >.blackbox > .explanation{
-    > .left {
-      width:55%;
-      .tags {
-        width:initial;
-      }
+  .section-layout >.blackbox > .explanation > .left {
+    width:55%;
+    .tags {
+      width:initial;
     }
-    > .right {
-      margin-left: initial;
-      > .devise{
-        height:70px;
-        line-height:initial;
-        }
-      > .specs{
-        width:55vw;
-        height:initial;
-        position: absolute;
-        left:30px;
-        bottom:-100px;
-        }
-      }
-    } 
-    > .challenge-background  > .challenge{
-      >.title{
-        width:280px;
-      }
-      > .texts{
-        @include challengeresponsive;
-        padding-left:initial;
-        >.section-text >.minitext{
-          font-size:16px;
-        }
-      }
+  }
+  .section-layout >.blackbox > .explanation > .right {
+    margin-left: initial;
+    > .devise{
+    height:70px;
+    line-height:initial;
     }
-    > .section-linkcollections{
-      display: inline;
+    > .specs{
+    width:55vw;
+    height:initial;
+    position: absolute;
+    left:30px;
+    bottom:-100px;
+    }
+  }
+  .section-layout > .challenge-background  > .challenge > .title {
+    width:280px;
+  }
+  .section-layout > .challenge-background  > .challenge > .texts{
+    @include challengeresponsive;
+    padding-left:initial;
+    >.section-text >.minitext{
+      font-size:16px;
+    }
+  }
+  .section-layout > .section-linkcollections{
+    display: inline;
     > .section-linkcollection{
-        width:100%;
-        border-bottom:solid 1px rgb(131, 131, 131);
-        margin:20px;
-        padding-bottom:20px;
-      }
-    }
-    > .section-linkcollections > .section-linkcollection ul{
-        display:flex;
-        flex-wrap: wrap;
-      > li{
-          width:33%;
-      }
-    }
-    > .topfooter{
-        flex-wrap :wrap-reverse;
-        width:700px;
-        margin:0 auto;
-        text-align: center;
-      > .right{
-          margin:0 auto;
-      }
-    }
-  }
-
-
-
-  // 1130px以下
-  @media (max-width: 1130px){
-
-  >.note > .texts{
-    width:100%;
-    }
-    >.note > .texts > .section-text{
-      margin-bottom:20px;
+      width:100%;
+      border-bottom:solid 1px rgb(131, 131, 131);
+      margin:20px;
       padding-bottom:20px;
-      >.minititle{
-        font-size:18px;
-        width:90%;
-      }
-      >.text{
-      display:none;
-      }
-    } 
-    >.fixedfooter{
-      line-height:initial;
-      >.left{
-        display: none;
-      }
-      >.right{
-        display: none;
-      }
-      >.minileft{
-        font-size:10px;
-        >.price{
-          font-weight: bold;
-          font-size:13px;
-        }
-      }
-      >.minileft{
-       padding:17px 0px;
-       >.price{
-        font-weight: bold;
-        font-size:13px;
-       }
-       >.review{
-        color:#008489;
-        display: flex;
-        p{
-          font-weight: bold;
-        }
-        >.fas{
-          line-height:1.5;
-        }
-        span{
-          font-size:10px;
-          color:#5f5f5f;
-        }
-       }
-      }
-      >.miniright{
-        @include daybtn;
-      }
     }
   }
-
-  // 1130px以上
-  @media (min-width: 1130px){
-    > .note > .texts > .section-text > .fas {
-      display:none;
-    }
-    >.fixedfooter >.minileft{
-      display: none;
-    }
-    >.fixedfooter >.miniright{
-      display: none;
+  .section-layout > .section-linkcollections > .section-linkcollection ul{
+    display:flex;
+    flex-wrap: wrap;
+    > li{
+      width:33%;
     }
   }
-
-  // その他のオンライン体験
-   .otherexperiences > .experiences > .section-experience > .image{
-    @media (min-width:1110px) and (max-width: 1440px){
-      height:22vw;
-      width:18vw;
-    } 
-    @media (min-width:740px) and (max-width: 1110px){
-      height:28vw;
-      width:23vw;
-    } 
-    @media (max-width: 740px){
-      height:55vw;
-      width:45vw;
-    } 
-  }  
+  .section-layout > .topfooter{
+      flex-wrap :wrap-reverse;
+      width:700px;
+      margin:0 auto;
+      text-align: center;
+    > .right{
+        margin:0 auto;
+    }
+  }
 }
+
+
+
+// 1130px以下
+@media (max-width: 1130px){
+.section-layout > .note > .texts{
+  width:100%;
+  }
+.section-layout > .note > .texts > .section-text{
+  margin-bottom:20px;
+  padding-bottom:20px;
+  >.minititle{
+    font-size:18px;
+    width:90%;
+  }
+  >.text{
+  display:none;
+  }
+} 
+.section-layout >.fixedfooter{
+  line-height:initial;
+  >.left{
+    display: none;
+  }
+  >.right{
+    display: none;
+  }
+}
+.section-layout > .fixedfooter > .minileft{
+  font-size:10px;
+  padding:17px;
+}
+.section-layout > .fixedfooter > .minileft >.price{
+    font-weight: bold;
+    font-size:13px;
+  }
+.section-layout > .fixedfooter > .minileft > .review{
+  color:#008489;
+  display: flex;
+  > p{
+    font-weight: bold;
+  }
+  >.fas{
+    line-height:1.5;
+  }
+  > span{
+    font-size:10px;
+    color:#5f5f5f;
+  }
+}
+.section-layout > .fixedfooter  > .miniright{
+    @include daybtn;
+    margin-right:10px;
+  }
+}
+
+// 1130px以上
+@media (min-width: 1130px){
+.section-layout > .note > .texts > .section-text > .fas {
+    display:none;
+  }
+.section-layout > .fixedfooter >.minileft{
+    display: none;
+  }
+.section-layout > .fixedfooter >.miniright{
+    display: none;
+  }
+}
+
+// その他のオンライン体験
+.section-layout > .otherexperiences > .experiences > .section-experience > .image{
+  @media (min-width:1110px) and (max-width: 1440px){
+    height:22vw;
+    width:18vw;
+  } 
+  @media (min-width:740px) and (max-width: 1110px){
+    height:28vw;
+    width:23vw;
+  } 
+  @media (max-width: 740px){
+    height:55vw;
+    width:45vw;
+  } 
+}  
