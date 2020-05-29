@@ -6,120 +6,128 @@
   width:100vw;
   height:100vh;
 }
-
 .section-layout{
-width:100%;
-position: relative;
+  width:100%;
+  position: relative;
+}
 
-  /*コロナウイルスに関する注意事項*/
-  > .covid{ 
-    background-color:#f5f5f5;
-    text-align:center;
+/*コロナウイルスに関する注意事項*/
+.section-layout > .covid{ 
+  background-color:#f5f5f5;
+  text-align:center;
+  font-size:14px;
+  height:55px;
+  color:$light-black;
+  display: flex;
+  align-items: center;
+  > p{
+    margin: 0 auto;
+  }
+}
+ 
+
+
+
+
+/*ヘッダー*/
+.section-layout  > .topheader{
+  height:80px;
+  align-items: center;
+  @include space-between;
+  background: $white;
+  left: 0px;
+  z-index:100;
+  width: 100%;
+  position: absolute;
+}
+
+.section-layout > .topheader > .searchheader {
+  height:45px;
+  width:350px;
+  background-color:$white;
+  border-radius: 10px;
+  box-shadow:$black-shadow;
+  display:none;
+  display:flex;
+  > .form{
+    border-right: thin solid $border;
+    text-align: center;
+    line-height:45px;
     font-size:14px;
-    height:55px;
-    color:$light-black;
-    display: flex;
-    align-items: center;
-    > p{
-      margin: 0 auto;
-    }
+    padding:0px 10px;
+    color:gray;
   }
+  > .fas{
+    margin:0 auto;
+    line-height:45px;
+    font-size:18px;
+    color:red;
+  }
+}
 
-  /*ヘッダー*/
-  > .topheader{
-    height:80px;
-    align-items: center;
-    @include space-between;
-    background: $white;
-    left: 0px;
-    z-index:100;
-    width: 100%;
-    position: absolute;
+.section-layout > .topheader > .logo{
+  margin-left:15px;
+  margin-top:10px;
+}
+
+.section-layout > .topheader > .menu > ul > li{
+  display: inline;
+  padding-right:20px;
+} 
+
+.section-layout > .topheader > .menu > ul > li >a{
+  text-decoration:none;
+  font-weight: bold;
+  font-size:14px;
+  color:$light-black;
+  > .fa-globe{
+    margin-right:7px;
   }
-  > .m_fixed {
-    left: 0;
-    position: fixed;
-    top: 0;
-    border-bottom:solid 1px $border;
+  > .host{
+    display: none;
   }
-  > .topheader > .searchheader {
-    height:45px;
-    width:350px;
-    background-color:$white;
-    border-radius: 10px;
+  > .register{
+    display: inline-block;
+    padding: 0.7em 1.1em;
+    border-radius: 20px;
     box-shadow:$black-shadow;
-    display:none;
-    display:flex;
-    > .section-form{
-      border-right: thin solid $border;
-      text-align: center;
-      line-height:45px;
-      font-size:14px;
-      padding:0px 10px;
-      color:gray;
-    }
-    > .fas{
-      margin:0 auto;
-      line-height:45px;
-      font-size:18px;
-      color:red;
-    }
   }
-  > .topheader > .logo{
-    margin-left:15px;
-    margin-top:10px;
-  }
-  > .topheader > .menu ul li{
-    display: inline;
-    padding-right:20px;
-    >a{
-      text-decoration:none;
-      font-weight: bold;
-      font-size:14px;
-      color:$light-black;
-    }
-      .fa-globe{
-        margin-right:7px;
-      }
-      .host{
-        display: none;
-      }
-      .register{
-        display: inline-block;
-        padding: 0.7em 1.1em;
-        border-radius: 20px;
-        box-shadow:$black-shadow;
-      }
-  } 
-  
-  /*width740px以下のヘッダー*/
-.searchform{
+}
+
+.section-layout > .m_fixed {
+  left: 0;
+  position: fixed;
+  top: 0;
+  border-bottom:solid 1px $border;
+}
+
+
+
+
+
+/*width740px以下のヘッダー*/
+.section-layout > .searchform{
   background-color:$white;
   width:100%;
   height:70px;
   z-index:99;
-  .form2{
-    position:relative;
-    background: $white;
-    width: 85%;
-    position: absolute;
-    margin:10px;
-    }
-    > .m_fixed {
-      left: 0;
-      position: fixed;
-      top: 0;
-      border-bottom:solid 1px $border;
-    }
-    .sbox2{
+}
+
+.section-layout > .searchform > .form2{
+  position:relative;
+  background: $white;
+  width: 85%;
+  position: absolute;
+  margin:10px;
+  > .sbox2{
     width:100%;
     height:45px;
     border-radius:20px;
     background:$white;
     padding-left:50px;
     font-size:15px;
-    }
-    .sbtn2{
+  }
+  > .sbtn2{
     height:45px;
     position:absolute; 
     top:5px;
@@ -128,325 +136,386 @@ position: relative;
     border:none;
     font-size:17px;
     z-index: 1;
-    }
   }
+}
+
+.section-layout > .searchform > .m_fixed {
+  left: 0;
+  position: fixed;
+  top: 0;
+  border-bottom:solid 1px $border;
+}
 
 
-  /*検索フォーム*/
-  > .search{
-    height:150px;
-    align-items: center;
-    margin:50px 40px 60px 70px;
-    padding-top:30px;
+
+
+
+/*検索フォーム*/
+.section-layout > .search{
+  height:150px;
+  align-items: center;
+  margin:50px 40px 60px 70px;
+  padding-top:30px;
+}
+
+.section-layout > .search > .menu > ul > li{
+  display: inline;
+  padding-right:20px;
+  > a{
+    text-decoration:none;
+    color:$light-black;
+    > span{
+      background: rgb(247, 49, 49);
+      margin: 0 0 0 8px;
+      padding: 4px 5px;
+      border-radius: 4px;
+      color: $white;
+      font-size: 3px;
+      font-weight:bold;
+    }   
   }
-  > .search > .menu ul li{
-    display: inline;
-    padding-right:20px;
-    a{
-      text-decoration:none;
-      color:$light-black;
-      span{
-        background: rgb(247, 49, 49);
-        margin: 0 0 0 8px;
-        padding: 4px 5px;
-        border-radius: 4px;
-        color: $white;
-        font-size: 3px;
-        font-weight:bold ;
-      }
-    }
-  }
-  > .search > .form{
-    height:40px;
-    width:100%;
-    margin-top:25px;
-    padding:13px 10px;
-    background-color:$white;
-    border-radius: 10px;
-    box-shadow:$black-shadow;
-    display: flex;
-    >.section-form{
-      width:30%;
-      border-right: thin solid $border;
-      height: 40px;
-      margin:3px 0px 0px 19px;
-    }
-    >.section-form:nth-child(3){
-      border-right:initial;
-    }
-  }
-  > .search > .form .section-form .title{
+}
+
+.section-layout > .search > .forms{
+  height:40px;
+  width:100%;
+  margin-top:25px;
+  padding:13px 10px;
+  background-color:$white;
+  border-radius: 10px;
+  box-shadow:$black-shadow;
+  display: flex;
+}
+
+.section-layout > .search > .forms > .form{
+  width:30%;
+  border-right: thin solid $border;
+  height: 40px;
+  margin:3px 0px 0px 19px;
+  .title{
     font-size:5px;
     font-weight:bold;
     margin-bottom:2px;
   }
-  > .search > .form .section-form .text{
+  .text{
     font-size:14px;
     color:gray;
   }
-  > .search > .form > #plusbtn.section-form{
-    width:40%;
-    @include space-between;
-  }
-  > .search > .form > #plusbtn.section-form > .right{
-    margin-top:-5px;
-    margin-right:5px;
-    > .btn{
-      background:#D70466;
-      color:$white;
-      padding: 12px 22px;
-      border-radius: 8px;
-      font-size:14px;
-      > .fa-search{
-        margin-right:5px;
-      }
-    }
-  }
-  /*キャッチコピー*/
-  > .catchcopy{
-    margin:50px 0px 70px 70px;
-    width:45%;
-    > p{
-      color: rgb(146, 23, 77);
-      background: -webkit-linear-gradient(0deg, rgb(146, 23, 77), rgb(228, 29, 92));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }   
-  }
+}
 
-  /*オンライン体験*/
-  > .onlineexperience{
-    background-color: black;
-    padding:60px 60px 80px 60px;
+.section-layout > .search > .forms > .form:nth-child(3){
+  border-right:initial;
+}
+  
+.section-layout > .search > .forms > #plusbtn.form{
+  width:40%;
+  @include space-between;
+}
+
+.section-layout > .search > .forms > #plusbtn.form > .right{
+  margin-top:-5px;
+  margin-right:5px;
+  > .btn{
+    background:#D70466;
     color:$white;
-    position: relative;
-    > .top{
-      height:120px;
-      @include space-between;
-      margin-bottom:20px;
-    }
-  }
-  > .onlineexperience >.top > .left{
-    width:450px;
-    > .title{
-      font-size:30px;
-      font-weight: bold;
-    }
-  }
-  > .onlineexperience >.top > .right{
-    border: solid 1px $white;
-    width:100px;
-    height:35px;
+    padding: 12px 22px;
     border-radius: 8px;
-    text-align: center;
-    line-height:35px;
     font-size:14px;
   }
-  > .onlineexperience > .imagebox{
-    @include space-between;
-    font-weight:bold; 
-    letter-spacing:0.5px;
-    font-size:15px; 
-    width: 95vw;
-    height: 45vw;
-    > .left{
-      width:100%;
-      .sangría{
-        @include division;
-        background-image:url("/Users/mikaijun/airbnb/src/image/sangría.png");
-        @include background-size;
-      > .explanation{
-       @include explanation;
-       @include explanation-font;
-       p{
-        max-width:50%;
-        padding:10px;
-        }
-      }
-    }    
+  > .fa-search{
+    margin-right:5px;
   }
-    > .right{
-      @include division;
-      > .top{
-        @include space-between;
-        height:50%;
-        width:100%;
-        > .yoga{
-          @include division-second;
-          background-image:url("/Users/mikaijun/airbnb/src/image/yoga.png");
-          @include background-size;
-          > .explanation{
-            @include explanation;
-            @include explanation-font;
-            p{
-              width:90%;
-              padding:10px;
-            }
-           }
-        }
-        > .music{
-          @include division-second;
-          background-image:url("/Users/mikaijun/airbnb/src/image/music.png");
-          @include background-size;
-          > .explanation{
-            @include explanation;
-            @include explanation-font;
-            p{
-              width:90%;
-              padding:10px;
-            }
-           }
-        }
-      }
-      > .bottom{
-        width:100%;
-        height:45%;
-        margin-top:35px;
-        background-image:url("/Users/mikaijun/airbnb/src/image/penguin.png");
-        background-size:cover;
-        border-radius:30px;
-        position: relative;
-        > .explanation{
-          @include explanation;
-          @include explanation-font;
-          p{
-            width:90%;
-            padding:10px;
-          }
-         }
-      }
-    }
-  }
+}
 
-  /*最新情報*/
-  > .news{
-    height:500px;
-    width:100%;
-    background-color:#f5f5f5;
-    border-bottom:solid 1px #cdcdcd;
-    > .latestinformation{
-      font-size:22px;
-      font-weight: bold;
-      padding:30px 0px 0px 50px;
-    }
-  }
-  > .news > .section-informations{
-    height:300px;
-    width:100%;
-    margin-top:30px;
-    padding-left:50px;
-    width:95%;
-    > .section-information{
-      width:23%;
-      margin-right:15px;
-      float: left;
-      
-    }
-  }
-  > .news > .section-informations > .section-information ul{
-    > .title{
-      font-size:19px;
-      padding-bottom:10px;
-    }
-    > li{
-      list-style: none; 
-      border-top: solid 1px #cdcdcd;
-      padding:15px 0px;
-      font-weight: bold;
-      > span{
-        color:#959595;
-        font-size:14px;
-        font-weight: normal;
-      }
-    }
-  }
-    
-   /*リンク集*/
-  > .section-linkcollections{
-    height:300px;
-    width:90%;
-    @include space-between;
-    margin-top:30px;
-    padding-left:50px;
-    > .section-linkcollection{
-      width:25%;
-      > .title{
-        font-weight:bold;
-        font-size:12px;
-        margin-bottom:10px;
-      }
-    }
-  }
-  > .section-linkcollections > .section-linkcollection ul{
-    > li{
-      font-size:14px;
-      list-style: none;
-      color:#5f5f5f; 
-      line-height:35px;
-    }
-  }
-  > .topfooter{
-    @include space-between;
-    margin:70px 70px 30px 70px; 
-    padding-top:30px;
-    border-top: solid 1px #cdcdcd;
-    color:#1f1f1f;
-    > .left{
-      font-size:13px;
-      >span{
-        padding:0px 8px;
-      }
-    }
-    > .right{
-      @include space-between;
-      font-size:13px;
-      font-weight: bold;
-      height:30px;
-      width:300px;
-      > .japan{
-        @include space-between;
-        > .fa-globe{
-          margin:3px 5px 0px 0px;
-        }
-        > p{
-          margin:0px 4px;
-          text-decoration: underline;
-        }
-      }
-      > .sns{
-        letter-spacing: 10px;
-        font-size:18px;
-      }
-    }
-  }
 
-  /*width740px以下フッター*/
-  > .hidingfooter{
+
+
+
+/*キャッチコピー*/
+.section-layout > .catchcopy{
+  margin:50px 0px 70px 70px;
+  width:45%;
+  > p{
+    color: rgb(146, 23, 77);
+    background: -webkit-linear-gradient(0deg, rgb(146, 23, 77), rgb(228, 29, 92));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }   
+}
+
+
+
+
+
+/*オンライン体験*/
+.section-layout > .onlineexperience{
+  background-color: black;
+  padding:60px 60px 80px 60px;
+  color:$white;
+  position: relative;
+}
+
+.section-layout > .onlineexperience > .top{
+  height:120px;
+  @include space-between;
+  margin-bottom:20px;
+}
+
+.section-layout > .onlineexperience >.top > .left{
+  width:450px;
+  > .title{
+    font-size:30px;
+    font-weight: bold;
+  }
+}
+
+.section-layout > .onlineexperience >.top > .right{
+  border: solid 1px $white;
+  width:100px;
+  height:35px;
+  border-radius: 8px;
+  text-align: center;
+  line-height:35px;
+  font-size:14px;
+}
+
+.section-layout > .onlineexperience > .imagebox{
+  @include space-between;
+  font-weight:bold; 
+  letter-spacing:0.5px;
+  font-size:15px; 
+  width: 95vw;
+  height: 45vw;
+}
+
+.section-layout > .onlineexperience > .imagebox > .left{
+  width:100%;
+}
+
+.section-layout > .onlineexperience > .imagebox > .left > .sangría{
+  @include division;
+  @include background-size;
+  background-image:url("/Users/mikaijun/airbnb/src/image/sangría.png");
+    > .explanation{
+    @include explanation;
+    @include explanation-font;
+    p{
+    max-width:50%;
+    padding:10px;
+    }
+  }
+}    
+
+.section-layout > .onlineexperience > .imagebox > .right{
+  @include division;
+  > .top{
+    @include space-between;
+    height:50%;
     width:100%;
-    height:70px;
-    border-top:solid 1px #c4c4c4;
-    position: absolute;
-    position: fixed;
-    bottom: 0; 
-    background-color:$white;
-    > .icons{
-      display: flex;
-      text-align: center;
-      margin:0 auto;
-      width:50%;
-      padding:20px;
-      > .section-icon{
-        width:33%;
-        > .far{
-          @include footersize;
-        }
-        >.fab{
-          @include footersize;
-        }
-        > .word{
-          font-size:10px;
-        }
-      }
+  }
+}
+
+.section-layout > .onlineexperience > .imagebox > .right > .top > .yoga{
+  @include division-second;
+  @include background-size;
+  background-image:url("/Users/mikaijun/airbnb/src/image/yoga.png");
+  > .explanation{
+    @include explanation;
+    @include explanation-font;
+    p{
+      width:90%;
+      padding:10px;
     }
   }
 }
+
+.section-layout > .onlineexperience > .imagebox > .right > .top > .music{
+  @include division-second;
+  @include background-size;
+  background-image:url("/Users/mikaijun/airbnb/src/image/music.png");
+  > .explanation{
+    @include explanation;
+    @include explanation-font;
+    p{
+      width:90%;
+      padding:10px;
+    }
+  }
+}
+  
+.section-layout > .onlineexperience > .imagebox > .right > .bottom{
+  width:100%;
+  height:45%;
+  margin-top:35px;
+  background-image:url("/Users/mikaijun/airbnb/src/image/penguin.png");
+  background-size:cover;
+  border-radius:30px;
+  position: relative;
+  > .explanation{
+    @include explanation;
+    @include explanation-font;
+    p{
+      width:90%;
+      padding:10px;
+    }
+  }
+}
+
+
+
+
+
+/*最新情報*/
+.section-layout > .news{
+  height:500px;
+  width:100%;
+  background-color:#f5f5f5;
+  border-bottom:solid 1px #cdcdcd;
+  > .latestinformation{
+    font-size:22px;
+    font-weight: bold;
+    padding:30px 0px 0px 50px;
+  }
+}
+
+.section-layout > .news > .informations{
+  height:300px;
+  width:100%;
+  margin-top:30px;
+  padding-left:50px;
+  width:95%;
+  > .information{
+    width:23%;
+    margin-right:15px;
+    float: left;
+  }
+}
+
+.section-layout > .news > .informations > .information ul{
+  > .title{
+    font-size:19px;
+    padding-bottom:10px;
+  }
+  > li{
+    list-style: none; 
+    border-top: solid 1px #cdcdcd;
+    padding:15px 0px;
+    font-weight: bold;
+    > span{
+      color:#959595;
+      font-size:14px;
+      font-weight: normal;
+    }
+  }
+}
+
+
+
+
+
+/*リンク集*/
+.section-layout > .linkcollections{
+  height:300px;
+  width:90%;
+  @include space-between;
+  margin-top:30px;
+  padding-left:50px;
+  > .linkcollection{
+    width:25%;
+    > .title{
+      font-weight:bold;
+      font-size:12px;
+      margin-bottom:10px;
+    }
+  }
+}
+
+.section-layout > .linkcollections > .linkcollection ul{
+  > li{
+    font-size:14px;
+    list-style: none;
+    color:#5f5f5f; 
+    line-height:35px;
+  }
+}
+
+
+
+
+
+/*フッター*/
+.section-layout > .topfooter{
+  @include space-between;
+  margin:70px 70px 30px 70px; 
+  padding-top:30px;
+  border-top: solid 1px #cdcdcd;
+  color:#1f1f1f;
+}
+
+.section-layout > .topfooter > .left{
+  font-size:13px;
+  >span{
+    padding:0px 8px;
+  }
+}
+
+.section-layout > .topfooter  > .right{
+  @include space-between;
+  font-size:13px;
+  font-weight:bold;
+  height:30px;
+  width:300px;
+}
+
+.section-layout > .topfooter  > .right  > .japan{
+  @include space-between;
+  > .fa-globe{
+    margin:3px 5px 0px 0px;
+  }
+  > p{
+    margin:0px 4px;
+    text-decoration: underline;
+  }
+}
+
+.section-layout > .topfooter  > .right > .sns{
+  letter-spacing: 10px;
+  font-size:18px;
+}
+
+
+
+
+/*width740px以下フッター*/
+.section-layout > .hidingfooter{
+  width:100%;
+  height:70px;
+  border-top:solid 1px #c4c4c4;
+  position: absolute;
+  position: fixed;
+  bottom: 0; 
+  background-color:$white;
+}
+
+.section-layout > .hidingfooter > .icons{
+  display: flex;
+  text-align: center;
+  margin:0 auto;
+  width:50%;
+  padding:20px;
+}
+
+.section-layout > .hidingfooter > .icons  > .icon{
+  width:33%;
+  > .far{
+    @include footersize;
+  }
+  >.fab{
+    @include footersize;
+  }
+  > .word{
+    font-size:10px;
+  }
+}
+
+

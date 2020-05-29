@@ -14,7 +14,7 @@
       > .news{
         padding:10px;
       }
-      > .news > .section-informations{
+      > .news > .informations{
         @include scroll;
         display: flex;
         margin-top:initial;
@@ -22,7 +22,7 @@
       > .news{
         height:auto;
         width:96%;
-        > .section-informations > .section-information{
+        > .informations > .information{
           width:100%;
           margin-top:50px;
           padding-right:50px;
@@ -31,7 +31,7 @@
         }
       }
     }
-      > .section-linkcollections{
+      > .linkcollections{
         display: none;
     }
       > .topfooter{
@@ -114,21 +114,21 @@
     }
     > .news{
       height:850px;
-      > .section-informations > .section-information{
+      > .informations > .information{
         width:45%;
         margin-top:50px;
     }
   }
-    > .section-linkcollections{
+    > .linkcollections{
       display: inline;
-    > .section-linkcollection{
+    > .linkcollection{
         width:100%;
         border-bottom:solid 1px rgb(131, 131, 131);
         margin:20px;
         padding-bottom:20px;
       }
     }
-    > .section-linkcollections > .section-linkcollection ul{
+    > .linkcollections > .linkcollection ul{
         display:flex;
         flex-wrap: wrap;
       > li{
