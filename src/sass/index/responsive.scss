@@ -32,15 +32,23 @@
   display: none;
 }
 .section-layout > .topfooter{
+  position: relative;
   text-align:initial;
   margin:10px;
+  display: initial;
 }
 .section-layout > .topfooter > .right{
   margin:initial;
+  position: absolute;
+  top:35px;
+  left:30px;
   > .sns{
       display: none;
     }
   }
+.section-layout > .topfooter > .left{
+  padding:20px 0px 0px 30px;
+}
 }
 
 @media (min-width:740px){
