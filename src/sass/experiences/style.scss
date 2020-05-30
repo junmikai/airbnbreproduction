@@ -53,13 +53,13 @@
   font-size:14px;
   width:280px;
   z-index: 1;
-  > .section-form{
+  > .form{
     width:40%;
     border-right: thin solid $bodergray;
     text-align: center;
     line-height:45px;
   }
-  > .section-form:nth-child(3){
+  > .form:nth-child(3){
     border-right:initial;
     font-size:20px;
     width:10%;
@@ -212,7 +212,7 @@
   font-size:12px;
   flex-wrap :wrap;
   margin-bottom:10px;
-  > .section-tag{
+  > .tag{
     background-color:$light-black;
     border-radius: 3px;
     height:20px;
@@ -265,12 +265,12 @@
   justify-content:space-between;
   font-size:13px;
   color:$white;
-  > .section-spec{
+  > .spec{
     > .fas{
       color:$gray;
       margin-bottom:10px;
     }
-    > .section-title{
+    > .title{
       color:$gray;
     }
   }
@@ -328,7 +328,7 @@
   padding-left:70px;
 }
 // チャレンジ/右文字詳細
-.section-layout > .challenge-background > .challenge > .texts > .section-text{
+.section-layout > .challenge-background > .challenge > .texts > .text{
   margin:0px 20px;
   width:33%;
   > .minititle{
@@ -396,7 +396,7 @@
   width:100%;
 }
 // 持ち物/右側テキスト詳細
-.section-layout > .belongings > .texts > .section-text{
+.section-layout > .belongings > .texts > .text{
   height:65px;
   margin-top:30px;
   border-bottom:$bodergray solid 1px;
@@ -441,11 +441,11 @@
 .section-layout > .participation > .texts > .videocall{
   border-bottom:$bodergray solid 1px;
   padding-bottom:50px;
-  > .section-title{
+  > .title{
     @include size22;
     margin:10px 0px;
     }
-    > .section-details{
+    > .details{
     margin:20px 0px;
     font-size:18px;
     span{
@@ -467,11 +467,11 @@
 }
 // 参加方法/貸し切り
 .section-layout > .participation > .texts > .charter{
-  > .section-title{
+  > .title{
     @include size22;
     margin:10px 0px;
   }
-  > .section-details{
+  > .details{
     font-size:18px;
   }
 }
@@ -521,22 +521,22 @@
   padding-left:120px;
 } 
 // レビュー/右側レビュー事の空白
-.section-layout > .guestreview > .reviews > .section-review{
+.section-layout > .guestreview > .reviews > .review{
   margin-bottom:30px;
 }
 // レビュー/右側画像
-.section-layout > .guestreview > .reviews > .section-review >.top{
+.section-layout > .guestreview > .reviews > .review >.top{
   display:flex;
     img{
     border-radius: 50%; 
   }
 }
 // レビュー/右側画像との空白
-.section-layout > .guestreview > .reviews > .section-review > .top > .right{
+.section-layout > .guestreview > .reviews > .review > .top > .right{
   margin-left:20px;
 }
 // レビュー/右側レビュワー情報
-.section-layout > .guestreview > .reviews > .section-review > .top > .right > .reviewuser{
+.section-layout > .guestreview > .reviews > .review > .top > .right > .reviewuser{
   display:flex;
   font-size:15px;
   > .username{
@@ -549,13 +549,13 @@
   }
 }
 // レビュー/右側レビュー星
-.section-layout > .guestreview > .reviews > .section-review > .top > .right > .reviewstar{
+.section-layout > .guestreview > .reviews > .review > .top > .right > .reviewstar{
   > .fas{
     color:$light-green;
   }
 }
 // レビュー/右側レビューコメント
-.section-layout > .guestreview > .reviews > .section-review > .down{
+.section-layout > .guestreview > .reviews > .review > .down{
   margin-top:15px;
   border-bottom:$bodergray solid 1px;
   padding-bottom:30px;
@@ -564,11 +564,11 @@
   }
 }
 // レビュー/右側レビュー5個目だけ下線なし
-.section-layout > .guestreview > .reviews > .section-review:nth-child(5) > .down{
+.section-layout > .guestreview > .reviews > .review:nth-child(5) > .down{
     border-bottom:initial;
 }
 // レビュー/ページネーション
-.section-layout > .guestreview > .reviews > .section-review > .pagination{
+.section-layout > .guestreview > .reviews > .review > .pagination{
   color:$light-green;
   font-size:14px;
   display: flex;
@@ -601,7 +601,7 @@
 }
 
 // 予約全体設定/月表示
-.section-layout > .reservation > .calendars  > .section-calendar{
+.section-layout > .reservation > .calendars  > .calendar{
   display: inline-block;
   padding:0px 30px;
   > .month{
@@ -610,7 +610,7 @@
   }
 }
 // 予約全体設定/カレンダー
-.section-layout > .reservation > .calendars  > .section-calendar >.calendar > table {
+.section-layout > .reservation > .calendars  > .calendar >.calendar > table {
   width:90%;
   tr{
     th{
@@ -654,7 +654,7 @@
   padding-left:30px;
 }
 // 注意/右側1つのテキスト詳細
-.section-layout > .note > .texts > .section-text{
+.section-layout > .note > .texts > .text{
   display: flex;
   border-bottom:$bodergray solid 1px;
   padding-bottom:40px;
@@ -663,7 +663,7 @@
 }
 
 // 注意/右側文字詳細
-.section-layout > .note > .texts > .section-text{
+.section-layout > .note > .texts > .text{
   > .minititle{
     width:250px;
     font-size:24px;
@@ -684,7 +684,7 @@
 } 
 
 // 注意/右側最後下線なし
-.section-layout > .note > .texts > .section-text:nth-child(4){
+.section-layout > .note > .texts > .text:nth-child(4){
   border-bottom:initial;
 }
 
@@ -708,13 +708,13 @@
   }
 }
 // その他体験1つのサイズ
-.section-layout >.otherexperiences > .experiences > .section-experience{
+.section-layout >.otherexperiences > .experiences > .experience{
   height:100%;
   margin:0px 7px;
   color:$light-black;
 }
 // その他体験画像
-.section-layout >.otherexperiences > .experiences > .section-experience > .image{
+.section-layout >.otherexperiences > .experiences > .experience > .image{
   background-image: url("/Users/mikaijun/airbnb/src/image/Chernobyl.png");
   background-size:cover;
   border-radius: 10px;
@@ -736,7 +736,7 @@
   }
 }
 // その他体験国名
-.section-layout >.otherexperiences > .experiences > .section-experience >.country{
+.section-layout >.otherexperiences > .experiences > .experience >.country{
   margin:5px 0px;
   font-size:12px;
   font-weight: bold;
@@ -744,17 +744,17 @@
   white-space:pre-wrap;
 }
 // その他体験タイトル
-.section-layout >.otherexperiences > .experiences > .section-experience >.minititle{
+.section-layout >.otherexperiences > .experiences > .experience >.minititle{
   margin-bottom:6px;
   max-width:200px;
   white-space:pre-wrap;
 }
 // その他体験値段
-.section-layout >.otherexperiences > .experiences > .section-experience >.price{
+.section-layout >.otherexperiences > .experiences > .experience >.price{
   font-size:15px;
 }
 // その他レビュー
-.section-layout >.otherexperiences > .experiences > .section-experience > .review{
+.section-layout >.otherexperiences > .experiences > .experience > .review{
   font-size:12px;
   >.fas{
     margin-right:3px;
@@ -767,19 +767,19 @@
 
 // その他2枚目以降の画像
 .section-layout > .otherexperiences > .experiences{
-  > .section-experience:nth-child(2) > .image{
+  > .experience:nth-child(2) > .image{
     background-image: url("/Users/mikaijun/airbnb/src/image/farm.png");
   }
-  > .section-experience:nth-child(3) > .image{
+  > .experience:nth-child(3) > .image{
     background-image: url("/Users/mikaijun/airbnb/src/image/zazen.png");
   }
-  > .section-experience:nth-child(4) > .image{
+  > .experience:nth-child(4) > .image{
     background-image: url("/Users/mikaijun/airbnb/src/image/gogh.png");
   }
-  > .section-experience:nth-child(5) > .image{
+  > .experience:nth-child(5) > .image{
     background-image: url("/Users/mikaijun/airbnb/src/image/yagi.png");
   }
-  > .section-experience:nth-child(6) > .image{
+  > .experience:nth-child(6) > .image{
     background-image: url("/Users/mikaijun/airbnb/src/image/table.png");
   }
 }

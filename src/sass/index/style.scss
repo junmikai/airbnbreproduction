@@ -446,7 +446,7 @@
 /*フッター*/
 .section-layout > .topfooter{
   @include space-between;
-  margin:70px 70px 30px 70px; 
+  margin:0px 70px 30px 70px; 
   padding-top:30px;
   border-top: solid 1px $bodergray;
   color:$light-black;

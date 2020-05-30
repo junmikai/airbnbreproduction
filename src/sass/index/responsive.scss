@@ -36,7 +36,7 @@
   position: relative;
   text-align:initial;
   margin:10px;
-  width:1000px;
+  border-top:initial;
 }
 .section-layout > .topfooter > .right{
   margin:initial;
@@ -140,6 +140,7 @@
   width:700px;
   margin:0 auto;
   text-align: center;
+  border-top:initial;
   > .right{
       margin:0 auto;
     }
