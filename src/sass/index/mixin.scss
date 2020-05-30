@@ -17,7 +17,7 @@
   border-radius:25px;
 }
 @mixin explanation{
-  background-color:#252525;
+  background-color:$explanation;
   height:75px;
   border-radius:0px 0px 25px 25px;
   position: relative;
@@ -43,5 +43,5 @@
 }
 @mixin footersize{
   font-size:25px;
-  color: rgb(114, 113, 113);
+  color:$gray;
 }

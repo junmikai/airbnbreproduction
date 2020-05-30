@@ -1,4 +1,5 @@
 @import "mixin";
+@import "../color";
 
 .body{
   width:100vw;
@@ -15,15 +16,15 @@
   width:100%;
   height:20px;
   position: fixed;
-  background-color:#fff;
+  background-color:$white;
   top: 0px;
   left: 0px;
   z-index: 1;
   display:none;
-  border-bottom: rgb(212, 212, 212) solid 1px;
+  border-bottom:$bodergray solid 1px;
   padding:15px 50px;
   font-size:14px;
-  color:#01999e;
+  color:$light-green;
   margin-bottom:30px;
 }
 
@@ -31,7 +32,7 @@
 
 // 黒枠
 .section-layout > .blackbox{
-  background-color:black;
+  background-color:$black;
   padding-bottom:30px;
 }
 // 黒枠/ヘッダー
@@ -46,15 +47,15 @@
 .section-layout > .blackbox > .experiencesheader  > .searchbox{
   display: flex;
   height:45px;
-  background-color:rgb(51, 51, 51);
+  background-color:$explanation;
   border-radius: 15px;
-  color:rgb(223, 221, 221);
+  color:$light-gray;
   font-size:14px;
   width:280px;
   z-index: 1;
   > .section-form{
     width:40%;
-    border-right: thin solid rgb(150, 150, 150);
+    border-right: thin solid $bodergray;
     text-align: center;
     line-height:45px;
   }
@@ -74,7 +75,7 @@
       a{
       text-decoration:none;
       font-size:15px;
-      color:#fff;
+      color:$white;
     }
       .fa-globe{
       margin-right:7px;
@@ -82,7 +83,7 @@
     .register{
       padding:15px;
       border-radius: 20px;
-      background-color:rgb(51, 51, 51);
+      background-color:$light-black;
     }
   }
 }
@@ -155,27 +156,27 @@
   > .icon{
     height:20px;
     width:120px;
-    background-color:#fcfcfc;
+    background-color:$light-white;
     border-radius: 5px;
     display: flex;
-    line-height:1;
     font-weight: bold;
     padding:5px;
     margin-bottom:10px;
     > .fas{
       padding-right:5px;
       font-size:9px;
+      line-height:1.5;
     }
     > p{
       font-size:12px;
-      line-height:0.9;
+      line-height:1.5;
     }
   }
 }
 // 黒枠/説明文/左側タイトル
 .section-layout > .blackbox > .explanation > .left > .title{
   width:90%;
-  color:#fff;
+  color:$white;
   font-size:30px;
   line-height:1.1;
   margin-bottom:10px;
@@ -184,7 +185,7 @@
 .section-layout > .blackbox > .explanation > .left > .country{
   height:25px;
   width:200px;
-  color:#fff;
+  color:$white;
   margin-bottom:10px;
 }
 // 黒枠/説明文/左側レビュー
@@ -192,7 +193,7 @@
   height:25px;
   width:150px;
   font-size:14px;
-  color:#fff;
+  color:$white;
   margin-bottom:10px;
   span{
     font-weight: bold;
@@ -212,12 +213,12 @@
   flex-wrap :wrap;
   margin-bottom:10px;
   > .section-tag{
-    background-color:#333333;
+    background-color:$light-black;
     border-radius: 3px;
     height:20px;
     padding:0px 5px;
     margin-right:7px;
-    color:#fff;
+    color:$white;
   }
 }
 // 黒枠/説明文/左側翻訳
@@ -225,10 +226,10 @@
   width:270px;
   > .border{
     margin-top:5px;
-    border: #fff solid 2px;
+    border:  solid 2px;
     padding:10px 15px;
     display: flex;
-    color:#fff;
+    color:$white;
     text-align: center;
     > .fas{
       margin-right:5px;
@@ -248,9 +249,9 @@
 .section-layout > .blackbox > .explanation >.right > .devise{
   margin:30px 0px;
   display: flex;
-  border-top:gray solid 1px;
-  border-bottom:gray solid 1px;
-  color:#fff;
+  border-top:$bodergray solid 1px;
+  border-bottom:$bodergray solid 1px;
+  color:$white;
   font-size:14px;
   line-height:57px;
   padding:10px 0px;
@@ -263,14 +264,14 @@
   display: flex;
   justify-content:space-between;
   font-size:13px;
-  color:#fff;
+  color:$white;
   > .section-spec{
     > .fas{
-      color:gray;
+      color:$gray;
       margin-bottom:10px;
     }
     > .section-title{
-      color:gray;
+      color:$gray;
     }
   }
 }
@@ -307,7 +308,7 @@
 // チャレンジ
 .section-layout > .challenge-background{
   height:400px;
-  background-color:rgb(240, 239, 239);
+  background-color:$light-gray;
 }
 // チャレンジ/文字全体
 .section-layout > .challenge-background > .challenge{
@@ -398,7 +399,7 @@
 .section-layout > .belongings > .texts > .section-text{
   height:65px;
   margin-top:30px;
-  border-bottom:#e6e6e6 solid 1px;
+  border-bottom:$bodergray solid 1px;
   display: flex;
   > .far{
     font-size:30px;
@@ -409,7 +410,7 @@
     font-size:15px;
   }
   span{
-    color:#008489;
+    color:$light-green;
   }
 }
 
@@ -438,7 +439,7 @@
 }
 // 参加方法/ビデオ通話
 .section-layout > .participation > .texts > .videocall{
-  border-bottom:#e6e6e6 solid 1px;
+  border-bottom:$bodergray solid 1px;
   padding-bottom:50px;
   > .section-title{
     @include size22;
@@ -453,7 +454,7 @@
     }
   }
   > .comment{
-    background-color:rgb(240, 239, 239);
+    background-color:$light-gray;
     padding:20px;
     border-radius: 10px;
     font-size:15px;
@@ -501,16 +502,16 @@
   font-weight: bold;
   width:255px;
   > .fas{
-    color:#008489;
+    color:$light-green;
   }
 }
 // レビュー/左側翻訳
 .section-layout > .guestreview >.titles > .sticky > .traditional{
   margin-top:20px;
-  border:#4d4d4d solid 2px;
+  border:$light-black solid 2px;
   padding:10px 20px;
   max-width:260px;
-  color:#4d4d4d;
+  color:$light-black;
   font-weight: bold;
   border-radius:5px ;
 }
@@ -550,16 +551,16 @@
 // レビュー/右側レビュー星
 .section-layout > .guestreview > .reviews > .section-review > .top > .right > .reviewstar{
   > .fas{
-    color:#008489;
+    color:$light-green;
   }
 }
 // レビュー/右側レビューコメント
 .section-layout > .guestreview > .reviews > .section-review > .down{
   margin-top:15px;
-  border-bottom:#e6e6e6 solid 1px;
+  border-bottom:$bodergray solid 1px;
   padding-bottom:30px;
   span{
-    color:#008489;
+    color:$light-green;
   }
 }
 // レビュー/右側レビュー5個目だけ下線なし
@@ -568,7 +569,7 @@
 }
 // レビュー/ページネーション
 .section-layout > .guestreview > .reviews > .section-review > .pagination{
-  color:#008489;
+  color:$light-green;
   font-size:14px;
   display: flex;
   span{
@@ -617,7 +618,7 @@
       font-size:12px;
     }
     td{
-      background-color:rgb(240, 239, 239);
+      background-color:$light-gray;
       border-radius: 3px;
       text-align: center;
       font-size:10px;
@@ -655,7 +656,7 @@
 // 注意/右側1つのテキスト詳細
 .section-layout > .note > .texts > .section-text{
   display: flex;
-  border-bottom:#e6e6e6 solid 1px;
+  border-bottom:$bodergray solid 1px;
   padding-bottom:40px;
   margin-bottom:40px;
   padding-left:30px;
@@ -672,7 +673,7 @@
   > .text{
     width:31vw;
     > span{
-      color:#008489;
+      color:$light-green;
       font-weight: bold;
       font-size:14px;     
     }      
@@ -694,11 +695,11 @@
   margin:0 auto;
   max-width:1500px;
   padding:100px 20px;
-  border-bottom:#e6e6e6 solid 1px;
+  border-bottom:$bodergray solid 1px;
   > .title{
     font-size:30px;
     font-weight: bold;
-    color:#5f5f5f;
+    color:$light-black;
   }
   > .experiences{
     margin-top:30px;
@@ -710,7 +711,7 @@
 .section-layout >.otherexperiences > .experiences > .section-experience{
   height:100%;
   margin:0px 7px;
-  color:rgb(49, 49, 49);
+  color:$light-black;
 }
 // その他体験画像
 .section-layout >.otherexperiences > .experiences > .section-experience > .image{
@@ -721,11 +722,11 @@
   width:13vw;
   position: relative;
   >.online{
-    background-color:black;
+    background-color:$black;
     width:65px;
     height:20px;
     font-size:12px;
-    color:#fff;
+    color:$white;
     position: absolute;
     left:15px;
     top:10px;
@@ -759,7 +760,7 @@
     margin-right:3px;
   }
   span{
-    color:rgb(97, 97, 97);
+    color:$gray;
     margin-left:3px;
   }
 }
@@ -786,94 +787,28 @@
 // その他体験全て表示
 .section-layout >.otherexperiences > .allshow{
   margin-top:50px;
-  color:#008489;
+  color:$light-green;
   font-weight: bold;
 }
 
 
-
-
-/*リンク集*/
-// .section-layout > .linkcollections{
-//   height:300px;
-//   width:90%;
-//   @include space-between;
-//   margin-top:30px;
-//   padding-left:50px;
-//   > .linkcollection{
-//     width:25%;
-//     > .title{
-//       font-weight:bold;
-//       font-size:12px;
-//       margin-bottom:10px;
-//     }
-//   }
-// }
-
-// .section-layout > .linkcollections > .linkcollection ul{
-//   > li{
-//     font-size:14px;
-//     list-style: none;
-//     color:#5f5f5f; 
-//     line-height:35px;
-//   }
-// }
-
-
-
-
-
 /*フッター*/
 .section-layout > .topfooter{
-  padding:30px 0px 100px 0px;
+  padding:50px 0px 100px 0px;
 }
-
-// .section-layout > .topfooter > .left{
-//   font-size:13px;
-//   >span{
-//     padding:0px 8px;
-//   }
-// }
-
-// .section-layout > .topfooter  > .right{
-//   @include space-between;
-//   font-size:13px;
-//   font-weight:bold;
-//   height:30px;
-//   width:300px;
-// }
-
-// .section-layout > .topfooter  > .right  > .japan{
-//   @include space-between;
-//   > .fa-globe{
-//     margin:3px 5px 0px 0px;
-//   }
-//   > p{
-//     margin:0px 4px;
-//     text-decoration: underline;
-//   }
-// }
-
-// .section-layout > .topfooter  > .right > .sns{
-//   letter-spacing: 10px;
-//   font-size:18px;
-// }
-
-
-
 
 
 // 固定フッター全体
 .section-layout > .fixedfooter{
   height:70px;
   width:100%;
-  border-top:#d8d8d8 solid 1px;
+  border-top:$bodergray solid 1px;
   position: absolute;
   position: fixed;
   bottom: 0;
   display: flex;
   justify-content:space-between;
-  background-color:#fff;
+  background-color:$white;
   line-height:70px;
   padding:0px 0px;
 }
@@ -897,11 +832,11 @@
   >.review{
     font-size:10px;
     font-weight: bold;
-    color:#008489;
+    color:$light-green;
   }
   >.reviewcount{
     font-size:10px;
-    color:#5f5f5f;
+    color:$gray;
   }
 }
  
@@ -922,7 +857,7 @@
 
 // 黒枠をスクロール過ぎると固定フッター背景が黒くなる
 .section-layout > .black{
-  background-color:#000;
-  color:#fff;
+  background-color:$black;
+  color:$white;
   border-top:initial;
 }

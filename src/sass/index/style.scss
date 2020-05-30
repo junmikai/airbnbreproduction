@@ -1,6 +1,6 @@
-@import "settings";
 @import "mixin";
 @import "responsive";
+@import "../color";
  
 .body{
   width:100vw;
@@ -13,7 +13,7 @@
 
 /*コロナウイルスに関する注意事項*/
 .section-layout > .covid{ 
-  background-color:#f5f5f5;
+  background-color:$light-gray;
   text-align:center;
   font-size:14px;
   height:55px;
@@ -50,18 +50,18 @@
   display:none;
   display:flex;
   > .form{
-    border-right: thin solid $border;
+    border-right: thin solid $bodergray;
     text-align: center;
     line-height:45px;
     font-size:14px;
     padding:0px 10px;
-    color:gray;
+    color:$gray;
   }
   > .fas{
     margin:0 auto;
     line-height:45px;
     font-size:18px;
-    color:red;
+    color:$red;
   }
 }
 
@@ -98,7 +98,7 @@
   left: 0;
   position: fixed;
   top: 0;
-  border-bottom:solid 1px $border;
+  border-bottom:solid 1px $bodergray;
 }
 
 
@@ -132,7 +132,7 @@
     position:absolute; 
     top:5px;
     left:15px;
-    color:#666;
+    color:$gray;
     border:none;
     font-size:17px;
     z-index: 1;
@@ -143,7 +143,7 @@
   left: 0;
   position: fixed;
   top: 0;
-  border-bottom:solid 1px $border;
+  border-bottom:solid 1px $bodergray;
 }
 
 
@@ -165,7 +165,7 @@
     text-decoration:none;
     color:$light-black;
     > span{
-      background: rgb(247, 49, 49);
+      background:$wine;
       margin: 0 0 0 8px;
       padding: 4px 5px;
       border-radius: 4px;
@@ -189,7 +189,7 @@
 
 .section-layout > .search > .forms > .form{
   width:30%;
-  border-right: thin solid $border;
+  border-right: thin solid ;
   height: 40px;
   margin:3px 0px 0px 19px;
   .title{
@@ -199,7 +199,7 @@
   }
   .text{
     font-size:14px;
-    color:gray;
+    color:$gray;
   }
 }
 
@@ -216,7 +216,7 @@
   margin-top:-5px;
   margin-right:5px;
   > .btn{
-    background:#D70466;
+    background: -webkit-linear-gradient(0deg,$catchcopyend,$wine);
     color:$white;
     padding: 12px 22px;
     border-radius: 8px;
@@ -236,8 +236,8 @@
   margin:50px 0px 70px 70px;
   width:45%;
   > p{
-    color: rgb(146, 23, 77);
-    background: -webkit-linear-gradient(0deg, rgb(146, 23, 77), rgb(228, 29, 92));
+    color:$catchcopystart;
+    background: -webkit-linear-gradient(0deg,$catchcopystart,$catchcopyend);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }   
@@ -249,7 +249,7 @@
 
 /*オンライン体験*/
 .section-layout > .onlineexperience{
-  background-color: black;
+  background-color:$black;
   padding:60px 60px 80px 60px;
   color:$white;
   position: relative;
@@ -369,8 +369,8 @@
 .section-layout > .news{
   height:500px;
   width:100%;
-  background-color:#f5f5f5;
-  border-bottom:solid 1px #cdcdcd;
+  background-color:$light-gray;
+  border-bottom:solid 1px $bodergray;
   > .latestinformation{
     font-size:22px;
     font-weight: bold;
@@ -398,11 +398,11 @@
   }
   > li{
     list-style: none; 
-    border-top: solid 1px #cdcdcd;
+    border-top: solid 1px $bodergray;
     padding:15px 0px;
     font-weight: bold;
     > span{
-      color:#959595;
+      color:$gray;
       font-size:14px;
       font-weight: normal;
     }
@@ -434,7 +434,7 @@
   > li{
     font-size:14px;
     list-style: none;
-    color:#5f5f5f; 
+    color:$gray; 
     line-height:35px;
   }
 }
@@ -448,9 +448,9 @@
   @include space-between;
   margin:70px 70px 30px 70px; 
   padding-top:30px;
-  border-top: solid 1px #cdcdcd;
-  color:#1f1f1f;
-  width:100%;
+  border-top: solid 1px $bodergray;
+  color:$light-black;
+  width:90%;
   height:auto;
 }
 
@@ -492,7 +492,7 @@
 .section-layout > .hidingfooter{
   width:100%;
   height:70px;
-  border-top:solid 1px #c4c4c4;
+  border-top:solid 1px $bodergray;
   position: absolute;
   position: fixed;
   bottom: 0; 

@@ -1,4 +1,5 @@
 @import "mixin";
+@import "../color";
 
 // 740px以下
 @media (max-width: 740px){
@@ -10,7 +11,7 @@
     display: none;
   }
   .section-layout > .blackbox > .whiteheader{
-    background-color:#fff;
+    background-color:$white;
     height:20px;
     padding:20px 20px;
     display: flex;
@@ -22,7 +23,7 @@
     font-weight: bold;
   }
   .section-layout > .blackbox > .whiteheader >.right{
-    color:rgb(116, 114, 114);
+    color:$gray;
     font-size:17px;
     >.fas{
       margin-right:15px;
@@ -84,7 +85,7 @@
       height:60px;
       margin:10px 0px 0px 20px;
       font-size:23px;
-      border-bottom:#cacaca solid 1px;
+      border-bottom:$bodergray solid 1px;
     }
     > .texts{
       @include challengeresponsive;
@@ -232,7 +233,7 @@
     display: inline;
     > .section-linkcollection{
       width:100%;
-      border-bottom:solid 1px rgb(131, 131, 131);
+      border-bottom:solid 1px $bodergray;
       margin:20px;
       padding-bottom:20px;
     }
@@ -291,7 +292,7 @@
     font-size:13px;
   }
 .section-layout > .fixedfooter > .minileft > .review{
-  color:#008489;
+  color:$light-green;
   display: flex;
   > p{
     font-weight: bold;
@@ -301,7 +302,7 @@
   }
   > span{
     font-size:10px;
-    color:#5f5f5f;
+    color:$gray;
   }
 }
 .section-layout > .fixedfooter  > .miniright{
