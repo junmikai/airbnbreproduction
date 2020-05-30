@@ -1,0 +1,47 @@
+@import "../color";
+
+.body{
+  width:100vw;
+  height:100vh;
+}
+.section-layout{
+  width:100%;
+  position: relative;
+}
+
+// ヘッダー
+.section-layout > .hostheader{
+  height:80px;
+  color:$light-black;
+  display:flex;
+  justify-content:space-between;
+  line-height:80px;
+  font-weight: bold;
+}
+
+.section-layout > .hostheader > .left{
+  display: flex;
+  padding-left:30px;
+  > p{
+    margin-right:30px;
+    font-size:14px;
+    
+    >.fab{
+      font-size:35px;
+      line-height:2.25;
+      color:$light-green;
+    }
+  }
+}
+
+.section-layout > .hostheader > .right{
+  font-size:14px;
+  background-color:$wine;
+  color:$white;
+  text-align: center;
+  width:90px;
+  height:35px;
+  line-height:35px;
+  margin:20px 80px 0px 30px;
+  border-radius: 5px;
+}

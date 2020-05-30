@@ -6,5 +6,7 @@ import "./sass/experiences/style.scss";
 import "./sass/experiences/responsive.scss";
 import "./sass/experiences/mixin.scss";
 
+import "./sass/host/style.scss";
+
 import "./sass/reset.scss";
 import "./sass/color.scss";
