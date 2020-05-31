@@ -176,5 +176,31 @@
     font-size:17px;
     margin-top:20px;
   }
+}
+.section-layout > .hostmain >.interview{
+  display: flex;
+}
+.section-layout > .hostmain >.interview > .left{
+  width:43%;
+  margin-right:50px;
+  color:$light-60;
+}
+.section-layout > .hostmain >.interview > .left >.text{
+  font-size:33px;
+  line-height:1.25;
+}
+.section-layout > .hostmain >.interview > .left > .minitext{
+  margin-top:15px;
+  color:$light-a0;
+}
 
+.section-layout > .hostmain >.interview > .left > .checkbtn{
+  margin-top:10px;
+  color:$light-black;
+  margin:20px 0px;
+  border:$light-black solid 2px;
+  border-radius:5px;
+  width:180px;
+  padding:15px 20px;
+  font-weight: bold;
 }
