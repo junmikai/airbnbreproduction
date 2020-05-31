@@ -142,3 +142,39 @@
 .section-layout > .hostmain >.introduction > .warranty >.text{
   width:100%;
 }
+
+.section-layout > .hostmain > .step{
+  height:400px;
+  margin-top:30px;
+  color:$light-black;
+}
+
+.section-layout > .hostmain > .step >.title{
+  font-size:60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom:50px;
+}
+
+.section-layout > .hostmain > .step >.texts{
+  display: flex;
+  >.text{
+    width:30%;
+    margin-right:40px;
+  }
+}
+.section-layout > .hostmain > .step >.texts >.text{
+  .far{
+    font-size:50px;
+  }
+  .minititle{
+    font-size:25px;
+    margin-top:20px;
+    font-weight: bold;
+  }
+  .minitext{
+    font-size:17px;
+    margin-top:20px;
+  }
+
+}
