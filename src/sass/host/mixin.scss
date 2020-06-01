@@ -51,3 +51,8 @@
   margin-right:50px;
   color:$light-60;
 }
+
+@mixin light-green{
+  color:$light-green;
+  padding-top:10px;
+}

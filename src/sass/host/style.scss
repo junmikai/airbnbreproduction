@@ -160,6 +160,7 @@
   >.text{
     width:30%;
     margin-right:40px;
+    line-height:1.75;
   }
 }
 .section-layout > .hostmain > .step >.texts >.text{
@@ -175,8 +176,12 @@
     font-size:17px;
     margin-top:20px;
   }
+  .green{
+    @include light-green;
+  }
 }
 .section-layout > .hostmain >.interview{
+  margin-top:100px;
   display: flex;
 }
 .section-layout > .hostmain >.interview > .left{
@@ -223,8 +228,7 @@
   @include left;
   margin:10px 0px 0px 0px;
   >.how{
-  color:$light-green;
-  padding-top:10px;
+  @include light-green;
   }
 }
 
@@ -236,4 +240,9 @@
     margin-right:15px;
     margin-bottom:25px;
   }
+}
+
+.section-layout > .hostmain > .relief > .massage{
+  margin:50px auto;
+  text-align: center;
 }
