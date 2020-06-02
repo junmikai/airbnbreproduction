@@ -56,3 +56,24 @@
   color:$light-green;
   padding-top:10px;
 }
+
+@mixin bigtext{
+  font-size:33px;
+  line-height:1.25;
+}
+
+@mixin minitext{
+  margin-top:15px;
+  color:$light-a0;
+}
+
+@mixin checkbtn{
+  margin-top:10px;
+  color:$light-black;
+  margin:20px 0px;
+  border:$light-black solid 2px;
+  border-radius:5px;
+  width:180px;
+  padding:15px 20px;
+  font-weight: bold;
+}
