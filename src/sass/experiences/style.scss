@@ -1,4 +1,3 @@
-@import "mixin";
 @import "../color";
 
 .body{
@@ -90,33 +89,45 @@
 
 // 黒枠/画像枠
 .section-layout >.blackbox > .imagebox{
-    @include mainpage;
-    height:30vw;
+  width:95vw;
+  max-width:1200px;
+  display:flex;
+  margin:20px auto;
+  position: relative;
+  height:30vw;
 }
 // 黒枠/画像枠/画像詳細
 .section-layout >.blackbox > .imagebox{
   > .imagesmile{ 
-    @include imagebox ;
+    width:28vw;
+    margin:0px 5px;
+    background-size:cover;
     background-image:url("/Users/mikaijun/airbnb/src/image/dance.png");
   }
   > .imagephoenix{ 
-    @include imagebox ;
+    width:28vw;
+    margin:0px 5px;
+    background-size:cover;
     background-image:url("/Users/mikaijun/airbnb/src/image/phoenix.png");
   }
   > .smallimages{
     width:15vw;
     > .imagedrink{
-      @include smallimagebox;
+      height:49.5%;
+      background-size:cover;
       background-image:url("/Users/mikaijun/airbnb/src/image/drink.png");
       margin-bottom:5px;
     }
     > .imageshoot{
-      @include smallimagebox;
+      height:49.5%;
+      background-size:cover;
       background-image:url("/Users/mikaijun/airbnb/src/image/shoot.png");
     }
   }
   > .imagecooking{ 
-    @include imagebox ;
+    width:28vw;
+    margin:0px 5px;
+    background-size:cover;
     background-image:url("/Users/mikaijun/airbnb/src/image/cooking.png");
   }
 } 
@@ -130,15 +141,27 @@
   display: flex;
   justify-content:space-between;
   > .share{
-    @include snsbtn;
-    @include snsbtn-font;
+    background-color:$light-gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between;
+    padding:12px 15px 15px 15px;
+    line-height:1;
+    font-size:14px;
+    font-weight: bold;
     > .fas{
     padding-right:10px;
   }
 }
   > .like{
-    @include snsbtn;
-    @include snsbtn-font;
+    background-color:$light-gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between;
+    padding:12px 15px 15px 15px;
+    line-height:1;
+    font-size:14px;
+    font-weight: bold;
     > .far{
     padding-right:10px;
     }
@@ -148,7 +171,11 @@
 
 // 黒枠/説明文
 .section-layout > .blackbox > .explanation{
-  @include mainpage;
+  width:95vw;
+  max-width:1200px;
+  display:flex;
+  margin:20px auto;
+  position: relative;
 }
 // 黒枠/説明文/左側アイコン
 .section-layout > .blackbox > .explanation >.left{
@@ -283,14 +310,24 @@
 // 体験できる事
 .section-layout > .canexperience{
   display: flex;
-  @include center;
+  margin:0 auto;
+  max-width:1200px;
+  padding:0px 45px 45px 45px;
+  color:$light-black;
   margin-bottom:40px;
 }
 // 体験できる事/左タイトル
 .section-layout > .canexperience  >.sticky {
-  @include sticky;
+  width: 20vw;
+  height: 10vh;
+  position: -webkit-sticky; 
+  position: sticky; 
+  top: 55px; 
+  left: 0; 
   > .title{
-    @include title;
+    font-size:30px;
+    font-weight: bold;
+    min-width:150px;
     padding-top:40px;
   }
 }
@@ -312,13 +349,18 @@
 }
 // チャレンジ/文字全体
 .section-layout > .challenge-background > .challenge{
-    @include center;
+    margin:0 auto;
+    max-width:1200px;
+    padding:0px 45px 45px 45px;
+    color:$light-black;
     display: flex;
     padding-top:120px;
 }
 // チャレンジ/左タイトル
 .section-layout > .challenge-background > .challenge > .title{
-  @include title;
+  font-size:30px;
+  font-weight: bold;
+  min-width:150px;
 }
 // チャレンジ/右文字全体
 .section-layout > .challenge-background > .challenge > .texts{
@@ -342,15 +384,25 @@
 
 // ホスト
 .section-layout > .hosts{
-  @include center;
+  margin:0 auto;
+  max-width:1200px;
+  padding:0px 45px 45px 45px;
+  color:$light-black;
   display: flex;
 }
 // ホスト/左タイトル
 .section-layout > .hosts >.sticky {
-  @include sticky;
+  width: 20vw;
+  height: 10vh;
+  position: -webkit-sticky; 
+  position: sticky; 
+  top: 55px; 
+  left: 0; 
   > .title{
     padding-top:45px;
-    @include title;
+    font-size:30px;
+    font-weight: bold;
+    min-width:150px;
   }
 }
 // ホスト/右側
@@ -361,7 +413,8 @@
     border-radius: 50%; 
   }
   > .hostname{
-    @include size22;
+    font-size:22px;
+    font-weight: bold;
     margin-top:10px;
   }
   > .hosttext{
@@ -369,7 +422,13 @@
     max-width:1000px;
   } 
   > .contact{
-    @include greenbtn;
+    color:$light-green;
+    margin:20px 0px;
+    border: $light-green solid 2px;
+    border-radius:5px;
+    width:100px;
+    padding:10px 10px;
+    font-weight: bold;
   }
 }
 
@@ -378,15 +437,25 @@
 
 // 持ち物
 .section-layout > .belongings{
-  @include center;
+  margin:0 auto;
+  max-width:1200px;
+  padding:0px 45px 45px 45px;
+  color:$light-black;
   display: flex;
 }
 // 持ち物/左タイトル
 .section-layout > .belongings > .sticky {
-  @include sticky;
+  width: 20vw;
+  height: 10vh;
+  position: -webkit-sticky; 
+  position: sticky; 
+  top: 55px; 
+  left: 0; 
   > .title{
     padding-top:45px;
-    @include title;
+    font-size:30px;
+    font-weight: bold;
+    min-width:150px;
   }
 }
 // 持ち物/右側全体
@@ -420,14 +489,24 @@
 
 // 参加方法
 .section-layout > .participation{
-  @include center;
+  margin:0 auto;
+  max-width:1200px;
+  padding:0px 45px 45px 45px;
+  color:$light-black;
   display: flex;
 }
 // 参加方法/左タイトル
 .section-layout > .participation > .sticky {
-  @include sticky;
+  width: 20vw;
+  height: 10vh;
+  position: -webkit-sticky; 
+  position: sticky; 
+  top: 55px; 
+  left: 0; 
   > .title{
-    @include title;
+    font-size:30px;
+    font-weight: bold;
+    min-width:150px;
     padding-top:45px;
   }
 }
@@ -442,7 +521,8 @@
   border-bottom:$bodergray solid 1px;
   padding-bottom:50px;
   > .title{
-    @include size22;
+    font-size:22px;
+    font-weight: bold;
     margin:10px 0px;
     }
     > .details{
@@ -468,7 +548,8 @@
 // 参加方法/貸し切り
 .section-layout > .participation > .texts > .charter{
   > .title{
-    @include size22;
+    font-size:22px;
+    font-weight: bold;
     margin:10px 0px;
   }
   > .details{
@@ -480,7 +561,10 @@
 
 // レビュー
 .section-layout > .guestreview{
-  @include center;
+  margin:0 auto;
+  max-width:1200px;
+  padding:0px 45px 45px 45px;
+  color:$light-black;
   display: flex;
   padding-top:45px;
   margin-bottom:40px;
@@ -488,11 +572,18 @@
 // レビュー/左側タイトル
 .section-layout > .guestreview >.titles{
   >.sticky {
-    @include sticky;
+    width: 20vw;
+    height: 10vh;
+    position: -webkit-sticky; 
+    position: sticky; 
+    top: 55px; 
+    left: 0; 
     height:40vh;
     >.title{
       padding-top:45px;
-      @include title;
+      font-size:30px;
+      font-weight: bold;
+      min-width:150px;
       margin-bottom:10px;
     }
   }
@@ -589,14 +680,21 @@
 
 // 予約全体設定
 .section-layout > .reservation{
-  @include center;
+  margin:0 auto;
+  max-width:1200px;
+  padding:0px 45px 45px 45px;
+  color:$light-black;
   > .title{
-    @include title;
+    font-size:30px;
+    font-weight: bold;
+    min-width:150px;
     margin-bottom:50px;
   }
   > .calendars{
     display: flex;
-    @include scroll2;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
   }
 }
 
@@ -631,20 +729,36 @@
 }
 // 予約全体設定/日付選択
 .section-layout > .reservation > .daychoice{
-  @include greenbtn;
+  color:$light-green;
+  margin:20px 0px;
+  border: $light-green solid 2px;
+  border-radius:5px;
+  width:100px;
+  padding:10px 10px;
+  font-weight: bold;
   width:130px;
 }
 
 // 注意
 .section-layout > .note{
-  @include center;
+  margin:0 auto;
+  max-width:1200px;
+  padding:0px 45px 45px 45px;
+  color:$light-black;
   display: flex;
 }
 // 注意/左側タイトル
 .section-layout > .note >.sticky {
-  @include sticky;
+  width: 20vw;
+  height: 10vh;
+  position: -webkit-sticky; 
+  position: sticky; 
+  top: 55px; 
+  left: 0; 
   > .title{
-    @include title;
+    font-size:30px;
+    font-weight: bold;
+    min-width:150px;
     padding-top:45px;
   }
 }
@@ -851,7 +965,15 @@
     font-size:13px;
   }
   >.daybtn{
-    @include daybtn;
+    background-color:$wine;
+    color:$white;
+    font-weight: bold;
+    text-align: center;
+    width:200px;
+    height:50px;
+    line-height:50px;
+    margin:10px 0px 0px 30px;
+    border-radius: 5px;
   }
 }
 

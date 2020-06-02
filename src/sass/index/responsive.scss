@@ -1,4 +1,3 @@
-@import "mixin";
 @import "../color";
 
 @media (max-width: 740px){
@@ -17,7 +16,8 @@
   width:96%;
 }
 .section-layout > .news > .informations{
-  @include scroll;
+  overflow-x: auto;
+  white-space: nowrap;
   display: flex;
   margin-top:initial;
   > .information{
@@ -87,30 +87,45 @@
   left:50px;
 }
 .section-layout > .onlineexperience > .imagebox{
-  @include scroll;
+  overflow-x: auto;
+  white-space: nowrap;
   height:650px;
   margin-bottom:50px;
 }
 .section-layout > .onlineexperience > .imagebox > .left > .sangría{
-  @include max-width900;  
+  display: inline-block;
+  width: 90vw;
+  height: 80vw;
+  margin:16px;
 } 
 .section-layout > .onlineexperience > .imagebox > .right > .top{
-  @include clear_space-between;
+  display:initial;
+  justify-content:initial;
   > .yoga{
-      @include max-width900;
+    display: inline-block;
+    width: 90vw;
+    height: 80vw;
+    margin:16px;
     }
   > .music{
-      @include max-width900;
+    display: inline-block;
+    width: 90vw;
+    height: 80vw;
+    margin:16px;
     }
   }
 .section-layout > .onlineexperience > .imagebox > .right > .bottom{
-  @include max-width900;
+  display: inline-block;
+  width: 90vw;
+  height: 80vw;
+  margin:16px;
   }
 }
 
 @media (min-width:741px) and (max-width: 1130px){
 .section-layout > .onlineexperience > .imagebox > .right > .top{
-    @include clear_space-between;
+  display:initial;
+  justify-content:initial;
   }
 .section-layout > .news{
   height:850px;
