@@ -16,68 +16,19 @@
     display: flex;
     justify-content:space-between;
     width:95%;
+    @import "responsive-components";
   }
-  .section-layout > .blackbox > .whiteheader > .left{
-    font-size:14px;
-    font-weight: bold;
-  }
-  .section-layout > .blackbox > .whiteheader >.right{
-    color:$gray;
-    font-size:17px;
-    >.fas{
-      margin-right:15px;
-    }
-  }
-  .section-layout > .blackbox > .imagebox > .snsbtn {
-    display: none;
+  .section-layout > .blackbox > .imagebox{
+    @import "responsive-components";
   }
   .section-layout > .blackbox > .explanation{
     display: initial;
-  }
-  .section-layout > .blackbox > .explanation > .left{
-    width:initial;
-    padding:0px 20px;
-    > .tags{
-      width:initial;
-    }
-  }
-  .section-layout > .blackbox > .explanation > .right{
-    width: initial;
-    margin-left:initial;
-    padding:0px 20px;
-  }
-  .section-layout > .blackbox > .explanation > .right  > .devise{
-    padding:initial;
-    position: relative;
-    line-height:initial;
-    height:60px;
-    p{
-      padding:15px;
-      width:90%;
-    }
-    img{
-      position: absolute;
-      right:0px;
-    }
-  }
-  .section-layout > .blackbox > .explanation > .right  > .specs{
-    width:500px;
-    flex-wrap :wrap;
-    >.spec{
-      width:200px;
-    }
+    @import "responsive-components";
   }
   .section-layout > .canexperience{
     display: initial;
-    >.sticky {
-      width:initial;
-      position: initial;
-      >.title{
-        font-size:23px;
-        padding:20px 0px 0px 20px;
-      }
-    }
-    >.text{
+    @import "responsive-components";
+    >.experiencetext{
       padding-left:initial;
       margin:30px 20px;
     }
@@ -87,131 +38,34 @@
   }
   .section-layout > .challenge-background > .challenge{
     display: initial;
-    >.title{
-      width:90%;
-      height:60px;
-      margin:10px 0px 0px 20px;
-      font-size:23px;
-      border-bottom:$bodergray solid 1px;
-    }
-    > .texts{
-      display: initial;
-      > .text{
-        width:95%;
-        display: flex;
-        margin-bottom:30px;
-        > .minititle{
-          display: none;
-        }
-        >.minitext{
-          margin-left:20px;
-          font-size:14px;
-        }
-      }
-    }
+    @import "responsive-components";
   }
-  
   .section-layout > .hosts{
     display: initial;
-    >.sticky {
-      width:initial;
-      position: initial;
-      >.title{
-        font-size:23px;
-        padding:20px 0px 0px 20px;
-      }
-    }
+    @import "responsive-components";
   }
-  .section-layout > .hosts > .hostdata{
-    padding:0px 20px;
-    img{
-      margin-top:30px;
-    }
-    >.hostname{
-      margin-top:30px;
-    }
-  }
- 
   .section-layout >.belongings{
     display: initial;
-    >.sticky {
-      width:initial;
-      position: initial;
-      >.title{
-        font-size:23px;
-        padding:20px 0px 0px 20px;
-      }
-    }
-    >.texts{
+    @import "responsive-components";
+    >.belongingstexts{
       padding-left:20px;
       width:90%;
     }
   }
-
   .section-layout >.participation{
     display: initial;
-    >.sticky {
-      width:initial;
-      position: initial;
-      >.title{
-        font-size:23px;
-        padding:20px 0px 0px 20px;
-      }
-    }
+    @import "responsive-components";
   }
-  .section-layout >.participation >.texts{
-    padding-left:20px;
-    width:90%;
-    width:95%;
-    margin-top:30px;
-  }
-  .section-layout >.participation >.texts >.videocall > .title {
-    font-size:18px;
-  }
-  .section-layout >.participation >.texts > .charter > .title {
-    font-size:18px;
-    margin:20px 0px;
-  }
+
   .section-layout >.guestreview{ 
     display: initial;
-    >.sticky {
-      width:initial;
-      position: initial;
-      >.title{
-        font-size:23px;
-        padding:20px 0px 0px 20px;
-      }
-    }
-    >.titles{
-      padding-left:20px;
-      width:90%;
-      margin-top:30px;
-    }
+    @import "responsive-components";
   }
-  .section-layout > .guestreview  > .titles >.sticky{
-    width:initial;
-    >.title{
-      font-size:23px;
-    }
-  }
+
   .section-layout > .guestreview  >.reviews{
     padding:30px 20px;
+    @import "responsive-components";
   }
-  .section-layout > .guestreview  >.reviews > .review >.pagination{
-    >span{
-      display: none;
-    }
-    >.bot{
-      display: none;
-    }
-    >.no233{
-      display: none;
-    }
-    >.fas{
-      margin-left:initial;
-    }
-  }
- 
 
   .section-layout > .reservation > .title {
     font-size:22px;
@@ -233,13 +87,8 @@
   }
   .section-layout > .topfooter{ 
     text-align:initial;
+    @import "responsive-components";
   } 
-  .section-layout > .topfooter > .right{
-    margin:initial;
-  > .sns{
-      display: none;
-    }
-  }
   .section-layout  >.fixedfooter{
   width:97%;
   }
@@ -253,48 +102,14 @@
     position: relative;
     height:900px; 
   }
-  .section-layout >.blackbox > .explanation > .left {
-    width:55%;
-    .tags {
-      width:initial;
-    }
+  .section-layout >.blackbox > .explanation{
+    @import "responsive-components";
   }
-  .section-layout >.blackbox > .explanation > .right {
-    margin-left: initial;
-    > .devise{
-    height:70px;
-    line-height:initial;
-    }
-    > .specs{
-    width:55vw;
-    height:initial;
-    position: absolute;
-    left:30px;
-    bottom:-100px;
-    }
+
+  .section-layout > .challenge-background  > .challenge{
+    @import "responsive-components";
   }
-  .section-layout > .challenge-background  > .challenge > .title {
-    width:280px;
-  }
-  .section-layout > .challenge-background  > .challenge > .texts{
-    display: initial;
-    > .text{
-      width:95%;
-      display: flex;
-      margin-bottom:30px;
-      > .minititle{
-        display: none;
-      }
-      >.minitext{
-        margin-left:20px;
-        font-size:14px;
-      }
-    }
-    padding-left:initial;
-    >.text >.minitext{
-      font-size:16px;
-    }
-  }
+ 
   .section-layout > .linkcollections{
     display: inline;
     > .linkcollection{
@@ -302,15 +117,10 @@
       border-bottom:solid 1px $bodergray;
       margin:20px;
       padding-bottom:20px;
+      @import "responsive-components";
     }
   }
-  .section-layout > .linkcollections > .linkcollection ul{
-    display:flex;
-    flex-wrap: wrap;
-    > li{
-      width:33%;
-    }
-  }
+
   .section-layout > .topfooter{
       flex-wrap :wrap-reverse;
       width:700px;
@@ -326,49 +136,18 @@
 
 // 1130px以下
 @media (max-width: 1130px){
-.section-layout > .note > .texts{
+.section-layout > .note > .notetexts{
   width:100%;
+  @import "responsive-components";
   }
-.section-layout > .note > .texts > .text{
-  margin-bottom:20px;
-  padding-bottom:20px;
-  >.minititle{
-    font-size:18px;
-    width:90%;
-  }
-  >.text{
-  display:none;
-  }
-} 
 .section-layout >.fixedfooter{
   line-height:initial;
-  >.left{
+  @import "responsive-components";
+  >.fixedleft{
     display: none;
   }
-  >.right{
+  >.fixedright{
     display: none;
-  }
-}
-.section-layout > .fixedfooter > .minileft{
-  font-size:10px;
-  padding:17px;
-}
-.section-layout > .fixedfooter > .minileft >.price{
-    font-weight: bold;
-    font-size:13px;
-  }
-.section-layout > .fixedfooter > .minileft > .review{
-  color:$light-green;
-  display: flex;
-  > p{
-    font-weight: bold;
-  }
-  >.fas{
-    line-height:1.5;
-  }
-  > span{
-    font-size:10px;
-    color:$gray;
   }
 }
 .section-layout > .fixedfooter  > .miniright{
@@ -387,8 +166,8 @@
 
 // 1130px以上
 @media (min-width: 1130px){
-.section-layout > .note > .texts > .text > .fas {
-    display:none;
+.section-layout > .note > .notetexts{
+  @import "responsive-components";
   }
 .section-layout > .fixedfooter >.minileft{
     display: none;
@@ -399,17 +178,6 @@
 }
 
 // その他のオンライン体験
-.section-layout > .otherexperiences > .experiences > .experience > .image{
-  @media (min-width:1110px) and (max-width: 1440px){
-    height:22vw;
-    width:18vw;
-  } 
-  @media (min-width:740px) and (max-width: 1110px){
-    height:28vw;
-    width:23vw;
-  } 
-  @media (max-width: 740px){
-    height:55vw;
-    width:45vw;
-  } 
-}  
+.section-layout > .otherexperiences > .experiences{
+  @import "responsive-components";
+}

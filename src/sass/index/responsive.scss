@@ -20,7 +20,7 @@
   white-space: nowrap;
   display: flex;
   margin-top:initial;
-  @import "components";
+  @import "responsive-components";
   }
 .section-layout > .linkcollections{
   display: none;
@@ -36,7 +36,7 @@
   position: absolute;
   top:20px;
   left:30px;
-  @import "components";
+  @import "responsive-components";
   }
 .section-layout > .topfooter > .footerleft{
   padding:20px 0px 0px 30px;
@@ -67,30 +67,30 @@
     }
   }
 .section-layout > .onlineexperience >.top{
-  @import "components";
+  @import "responsive-components";
   }
 .section-layout > .onlineexperience > .imagebox{
   overflow-x: auto;
   white-space: nowrap;
   height:650px;
   margin-bottom:50px;
-  @import "components";
+  @import "responsive-components";
   } 
 }
 
 @media (min-width:741px) and (max-width: 1130px){
   .section-layout > .onlineexperience > .imagebox{
-    @import "components";
+    @import "responsive-components";
   }
   .section-layout > .news{
   height:850px;
   }
   .section-layout > .news > .informations{
-  @import "components";
+  @import "responsive-components";
   }
   .section-layout > .linkcollections{
   display: inline;
-  @import "components";
+  @import "responsive-components";
   > .linkcollection{
     width:100%;
     border-bottom:solid 1px $bodergray;
@@ -99,7 +99,7 @@
     }
   }
   .section-layout > .linkcollections > .linkcollection{
-    @import "components";
+    @import "responsive-components";
   }
   .section-layout > .topfooter{
   flex-wrap :wrap-reverse;
@@ -115,7 +115,7 @@
 
 @media (min-width:900px) and (max-width: 1130px) {
   .section-layout > .onlineexperience > .imagebox{
-    @import "components";
+    @import "responsive-components";
   }
 }
 

@@ -1,0 +1,152 @@
+// 黒枠/ヘッダー/右メニュー
+.header-nav{
+  display: flex;
+  list-style: none;
+    li{
+    padding:10px;
+      a{
+      text-decoration:none;
+      font-size:15px;
+      color:$white;
+    }
+      .fa-globe{
+      margin-right:7px;
+    }
+    .register{
+      padding:15px;
+      border-radius: 20px;
+      background-color:$light-black;
+    }
+  }
+}
+
+// 黒枠/説明文/左側翻訳
+.translation{
+  width:270px;
+  > .border{
+    margin-top:5px;
+    border:  solid 2px;
+    padding:10px 15px;
+    display: flex;
+    color:$white;
+    text-align: center;
+    > .fas{
+      margin-right:5px;
+      font-size:30px;
+    }
+    > p{
+      line-height:1.7;
+    }
+  }
+}
+
+// 黒枠/説明文/右側概要
+ .spec{
+  > .fas{
+    color:$gray;
+    margin-bottom:10px;
+  }
+  > .title{
+    color:$gray;
+  }
+}
+
+// 参加方法/ビデオ通話
+.videocall{
+  border-bottom:$bodergray solid 1px;
+  padding-bottom:50px;
+  > .participationtitle{
+    font-size:22px;
+    font-weight: bold;
+    margin:10px 0px;
+    }
+    > .details{
+    margin:20px 0px;
+    font-size:18px;
+    span{
+      font-weight:bold;
+      text-decoration: underline
+    }
+  }
+  > .comment{
+    background-color:$light-gray;
+    padding:20px;
+    border-radius: 10px;
+    font-size:15px;
+    max-width:800px;
+    span{
+      font-size:13px;
+      font-weight: bold;
+    }
+  }
+}
+
+// レビュー右側情報
+.reviewright{
+  margin-left:20px;
+  > .reviewuser{
+    display:flex;
+    font-size:15px;
+    > .username{
+      font-weight: bold;
+      margin-right:5px;
+    }
+    > .month{
+      font-size:13px;
+      line-height:2;
+    }
+  }
+  > .reviewstar{
+    > .fas{
+      color:$light-green;
+    }
+  }
+}
+
+// カレンダーデザイン
+.calendartable {
+  width:90%;
+  padding:10px;
+  tr{
+    th{
+      font-weight: normal;
+      font-size:12px;
+    }
+    td{
+      background-color:$light-gray;
+      border-radius: 3px;
+      text-align: center;
+      font-size:10px;
+      padding:7px;
+    }
+    > .none{
+      opacity: 0;
+    }
+  }
+}
+
+// 注意文詳細
+.notetext{
+  display: flex;
+  border-bottom:$bodergray solid 1px;
+  padding-bottom:40px;
+  margin-bottom:40px;
+  padding-left:30px;
+  > .minititle{
+    width:250px;
+    font-size:24px;
+    font-weight: bold;
+    margin-right:20px;
+  }
+  > .text{
+    width:31vw;
+    > span{
+      color:$light-green;
+      font-weight: bold;
+      font-size:14px;     
+    }      
+  }
+  >.fas {
+    font-size:25px;
+  }
+}
