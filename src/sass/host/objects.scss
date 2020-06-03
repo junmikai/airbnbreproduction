@@ -140,8 +140,15 @@
   height:400px;
   @import "components";
 }
-
+// ホスティング
 .section-layout > .hostmain > .hosting{
   @import "components";
   color:$light-black;
+  
+}
+// リスティング
+.section-layout > .hostmain > .listing{
+  margin-top:50px;
+  position: relative;
+  @import "components";
 }
