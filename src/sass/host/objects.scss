@@ -1,0 +1,129 @@
+@import "../color";
+
+.body{
+  width:100vw;
+  height:100vh;
+}
+.section-layout{
+  width:100%;
+  position: relative;
+}
+
+// ヘッダー
+.section-layout > .hostheader{
+  height:80px;
+  color:$light-black;
+  display:flex;
+  justify-content:space-between;
+  line-height:80px;
+  font-weight: bold;
+  @import "components";
+}
+// ヘッダー/右側
+.section-layout > .hostheader > .headerright{
+  font-size:14px;
+  color:$white;
+  text-align: center;
+  border-radius: 5px;
+  background-color:$wine;
+  width:90px;
+  height:35px;
+  line-height:35px;
+  margin:20px 80px 0px 30px;
+}
+
+
+
+
+// 背景画像
+.section-layout > .hostbackground{
+  max-width:1600px;
+  background-image:url("/Users/mikaijun/airbnb/src/image/hostbackground.png");
+  background-size:cover;
+  height:600px;
+  position: relative;
+  margin:0 auto;
+}
+// 背景画像/フォーム全体
+.section-layout > .hostbackground > .form{
+  position: absolute;
+  height:380px;
+  width:400px;
+  padding:30px;
+  background-color: $white;
+  right:100px;
+  top:80px;
+  font-weight: bold;
+  @import "components";
+}
+
+
+
+// メインページ余白
+.section-layout > .hostmain{
+  max-width:1200px;
+  margin:0 auto;
+  padding:100px 30px;
+}
+
+
+
+// 冒頭説明
+.section-layout > .hostmain >.introduction{
+  height:200px;
+  display: flex;
+  @import "components";
+}
+
+
+
+// ステップ
+.section-layout > .hostmain > .step{
+  height:400px;
+  margin-top:30px;
+  color:$light-black;
+  @import "components";
+}
+
+
+
+// インタビュー全体
+.section-layout > .hostmain >.interview{
+  margin-top:100px;
+  display: flex;
+  @import "components";
+}
+
+
+
+
+// 安心
+.section-layout > .hostmain > .relief{
+  margin-top:30px;
+  color:$light-black;
+  padding:0px 30px;
+  @import "components";
+}
+// 安心/マッサージ画像
+.section-layout > .hostmain > .relief > .massage{
+  margin:50px auto;
+  text-align: center;
+}
+
+// ----------------------
+// シンプルのcssはステップ参照
+// -----------------------
+
+// 実施例/
+.section-layout > .hostmain > .example{
+  display:flex;
+  @import "components";
+}
+
+// シェアデータ
+.section-layout > .hostmain > .hostshare{
+  height:400px;
+  margin-top:100px;
+  color:$light-black;
+  @import "components";
+}

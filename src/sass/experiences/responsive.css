@@ -1,0 +1,4901 @@
+@media (max-width: 740px) {
+  .section-layout > .fixedheader {
+    opacity: 0;
+    width: 10%;
+  }
+  .section-layout > .blackbox > .experiencesheader {
+    display: none;
+  }
+  .section-layout > .blackbox > .whiteheader {
+    background-color: #fff;
+    height: 20px;
+    padding: 20px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 95%;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .blackbox > .whiteheader .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .blackbox > .whiteheader .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .blackbox > .whiteheader .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .blackbox > .whiteheader .snsbtn {
+    display: none;
+  }
+  .section-layout > .blackbox > .whiteheader .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .blackbox > .whiteheader .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .blackbox > .whiteheader .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .blackbox > .whiteheader .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .blackbox > .whiteheader .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .blackbox > .whiteheader .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .blackbox > .whiteheader .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .blackbox > .whiteheader .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .blackbox > .whiteheader .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .blackbox > .whiteheader .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .blackbox > .whiteheader > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .blackbox > .whiteheader .challengetexts {
+    display: initial;
+  }
+  .section-layout > .blackbox > .whiteheader .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .blackbox > .whiteheader .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .blackbox > .whiteheader .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .blackbox > .whiteheader .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .blackbox > .whiteheader .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .whiteheader .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .whiteheader .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .whiteheader .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .blackbox > .whiteheader .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .blackbox > .whiteheader .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .whiteheader .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .blackbox > .whiteheader .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .blackbox > .whiteheader .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .blackbox > .whiteheader .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .blackbox > .whiteheader .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .blackbox > .whiteheader .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .blackbox > .whiteheader .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .blackbox > .whiteheader .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .blackbox > .whiteheader .footerright {
+    margin: initial;
+  }
+  .section-layout > .blackbox > .whiteheader .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .blackbox > .whiteheader .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .blackbox > .whiteheader .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .blackbox > .whiteheader .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .blackbox > .whiteheader .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .blackbox > .whiteheader .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .blackbox > .whiteheader .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .blackbox > .whiteheader .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .blackbox > .whiteheader .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .blackbox > .whiteheader .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .blackbox > .whiteheader .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .blackbox > .whiteheader .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .blackbox > .whiteheader .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .blackbox > .whiteheader .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .blackbox > .whiteheader .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .blackbox > .whiteheader .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .blackbox > .whiteheader .notetext > .text {
+    display: none;
+  }
+  .section-layout > .blackbox > .whiteheader .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .blackbox > .whiteheader .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .blackbox > .whiteheader .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .blackbox > .whiteheader .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .blackbox > .whiteheader .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .blackbox > .whiteheader .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1130px) {
+  .section-layout > .blackbox > .whiteheader .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .blackbox > .whiteheader .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .blackbox > .whiteheader .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .blackbox > .whiteheader .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .blackbox > .imagebox .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .blackbox > .imagebox .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .blackbox > .imagebox .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .blackbox > .imagebox .snsbtn {
+    display: none;
+  }
+  .section-layout > .blackbox > .imagebox .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .blackbox > .imagebox .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .blackbox > .imagebox .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .blackbox > .imagebox .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .blackbox > .imagebox .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .blackbox > .imagebox .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .blackbox > .imagebox .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .blackbox > .imagebox .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .blackbox > .imagebox .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .blackbox > .imagebox .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .blackbox > .imagebox > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .blackbox > .imagebox .challengetexts {
+    display: initial;
+  }
+  .section-layout > .blackbox > .imagebox .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .blackbox > .imagebox .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .blackbox > .imagebox .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .blackbox > .imagebox .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .blackbox > .imagebox .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .imagebox .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .imagebox .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .imagebox .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .blackbox > .imagebox .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .blackbox > .imagebox .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .imagebox .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .blackbox > .imagebox .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .blackbox > .imagebox .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .blackbox > .imagebox .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .blackbox > .imagebox .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .blackbox > .imagebox .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .blackbox > .imagebox .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .blackbox > .imagebox .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .blackbox > .imagebox .footerright {
+    margin: initial;
+  }
+  .section-layout > .blackbox > .imagebox .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .blackbox > .imagebox .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .blackbox > .imagebox .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .blackbox > .imagebox .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .blackbox > .imagebox .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .blackbox > .imagebox .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .blackbox > .imagebox .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .blackbox > .imagebox .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .blackbox > .imagebox .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .blackbox > .imagebox .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .blackbox > .imagebox .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .blackbox > .imagebox .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .blackbox > .imagebox .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .blackbox > .imagebox .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .blackbox > .imagebox .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .blackbox > .imagebox .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .blackbox > .imagebox .notetext > .text {
+    display: none;
+  }
+  .section-layout > .blackbox > .imagebox .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .blackbox > .imagebox .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .blackbox > .imagebox .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .blackbox > .imagebox .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .blackbox > .imagebox .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .blackbox > .imagebox .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1130px) {
+  .section-layout > .blackbox > .imagebox .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .blackbox > .imagebox .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .blackbox > .imagebox .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .blackbox > .imagebox .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (max-width: 740px) {
+  .section-layout > .blackbox > .explanation {
+    display: initial;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .blackbox > .explanation .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .blackbox > .explanation .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .blackbox > .explanation .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .blackbox > .explanation .snsbtn {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .blackbox > .explanation .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .blackbox > .explanation .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .blackbox > .explanation .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .blackbox > .explanation .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .blackbox > .explanation .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .blackbox > .explanation .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .blackbox > .explanation .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .blackbox > .explanation .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .blackbox > .explanation .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .blackbox > .explanation > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts {
+    display: initial;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .blackbox > .explanation .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .blackbox > .explanation .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .explanation .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .explanation .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .explanation .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .blackbox > .explanation .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .blackbox > .explanation .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .explanation .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .blackbox > .explanation .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .blackbox > .explanation .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .blackbox > .explanation .footerright {
+    margin: initial;
+  }
+  .section-layout > .blackbox > .explanation .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .blackbox > .explanation .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .blackbox > .explanation .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .blackbox > .explanation .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .blackbox > .explanation .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .blackbox > .explanation .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .blackbox > .explanation .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .blackbox > .explanation .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .blackbox > .explanation .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .blackbox > .explanation .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .blackbox > .explanation .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .blackbox > .explanation .notetext > .text {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .blackbox > .explanation .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .blackbox > .explanation .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .blackbox > .explanation .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .blackbox > .explanation .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .blackbox > .explanation .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1130px) {
+  .section-layout > .blackbox > .explanation .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .blackbox > .explanation .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .blackbox > .explanation .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .blackbox > .explanation .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (max-width: 740px) {
+  .section-layout > .canexperience {
+    display: initial;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .canexperience .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .canexperience .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .canexperience .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .canexperience .snsbtn {
+    display: none;
+  }
+  .section-layout > .canexperience .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .canexperience .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .canexperience .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .canexperience .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .canexperience .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .canexperience .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .canexperience .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .canexperience .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .canexperience .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .canexperience .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .canexperience > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .canexperience .challengetexts {
+    display: initial;
+  }
+  .section-layout > .canexperience .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .canexperience .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .canexperience .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .canexperience .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .canexperience .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .canexperience .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .canexperience .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .canexperience .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .canexperience .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .canexperience .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .canexperience .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .canexperience .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .canexperience .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .canexperience .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .canexperience .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .canexperience .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .canexperience .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .canexperience .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .canexperience .footerright {
+    margin: initial;
+  }
+  .section-layout > .canexperience .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .canexperience .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .canexperience .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .canexperience .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .canexperience .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .canexperience .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .canexperience .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .canexperience .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .canexperience .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .canexperience .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .canexperience .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .canexperience .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .canexperience .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .canexperience .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .canexperience .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .canexperience .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .canexperience .notetext > .text {
+    display: none;
+  }
+  .section-layout > .canexperience .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .canexperience .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .canexperience .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .canexperience .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .canexperience .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .canexperience .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1130px) {
+  .section-layout > .canexperience .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .canexperience .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .canexperience .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .canexperience .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (max-width: 740px) {
+  .section-layout > .canexperience > .experiencetext {
+    padding-left: initial;
+    margin: 30px 20px;
+  }
+  .section-layout > .challenge-background {
+    height: auto;
+  }
+  .section-layout > .challenge-background > .challenge {
+    display: initial;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .challenge-background > .challenge .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .challenge-background > .challenge .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .challenge-background > .challenge .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .challenge-background > .challenge .snsbtn {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .challenge-background > .challenge .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .challenge-background > .challenge .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .challenge-background > .challenge .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .challenge-background > .challenge > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts {
+    display: initial;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .challenge-background > .challenge .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .challenge-background > .challenge .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .challenge-background > .challenge .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .challenge-background > .challenge .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .challenge-background > .challenge .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .challenge-background > .challenge .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .challenge-background > .challenge .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .challenge-background > .challenge .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .challenge-background > .challenge .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .challenge-background > .challenge .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .challenge-background > .challenge .footerright {
+    margin: initial;
+  }
+  .section-layout > .challenge-background > .challenge .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .challenge-background > .challenge .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .challenge-background > .challenge .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .challenge-background > .challenge .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .challenge-background > .challenge .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .challenge-background > .challenge .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .challenge-background > .challenge .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .challenge-background > .challenge .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .challenge-background > .challenge .notetext > .text {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .challenge-background > .challenge .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .challenge-background > .challenge .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .challenge-background > .challenge .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .challenge-background > .challenge .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .challenge-background > .challenge .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1130px) {
+  .section-layout > .challenge-background > .challenge .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .challenge-background > .challenge .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .challenge-background > .challenge .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .challenge-background > .challenge .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (max-width: 740px) {
+  .section-layout > .hosts {
+    display: initial;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .hosts .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .hosts .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .hosts .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .hosts .snsbtn {
+    display: none;
+  }
+  .section-layout > .hosts .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .hosts .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .hosts .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .hosts .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .hosts .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .hosts .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .hosts .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .hosts .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .hosts .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .hosts .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .hosts > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .hosts .challengetexts {
+    display: initial;
+  }
+  .section-layout > .hosts .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .hosts .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .hosts .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .hosts .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .hosts .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .hosts .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .hosts .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .hosts .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .hosts .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .hosts .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .hosts .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .hosts .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .hosts .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .hosts .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .hosts .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .hosts .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .hosts .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .hosts .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .hosts .footerright {
+    margin: initial;
+  }
+  .section-layout > .hosts .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hosts .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .hosts .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .hosts .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .hosts .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .hosts .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .hosts .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .hosts .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .hosts .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .hosts .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .hosts .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .hosts .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .hosts .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .hosts .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .hosts .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .hosts .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .hosts .notetext > .text {
+    display: none;
+  }
+  .section-layout > .hosts .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .hosts .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .hosts .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .hosts .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .hosts .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .hosts .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1130px) {
+  .section-layout > .hosts .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .hosts .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .hosts .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .hosts .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (max-width: 740px) {
+  .section-layout > .belongings {
+    display: initial;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .belongings .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .belongings .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .belongings .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .belongings .snsbtn {
+    display: none;
+  }
+  .section-layout > .belongings .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .belongings .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .belongings .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .belongings .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .belongings .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .belongings .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .belongings .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .belongings .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .belongings .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .belongings .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .belongings > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .belongings .challengetexts {
+    display: initial;
+  }
+  .section-layout > .belongings .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .belongings .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .belongings .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .belongings .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .belongings .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .belongings .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .belongings .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .belongings .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .belongings .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .belongings .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .belongings .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .belongings .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .belongings .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .belongings .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .belongings .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .belongings .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .belongings .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .belongings .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .belongings .footerright {
+    margin: initial;
+  }
+  .section-layout > .belongings .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .belongings .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .belongings .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .belongings .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .belongings .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .belongings .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .belongings .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .belongings .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .belongings .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .belongings .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .belongings .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .belongings .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .belongings .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .belongings .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .belongings .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .belongings .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .belongings .notetext > .text {
+    display: none;
+  }
+  .section-layout > .belongings .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .belongings .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .belongings .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .belongings .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .belongings .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .belongings .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1130px) {
+  .section-layout > .belongings .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .belongings .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .belongings .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .belongings .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (max-width: 740px) {
+  .section-layout > .belongings > .belongingstexts {
+    padding-left: 20px;
+    width: 90%;
+  }
+  .section-layout > .participation {
+    display: initial;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .participation .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .participation .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .participation .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .participation .snsbtn {
+    display: none;
+  }
+  .section-layout > .participation .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .participation .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .participation .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .participation .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .participation .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .participation .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .participation .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .participation .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .participation .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .participation .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .participation > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .participation .challengetexts {
+    display: initial;
+  }
+  .section-layout > .participation .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .participation .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .participation .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .participation .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .participation .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .participation .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .participation .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .participation .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .participation .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .participation .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .participation .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .participation .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .participation .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .participation .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .participation .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .participation .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .participation .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .participation .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .participation .footerright {
+    margin: initial;
+  }
+  .section-layout > .participation .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .participation .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .participation .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .participation .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .participation .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .participation .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .participation .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .participation .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .participation .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .participation .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .participation .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .participation .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .participation .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .participation .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .participation .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .participation .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .participation .notetext > .text {
+    display: none;
+  }
+  .section-layout > .participation .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .participation .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .participation .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .participation .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .participation .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .participation .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1130px) {
+  .section-layout > .participation .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .participation .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .participation .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .participation .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (max-width: 740px) {
+  .section-layout > .guestreview {
+    display: initial;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .guestreview .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .guestreview .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .guestreview .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .guestreview .snsbtn {
+    display: none;
+  }
+  .section-layout > .guestreview .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .guestreview .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .guestreview .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .guestreview .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .guestreview .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .guestreview .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .guestreview .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .guestreview .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .guestreview .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .guestreview .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .guestreview > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .guestreview .challengetexts {
+    display: initial;
+  }
+  .section-layout > .guestreview .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .guestreview .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .guestreview .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .guestreview .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .guestreview .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .guestreview .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .guestreview .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .guestreview .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .guestreview .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .guestreview .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .guestreview .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .guestreview .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .guestreview .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .guestreview .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .guestreview .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .guestreview .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .guestreview .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .guestreview .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .guestreview .footerright {
+    margin: initial;
+  }
+  .section-layout > .guestreview .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .guestreview .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .guestreview .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .guestreview .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .guestreview .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .guestreview .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .guestreview .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .guestreview .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .guestreview .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .guestreview .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .guestreview .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .guestreview .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .guestreview .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .guestreview .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .guestreview .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .guestreview .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .guestreview .notetext > .text {
+    display: none;
+  }
+  .section-layout > .guestreview .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .guestreview .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .guestreview .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .guestreview .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .guestreview .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .guestreview .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1130px) {
+  .section-layout > .guestreview .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .guestreview .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .guestreview .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .guestreview .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (max-width: 740px) {
+  .section-layout > .guestreview > .reviews {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .guestreview > .reviews .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .guestreview > .reviews .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .guestreview > .reviews .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .guestreview > .reviews .snsbtn {
+    display: none;
+  }
+  .section-layout > .guestreview > .reviews .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .guestreview > .reviews .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .guestreview > .reviews .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .guestreview > .reviews .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .guestreview > .reviews .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .guestreview > .reviews .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .guestreview > .reviews .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .guestreview > .reviews .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .guestreview > .reviews .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .guestreview > .reviews .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .guestreview > .reviews > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .guestreview > .reviews .challengetexts {
+    display: initial;
+  }
+  .section-layout > .guestreview > .reviews .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .guestreview > .reviews .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .guestreview > .reviews .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .guestreview > .reviews .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .guestreview > .reviews .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .guestreview > .reviews .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .guestreview > .reviews .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .guestreview > .reviews .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .guestreview > .reviews .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .guestreview > .reviews .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .guestreview > .reviews .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .guestreview > .reviews .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .guestreview > .reviews .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .guestreview > .reviews .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .guestreview > .reviews .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .guestreview > .reviews .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .guestreview > .reviews .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .guestreview > .reviews .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .guestreview > .reviews .footerright {
+    margin: initial;
+  }
+  .section-layout > .guestreview > .reviews .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .guestreview > .reviews .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .guestreview > .reviews .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .guestreview > .reviews .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .guestreview > .reviews .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .guestreview > .reviews .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .guestreview > .reviews .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .guestreview > .reviews .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .guestreview > .reviews .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .guestreview > .reviews .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .guestreview > .reviews .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .guestreview > .reviews .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .guestreview > .reviews .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .guestreview > .reviews .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .guestreview > .reviews .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .guestreview > .reviews .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .guestreview > .reviews .notetext > .text {
+    display: none;
+  }
+  .section-layout > .guestreview > .reviews .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .guestreview > .reviews .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .guestreview > .reviews .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .guestreview > .reviews .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .guestreview > .reviews .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .guestreview > .reviews .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1130px) {
+  .section-layout > .guestreview > .reviews .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .guestreview > .reviews .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .guestreview > .reviews .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .guestreview > .reviews .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (max-width: 740px) {
+  .section-layout > .reservation > .title {
+    font-size: 22px;
+  }
+  .section-layout > .linkcollections {
+    display: none;
+  }
+  .section-layout > .note {
+    display: initial;
+  }
+  .section-layout > .note > .sticky {
+    width: initial;
+    height: 80px;
+    position: initial;
+  }
+  .section-layout > .note > .sticky > .title {
+    font-size: 23px;
+    padding-left: 50px;
+  }
+  .section-layout > .topfooter {
+    text-align: initial;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .topfooter .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .topfooter .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .topfooter .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .topfooter .snsbtn {
+    display: none;
+  }
+  .section-layout > .topfooter .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .topfooter .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .topfooter .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .topfooter .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .topfooter .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .topfooter .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .topfooter .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .topfooter .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .topfooter .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .topfooter .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .topfooter > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .topfooter .challengetexts {
+    display: initial;
+  }
+  .section-layout > .topfooter .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .topfooter .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .topfooter .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .topfooter .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .topfooter .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .topfooter .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .topfooter .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .topfooter .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .topfooter .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .topfooter .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .topfooter .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .topfooter .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .topfooter .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .topfooter .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .topfooter .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .topfooter .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .topfooter .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .topfooter .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .topfooter .footerright {
+    margin: initial;
+  }
+  .section-layout > .topfooter .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .topfooter .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .topfooter .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .topfooter .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .topfooter .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .topfooter .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .topfooter .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .topfooter .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .topfooter .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .topfooter .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .topfooter .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .topfooter .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .topfooter .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .topfooter .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .topfooter .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .topfooter .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .topfooter .notetext > .text {
+    display: none;
+  }
+  .section-layout > .topfooter .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .topfooter .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .topfooter .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .topfooter .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .topfooter .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .topfooter .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1130px) {
+  .section-layout > .topfooter .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .topfooter .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (max-width: 740px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .topfooter .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .topfooter .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (max-width: 740px) {
+  .section-layout > .fixedfooter {
+    width: 97%;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .blackbox {
+    position: relative;
+    height: 900px;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .blackbox > .explanation .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .blackbox > .explanation .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .blackbox > .explanation .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .blackbox > .explanation .snsbtn {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .blackbox > .explanation .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .blackbox > .explanation .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .blackbox > .explanation .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .blackbox > .explanation .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .blackbox > .explanation .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .blackbox > .explanation .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .blackbox > .explanation .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .blackbox > .explanation .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .blackbox > .explanation .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .blackbox > .explanation > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts {
+    display: initial;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .blackbox > .explanation .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .blackbox > .explanation .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .explanation .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .explanation .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .explanation .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .blackbox > .explanation .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .blackbox > .explanation .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .blackbox > .explanation .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .blackbox > .explanation .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .blackbox > .explanation .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .blackbox > .explanation .footerright {
+    margin: initial;
+  }
+  .section-layout > .blackbox > .explanation .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .blackbox > .explanation .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .blackbox > .explanation .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .blackbox > .explanation .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .blackbox > .explanation .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .blackbox > .explanation .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .blackbox > .explanation .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .blackbox > .explanation .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .blackbox > .explanation .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .blackbox > .explanation .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .blackbox > .explanation .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .blackbox > .explanation .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .blackbox > .explanation .notetext > .text {
+    display: none;
+  }
+  .section-layout > .blackbox > .explanation .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .blackbox > .explanation .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .blackbox > .explanation .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .blackbox > .explanation .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .blackbox > .explanation .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .blackbox > .explanation .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 1130px) {
+  .section-layout > .blackbox > .explanation .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .blackbox > .explanation .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .blackbox > .explanation .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .blackbox > .explanation .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .challenge-background > .challenge .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .challenge-background > .challenge .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .challenge-background > .challenge .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .challenge-background > .challenge .snsbtn {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .challenge-background > .challenge .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .challenge-background > .challenge .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .challenge-background > .challenge .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .challenge-background > .challenge > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts {
+    display: initial;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .challenge-background > .challenge .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .challenge-background > .challenge .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .challenge-background > .challenge .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .challenge-background > .challenge .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .challenge-background > .challenge .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .challenge-background > .challenge .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .challenge-background > .challenge .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .challenge-background > .challenge .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .challenge-background > .challenge .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .challenge-background > .challenge .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .challenge-background > .challenge .footerright {
+    margin: initial;
+  }
+  .section-layout > .challenge-background > .challenge .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .challenge-background > .challenge .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .challenge-background > .challenge .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .challenge-background > .challenge .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .challenge-background > .challenge .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .challenge-background > .challenge .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .challenge-background > .challenge .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .challenge-background > .challenge .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .challenge-background > .challenge .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .challenge-background > .challenge .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .challenge-background > .challenge .notetext > .text {
+    display: none;
+  }
+  .section-layout > .challenge-background > .challenge .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .challenge-background > .challenge .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .challenge-background > .challenge .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .challenge-background > .challenge .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .challenge-background > .challenge .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .challenge-background > .challenge .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 1130px) {
+  .section-layout > .challenge-background > .challenge .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .challenge-background > .challenge .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .challenge-background > .challenge .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .challenge-background > .challenge .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .linkcollections {
+    display: inline;
+  }
+  .section-layout > .linkcollections > .linkcollection {
+    width: 100%;
+    border-bottom: solid 1px #cdcdcd;
+    margin: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .linkcollections > .linkcollection .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .linkcollections > .linkcollection .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .linkcollections > .linkcollection .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .linkcollections > .linkcollection .snsbtn {
+    display: none;
+  }
+  .section-layout > .linkcollections > .linkcollection .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .linkcollections > .linkcollection .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .linkcollections > .linkcollection .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .linkcollections > .linkcollection .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .linkcollections > .linkcollection .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .linkcollections > .linkcollection .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .linkcollections > .linkcollection .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .linkcollections > .linkcollection .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .linkcollections > .linkcollection .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .linkcollections > .linkcollection .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .linkcollections > .linkcollection > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .linkcollections > .linkcollection .challengetexts {
+    display: initial;
+  }
+  .section-layout > .linkcollections > .linkcollection .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .linkcollections > .linkcollection .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .linkcollections > .linkcollection .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .linkcollections > .linkcollection .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .linkcollections > .linkcollection .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .linkcollections > .linkcollection .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .linkcollections > .linkcollection .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .linkcollections > .linkcollection .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .linkcollections > .linkcollection .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .linkcollections > .linkcollection .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .linkcollections > .linkcollection .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .linkcollections > .linkcollection .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .linkcollections > .linkcollection .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .linkcollections > .linkcollection .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .linkcollections > .linkcollection .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .linkcollections > .linkcollection .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .linkcollections > .linkcollection .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .linkcollections > .linkcollection .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .linkcollections > .linkcollection .footerright {
+    margin: initial;
+  }
+  .section-layout > .linkcollections > .linkcollection .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .linkcollections > .linkcollection .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .linkcollections > .linkcollection .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .linkcollections > .linkcollection .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .linkcollections > .linkcollection .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .linkcollections > .linkcollection .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .linkcollections > .linkcollection .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .linkcollections > .linkcollection .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .linkcollections > .linkcollection .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .linkcollections > .linkcollection .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .linkcollections > .linkcollection .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .linkcollections > .linkcollection .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .linkcollections > .linkcollection .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .linkcollections > .linkcollection .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .linkcollections > .linkcollection .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .linkcollections > .linkcollection .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .linkcollections > .linkcollection .notetext > .text {
+    display: none;
+  }
+  .section-layout > .linkcollections > .linkcollection .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .linkcollections > .linkcollection .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .linkcollections > .linkcollection .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .linkcollections > .linkcollection .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .linkcollections > .linkcollection .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .linkcollections > .linkcollection .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 1130px) {
+  .section-layout > .linkcollections > .linkcollection .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .linkcollections > .linkcollection .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .linkcollections > .linkcollection .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .linkcollections > .linkcollection .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .topfooter {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section-layout > .topfooter > .right {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1130px) {
+  .section-layout > .note > .notetexts {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .note > .notetexts .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .note > .notetexts .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .note > .notetexts .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .note > .notetexts .snsbtn {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .note > .notetexts .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .note > .notetexts .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .note > .notetexts .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .note > .notetexts .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .note > .notetexts .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .note > .notetexts .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .note > .notetexts .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .note > .notetexts .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .note > .notetexts .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .note > .notetexts > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .note > .notetexts .challengetexts {
+    display: initial;
+  }
+  .section-layout > .note > .notetexts .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .note > .notetexts .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .note > .notetexts .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .note > .notetexts .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .note > .notetexts .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .note > .notetexts .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .note > .notetexts .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .note > .notetexts .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .note > .notetexts .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .note > .notetexts .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .note > .notetexts .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .note > .notetexts .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .note > .notetexts .footerright {
+    margin: initial;
+  }
+  .section-layout > .note > .notetexts .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .note > .notetexts .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .note > .notetexts .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .note > .notetexts .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .note > .notetexts .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .note > .notetexts .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .note > .notetexts .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .note > .notetexts .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .note > .notetexts .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .note > .notetexts .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .note > .notetexts .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .note > .notetexts .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .note > .notetexts .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .note > .notetexts .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .note > .notetexts .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .note > .notetexts .notetext > .text {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .note > .notetexts .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .note > .notetexts .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .note > .notetexts .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .note > .notetexts .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .note > .notetexts .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (max-width: 1130px) and (min-width: 1130px) {
+  .section-layout > .note > .notetexts .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (max-width: 1130px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .note > .notetexts .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (max-width: 1130px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .note > .notetexts .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .note > .notetexts .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (max-width: 1130px) {
+  .section-layout > .fixedfooter {
+    line-height: initial;
+  }
+}
+
+@media (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .fixedfooter .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .fixedfooter .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .fixedfooter .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .fixedfooter .snsbtn {
+    display: none;
+  }
+  .section-layout > .fixedfooter .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .fixedfooter .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .fixedfooter .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .fixedfooter .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .fixedfooter .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .fixedfooter .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .fixedfooter .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .fixedfooter .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .fixedfooter .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .fixedfooter .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .fixedfooter > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .fixedfooter .challengetexts {
+    display: initial;
+  }
+  .section-layout > .fixedfooter .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .fixedfooter .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .fixedfooter .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .fixedfooter .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .fixedfooter .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .fixedfooter .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .fixedfooter .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .fixedfooter .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .fixedfooter .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .fixedfooter .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .fixedfooter .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .fixedfooter .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .fixedfooter .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .fixedfooter .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .fixedfooter .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .fixedfooter .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .fixedfooter .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .fixedfooter .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .fixedfooter .footerright {
+    margin: initial;
+  }
+  .section-layout > .fixedfooter .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .fixedfooter .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .fixedfooter .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .fixedfooter .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .fixedfooter .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .fixedfooter .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .fixedfooter .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .fixedfooter .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .fixedfooter .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .fixedfooter .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .fixedfooter .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .fixedfooter .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .fixedfooter .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .fixedfooter .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .fixedfooter .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .fixedfooter .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .fixedfooter .notetext > .text {
+    display: none;
+  }
+  .section-layout > .fixedfooter .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .fixedfooter .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .fixedfooter .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .fixedfooter .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .fixedfooter .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .fixedfooter .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (max-width: 1130px) and (min-width: 1130px) {
+  .section-layout > .fixedfooter .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (max-width: 1130px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .fixedfooter .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (max-width: 1130px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .fixedfooter .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .fixedfooter .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (max-width: 1130px) {
+  .section-layout > .fixedfooter > .fixedleft {
+    display: none;
+  }
+  .section-layout > .fixedfooter > .fixedright {
+    display: none;
+  }
+  .section-layout > .fixedfooter > .miniright {
+    background-color: #f73131;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px 0px 0px 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 1130px) and (max-width: 740px) {
+  .section-layout > .note > .notetexts .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .note > .notetexts .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .note > .notetexts .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .note > .notetexts .snsbtn {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .note > .notetexts .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .note > .notetexts .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .note > .notetexts .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .note > .notetexts .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .note > .notetexts .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .note > .notetexts .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .note > .notetexts .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .note > .notetexts .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .note > .notetexts .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .note > .notetexts > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .note > .notetexts .challengetexts {
+    display: initial;
+  }
+  .section-layout > .note > .notetexts .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .note > .notetexts .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .note > .notetexts .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .note > .notetexts .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .note > .notetexts .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .note > .notetexts .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .note > .notetexts .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .note > .notetexts .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .note > .notetexts .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .note > .notetexts .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .note > .notetexts .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .note > .notetexts .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .note > .notetexts .footerright {
+    margin: initial;
+  }
+  .section-layout > .note > .notetexts .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (min-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .note > .notetexts .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .note > .notetexts .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .note > .notetexts .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .note > .notetexts .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .note > .notetexts .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .note > .notetexts .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .note > .notetexts .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .note > .notetexts .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .note > .notetexts .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .note > .notetexts .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .note > .notetexts .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .note > .notetexts .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (min-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .note > .notetexts .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .note > .notetexts .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .note > .notetexts .notetext > .text {
+    display: none;
+  }
+  .section-layout > .note > .notetexts .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .note > .notetexts .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .note > .notetexts .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .note > .notetexts .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .note > .notetexts .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .note > .notetexts .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (min-width: 1130px) and (min-width: 1130px) {
+  .section-layout > .note > .notetexts .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (min-width: 1130px) and (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .note > .notetexts .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (min-width: 1130px) and (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .note > .notetexts .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (min-width: 1130px) and (max-width: 740px) {
+  .section-layout > .note > .notetexts .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+
+@media (min-width: 1130px) {
+  .section-layout > .fixedfooter > .minileft {
+    display: none;
+  }
+  .section-layout > .fixedfooter > .miniright {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) {
+  .section-layout > .otherexperiences > .experiences .whiteleft {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section-layout > .otherexperiences > .experiences .whiteright {
+    color: gray;
+    font-size: 17px;
+  }
+  .section-layout > .otherexperiences > .experiences .whiteright > .fas {
+    margin-right: 15px;
+  }
+  .section-layout > .otherexperiences > .experiences .snsbtn {
+    display: none;
+  }
+  .section-layout > .otherexperiences > .experiences .explanationleft {
+    width: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .otherexperiences > .experiences .explanationleft > .tags {
+    width: initial;
+  }
+  .section-layout > .otherexperiences > .experiences .explanationright {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+  .section-layout > .otherexperiences > .experiences .explanationright > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+  .section-layout > .otherexperiences > .experiences .explanationright > .devise > p {
+    padding: 15px;
+    width: 90%;
+  }
+  .section-layout > .otherexperiences > .experiences .explanationright > .devise > img {
+    position: absolute;
+    right: 0px;
+  }
+  .section-layout > .otherexperiences > .experiences .explanationright > .specs {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .otherexperiences > .experiences .explanationright > .specs > .spec {
+    width: 200px;
+  }
+  .section-layout > .otherexperiences > .experiences .sticky {
+    width: initial;
+    position: initial;
+  }
+  .section-layout > .otherexperiences > .experiences .sticky > .title {
+    font-size: 23px;
+    padding: 20px 0px 0px 20px;
+  }
+  .section-layout > .otherexperiences > .experiences > .challengetitle {
+    width: 90%;
+    height: 60px;
+    margin: 10px 0px 0px 20px;
+    font-size: 23px;
+    border-bottom: #cdcdcd solid 1px;
+  }
+  .section-layout > .otherexperiences > .experiences .challengetexts {
+    display: initial;
+  }
+  .section-layout > .otherexperiences > .experiences .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .otherexperiences > .experiences .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .otherexperiences > .experiences .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .otherexperiences > .experiences .hostdata {
+    padding: 0px 20px;
+  }
+  .section-layout > .otherexperiences > .experiences .hostdata img {
+    margin-top: 30px;
+  }
+  .section-layout > .otherexperiences > .experiences .hostdata > .hostname {
+    margin-top: 30px;
+  }
+  .section-layout > .otherexperiences > .experiences .participationtexts {
+    padding-left: 20px;
+    width: 90%;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .section-layout > .otherexperiences > .experiences .participationtexts > .videocall > .participationtitle {
+    font-size: 18px;
+  }
+  .section-layout > .otherexperiences > .experiences .participationtexts > .charter > .participationtitle {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .section-layout > .otherexperiences > .experiences .titles {
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .section-layout > .otherexperiences > .experiences .titles > .sticky {
+    width: initial;
+  }
+  .section-layout > .otherexperiences > .experiences .titles > .sticky > .title {
+    font-size: 23px;
+  }
+  .section-layout > .otherexperiences > .experiences .titles > .sticky > .totalreview {
+    display: none;
+  }
+  .section-layout > .otherexperiences > .experiences .titles > .sticky > .traditional {
+    display: none;
+  }
+  .section-layout > .otherexperiences > .experiences .review > .pagination > span {
+    display: none;
+  }
+  .section-layout > .otherexperiences > .experiences .review > .pagination > .bot {
+    display: none;
+  }
+  .section-layout > .otherexperiences > .experiences .review > .pagination > .no233 {
+    display: none;
+  }
+  .section-layout > .otherexperiences > .experiences .review > .pagination > .fas {
+    margin-left: initial;
+  }
+  .section-layout > .otherexperiences > .experiences .footerright {
+    margin: initial;
+  }
+  .section-layout > .otherexperiences > .experiences .footerright > .sns {
+    display: none;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .otherexperiences > .experiences .explanationleft {
+    width: 55%;
+  }
+  .section-layout > .otherexperiences > .experiences .explanationleft .tags {
+    width: initial;
+  }
+  .section-layout > .otherexperiences > .experiences .explanationright {
+    margin-left: initial;
+  }
+  .section-layout > .otherexperiences > .experiences .explanationright > .devise {
+    height: 70px;
+    line-height: initial;
+  }
+  .section-layout > .otherexperiences > .experiences .explanationright > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+  .section-layout > .otherexperiences > .experiences .challengetitle {
+    width: 280px;
+  }
+  .section-layout > .otherexperiences > .experiences .challengetexts {
+    display: initial;
+    padding-left: initial;
+  }
+  .section-layout > .otherexperiences > .experiences .challengetexts > .challengetext {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .section-layout > .otherexperiences > .experiences .challengetexts > .challengetext > .minititle {
+    display: none;
+  }
+  .section-layout > .otherexperiences > .experiences .challengetexts > .challengetext > .minitext {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .section-layout > .otherexperiences > .experiences .challengetexts > .challengetext > .minitext {
+    font-size: 16px;
+  }
+  .section-layout > .otherexperiences > .experiences .link-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-layout > .otherexperiences > .experiences .link-nav > li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 1130px) {
+  .section-layout > .otherexperiences > .experiences .notetext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .section-layout > .otherexperiences > .experiences .notetext > .minititle {
+    font-size: 18px;
+    width: 90%;
+  }
+  .section-layout > .otherexperiences > .experiences .notetext > .text {
+    display: none;
+  }
+  .section-layout > .otherexperiences > .experiences .minileft {
+    font-size: 10px;
+    padding: 17px;
+  }
+  .section-layout > .otherexperiences > .experiences .minileft > .price {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .section-layout > .otherexperiences > .experiences .minileft > .review {
+    color: #01999e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-layout > .otherexperiences > .experiences .minileft > .review > p {
+    font-weight: bold;
+  }
+  .section-layout > .otherexperiences > .experiences .minileft > .review > .fas {
+    line-height: 1.5;
+  }
+  .section-layout > .otherexperiences > .experiences .minileft > .review > span {
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media (min-width: 1130px) {
+  .section-layout > .otherexperiences > .experiences .notetext > .fas {
+    display: none;
+  }
+}
+
+@media (min-width: 1110px) and (max-width: 1440px) {
+  .section-layout > .otherexperiences > .experiences .experience > .image {
+    height: 22vw;
+    width: 18vw;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1110px) {
+  .section-layout > .otherexperiences > .experiences .experience > .image {
+    height: 28vw;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 740px) {
+  .section-layout > .otherexperiences > .experiences .experience > .image {
+    height: 55vw;
+    width: 45vw;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -34988,22 +34988,243 @@
   line-height: 80px;
   font-weight: bold;
 }
-
-.section-layout > .hostheader > .left {
+.section-layout > .hostheader .headerleft {
   display: flex;
   padding-left: 30px;
 }
-.section-layout > .hostheader > .left > p {
+.section-layout > .hostheader .headerleft > p {
   margin-right: 30px;
   font-size: 14px;
 }
-.section-layout > .hostheader > .left > p > .fab {
+.section-layout > .hostheader .headerleft > p > .fab {
   font-size: 35px;
   line-height: 2.25;
   color: #01999e;
 }
+.section-layout > .hostheader > .formtitle {
+  font-size: 38px;
+}
+.section-layout > .hostheader > .fillin {
+  color: #3f3f3f;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.section-layout > .hostheader > .addressform {
+  margin-top: 30px;
+  width: 95%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.section-layout > .hostheader > .miniform {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.section-layout > .hostheader .miniform > .charter {
+  position: relative;
+}
+.section-layout > .hostheader .miniform > .charter > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 35px;
+  margin-right: 15px;
+}
+.section-layout > .hostheader .miniform > .charter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostheader .miniform > .guestpeople {
+  position: relative;
+}
+.section-layout > .hostheader .miniform > .guestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  width: 88%;
+}
+.section-layout > .hostheader .miniform > .guestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostheader .startbtn {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #FF5A5F;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  line-height: 50px;
+}
+.section-layout > .hostheader .whyhost {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostheader .whyhost > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostheader .whyhost > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostheader .warranty {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostheader .warranty > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostheader .warranty > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostheader .warranty > .text {
+  width: 100%;
+}
+.section-layout > .hostheader .steptitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostheader .steptexts {
+  display: flex;
+}
+.section-layout > .hostheader .steptexts > .steptext {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+}
+.section-layout > .hostheader .steptexts > .steptext .far {
+  font-size: 50px;
+}
+.section-layout > .hostheader .steptexts > .steptext .minititle {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.section-layout > .hostheader .steptexts > .steptext .minitext {
+  font-size: 17px;
+  margin-top: 20px;
+}
+.section-layout > .hostheader .steptexts > .steptext .green {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostheader .interviewleft {
+  width: 43%;
+  margin-right: 50px;
+  color: #606060;
+}
+.section-layout > .hostheader .interviewleft > .interviewtext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostheader .interviewleft > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostheader .interviewleft > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostheader .relieftitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostheader .relieftexts {
+  display: flex;
+  justify-content: space-between;
+}
+.section-layout > .hostheader .relieftexts > .reliefleft {
+  width: 400px;
+  line-height: 1.75;
+  margin-right: 50px;
+  color: #606060;
+  margin: 10px 0px 0px 0px;
+}
+.section-layout > .hostheader .relieftexts > .reliefleft > .how {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostheader .relieftexts > .reliefright {
+  margin-right: 150px;
+}
+.section-layout > .hostheader .relieftexts > .reliefright > .relieftext {
+  display: flex;
+}
+.section-layout > .hostheader .relieftexts > .reliefright > .relieftext .fas {
+  color: #01999e;
+  font-size: 18px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+.section-layout > .hostheader .exampleright {
+  margin-left: 50px;
+  color: #606060;
+}
+.section-layout > .hostheader .exampleright > .exampletext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostheader .exampleright > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostheader .exampleright > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostheader .sharetitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostheader .hostdatas {
+  display: flex;
+}
+.section-layout > .hostheader .hostdatas > .hostdata {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+  text-align: center;
+}
+.section-layout > .hostheader .hostdatas > .hostdata > .hostnumber {
+  font-size: 55px;
+}
+.section-layout > .hostheader .hostdatas > .hostdata > .numbercomment {
+  text-align: center;
+}
 
-.section-layout > .hostheader > .right {
+.section-layout > .hostheader > .headerright {
   font-size: 14px;
   color: #fff;
   text-align: center;
@@ -35034,8 +35255,20 @@
   top: 80px;
   font-weight: bold;
 }
-
-.section-layout > .hostbackground > .form > .title {
+.section-layout > .hostbackground > .form .headerleft {
+  display: flex;
+  padding-left: 30px;
+}
+.section-layout > .hostbackground > .form .headerleft > p {
+  margin-right: 30px;
+  font-size: 14px;
+}
+.section-layout > .hostbackground > .form .headerleft > p > .fab {
+  font-size: 35px;
+  line-height: 2.25;
+  color: #01999e;
+}
+.section-layout > .hostbackground > .form > .formtitle {
   font-size: 38px;
 }
 .section-layout > .hostbackground > .form > .fillin {
@@ -35055,41 +35288,38 @@
   margin-top: 10px;
   width: 100%;
 }
-
-.section-layout > .hostbackground > .form > .miniform > .charter {
+.section-layout > .hostbackground > .form .miniform > .charter {
   position: relative;
 }
-.section-layout > .hostbackground > .form > .miniform > .charter > input {
+.section-layout > .hostbackground > .form .miniform > .charter > input {
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
 }
-.section-layout > .hostbackground > .form > .miniform > .charter > .fas {
+.section-layout > .hostbackground > .form .miniform > .charter > .fas {
   position: absolute;
   top: 10px;
   right: 25px;
   font-size: 30px;
 }
-
-.section-layout > .hostbackground > .form > .miniform > .guestpeople {
+.section-layout > .hostbackground > .form .miniform > .guestpeople {
   position: relative;
 }
-.section-layout > .hostbackground > .form > .miniform > .guestpeople > input {
+.section-layout > .hostbackground > .form .miniform > .guestpeople > input {
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
 }
-.section-layout > .hostbackground > .form > .miniform > .guestpeople > .fas {
+.section-layout > .hostbackground > .form .miniform > .guestpeople > .fas {
   position: absolute;
   top: 10px;
   right: 25px;
   font-size: 30px;
 }
-
-.section-layout > .hostbackground > .form > .startbtn {
+.section-layout > .hostbackground > .form .startbtn {
   font-size: 14px;
   color: #fff;
   text-align: center;
@@ -35100,112 +35330,81 @@
   margin-top: 30px;
   line-height: 50px;
 }
-
-.section-layout > .hostmain {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0px 30px;
-}
-
-.section-layout > .hostmain > .introduction {
-  height: 200px;
-  display: flex;
-}
-
-.section-layout > .hostmain > .introduction > .whyhost {
+.section-layout > .hostbackground > .form .whyhost {
   padding: 0px 20px;
   color: #3f3f3f;
 }
-.section-layout > .hostmain > .introduction > .whyhost > .title {
+.section-layout > .hostbackground > .form .whyhost > .title {
   font-size: 23px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-.section-layout > .hostmain > .introduction > .whyhost > .text {
+.section-layout > .hostbackground > .form .whyhost > .text {
   width: 85%;
   font-size: 16px;
   line-height: 1.75;
 }
-
-.section-layout > .hostmain > .introduction > .warranty {
+.section-layout > .hostbackground > .form .warranty {
   padding: 0px 20px;
   color: #3f3f3f;
 }
-.section-layout > .hostmain > .introduction > .warranty > .title {
+.section-layout > .hostbackground > .form .warranty > .title {
   font-size: 23px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-.section-layout > .hostmain > .introduction > .warranty > .text {
+.section-layout > .hostbackground > .form .warranty > .text {
   width: 85%;
   font-size: 16px;
   line-height: 1.75;
 }
-.section-layout > .hostmain > .introduction > .warranty > .text {
+.section-layout > .hostbackground > .form .warranty > .text {
   width: 100%;
 }
-
-.section-layout > .hostmain > .step {
-  height: 400px;
-  margin-top: 30px;
-  color: #3f3f3f;
-}
-
-.section-layout > .hostmain > .step > .title {
+.section-layout > .hostbackground > .form .steptitle {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
   margin-bottom: 50px;
 }
-
-.section-layout > .hostmain > .step > .texts {
+.section-layout > .hostbackground > .form .steptexts {
   display: flex;
 }
-.section-layout > .hostmain > .step > .texts > .text {
+.section-layout > .hostbackground > .form .steptexts > .steptext {
   width: 30%;
   margin-right: 40px;
   line-height: 1.75;
 }
-
-.section-layout > .hostmain > .step > .texts > .text .far {
+.section-layout > .hostbackground > .form .steptexts > .steptext .far {
   font-size: 50px;
 }
-.section-layout > .hostmain > .step > .texts > .text .minititle {
+.section-layout > .hostbackground > .form .steptexts > .steptext .minititle {
   font-size: 25px;
   margin-top: 20px;
   font-weight: bold;
 }
-.section-layout > .hostmain > .step > .texts > .text .minitext {
+.section-layout > .hostbackground > .form .steptexts > .steptext .minitext {
   font-size: 17px;
   margin-top: 20px;
 }
-.section-layout > .hostmain > .step > .texts > .text .green {
+.section-layout > .hostbackground > .form .steptexts > .steptext .green {
   color: #01999e;
   padding-top: 10px;
 }
-
-.section-layout > .hostmain > .interview {
-  margin-top: 100px;
-  display: flex;
-}
-
-.section-layout > .hostmain > .interview > .left {
+.section-layout > .hostbackground > .form .interviewleft {
   width: 43%;
   margin-right: 50px;
   color: #606060;
 }
-
-.section-layout > .hostmain > .interview > .left > .text {
+.section-layout > .hostbackground > .form .interviewleft > .interviewtext {
   font-size: 33px;
   line-height: 1.25;
 }
-
-.section-layout > .hostmain > .interview > .left > .minitext {
+.section-layout > .hostbackground > .form .interviewleft > .minitext {
   margin-top: 15px;
   color: #a0a0a0;
 }
-
-.section-layout > .hostmain > .interview > .left > .checkbtn {
+.section-layout > .hostbackground > .form .interviewleft > .checkbtn {
   margin-top: 10px;
   color: #3f3f3f;
   margin: 20px 0px;
@@ -35215,49 +35414,1049 @@
   padding: 15px 20px;
   font-weight: bold;
 }
-
-.section-layout > .hostmain > .relief {
-  margin-top: 30px;
-  color: #3f3f3f;
-  padding: 0px 30px;
-}
-
-.section-layout > .hostmain > .relief > .title {
+.section-layout > .hostbackground > .form .relieftitle {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
   margin-bottom: 50px;
 }
-
-.section-layout > .hostmain > .relief > .texts {
+.section-layout > .hostbackground > .form .relieftexts {
   display: flex;
   justify-content: space-between;
 }
-
-.section-layout > .hostmain > .relief > .texts > .left {
+.section-layout > .hostbackground > .form .relieftexts > .reliefleft {
   width: 400px;
   line-height: 1.75;
   margin-right: 50px;
   color: #606060;
   margin: 10px 0px 0px 0px;
 }
-.section-layout > .hostmain > .relief > .texts > .left > .how {
+.section-layout > .hostbackground > .form .relieftexts > .reliefleft > .how {
   color: #01999e;
   padding-top: 10px;
 }
-
-.section-layout > .hostmain > .relief > .texts > .right {
+.section-layout > .hostbackground > .form .relieftexts > .reliefright {
   margin-right: 150px;
 }
-
-.section-layout > .hostmain > .relief > .texts > .right > .text {
+.section-layout > .hostbackground > .form .relieftexts > .reliefright > .relieftext {
   display: flex;
 }
-.section-layout > .hostmain > .relief > .texts > .right > .text .fas {
+.section-layout > .hostbackground > .form .relieftexts > .reliefright > .relieftext .fas {
   color: #01999e;
   font-size: 18px;
   margin-right: 15px;
   margin-bottom: 25px;
+}
+.section-layout > .hostbackground > .form .exampleright {
+  margin-left: 50px;
+  color: #606060;
+}
+.section-layout > .hostbackground > .form .exampleright > .exampletext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostbackground > .form .exampleright > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostbackground > .form .exampleright > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostbackground > .form .sharetitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostbackground > .form .hostdatas {
+  display: flex;
+}
+.section-layout > .hostbackground > .form .hostdatas > .hostdata {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+  text-align: center;
+}
+.section-layout > .hostbackground > .form .hostdatas > .hostdata > .hostnumber {
+  font-size: 55px;
+}
+.section-layout > .hostbackground > .form .hostdatas > .hostdata > .numbercomment {
+  text-align: center;
+}
+
+.section-layout > .hostmain {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 30px;
+}
+
+.section-layout > .hostmain > .introduction {
+  height: 200px;
+  display: flex;
+}
+.section-layout > .hostmain > .introduction .headerleft {
+  display: flex;
+  padding-left: 30px;
+}
+.section-layout > .hostmain > .introduction .headerleft > p {
+  margin-right: 30px;
+  font-size: 14px;
+}
+.section-layout > .hostmain > .introduction .headerleft > p > .fab {
+  font-size: 35px;
+  line-height: 2.25;
+  color: #01999e;
+}
+.section-layout > .hostmain > .introduction > .formtitle {
+  font-size: 38px;
+}
+.section-layout > .hostmain > .introduction > .fillin {
+  color: #3f3f3f;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.section-layout > .hostmain > .introduction > .addressform {
+  margin-top: 30px;
+  width: 95%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .introduction > .miniform {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.section-layout > .hostmain > .introduction .miniform > .charter {
+  position: relative;
+}
+.section-layout > .hostmain > .introduction .miniform > .charter > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 35px;
+  margin-right: 15px;
+}
+.section-layout > .hostmain > .introduction .miniform > .charter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .introduction .miniform > .guestpeople {
+  position: relative;
+}
+.section-layout > .hostmain > .introduction .miniform > .guestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  width: 88%;
+}
+.section-layout > .hostmain > .introduction .miniform > .guestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .introduction .startbtn {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #FF5A5F;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  line-height: 50px;
+}
+.section-layout > .hostmain > .introduction .whyhost {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .introduction .whyhost > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .introduction .whyhost > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .introduction .warranty {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .introduction .warranty > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .introduction .warranty > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .introduction .warranty > .text {
+  width: 100%;
+}
+.section-layout > .hostmain > .introduction .steptitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .introduction .steptexts {
+  display: flex;
+}
+.section-layout > .hostmain > .introduction .steptexts > .steptext {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .introduction .steptexts > .steptext .far {
+  font-size: 50px;
+}
+.section-layout > .hostmain > .introduction .steptexts > .steptext .minititle {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .introduction .steptexts > .steptext .minitext {
+  font-size: 17px;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .introduction .steptexts > .steptext .green {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .introduction .interviewleft {
+  width: 43%;
+  margin-right: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .introduction .interviewleft > .interviewtext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .introduction .interviewleft > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .introduction .interviewleft > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .introduction .relieftitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .introduction .relieftexts {
+  display: flex;
+  justify-content: space-between;
+}
+.section-layout > .hostmain > .introduction .relieftexts > .reliefleft {
+  width: 400px;
+  line-height: 1.75;
+  margin-right: 50px;
+  color: #606060;
+  margin: 10px 0px 0px 0px;
+}
+.section-layout > .hostmain > .introduction .relieftexts > .reliefleft > .how {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .introduction .relieftexts > .reliefright {
+  margin-right: 150px;
+}
+.section-layout > .hostmain > .introduction .relieftexts > .reliefright > .relieftext {
+  display: flex;
+}
+.section-layout > .hostmain > .introduction .relieftexts > .reliefright > .relieftext .fas {
+  color: #01999e;
+  font-size: 18px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+.section-layout > .hostmain > .introduction .exampleright {
+  margin-left: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .introduction .exampleright > .exampletext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .introduction .exampleright > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .introduction .exampleright > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .introduction .sharetitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .introduction .hostdatas {
+  display: flex;
+}
+.section-layout > .hostmain > .introduction .hostdatas > .hostdata {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+  text-align: center;
+}
+.section-layout > .hostmain > .introduction .hostdatas > .hostdata > .hostnumber {
+  font-size: 55px;
+}
+.section-layout > .hostmain > .introduction .hostdatas > .hostdata > .numbercomment {
+  text-align: center;
+}
+
+.section-layout > .hostmain > .step {
+  height: 400px;
+  margin-top: 30px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .step .headerleft {
+  display: flex;
+  padding-left: 30px;
+}
+.section-layout > .hostmain > .step .headerleft > p {
+  margin-right: 30px;
+  font-size: 14px;
+}
+.section-layout > .hostmain > .step .headerleft > p > .fab {
+  font-size: 35px;
+  line-height: 2.25;
+  color: #01999e;
+}
+.section-layout > .hostmain > .step > .formtitle {
+  font-size: 38px;
+}
+.section-layout > .hostmain > .step > .fillin {
+  color: #3f3f3f;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.section-layout > .hostmain > .step > .addressform {
+  margin-top: 30px;
+  width: 95%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .step > .miniform {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.section-layout > .hostmain > .step .miniform > .charter {
+  position: relative;
+}
+.section-layout > .hostmain > .step .miniform > .charter > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 35px;
+  margin-right: 15px;
+}
+.section-layout > .hostmain > .step .miniform > .charter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .step .miniform > .guestpeople {
+  position: relative;
+}
+.section-layout > .hostmain > .step .miniform > .guestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  width: 88%;
+}
+.section-layout > .hostmain > .step .miniform > .guestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .step .startbtn {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #FF5A5F;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  line-height: 50px;
+}
+.section-layout > .hostmain > .step .whyhost {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .step .whyhost > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .step .whyhost > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .step .warranty {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .step .warranty > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .step .warranty > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .step .warranty > .text {
+  width: 100%;
+}
+.section-layout > .hostmain > .step .steptitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .step .steptexts {
+  display: flex;
+}
+.section-layout > .hostmain > .step .steptexts > .steptext {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .step .steptexts > .steptext .far {
+  font-size: 50px;
+}
+.section-layout > .hostmain > .step .steptexts > .steptext .minititle {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .step .steptexts > .steptext .minitext {
+  font-size: 17px;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .step .steptexts > .steptext .green {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .step .interviewleft {
+  width: 43%;
+  margin-right: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .step .interviewleft > .interviewtext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .step .interviewleft > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .step .interviewleft > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .step .relieftitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .step .relieftexts {
+  display: flex;
+  justify-content: space-between;
+}
+.section-layout > .hostmain > .step .relieftexts > .reliefleft {
+  width: 400px;
+  line-height: 1.75;
+  margin-right: 50px;
+  color: #606060;
+  margin: 10px 0px 0px 0px;
+}
+.section-layout > .hostmain > .step .relieftexts > .reliefleft > .how {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .step .relieftexts > .reliefright {
+  margin-right: 150px;
+}
+.section-layout > .hostmain > .step .relieftexts > .reliefright > .relieftext {
+  display: flex;
+}
+.section-layout > .hostmain > .step .relieftexts > .reliefright > .relieftext .fas {
+  color: #01999e;
+  font-size: 18px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+.section-layout > .hostmain > .step .exampleright {
+  margin-left: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .step .exampleright > .exampletext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .step .exampleright > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .step .exampleright > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .step .sharetitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .step .hostdatas {
+  display: flex;
+}
+.section-layout > .hostmain > .step .hostdatas > .hostdata {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+  text-align: center;
+}
+.section-layout > .hostmain > .step .hostdatas > .hostdata > .hostnumber {
+  font-size: 55px;
+}
+.section-layout > .hostmain > .step .hostdatas > .hostdata > .numbercomment {
+  text-align: center;
+}
+
+.section-layout > .hostmain > .interview {
+  margin-top: 100px;
+  display: flex;
+}
+.section-layout > .hostmain > .interview .headerleft {
+  display: flex;
+  padding-left: 30px;
+}
+.section-layout > .hostmain > .interview .headerleft > p {
+  margin-right: 30px;
+  font-size: 14px;
+}
+.section-layout > .hostmain > .interview .headerleft > p > .fab {
+  font-size: 35px;
+  line-height: 2.25;
+  color: #01999e;
+}
+.section-layout > .hostmain > .interview > .formtitle {
+  font-size: 38px;
+}
+.section-layout > .hostmain > .interview > .fillin {
+  color: #3f3f3f;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.section-layout > .hostmain > .interview > .addressform {
+  margin-top: 30px;
+  width: 95%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .interview > .miniform {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.section-layout > .hostmain > .interview .miniform > .charter {
+  position: relative;
+}
+.section-layout > .hostmain > .interview .miniform > .charter > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 35px;
+  margin-right: 15px;
+}
+.section-layout > .hostmain > .interview .miniform > .charter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .interview .miniform > .guestpeople {
+  position: relative;
+}
+.section-layout > .hostmain > .interview .miniform > .guestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  width: 88%;
+}
+.section-layout > .hostmain > .interview .miniform > .guestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .interview .startbtn {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #FF5A5F;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  line-height: 50px;
+}
+.section-layout > .hostmain > .interview .whyhost {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .interview .whyhost > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .interview .whyhost > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .interview .warranty {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .interview .warranty > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .interview .warranty > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .interview .warranty > .text {
+  width: 100%;
+}
+.section-layout > .hostmain > .interview .steptitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .interview .steptexts {
+  display: flex;
+}
+.section-layout > .hostmain > .interview .steptexts > .steptext {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .interview .steptexts > .steptext .far {
+  font-size: 50px;
+}
+.section-layout > .hostmain > .interview .steptexts > .steptext .minititle {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .interview .steptexts > .steptext .minitext {
+  font-size: 17px;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .interview .steptexts > .steptext .green {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .interview .interviewleft {
+  width: 43%;
+  margin-right: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .interview .interviewleft > .interviewtext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .interview .interviewleft > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .interview .interviewleft > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .interview .relieftitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .interview .relieftexts {
+  display: flex;
+  justify-content: space-between;
+}
+.section-layout > .hostmain > .interview .relieftexts > .reliefleft {
+  width: 400px;
+  line-height: 1.75;
+  margin-right: 50px;
+  color: #606060;
+  margin: 10px 0px 0px 0px;
+}
+.section-layout > .hostmain > .interview .relieftexts > .reliefleft > .how {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .interview .relieftexts > .reliefright {
+  margin-right: 150px;
+}
+.section-layout > .hostmain > .interview .relieftexts > .reliefright > .relieftext {
+  display: flex;
+}
+.section-layout > .hostmain > .interview .relieftexts > .reliefright > .relieftext .fas {
+  color: #01999e;
+  font-size: 18px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+.section-layout > .hostmain > .interview .exampleright {
+  margin-left: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .interview .exampleright > .exampletext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .interview .exampleright > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .interview .exampleright > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .interview .sharetitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .interview .hostdatas {
+  display: flex;
+}
+.section-layout > .hostmain > .interview .hostdatas > .hostdata {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+  text-align: center;
+}
+.section-layout > .hostmain > .interview .hostdatas > .hostdata > .hostnumber {
+  font-size: 55px;
+}
+.section-layout > .hostmain > .interview .hostdatas > .hostdata > .numbercomment {
+  text-align: center;
+}
+
+.section-layout > .hostmain > .relief {
+  margin-top: 30px;
+  color: #3f3f3f;
+  padding: 0px 30px;
+}
+.section-layout > .hostmain > .relief .headerleft {
+  display: flex;
+  padding-left: 30px;
+}
+.section-layout > .hostmain > .relief .headerleft > p {
+  margin-right: 30px;
+  font-size: 14px;
+}
+.section-layout > .hostmain > .relief .headerleft > p > .fab {
+  font-size: 35px;
+  line-height: 2.25;
+  color: #01999e;
+}
+.section-layout > .hostmain > .relief > .formtitle {
+  font-size: 38px;
+}
+.section-layout > .hostmain > .relief > .fillin {
+  color: #3f3f3f;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.section-layout > .hostmain > .relief > .addressform {
+  margin-top: 30px;
+  width: 95%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .relief > .miniform {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.section-layout > .hostmain > .relief .miniform > .charter {
+  position: relative;
+}
+.section-layout > .hostmain > .relief .miniform > .charter > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 35px;
+  margin-right: 15px;
+}
+.section-layout > .hostmain > .relief .miniform > .charter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .relief .miniform > .guestpeople {
+  position: relative;
+}
+.section-layout > .hostmain > .relief .miniform > .guestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  width: 88%;
+}
+.section-layout > .hostmain > .relief .miniform > .guestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .relief .startbtn {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #FF5A5F;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  line-height: 50px;
+}
+.section-layout > .hostmain > .relief .whyhost {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .relief .whyhost > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .relief .whyhost > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .relief .warranty {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .relief .warranty > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .relief .warranty > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .relief .warranty > .text {
+  width: 100%;
+}
+.section-layout > .hostmain > .relief .steptitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .relief .steptexts {
+  display: flex;
+}
+.section-layout > .hostmain > .relief .steptexts > .steptext {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .relief .steptexts > .steptext .far {
+  font-size: 50px;
+}
+.section-layout > .hostmain > .relief .steptexts > .steptext .minititle {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .relief .steptexts > .steptext .minitext {
+  font-size: 17px;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .relief .steptexts > .steptext .green {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .relief .interviewleft {
+  width: 43%;
+  margin-right: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .relief .interviewleft > .interviewtext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .relief .interviewleft > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .relief .interviewleft > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .relief .relieftitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .relief .relieftexts {
+  display: flex;
+  justify-content: space-between;
+}
+.section-layout > .hostmain > .relief .relieftexts > .reliefleft {
+  width: 400px;
+  line-height: 1.75;
+  margin-right: 50px;
+  color: #606060;
+  margin: 10px 0px 0px 0px;
+}
+.section-layout > .hostmain > .relief .relieftexts > .reliefleft > .how {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .relief .relieftexts > .reliefright {
+  margin-right: 150px;
+}
+.section-layout > .hostmain > .relief .relieftexts > .reliefright > .relieftext {
+  display: flex;
+}
+.section-layout > .hostmain > .relief .relieftexts > .reliefright > .relieftext .fas {
+  color: #01999e;
+  font-size: 18px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+.section-layout > .hostmain > .relief .exampleright {
+  margin-left: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .relief .exampleright > .exampletext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .relief .exampleright > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .relief .exampleright > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .relief .sharetitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .relief .hostdatas {
+  display: flex;
+}
+.section-layout > .hostmain > .relief .hostdatas > .hostdata {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+  text-align: center;
+}
+.section-layout > .hostmain > .relief .hostdatas > .hostdata > .hostnumber {
+  font-size: 55px;
+}
+.section-layout > .hostmain > .relief .hostdatas > .hostdata > .numbercomment {
+  text-align: center;
 }
 
 .section-layout > .hostmain > .relief > .massage {
@@ -35268,23 +36467,156 @@
 .section-layout > .hostmain > .example {
   display: flex;
 }
-
-.section-layout > .hostmain > .example > .right {
-  margin-left: 50px;
+.section-layout > .hostmain > .example .headerleft {
+  display: flex;
+  padding-left: 30px;
+}
+.section-layout > .hostmain > .example .headerleft > p {
+  margin-right: 30px;
+  font-size: 14px;
+}
+.section-layout > .hostmain > .example .headerleft > p > .fab {
+  font-size: 35px;
+  line-height: 2.25;
+  color: #01999e;
+}
+.section-layout > .hostmain > .example > .formtitle {
+  font-size: 38px;
+}
+.section-layout > .hostmain > .example > .fillin {
+  color: #3f3f3f;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.section-layout > .hostmain > .example > .addressform {
+  margin-top: 30px;
+  width: 95%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .example > .miniform {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.section-layout > .hostmain > .example .miniform > .charter {
+  position: relative;
+}
+.section-layout > .hostmain > .example .miniform > .charter > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 35px;
+  margin-right: 15px;
+}
+.section-layout > .hostmain > .example .miniform > .charter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .example .miniform > .guestpeople {
+  position: relative;
+}
+.section-layout > .hostmain > .example .miniform > .guestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  width: 88%;
+}
+.section-layout > .hostmain > .example .miniform > .guestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .example .startbtn {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #FF5A5F;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  line-height: 50px;
+}
+.section-layout > .hostmain > .example .whyhost {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .example .whyhost > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .example .whyhost > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .example .warranty {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .example .warranty > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .example .warranty > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .example .warranty > .text {
+  width: 100%;
+}
+.section-layout > .hostmain > .example .steptitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .example .steptexts {
+  display: flex;
+}
+.section-layout > .hostmain > .example .steptexts > .steptext {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .example .steptexts > .steptext .far {
+  font-size: 50px;
+}
+.section-layout > .hostmain > .example .steptexts > .steptext .minititle {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .example .steptexts > .steptext .minitext {
+  font-size: 17px;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .example .steptexts > .steptext .green {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .example .interviewleft {
+  width: 43%;
+  margin-right: 50px;
   color: #606060;
 }
-
-.section-layout > .hostmain > .example > .right > .text {
+.section-layout > .hostmain > .example .interviewleft > .interviewtext {
   font-size: 33px;
   line-height: 1.25;
 }
-
-.section-layout > .hostmain > .example > .right > .minitext {
+.section-layout > .hostmain > .example .interviewleft > .minitext {
   margin-top: 15px;
   color: #a0a0a0;
 }
-
-.section-layout > .hostmain > .example > .right > .checkbtn {
+.section-layout > .hostmain > .example .interviewleft > .checkbtn {
   margin-top: 10px;
   color: #3f3f3f;
   margin: 20px 0px;
@@ -35293,6 +36625,323 @@
   width: 180px;
   padding: 15px 20px;
   font-weight: bold;
+}
+.section-layout > .hostmain > .example .relieftitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .example .relieftexts {
+  display: flex;
+  justify-content: space-between;
+}
+.section-layout > .hostmain > .example .relieftexts > .reliefleft {
+  width: 400px;
+  line-height: 1.75;
+  margin-right: 50px;
+  color: #606060;
+  margin: 10px 0px 0px 0px;
+}
+.section-layout > .hostmain > .example .relieftexts > .reliefleft > .how {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .example .relieftexts > .reliefright {
+  margin-right: 150px;
+}
+.section-layout > .hostmain > .example .relieftexts > .reliefright > .relieftext {
+  display: flex;
+}
+.section-layout > .hostmain > .example .relieftexts > .reliefright > .relieftext .fas {
+  color: #01999e;
+  font-size: 18px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+.section-layout > .hostmain > .example .exampleright {
+  margin-left: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .example .exampleright > .exampletext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .example .exampleright > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .example .exampleright > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .example .sharetitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .example .hostdatas {
+  display: flex;
+}
+.section-layout > .hostmain > .example .hostdatas > .hostdata {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+  text-align: center;
+}
+.section-layout > .hostmain > .example .hostdatas > .hostdata > .hostnumber {
+  font-size: 55px;
+}
+.section-layout > .hostmain > .example .hostdatas > .hostdata > .numbercomment {
+  text-align: center;
+}
+
+.section-layout > .hostmain > .hostshare {
+  height: 400px;
+  margin-top: 100px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .hostshare .headerleft {
+  display: flex;
+  padding-left: 30px;
+}
+.section-layout > .hostmain > .hostshare .headerleft > p {
+  margin-right: 30px;
+  font-size: 14px;
+}
+.section-layout > .hostmain > .hostshare .headerleft > p > .fab {
+  font-size: 35px;
+  line-height: 2.25;
+  color: #01999e;
+}
+.section-layout > .hostmain > .hostshare > .formtitle {
+  font-size: 38px;
+}
+.section-layout > .hostmain > .hostshare > .fillin {
+  color: #3f3f3f;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.section-layout > .hostmain > .hostshare > .addressform {
+  margin-top: 30px;
+  width: 95%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .hostshare > .miniform {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.section-layout > .hostmain > .hostshare .miniform > .charter {
+  position: relative;
+}
+.section-layout > .hostmain > .hostshare .miniform > .charter > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 35px;
+  margin-right: 15px;
+}
+.section-layout > .hostmain > .hostshare .miniform > .charter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .hostshare .miniform > .guestpeople {
+  position: relative;
+}
+.section-layout > .hostmain > .hostshare .miniform > .guestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  width: 88%;
+}
+.section-layout > .hostmain > .hostshare .miniform > .guestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .hostshare .startbtn {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #FF5A5F;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  line-height: 50px;
+}
+.section-layout > .hostmain > .hostshare .whyhost {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .hostshare .whyhost > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .hostshare .whyhost > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .hostshare .warranty {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .hostshare .warranty > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .hostshare .warranty > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .hostshare .warranty > .text {
+  width: 100%;
+}
+.section-layout > .hostmain > .hostshare .steptitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .hostshare .steptexts {
+  display: flex;
+}
+.section-layout > .hostmain > .hostshare .steptexts > .steptext {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .hostshare .steptexts > .steptext .far {
+  font-size: 50px;
+}
+.section-layout > .hostmain > .hostshare .steptexts > .steptext .minititle {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .hostshare .steptexts > .steptext .minitext {
+  font-size: 17px;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .hostshare .steptexts > .steptext .green {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .hostshare .interviewleft {
+  width: 43%;
+  margin-right: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .hostshare .interviewleft > .interviewtext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .hostshare .interviewleft > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .hostshare .interviewleft > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .hostshare .relieftitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .hostshare .relieftexts {
+  display: flex;
+  justify-content: space-between;
+}
+.section-layout > .hostmain > .hostshare .relieftexts > .reliefleft {
+  width: 400px;
+  line-height: 1.75;
+  margin-right: 50px;
+  color: #606060;
+  margin: 10px 0px 0px 0px;
+}
+.section-layout > .hostmain > .hostshare .relieftexts > .reliefleft > .how {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .hostshare .relieftexts > .reliefright {
+  margin-right: 150px;
+}
+.section-layout > .hostmain > .hostshare .relieftexts > .reliefright > .relieftext {
+  display: flex;
+}
+.section-layout > .hostmain > .hostshare .relieftexts > .reliefright > .relieftext .fas {
+  color: #01999e;
+  font-size: 18px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+.section-layout > .hostmain > .hostshare .exampleright {
+  margin-left: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .hostshare .exampleright > .exampletext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .hostshare .exampleright > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .hostshare .exampleright > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .hostshare .sharetitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .hostshare .hostdatas {
+  display: flex;
+}
+.section-layout > .hostmain > .hostshare .hostdatas > .hostdata {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+  text-align: center;
+}
+.section-layout > .hostmain > .hostshare .hostdatas > .hostdata > .hostnumber {
+  font-size: 55px;
+}
+.section-layout > .hostmain > .hostshare .hostdatas > .hostdata > .numbercomment {
+  text-align: center;
 }
 /*
 html5doctor.com Reset Stylesheet
