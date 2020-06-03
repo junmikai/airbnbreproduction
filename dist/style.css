@@ -34970,6 +34970,7 @@
     width: 45vw;
   }
 }
+@charset "UTF-8";
 .body {
   width: 100vw;
   height: 100vh;
@@ -34987,6 +34988,8 @@
   justify-content: space-between;
   line-height: 80px;
   font-weight: bold;
+  /*フッター左側*/
+  /*フッター右側*/
 }
 .section-layout > .hostheader .headerleft {
   display: flex;
@@ -35328,7 +35331,7 @@
   margin-bottom: 20px;
 }
 .section-layout > .hostheader .link-nav > li {
-  color: #a0a0a0;
+  color: #767676;
   margin-bottom: 7px;
 }
 .section-layout > .hostheader .link-nav > li > span {
@@ -35339,6 +35342,32 @@
   border-radius: 5px;
   padding: 3px;
   margin-left: 5px;
+}
+.section-layout > .hostheader .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .hostheader .footerleft {
+  font-size: 13px;
+}
+.section-layout > .hostheader .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .hostheader .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .hostheader .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .hostheader .footerright > .sns > .fab {
+  font-size: 17px;
 }
 
 .section-layout > .hostheader > .headerright {
@@ -35371,6 +35400,8 @@
   right: 100px;
   top: 80px;
   font-weight: bold;
+  /*フッター左側*/
+  /*フッター右側*/
 }
 .section-layout > .hostbackground > .form .headerleft {
   display: flex;
@@ -35712,7 +35743,7 @@
   margin-bottom: 20px;
 }
 .section-layout > .hostbackground > .form .link-nav > li {
-  color: #a0a0a0;
+  color: #767676;
   margin-bottom: 7px;
 }
 .section-layout > .hostbackground > .form .link-nav > li > span {
@@ -35724,6 +35755,32 @@
   padding: 3px;
   margin-left: 5px;
 }
+.section-layout > .hostbackground > .form .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .hostbackground > .form .footerleft {
+  font-size: 13px;
+}
+.section-layout > .hostbackground > .form .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .hostbackground > .form .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .hostbackground > .form .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .hostbackground > .form .footerright > .sns > .fab {
+  font-size: 17px;
+}
 
 .section-layout > .hostmain {
   max-width: 1200px;
@@ -35734,6 +35791,8 @@
 .section-layout > .hostmain > .introduction {
   height: 200px;
   display: flex;
+  /*フッター左側*/
+  /*フッター右側*/
 }
 .section-layout > .hostmain > .introduction .headerleft {
   display: flex;
@@ -36075,7 +36134,7 @@
   margin-bottom: 20px;
 }
 .section-layout > .hostmain > .introduction .link-nav > li {
-  color: #a0a0a0;
+  color: #767676;
   margin-bottom: 7px;
 }
 .section-layout > .hostmain > .introduction .link-nav > li > span {
@@ -36087,11 +36146,39 @@
   padding: 3px;
   margin-left: 5px;
 }
+.section-layout > .hostmain > .introduction .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .hostmain > .introduction .footerleft {
+  font-size: 13px;
+}
+.section-layout > .hostmain > .introduction .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .hostmain > .introduction .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .hostmain > .introduction .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .hostmain > .introduction .footerright > .sns > .fab {
+  font-size: 17px;
+}
 
 .section-layout > .hostmain > .step {
   height: 400px;
   margin-top: 30px;
   color: #3f3f3f;
+  /*フッター左側*/
+  /*フッター右側*/
 }
 .section-layout > .hostmain > .step .headerleft {
   display: flex;
@@ -36433,7 +36520,7 @@
   margin-bottom: 20px;
 }
 .section-layout > .hostmain > .step .link-nav > li {
-  color: #a0a0a0;
+  color: #767676;
   margin-bottom: 7px;
 }
 .section-layout > .hostmain > .step .link-nav > li > span {
@@ -36445,10 +36532,38 @@
   padding: 3px;
   margin-left: 5px;
 }
+.section-layout > .hostmain > .step .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .hostmain > .step .footerleft {
+  font-size: 13px;
+}
+.section-layout > .hostmain > .step .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .hostmain > .step .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .hostmain > .step .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .hostmain > .step .footerright > .sns > .fab {
+  font-size: 17px;
+}
 
 .section-layout > .hostmain > .interview {
   margin-top: 100px;
   display: flex;
+  /*フッター左側*/
+  /*フッター右側*/
 }
 .section-layout > .hostmain > .interview .headerleft {
   display: flex;
@@ -36790,7 +36905,7 @@
   margin-bottom: 20px;
 }
 .section-layout > .hostmain > .interview .link-nav > li {
-  color: #a0a0a0;
+  color: #767676;
   margin-bottom: 7px;
 }
 .section-layout > .hostmain > .interview .link-nav > li > span {
@@ -36802,11 +36917,39 @@
   padding: 3px;
   margin-left: 5px;
 }
+.section-layout > .hostmain > .interview .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .hostmain > .interview .footerleft {
+  font-size: 13px;
+}
+.section-layout > .hostmain > .interview .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .hostmain > .interview .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .hostmain > .interview .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .hostmain > .interview .footerright > .sns > .fab {
+  font-size: 17px;
+}
 
 .section-layout > .hostmain > .relief {
   margin-top: 30px;
   color: #3f3f3f;
   padding: 0px 30px;
+  /*フッター左側*/
+  /*フッター右側*/
 }
 .section-layout > .hostmain > .relief .headerleft {
   display: flex;
@@ -37148,7 +37291,7 @@
   margin-bottom: 20px;
 }
 .section-layout > .hostmain > .relief .link-nav > li {
-  color: #a0a0a0;
+  color: #767676;
   margin-bottom: 7px;
 }
 .section-layout > .hostmain > .relief .link-nav > li > span {
@@ -37160,6 +37303,32 @@
   padding: 3px;
   margin-left: 5px;
 }
+.section-layout > .hostmain > .relief .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .hostmain > .relief .footerleft {
+  font-size: 13px;
+}
+.section-layout > .hostmain > .relief .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .hostmain > .relief .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .hostmain > .relief .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .hostmain > .relief .footerright > .sns > .fab {
+  font-size: 17px;
+}
 
 .section-layout > .hostmain > .relief > .massage {
   margin: 50px auto;
@@ -37168,6 +37337,8 @@
 
 .section-layout > .hostmain > .example {
   display: flex;
+  /*フッター左側*/
+  /*フッター右側*/
 }
 .section-layout > .hostmain > .example .headerleft {
   display: flex;
@@ -37509,7 +37680,7 @@
   margin-bottom: 20px;
 }
 .section-layout > .hostmain > .example .link-nav > li {
-  color: #a0a0a0;
+  color: #767676;
   margin-bottom: 7px;
 }
 .section-layout > .hostmain > .example .link-nav > li > span {
@@ -37521,11 +37692,39 @@
   padding: 3px;
   margin-left: 5px;
 }
+.section-layout > .hostmain > .example .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .hostmain > .example .footerleft {
+  font-size: 13px;
+}
+.section-layout > .hostmain > .example .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .hostmain > .example .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .hostmain > .example .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .hostmain > .example .footerright > .sns > .fab {
+  font-size: 17px;
+}
 
 .section-layout > .hostmain > .hostshare {
   height: 400px;
   margin-top: 100px;
   color: #3f3f3f;
+  /*フッター左側*/
+  /*フッター右側*/
 }
 .section-layout > .hostmain > .hostshare .headerleft {
   display: flex;
@@ -37867,7 +38066,7 @@
   margin-bottom: 20px;
 }
 .section-layout > .hostmain > .hostshare .link-nav > li {
-  color: #a0a0a0;
+  color: #767676;
   margin-bottom: 7px;
 }
 .section-layout > .hostmain > .hostshare .link-nav > li > span {
@@ -37879,10 +38078,38 @@
   padding: 3px;
   margin-left: 5px;
 }
+.section-layout > .hostmain > .hostshare .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .hostmain > .hostshare .footerleft {
+  font-size: 13px;
+}
+.section-layout > .hostmain > .hostshare .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .hostmain > .hostshare .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .hostmain > .hostshare .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .hostmain > .hostshare .footerright > .sns > .fab {
+  font-size: 17px;
+}
 
 .section-layout > .hostmain > .about {
   height: 400px;
   color: #3f3f3f;
+  /*フッター左側*/
+  /*フッター右側*/
 }
 .section-layout > .hostmain > .about .headerleft {
   display: flex;
@@ -38224,7 +38451,7 @@
   margin-bottom: 20px;
 }
 .section-layout > .hostmain > .about .link-nav > li {
-  color: #a0a0a0;
+  color: #767676;
   margin-bottom: 7px;
 }
 .section-layout > .hostmain > .about .link-nav > li > span {
@@ -38236,9 +38463,37 @@
   padding: 3px;
   margin-left: 5px;
 }
+.section-layout > .hostmain > .about .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .hostmain > .about .footerleft {
+  font-size: 13px;
+}
+.section-layout > .hostmain > .about .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .hostmain > .about .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .hostmain > .about .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .hostmain > .about .footerright > .sns > .fab {
+  font-size: 17px;
+}
 
 .section-layout > .hostmain > .question {
   height: 400px;
+  /*フッター左側*/
+  /*フッター右側*/
 }
 .section-layout > .hostmain > .question .headerleft {
   display: flex;
@@ -38580,7 +38835,7 @@
   margin-bottom: 20px;
 }
 .section-layout > .hostmain > .question .link-nav > li {
-  color: #a0a0a0;
+  color: #767676;
   margin-bottom: 7px;
 }
 .section-layout > .hostmain > .question .link-nav > li > span {
@@ -38592,8 +38847,36 @@
   padding: 3px;
   margin-left: 5px;
 }
+.section-layout > .hostmain > .question .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .hostmain > .question .footerleft {
+  font-size: 13px;
+}
+.section-layout > .hostmain > .question .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .hostmain > .question .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .hostmain > .question .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .hostmain > .question .footerright > .sns > .fab {
+  font-size: 17px;
+}
 
 .section-layout > .hostmain > .hosting {
+  /*フッター左側*/
+  /*フッター右側*/
   color: #3f3f3f;
 }
 .section-layout > .hostmain > .hosting .headerleft {
@@ -38936,7 +39219,7 @@
   margin-bottom: 20px;
 }
 .section-layout > .hostmain > .hosting .link-nav > li {
-  color: #a0a0a0;
+  color: #767676;
   margin-bottom: 7px;
 }
 .section-layout > .hostmain > .hosting .link-nav > li > span {
@@ -38948,10 +39231,38 @@
   padding: 3px;
   margin-left: 5px;
 }
+.section-layout > .hostmain > .hosting .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .hostmain > .hosting .footerleft {
+  font-size: 13px;
+}
+.section-layout > .hostmain > .hosting .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .hostmain > .hosting .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .hostmain > .hosting .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .hostmain > .hosting .footerright > .sns > .fab {
+  font-size: 17px;
+}
 
 .section-layout > .hostmain > .listing {
   margin-top: 50px;
   position: relative;
+  /*フッター左側*/
+  /*フッター右側*/
 }
 .section-layout > .hostmain > .listing .headerleft {
   display: flex;
@@ -39293,7 +39604,7 @@
   margin-bottom: 20px;
 }
 .section-layout > .hostmain > .listing .link-nav > li {
-  color: #a0a0a0;
+  color: #767676;
   margin-bottom: 7px;
 }
 .section-layout > .hostmain > .listing .link-nav > li > span {
@@ -39305,11 +39616,40 @@
   padding: 3px;
   margin-left: 5px;
 }
+.section-layout > .hostmain > .listing .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .hostmain > .listing .footerleft {
+  font-size: 13px;
+}
+.section-layout > .hostmain > .listing .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .hostmain > .listing .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .hostmain > .listing .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .hostmain > .listing .footerright > .sns > .fab {
+  font-size: 17px;
+}
 
 .section-layout > .lodginglinks {
   margin: 0 auto;
   width: 60%;
   display: flex;
+  /*フッター左側*/
+  /*フッター右側*/
+  margin-bottom: 20px;
 }
 .section-layout > .lodginglinks .headerleft {
   display: flex;
@@ -39651,7 +39991,7 @@
   margin-bottom: 20px;
 }
 .section-layout > .lodginglinks .link-nav > li {
-  color: #a0a0a0;
+  color: #767676;
   margin-bottom: 7px;
 }
 .section-layout > .lodginglinks .link-nav > li > span {
@@ -39662,6 +40002,426 @@
   border-radius: 5px;
   padding: 3px;
   margin-left: 5px;
+}
+.section-layout > .lodginglinks .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .lodginglinks .footerleft {
+  font-size: 13px;
+}
+.section-layout > .lodginglinks .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .lodginglinks .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .lodginglinks .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .lodginglinks .footerright > .sns > .fab {
+  font-size: 17px;
+}
+
+/*フッター*/
+.section-layout > .topfooters {
+  display: flex;
+  padding: 15px 0px 70px 0px;
+  border-top: solid 1px #cdcdcd;
+  color: #767676;
+  width: 60%;
+  height: auto;
+  font-weight: bold;
+  font-size: 17px;
+  /*フッター左側*/
+  /*フッター右側*/
+  margin: 0 auto;
+  position: relative;
+}
+.section-layout > .topfooters .headerleft {
+  display: flex;
+  padding-left: 30px;
+}
+.section-layout > .topfooters .headerleft > p {
+  margin-right: 30px;
+  font-size: 14px;
+}
+.section-layout > .topfooters .headerleft > p > .fab {
+  font-size: 35px;
+  line-height: 2.25;
+  color: #01999e;
+}
+.section-layout > .topfooters > .formtitle {
+  font-size: 38px;
+}
+.section-layout > .topfooters > .fillin {
+  color: #3f3f3f;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.section-layout > .topfooters > .addressform {
+  margin-top: 30px;
+  width: 95%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.section-layout > .topfooters > .miniform {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.section-layout > .topfooters .miniform > .charter {
+  position: relative;
+}
+.section-layout > .topfooters .miniform > .charter > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 35px;
+  margin-right: 15px;
+}
+.section-layout > .topfooters .miniform > .charter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .topfooters .miniform > .guestpeople {
+  position: relative;
+}
+.section-layout > .topfooters .miniform > .guestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  width: 88%;
+}
+.section-layout > .topfooters .miniform > .guestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .topfooters .startbtn {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #FF5A5F;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  line-height: 50px;
+}
+.section-layout > .topfooters .whyhost {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .topfooters .whyhost > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .topfooters .whyhost > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .topfooters .warranty {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .topfooters .warranty > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .topfooters .warranty > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .topfooters .warranty > .text {
+  width: 100%;
+}
+.section-layout > .topfooters .steptitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .topfooters .steptexts {
+  display: flex;
+}
+.section-layout > .topfooters .steptexts > .steptext {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+}
+.section-layout > .topfooters .steptexts > .steptext .far {
+  font-size: 50px;
+}
+.section-layout > .topfooters .steptexts > .steptext .minititle {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.section-layout > .topfooters .steptexts > .steptext .minitext {
+  font-size: 17px;
+  margin-top: 20px;
+}
+.section-layout > .topfooters .steptexts > .steptext .green {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .topfooters .interviewleft {
+  width: 43%;
+  margin-right: 50px;
+  color: #606060;
+}
+.section-layout > .topfooters .interviewleft > .interviewtext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .topfooters .interviewleft > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .topfooters .interviewleft > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .topfooters .relieftitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .topfooters .relieftexts {
+  display: flex;
+  justify-content: space-between;
+}
+.section-layout > .topfooters .relieftexts > .reliefleft {
+  width: 400px;
+  line-height: 1.75;
+  margin-right: 50px;
+  color: #606060;
+  margin: 10px 0px 0px 0px;
+}
+.section-layout > .topfooters .relieftexts > .reliefleft > .how {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .topfooters .relieftexts > .reliefright {
+  margin-right: 150px;
+}
+.section-layout > .topfooters .relieftexts > .reliefright > .relieftext {
+  display: flex;
+}
+.section-layout > .topfooters .relieftexts > .reliefright > .relieftext .fas {
+  color: #01999e;
+  font-size: 18px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+.section-layout > .topfooters .exampleright {
+  margin-left: 50px;
+  color: #606060;
+}
+.section-layout > .topfooters .exampleright > .exampletext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .topfooters .exampleright > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .topfooters .exampleright > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .topfooters .sharetitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .topfooters .hostdatas {
+  display: flex;
+}
+.section-layout > .topfooters .hostdatas > .hostdata {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+  text-align: center;
+}
+.section-layout > .topfooters .hostdatas > .hostdata > .hostnumber {
+  font-size: 55px;
+}
+.section-layout > .topfooters .hostdatas > .hostdata > .numbercomment {
+  text-align: center;
+}
+.section-layout > .topfooters .abouttitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+  color: #3f3f3f;
+}
+.section-layout > .topfooters .abouttexts {
+  display: flex;
+}
+.section-layout > .topfooters .abouttexts > .abouttext {
+  width: 37.5%;
+  line-height: 1.75;
+  padding: 0px 30px;
+}
+.section-layout > .topfooters .abouttexts > .abouttext > .aboutheadline {
+  font-size: 22px;
+  font-weight: bold;
+}
+.section-layout > .topfooters .abouttexts > .abouttext > .aboutexplanation {
+  font-size: 15px;
+  margin-top: 20px;
+}
+.section-layout > .topfooters .abouttexts > .abouttext > .green {
+  color: #01999e;
+  padding-top: 20px;
+}
+.section-layout > .topfooters .questiontitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+  color: #3f3f3f;
+}
+.section-layout > .topfooters .question-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-layout > .topfooters .question-nav > li {
+  width: 48%;
+  list-style: none;
+  font-size: 18px;
+  color: #01999e;
+  padding: 30px 0px;
+  margin: 0px 10px;
+  border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .topfooters .hostingtitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .topfooters .hostinglists {
+  display: flex;
+}
+.section-layout > .topfooters .hostinglists > .hostinglist {
+  margin: 0px 5px;
+}
+.section-layout > .topfooters .hostinglists > .hostinglist > .hostingheadline {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .topfooters .hostinglists > .hostinglist > .hostingcomment {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-layout > .topfooters .hostinglists > .hostinglist > .learnmore {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #01999e;
+}
+.section-layout > .topfooters .listingtitle {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-size: 63px;
+  font-weight: bold;
+  color: #fff;
+  width: 390px;
+}
+.section-layout > .topfooters .listingbtn {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  color: #3f3f3f;
+  background-color: #fff;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+}
+.section-layout > .topfooters .link-nav {
+  width: 25%;
+  font-size: 14px;
+  list-style: none;
+  font-weight: bold;
+}
+.section-layout > .topfooters .link-nav > .linktitle {
+  color: #3f3f3f;
+  margin-bottom: 20px;
+}
+.section-layout > .topfooters .link-nav > li {
+  color: #767676;
+  margin-bottom: 7px;
+}
+.section-layout > .topfooters .link-nav > li > span {
+  font-size: 12px;
+  color: #fff;
+  background-color: #006a70;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 5px;
+}
+.section-layout > .topfooters .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .topfooters .footerleft {
+  font-size: 13px;
+}
+.section-layout > .topfooters .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .topfooters .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .topfooters .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .topfooters .footerright > .sns > .fab {
+  font-size: 17px;
 }
 /*
 html5doctor.com Reset Stylesheet

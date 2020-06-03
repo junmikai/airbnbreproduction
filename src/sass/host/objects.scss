@@ -152,10 +152,25 @@
   position: relative;
   @import "components";
 }
-
+// リンク集
 .section-layout >.lodginglinks{
   margin:0 auto;
   width:60%;
   display: flex;
   @import "components";
+  margin-bottom:20px;
+}
+/*フッター*/
+.section-layout > .topfooters{
+  display: flex;
+  padding:15px 0px 70px 0px;
+  border-top: solid 1px $bodergray;
+  color:$gray-76;
+  width:60%;
+  height:auto;
+  font-weight: bold;
+  font-size:17px;
+  @import "components";
+  margin:0 auto;
+  position: relative;
 }

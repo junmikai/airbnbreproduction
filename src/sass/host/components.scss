@@ -371,7 +371,7 @@
     margin-bottom:20px;
   }
   >li{
-    color:$light-a0;
+    color:$gray-76;
     margin-bottom:7px;
     >span{
       font-size:12px;
@@ -381,6 +381,36 @@
       border-radius: 5px;
       padding:3px;
       margin-left:5px;
+    }
+  }
+}
+// フッター企業ロゴ
+.fab{
+  font-size:25px;
+  margin-right:3px;
+  line-height:1.5;
+}
+/*フッター左側*/
+.footerleft{
+  font-size:13px;
+    >span{
+      padding:0px 8px;
+    }
+  }
+/*フッター右側*/
+.footerright{
+  display: flex;
+  justify-content:space-around;
+  font-size:13px;
+  font-weight:bold;
+  height:30px;
+  
+  > .sns{
+    letter-spacing: 10px;
+    position: absolute;
+    right:0px;
+    >.fab{
+      font-size:17px;
     }
   }
 }
