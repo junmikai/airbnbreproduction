@@ -263,6 +263,7 @@
   text-align: center;
   font-weight: bold;
   margin:50px 0px;
+  color:$light-black;
 }
 // Airbnbについて/文字詳細
 .abouttexts{
@@ -292,6 +293,7 @@
   text-align: center;
   font-weight: bold;
   margin:50px 0px;
+  color:$light-black;
 }
 // 質問/文字
 .question-nav{
@@ -305,5 +307,32 @@
     padding:30px 0px;
     margin:0px 10px;
     border-bottom:$bodergray solid 1px;
+  }
+}
+
+.hostingtitle{
+  font-size:25px;
+  font-weight: bold;
+  margin:50px 0px;
+}
+
+.hostinglists{
+  display:flex;
+  >.hostinglist{
+    margin:0px 5px;
+    >.hostingheadline{
+      font-size:17px;
+      font-weight: bold;
+      margin-top:20px;
+    }
+    >.hostingcomment{
+      font-size:14px;
+      margin-top:10px;
+    }
+    >.learnmore{
+      font-size:14px;
+      margin-top:20px;
+      color:$light-green;
+    }
   }
 }

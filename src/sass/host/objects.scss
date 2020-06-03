@@ -140,3 +140,8 @@
   height:400px;
   @import "components";
 }
+
+.section-layout > .hostmain > .hosting{
+  @import "components";
+  color:$light-black;
+}

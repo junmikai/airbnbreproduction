@@ -35228,6 +35228,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostheader .abouttexts {
   display: flex;
@@ -35254,6 +35255,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostheader .question-nav {
   display: flex;
@@ -35267,6 +35269,31 @@
   padding: 30px 0px;
   margin: 0px 10px;
   border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .hostheader .hostingtitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostheader .hostinglists {
+  display: flex;
+}
+.section-layout > .hostheader .hostinglists > .hostinglist {
+  margin: 0px 5px;
+}
+.section-layout > .hostheader .hostinglists > .hostinglist > .hostingheadline {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .hostheader .hostinglists > .hostinglist > .hostingcomment {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-layout > .hostheader .hostinglists > .hostinglist > .learnmore {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #01999e;
 }
 
 .section-layout > .hostheader > .headerright {
@@ -35540,6 +35567,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostbackground > .form .abouttexts {
   display: flex;
@@ -35566,6 +35594,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostbackground > .form .question-nav {
   display: flex;
@@ -35579,6 +35608,31 @@
   padding: 30px 0px;
   margin: 0px 10px;
   border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .hostbackground > .form .hostingtitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostbackground > .form .hostinglists {
+  display: flex;
+}
+.section-layout > .hostbackground > .form .hostinglists > .hostinglist {
+  margin: 0px 5px;
+}
+.section-layout > .hostbackground > .form .hostinglists > .hostinglist > .hostingheadline {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .hostbackground > .form .hostinglists > .hostinglist > .hostingcomment {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-layout > .hostbackground > .form .hostinglists > .hostinglist > .learnmore {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #01999e;
 }
 
 .section-layout > .hostmain {
@@ -35831,6 +35885,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .introduction .abouttexts {
   display: flex;
@@ -35857,6 +35912,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .introduction .question-nav {
   display: flex;
@@ -35870,6 +35926,31 @@
   padding: 30px 0px;
   margin: 0px 10px;
   border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .hostmain > .introduction .hostingtitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .introduction .hostinglists {
+  display: flex;
+}
+.section-layout > .hostmain > .introduction .hostinglists > .hostinglist {
+  margin: 0px 5px;
+}
+.section-layout > .hostmain > .introduction .hostinglists > .hostinglist > .hostingheadline {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .introduction .hostinglists > .hostinglist > .hostingcomment {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-layout > .hostmain > .introduction .hostinglists > .hostinglist > .learnmore {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #01999e;
 }
 
 .section-layout > .hostmain > .step {
@@ -36117,6 +36198,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .step .abouttexts {
   display: flex;
@@ -36143,6 +36225,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .step .question-nav {
   display: flex;
@@ -36156,6 +36239,31 @@
   padding: 30px 0px;
   margin: 0px 10px;
   border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .hostmain > .step .hostingtitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .step .hostinglists {
+  display: flex;
+}
+.section-layout > .hostmain > .step .hostinglists > .hostinglist {
+  margin: 0px 5px;
+}
+.section-layout > .hostmain > .step .hostinglists > .hostinglist > .hostingheadline {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .step .hostinglists > .hostinglist > .hostingcomment {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-layout > .hostmain > .step .hostinglists > .hostinglist > .learnmore {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #01999e;
 }
 
 .section-layout > .hostmain > .interview {
@@ -36402,6 +36510,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .interview .abouttexts {
   display: flex;
@@ -36428,6 +36537,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .interview .question-nav {
   display: flex;
@@ -36441,6 +36551,31 @@
   padding: 30px 0px;
   margin: 0px 10px;
   border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .hostmain > .interview .hostingtitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .interview .hostinglists {
+  display: flex;
+}
+.section-layout > .hostmain > .interview .hostinglists > .hostinglist {
+  margin: 0px 5px;
+}
+.section-layout > .hostmain > .interview .hostinglists > .hostinglist > .hostingheadline {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .interview .hostinglists > .hostinglist > .hostingcomment {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-layout > .hostmain > .interview .hostinglists > .hostinglist > .learnmore {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #01999e;
 }
 
 .section-layout > .hostmain > .relief {
@@ -36688,6 +36823,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .relief .abouttexts {
   display: flex;
@@ -36714,6 +36850,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .relief .question-nav {
   display: flex;
@@ -36727,6 +36864,31 @@
   padding: 30px 0px;
   margin: 0px 10px;
   border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .hostmain > .relief .hostingtitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .relief .hostinglists {
+  display: flex;
+}
+.section-layout > .hostmain > .relief .hostinglists > .hostinglist {
+  margin: 0px 5px;
+}
+.section-layout > .hostmain > .relief .hostinglists > .hostinglist > .hostingheadline {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .relief .hostinglists > .hostinglist > .hostingcomment {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-layout > .hostmain > .relief .hostinglists > .hostinglist > .learnmore {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #01999e;
 }
 
 .section-layout > .hostmain > .relief > .massage {
@@ -36977,6 +37139,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .example .abouttexts {
   display: flex;
@@ -37003,6 +37166,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .example .question-nav {
   display: flex;
@@ -37016,6 +37180,31 @@
   padding: 30px 0px;
   margin: 0px 10px;
   border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .hostmain > .example .hostingtitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .example .hostinglists {
+  display: flex;
+}
+.section-layout > .hostmain > .example .hostinglists > .hostinglist {
+  margin: 0px 5px;
+}
+.section-layout > .hostmain > .example .hostinglists > .hostinglist > .hostingheadline {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .example .hostinglists > .hostinglist > .hostingcomment {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-layout > .hostmain > .example .hostinglists > .hostinglist > .learnmore {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #01999e;
 }
 
 .section-layout > .hostmain > .hostshare {
@@ -37263,6 +37452,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .hostshare .abouttexts {
   display: flex;
@@ -37289,6 +37479,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .hostshare .question-nav {
   display: flex;
@@ -37302,6 +37493,31 @@
   padding: 30px 0px;
   margin: 0px 10px;
   border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .hostmain > .hostshare .hostingtitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .hostshare .hostinglists {
+  display: flex;
+}
+.section-layout > .hostmain > .hostshare .hostinglists > .hostinglist {
+  margin: 0px 5px;
+}
+.section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .hostingheadline {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .hostingcomment {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .learnmore {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #01999e;
 }
 
 .section-layout > .hostmain > .about {
@@ -37548,6 +37764,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .about .abouttexts {
   display: flex;
@@ -37574,6 +37791,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .about .question-nav {
   display: flex;
@@ -37587,6 +37805,31 @@
   padding: 30px 0px;
   margin: 0px 10px;
   border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .hostmain > .about .hostingtitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .about .hostinglists {
+  display: flex;
+}
+.section-layout > .hostmain > .about .hostinglists > .hostinglist {
+  margin: 0px 5px;
+}
+.section-layout > .hostmain > .about .hostinglists > .hostinglist > .hostingheadline {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .about .hostinglists > .hostinglist > .hostingcomment {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-layout > .hostmain > .about .hostinglists > .hostinglist > .learnmore {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #01999e;
 }
 
 .section-layout > .hostmain > .question {
@@ -37832,6 +38075,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .question .abouttexts {
   display: flex;
@@ -37858,6 +38102,7 @@
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
+  color: #3f3f3f;
 }
 .section-layout > .hostmain > .question .question-nav {
   display: flex;
@@ -37871,6 +38116,342 @@
   padding: 30px 0px;
   margin: 0px 10px;
   border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .hostmain > .question .hostingtitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .question .hostinglists {
+  display: flex;
+}
+.section-layout > .hostmain > .question .hostinglists > .hostinglist {
+  margin: 0px 5px;
+}
+.section-layout > .hostmain > .question .hostinglists > .hostinglist > .hostingheadline {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .question .hostinglists > .hostinglist > .hostingcomment {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-layout > .hostmain > .question .hostinglists > .hostinglist > .learnmore {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #01999e;
+}
+
+.section-layout > .hostmain > .hosting {
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .hosting .headerleft {
+  display: flex;
+  padding-left: 30px;
+}
+.section-layout > .hostmain > .hosting .headerleft > p {
+  margin-right: 30px;
+  font-size: 14px;
+}
+.section-layout > .hostmain > .hosting .headerleft > p > .fab {
+  font-size: 35px;
+  line-height: 2.25;
+  color: #01999e;
+}
+.section-layout > .hostmain > .hosting > .formtitle {
+  font-size: 38px;
+}
+.section-layout > .hostmain > .hosting > .fillin {
+  color: #3f3f3f;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.section-layout > .hostmain > .hosting > .addressform {
+  margin-top: 30px;
+  width: 95%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .hosting > .miniform {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.section-layout > .hostmain > .hosting .miniform > .charter {
+  position: relative;
+}
+.section-layout > .hostmain > .hosting .miniform > .charter > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 35px;
+  margin-right: 15px;
+}
+.section-layout > .hostmain > .hosting .miniform > .charter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .hosting .miniform > .guestpeople {
+  position: relative;
+}
+.section-layout > .hostmain > .hosting .miniform > .guestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  width: 88%;
+}
+.section-layout > .hostmain > .hosting .miniform > .guestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .hosting .startbtn {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #FF5A5F;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  line-height: 50px;
+}
+.section-layout > .hostmain > .hosting .whyhost {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .hosting .whyhost > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .hosting .whyhost > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .hosting .warranty {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .hosting .warranty > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .hosting .warranty > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .hosting .warranty > .text {
+  width: 100%;
+}
+.section-layout > .hostmain > .hosting .steptitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .hosting .steptexts {
+  display: flex;
+}
+.section-layout > .hostmain > .hosting .steptexts > .steptext {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .hosting .steptexts > .steptext .far {
+  font-size: 50px;
+}
+.section-layout > .hostmain > .hosting .steptexts > .steptext .minititle {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .hosting .steptexts > .steptext .minitext {
+  font-size: 17px;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .hosting .steptexts > .steptext .green {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .hosting .interviewleft {
+  width: 43%;
+  margin-right: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .hosting .interviewleft > .interviewtext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .hosting .interviewleft > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .hosting .interviewleft > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .hosting .relieftitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .hosting .relieftexts {
+  display: flex;
+  justify-content: space-between;
+}
+.section-layout > .hostmain > .hosting .relieftexts > .reliefleft {
+  width: 400px;
+  line-height: 1.75;
+  margin-right: 50px;
+  color: #606060;
+  margin: 10px 0px 0px 0px;
+}
+.section-layout > .hostmain > .hosting .relieftexts > .reliefleft > .how {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .hosting .relieftexts > .reliefright {
+  margin-right: 150px;
+}
+.section-layout > .hostmain > .hosting .relieftexts > .reliefright > .relieftext {
+  display: flex;
+}
+.section-layout > .hostmain > .hosting .relieftexts > .reliefright > .relieftext .fas {
+  color: #01999e;
+  font-size: 18px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+.section-layout > .hostmain > .hosting .exampleright {
+  margin-left: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .hosting .exampleright > .exampletext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .hosting .exampleright > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .hosting .exampleright > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .hosting .sharetitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .hosting .hostdatas {
+  display: flex;
+}
+.section-layout > .hostmain > .hosting .hostdatas > .hostdata {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+  text-align: center;
+}
+.section-layout > .hostmain > .hosting .hostdatas > .hostdata > .hostnumber {
+  font-size: 55px;
+}
+.section-layout > .hostmain > .hosting .hostdatas > .hostdata > .numbercomment {
+  text-align: center;
+}
+.section-layout > .hostmain > .hosting .abouttitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .hosting .abouttexts {
+  display: flex;
+}
+.section-layout > .hostmain > .hosting .abouttexts > .abouttext {
+  width: 37.5%;
+  line-height: 1.75;
+  padding: 0px 30px;
+}
+.section-layout > .hostmain > .hosting .abouttexts > .abouttext > .aboutheadline {
+  font-size: 22px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .hosting .abouttexts > .abouttext > .aboutexplanation {
+  font-size: 15px;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .hosting .abouttexts > .abouttext > .green {
+  color: #01999e;
+  padding-top: 20px;
+}
+.section-layout > .hostmain > .hosting .questiontitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .hosting .question-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-layout > .hostmain > .hosting .question-nav > li {
+  width: 48%;
+  list-style: none;
+  font-size: 18px;
+  color: #01999e;
+  padding: 30px 0px;
+  margin: 0px 10px;
+  border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .hostmain > .hosting .hostingtitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .hosting .hostinglists {
+  display: flex;
+}
+.section-layout > .hostmain > .hosting .hostinglists > .hostinglist {
+  margin: 0px 5px;
+}
+.section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .hostingheadline {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .hostingcomment {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .learnmore {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #01999e;
 }
 /*
 html5doctor.com Reset Stylesheet
