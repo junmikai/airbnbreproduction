@@ -1,0 +1,259 @@
+//トップから50pxスクロールすると表示されるヘッダー
+.searchheader {
+  height:45px;
+  width:350px;
+  background-color:$white;
+  border-radius: 10px;
+  box-shadow:$black-shadow;
+  display:none;
+  display:flex;
+  > .headerform{
+    border-right: thin solid $bodergray;
+    text-align: center;
+    line-height:45px;
+    font-size:14px;
+    padding:0px 10px;
+    color:$gray;
+  }
+  > .fas{
+    margin:0 auto;
+    line-height:45px;
+    font-size:18px;
+    color:$red;
+  }
+}
+
+//ヘッダー
+.header-nav > li{
+  display: inline;
+  padding-right:20px;
+  text-decoration:none;
+  font-weight: bold;
+  font-size:14px;
+  color:$light-black;
+  > .fas{
+    margin-right:7px;
+  }
+  > .host{
+    display: none;
+  }
+  > .register{
+    display: inline-block;
+    padding: 0.7em 1.1em;
+    border-radius: 20px;
+    box-shadow:$black-shadow;
+  }
+} 
+
+// width740px以下のヘッダー
+.form2{
+  position:relative;
+  background: $white;
+  width: 85%;
+  position: absolute;
+  margin:10px;
+  > .sbox2{
+    width:100%;
+    height:45px;
+    border-radius:20px;
+    background:$white;
+    padding-left:50px;
+    font-size:15px;
+  }
+  > .sbtn2{
+    height:45px;
+    position:absolute; 
+    top:5px;
+    left:15px;
+    color:$gray;
+    border:none;
+    font-size:17px;
+    z-index: 1;
+  }
+}
+
+
+// 検索フォーム
+.centerform{
+  width:30%;
+  border-right: thin solid ;
+  height: 40px;
+  margin:3px 0px 0px 19px;
+  .title{
+    font-size:5px;
+    font-weight:bold;
+    margin-bottom:2px;
+  }
+  .text{
+    font-size:14px;
+    color:$gray;
+  }
+}
+
+// 検索フォームの一番右は横線なし
+.centerform:nth-child(3){
+  border-right:initial;
+}
+
+// 検索フォームの一番右(人数)
+#plusbtn.centerform{
+  width:40%;
+  display: flex;
+  justify-content:space-between;
+  > .right{
+    margin-top:-5px;
+    margin-right:5px;
+    > .btn{
+      background: -webkit-linear-gradient(0deg,$catchcopyend,$wine);
+      color:$white;
+      padding: 12px 22px;
+      border-radius: 8px;
+      font-size:14px;
+    }
+    > .fa-search{
+      margin-right:5px;
+    }
+  }
+}
+
+//検索フォーム上部のメニュー
+.search-nav > li{
+  display: inline;
+  padding-right:20px;
+  > a{
+    text-decoration:none;
+    color:$light-black;
+    > span{
+      background:$wine;
+      margin: 0 0 0 8px;
+      padding: 4px 5px;
+      border-radius: 4px;
+      color: $white;
+      font-size: 3px;
+      font-weight:bold;
+    }   
+  }
+}
+
+// オンライン体験/上部文字左側
+.topleft{
+  width:450px;
+  > .title{
+    font-size:30px;
+    font-weight: bold;
+  }
+}
+
+// オンライン体験/上部文字右側
+.topright{
+  border: solid 1px $white;
+  width:100px;
+  height:35px;
+  border-radius: 8px;
+  text-align: center;
+  line-height:35px;
+  font-size:14px;
+}
+
+// オンライン体験/画像右側(PCサイズ：サングリア)
+.imageleft{
+  width:100%;
+  @import "trumps";
+}
+
+// オンライン体験/画像右側(PCサイズ：ヨガ、音楽、ペンギン)
+.imageright{
+  width:90%;
+  border-radius:25px;
+  height:100%;
+  @import "trumps";
+    > .imagetop{
+      display: flex;
+      justify-content:space-between;
+      height:50%;
+      width:100%;
+      @import "trumps";
+    }
+  }
+
+// 最新情報
+.information{
+  width:23%;
+  margin-right:15px;
+  float: left;
+  @import "trumps";
+}
+
+/*リンク集*/
+.linkcollection{
+  width:25%;
+  > .title{
+    font-weight:bold;
+    font-size:12px;
+    margin-bottom:10px;
+  }
+  ul{
+    > li{
+      font-size:14px;
+      list-style: none;
+      color:$gray; 
+      line-height:35px;
+    }
+  }
+}
+
+/*フッター左側*/
+.footerleft{
+font-size:13px;
+  >span{
+    padding:0px 8px;
+  }
+}
+
+/*フッター右側*/
+.footerright{
+  display: flex;
+  justify-content:space-between;
+  font-size:13px;
+  font-weight:bold;
+  height:30px;
+  width:300px;
+  > .japan{
+    display: flex;
+    justify-content:space-between;
+    > .fa-globe{
+      margin:3px 5px 0px 0px;
+    }
+    > p{
+      margin:0px 4px;
+      text-decoration: underline;
+    }
+  }
+  > .sns{
+    letter-spacing: 10px;
+    font-size:18px;
+  }
+}
+
+/*width740px以下フッター*/
+.icons{
+  display: flex;
+  text-align: center;
+  margin:0 auto;
+  width:50%;
+  padding:20px;
+  > .icon{
+    width:33%;
+    > .far{
+      font-size:25px;
+      color:$gray;
+    }
+    >.fab{
+      font-size:25px;
+      color:$gray;
+    }
+    > .word{
+      font-size:10px;
+    }
+  }
+}

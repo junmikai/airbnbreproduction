@@ -23,8 +23,6 @@
     margin: 0 auto;
   }
 }
- 
-
 
 
 
@@ -35,65 +33,21 @@
   display: flex;
   justify-content:space-between;
   background: $white;
+  top:0;
   left: 0px;
   z-index:100;
   width: 100%;
   position: absolute;
+  position:fixed;
+  @import "components";
 }
-
-.section-layout > .topheader > .searchheader {
-  height:45px;
-  width:350px;
-  background-color:$white;
-  border-radius: 10px;
-  box-shadow:$black-shadow;
-  display:none;
-  display:flex;
-  > .form{
-    border-right: thin solid $bodergray;
-    text-align: center;
-    line-height:45px;
-    font-size:14px;
-    padding:0px 10px;
-    color:$gray;
-  }
-  > .fas{
-    margin:0 auto;
-    line-height:45px;
-    font-size:18px;
-    color:$red;
-  }
-}
-
 .section-layout > .topheader > .logo{
   margin-left:15px;
   margin-top:10px;
 }
-
-.section-layout > .topheader > .menu > ul > li{
-  display: inline;
-  padding-right:20px;
-} 
-
-.section-layout > .topheader > .menu > ul > li >a{
-  text-decoration:none;
-  font-weight: bold;
-  font-size:14px;
-  color:$light-black;
-  > .fa-globe{
-    margin-right:7px;
-  }
-  > .host{
-    display: none;
-  }
-  > .register{
-    display: inline-block;
-    padding: 0.7em 1.1em;
-    border-radius: 20px;
-    box-shadow:$black-shadow;
-  }
+.section-layout > .topheader > .menu{
+  @import "components";
 }
-
 .section-layout > .m_fixed {
   left: 0;
   position: fixed;
@@ -103,50 +57,20 @@
 
 
 
-
-
 /*width740px以下のヘッダー*/
 .section-layout > .searchform{
   background-color:$white;
   width:100%;
   height:70px;
   z-index:99;
+  @import "components";
 }
-
-.section-layout > .searchform > .form2{
-  position:relative;
-  background: $white;
-  width: 85%;
-  position: absolute;
-  margin:10px;
-  > .sbox2{
-    width:100%;
-    height:45px;
-    border-radius:20px;
-    background:$white;
-    padding-left:50px;
-    font-size:15px;
-  }
-  > .sbtn2{
-    height:45px;
-    position:absolute; 
-    top:5px;
-    left:15px;
-    color:$gray;
-    border:none;
-    font-size:17px;
-    z-index: 1;
-  }
-}
-
 .section-layout > .searchform > .m_fixed {
   left: 0;
   position: fixed;
   top: 0;
   border-bottom:solid 1px $bodergray;
 }
-
-
 
 
 
@@ -157,78 +81,20 @@
   margin:50px 40px 60px 70px;
   padding-top:30px;
 }
-
-.section-layout > .search > .menu > ul > li{
-  display: inline;
-  padding-right:20px;
-  > a{
-    text-decoration:none;
-    color:$light-black;
-    > span{
-      background:$wine;
-      margin: 0 0 0 8px;
-      padding: 4px 5px;
-      border-radius: 4px;
-      color: $white;
-      font-size: 3px;
-      font-weight:bold;
-    }   
-  }
+.section-layout > .search > .menu{
+  @import "components";
 }
-
-.section-layout > .search > .forms{
+.section-layout > .search > .searchforms{
   height:40px;
-  width:100%;
+  width:90%;
   margin-top:25px;
   padding:13px 10px;
   background-color:$white;
   border-radius: 10px;
   box-shadow:$black-shadow;
   display: flex;
+  @import "components";
 }
-
-.section-layout > .search > .forms > .form{
-  width:30%;
-  border-right: thin solid ;
-  height: 40px;
-  margin:3px 0px 0px 19px;
-  .title{
-    font-size:5px;
-    font-weight:bold;
-    margin-bottom:2px;
-  }
-  .text{
-    font-size:14px;
-    color:$gray;
-  }
-}
-
-.section-layout > .search > .forms > .form:nth-child(3){
-  border-right:initial;
-}
-  
-.section-layout > .search > .forms > #plusbtn.form{
-  width:40%;
-  display: flex;
-  justify-content:space-between;
-}
-
-.section-layout > .search > .forms > #plusbtn.form > .right{
-  margin-top:-5px;
-  margin-right:5px;
-  > .btn{
-    background: -webkit-linear-gradient(0deg,$catchcopyend,$wine);
-    color:$white;
-    padding: 12px 22px;
-    border-radius: 8px;
-    font-size:14px;
-  }
-  > .fa-search{
-    margin-right:5px;
-  }
-}
-
-
 
 
 
@@ -246,8 +112,6 @@
 
 
 
-
-
 /*オンライン体験*/
 .section-layout > .onlineexperience{
   background-color:$black;
@@ -255,32 +119,13 @@
   color:$white;
   position: relative;
 }
-
 .section-layout > .onlineexperience > .top{
   height:120px;
   display: flex;
   justify-content:space-between;
   margin-bottom:20px;
+  @import "components";
 }
-
-.section-layout > .onlineexperience >.top > .left{
-  width:450px;
-  > .title{
-    font-size:30px;
-    font-weight: bold;
-  }
-}
-
-.section-layout > .onlineexperience >.top > .right{
-  border: solid 1px $white;
-  width:100px;
-  height:35px;
-  border-radius: 8px;
-  text-align: center;
-  line-height:35px;
-  font-size:14px;
-}
-
 .section-layout > .onlineexperience > .imagebox{
   display: flex;
   justify-content:space-between;
@@ -289,114 +134,8 @@
   font-size:15px; 
   width: 95vw;
   height: 45vw;
+  @import "components";
 }
-
-.section-layout > .onlineexperience > .imagebox > .left{
-  width:100%;
-}
-
-.section-layout > .onlineexperience > .imagebox > .left > .sangría{
-  width:90%;
-  border-radius:25px;
-  height:100%;
-  background-size:cover;
-  position: relative;
-  background-image:url("/Users/mikaijun/airbnb/src/image/sangría.png");
-    > .explanation{
-      background-color:$explanation;
-      height:75px;
-      border-radius:0px 0px 25px 25px;
-      position: relative;
-      position: absolute;
-      width:100%;
-      bottom:0;
-    p{
-    max-width:50%;
-    padding:10px;
-    }
-  }
-}    
-
-.section-layout > .onlineexperience > .imagebox > .right{
-  width:90%;
-  border-radius:25px;
-  height:100%;
-  > .top{
-    display: flex;
-    justify-content:space-between;
-    height:50%;
-    width:100%;
-  }
-}
-
-.section-layout > .onlineexperience > .imagebox > .right > .top > .yoga{
-  width:48%;
-  height:100%;
-  border-radius:25px;
-  background-size:cover;
-  position: relative;
-  background-image:url("/Users/mikaijun/airbnb/src/image/yoga.png");
-  > .explanation{
-    background-color:$explanation;
-    height:75px;
-    border-radius:0px 0px 25px 25px;
-    position: relative;
-    position: absolute;
-    width:100%;
-    bottom:0;
-    p{
-      width:90%;
-      padding:10px;
-    }
-  }
-}
-
-.section-layout > .onlineexperience > .imagebox > .right > .top > .music{
-  width:48%;
-  height:100%;
-  border-radius:25px;
-  background-size:cover;
-  position: relative;
-  background-image:url("/Users/mikaijun/airbnb/src/image/music.png");
-  > .explanation{
-    background-color:$explanation;
-    height:75px;
-    border-radius:0px 0px 25px 25px;
-    position: relative;
-    position: absolute;
-    width:100%;
-    bottom:0;
-    p{
-      width:90%;
-      padding:10px;
-    }
-  }
-}
-  
-.section-layout > .onlineexperience > .imagebox > .right > .bottom{
-  width:100%;
-  height:45%;
-  margin-top:35px;
-  background-image:url("/Users/mikaijun/airbnb/src/image/penguin.png");
-  background-size:cover;
-  border-radius:30px;
-  position: relative;
-  > .explanation{
-    background-color:$explanation;
-    height:75px;
-    border-radius:0px 0px 25px 25px;
-    position: relative;
-    position: absolute;
-    width:100%;
-    bottom:0;
-    p{
-      width:90%;
-      padding:10px;
-    }
-  }
-}
-
-
 
 
 
@@ -412,39 +151,14 @@
     padding:30px 0px 0px 50px;
   }
 }
-
 .section-layout > .news > .informations{
   height:300px;
   width:100%;
   margin-top:30px;
   padding-left:50px;
   width:95%;
-  > .information{
-    width:23%;
-    margin-right:15px;
-    float: left;
-  }
+  @import "components";
 }
-
-.section-layout > .news > .informations > .information ul{
-  > .title{
-    font-size:19px;
-    padding-bottom:10px;
-  }
-  > li{
-    list-style: none; 
-    border-top: solid 1px $bodergray;
-    padding:15px 0px;
-    font-weight: bold;
-    > span{
-      color:$gray;
-      font-size:14px;
-      font-weight: normal;
-    }
-  }
-}
-
-
 
 
 
@@ -456,26 +170,8 @@
   justify-content:space-between;
   margin-top:30px;
   padding-left:50px;
-  > .linkcollection{
-    width:25%;
-    > .title{
-      font-weight:bold;
-      font-size:12px;
-      margin-bottom:10px;
-    }
-  }
+  @import "components";
 }
-
-.section-layout > .linkcollections > .linkcollection ul{
-  > li{
-    font-size:14px;
-    list-style: none;
-    color:$gray; 
-    line-height:35px;
-  }
-}
-
-
 
 
 
@@ -489,41 +185,8 @@
   color:$light-black;
   width:90%;
   height:auto;
+  @import "components";
 }
-
-.section-layout > .topfooter > .left{
-  font-size:13px;
-  >span{
-    padding:0px 8px;
-  }
-}
-
-.section-layout > .topfooter  > .right{
-  display: flex;
-  justify-content:space-between;
-  font-size:13px;
-  font-weight:bold;
-  height:30px;
-  width:300px;
-}
-
-.section-layout > .topfooter  > .right  > .japan{
-  display: flex;
-  justify-content:space-between;
-  > .fa-globe{
-    margin:3px 5px 0px 0px;
-  }
-  > p{
-    margin:0px 4px;
-    text-decoration: underline;
-  }
-}
-
-.section-layout > .topfooter  > .right > .sns{
-  letter-spacing: 10px;
-  font-size:18px;
-}
-
 
 
 
@@ -536,29 +199,5 @@
   position: fixed;
   bottom: 0; 
   background-color:$white;
+  @import "components";
 }
-
-.section-layout > .hidingfooter > .icons{
-  display: flex;
-  text-align: center;
-  margin:0 auto;
-  width:50%;
-  padding:20px;
-}
-
-.section-layout > .hidingfooter > .icons  > .icon{
-  width:33%;
-  > .far{
-    font-size:25px;
-    color:$gray;
-  }
-  >.fab{
-    font-size:25px;
-    color:$gray;
-  }
-  > .word{
-    font-size:10px;
-  }
-}
-
-

@@ -38,7 +38,7 @@
   margin:10px;
   border-top:initial;
 }
-.section-layout > .topfooter > .right{
+.section-layout > .topfooter > .footerright{
   margin:initial;
   position: absolute;
   top:20px;
@@ -47,7 +47,7 @@
       display: none;
     }
   }
-.section-layout > .topfooter > .left{
+.section-layout > .topfooter > .footerleft{
   padding:20px 0px 0px 30px;
 }
 }
@@ -70,18 +70,18 @@
 @media (max-width: 900px){
 .section-layout > .onlineexperience{
     padding:20px;
-  > .top{
+  > .imagetop{
     margin-bottom:initial;
     height:initial;
   }
 }
-.section-layout > .onlineexperience >.top > .left{
+.section-layout > .onlineexperience >.top > .topleft{
   width:100%;
   > .title{
     font-size:22px;
   }
 }
-.section-layout > .onlineexperience >.top > .right{
+.section-layout > .onlineexperience >.top > .topright{
   position: absolute;
   bottom:35px;
   left:50px;
@@ -92,13 +92,13 @@
   height:650px;
   margin-bottom:50px;
 }
-.section-layout > .onlineexperience > .imagebox > .left > .sangría{
+.section-layout > .onlineexperience > .imagebox > .imageleft > .sangría{
   display: inline-block;
   width: 90vw;
   height: 80vw;
   margin:16px;
 } 
-.section-layout > .onlineexperience > .imagebox > .right > .top{
+.section-layout > .onlineexperience > .imagebox > .imageright > .imagetop{
   display:initial;
   justify-content:initial;
   > .yoga{
@@ -114,7 +114,7 @@
     margin:16px;
     }
   }
-.section-layout > .onlineexperience > .imagebox > .right > .bottom{
+.section-layout > .onlineexperience > .imagebox > .imageright > .bottom{
   display: inline-block;
   width: 90vw;
   height: 80vw;
@@ -123,7 +123,7 @@
 }
 
 @media (min-width:741px) and (max-width: 1130px){
-.section-layout > .onlineexperience > .imagebox > .right > .top{
+.section-layout > .onlineexperience > .imagebox > .imageright > .imagetop{
   display:initial;
   justify-content:initial;
   }
@@ -156,19 +156,19 @@
   margin:0 auto;
   text-align: center;
   border-top:initial;
-  > .right{
+  > .footerright{
       margin:0 auto;
     }
   }
 }
 
 @media (min-width:900px) and (max-width: 1130px) {
-  .section-layout > .onlineexperience > .imagebox > .left >.sangría{
+  .section-layout > .onlineexperience > .imagebox > .imageleft >.sangría{
     width: 60vw;
     height: 50vw;
     margin-right:20px; 
   }
-  .section-layout > .onlineexperience > .imagebox > .right > .top{
+  .section-layout > .onlineexperience > .imagebox > .imageright > .imagetop{
   display:initial;
   > .yoga{
       width: 25vw;
@@ -180,7 +180,7 @@
       height: 22.5vw;
     }
   }
-  .section-layout > .onlineexperience > .imagebox > .right > .bottom{
+  .section-layout > .onlineexperience > .imagebox > .imageright > .bottom{
     display: none;
   }
 }

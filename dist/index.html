@@ -20,28 +20,28 @@
     <!-- ヘッダーここから -->
     <div class="topheader">
       <div class="logo">
-        <a href="#"><img src="/Users/mikaijun/airbnb/src/image/companylogo.png" style="width: 125px; height: 50px;" alt="Airbnblogo"></a>
+        <img src="/Users/mikaijun/airbnb/src/image/companylogo.png" style="width: 125px; height: 50px;" alt="Airbnblogo">
       </div>
       <div class="searchheader">
-        <div class="form">
+        <div class="headerform">
           行き先を入力
         </div>
-        <div class="form">
+        <div class="headerform">
           日付を追加
         </div>
-        <div class="form">
+        <div class="headerform">
           ゲスト数を追加
         </div>
         <i class="fas fa-search"></i>
       </div>
       <div class="menu">
-          <ul>
-            <li><a href="#"><i class="fas fa-globe"></i><i class="fas fa-angle-down"></i></a></li>
-            <li class="host"><a href="#">宿泊をホストする</a></li>
-            <li class="host"><a href="#">体験をホストする</a></li>
-            <li><a href="#">ヘルプ</a></li>
-            <li class="host"><a href="#">ログイン</a></li>
-            <li><a href="#" class="register">登録する</a></li>
+          <ul class="header-nav">
+            <li><i class="fas fa-globe"></i><i class="fas fa-angle-down"></i></li>
+            <li class="host">宿泊をホストする</li>
+            <li class="host">体験をホストする</li>
+            <li>ヘルプ</li>
+            <li class="host">ログイン</li>
+            <li class="register">登録する</li>
           </ul>
       </div>
     </div>
@@ -59,14 +59,14 @@
     <!-- 検索フォームここから -->
     <div class="search">
       <div class="menu">
-        <ul>
+        <ul class="search-nav">
           <li><a href="#">宿泊先</a></li>
           <li><a href="#">体験</a></li>
           <li><a href="#">オンライン体験<span>NEW</span></a></li>
         </ul>
       </div>
-      <div class="forms">
-        <div class="form">
+      <div class="searchforms">
+        <div class="centerform">
           <div class="title">
             ロケーション
           </div>
@@ -74,7 +74,7 @@
             行き先はどちらですか?
           </div>
         </div>
-        <div class="form">
+        <div class="centerform">
           <div class="title">
             チェックイン日/チェックアウト日
           </div>
@@ -82,7 +82,7 @@
             日付を追加
           </div>
         </div>
-        <div class="form" id="plusbtn">
+        <div class="centerform" id="plusbtn">
           <div class="left">
             <div class="title">
               人数
@@ -110,7 +110,7 @@
     <!-- オンライン体験ここから -->
     <div class="onlineexperience">
       <div class="top">
-        <div class="left">
+        <div class="topleft">
           <div class="title">
             オンライン体験のご紹介
           </div>
@@ -118,20 +118,20 @@
             新しいことに挑戦しながら、世界中の人たちと出会えるチャンスです。自宅にいながら、エキスパートがライブ配信する参加型ビデオセッションを体験できます。
           </div>
         </div>
-        <div class="right">
+        <div class="topright">
           すべて見る
         </div>
       </div>
       <div class="imagebox">
-        <div class="left">
+        <div class="imageleft">
           <div class="sangría">
             <div class="explanation">
               <p>リスボンのPedroさんと秘密のサングリアづくり</p>
             </div>
           </div>
         </div>
-        <div class="right">
-          <div class="top">
+        <div class="imageright">
+          <div class="imagetop">
             <div class="yoga">
               <div class="explanation">
               <p>体を伸ばして、深呼吸して、リラックス。友達とヨガ教室。</p>
@@ -160,7 +160,7 @@
       </div>
       <div class="informations">
         <div class="information">
-          <ul>
+          <ul class="information-nav">
             <div class="title">ゲスト向け</div>
             <li>旅行に関する最新情報<br><span>注意事項</span></li>
             <li>キャンセルオプション<br><span>適用対象を確認する</span></li>
@@ -168,7 +168,7 @@
           </ul>
         </div>
         <div class="information">
-          <ul>
+          <ul class="information-nav">
             <div class="title">ホスト向け</div>
             <li>ブライアン・チェスキーからのメッセージ<br><span>CEOからのメッセージ</span></li>
             <li>ホスティングに役立つリソース集<br><span>新型コロナウイルスの感染拡大による影響</span></li>
@@ -176,7 +176,7 @@
           </ul>
         </div>
         <div class="information">
-          <ul>
+          <ul class="information-nav">
             <div class="title">新型コロナウイルスの対応にあたる医療・救護従事者向け</div>
             <li>医療・救護従事者向け宿泊先<br><span>プログラムの詳細を読む</span></li>
             <li>登録<br><span>宿泊施設のオプションをチェック</span></li>
@@ -184,7 +184,7 @@
           </ul>
         </div>
         <div class="information">
-          <ul>
+          <ul class="information-nav">
             <div class="title">もっと見る</div>
             <li>Airbnbニュースルーム<br><span>Airbnbからの最新のお知らせ</span></li>
             <li>世界保険期間<br><span>世界保険機関の発表・最新情報</span></li>
@@ -239,13 +239,13 @@
 
     <!-- フッターここから -->
     <div class="topfooter">
-      <div class="left">
+      <div class="footerleft">
         Airbnb Global Services Limited<br>
         観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)<br>
         © 2020 Airbnb, Inc. All rights reserved
         <span>·</span>プライバシー<span>·</span>利用規約<span>·</span>サイトマップ<span>·</span>企業情報
       </div>
-      <div class="right">
+      <div class="footerright">
         <div class="japan">
           <i class="fas fa-globe"></i>
           <p>日本語(JP)<p><p>¥ JPY</p>
