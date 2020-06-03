@@ -1,4 +1,4 @@
-import "./sass/index/style.scss";
+import "./sass/index/objects.scss";
 import "./sass/index/responsive.scss";
 
 import "./sass/experiences/style.scss";
@@ -8,3 +8,4 @@ import "./sass/host/style.scss";
 
 import "./sass/reset.scss";
 import "./sass/color.scss";
+

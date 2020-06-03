@@ -3,53 +3,44 @@
 @media (max-width: 740px){
 .section-layout > .covid{ 
   height:70px;
-}
+  }
 .section-layout > .topheader{
   display: none;
-}
+  }
 .section-layout > .search{
   display: none;
-}
+  }
 .section-layout > .news{
   padding:10px;
   height:auto;
   width:96%;
-}
+  }
 .section-layout > .news > .informations{
   overflow-x: auto;
   white-space: nowrap;
   display: flex;
   margin-top:initial;
-  > .information{
-    width:100%;
-    margin-top:50px;
-    padding-right:50px;
-    > ul{
-      width:500px;
-    }
+  @import "components";
   }
-}
 .section-layout > .linkcollections{
   display: none;
-}
+  }
 .section-layout > .topfooter{
   position: relative;
   text-align:initial;
   margin:10px;
   border-top:initial;
-}
+  }
 .section-layout > .topfooter > .footerright{
   margin:initial;
   position: absolute;
   top:20px;
   left:30px;
-  > .sns{
-      display: none;
-    }
+  @import "components";
   }
 .section-layout > .topfooter > .footerleft{
   padding:20px 0px 0px 30px;
-}
+  }
 }
 
 @media (min-width:740px){
@@ -73,69 +64,33 @@
   > .imagetop{
     margin-bottom:initial;
     height:initial;
+    }
   }
-}
-.section-layout > .onlineexperience >.top > .topleft{
-  width:100%;
-  > .title{
-    font-size:22px;
+.section-layout > .onlineexperience >.top{
+  @import "components";
   }
-}
-.section-layout > .onlineexperience >.top > .topright{
-  position: absolute;
-  bottom:35px;
-  left:50px;
-}
 .section-layout > .onlineexperience > .imagebox{
   overflow-x: auto;
   white-space: nowrap;
   height:650px;
   margin-bottom:50px;
-}
-.section-layout > .onlineexperience > .imagebox > .imageleft > .sangría{
-  display: inline-block;
-  width: 90vw;
-  height: 80vw;
-  margin:16px;
-} 
-.section-layout > .onlineexperience > .imagebox > .imageright > .imagetop{
-  display:initial;
-  justify-content:initial;
-  > .yoga{
-    display: inline-block;
-    width: 90vw;
-    height: 80vw;
-    margin:16px;
-    }
-  > .music{
-    display: inline-block;
-    width: 90vw;
-    height: 80vw;
-    margin:16px;
-    }
-  }
-.section-layout > .onlineexperience > .imagebox > .imageright > .bottom{
-  display: inline-block;
-  width: 90vw;
-  height: 80vw;
-  margin:16px;
-  }
+  @import "components";
+  } 
 }
 
 @media (min-width:741px) and (max-width: 1130px){
-.section-layout > .onlineexperience > .imagebox > .imageright > .imagetop{
-  display:initial;
-  justify-content:initial;
+  .section-layout > .onlineexperience > .imagebox{
+    @import "components";
   }
-.section-layout > .news{
+  .section-layout > .news{
   height:850px;
   }
-.section-layout > .news > .informations > .information{
-  width:45%;
-  margin-top:50px;
+  .section-layout > .news > .informations{
+  @import "components";
   }
-.section-layout > .linkcollections{
+  .section-layout > .linkcollections{
   display: inline;
+  @import "components";
   > .linkcollection{
     width:100%;
     border-bottom:solid 1px $bodergray;
@@ -143,14 +98,10 @@
     padding-bottom:20px;
     }
   }
-.section-layout > .linkcollections > .linkcollection > ul{
-  display:flex;
-  flex-wrap: wrap;
-  > li{
-      width:33%;
-    }
+  .section-layout > .linkcollections > .linkcollection{
+    @import "components";
   }
-.section-layout > .topfooter{
+  .section-layout > .topfooter{
   flex-wrap :wrap-reverse;
   width:700px;
   margin:0 auto;
@@ -163,25 +114,8 @@
 }
 
 @media (min-width:900px) and (max-width: 1130px) {
-  .section-layout > .onlineexperience > .imagebox > .imageleft >.sangría{
-    width: 60vw;
-    height: 50vw;
-    margin-right:20px; 
-  }
-  .section-layout > .onlineexperience > .imagebox > .imageright > .imagetop{
-  display:initial;
-  > .yoga{
-      width: 25vw;
-      height: 22.5vw;
-    }
-  > .music{
-      margin-top:50px;
-      width: 25vw;
-      height: 22.5vw;
-    }
-  }
-  .section-layout > .onlineexperience > .imagebox > .imageright > .bottom{
-    display: none;
+  .section-layout > .onlineexperience > .imagebox{
+    @import "components";
   }
 }
 

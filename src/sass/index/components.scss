@@ -192,7 +192,7 @@
     font-size:12px;
     margin-bottom:10px;
   }
-  ul{
+  .link-nav{
     > li{
       font-size:14px;
       list-style: none;
@@ -255,5 +255,115 @@ font-size:13px;
     > .word{
       font-size:10px;
     }
+  }
+}
+
+@media (max-width: 740px){
+  // 最新情報
+  .information{
+    width:100%;
+    margin-top:50px;
+    padding-right:50px;
+    > ul{
+      width:500px;
+    }
+  }
+  // フッターのsnsアイコン
+  .sns{
+    display: none;
+  }
+}
+
+@media (max-width: 900px){
+  // オンライン体験上部左文字
+  .topleft{
+    width:100%;
+    > .title{
+      font-size:22px;
+    }
+  }
+  // オンライン体験上部右文字
+  .topright{
+    position: absolute;
+    bottom:35px;
+    left:50px;
+  }
+  // オンライン体験サングリア画像
+  .imageleft > .sangría{
+    display: inline-block;
+    width: 90vw;
+    height: 80vw;
+    margin:16px;
+  } 
+  // オンライン体験ヨガ&音楽画像
+  .imageright > .imagetop{
+    display:initial;
+    justify-content:initial;
+    > .yoga{
+      display: inline-block;
+      width: 90vw;
+      height: 80vw;
+      margin:16px;
+      }
+    > .music{
+      display: inline-block;
+      width: 90vw;
+      height: 80vw;
+      margin:16px;
+    }
+  }
+  // オンライン体験ペンギン画像
+  .imageright > .bottom{
+    display: inline-block;
+    width: 90vw;
+    height: 80vw;
+    margin:16px;
+  }
+}
+
+@media (min-width:741px) and (max-width: 1130px){
+  // オンライン体験/ヨガ&音楽画像
+  .imageright > .imagetop{
+    display:initial;
+    justify-content:initial;
+  }
+  // 最新情報
+  .information{
+    width:45%;
+    margin-top:50px;
+  }
+  // リンク集
+  .link-nav{
+    display:flex;
+    flex-wrap: wrap;
+    > li{
+        width:33%;
+    }
+  }
+}
+
+@media (min-width:900px) and (max-width: 1130px) {
+  // オンライン体験サングリア画像
+  .imageleft >.sangría{
+    width: 60vw;
+    height: 50vw;
+    margin-right:20px; 
+  }
+  // オンライン体験/ヨガ&音楽画像
+  .imageright > .imagetop{
+    display:initial;
+    > .yoga{
+        width: 25vw;
+        height: 22.5vw;
+      }
+    > .music{
+        margin-top:50px;
+        width: 25vw;
+        height: 22.5vw;
+    }
+  }
+  // オンライン体験ペンギン画像
+  .imageright > .bottom{
+    display: none;
   }
 }
