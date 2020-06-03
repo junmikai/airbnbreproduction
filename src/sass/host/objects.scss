@@ -152,3 +152,10 @@
   position: relative;
   @import "components";
 }
+
+.section-layout >.lodginglinks{
+  margin:0 auto;
+  width:60%;
+  display: flex;
+  @import "components";
+}
