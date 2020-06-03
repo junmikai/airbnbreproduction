@@ -127,3 +127,16 @@
   color:$light-black;
   @import "components";
 }
+
+// Airbnbについて
+.section-layout > .hostmain > .about{
+  height:400px;
+  color:$light-black;
+  @import "components";
+}
+
+// よくある質問
+.section-layout > .hostmain > .question{
+  height:400px;
+  @import "components";
+}

@@ -1,3 +1,4 @@
+@import "../color";
 // ヘッダー/左側
 .headerleft{
   display: flex;
@@ -253,5 +254,56 @@
     >.numbercomment{
       text-align: center;
     }
+  }
+}
+
+// Airbnbについて/タイトル
+.abouttitle{
+  font-size:60px;
+  text-align: center;
+  font-weight: bold;
+  margin:50px 0px;
+}
+// Airbnbについて/文字詳細
+.abouttexts{
+  display:flex;
+  >.abouttext{
+    width:37.5%;
+    line-height:1.75;
+    padding:0px 30px;
+    >.aboutheadline{
+      font-size:22px;
+      font-weight: bold;
+    }
+    >.aboutexplanation{
+      font-size:15px;
+      margin-top:20px;
+    }
+    >.green{
+      color:$light-green;
+      padding-top:20px;
+    }
+  }
+}
+
+// 質問タイトル
+.questiontitle{
+  font-size:60px;
+  text-align: center;
+  font-weight: bold;
+  margin:50px 0px;
+}
+// 質問/文字
+.question-nav{
+  display:flex;
+  flex-wrap: wrap;
+  > li{
+    width:48%;
+    list-style: none; 
+    font-size:18px;
+    color:$light-green;
+    padding:30px 0px;
+    margin:0px 10px;
+    border-bottom:$bodergray solid 1px;
   }
 }
