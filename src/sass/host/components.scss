@@ -96,10 +96,9 @@
 // width1300px以下入力フォーム/住所
 .responsiveaddress{
   margin-top:30px;
-  width:96.5%;
+  width:99%;
   height:40px;
   font-size:16px;
-  padding-left:10px;
   border:solid 1px $bodergray;
 }
 // width1300px以下入力フォーム/貸し切り
@@ -112,7 +111,6 @@
     font-size:16px;
     width:100%;
     border:solid 1px $bodergray;
-    padding-left:10px;
   }
   >.fas {
     position: absolute;
@@ -124,13 +122,12 @@
 // width1300px以下入力フォーム/ゲスト
 .miniform >.responsiveguestpeople{
   position: relative;
-  width:33.5%;
+  width:35.5%;
   > input{
     height:40px;
     font-size:16px;
     width:100%;
     border:solid 1px $bodergray;
-    padding-left:10px;
   }
   >.fas {
     position: absolute;

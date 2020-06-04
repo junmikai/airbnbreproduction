@@ -5,18 +5,27 @@
   .section-layout > .hostbackground{
     height:250px;
   }
-
   // 背景画像/高さ変更
   .section-layout > .hostbackground > .levelup{
     left:30px;
     font-size:35px;
     width:90%;
   }
-// width1130px以下入力フォーム貸し切り&ゲスト横展開解除
-  .section-layout > .hostmain > .responsiveform{
+ // 入力フォーム貸し切り&ゲスト横展開解除
+  .section-layout > .responsiveform{
+    width:90%;
     @import "responsive-components";
   }
+  // メインページ余白変更
+  .section-layout > .hostmain{
+    padding:0px 5vw;
+  }
 }
+
+
+
+
+
 
 @media (min-width:741px) and (max-width: 1130px){
   // 背景画像/高さ変更
@@ -25,9 +34,15 @@
   }
   // メインページ余白変更
   .section-layout > .hostmain{
-    padding:0px 10vw;
+    padding:0px 15vw;
   }
+
 }
+
+
+
+
+
 
 @media (max-width: 1130px){
   .section-layout > .hostheader{
@@ -38,7 +53,22 @@
   .section-layout > .hostbackground > .form{
     display:none;
   }
+  // 冒頭説明/横並び解除
+  .section-layout > .hostmain >.introduction{
+    display:initial;
+    @import "responsive-components";
+  }
+  // ステップ
+  .section-layout > .hostmain > .step{
+    margin-top:100px;
+    @import "responsive-components";
+  }
 }
+
+
+
+
+
 
 @media (min-width: 1130px){
   // 背景画像/白文字非表示
@@ -52,7 +82,7 @@
     display: none;
   }
   // width1300px以下入力フォーム非表示
-  .section-layout > .hostmain >.responsiveform{
+  .section-layout >.responsiveform{
     display: none;
   }
 }

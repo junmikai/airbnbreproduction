@@ -35076,10 +35076,9 @@
 }
 .section-layout > .hostheader .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
 .section-layout > .hostheader .miniform > .responsivecharter {
@@ -35092,7 +35091,6 @@
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostheader .miniform > .responsivecharter > .fas {
   position: absolute;
@@ -35102,14 +35100,13 @@
 }
 .section-layout > .hostheader .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
 .section-layout > .hostheader .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostheader .miniform > .responsiveguestpeople > .fas {
   position: absolute;
@@ -35540,10 +35537,9 @@
 }
 .section-layout > .hostbackground > .form .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
 .section-layout > .hostbackground > .form .miniform > .responsivecharter {
@@ -35556,7 +35552,6 @@
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostbackground > .form .miniform > .responsivecharter > .fas {
   position: absolute;
@@ -35566,14 +35561,13 @@
 }
 .section-layout > .hostbackground > .form .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
 .section-layout > .hostbackground > .form .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostbackground > .form .miniform > .responsiveguestpeople > .fas {
   position: absolute;
@@ -35916,32 +35910,34 @@
   padding: 20px 30px 100px 30px;
 }
 
-.section-layout > .hostmain > .responsiveform {
+.section-layout > .responsiveform {
   /*フッター左側*/
   /*フッター右側*/
+  width: 80%;
+  margin: 0 auto;
 }
-.section-layout > .hostmain > .responsiveform .headerleft {
+.section-layout > .responsiveform .headerleft {
   display: flex;
   padding-left: 30px;
 }
-.section-layout > .hostmain > .responsiveform .headerleft > p {
+.section-layout > .responsiveform .headerleft > p {
   margin-right: 30px;
   font-size: 14px;
 }
-.section-layout > .hostmain > .responsiveform .headerleft > p > .fab {
+.section-layout > .responsiveform .headerleft > p > .fab {
   font-size: 35px;
   line-height: 2.25;
   color: #01999e;
 }
-.section-layout > .hostmain > .responsiveform > .formtitle {
+.section-layout > .responsiveform > .formtitle {
   font-size: 38px;
 }
-.section-layout > .hostmain > .responsiveform > .fillin {
+.section-layout > .responsiveform > .fillin {
   color: #3f3f3f;
   font-size: 16px;
   margin-top: 30px;
 }
-.section-layout > .hostmain > .responsiveform > .addressform {
+.section-layout > .responsiveform > .addressform {
   margin-top: 30px;
   width: 95%;
   height: 40px;
@@ -35949,15 +35945,15 @@
   padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
-.section-layout > .hostmain > .responsiveform > .miniform {
+.section-layout > .responsiveform > .miniform {
   display: flex;
   margin-top: 10px;
   width: 100%;
 }
-.section-layout > .hostmain > .responsiveform .miniform > .charter {
+.section-layout > .responsiveform .miniform > .charter {
   position: relative;
 }
-.section-layout > .hostmain > .responsiveform .miniform > .charter > input {
+.section-layout > .responsiveform .miniform > .charter > input {
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
@@ -35965,29 +35961,29 @@
   margin-right: 15px;
   border: solid 1px #cdcdcd;
 }
-.section-layout > .hostmain > .responsiveform .miniform > .charter > .fas {
+.section-layout > .responsiveform .miniform > .charter > .fas {
   position: absolute;
   top: 10px;
   right: 25px;
   font-size: 30px;
 }
-.section-layout > .hostmain > .responsiveform .miniform > .guestpeople {
+.section-layout > .responsiveform .miniform > .guestpeople {
   position: relative;
 }
-.section-layout > .hostmain > .responsiveform .miniform > .guestpeople > input {
+.section-layout > .responsiveform .miniform > .guestpeople > input {
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
   border: solid 1px #cdcdcd;
 }
-.section-layout > .hostmain > .responsiveform .miniform > .guestpeople > .fas {
+.section-layout > .responsiveform .miniform > .guestpeople > .fas {
   position: absolute;
   top: 10px;
   right: 25px;
   font-size: 30px;
 }
-.section-layout > .hostmain > .responsiveform .startbtn {
+.section-layout > .responsiveform .startbtn {
   font-size: 14px;
   color: #fff;
   text-align: center;
@@ -35998,129 +35994,126 @@
   margin: 30px 0px;
   line-height: 50px;
 }
-.section-layout > .hostmain > .responsiveform .responsivefillin {
+.section-layout > .responsiveform .responsivefillin {
   color: #606060;
   font-weight: bold;
   margin: 20px 0px 0px 0px;
 }
-.section-layout > .hostmain > .responsiveform .responsiveaddress {
+.section-layout > .responsiveform .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
-.section-layout > .hostmain > .responsiveform .miniform > .responsivecharter {
+.section-layout > .responsiveform .miniform > .responsivecharter {
   position: relative;
   width: 60%;
   margin-right: 20px;
 }
-.section-layout > .hostmain > .responsiveform .miniform > .responsivecharter > input {
+.section-layout > .responsiveform .miniform > .responsivecharter > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
-.section-layout > .hostmain > .responsiveform .miniform > .responsivecharter > .fas {
+.section-layout > .responsiveform .miniform > .responsivecharter > .fas {
   position: absolute;
   top: 10px;
   right: 5px;
   font-size: 30px;
 }
-.section-layout > .hostmain > .responsiveform .miniform > .responsiveguestpeople {
+.section-layout > .responsiveform .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
-.section-layout > .hostmain > .responsiveform .miniform > .responsiveguestpeople > input {
+.section-layout > .responsiveform .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
-.section-layout > .hostmain > .responsiveform .miniform > .responsiveguestpeople > .fas {
+.section-layout > .responsiveform .miniform > .responsiveguestpeople > .fas {
   position: absolute;
   top: 10px;
   right: 5px;
   font-size: 30px;
 }
-.section-layout > .hostmain > .responsiveform .whyhost {
+.section-layout > .responsiveform .whyhost {
   padding: 0px 20px;
   color: #3f3f3f;
 }
-.section-layout > .hostmain > .responsiveform .whyhost > .title {
+.section-layout > .responsiveform .whyhost > .title {
   font-size: 23px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-.section-layout > .hostmain > .responsiveform .whyhost > .text {
+.section-layout > .responsiveform .whyhost > .text {
   width: 85%;
   font-size: 16px;
   line-height: 1.75;
 }
-.section-layout > .hostmain > .responsiveform .warranty {
+.section-layout > .responsiveform .warranty {
   padding: 0px 20px;
   color: #3f3f3f;
 }
-.section-layout > .hostmain > .responsiveform .warranty > .title {
+.section-layout > .responsiveform .warranty > .title {
   font-size: 23px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-.section-layout > .hostmain > .responsiveform .warranty > .text {
+.section-layout > .responsiveform .warranty > .text {
   width: 85%;
   font-size: 16px;
   line-height: 1.75;
 }
-.section-layout > .hostmain > .responsiveform .warranty > .text {
+.section-layout > .responsiveform .warranty > .text {
   width: 100%;
 }
-.section-layout > .hostmain > .responsiveform .steptitle {
+.section-layout > .responsiveform .steptitle {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
   margin-bottom: 50px;
 }
-.section-layout > .hostmain > .responsiveform .steptexts {
+.section-layout > .responsiveform .steptexts {
   display: flex;
 }
-.section-layout > .hostmain > .responsiveform .steptexts > .steptext {
+.section-layout > .responsiveform .steptexts > .steptext {
   width: 30%;
   margin-right: 40px;
   line-height: 1.75;
 }
-.section-layout > .hostmain > .responsiveform .steptexts > .steptext .far {
+.section-layout > .responsiveform .steptexts > .steptext .far {
   font-size: 50px;
 }
-.section-layout > .hostmain > .responsiveform .steptexts > .steptext .minititle {
+.section-layout > .responsiveform .steptexts > .steptext .minititle {
   font-size: 25px;
   margin-top: 20px;
   font-weight: bold;
 }
-.section-layout > .hostmain > .responsiveform .steptexts > .steptext .minitext {
+.section-layout > .responsiveform .steptexts > .steptext .minitext {
   font-size: 17px;
   margin-top: 20px;
 }
-.section-layout > .hostmain > .responsiveform .steptexts > .steptext .green {
+.section-layout > .responsiveform .steptexts > .steptext .green {
   color: #01999e;
   padding-top: 10px;
 }
-.section-layout > .hostmain > .responsiveform .interviewleft {
+.section-layout > .responsiveform .interviewleft {
   width: 43%;
   margin-right: 50px;
   color: #606060;
 }
-.section-layout > .hostmain > .responsiveform .interviewleft > .interviewtext {
+.section-layout > .responsiveform .interviewleft > .interviewtext {
   font-size: 33px;
   line-height: 1.25;
 }
-.section-layout > .hostmain > .responsiveform .interviewleft > .minitext {
+.section-layout > .responsiveform .interviewleft > .minitext {
   margin-top: 15px;
   color: #a0a0a0;
 }
-.section-layout > .hostmain > .responsiveform .interviewleft > .checkbtn {
+.section-layout > .responsiveform .interviewleft > .checkbtn {
   margin-top: 10px;
   color: #3f3f3f;
   margin: 20px 0px;
@@ -36130,52 +36123,52 @@
   padding: 15px 20px;
   font-weight: bold;
 }
-.section-layout > .hostmain > .responsiveform .relieftitle {
+.section-layout > .responsiveform .relieftitle {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
   margin-bottom: 50px;
 }
-.section-layout > .hostmain > .responsiveform .relieftexts {
+.section-layout > .responsiveform .relieftexts {
   display: flex;
   justify-content: space-between;
 }
-.section-layout > .hostmain > .responsiveform .relieftexts > .reliefleft {
+.section-layout > .responsiveform .relieftexts > .reliefleft {
   width: 400px;
   line-height: 1.75;
   margin-right: 50px;
   color: #606060;
   margin: 10px 0px 0px 0px;
 }
-.section-layout > .hostmain > .responsiveform .relieftexts > .reliefleft > .how {
+.section-layout > .responsiveform .relieftexts > .reliefleft > .how {
   color: #01999e;
   padding-top: 10px;
 }
-.section-layout > .hostmain > .responsiveform .relieftexts > .reliefright {
+.section-layout > .responsiveform .relieftexts > .reliefright {
   margin-right: 150px;
 }
-.section-layout > .hostmain > .responsiveform .relieftexts > .reliefright > .relieftext {
+.section-layout > .responsiveform .relieftexts > .reliefright > .relieftext {
   display: flex;
 }
-.section-layout > .hostmain > .responsiveform .relieftexts > .reliefright > .relieftext .fas {
+.section-layout > .responsiveform .relieftexts > .reliefright > .relieftext .fas {
   color: #01999e;
   font-size: 18px;
   margin-right: 15px;
   margin-bottom: 25px;
 }
-.section-layout > .hostmain > .responsiveform .exampleright {
+.section-layout > .responsiveform .exampleright {
   margin-left: 50px;
   color: #606060;
 }
-.section-layout > .hostmain > .responsiveform .exampleright > .exampletext {
+.section-layout > .responsiveform .exampleright > .exampletext {
   font-size: 33px;
   line-height: 1.25;
 }
-.section-layout > .hostmain > .responsiveform .exampleright > .minitext {
+.section-layout > .responsiveform .exampleright > .minitext {
   margin-top: 15px;
   color: #a0a0a0;
 }
-.section-layout > .hostmain > .responsiveform .exampleright > .checkbtn {
+.section-layout > .responsiveform .exampleright > .checkbtn {
   margin-top: 10px;
   color: #3f3f3f;
   margin: 20px 0px;
@@ -36185,66 +36178,66 @@
   padding: 15px 20px;
   font-weight: bold;
 }
-.section-layout > .hostmain > .responsiveform .sharetitle {
+.section-layout > .responsiveform .sharetitle {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
 }
-.section-layout > .hostmain > .responsiveform .hostdatas {
+.section-layout > .responsiveform .hostdatas {
   display: flex;
 }
-.section-layout > .hostmain > .responsiveform .hostdatas > .hostdata {
+.section-layout > .responsiveform .hostdatas > .hostdata {
   width: 30%;
   margin-right: 40px;
   line-height: 1.75;
   text-align: center;
 }
-.section-layout > .hostmain > .responsiveform .hostdatas > .hostdata > .hostnumber {
+.section-layout > .responsiveform .hostdatas > .hostdata > .hostnumber {
   font-size: 55px;
 }
-.section-layout > .hostmain > .responsiveform .hostdatas > .hostdata > .numbercomment {
+.section-layout > .responsiveform .hostdatas > .hostdata > .numbercomment {
   text-align: center;
 }
-.section-layout > .hostmain > .responsiveform .abouttitle {
+.section-layout > .responsiveform .abouttitle {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
   color: #3f3f3f;
 }
-.section-layout > .hostmain > .responsiveform .abouttexts {
+.section-layout > .responsiveform .abouttexts {
   display: flex;
 }
-.section-layout > .hostmain > .responsiveform .abouttexts > .abouttext {
+.section-layout > .responsiveform .abouttexts > .abouttext {
   width: 37.5%;
   line-height: 1.75;
   padding: 0px 30px;
 }
-.section-layout > .hostmain > .responsiveform .abouttexts > .abouttext > .aboutheadline {
+.section-layout > .responsiveform .abouttexts > .abouttext > .aboutheadline {
   font-size: 22px;
   font-weight: bold;
 }
-.section-layout > .hostmain > .responsiveform .abouttexts > .abouttext > .aboutexplanation {
+.section-layout > .responsiveform .abouttexts > .abouttext > .aboutexplanation {
   font-size: 15px;
   margin-top: 20px;
 }
-.section-layout > .hostmain > .responsiveform .abouttexts > .abouttext > .green {
+.section-layout > .responsiveform .abouttexts > .abouttext > .green {
   color: #01999e;
   padding-top: 20px;
 }
-.section-layout > .hostmain > .responsiveform .questiontitle {
+.section-layout > .responsiveform .questiontitle {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
   color: #3f3f3f;
 }
-.section-layout > .hostmain > .responsiveform .question-nav {
+.section-layout > .responsiveform .question-nav {
   display: flex;
   flex-wrap: wrap;
 }
-.section-layout > .hostmain > .responsiveform .question-nav > li {
+.section-layout > .responsiveform .question-nav > li {
   width: 48%;
   list-style: none;
   font-size: 18px;
@@ -36253,32 +36246,32 @@
   margin: 0px 10px;
   border-bottom: #cdcdcd solid 1px;
 }
-.section-layout > .hostmain > .responsiveform .hostingtitle {
+.section-layout > .responsiveform .hostingtitle {
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
 }
-.section-layout > .hostmain > .responsiveform .hostinglists {
+.section-layout > .responsiveform .hostinglists {
   display: flex;
 }
-.section-layout > .hostmain > .responsiveform .hostinglists > .hostinglist {
+.section-layout > .responsiveform .hostinglists > .hostinglist {
   margin: 0px 5px;
 }
-.section-layout > .hostmain > .responsiveform .hostinglists > .hostinglist > .hostingheadline {
+.section-layout > .responsiveform .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
   font-weight: bold;
   margin-top: 20px;
 }
-.section-layout > .hostmain > .responsiveform .hostinglists > .hostinglist > .hostingcomment {
+.section-layout > .responsiveform .hostinglists > .hostinglist > .hostingcomment {
   font-size: 14px;
   margin-top: 10px;
 }
-.section-layout > .hostmain > .responsiveform .hostinglists > .hostinglist > .learnmore {
+.section-layout > .responsiveform .hostinglists > .hostinglist > .learnmore {
   font-size: 14px;
   margin-top: 20px;
   color: #01999e;
 }
-.section-layout > .hostmain > .responsiveform .listingtitle {
+.section-layout > .responsiveform .listingtitle {
   position: absolute;
   top: 100px;
   left: 100px;
@@ -36287,7 +36280,7 @@
   color: #fff;
   width: 390px;
 }
-.section-layout > .hostmain > .responsiveform .listingbtn {
+.section-layout > .responsiveform .listingbtn {
   position: absolute;
   top: 250px;
   left: 100px;
@@ -36300,21 +36293,21 @@
   line-height: 50px;
   border-radius: 5px;
 }
-.section-layout > .hostmain > .responsiveform .link-nav {
+.section-layout > .responsiveform .link-nav {
   width: 25%;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
 }
-.section-layout > .hostmain > .responsiveform .link-nav > .linktitle {
+.section-layout > .responsiveform .link-nav > .linktitle {
   color: #3f3f3f;
   margin-bottom: 20px;
 }
-.section-layout > .hostmain > .responsiveform .link-nav > li {
+.section-layout > .responsiveform .link-nav > li {
   color: #767676;
   margin-bottom: 7px;
 }
-.section-layout > .hostmain > .responsiveform .link-nav > li > span {
+.section-layout > .responsiveform .link-nav > li > span {
   font-size: 12px;
   color: #fff;
   background-color: #006a70;
@@ -36323,35 +36316,34 @@
   padding: 3px;
   margin-left: 5px;
 }
-.section-layout > .hostmain > .responsiveform .fab {
+.section-layout > .responsiveform .fab {
   font-size: 25px;
   margin-right: 3px;
   line-height: 1.5;
 }
-.section-layout > .hostmain > .responsiveform .footerleft {
+.section-layout > .responsiveform .footerleft {
   font-size: 13px;
 }
-.section-layout > .hostmain > .responsiveform .footerleft > span {
+.section-layout > .responsiveform .footerleft > span {
   padding: 0px 8px;
 }
-.section-layout > .hostmain > .responsiveform .footerright {
+.section-layout > .responsiveform .footerright {
   display: flex;
   justify-content: space-around;
   font-size: 13px;
   font-weight: bold;
   height: 30px;
 }
-.section-layout > .hostmain > .responsiveform .footerright > .sns {
+.section-layout > .responsiveform .footerright > .sns {
   letter-spacing: 10px;
   position: absolute;
   right: 0px;
 }
-.section-layout > .hostmain > .responsiveform .footerright > .sns > .fab {
+.section-layout > .responsiveform .footerright > .sns > .fab {
   font-size: 17px;
 }
 
 .section-layout > .hostmain > .introduction {
-  height: 200px;
   display: flex;
   /*フッター左側*/
   /*フッター右側*/
@@ -36441,10 +36433,9 @@
 }
 .section-layout > .hostmain > .introduction .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .introduction .miniform > .responsivecharter {
@@ -36457,7 +36448,6 @@
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .introduction .miniform > .responsivecharter > .fas {
   position: absolute;
@@ -36467,14 +36457,13 @@
 }
 .section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
 .section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople > .fas {
   position: absolute;
@@ -36787,7 +36776,6 @@
 }
 
 .section-layout > .hostmain > .step {
-  height: 400px;
   margin-top: 30px;
   color: #3f3f3f;
   /*フッター左側*/
@@ -36878,10 +36866,9 @@
 }
 .section-layout > .hostmain > .step .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .step .miniform > .responsivecharter {
@@ -36894,7 +36881,6 @@
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .step .miniform > .responsivecharter > .fas {
   position: absolute;
@@ -36904,14 +36890,13 @@
 }
 .section-layout > .hostmain > .step .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
 .section-layout > .hostmain > .step .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .step .miniform > .responsiveguestpeople > .fas {
   position: absolute;
@@ -37314,10 +37299,9 @@
 }
 .section-layout > .hostmain > .interview .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .interview .miniform > .responsivecharter {
@@ -37330,7 +37314,6 @@
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .interview .miniform > .responsivecharter > .fas {
   position: absolute;
@@ -37340,14 +37323,13 @@
 }
 .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
 .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople > .fas {
   position: absolute;
@@ -37751,10 +37733,9 @@
 }
 .section-layout > .hostmain > .relief .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .relief .miniform > .responsivecharter {
@@ -37767,7 +37748,6 @@
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .relief .miniform > .responsivecharter > .fas {
   position: absolute;
@@ -37777,14 +37757,13 @@
 }
 .section-layout > .hostmain > .relief .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
 .section-layout > .hostmain > .relief .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .relief .miniform > .responsiveguestpeople > .fas {
   position: absolute;
@@ -38191,10 +38170,9 @@
 }
 .section-layout > .hostmain > .example .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .example .miniform > .responsivecharter {
@@ -38207,7 +38185,6 @@
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .example .miniform > .responsivecharter > .fas {
   position: absolute;
@@ -38217,14 +38194,13 @@
 }
 .section-layout > .hostmain > .example .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
 .section-layout > .hostmain > .example .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .example .miniform > .responsiveguestpeople > .fas {
   position: absolute;
@@ -38628,10 +38604,9 @@
 }
 .section-layout > .hostmain > .hostshare .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .hostshare .miniform > .responsivecharter {
@@ -38644,7 +38619,6 @@
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .hostshare .miniform > .responsivecharter > .fas {
   position: absolute;
@@ -38654,14 +38628,13 @@
 }
 .section-layout > .hostmain > .hostshare .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
 .section-layout > .hostmain > .hostshare .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .hostshare .miniform > .responsiveguestpeople > .fas {
   position: absolute;
@@ -39064,10 +39037,9 @@
 }
 .section-layout > .hostmain > .about .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .about .miniform > .responsivecharter {
@@ -39080,7 +39052,6 @@
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .about .miniform > .responsivecharter > .fas {
   position: absolute;
@@ -39090,14 +39061,13 @@
 }
 .section-layout > .hostmain > .about .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
 .section-layout > .hostmain > .about .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .about .miniform > .responsiveguestpeople > .fas {
   position: absolute;
@@ -39499,10 +39469,9 @@
 }
 .section-layout > .hostmain > .question .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .question .miniform > .responsivecharter {
@@ -39515,7 +39484,6 @@
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .question .miniform > .responsivecharter > .fas {
   position: absolute;
@@ -39525,14 +39493,13 @@
 }
 .section-layout > .hostmain > .question .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
 .section-layout > .hostmain > .question .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .question .miniform > .responsiveguestpeople > .fas {
   position: absolute;
@@ -39934,10 +39901,9 @@
 }
 .section-layout > .hostmain > .hosting .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .hosting .miniform > .responsivecharter {
@@ -39950,7 +39916,6 @@
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .hosting .miniform > .responsivecharter > .fas {
   position: absolute;
@@ -39960,14 +39925,13 @@
 }
 .section-layout > .hostmain > .hosting .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
 .section-layout > .hostmain > .hosting .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .hosting .miniform > .responsiveguestpeople > .fas {
   position: absolute;
@@ -40370,10 +40334,9 @@
 }
 .section-layout > .hostmain > .listing .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .listing .miniform > .responsivecharter {
@@ -40386,7 +40349,6 @@
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .listing .miniform > .responsivecharter > .fas {
   position: absolute;
@@ -40396,14 +40358,13 @@
 }
 .section-layout > .hostmain > .listing .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
 .section-layout > .hostmain > .listing .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .hostmain > .listing .miniform > .responsiveguestpeople > .fas {
   position: absolute;
@@ -40808,10 +40769,9 @@
 }
 .section-layout > .lodginglinks .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
 .section-layout > .lodginglinks .miniform > .responsivecharter {
@@ -40824,7 +40784,6 @@
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .lodginglinks .miniform > .responsivecharter > .fas {
   position: absolute;
@@ -40834,14 +40793,13 @@
 }
 .section-layout > .lodginglinks .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
 .section-layout > .lodginglinks .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .lodginglinks .miniform > .responsiveguestpeople > .fas {
   position: absolute;
@@ -41253,10 +41211,9 @@
 }
 .section-layout > .topfooters .responsiveaddress {
   margin-top: 30px;
-  width: 96.5%;
+  width: 99%;
   height: 40px;
   font-size: 16px;
-  padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
 .section-layout > .topfooters .miniform > .responsivecharter {
@@ -41269,7 +41226,6 @@
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .topfooters .miniform > .responsivecharter > .fas {
   position: absolute;
@@ -41279,14 +41235,13 @@
 }
 .section-layout > .topfooters .miniform > .responsiveguestpeople {
   position: relative;
-  width: 33.5%;
+  width: 35.5%;
 }
 .section-layout > .topfooters .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
-  padding-left: 10px;
 }
 .section-layout > .topfooters .miniform > .responsiveguestpeople > .fas {
   position: absolute;
@@ -41608,52 +41563,79 @@
     width: 90%;
   }
 
-  .section-layout > .hostmain > .responsiveform .responsiveaddress {
-    width: 100%;
+  .section-layout > .responsiveform {
+    width: 90%;
+  }
+  .section-layout > .responsiveform .responsiveaddress {
     margin-bottom: 10px;
     height: 30px;
     border: solid 1px #cdcdcd;
     font-size: 14px;
     font-weight: bold;
-    padding-left: 10px;
+    width: 100%;
   }
-  .section-layout > .hostmain > .responsiveform .miniform {
+  .section-layout > .responsiveform .miniform {
     display: initial;
   }
-  .section-layout > .hostmain > .responsiveform .miniform > .responsivecharter {
+  .section-layout > .responsiveform .miniform > .responsivecharter {
     position: relative;
     width: 100%;
     margin-bottom: 10px;
   }
-  .section-layout > .hostmain > .responsiveform .miniform > .responsivecharter > input {
+  .section-layout > .responsiveform .miniform > .responsivecharter > input {
     height: 30px;
     font-size: 14px;
     width: 100%;
     border: solid 1px #cdcdcd;
-    padding-left: 10px;
   }
-  .section-layout > .hostmain > .responsiveform .miniform > .responsivecharter > .fas {
+  .section-layout > .responsiveform .miniform > .responsivecharter > .fas {
     position: absolute;
     top: 5px;
     right: 5px;
     font-size: 25px;
   }
-  .section-layout > .hostmain > .responsiveform .miniform > .responsiveguestpeople {
+  .section-layout > .responsiveform .miniform > .responsiveguestpeople {
     position: relative;
     width: 100%;
   }
-  .section-layout > .hostmain > .responsiveform .miniform > .responsiveguestpeople > input {
+  .section-layout > .responsiveform .miniform > .responsiveguestpeople > input {
     height: 30px;
     font-size: 14px;
     width: 100%;
     border: solid 1px #cdcdcd;
-    padding-left: 10px;
   }
-  .section-layout > .hostmain > .responsiveform .miniform > .responsiveguestpeople > .fas {
+  .section-layout > .responsiveform .miniform > .responsiveguestpeople > .fas {
     position: absolute;
     top: 5px;
     right: 5px;
     font-size: 25px;
+  }
+  .section-layout > .responsiveform .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .responsiveform .steptitle {
+    font-size: 35px;
+    text-align: initial;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .responsiveform .steptexts {
+    display: initial;
+  }
+  .section-layout > .responsiveform .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .responsiveform .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .responsiveform .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+
+  .section-layout > .hostmain {
+    padding: 0px 5vw;
   }
 }
 @media (min-width: 741px) and (max-width: 1130px) {
@@ -41662,7 +41644,7 @@
   }
 
   .section-layout > .hostmain {
-    padding: 0px 10vw;
+    padding: 0px 15vw;
   }
 }
 @media (max-width: 1130px) {
@@ -41672,6 +41654,148 @@
 
   .section-layout > .hostbackground > .form {
     display: none;
+  }
+
+  .section-layout > .hostmain > .introduction {
+    display: initial;
+  }
+  .section-layout > .hostmain > .introduction .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .introduction .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .introduction .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .introduction .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .introduction .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .introduction .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .steptitle {
+    font-size: 35px;
+    text-align: initial;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .introduction .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .introduction .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+
+  .section-layout > .hostmain > .step {
+    margin-top: 100px;
+  }
+  .section-layout > .hostmain > .step .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .step .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .step .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .step .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .step .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .step .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .steptitle {
+    font-size: 35px;
+    text-align: initial;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .step .steptexts > .steptext > .minitext {
+    margin-top: initial;
   }
 }
 @media (min-width: 1130px) {
@@ -41687,7 +41811,7 @@
     display: none;
   }
 
-  .section-layout > .hostmain > .responsiveform {
+  .section-layout > .responsiveform {
     display: none;
   }
 }

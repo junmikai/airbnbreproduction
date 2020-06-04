@@ -94,14 +94,15 @@
 
 
 // width1130px以下入力フォーム
-.section-layout > .hostmain >.responsiveform{
+.section-layout >.responsiveform{
   @import "components";
+  width:80%;
+  margin:0 auto;
 }
 
 
 // 冒頭説明
 .section-layout > .hostmain >.introduction{
-  height:200px;
   display: flex;
   @import "components";
 }
@@ -110,7 +111,6 @@
 
 // ステップ
 .section-layout > .hostmain > .step{
-  height:400px;
   margin-top:30px;
   color:$light-black;
   @import "components";

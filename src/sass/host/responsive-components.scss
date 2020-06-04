@@ -1,12 +1,13 @@
+// width740px以下入力フォーム/住所
 .responsiveaddress{
-  width:100%;
   margin-bottom:10px;
   height:30px;
   border:solid 1px $bodergray;
   font-size:14px;
   font-weight: bold;
-  padding-left:10px;
+  width:100%;
 }
+// width740px以下入力フォーム/貸し切り&ゲスト人数
 .miniform{
   display:initial;
   >.responsivecharter{
@@ -18,7 +19,6 @@
       font-size:14px;
       width:100%;
       border:solid 1px $bodergray;
-      padding-left:10px;
     }
     >.fas {
       position: absolute;
@@ -35,7 +35,6 @@
       font-size:14px;
       width:100%;
       border:solid 1px $bodergray;
-      padding-left:10px;
     }
     >.fas {
       position: absolute;
@@ -43,5 +42,33 @@
       right:5px;
       font-size:25px;
     }
+  }
+}
+// 冒頭説明/なぜの広さ制限解除
+.whyhost >.text{
+  width:initial;
+  margin-bottom:50px;
+}
+
+// ステップ/タイトル文字サイズ
+.steptitle{
+  font-size:35px;
+  text-align:initial;
+  font-weight: bold;
+  margin-bottom:50px;
+}
+// ステップの横並び解除
+.steptexts{
+  display: initial;
+  >.steptext{
+    width:initial;
+    margin-bottom:50px;
+    >.minititle{
+      margin-top:initial;
+    }
+    >.minitext{
+      margin-top:initial;
+    }
+
   }
 }
