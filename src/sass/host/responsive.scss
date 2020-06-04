@@ -14,7 +14,7 @@
  // 入力フォーム貸し切り&ゲスト横展開解除
   .section-layout > .responsiveform{
     width:90%;
-    @import "responsive-components";
+    @import "responsive-components(~width740px)";
   }
   // メインページ余白変更
   .section-layout > .hostmain{
@@ -22,7 +22,18 @@
   }
   // インタビュー
   .section-layout > .hostmain >.interview{
-    @import "responsive-components";
+	  flex-direction: column-reverse;
+    @import "responsive-components(~width740px)";
+  }
+  // ステップ
+  .section-layout > .hostmain > .step{
+    @import "responsive-components(~width740px)"; 
+  }
+   // 安心
+  .section-layout > .hostmain > .relief {
+    margin-top:100px;
+    padding:initial;
+    @import "responsive-components(~width740px)";
   }
 }
 
@@ -39,10 +50,6 @@
   // メインページ余白変更
   .section-layout > .hostmain{
     padding:0px 15vw;
-  }
-  // インタビュー
-  .section-layout > .hostmain >.interview{
-    @import "responsive-components";
   }
 }
 
@@ -68,6 +75,12 @@
   // ステップ
   .section-layout > .hostmain > .step{
     margin-top:100px;
+    @import "responsive-components";
+  }
+  // 安心
+  .section-layout > .hostmain > .relief {
+    margin-top:100px;
+    padding:initial;
     @import "responsive-components";
   }
 }

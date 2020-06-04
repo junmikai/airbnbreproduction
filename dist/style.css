@@ -41670,50 +41670,39 @@
     right: 5px;
     font-size: 25px;
   }
-  .section-layout > .responsiveform .whyhost > .text {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .responsiveform .steptitle {
-    font-size: 35px;
-    text-align: initial;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .responsiveform .steptexts {
-    display: initial;
-  }
-  .section-layout > .responsiveform .steptexts > .steptext {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .responsiveform .steptexts > .steptext > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .responsiveform .steptexts > .steptext > .minitext {
-    margin-top: initial;
-  }
   .section-layout > .responsiveform .interviewleft {
-    margin-right: initial;
+    width: 100%;
+  }
+  .section-layout > .responsiveform .interviewleft > .interviewicon {
+    font-size: 10px;
   }
   .section-layout > .responsiveform .interviewleft > .interviewtext {
     font-size: 18px;
     line-height: 1.25;
-    width: 80%;
+    width: 100%;
   }
   .section-layout > .responsiveform .interviewleft > .minitext {
     font-size: 14px;
-    width: 80%;
+    width: 100%;
   }
   .section-layout > .responsiveform .interviewright > img {
-    width: 350px;
-    height: 350px;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .responsiveform .steptitle {
+    text-align: left;
+  }
+  .section-layout > .responsiveform .relieftitle {
+    text-align: left;
   }
 
   .section-layout > .hostmain {
     padding: 0px 5vw;
   }
 
+  .section-layout > .hostmain > .interview {
+    flex-direction: column-reverse;
+  }
   .section-layout > .hostmain > .interview .responsiveaddress {
     margin-bottom: 10px;
     height: 30px;
@@ -41758,238 +41747,32 @@
     right: 5px;
     font-size: 25px;
   }
-  .section-layout > .hostmain > .interview .whyhost > .text {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .interview .steptitle {
-    font-size: 35px;
-    text-align: initial;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .interview .steptexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .interview .steptexts > .steptext {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .interview .steptexts > .steptext > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .interview .steptexts > .steptext > .minitext {
-    margin-top: initial;
-  }
   .section-layout > .hostmain > .interview .interviewleft {
-    margin-right: initial;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .interviewleft > .interviewicon {
+    font-size: 10px;
   }
   .section-layout > .hostmain > .interview .interviewleft > .interviewtext {
     font-size: 18px;
     line-height: 1.25;
-    width: 80%;
+    width: 100%;
   }
   .section-layout > .hostmain > .interview .interviewleft > .minitext {
     font-size: 14px;
-    width: 80%;
+    width: 100%;
   }
   .section-layout > .hostmain > .interview .interviewright > img {
-    width: 350px;
-    height: 350px;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .hostbackground {
-    height: 275px;
-  }
-
-  .section-layout > .hostmain {
-    padding: 0px 15vw;
-  }
-
-  .section-layout > .hostmain > .interview .responsiveaddress {
-    margin-bottom: 10px;
-    height: 30px;
-    border: solid 1px #cdcdcd;
-    font-size: 14px;
-    font-weight: bold;
-    width: 100%;
-  }
-  .section-layout > .hostmain > .interview .miniform {
-    display: initial;
-  }
-  .section-layout > .hostmain > .interview .miniform > .responsivecharter {
-    position: relative;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .section-layout > .hostmain > .interview .miniform > .responsivecharter > input {
-    height: 30px;
-    font-size: 14px;
-    width: 100%;
-    border: solid 1px #cdcdcd;
-  }
-  .section-layout > .hostmain > .interview .miniform > .responsivecharter > .fas {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 25px;
-  }
-  .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople {
-    position: relative;
-    width: 100%;
-  }
-  .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople > input {
-    height: 30px;
-    font-size: 14px;
-    width: 100%;
-    border: solid 1px #cdcdcd;
-  }
-  .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople > .fas {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 25px;
-  }
-  .section-layout > .hostmain > .interview .whyhost > .text {
-    width: initial;
-    margin-bottom: 50px;
+    max-width: 700px;
+    max-height: 700px;
   }
   .section-layout > .hostmain > .interview .steptitle {
-    font-size: 35px;
-    text-align: initial;
-    font-weight: bold;
-    margin-bottom: 50px;
+    text-align: left;
   }
-  .section-layout > .hostmain > .interview .steptexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .interview .steptexts > .steptext {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .interview .steptexts > .steptext > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .interview .steptexts > .steptext > .minitext {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .interview .interviewleft {
-    margin-right: initial;
-  }
-  .section-layout > .hostmain > .interview .interviewleft > .interviewtext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .interview .interviewleft > .minitext {
-    font-size: 14px;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .interview .interviewright > img {
-    width: 350px;
-    height: 350px;
-  }
-}
-@media (max-width: 1130px) {
-  .section-layout > .hostheader {
-    display: none;
+  .section-layout > .hostmain > .interview .relieftitle {
+    text-align: left;
   }
 
-  .section-layout > .hostbackground > .form {
-    display: none;
-  }
-
-  .section-layout > .hostmain > .introduction {
-    display: initial;
-  }
-  .section-layout > .hostmain > .introduction .responsiveaddress {
-    margin-bottom: 10px;
-    height: 30px;
-    border: solid 1px #cdcdcd;
-    font-size: 14px;
-    font-weight: bold;
-    width: 100%;
-  }
-  .section-layout > .hostmain > .introduction .miniform {
-    display: initial;
-  }
-  .section-layout > .hostmain > .introduction .miniform > .responsivecharter {
-    position: relative;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .section-layout > .hostmain > .introduction .miniform > .responsivecharter > input {
-    height: 30px;
-    font-size: 14px;
-    width: 100%;
-    border: solid 1px #cdcdcd;
-  }
-  .section-layout > .hostmain > .introduction .miniform > .responsivecharter > .fas {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 25px;
-  }
-  .section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople {
-    position: relative;
-    width: 100%;
-  }
-  .section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople > input {
-    height: 30px;
-    font-size: 14px;
-    width: 100%;
-    border: solid 1px #cdcdcd;
-  }
-  .section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople > .fas {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 25px;
-  }
-  .section-layout > .hostmain > .introduction .whyhost > .text {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .introduction .steptitle {
-    font-size: 35px;
-    text-align: initial;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .introduction .steptexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .introduction .steptexts > .steptext {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .introduction .steptexts > .steptext > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .introduction .steptexts > .steptext > .minitext {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .introduction .interviewleft {
-    margin-right: initial;
-  }
-  .section-layout > .hostmain > .introduction .interviewleft > .interviewtext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .introduction .interviewleft > .minitext {
-    font-size: 14px;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .introduction .interviewright > img {
-    width: 350px;
-    height: 350px;
-  }
-
-  .section-layout > .hostmain > .step {
-    margin-top: 100px;
-  }
   .section-layout > .hostmain > .step .responsiveaddress {
     margin-bottom: 10px;
     height: 30px;
@@ -42034,13 +41817,186 @@
     right: 5px;
     font-size: 25px;
   }
+  .section-layout > .hostmain > .step .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .step .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .interviewright > img {
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .step .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .step .relieftitle {
+    text-align: left;
+  }
+
+  .section-layout > .hostmain > .relief {
+    margin-top: 100px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .relief .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .relief .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .relief .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .relief .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .relief .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .relief .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .relief .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .interviewright > img {
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .relief .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .relief .relieftitle {
+    text-align: left;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostbackground {
+    height: 275px;
+  }
+
+  .section-layout > .hostmain {
+    padding: 0px 15vw;
+  }
+}
+@media (max-width: 1130px) {
+  .section-layout > .hostheader {
+    display: none;
+  }
+
+  .section-layout > .hostbackground > .form {
+    display: none;
+  }
+
+  .section-layout > .hostmain > .introduction {
+    display: initial;
+  }
+  .section-layout > .hostmain > .introduction .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .introduction .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .introduction .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .introduction .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .introduction .interviewleft > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .introduction .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .introduction .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .introduction .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .introduction .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+
+  .section-layout > .hostmain > .step {
+    margin-top: 100px;
+  }
   .section-layout > .hostmain > .step .whyhost > .text {
     width: initial;
     margin-bottom: 50px;
   }
   .section-layout > .hostmain > .step .steptitle {
     font-size: 35px;
-    text-align: initial;
     font-weight: bold;
     margin-bottom: 50px;
   }
@@ -42057,9 +42013,6 @@
   .section-layout > .hostmain > .step .steptexts > .steptext > .minitext {
     margin-top: initial;
   }
-  .section-layout > .hostmain > .step .interviewleft {
-    margin-right: initial;
-  }
   .section-layout > .hostmain > .step .interviewleft > .interviewtext {
     font-size: 18px;
     line-height: 1.25;
@@ -42072,6 +42025,74 @@
   .section-layout > .hostmain > .step .interviewright > img {
     width: 350px;
     height: 350px;
+  }
+  .section-layout > .hostmain > .step .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .step .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+
+  .section-layout > .hostmain > .relief {
+    margin-top: 100px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .relief .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .relief .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .relief .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .relief .interviewleft > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .relief .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .relief .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .relief .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
   }
 }
 @media (min-width: 1130px) {

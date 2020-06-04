@@ -1,0 +1,76 @@
+// width740px以下入力フォーム/住所
+.responsiveaddress{
+  margin-bottom:10px;
+  height:30px;
+  border:solid 1px $bodergray;
+  font-size:14px;
+  font-weight: bold;
+  width:100%;
+}
+// width740px以下入力フォーム/貸し切り&ゲスト人数
+.miniform{
+  display:initial;
+  >.responsivecharter{
+    position: relative;
+    width:100%;
+    margin-bottom:10px;
+    > input{
+      height:30px;
+      font-size:14px;
+      width:100%;
+      border:solid 1px $bodergray;
+    }
+    >.fas {
+      position: absolute;
+      top:5px;
+      right:5px;
+      font-size:25px;
+    }
+  }
+  >.responsiveguestpeople{
+    position: relative;
+    width:100%;
+    > input{
+      height:30px;
+      font-size:14px;
+      width:100%;
+      border:solid 1px $bodergray;
+    }
+    >.fas {
+      position: absolute;
+      top:5px;
+      right:5px;
+      font-size:25px;
+    }
+  }
+}
+
+// インタビュー左側
+.interviewleft{
+  width:100%;
+  > .interviewicon{
+    font-size:10px;
+  }
+  >.interviewtext{
+    font-size:18px;
+    line-height:1.25;
+    width:100%;
+  }
+  > .minitext{
+    font-size:14px;
+    width:100%;
+  }
+}
+// インタビュー右画像サイズ縮小
+.interviewright > img{
+  max-width: 700px; 
+  max-height: 700px;
+}
+// ステップタイトル左揃え
+.steptitle{
+  text-align:left;
+}
+// 安心タイトル左揃え
+.relieftitle{
+  text-align:left;
+}

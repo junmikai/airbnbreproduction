@@ -1,63 +1,16 @@
-// width740px以下入力フォーム/住所
-.responsiveaddress{
-  margin-bottom:10px;
-  height:30px;
-  border:solid 1px $bodergray;
-  font-size:14px;
-  font-weight: bold;
-  width:100%;
-}
-// width740px以下入力フォーム/貸し切り&ゲスト人数
-.miniform{
-  display:initial;
-  >.responsivecharter{
-    position: relative;
-    width:100%;
-    margin-bottom:10px;
-    > input{
-      height:30px;
-      font-size:14px;
-      width:100%;
-      border:solid 1px $bodergray;
-    }
-    >.fas {
-      position: absolute;
-      top:5px;
-      right:5px;
-      font-size:25px;
-    }
-  }
-  >.responsiveguestpeople{
-    position: relative;
-    width:100%;
-    > input{
-      height:30px;
-      font-size:14px;
-      width:100%;
-      border:solid 1px $bodergray;
-    }
-    >.fas {
-      position: absolute;
-      top:5px;
-      right:5px;
-      font-size:25px;
-    }
-  }
-}
 // 冒頭説明/なぜの広さ制限解除
 .whyhost >.text{
   width:initial;
   margin-bottom:50px;
 }
 
-// ステップ/タイトル文字サイズ
+// ステップ/タイトル文字サイズ(~1300px)
 .steptitle{
   font-size:35px;
-  text-align:initial;
   font-weight: bold;
   margin-bottom:50px;
 }
-// ステップの横並び解除
+// ステップの横並び解除(~1300px)
 .steptexts{
   display: initial;
   >.steptext{
@@ -71,9 +24,8 @@
     }
   }
 }
-// インタビュー左側
+// インタビュー左側(741~1300px)
 .interviewleft{
-  margin-right:initial;
   >.interviewtext{
     font-size:18px;
     line-height:1.25;
@@ -84,8 +36,25 @@
     width:80%;
   }
 }
-// インタビュー右画像サイズ縮小
+// インタビュー右画像サイズ縮小(741~1300px)
 .interviewright > img{
   width: 350px; 
   height: 350px;
+}
+
+// 安心/タイトル文字サイズ
+.relieftitle{
+  font-size:40px;
+  font-weight: bold;
+  margin-bottom:50px;
+}
+// 安心の横並び解除
+.relieftexts{
+  display: initial;
+  >.reliefleft{
+    width:initial;
+    >.how{
+      margin:10px 0px 20px 0px;
+    }
+  }
 }
