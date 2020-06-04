@@ -35389,6 +35389,7 @@
   height: 600px;
   position: relative;
   margin: 0 auto;
+  box-shadow: 0px -50px 100px inset;
 }
 
 .section-layout > .hostbackground > .form {
@@ -35780,6 +35781,31 @@
 }
 .section-layout > .hostbackground > .form .footerright > .sns > .fab {
   font-size: 17px;
+}
+
+.section-layout > .hostbackground > .levelup {
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.section-layout > .hostbackground > .fab {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 35px;
+  color: #fff;
+}
+
+.section-layout > .hostbackground > .fas {
+  position: absolute;
+  top: 30px;
+  left: 65px;
+  font-size: 20px;
+  color: #fff;
 }
 
 .section-layout > .hostmain {
@@ -40422,6 +40448,44 @@
 }
 .section-layout > .topfooters .footerright > .sns > .fab {
   font-size: 17px;
+}
+@media (max-width: 740px) {
+  .section-layout > .hostbackground {
+    height: 250px;
+  }
+
+  .section-layout > .hostbackground > .levelup {
+    left: 30px;
+    font-size: 35px;
+    width: 90%;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostbackground {
+    height: 275px;
+  }
+}
+@media (max-width: 1130px) {
+  .section-layout > .hostheader {
+    display: none;
+  }
+
+  .section-layout > .hostbackground > .form {
+    display: none;
+  }
+}
+@media (min-width: 1130px) {
+  .section-layout > .hostbackground > .levelup {
+    display: none;
+  }
+
+  .section-layout > .hostbackground > .fas {
+    display: none;
+  }
+
+  .section-layout > .hostbackground > .fab {
+    display: none;
+  }
 }
 /*
 html5doctor.com Reset Stylesheet

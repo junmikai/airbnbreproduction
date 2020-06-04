@@ -1,0 +1,46 @@
+@import "../color";
+
+@media (max-width: 740px){
+  // 背景画像/高さ変更
+  .section-layout > .hostbackground{
+    height:250px;
+  }
+
+  // 背景画像/高さ変更
+  .section-layout > .hostbackground > .levelup{
+    left:30px;
+    font-size:35px;
+    width:90%;
+  }
+}
+
+@media (min-width:741px) and (max-width: 1130px){
+  // 背景画像/高さ変更
+  .section-layout > .hostbackground{
+    height:275px;
+  }
+}
+
+@media (max-width: 1130px){
+  .section-layout > .hostheader{
+  // 固定ヘッダー非表示
+    display:none;
+  }
+  // 背景画像/フォーム非表示
+  .section-layout > .hostbackground > .form{
+    display:none;
+  }
+}
+
+@media (min-width: 1130px){
+  // 背景画像/白文字非表示
+  .section-layout > .hostbackground > .levelup{
+    display: none;
+  }
+  .section-layout > .hostbackground >.fas{
+    display: none;
+  }
+  .section-layout > .hostbackground >.fab{
+    display: none;
+  }
+}
