@@ -35333,12 +35333,17 @@
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
 .section-layout > .hostheader .hostinglists {
   display: flex;
 }
 .section-layout > .hostheader .hostinglists > .hostinglist {
   margin: 0px 5px;
+}
+.section-layout > .hostheader .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
 }
 .section-layout > .hostheader .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
@@ -35377,10 +35382,11 @@
   border-radius: 5px;
 }
 .section-layout > .hostheader .link-nav {
-  width: 25%;
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
 .section-layout > .hostheader .link-nav > .linktitle {
   color: #3f3f3f;
@@ -35802,12 +35808,17 @@
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
 .section-layout > .hostbackground > .form .hostinglists {
   display: flex;
 }
 .section-layout > .hostbackground > .form .hostinglists > .hostinglist {
   margin: 0px 5px;
+}
+.section-layout > .hostbackground > .form .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
 }
 .section-layout > .hostbackground > .form .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
@@ -35846,10 +35857,11 @@
   border-radius: 5px;
 }
 .section-layout > .hostbackground > .form .link-nav {
-  width: 25%;
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
 .section-layout > .hostbackground > .form .link-nav > .linktitle {
   color: #3f3f3f;
@@ -36274,12 +36286,17 @@
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
 .section-layout > .responsiveform .hostinglists {
   display: flex;
 }
 .section-layout > .responsiveform .hostinglists > .hostinglist {
   margin: 0px 5px;
+}
+.section-layout > .responsiveform .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
 }
 .section-layout > .responsiveform .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
@@ -36318,10 +36335,11 @@
   border-radius: 5px;
 }
 .section-layout > .responsiveform .link-nav {
-  width: 25%;
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
 .section-layout > .responsiveform .link-nav > .linktitle {
   color: #3f3f3f;
@@ -36714,12 +36732,17 @@
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
 .section-layout > .hostmain > .introduction .hostinglists {
   display: flex;
 }
 .section-layout > .hostmain > .introduction .hostinglists > .hostinglist {
   margin: 0px 5px;
+}
+.section-layout > .hostmain > .introduction .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
 }
 .section-layout > .hostmain > .introduction .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
@@ -36758,10 +36781,11 @@
   border-radius: 5px;
 }
 .section-layout > .hostmain > .introduction .link-nav {
-  width: 25%;
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
 .section-layout > .hostmain > .introduction .link-nav > .linktitle {
   color: #3f3f3f;
@@ -37155,12 +37179,17 @@
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
 .section-layout > .hostmain > .step .hostinglists {
   display: flex;
 }
 .section-layout > .hostmain > .step .hostinglists > .hostinglist {
   margin: 0px 5px;
+}
+.section-layout > .hostmain > .step .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
 }
 .section-layout > .hostmain > .step .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
@@ -37199,10 +37228,11 @@
   border-radius: 5px;
 }
 .section-layout > .hostmain > .step .link-nav {
-  width: 25%;
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
 .section-layout > .hostmain > .step .link-nav > .linktitle {
   color: #3f3f3f;
@@ -37596,12 +37626,17 @@
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
 .section-layout > .hostmain > .interview .hostinglists {
   display: flex;
 }
 .section-layout > .hostmain > .interview .hostinglists > .hostinglist {
   margin: 0px 5px;
+}
+.section-layout > .hostmain > .interview .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
 }
 .section-layout > .hostmain > .interview .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
@@ -37640,10 +37675,11 @@
   border-radius: 5px;
 }
 .section-layout > .hostmain > .interview .link-nav {
-  width: 25%;
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
 .section-layout > .hostmain > .interview .link-nav > .linktitle {
   color: #3f3f3f;
@@ -38038,12 +38074,17 @@
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
 .section-layout > .hostmain > .relief .hostinglists {
   display: flex;
 }
 .section-layout > .hostmain > .relief .hostinglists > .hostinglist {
   margin: 0px 5px;
+}
+.section-layout > .hostmain > .relief .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
 }
 .section-layout > .hostmain > .relief .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
@@ -38082,10 +38123,11 @@
   border-radius: 5px;
 }
 .section-layout > .hostmain > .relief .link-nav {
-  width: 25%;
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
 .section-layout > .hostmain > .relief .link-nav > .linktitle {
   color: #3f3f3f;
@@ -38483,12 +38525,17 @@
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
 .section-layout > .hostmain > .example .hostinglists {
   display: flex;
 }
 .section-layout > .hostmain > .example .hostinglists > .hostinglist {
   margin: 0px 5px;
+}
+.section-layout > .hostmain > .example .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
 }
 .section-layout > .hostmain > .example .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
@@ -38527,10 +38574,11 @@
   border-radius: 5px;
 }
 .section-layout > .hostmain > .example .link-nav {
-  width: 25%;
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
 .section-layout > .hostmain > .example .link-nav > .linktitle {
   color: #3f3f3f;
@@ -38577,7 +38625,6 @@
 }
 
 .section-layout > .hostmain > .hostshare {
-  height: 400px;
   margin-top: 100px;
   color: #3f3f3f;
   /*フッター左側*/
@@ -38925,12 +38972,17 @@
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
 .section-layout > .hostmain > .hostshare .hostinglists {
   display: flex;
 }
 .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist {
   margin: 0px 5px;
+}
+.section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
 }
 .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
@@ -38969,10 +39021,11 @@
   border-radius: 5px;
 }
 .section-layout > .hostmain > .hostshare .link-nav {
-  width: 25%;
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
 .section-layout > .hostmain > .hostshare .link-nav > .linktitle {
   color: #3f3f3f;
@@ -39365,12 +39418,17 @@
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
 .section-layout > .hostmain > .about .hostinglists {
   display: flex;
 }
 .section-layout > .hostmain > .about .hostinglists > .hostinglist {
   margin: 0px 5px;
+}
+.section-layout > .hostmain > .about .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
 }
 .section-layout > .hostmain > .about .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
@@ -39409,10 +39467,11 @@
   border-radius: 5px;
 }
 .section-layout > .hostmain > .about .link-nav {
-  width: 25%;
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
 .section-layout > .hostmain > .about .link-nav > .linktitle {
   color: #3f3f3f;
@@ -39459,7 +39518,6 @@
 }
 
 .section-layout > .hostmain > .question {
-  height: 400px;
   /*フッター左側*/
   /*フッター右側*/
 }
@@ -39805,12 +39863,17 @@
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
 .section-layout > .hostmain > .question .hostinglists {
   display: flex;
 }
 .section-layout > .hostmain > .question .hostinglists > .hostinglist {
   margin: 0px 5px;
+}
+.section-layout > .hostmain > .question .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
 }
 .section-layout > .hostmain > .question .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
@@ -39849,10 +39912,11 @@
   border-radius: 5px;
 }
 .section-layout > .hostmain > .question .link-nav {
-  width: 25%;
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
 .section-layout > .hostmain > .question .link-nav > .linktitle {
   color: #3f3f3f;
@@ -40245,12 +40309,17 @@
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
 .section-layout > .hostmain > .hosting .hostinglists {
   display: flex;
 }
 .section-layout > .hostmain > .hosting .hostinglists > .hostinglist {
   margin: 0px 5px;
+}
+.section-layout > .hostmain > .hosting .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
 }
 .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
@@ -40289,10 +40358,11 @@
   border-radius: 5px;
 }
 .section-layout > .hostmain > .hosting .link-nav {
-  width: 25%;
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
 .section-layout > .hostmain > .hosting .link-nav > .linktitle {
   color: #3f3f3f;
@@ -40338,34 +40408,35 @@
   font-size: 17px;
 }
 
-.section-layout > .hostmain > .listing {
+.section-layout > .listing {
   margin-top: 50px;
   position: relative;
+  padding: 0px 3vw;
   /*フッター左側*/
   /*フッター右側*/
 }
-.section-layout > .hostmain > .listing .headerleft {
+.section-layout > .listing .headerleft {
   display: flex;
   padding-left: 30px;
 }
-.section-layout > .hostmain > .listing .headerleft > p {
+.section-layout > .listing .headerleft > p {
   margin-right: 30px;
   font-size: 14px;
 }
-.section-layout > .hostmain > .listing .headerleft > p > .fab {
+.section-layout > .listing .headerleft > p > .fab {
   font-size: 35px;
   line-height: 2.25;
   color: #01999e;
 }
-.section-layout > .hostmain > .listing > .formtitle {
+.section-layout > .listing > .formtitle {
   font-size: 38px;
 }
-.section-layout > .hostmain > .listing > .fillin {
+.section-layout > .listing > .fillin {
   color: #3f3f3f;
   font-size: 16px;
   margin-top: 30px;
 }
-.section-layout > .hostmain > .listing > .addressform {
+.section-layout > .listing > .addressform {
   margin-top: 30px;
   width: 95%;
   height: 40px;
@@ -40373,15 +40444,15 @@
   padding-left: 10px;
   border: solid 1px #cdcdcd;
 }
-.section-layout > .hostmain > .listing > .miniform {
+.section-layout > .listing > .miniform {
   display: flex;
   margin-top: 10px;
   width: 100%;
 }
-.section-layout > .hostmain > .listing .miniform > .charter {
+.section-layout > .listing .miniform > .charter {
   position: relative;
 }
-.section-layout > .hostmain > .listing .miniform > .charter > input {
+.section-layout > .listing .miniform > .charter > input {
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
@@ -40389,29 +40460,29 @@
   margin-right: 15px;
   border: solid 1px #cdcdcd;
 }
-.section-layout > .hostmain > .listing .miniform > .charter > .fas {
+.section-layout > .listing .miniform > .charter > .fas {
   position: absolute;
   top: 10px;
   right: 25px;
   font-size: 30px;
 }
-.section-layout > .hostmain > .listing .miniform > .guestpeople {
+.section-layout > .listing .miniform > .guestpeople {
   position: relative;
 }
-.section-layout > .hostmain > .listing .miniform > .guestpeople > input {
+.section-layout > .listing .miniform > .guestpeople > input {
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
   border: solid 1px #cdcdcd;
 }
-.section-layout > .hostmain > .listing .miniform > .guestpeople > .fas {
+.section-layout > .listing .miniform > .guestpeople > .fas {
   position: absolute;
   top: 10px;
   right: 25px;
   font-size: 30px;
 }
-.section-layout > .hostmain > .listing .startbtn {
+.section-layout > .listing .startbtn {
   font-size: 14px;
   color: #fff;
   text-align: center;
@@ -40422,126 +40493,126 @@
   margin: 30px 0px;
   line-height: 50px;
 }
-.section-layout > .hostmain > .listing .responsivefillin {
+.section-layout > .listing .responsivefillin {
   color: #606060;
   font-weight: bold;
   margin: 20px 0px 0px 0px;
 }
-.section-layout > .hostmain > .listing .responsiveaddress {
+.section-layout > .listing .responsiveaddress {
   margin-top: 30px;
   width: 99%;
   height: 40px;
   font-size: 16px;
   border: solid 1px #cdcdcd;
 }
-.section-layout > .hostmain > .listing .miniform > .responsivecharter {
+.section-layout > .listing .miniform > .responsivecharter {
   position: relative;
   width: 60%;
   margin-right: 20px;
 }
-.section-layout > .hostmain > .listing .miniform > .responsivecharter > input {
+.section-layout > .listing .miniform > .responsivecharter > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
 }
-.section-layout > .hostmain > .listing .miniform > .responsivecharter > .fas {
+.section-layout > .listing .miniform > .responsivecharter > .fas {
   position: absolute;
   top: 10px;
   right: 5px;
   font-size: 30px;
 }
-.section-layout > .hostmain > .listing .miniform > .responsiveguestpeople {
+.section-layout > .listing .miniform > .responsiveguestpeople {
   position: relative;
   width: 35.5%;
 }
-.section-layout > .hostmain > .listing .miniform > .responsiveguestpeople > input {
+.section-layout > .listing .miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
   width: 100%;
   border: solid 1px #cdcdcd;
 }
-.section-layout > .hostmain > .listing .miniform > .responsiveguestpeople > .fas {
+.section-layout > .listing .miniform > .responsiveguestpeople > .fas {
   position: absolute;
   top: 10px;
   right: 5px;
   font-size: 30px;
 }
-.section-layout > .hostmain > .listing .whyhost {
+.section-layout > .listing .whyhost {
   padding: 0px 20px;
   color: #3f3f3f;
 }
-.section-layout > .hostmain > .listing .whyhost > .title {
+.section-layout > .listing .whyhost > .title {
   font-size: 23px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-.section-layout > .hostmain > .listing .whyhost > .text {
+.section-layout > .listing .whyhost > .text {
   width: 85%;
   font-size: 16px;
   line-height: 1.75;
 }
-.section-layout > .hostmain > .listing .warranty {
+.section-layout > .listing .warranty {
   padding: 0px 20px;
   color: #3f3f3f;
 }
-.section-layout > .hostmain > .listing .warranty > .title {
+.section-layout > .listing .warranty > .title {
   font-size: 23px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-.section-layout > .hostmain > .listing .warranty > .text {
+.section-layout > .listing .warranty > .text {
   width: 85%;
   font-size: 16px;
   line-height: 1.75;
 }
-.section-layout > .hostmain > .listing .warranty > .text {
+.section-layout > .listing .warranty > .text {
   width: 100%;
 }
-.section-layout > .hostmain > .listing .steptitle {
+.section-layout > .listing .steptitle {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
   margin-bottom: 50px;
 }
-.section-layout > .hostmain > .listing .steptexts {
+.section-layout > .listing .steptexts {
   display: flex;
 }
-.section-layout > .hostmain > .listing .steptexts > .steptext {
+.section-layout > .listing .steptexts > .steptext {
   width: 30%;
   margin-right: 40px;
   line-height: 1.75;
 }
-.section-layout > .hostmain > .listing .steptexts > .steptext .far {
+.section-layout > .listing .steptexts > .steptext .far {
   font-size: 50px;
 }
-.section-layout > .hostmain > .listing .steptexts > .steptext .minititle {
+.section-layout > .listing .steptexts > .steptext .minititle {
   font-size: 25px;
   margin-top: 20px;
   font-weight: bold;
 }
-.section-layout > .hostmain > .listing .steptexts > .steptext .minitext {
+.section-layout > .listing .steptexts > .steptext .minitext {
   font-size: 17px;
   margin-top: 20px;
 }
-.section-layout > .hostmain > .listing .steptexts > .steptext .green {
+.section-layout > .listing .steptexts > .steptext .green {
   color: #01999e;
   padding-top: 10px;
 }
-.section-layout > .hostmain > .listing .interviewleft {
+.section-layout > .listing .interviewleft {
   width: 43%;
   margin-right: 50px;
   color: #606060;
 }
-.section-layout > .hostmain > .listing .interviewleft > .interviewtext {
+.section-layout > .listing .interviewleft > .interviewtext {
   font-size: 33px;
   line-height: 1.25;
 }
-.section-layout > .hostmain > .listing .interviewleft > .minitext {
+.section-layout > .listing .interviewleft > .minitext {
   margin-top: 15px;
   color: #a0a0a0;
 }
-.section-layout > .hostmain > .listing .interviewleft > .checkbtn {
+.section-layout > .listing .interviewleft > .checkbtn {
   margin-top: 10px;
   color: #3f3f3f;
   margin: 20px 0px;
@@ -40551,60 +40622,60 @@
   padding: 15px 20px;
   font-weight: bold;
 }
-.section-layout > .hostmain > .listing .interviewright > img {
+.section-layout > .listing .interviewright > img {
   width: 525px;
   height: 500px;
 }
-.section-layout > .hostmain > .listing .relieftitle {
+.section-layout > .listing .relieftitle {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
   margin-bottom: 50px;
 }
-.section-layout > .hostmain > .listing .relieftexts {
+.section-layout > .listing .relieftexts {
   display: flex;
   justify-content: space-between;
 }
-.section-layout > .hostmain > .listing .relieftexts > .reliefleft {
+.section-layout > .listing .relieftexts > .reliefleft {
   width: 400px;
   line-height: 1.75;
   margin-right: 50px;
   color: #606060;
   margin: 10px 0px 0px 0px;
 }
-.section-layout > .hostmain > .listing .relieftexts > .reliefleft > .how {
+.section-layout > .listing .relieftexts > .reliefleft > .how {
   color: #01999e;
   padding-top: 10px;
 }
-.section-layout > .hostmain > .listing .relieftexts > .reliefright {
+.section-layout > .listing .relieftexts > .reliefright {
   margin-right: 150px;
 }
-.section-layout > .hostmain > .listing .relieftexts > .reliefright > .relieftext {
+.section-layout > .listing .relieftexts > .reliefright > .relieftext {
   display: flex;
 }
-.section-layout > .hostmain > .listing .relieftexts > .reliefright > .relieftext .fas {
+.section-layout > .listing .relieftexts > .reliefright > .relieftext .fas {
   color: #01999e;
   font-size: 18px;
   margin-right: 15px;
   margin-bottom: 25px;
 }
-.section-layout > .hostmain > .listing .exampleleft img {
+.section-layout > .listing .exampleleft img {
   width: 525px;
   height: 500px;
 }
-.section-layout > .hostmain > .listing .exampleright {
+.section-layout > .listing .exampleright {
   margin-left: 50px;
   color: #606060;
 }
-.section-layout > .hostmain > .listing .exampleright > .exampletext {
+.section-layout > .listing .exampleright > .exampletext {
   font-size: 33px;
   line-height: 1.25;
 }
-.section-layout > .hostmain > .listing .exampleright > .minitext {
+.section-layout > .listing .exampleright > .minitext {
   margin-top: 15px;
   color: #a0a0a0;
 }
-.section-layout > .hostmain > .listing .exampleright > .checkbtn {
+.section-layout > .listing .exampleright > .checkbtn {
   margin-top: 10px;
   color: #3f3f3f;
   margin: 20px 0px;
@@ -40614,66 +40685,66 @@
   padding: 15px 20px;
   font-weight: bold;
 }
-.section-layout > .hostmain > .listing .sharetitle {
+.section-layout > .listing .sharetitle {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
 }
-.section-layout > .hostmain > .listing .hostdatas {
+.section-layout > .listing .hostdatas {
   display: flex;
 }
-.section-layout > .hostmain > .listing .hostdatas > .hostdata {
+.section-layout > .listing .hostdatas > .hostdata {
   width: 30%;
   margin-right: 40px;
   line-height: 1.75;
   text-align: center;
 }
-.section-layout > .hostmain > .listing .hostdatas > .hostdata > .hostnumber {
+.section-layout > .listing .hostdatas > .hostdata > .hostnumber {
   font-size: 55px;
 }
-.section-layout > .hostmain > .listing .hostdatas > .hostdata > .numbercomment {
+.section-layout > .listing .hostdatas > .hostdata > .numbercomment {
   text-align: center;
 }
-.section-layout > .hostmain > .listing .abouttitle {
+.section-layout > .listing .abouttitle {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
   color: #3f3f3f;
 }
-.section-layout > .hostmain > .listing .abouttexts {
+.section-layout > .listing .abouttexts {
   display: flex;
 }
-.section-layout > .hostmain > .listing .abouttexts > .abouttext {
+.section-layout > .listing .abouttexts > .abouttext {
   width: 37.5%;
   line-height: 1.75;
   padding: 0px 30px;
 }
-.section-layout > .hostmain > .listing .abouttexts > .abouttext > .aboutheadline {
+.section-layout > .listing .abouttexts > .abouttext > .aboutheadline {
   font-size: 22px;
   font-weight: bold;
 }
-.section-layout > .hostmain > .listing .abouttexts > .abouttext > .aboutexplanation {
+.section-layout > .listing .abouttexts > .abouttext > .aboutexplanation {
   font-size: 15px;
   margin-top: 20px;
 }
-.section-layout > .hostmain > .listing .abouttexts > .abouttext > .green {
+.section-layout > .listing .abouttexts > .abouttext > .green {
   color: #01999e;
   padding-top: 20px;
 }
-.section-layout > .hostmain > .listing .questiontitle {
+.section-layout > .listing .questiontitle {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
   margin: 50px 0px;
   color: #3f3f3f;
 }
-.section-layout > .hostmain > .listing .question-nav {
+.section-layout > .listing .question-nav {
   display: flex;
   flex-wrap: wrap;
 }
-.section-layout > .hostmain > .listing .question-nav > li {
+.section-layout > .listing .question-nav > li {
   width: 48%;
   list-style: none;
   font-size: 18px;
@@ -40682,32 +40753,37 @@
   margin: 0px 10px;
   border-bottom: #cdcdcd solid 1px;
 }
-.section-layout > .hostmain > .listing .hostingtitle {
+.section-layout > .listing .hostingtitle {
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
-.section-layout > .hostmain > .listing .hostinglists {
+.section-layout > .listing .hostinglists {
   display: flex;
 }
-.section-layout > .hostmain > .listing .hostinglists > .hostinglist {
+.section-layout > .listing .hostinglists > .hostinglist {
   margin: 0px 5px;
 }
-.section-layout > .hostmain > .listing .hostinglists > .hostinglist > .hostingheadline {
+.section-layout > .listing .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
+}
+.section-layout > .listing .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
   font-weight: bold;
   margin-top: 20px;
 }
-.section-layout > .hostmain > .listing .hostinglists > .hostinglist > .hostingcomment {
+.section-layout > .listing .hostinglists > .hostinglist > .hostingcomment {
   font-size: 14px;
   margin-top: 10px;
 }
-.section-layout > .hostmain > .listing .hostinglists > .hostinglist > .learnmore {
+.section-layout > .listing .hostinglists > .hostinglist > .learnmore {
   font-size: 14px;
   margin-top: 20px;
   color: #01999e;
 }
-.section-layout > .hostmain > .listing .listingtitle {
+.section-layout > .listing .listingtitle {
   position: absolute;
   top: 100px;
   left: 100px;
@@ -40716,7 +40792,7 @@
   color: #fff;
   width: 390px;
 }
-.section-layout > .hostmain > .listing .listingbtn {
+.section-layout > .listing .listingbtn {
   position: absolute;
   top: 250px;
   left: 100px;
@@ -40729,21 +40805,22 @@
   line-height: 50px;
   border-radius: 5px;
 }
-.section-layout > .hostmain > .listing .link-nav {
-  width: 25%;
+.section-layout > .listing .link-nav {
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
-.section-layout > .hostmain > .listing .link-nav > .linktitle {
+.section-layout > .listing .link-nav > .linktitle {
   color: #3f3f3f;
   margin-bottom: 20px;
 }
-.section-layout > .hostmain > .listing .link-nav > li {
+.section-layout > .listing .link-nav > li {
   color: #767676;
   margin-bottom: 7px;
 }
-.section-layout > .hostmain > .listing .link-nav > li > span {
+.section-layout > .listing .link-nav > li > span {
   font-size: 12px;
   color: #fff;
   background-color: #006a70;
@@ -40752,36 +40829,36 @@
   padding: 3px;
   margin-left: 5px;
 }
-.section-layout > .hostmain > .listing .fab {
+.section-layout > .listing .fab {
   font-size: 25px;
   margin-right: 3px;
   line-height: 1.5;
 }
-.section-layout > .hostmain > .listing .footerleft {
+.section-layout > .listing .footerleft {
   font-size: 13px;
 }
-.section-layout > .hostmain > .listing .footerleft > span {
+.section-layout > .listing .footerleft > span {
   padding: 0px 8px;
 }
-.section-layout > .hostmain > .listing .footerright {
+.section-layout > .listing .footerright {
   display: flex;
   justify-content: space-around;
   font-size: 13px;
   font-weight: bold;
   height: 30px;
 }
-.section-layout > .hostmain > .listing .footerright > .sns {
+.section-layout > .listing .footerright > .sns {
   letter-spacing: 10px;
   position: absolute;
   right: 0px;
 }
-.section-layout > .hostmain > .listing .footerright > .sns > .fab {
+.section-layout > .listing .footerright > .sns > .fab {
   font-size: 17px;
 }
 
 .section-layout > .lodginglinks {
-  margin: 0 auto;
-  width: 60%;
+  margin: 100px auto;
+  max-width: 1200px;
   display: flex;
   /*フッター左側*/
   /*フッター右側*/
@@ -41129,12 +41206,17 @@
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
 .section-layout > .lodginglinks .hostinglists {
   display: flex;
 }
 .section-layout > .lodginglinks .hostinglists > .hostinglist {
   margin: 0px 5px;
+}
+.section-layout > .lodginglinks .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
 }
 .section-layout > .lodginglinks .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
@@ -41173,10 +41255,11 @@
   border-radius: 5px;
 }
 .section-layout > .lodginglinks .link-nav {
-  width: 25%;
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
 .section-layout > .lodginglinks .link-nav > .linktitle {
   color: #3f3f3f;
@@ -41228,7 +41311,7 @@
   padding: 15px 0px 70px 0px;
   border-top: solid 1px #cdcdcd;
   color: #767676;
-  width: 60%;
+  max-width: 1100px;
   height: auto;
   font-weight: bold;
   font-size: 17px;
@@ -41579,12 +41662,17 @@
   font-size: 25px;
   font-weight: bold;
   margin: 50px 0px;
+  text-align: center;
 }
 .section-layout > .topfooters .hostinglists {
   display: flex;
 }
 .section-layout > .topfooters .hostinglists > .hostinglist {
   margin: 0px 5px;
+}
+.section-layout > .topfooters .hostinglists > .hostinglist > img {
+  width: 333px;
+  height: 171px;
 }
 .section-layout > .topfooters .hostinglists > .hostinglist > .hostingheadline {
   font-size: 17px;
@@ -41623,10 +41711,11 @@
   border-radius: 5px;
 }
 .section-layout > .topfooters .link-nav {
-  width: 25%;
+  padding: 0px 1vw;
   font-size: 14px;
   list-style: none;
   font-weight: bold;
+  margin: 0 auto;
 }
 .section-layout > .topfooters .link-nav > .linktitle {
   color: #3f3f3f;
@@ -41685,6 +41774,8 @@
   .section-layout > .responsiveform {
     width: 90%;
   }
+}
+@media (max-width: 740px) and (max-width: 740px) {
   .section-layout > .responsiveform .responsiveaddress {
     margin-bottom: 10px;
     height: 30px;
@@ -41793,14 +41884,203 @@
   .section-layout > .responsiveform .abouttitle {
     text-align: left;
   }
-
+  .section-layout > .responsiveform .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .responsiveform .hostinglists {
+    display: initial;
+  }
+  .section-layout > .responsiveform .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .responsiveform .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .responsiveform .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .responsiveform .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .responsiveform .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .responsiveform .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .responsiveform .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .responsiveform .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .responsiveform .footerleft > span {
+    display: none;
+  }
+}
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .responsiveform .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .responsiveform .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .responsiveform .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .responsiveform .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .responsiveform .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .responsiveform .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .responsiveform .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .responsiveform .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .responsiveform .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .responsiveform .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .responsiveform .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .responsiveform .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .responsiveform .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .responsiveform .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .responsiveform .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .responsiveform .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .responsiveform .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .responsiveform .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .responsiveform .steptexts {
+    display: initial;
+  }
+  .section-layout > .responsiveform .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .responsiveform .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .responsiveform .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .responsiveform .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .responsiveform .relieftexts {
+    display: initial;
+  }
+  .section-layout > .responsiveform .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .responsiveform .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .responsiveform .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .responsiveform .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .responsiveform .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .responsiveform .abouttexts {
+    display: initial;
+  }
+  .section-layout > .responsiveform .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .responsiveform .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .responsiveform .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 740px) {
   .section-layout > .hostmain {
     padding: 0px 5vw;
   }
-
+}
+@media (max-width: 740px) {
   .section-layout > .hostmain > .interview {
     flex-direction: column-reverse;
   }
+}
+@media (max-width: 740px) and (max-width: 740px) {
   .section-layout > .hostmain > .interview .responsiveaddress {
     margin-bottom: 10px;
     height: 30px;
@@ -41909,7 +42189,193 @@
   .section-layout > .hostmain > .interview .abouttitle {
     text-align: left;
   }
-
+  .section-layout > .hostmain > .interview .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .interview .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .interview .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .interview .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .interview .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .interview .footerleft > span {
+    display: none;
+  }
+}
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .interview .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .interview .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .interview .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .interview .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .interview .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .interview .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .interview .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .interview .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .interview .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .interview .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .interview .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .interview .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .interview .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 740px) and (max-width: 740px) {
   .section-layout > .hostmain > .step .responsiveaddress {
     margin-bottom: 10px;
     height: 30px;
@@ -42018,11 +42484,199 @@
   .section-layout > .hostmain > .step .abouttitle {
     text-align: left;
   }
-
+  .section-layout > .hostmain > .step .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .step .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .step .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .step .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .step .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .step .footerleft > span {
+    display: none;
+  }
+}
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .step .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .step .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .step .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .step .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .step .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .step .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .step .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .step .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .step .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .step .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .step .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .step .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .step .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .step .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 740px) {
   .section-layout > .hostmain > .relief {
     margin-top: 100px;
     padding: initial;
   }
+}
+@media (max-width: 740px) and (max-width: 740px) {
   .section-layout > .hostmain > .relief .responsiveaddress {
     margin-bottom: 10px;
     height: 30px;
@@ -42131,10 +42785,198 @@
   .section-layout > .hostmain > .relief .abouttitle {
     text-align: left;
   }
-
+  .section-layout > .hostmain > .relief .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .relief .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .relief .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .relief .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .relief .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .relief .footerleft > span {
+    display: none;
+  }
+}
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .relief .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .relief .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .relief .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .relief .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .relief .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .relief .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .relief .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .relief .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .relief .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .relief .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .relief .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .relief .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .relief .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .relief .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 740px) {
   .section-layout > .hostmain > .example {
     display: initial;
   }
+}
+@media (max-width: 740px) and (max-width: 740px) {
   .section-layout > .hostmain > .example .responsiveaddress {
     margin-bottom: 10px;
     height: 30px;
@@ -42243,7 +43085,193 @@
   .section-layout > .hostmain > .example .abouttitle {
     text-align: left;
   }
-
+  .section-layout > .hostmain > .example .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .example .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .example .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .example .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .example .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .example .footerleft > span {
+    display: none;
+  }
+}
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .example .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .example .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .example .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .example .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .example .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .example .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .example .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .example .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .example .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .example .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .example .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .example .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .example .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .example .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 740px) and (max-width: 740px) {
   .section-layout > .hostmain > .hostshare .responsiveaddress {
     margin-bottom: 10px;
     height: 30px;
@@ -42352,7 +43380,193 @@
   .section-layout > .hostmain > .hostshare .abouttitle {
     text-align: left;
   }
-
+  .section-layout > .hostmain > .hostshare .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .hostshare .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .hostshare .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .hostshare .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .hostshare .footerleft > span {
+    display: none;
+  }
+}
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .hostshare .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .hostshare .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .hostshare .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .hostshare .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .hostshare .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .hostshare .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .hostshare .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .hostshare .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .hostshare .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .hostshare .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .hostshare .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .hostshare .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .hostshare .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .hostshare .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 740px) and (max-width: 740px) {
   .section-layout > .hostmain > .about .responsiveaddress {
     margin-bottom: 10px;
     height: 30px;
@@ -42461,557 +43675,125 @@
   .section-layout > .hostmain > .about .abouttitle {
     text-align: left;
   }
-}
-@media (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .hostbackground {
-    height: 275px;
+  .section-layout > .hostmain > .about .questiontitle {
+    text-align: left;
   }
-
-  .section-layout > .hostmain {
-    padding: 0px 15vw;
-  }
-
-  .section-layout > .hostmain > .interview .whyhost > .text {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .interview .steptitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .interview .steptexts {
+  .section-layout > .hostmain > .about .hostinglists {
     display: initial;
   }
-  .section-layout > .hostmain > .interview .steptexts > .steptext {
-    width: initial;
-    margin-bottom: 50px;
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
   }
-  .section-layout > .hostmain > .interview .steptexts > .steptext > .minititle {
-    margin-top: initial;
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
   }
-  .section-layout > .hostmain > .interview .steptexts > .steptext > .minitext {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .interview .interviewleft > .interviewtext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .interview .interviewleft > .minitext {
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
     font-size: 14px;
-    width: 80%;
   }
-  .section-layout > .hostmain > .interview .interviewright > img {
-    width: 350px;
-    height: 350px;
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
   }
-  .section-layout > .hostmain > .interview .relieftitle {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .interview .relieftexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .interview .relieftexts > .reliefleft {
-    width: initial;
-  }
-  .section-layout > .hostmain > .interview .relieftexts > .reliefleft > .how {
-    margin: 10px 0px 20px 0px;
-  }
-  .section-layout > .hostmain > .interview .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .hostmain > .interview .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .hostmain > .interview .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .interview .exampleright > .minitext {
-    font-size: 14px;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .interview .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .interview .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .hostmain > .interview .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .interview .abouttexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .interview .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-
-  .section-layout > .hostmain > .example .whyhost > .text {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .example .steptitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .example .steptexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .example .steptexts > .steptext {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .example .steptexts > .steptext > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .example .steptexts > .steptext > .minitext {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .example .interviewleft > .interviewtext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .example .interviewleft > .minitext {
-    font-size: 14px;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .example .interviewright > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .hostmain > .example .relieftitle {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .example .relieftexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .example .relieftexts > .reliefleft {
-    width: initial;
-  }
-  .section-layout > .hostmain > .example .relieftexts > .reliefleft > .how {
-    margin: 10px 0px 20px 0px;
-  }
-  .section-layout > .hostmain > .example .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .hostmain > .example .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .hostmain > .example .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .example .exampleright > .minitext {
-    font-size: 14px;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .example .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .example .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .hostmain > .example .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .example .abouttexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .example .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-
-  .section-layout > .hostmain > .hostshare .whyhost > .text {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .hostshare .steptitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .hostshare .steptexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .hostshare .steptexts > .steptext {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .hostshare .steptexts > .steptext > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .hostshare .steptexts > .steptext > .minitext {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .hostshare .interviewleft > .interviewtext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .hostshare .interviewleft > .minitext {
-    font-size: 14px;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .hostshare .interviewright > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .hostmain > .hostshare .relieftitle {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .hostshare .relieftexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .hostshare .relieftexts > .reliefleft {
-    width: initial;
-  }
-  .section-layout > .hostmain > .hostshare .relieftexts > .reliefleft > .how {
-    margin: 10px 0px 20px 0px;
-  }
-  .section-layout > .hostmain > .hostshare .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .hostmain > .hostshare .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .hostmain > .hostshare .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .hostshare .exampleright > .minitext {
-    font-size: 14px;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .hostshare .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .hostshare .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .hostmain > .hostshare .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .hostshare .abouttexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .hostshare .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-}
-@media (max-width: 1130px) {
-  .section-layout > .hostheader {
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > .learnmore {
     display: none;
   }
-
-  .section-layout > .hostbackground > .form {
+  .section-layout > .hostmain > .about .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .about .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .about .footerright > .sns {
     display: none;
   }
-
-  .section-layout > .hostmain > .introduction {
-    display: initial;
+  .section-layout > .hostmain > .about .footerleft > span {
+    display: none;
   }
-  .section-layout > .hostmain > .introduction .whyhost > .text {
-    width: initial;
-    margin-bottom: 50px;
+}
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .about .interviewleft {
+    margin-right: 20px;
   }
-  .section-layout > .hostmain > .introduction .steptitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .introduction .steptexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .introduction .steptexts > .steptext {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .introduction .steptexts > .steptext > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .introduction .steptexts > .steptext > .minitext {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .introduction .interviewleft > .interviewtext {
+  .section-layout > .hostmain > .about .interviewleft > .interviewtext {
     font-size: 18px;
     line-height: 1.25;
-    width: 80%;
+    width: 100%;
   }
-  .section-layout > .hostmain > .introduction .interviewleft > .minitext {
+  .section-layout > .hostmain > .about .interviewleft > .minitext {
     font-size: 14px;
-    width: 80%;
+    width: 100%;
   }
-  .section-layout > .hostmain > .introduction .interviewright > img {
+  .section-layout > .hostmain > .about .interviewright > img {
     width: 350px;
     height: 350px;
   }
-  .section-layout > .hostmain > .introduction .relieftitle {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .introduction .relieftexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .introduction .relieftexts > .reliefleft {
-    width: initial;
-  }
-  .section-layout > .hostmain > .introduction .relieftexts > .reliefleft > .how {
-    margin: 10px 0px 20px 0px;
-  }
-  .section-layout > .hostmain > .introduction .exampleleft img {
+  .section-layout > .hostmain > .about .exampleleft img {
     width: 350px;
     height: 350px;
   }
-  .section-layout > .hostmain > .introduction .exampleright {
+  .section-layout > .hostmain > .about .exampleright {
     margin-top: 30px;
   }
-  .section-layout > .hostmain > .introduction .exampleright > .exampletext {
+  .section-layout > .hostmain > .about .exampleright > .exampletext {
     font-size: 18px;
     line-height: 1.25;
-    width: 80%;
+    width: 100%;
   }
-  .section-layout > .hostmain > .introduction .exampleright > .minitext {
+  .section-layout > .hostmain > .about .exampleright > .minitext {
     font-size: 14px;
-    width: 80%;
+    width: 100%;
   }
-  .section-layout > .hostmain > .introduction .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
+  .section-layout > .hostmain > .about .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
   }
-  .section-layout > .hostmain > .introduction .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
   }
-  .section-layout > .hostmain > .introduction .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
   }
-  .section-layout > .hostmain > .introduction .abouttexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .introduction .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-
-  .section-layout > .hostmain > .step {
-    margin-top: 100px;
-  }
-  .section-layout > .hostmain > .step .whyhost > .text {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .step .steptitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .step .steptexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .step .steptexts > .steptext {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .step .steptexts > .steptext > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .step .steptexts > .steptext > .minitext {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .step .interviewleft > .interviewtext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .step .interviewleft > .minitext {
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > .hostingheadline {
     font-size: 14px;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .step .interviewright > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .hostmain > .step .relieftitle {
-    font-size: 40px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-top: 5px;
+    padding-left: 10px;
   }
-  .section-layout > .hostmain > .step .relieftexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .step .relieftexts > .reliefleft {
-    width: initial;
-  }
-  .section-layout > .hostmain > .step .relieftexts > .reliefleft > .how {
-    margin: 10px 0px 20px 0px;
-  }
-  .section-layout > .hostmain > .step .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .hostmain > .step .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .hostmain > .step .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .step .exampleright > .minitext {
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > .hostingcomment {
     font-size: 14px;
-    width: 80%;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
   }
-  .section-layout > .hostmain > .step .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > .learnmore {
+    display: none;
   }
-  .section-layout > .hostmain > .step .hostdatas > .hostdata > .hostnumber {
+  .section-layout > .hostmain > .about .listingtitle {
     font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
   }
-  .section-layout > .hostmain > .step .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
+  .section-layout > .hostmain > .about .listingbtn {
+    top: 200px;
+    left: 150px;
   }
-  .section-layout > .hostmain > .step .abouttexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .step .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-
-  .section-layout > .hostmain > .relief {
-    margin-top: 100px;
-    padding: initial;
-  }
-  .section-layout > .hostmain > .relief .whyhost > .text {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .relief .steptitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .relief .steptexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .relief .steptexts > .steptext {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .relief .steptexts > .steptext > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .relief .steptexts > .steptext > .minitext {
-    margin-top: initial;
-  }
-  .section-layout > .hostmain > .relief .interviewleft > .interviewtext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .relief .interviewleft > .minitext {
-    font-size: 14px;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .relief .interviewright > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .hostmain > .relief .relieftitle {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .relief .relieftexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .relief .relieftexts > .reliefleft {
-    width: initial;
-  }
-  .section-layout > .hostmain > .relief .relieftexts > .reliefleft > .how {
-    margin: 10px 0px 20px 0px;
-  }
-  .section-layout > .hostmain > .relief .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .hostmain > .relief .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .hostmain > .relief .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .relief .exampleright > .minitext {
-    font-size: 14px;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .relief .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .relief .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .hostmain > .relief .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .hostmain > .relief .abouttexts {
-    display: initial;
-  }
-  .section-layout > .hostmain > .relief .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-
+}
+@media (max-width: 740px) and (max-width: 1130px) {
   .section-layout > .hostmain > .about .whyhost > .text {
     width: initial;
     margin-bottom: 50px;
@@ -43034,19 +43816,6 @@
   .section-layout > .hostmain > .about .steptexts > .steptext > .minitext {
     margin-top: initial;
   }
-  .section-layout > .hostmain > .about .interviewleft > .interviewtext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .about .interviewleft > .minitext {
-    font-size: 14px;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .about .interviewright > img {
-    width: 350px;
-    height: 350px;
-  }
   .section-layout > .hostmain > .about .relieftitle {
     font-size: 40px;
     font-weight: bold;
@@ -43060,22 +43829,6 @@
   }
   .section-layout > .hostmain > .about .relieftexts > .reliefleft > .how {
     margin: 10px 0px 20px 0px;
-  }
-  .section-layout > .hostmain > .about .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .hostmain > .about .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .hostmain > .about .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 80%;
-  }
-  .section-layout > .hostmain > .about .exampleright > .minitext {
-    font-size: 14px;
-    width: 80%;
   }
   .section-layout > .hostmain > .about .sharetitle {
     font-size: 35px;
@@ -43097,6 +43850,3604 @@
     width: initial;
     margin-bottom: 50px;
     padding: initial;
+  }
+  .section-layout > .hostmain > .about .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .about .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .hostmain > .hosting .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hosting .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .hosting .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .hosting .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .hosting .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .hosting .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .hosting .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .hosting .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .hosting .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hosting .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hosting .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .hosting .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hosting .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hosting .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .hosting .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hosting .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hosting .abouttitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hosting .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .hosting .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .hosting .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .hosting .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .hosting .footerleft > span {
+    display: none;
+  }
+}
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .hosting .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .hosting .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .hosting .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .hosting .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .hosting .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .hosting .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .hosting .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .hosting .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hosting .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hosting .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hosting .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hosting .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .hosting .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .hosting .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hosting .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hosting .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .hosting .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .hosting .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hosting .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .hosting .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hosting .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hosting .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .hosting .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hosting .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 740px) {
+  .section-layout > .lodginglinks {
+    display: none;
+  }
+}
+@media (max-width: 740px) {
+  .section-layout > .topfooters {
+    margin-top: 80px;
+    border-top: initial;
+  }
+}
+@media (max-width: 740px) and (max-width: 740px) {
+  .section-layout > .topfooters .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .topfooters .miniform {
+    display: initial;
+  }
+  .section-layout > .topfooters .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .topfooters .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .topfooters .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .topfooters .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .topfooters .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .topfooters .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .topfooters .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .topfooters .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .topfooters .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .topfooters .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .topfooters .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .topfooters .steptitle {
+    text-align: left;
+  }
+  .section-layout > .topfooters .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .topfooters .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .topfooters .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .topfooters .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .topfooters .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .topfooters .hostdatas {
+    display: initial;
+  }
+  .section-layout > .topfooters .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .topfooters .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .topfooters .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .topfooters .abouttitle {
+    text-align: left;
+  }
+  .section-layout > .topfooters .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .topfooters .hostinglists {
+    display: initial;
+  }
+  .section-layout > .topfooters .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .topfooters .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .topfooters .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .topfooters .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .topfooters .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .topfooters .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .topfooters .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .topfooters .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .topfooters .footerleft > span {
+    display: none;
+  }
+}
+@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .topfooters .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .topfooters .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .topfooters .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .topfooters .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .topfooters .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .topfooters .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .topfooters .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .topfooters .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .topfooters .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .topfooters .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .topfooters .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .topfooters .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .topfooters .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .topfooters .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .topfooters .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .topfooters .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (max-width: 740px) and (max-width: 1130px) {
+  .section-layout > .topfooters .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .topfooters .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .topfooters .steptexts {
+    display: initial;
+  }
+  .section-layout > .topfooters .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .topfooters .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .topfooters .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .topfooters .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .topfooters .relieftexts {
+    display: initial;
+  }
+  .section-layout > .topfooters .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .topfooters .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .topfooters .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .topfooters .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .topfooters .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .topfooters .abouttexts {
+    display: initial;
+  }
+  .section-layout > .topfooters .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .topfooters .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .topfooters .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostbackground {
+    height: 275px;
+  }
+
+  .section-layout > .hostmain {
+    padding: 0px 15vw;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .hostmain > .interview .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .interview .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .interview .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .interview .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .interview .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .interview .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .interview .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .interview .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .interview .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .interview .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .interview .abouttitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .interview .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .interview .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .interview .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .interview .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .interview .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .interview .footerleft > span {
+    display: none;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .interview .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .interview .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .interview .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .interview .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .interview .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .interview .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .interview .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .interview .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .interview .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .interview .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .interview .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .interview .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .interview .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .interview .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .hostmain > .example .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .example .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .example .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .example .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .example .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .example .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .example .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .example .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .example .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .example .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .example .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .example .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .example .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .example .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .example .abouttitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .example .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .example .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .example .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .example .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .example .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .example .footerleft > span {
+    display: none;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .example .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .example .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .example .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .example .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .example .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .example .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .example .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .example .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .example .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .example .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .example .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .example .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .example .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .example .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .example .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .hostmain > .hostshare .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .hostshare .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .hostshare .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .hostshare .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .hostshare .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .hostshare .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .hostshare .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .hostshare .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hostshare .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hostshare .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .hostshare .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hostshare .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .hostshare .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hostshare .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hostshare .abouttitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hostshare .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .hostshare .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .hostshare .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .hostshare .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .hostshare .footerleft > span {
+    display: none;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .hostshare .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .hostshare .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .hostshare .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .hostshare .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .hostshare .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .hostshare .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .hostshare .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .hostshare .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .hostshare .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .hostshare .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .hostshare .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .hostshare .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .hostshare .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .hostshare .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .hostshare .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .hostmain > .hosting .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hosting .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .hosting .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .hosting .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .hosting .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .hosting .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .hosting .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .hosting .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .hosting .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hosting .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hosting .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .hosting .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hosting .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hosting .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .hosting .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hosting .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hosting .abouttitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hosting .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .hosting .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .hosting .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .hosting .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .hosting .footerleft > span {
+    display: none;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .hosting .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .hosting .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .hosting .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .hosting .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .hosting .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .hosting .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .hosting .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .hosting .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .hosting .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hosting .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hosting .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hosting .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hosting .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .hosting .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .hosting .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hosting .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hosting .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .hosting .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .hosting .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hosting .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .hosting .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hosting .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hosting .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .hosting .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hosting .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1130px) {
+  .section-layout > .hostheader {
+    display: none;
+  }
+
+  .section-layout > .hostbackground > .form {
+    display: none;
+  }
+
+  .section-layout > .hostmain > .introduction {
+    display: initial;
+  }
+}
+@media (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .hostmain > .introduction .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .introduction .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .introduction .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .introduction .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .introduction .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .introduction .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .introduction .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .introduction .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .introduction .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .introduction .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .introduction .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .introduction .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .introduction .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .introduction .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .introduction .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .introduction .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .introduction .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .introduction .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .introduction .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .introduction .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .introduction .abouttitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .introduction .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .introduction .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .introduction .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .introduction .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .introduction .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .introduction .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .introduction .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .introduction .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .introduction .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .introduction .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .introduction .footerleft > span {
+    display: none;
+  }
+}
+@media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .introduction .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .introduction .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .introduction .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .introduction .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .introduction .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .introduction .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .introduction .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .introduction .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .introduction .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .introduction .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .introduction .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .introduction .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .introduction .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .introduction .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .introduction .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .introduction .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .introduction .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .introduction .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .introduction .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .introduction .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .introduction .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .introduction .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .introduction .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .introduction .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .introduction .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .introduction .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1130px) {
+  .section-layout > .hostmain > .step {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .hostmain > .step .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .step .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .step .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .step .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .step .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .step .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .step .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .step .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .step .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .step .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .step .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .step .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .step .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .step .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .step .abouttitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .step .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .step .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .step .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .step .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .step .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .step .footerleft > span {
+    display: none;
+  }
+}
+@media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .step .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .step .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .step .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .step .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .step .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .step .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .step .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .step .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .step .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .step .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .step .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .step .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .step .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .step .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .step .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1130px) {
+  .section-layout > .hostmain > .relief {
+    margin-top: 100px;
+    padding: initial;
+  }
+}
+@media (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .hostmain > .relief .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .relief .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .relief .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .relief .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .relief .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .relief .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .relief .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .relief .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .relief .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .relief .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .relief .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .relief .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .relief .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .relief .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .relief .abouttitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .relief .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .relief .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .relief .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .relief .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .relief .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .relief .footerleft > span {
+    display: none;
+  }
+}
+@media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .relief .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .relief .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .relief .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .relief .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .relief .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .relief .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .relief .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .relief .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .relief .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .relief .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .relief .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .relief .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .relief .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .relief .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .relief .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .hostmain > .about .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .about .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .about .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .about .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .about .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .about .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .about .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .about .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .about .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .about .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .about .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .about .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .about .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .about .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .about .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .about .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .about .abouttitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .about .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .about .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .about .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .about .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .about .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .about .footerleft > span {
+    display: none;
+  }
+}
+@media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .about .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .about .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .about .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .about .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .about .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .about .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .about .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .about .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .about .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .about .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .about .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .about .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .about .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .about .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .about .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .about .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .about .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .about .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .about .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .about .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .about .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .about .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .about .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .about .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .about .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .hostmain > .question .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .question .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .question .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .question .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .question .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .question .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .question .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .question .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .question .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .question .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .question .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .question .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .question .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .question .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .question .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .question .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .question .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .question .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .question .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .question .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .question .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .question .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .question .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .question .abouttitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .question .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .question .hostinglists {
+    display: initial;
+  }
+  .section-layout > .hostmain > .question .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .hostmain > .question .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .hostmain > .question .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .hostmain > .question .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .hostmain > .question .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .question .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .hostmain > .question .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .hostmain > .question .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .hostmain > .question .footerleft > span {
+    display: none;
+  }
+}
+@media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .question .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .hostmain > .question .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .question .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .question .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .question .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .question .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .question .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .question .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .question .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .question .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .hostmain > .question .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .hostmain > .question .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .question .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .hostmain > .question .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .hostmain > .question .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .hostmain > .question .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .hostmain > .question .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .question .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .question .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .question .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .question .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .question .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .question .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .question .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .question .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .question .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .question .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .question .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .question .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .question .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .question .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .hostmain > .question .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .question .question-nav > li {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1130px) {
+  .section-layout > .listing {
+    padding: initial;
+  }
+}
+@media (max-width: 1130px) and (max-width: 740px) {
+  .section-layout > .listing .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .listing .miniform {
+    display: initial;
+  }
+  .section-layout > .listing .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .listing .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .listing .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .listing .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .listing .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .listing .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .listing .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .listing .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .listing .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .listing .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .listing .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .listing .steptitle {
+    text-align: left;
+  }
+  .section-layout > .listing .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .listing .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .listing .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .listing .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .listing .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .listing .hostdatas {
+    display: initial;
+  }
+  .section-layout > .listing .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .listing .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .listing .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .listing .abouttitle {
+    text-align: left;
+  }
+  .section-layout > .listing .questiontitle {
+    text-align: left;
+  }
+  .section-layout > .listing .hostinglists {
+    display: initial;
+  }
+  .section-layout > .listing .hostinglists > .hostinglist {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+  .section-layout > .listing .hostinglists > .hostinglist > img {
+    width: 75px;
+    height: 75px;
+  }
+  .section-layout > .listing .hostinglists > .hostinglist > .hostingheadline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .section-layout > .listing .hostinglists > .hostinglist > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+  }
+  .section-layout > .listing .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .listing .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+  .section-layout > .listing .listingbtn {
+    left: 50px;
+    top: 200px;
+  }
+  .section-layout > .listing .footerright > .sns {
+    display: none;
+  }
+  .section-layout > .listing .footerleft > span {
+    display: none;
+  }
+}
+@media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .listing .interviewleft {
+    margin-right: 20px;
+  }
+  .section-layout > .listing .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .listing .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .listing .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .listing .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .listing .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .listing .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .listing .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .listing .hostinglists {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-layout > .listing .hostinglists > .hostinglist {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+  .section-layout > .listing .hostinglists > .hostinglist > img {
+    width: 200px;
+    height: 100px;
+  }
+  .section-layout > .listing .hostinglists > .hostinglist > .hostingheadline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  .section-layout > .listing .hostinglists > .hostinglist > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+  .section-layout > .listing .hostinglists > .hostinglist > .learnmore {
+    display: none;
+  }
+  .section-layout > .listing .listingtitle {
+    font-size: 40px;
+    width: 310px;
+    left: 150px;
+    top: 100px;
+  }
+  .section-layout > .listing .listingbtn {
+    top: 200px;
+    left: 150px;
+  }
+}
+@media (max-width: 1130px) and (max-width: 1130px) {
+  .section-layout > .listing .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .listing .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .listing .steptexts {
+    display: initial;
+  }
+  .section-layout > .listing .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .listing .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .listing .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .listing .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .listing .relieftexts {
+    display: initial;
+  }
+  .section-layout > .listing .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .listing .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .listing .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .listing .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .listing .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .listing .abouttexts {
+    display: initial;
+  }
+  .section-layout > .listing .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+  .section-layout > .listing .questiontitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .listing .question-nav > li {
+    width: 100%;
+    font-size: 15px;
   }
 }
 @media (min-width: 1130px) {

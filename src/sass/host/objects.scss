@@ -153,7 +153,6 @@
 
 // シェアデータ
 .section-layout > .hostmain > .hostshare{
-  height:400px;
   margin-top:100px;
   color:$light-black;
   @import "components";
@@ -167,7 +166,6 @@
 
 // よくある質問
 .section-layout > .hostmain > .question{
-  height:400px;
   @import "components";
 }
 // ホスティング
@@ -176,15 +174,16 @@
   color:$light-black;  
 }
 // リスティング
-.section-layout > .hostmain > .listing{
+.section-layout > .listing{
   margin-top:50px;
   position: relative;
+  padding:0px 3vw;
   @import "components";
 }
 // リンク集
 .section-layout >.lodginglinks{
-  margin:0 auto;
-  width:60%;
+  margin:100px auto;
+  max-width:1200px;
   display: flex;
   @import "components";
   margin-bottom:20px;
@@ -195,7 +194,7 @@
   padding:15px 0px 70px 0px;
   border-top: solid 1px $bodergray;
   color:$gray-76;
-  width:60%;
+  max-width:1100px;
   height:auto;
   font-weight: bold;
   font-size:17px;

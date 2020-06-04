@@ -14,7 +14,7 @@
  // 入力フォーム貸し切り&ゲスト横展開解除
   .section-layout > .responsiveform{
     width:90%;
-    @import "responsive-components(~width740px)";
+    @import "responsive-components";
   }
   // メインページ余白変更
   .section-layout > .hostmain{
@@ -23,30 +23,44 @@
   // インタビュー
   .section-layout > .hostmain >.interview{
 	  flex-direction: column-reverse;
-    @import "responsive-components(~width740px)";
+    @import "responsive-components";
   }
   // ステップ
   .section-layout > .hostmain > .step{
-    @import "responsive-components(~width740px)"; 
+    @import "responsive-components";
   }
    // 安心
   .section-layout > .hostmain > .relief {
     margin-top:100px;
     padding:initial;
-    @import "responsive-components(~width740px)";
+    @import "responsive-components";
   }
    // 実践例
    .section-layout > .hostmain >.example{
     display:initial;
-    @import "responsive-components(~width740px)";
+    @import "responsive-components";
   }
   // シェアデータ
   .section-layout > .hostmain > .hostshare{
-    @import "responsive-components(~width740px)";
+    @import "responsive-components";
   }
    // Airbnbについて
    .section-layout > .hostmain > .about{
-    @import "responsive-components(~width740px)";
+    @import "responsive-components";
+  }
+  // ホスティング
+  .section-layout > .hostmain > .hosting{
+    @import "responsive-components";
+  }
+  // リンク集
+  .section-layout >.lodginglinks{
+    display:none;
+  }
+  // フッター
+  .section-layout > .topfooters{
+    margin-top:80px;
+    border-top:initial;
+    @import "responsive-components";
   }
 }
 
@@ -74,6 +88,10 @@
   }
   // シェアデータ
   .section-layout > .hostmain > .hostshare{
+    @import "responsive-components";
+  }
+  // ホスティング
+  .section-layout > .hostmain > .hosting{
     @import "responsive-components";
   }
 }
@@ -110,6 +128,14 @@
   }
   // Airbnbについて
   .section-layout > .hostmain > .about{
+    @import "responsive-components";
+  }
+  .section-layout > .hostmain > .question{
+    @import "responsive-components";
+  }
+   // リスティング
+   .section-layout > .listing{
+    padding:initial;
     @import "responsive-components";
   }
 }

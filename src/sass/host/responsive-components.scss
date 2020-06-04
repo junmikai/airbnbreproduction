@@ -1,102 +1,340 @@
-// 冒頭説明/なぜの広さ制限解除(~1300px)
-.whyhost >.text{
-  width:initial;
-  margin-bottom:50px;
-}
+@media (max-width: 740px){
+  // width740px以下入力フォーム/住所
+  .responsiveaddress{
+    margin-bottom:10px;
+    height:30px;
+    border:solid 1px $bodergray;
+    font-size:14px;
+    font-weight: bold;
+    width:100%;
+  }
+  // width740px以下入力フォーム/貸し切り&ゲスト人数
+  .miniform{
+    display:initial;
+    >.responsivecharter{
+      position: relative;
+      width:100%;
+      margin-bottom:10px;
+      > input{
+        height:30px;
+        font-size:14px;
+        width:100%;
+        border:solid 1px $bodergray;
+      }
+      >.fas {
+        position: absolute;
+        top:5px;
+        right:5px;
+        font-size:25px;
+      }
+    }
+    >.responsiveguestpeople{
+      position: relative;
+      width:100%;
+      > input{
+        height:30px;
+        font-size:14px;
+        width:100%;
+        border:solid 1px $bodergray;
+      }
+      >.fas {
+        position: absolute;
+        top:5px;
+        right:5px;
+        font-size:25px;
+      }
+    }
+  }
 
-// ステップ/タイトル文字サイズ(~1300px)
-.steptitle{
-  font-size:35px;
-  font-weight: bold;
-  margin-bottom:50px;
-}
-// ステップの横並び解除(~1300px)
-.steptexts{
-  display: initial;
-  >.steptext{
-    width:initial;
-    margin-bottom:50px;
-    >.minititle{
-      margin-top:initial;
+  // インタビュー左側
+  .interviewleft{
+    width:100%;
+    > .interviewicon{
+      font-size:10px;
+    }
+    >.interviewtext{
+      font-size:18px;
+      line-height:1.25;
+      width:100%;
+    }
+    > .minitext{
+      font-size:14px;
+      width:100%;
+    }
+  }
+  // インタビュー右画像サイズ縮小
+  .interviewright > img{
+    width: initial; 
+    height: initial;
+    max-width:700px;
+    max-height:700px;
+  }
+  // ステップタイトル左揃え
+  .steptitle{
+    text-align:left;
+  }
+  // 安心タイトル左揃え
+  .relieftitle{
+    text-align:left;
+  }
+  // 実施例画像サイズ
+  .exampleleft > img{
+    width: initial; 
+    height: initial;
+    max-width:700px;
+    max-height:700px;
+  }
+  // 実施例左テキスト
+  .exampleright{
+    >.exampletext{
+      font-size:18px;
+      line-height:1.25;
+      width:100%;
     }
     >.minitext{
-      margin-top:initial;
+      font-size:14px;
+      width:100%;
     }
   }
-}
-// インタビュー左側(741~1300px)
-.interviewleft{
-  >.interviewtext{
-    font-size:18px;
-    line-height:1.25;
-    width:80%;
+  // シェアデータ/タイトル文字サイズ
+  .sharetitle{
+    font-size:37px;
+    font-weight: bold;
+    margin-bottom:50px;
+    text-align: left;
   }
-  > .minitext{
-    font-size:14px;
-    width:80%;
+  // シェアデータ/数字サイズ
+  .hostdatas{
+    display: initial;
+    > .hostdata{
+      width:initial;
+      > .hostnumber{
+      font-size:40px;
+      text-align: left;
+      } 
+      > .numbercomment{
+      text-align: left;
+      }
+    }
+  } 
+  // ステップタイトル左揃え
+  .abouttitle{
+    text-align:left;
   }
-}
-// インタビュー右画像サイズ縮小(741~1300px)
-.interviewright > img{
-  width: 350px; 
-  height: 350px;
-}
-
-// 安心/タイトル文字サイズ(~1300px)
-.relieftitle{
-  font-size:40px;
-  font-weight: bold;
-  margin-bottom:50px;
-}
-// 安心の横並び解除(~1300px)
-.relieftexts{
-  display: initial;
-  >.reliefleft{
-    width:initial;
-    >.how{
-      margin:10px 0px 20px 0px;
+   // ステップタイトル左揃え
+   .questiontitle{
+    text-align:left;
+  }
+  // ホスティング/文字
+  .hostinglists{
+    display:initial;
+    >.hostinglist{
+      display: flex;
+      position: relative;
+      margin-bottom:20px;
+      box-shadow:$black-shadow;
+      > img{
+        width:75px;
+        height:75px;
+      }
+      >.hostingheadline{
+        padding-left:10px;
+        font-size:14px;
+      }
+      >.hostingcomment{
+        position: absolute;
+        top:35px;
+        left:85px;
+      }
+      >.learnmore{
+        display: none;
+      }
     }
   }
+   // リスティングタイトル
+   .listingtitle{
+    font-size:40px;
+    left:50px;
+    top:100px;
+    width:300px;
+  }
+  // リスティングボタン
+  .listingbtn{
+    left:50px;
+    top:200px;
+  }
+  .footerright{
+    >.sns{
+      display:none;
+    }
+  }
+  .footerleft > span{
+    display: none;
+  }
 }
 
-// 実施例画像サイズ縮小(741~1300px)
-.exampleleft img{
-  width: 350px; 
-  height: 350px;
-}
-// 実施例右
-.exampleright{
-  margin-top:30px;
-  >.exampletext{
-    font-size:18px;
-    line-height:1.25;
-    width:80%;
+
+
+@media (min-width:741px) and (max-width: 1130px){
+  // インタビュー左側
+  .interviewleft{
+    margin-right:20px;
+    >.interviewtext{
+      font-size:18px;
+      line-height:1.25;
+      width:100%;
+    }
+    > .minitext{
+      font-size:14px;
+      width:100%;
+    }
   }
-  >.minitext{
-    font-size:14px;
-    width:80%;
+  // インタビュー右画像サイズ縮小
+  .interviewright > img{
+    width: 350px; 
+    height: 350px;
+  }
+  // 実施例画像サイズ縮小
+  .exampleleft img{
+    width: 350px; 
+    height: 350px;
+  }
+  // 実施例右
+  .exampleright{
+    margin-top:30px;
+    >.exampletext{
+      font-size:18px;
+      line-height:1.25;
+      width:100%;
+    }
+    >.minitext{
+      font-size:14px;
+      width:100%;
+    }
+  }
+  
+  // ホスティング/文字
+  .hostinglists{
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    >.hostinglist{
+      margin:0px 10px;
+      box-shadow:$black-shadow;
+      padding-bottom:10px;
+      > img{
+        width:200px;
+        height:100px;
+      }
+      >.hostingheadline{
+        font-size:14px;
+        font-weight: bold;
+        margin-top:5px;
+        padding-left:10px;
+      }
+      >.hostingcomment{
+        font-size:14px;
+        margin-top:10px;
+        padding-left:10px;
+        width:180px;
+      }
+      >.learnmore{
+        display: none;
+      }
+    }
+  }
+  // リスティングタイトル
+  .listingtitle{
+    font-size:40px;
+    width:310px;
+    left:150px;
+    top:100px;
+  }
+  // リスティングボタン
+  .listingbtn{
+    top:200px;
+    left:150px;
   }
 }
-// シェアデータ/タイトル文字サイズ(~1300px)
-.sharetitle{
-  font-size:35px;
-  font-weight: bold;
-  margin-bottom:50px;
-}
-// シェアデータ/数字サイズ(~1300px)
-.hostdatas > .hostdata > .hostnumber{
-  font-size:40px;
-}
-.abouttitle{
-  font-size:35px;
-  font-weight: bold;
-  margin-bottom:50px;
-}
-.abouttexts{
-  display: initial;
-  .abouttext{
+
+
+
+@media(max-width: 1130px){
+  // 冒頭説明/なぜの広さ制限解除
+  .whyhost >.text{
     width:initial;
     margin-bottom:50px;
-    padding:initial;
+  }
+  // ステップ/タイトル文字サイズ
+  .steptitle{
+    font-size:35px;
+    font-weight: bold;
+    margin-bottom:50px;
+  }
+  // ステップの横並び解除
+  .steptexts{
+    display: initial;
+    >.steptext{
+      width:initial;
+      margin-bottom:50px;
+      >.minititle{
+        margin-top:initial;
+      }
+      >.minitext{
+        margin-top:initial;
+      }
+    }
+  }
+  // 安心/タイトル文字サイズ
+  .relieftitle{
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom:50px;
+  }
+  // 安心の横並び解除
+  .relieftexts{
+    display: initial;
+    >.reliefleft{
+      width:initial;
+      >.how{
+        margin:10px 0px 20px 0px;
+      }
+    }
+  }
+  // シェアデータ/タイトル文字サイズ
+  .sharetitle{
+    font-size:35px;
+    font-weight: bold;
+    margin-bottom:50px;
+  }
+  // シェアデータ/数字サイズ
+  .hostdatas > .hostdata > .hostnumber{
+    font-size:40px;
+  }
+  // Airbnbについてタイトル
+  .abouttitle{
+    font-size:35px;
+    font-weight: bold;
+    margin-bottom:50px;
+  }
+  // Airbnbについてテキスト
+  .abouttexts{
+    display: initial;
+    .abouttext{
+      width:initial;
+      margin-bottom:50px;
+      padding:initial;
+    }
+  }
+  // よくある質問タイトル
+  .questiontitle{
+    font-size:35px;
+    font-weight: bold;
+    margin-bottom:50px;
+  }
+// よくある質問文字
+  .question-nav > li{
+    width:100%;
+    font-size:15px;
   }
 }

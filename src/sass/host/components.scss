@@ -373,12 +373,17 @@
   font-size:25px;
   font-weight: bold;
   margin:50px 0px;
+  text-align: center;
 }
 // ホスティング/文字
 .hostinglists{
   display:flex;
   >.hostinglist{
     margin:0px 5px;
+    > img{
+      width:333px;
+      height:171px;
+    }
     >.hostingheadline{
       font-size:17px;
       font-weight: bold;
@@ -421,10 +426,11 @@
 }
 // リンク集
 .link-nav{
-  width:25%;
+  padding:0px 1vw;
   font-size:14px;
   list-style: none; 
   font-weight: bold;
+  margin:0 auto;
   >.linktitle{
     color:$light-black;
     margin-bottom:20px;
