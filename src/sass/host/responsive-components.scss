@@ -1,0 +1,47 @@
+.responsiveaddress{
+  width:100%;
+  margin-bottom:10px;
+  height:30px;
+  border:solid 1px $bodergray;
+  font-size:14px;
+  font-weight: bold;
+  padding-left:10px;
+}
+.miniform{
+  display:initial;
+  >.responsivecharter{
+    position: relative;
+    width:100%;
+    margin-bottom:10px;
+    > input{
+      height:30px;
+      font-size:14px;
+      width:100%;
+      border:solid 1px $bodergray;
+      padding-left:10px;
+    }
+    >.fas {
+      position: absolute;
+      top:5px;
+      right:5px;
+      font-size:25px;
+    }
+  }
+  >.responsiveguestpeople{
+    position: relative;
+    width:100%;
+    > input{
+      height:30px;
+      font-size:14px;
+      width:100%;
+      border:solid 1px $bodergray;
+      padding-left:10px;
+    }
+    >.fas {
+      position: absolute;
+      top:5px;
+      right:5px;
+      font-size:25px;
+    }
+  }
+}

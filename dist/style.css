@@ -35018,6 +35018,7 @@
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostheader > .miniform {
   display: flex;
@@ -35033,6 +35034,7 @@
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostheader .miniform > .charter > .fas {
   position: absolute;
@@ -35048,6 +35050,7 @@
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostheader .miniform > .guestpeople > .fas {
   position: absolute;
@@ -35060,11 +35063,59 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF5A5F;
+  background-color: #E61E4D;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin: 30px 0px;
   line-height: 50px;
+}
+.section-layout > .hostheader .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .hostheader .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostheader .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .hostheader .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostheader .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .hostheader .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .hostheader .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostheader .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
 }
 .section-layout > .hostheader .whyhost {
   padding: 0px 20px;
@@ -35375,7 +35426,7 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #f73131;
+  background-color: #E61E4D;
   width: 90px;
   height: 35px;
   line-height: 35px;
@@ -35431,6 +35482,7 @@
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostbackground > .form > .miniform {
   display: flex;
@@ -35446,6 +35498,7 @@
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostbackground > .form .miniform > .charter > .fas {
   position: absolute;
@@ -35461,6 +35514,7 @@
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostbackground > .form .miniform > .guestpeople > .fas {
   position: absolute;
@@ -35473,11 +35527,59 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF5A5F;
+  background-color: #E61E4D;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin: 30px 0px;
   line-height: 50px;
+}
+.section-layout > .hostbackground > .form .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .hostbackground > .form .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostbackground > .form .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .hostbackground > .form .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostbackground > .form .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .hostbackground > .form .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .hostbackground > .form .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostbackground > .form .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
 }
 .section-layout > .hostbackground > .form .whyhost {
   padding: 0px 20px;
@@ -35811,7 +35913,441 @@
 .section-layout > .hostmain {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 30px;
+  padding: 20px 30px 100px 30px;
+}
+
+.section-layout > .hostmain > .responsiveform {
+  /*フッター左側*/
+  /*フッター右側*/
+}
+.section-layout > .hostmain > .responsiveform .headerleft {
+  display: flex;
+  padding-left: 30px;
+}
+.section-layout > .hostmain > .responsiveform .headerleft > p {
+  margin-right: 30px;
+  font-size: 14px;
+}
+.section-layout > .hostmain > .responsiveform .headerleft > p > .fab {
+  font-size: 35px;
+  line-height: 2.25;
+  color: #01999e;
+}
+.section-layout > .hostmain > .responsiveform > .formtitle {
+  font-size: 38px;
+}
+.section-layout > .hostmain > .responsiveform > .fillin {
+  color: #3f3f3f;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.section-layout > .hostmain > .responsiveform > .addressform {
+  margin-top: 30px;
+  width: 95%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostmain > .responsiveform > .miniform {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.section-layout > .hostmain > .responsiveform .miniform > .charter {
+  position: relative;
+}
+.section-layout > .hostmain > .responsiveform .miniform > .charter > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 35px;
+  margin-right: 15px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostmain > .responsiveform .miniform > .charter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .responsiveform .miniform > .guestpeople {
+  position: relative;
+}
+.section-layout > .hostmain > .responsiveform .miniform > .guestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  width: 88%;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostmain > .responsiveform .miniform > .guestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .responsiveform .startbtn {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #E61E4D;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0px;
+  line-height: 50px;
+}
+.section-layout > .hostmain > .responsiveform .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .hostmain > .responsiveform .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostmain > .responsiveform .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .hostmain > .responsiveform .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .responsiveform .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .responsiveform .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .hostmain > .responsiveform .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .responsiveform .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .responsiveform .whyhost {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .responsiveform .whyhost > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .responsiveform .whyhost > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .responsiveform .warranty {
+  padding: 0px 20px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .responsiveform .warranty > .title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .responsiveform .warranty > .text {
+  width: 85%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .responsiveform .warranty > .text {
+  width: 100%;
+}
+.section-layout > .hostmain > .responsiveform .steptitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .responsiveform .steptexts {
+  display: flex;
+}
+.section-layout > .hostmain > .responsiveform .steptexts > .steptext {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+}
+.section-layout > .hostmain > .responsiveform .steptexts > .steptext .far {
+  font-size: 50px;
+}
+.section-layout > .hostmain > .responsiveform .steptexts > .steptext .minititle {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .responsiveform .steptexts > .steptext .minitext {
+  font-size: 17px;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .responsiveform .steptexts > .steptext .green {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .responsiveform .interviewleft {
+  width: 43%;
+  margin-right: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .responsiveform .interviewleft > .interviewtext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .responsiveform .interviewleft > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .responsiveform .interviewleft > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .responsiveform .relieftitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-layout > .hostmain > .responsiveform .relieftexts {
+  display: flex;
+  justify-content: space-between;
+}
+.section-layout > .hostmain > .responsiveform .relieftexts > .reliefleft {
+  width: 400px;
+  line-height: 1.75;
+  margin-right: 50px;
+  color: #606060;
+  margin: 10px 0px 0px 0px;
+}
+.section-layout > .hostmain > .responsiveform .relieftexts > .reliefleft > .how {
+  color: #01999e;
+  padding-top: 10px;
+}
+.section-layout > .hostmain > .responsiveform .relieftexts > .reliefright {
+  margin-right: 150px;
+}
+.section-layout > .hostmain > .responsiveform .relieftexts > .reliefright > .relieftext {
+  display: flex;
+}
+.section-layout > .hostmain > .responsiveform .relieftexts > .reliefright > .relieftext .fas {
+  color: #01999e;
+  font-size: 18px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+.section-layout > .hostmain > .responsiveform .exampleright {
+  margin-left: 50px;
+  color: #606060;
+}
+.section-layout > .hostmain > .responsiveform .exampleright > .exampletext {
+  font-size: 33px;
+  line-height: 1.25;
+}
+.section-layout > .hostmain > .responsiveform .exampleright > .minitext {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+.section-layout > .hostmain > .responsiveform .exampleright > .checkbtn {
+  margin-top: 10px;
+  color: #3f3f3f;
+  margin: 20px 0px;
+  border: #3f3f3f solid 2px;
+  border-radius: 5px;
+  width: 180px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .responsiveform .sharetitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .responsiveform .hostdatas {
+  display: flex;
+}
+.section-layout > .hostmain > .responsiveform .hostdatas > .hostdata {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+  text-align: center;
+}
+.section-layout > .hostmain > .responsiveform .hostdatas > .hostdata > .hostnumber {
+  font-size: 55px;
+}
+.section-layout > .hostmain > .responsiveform .hostdatas > .hostdata > .numbercomment {
+  text-align: center;
+}
+.section-layout > .hostmain > .responsiveform .abouttitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .responsiveform .abouttexts {
+  display: flex;
+}
+.section-layout > .hostmain > .responsiveform .abouttexts > .abouttext {
+  width: 37.5%;
+  line-height: 1.75;
+  padding: 0px 30px;
+}
+.section-layout > .hostmain > .responsiveform .abouttexts > .abouttext > .aboutheadline {
+  font-size: 22px;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .responsiveform .abouttexts > .abouttext > .aboutexplanation {
+  font-size: 15px;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .responsiveform .abouttexts > .abouttext > .green {
+  color: #01999e;
+  padding-top: 20px;
+}
+.section-layout > .hostmain > .responsiveform .questiontitle {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+  color: #3f3f3f;
+}
+.section-layout > .hostmain > .responsiveform .question-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-layout > .hostmain > .responsiveform .question-nav > li {
+  width: 48%;
+  list-style: none;
+  font-size: 18px;
+  color: #01999e;
+  padding: 30px 0px;
+  margin: 0px 10px;
+  border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .hostmain > .responsiveform .hostingtitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+.section-layout > .hostmain > .responsiveform .hostinglists {
+  display: flex;
+}
+.section-layout > .hostmain > .responsiveform .hostinglists > .hostinglist {
+  margin: 0px 5px;
+}
+.section-layout > .hostmain > .responsiveform .hostinglists > .hostinglist > .hostingheadline {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .hostmain > .responsiveform .hostinglists > .hostinglist > .hostingcomment {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-layout > .hostmain > .responsiveform .hostinglists > .hostinglist > .learnmore {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #01999e;
+}
+.section-layout > .hostmain > .responsiveform .listingtitle {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-size: 63px;
+  font-weight: bold;
+  color: #fff;
+  width: 390px;
+}
+.section-layout > .hostmain > .responsiveform .listingbtn {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  color: #3f3f3f;
+  background-color: #fff;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+}
+.section-layout > .hostmain > .responsiveform .link-nav {
+  width: 25%;
+  font-size: 14px;
+  list-style: none;
+  font-weight: bold;
+}
+.section-layout > .hostmain > .responsiveform .link-nav > .linktitle {
+  color: #3f3f3f;
+  margin-bottom: 20px;
+}
+.section-layout > .hostmain > .responsiveform .link-nav > li {
+  color: #767676;
+  margin-bottom: 7px;
+}
+.section-layout > .hostmain > .responsiveform .link-nav > li > span {
+  font-size: 12px;
+  color: #fff;
+  background-color: #006a70;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 5px;
+}
+.section-layout > .hostmain > .responsiveform .fab {
+  font-size: 25px;
+  margin-right: 3px;
+  line-height: 1.5;
+}
+.section-layout > .hostmain > .responsiveform .footerleft {
+  font-size: 13px;
+}
+.section-layout > .hostmain > .responsiveform .footerleft > span {
+  padding: 0px 8px;
+}
+.section-layout > .hostmain > .responsiveform .footerright {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+}
+.section-layout > .hostmain > .responsiveform .footerright > .sns {
+  letter-spacing: 10px;
+  position: absolute;
+  right: 0px;
+}
+.section-layout > .hostmain > .responsiveform .footerright > .sns > .fab {
+  font-size: 17px;
 }
 
 .section-layout > .hostmain > .introduction {
@@ -35847,6 +36383,7 @@
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .introduction > .miniform {
   display: flex;
@@ -35862,6 +36399,7 @@
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .introduction .miniform > .charter > .fas {
   position: absolute;
@@ -35877,6 +36415,7 @@
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .introduction .miniform > .guestpeople > .fas {
   position: absolute;
@@ -35889,11 +36428,59 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF5A5F;
+  background-color: #E61E4D;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin: 30px 0px;
   line-height: 50px;
+}
+.section-layout > .hostmain > .introduction .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .hostmain > .introduction .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostmain > .introduction .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .hostmain > .introduction .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .introduction .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .introduction .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
 }
 .section-layout > .hostmain > .introduction .whyhost {
   padding: 0px 20px;
@@ -36233,6 +36820,7 @@
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .step > .miniform {
   display: flex;
@@ -36248,6 +36836,7 @@
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .step .miniform > .charter > .fas {
   position: absolute;
@@ -36263,6 +36852,7 @@
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .step .miniform > .guestpeople > .fas {
   position: absolute;
@@ -36275,11 +36865,59 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF5A5F;
+  background-color: #E61E4D;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin: 30px 0px;
   line-height: 50px;
+}
+.section-layout > .hostmain > .step .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .hostmain > .step .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostmain > .step .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .hostmain > .step .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .step .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .step .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .hostmain > .step .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .step .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
 }
 .section-layout > .hostmain > .step .whyhost {
   padding: 0px 20px;
@@ -36618,6 +37256,7 @@
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .interview > .miniform {
   display: flex;
@@ -36633,6 +37272,7 @@
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .interview .miniform > .charter > .fas {
   position: absolute;
@@ -36648,6 +37288,7 @@
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .interview .miniform > .guestpeople > .fas {
   position: absolute;
@@ -36660,11 +37301,59 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF5A5F;
+  background-color: #E61E4D;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin: 30px 0px;
   line-height: 50px;
+}
+.section-layout > .hostmain > .interview .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .hostmain > .interview .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostmain > .interview .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .hostmain > .interview .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .interview .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .interview .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .hostmain > .interview .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .interview .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
 }
 .section-layout > .hostmain > .interview .whyhost {
   padding: 0px 20px;
@@ -37004,6 +37693,7 @@
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .relief > .miniform {
   display: flex;
@@ -37019,6 +37709,7 @@
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .relief .miniform > .charter > .fas {
   position: absolute;
@@ -37034,6 +37725,7 @@
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .relief .miniform > .guestpeople > .fas {
   position: absolute;
@@ -37046,11 +37738,59 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF5A5F;
+  background-color: #E61E4D;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin: 30px 0px;
   line-height: 50px;
+}
+.section-layout > .hostmain > .relief .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .hostmain > .relief .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostmain > .relief .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .hostmain > .relief .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .relief .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .relief .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .hostmain > .relief .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .relief .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
 }
 .section-layout > .hostmain > .relief .whyhost {
   padding: 0px 20px;
@@ -37393,6 +38133,7 @@
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .example > .miniform {
   display: flex;
@@ -37408,6 +38149,7 @@
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .example .miniform > .charter > .fas {
   position: absolute;
@@ -37423,6 +38165,7 @@
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .example .miniform > .guestpeople > .fas {
   position: absolute;
@@ -37435,11 +38178,59 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF5A5F;
+  background-color: #E61E4D;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin: 30px 0px;
   line-height: 50px;
+}
+.section-layout > .hostmain > .example .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .hostmain > .example .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostmain > .example .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .hostmain > .example .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .example .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .example .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .hostmain > .example .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .example .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
 }
 .section-layout > .hostmain > .example .whyhost {
   padding: 0px 20px;
@@ -37779,6 +38570,7 @@
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .hostshare > .miniform {
   display: flex;
@@ -37794,6 +38586,7 @@
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .hostshare .miniform > .charter > .fas {
   position: absolute;
@@ -37809,6 +38602,7 @@
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .hostshare .miniform > .guestpeople > .fas {
   position: absolute;
@@ -37821,11 +38615,59 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF5A5F;
+  background-color: #E61E4D;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin: 30px 0px;
   line-height: 50px;
+}
+.section-layout > .hostmain > .hostshare .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .hostmain > .hostshare .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostmain > .hostshare .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .hostmain > .hostshare .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .hostshare .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .hostshare .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .hostmain > .hostshare .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .hostshare .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
 }
 .section-layout > .hostmain > .hostshare .whyhost {
   padding: 0px 20px;
@@ -38164,6 +39006,7 @@
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .about > .miniform {
   display: flex;
@@ -38179,6 +39022,7 @@
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .about .miniform > .charter > .fas {
   position: absolute;
@@ -38194,6 +39038,7 @@
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .about .miniform > .guestpeople > .fas {
   position: absolute;
@@ -38206,11 +39051,59 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF5A5F;
+  background-color: #E61E4D;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin: 30px 0px;
   line-height: 50px;
+}
+.section-layout > .hostmain > .about .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .hostmain > .about .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostmain > .about .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .hostmain > .about .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .about .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .about .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .hostmain > .about .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .about .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
 }
 .section-layout > .hostmain > .about .whyhost {
   padding: 0px 20px;
@@ -38548,6 +39441,7 @@
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .question > .miniform {
   display: flex;
@@ -38563,6 +39457,7 @@
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .question .miniform > .charter > .fas {
   position: absolute;
@@ -38578,6 +39473,7 @@
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .question .miniform > .guestpeople > .fas {
   position: absolute;
@@ -38590,11 +39486,59 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF5A5F;
+  background-color: #E61E4D;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin: 30px 0px;
   line-height: 50px;
+}
+.section-layout > .hostmain > .question .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .hostmain > .question .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostmain > .question .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .hostmain > .question .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .question .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .question .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .hostmain > .question .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .question .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
 }
 .section-layout > .hostmain > .question .whyhost {
   padding: 0px 20px;
@@ -38932,6 +39876,7 @@
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .hosting > .miniform {
   display: flex;
@@ -38947,6 +39892,7 @@
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .hosting .miniform > .charter > .fas {
   position: absolute;
@@ -38962,6 +39908,7 @@
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .hosting .miniform > .guestpeople > .fas {
   position: absolute;
@@ -38974,11 +39921,59 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF5A5F;
+  background-color: #E61E4D;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin: 30px 0px;
   line-height: 50px;
+}
+.section-layout > .hostmain > .hosting .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .hostmain > .hosting .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostmain > .hosting .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .hostmain > .hosting .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .hosting .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .hosting .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .hostmain > .hosting .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .hosting .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
 }
 .section-layout > .hostmain > .hosting .whyhost {
   padding: 0px 20px;
@@ -39317,6 +40312,7 @@
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .listing > .miniform {
   display: flex;
@@ -39332,6 +40328,7 @@
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .listing .miniform > .charter > .fas {
   position: absolute;
@@ -39347,6 +40344,7 @@
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .hostmain > .listing .miniform > .guestpeople > .fas {
   position: absolute;
@@ -39359,11 +40357,59 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF5A5F;
+  background-color: #E61E4D;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin: 30px 0px;
   line-height: 50px;
+}
+.section-layout > .hostmain > .listing .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .hostmain > .listing .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .hostmain > .listing .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .hostmain > .listing .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .listing .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .hostmain > .listing .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .hostmain > .listing .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .hostmain > .listing .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
 }
 .section-layout > .hostmain > .listing .whyhost {
   padding: 0px 20px;
@@ -39704,6 +40750,7 @@
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .lodginglinks > .miniform {
   display: flex;
@@ -39719,6 +40766,7 @@
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .lodginglinks .miniform > .charter > .fas {
   position: absolute;
@@ -39734,6 +40782,7 @@
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .lodginglinks .miniform > .guestpeople > .fas {
   position: absolute;
@@ -39746,11 +40795,59 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF5A5F;
+  background-color: #E61E4D;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin: 30px 0px;
   line-height: 50px;
+}
+.section-layout > .lodginglinks .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .lodginglinks .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .lodginglinks .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .lodginglinks .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .lodginglinks .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .lodginglinks .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .lodginglinks .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .lodginglinks .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
 }
 .section-layout > .lodginglinks .whyhost {
   padding: 0px 20px;
@@ -40098,6 +41195,7 @@
   height: 40px;
   font-size: 16px;
   padding-left: 10px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .topfooters > .miniform {
   display: flex;
@@ -40113,6 +41211,7 @@
   padding-left: 10px;
   padding-right: 35px;
   margin-right: 15px;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .topfooters .miniform > .charter > .fas {
   position: absolute;
@@ -40128,6 +41227,7 @@
   font-size: 16px;
   padding-left: 10px;
   width: 88%;
+  border: solid 1px #cdcdcd;
 }
 .section-layout > .topfooters .miniform > .guestpeople > .fas {
   position: absolute;
@@ -40140,11 +41240,59 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF5A5F;
+  background-color: #E61E4D;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin: 30px 0px;
   line-height: 50px;
+}
+.section-layout > .topfooters .responsivefillin {
+  color: #606060;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+.section-layout > .topfooters .responsiveaddress {
+  margin-top: 30px;
+  width: 96.5%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: solid 1px #cdcdcd;
+}
+.section-layout > .topfooters .miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+.section-layout > .topfooters .miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .topfooters .miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+.section-layout > .topfooters .miniform > .responsiveguestpeople {
+  position: relative;
+  width: 33.5%;
+}
+.section-layout > .topfooters .miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+  padding-left: 10px;
+}
+.section-layout > .topfooters .miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
 }
 .section-layout > .topfooters .whyhost {
   padding: 0px 20px;
@@ -40459,10 +41607,62 @@
     font-size: 35px;
     width: 90%;
   }
+
+  .section-layout > .hostmain > .responsiveform .responsiveaddress {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .responsiveform .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .responsiveform .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .responsiveform .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .responsiveform .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .responsiveform .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .responsiveform .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+    padding-left: 10px;
+  }
+  .section-layout > .hostmain > .responsiveform .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
 }
 @media (min-width: 741px) and (max-width: 1130px) {
   .section-layout > .hostbackground {
     height: 275px;
+  }
+
+  .section-layout > .hostmain {
+    padding: 0px 10vw;
   }
 }
 @media (max-width: 1130px) {
@@ -40484,6 +41684,10 @@
   }
 
   .section-layout > .hostbackground > .fab {
+    display: none;
+  }
+
+  .section-layout > .hostmain > .responsiveform {
     display: none;
   }
 }

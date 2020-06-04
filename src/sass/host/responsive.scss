@@ -12,12 +12,20 @@
     font-size:35px;
     width:90%;
   }
+// width1130px以下入力フォーム貸し切り&ゲスト横展開解除
+  .section-layout > .hostmain > .responsiveform{
+    @import "responsive-components";
+  }
 }
 
 @media (min-width:741px) and (max-width: 1130px){
   // 背景画像/高さ変更
   .section-layout > .hostbackground{
     height:275px;
+  }
+  // メインページ余白変更
+  .section-layout > .hostmain{
+    padding:0px 10vw;
   }
 }
 
@@ -41,6 +49,10 @@
     display: none;
   }
   .section-layout > .hostbackground >.fab{
+    display: none;
+  }
+  // width1300px以下入力フォーム非表示
+  .section-layout > .hostmain >.responsiveform{
     display: none;
   }
 }
