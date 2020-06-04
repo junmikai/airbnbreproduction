@@ -35198,6 +35198,10 @@
   padding: 15px 20px;
   font-weight: bold;
 }
+.section-layout > .hostheader .interviewright > img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .hostheader .relieftitle {
   font-size: 60px;
   text-align: center;
@@ -35658,6 +35662,10 @@
   width: 180px;
   padding: 15px 20px;
   font-weight: bold;
+}
+.section-layout > .hostbackground > .form .interviewright > img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .hostbackground > .form .relieftitle {
   font-size: 60px;
@@ -36123,6 +36131,10 @@
   padding: 15px 20px;
   font-weight: bold;
 }
+.section-layout > .responsiveform .interviewright > img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .responsiveform .relieftitle {
   font-size: 60px;
   text-align: center;
@@ -36554,6 +36566,10 @@
   width: 180px;
   padding: 15px 20px;
   font-weight: bold;
+}
+.section-layout > .hostmain > .introduction .interviewright > img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .hostmain > .introduction .relieftitle {
   font-size: 60px;
@@ -36988,6 +37004,10 @@
   padding: 15px 20px;
   font-weight: bold;
 }
+.section-layout > .hostmain > .step .interviewright > img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .hostmain > .step .relieftitle {
   font-size: 60px;
   text-align: center;
@@ -37420,6 +37440,10 @@
   width: 180px;
   padding: 15px 20px;
   font-weight: bold;
+}
+.section-layout > .hostmain > .interview .interviewright > img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .hostmain > .interview .relieftitle {
   font-size: 60px;
@@ -37854,6 +37878,10 @@
   width: 180px;
   padding: 15px 20px;
   font-weight: bold;
+}
+.section-layout > .hostmain > .relief .interviewright > img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .hostmain > .relief .relieftitle {
   font-size: 60px;
@@ -38292,6 +38320,10 @@
   padding: 15px 20px;
   font-weight: bold;
 }
+.section-layout > .hostmain > .example .interviewright > img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .hostmain > .example .relieftitle {
   font-size: 60px;
   text-align: center;
@@ -38726,6 +38758,10 @@
   padding: 15px 20px;
   font-weight: bold;
 }
+.section-layout > .hostmain > .hostshare .interviewright > img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .hostmain > .hostshare .relieftitle {
   font-size: 60px;
   text-align: center;
@@ -39159,6 +39195,10 @@
   padding: 15px 20px;
   font-weight: bold;
 }
+.section-layout > .hostmain > .about .interviewright > img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .hostmain > .about .relieftitle {
   font-size: 60px;
   text-align: center;
@@ -39590,6 +39630,10 @@
   width: 180px;
   padding: 15px 20px;
   font-weight: bold;
+}
+.section-layout > .hostmain > .question .interviewright > img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .hostmain > .question .relieftitle {
   font-size: 60px;
@@ -40023,6 +40067,10 @@
   padding: 15px 20px;
   font-weight: bold;
 }
+.section-layout > .hostmain > .hosting .interviewright > img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .hostmain > .hosting .relieftitle {
   font-size: 60px;
   text-align: center;
@@ -40455,6 +40503,10 @@
   width: 180px;
   padding: 15px 20px;
   font-weight: bold;
+}
+.section-layout > .hostmain > .listing .interviewright > img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .hostmain > .listing .relieftitle {
   font-size: 60px;
@@ -40890,6 +40942,10 @@
   width: 180px;
   padding: 15px 20px;
   font-weight: bold;
+}
+.section-layout > .lodginglinks .interviewright > img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .lodginglinks .relieftitle {
   font-size: 60px;
@@ -41333,6 +41389,10 @@
   padding: 15px 20px;
   font-weight: bold;
 }
+.section-layout > .topfooters .interviewright > img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .topfooters .relieftitle {
   font-size: 60px;
   text-align: center;
@@ -41633,9 +41693,109 @@
   .section-layout > .responsiveform .steptexts > .steptext > .minitext {
     margin-top: initial;
   }
+  .section-layout > .responsiveform .interviewleft {
+    margin-right: initial;
+  }
+  .section-layout > .responsiveform .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .responsiveform .interviewleft > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .responsiveform .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
 
   .section-layout > .hostmain {
     padding: 0px 5vw;
+  }
+
+  .section-layout > .hostmain > .interview .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .interview .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptitle {
+    font-size: 35px;
+    text-align: initial;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .interview .interviewleft {
+    margin-right: initial;
+  }
+  .section-layout > .hostmain > .interview .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .interview .interviewleft > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .interview .interviewright > img {
+    width: 350px;
+    height: 350px;
   }
 }
 @media (min-width: 741px) and (max-width: 1130px) {
@@ -41645,6 +41805,90 @@
 
   .section-layout > .hostmain {
     padding: 0px 15vw;
+  }
+
+  .section-layout > .hostmain > .interview .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .interview .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .interview .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptitle {
+    font-size: 35px;
+    text-align: initial;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .interview .interviewleft {
+    margin-right: initial;
+  }
+  .section-layout > .hostmain > .interview .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .interview .interviewleft > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .interview .interviewright > img {
+    width: 350px;
+    height: 350px;
   }
 }
 @media (max-width: 1130px) {
@@ -41726,6 +41970,22 @@
   .section-layout > .hostmain > .introduction .steptexts > .steptext > .minitext {
     margin-top: initial;
   }
+  .section-layout > .hostmain > .introduction .interviewleft {
+    margin-right: initial;
+  }
+  .section-layout > .hostmain > .introduction .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .introduction .interviewleft > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .introduction .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
 
   .section-layout > .hostmain > .step {
     margin-top: 100px;
@@ -41796,6 +42056,22 @@
   }
   .section-layout > .hostmain > .step .steptexts > .steptext > .minitext {
     margin-top: initial;
+  }
+  .section-layout > .hostmain > .step .interviewleft {
+    margin-right: initial;
+  }
+  .section-layout > .hostmain > .step .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .step .interviewleft > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .step .interviewright > img {
+    width: 350px;
+    height: 350px;
   }
 }
 @media (min-width: 1130px) {

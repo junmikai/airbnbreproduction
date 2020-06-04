@@ -69,6 +69,23 @@
     >.minitext{
       margin-top:initial;
     }
-
   }
+}
+// インタビュー左側
+.interviewleft{
+  margin-right:initial;
+  >.interviewtext{
+    font-size:18px;
+    line-height:1.25;
+    width:80%;
+  }
+  > .minitext{
+    font-size:14px;
+    width:80%;
+  }
+}
+// インタビュー右画像サイズ縮小
+.interviewright > img{
+  width: 350px; 
+  height: 350px;
 }

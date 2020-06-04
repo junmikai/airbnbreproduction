@@ -20,6 +20,10 @@
   .section-layout > .hostmain{
     padding:0px 5vw;
   }
+  // インタビュー
+  .section-layout > .hostmain >.interview{
+    @import "responsive-components";
+  }
 }
 
 
@@ -36,7 +40,10 @@
   .section-layout > .hostmain{
     padding:0px 15vw;
   }
-
+  // インタビュー
+  .section-layout > .hostmain >.interview{
+    @import "responsive-components";
+  }
 }
 
 
