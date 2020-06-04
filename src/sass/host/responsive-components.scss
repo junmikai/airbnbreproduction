@@ -1,4 +1,4 @@
-// 冒頭説明/なぜの広さ制限解除
+// 冒頭説明/なぜの広さ制限解除(~1300px)
 .whyhost >.text{
   width:initial;
   margin-bottom:50px;
@@ -42,13 +42,13 @@
   height: 350px;
 }
 
-// 安心/タイトル文字サイズ
+// 安心/タイトル文字サイズ(~1300px)
 .relieftitle{
   font-size:40px;
   font-weight: bold;
   margin-bottom:50px;
 }
-// 安心の横並び解除
+// 安心の横並び解除(~1300px)
 .relieftexts{
   display: initial;
   >.reliefleft{
@@ -56,5 +56,47 @@
     >.how{
       margin:10px 0px 20px 0px;
     }
+  }
+}
+
+// 実施例画像サイズ縮小(741~1300px)
+.exampleleft img{
+  width: 350px; 
+  height: 350px;
+}
+// 実施例右
+.exampleright{
+  margin-top:30px;
+  >.exampletext{
+    font-size:18px;
+    line-height:1.25;
+    width:80%;
+  }
+  >.minitext{
+    font-size:14px;
+    width:80%;
+  }
+}
+// シェアデータ/タイトル文字サイズ(~1300px)
+.sharetitle{
+  font-size:35px;
+  font-weight: bold;
+  margin-bottom:50px;
+}
+// シェアデータ/数字サイズ(~1300px)
+.hostdatas > .hostdata > .hostnumber{
+  font-size:40px;
+}
+.abouttitle{
+  font-size:35px;
+  font-weight: bold;
+  margin-bottom:50px;
+}
+.abouttexts{
+  display: initial;
+  .abouttext{
+    width:initial;
+    margin-bottom:50px;
+    padding:initial;
   }
 }

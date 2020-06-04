@@ -266,6 +266,10 @@
 
 
 // 実施例/右側
+.exampleleft img{
+  width: 525px; 
+  height: 500px;
+}
 .exampleright{
   margin-left:50px;
   color:$light-60;

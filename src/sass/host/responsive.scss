@@ -35,6 +35,19 @@
     padding:initial;
     @import "responsive-components(~width740px)";
   }
+   // 実践例
+   .section-layout > .hostmain >.example{
+    display:initial;
+    @import "responsive-components(~width740px)";
+  }
+  // シェアデータ
+  .section-layout > .hostmain > .hostshare{
+    @import "responsive-components(~width740px)";
+  }
+   // Airbnbについて
+   .section-layout > .hostmain > .about{
+    @import "responsive-components(~width740px)";
+  }
 }
 
 
@@ -50,6 +63,18 @@
   // メインページ余白変更
   .section-layout > .hostmain{
     padding:0px 15vw;
+  }
+   // インタビュー
+   .section-layout > .hostmain >.interview{
+    @import "responsive-components";
+  }
+   // 実践例
+   .section-layout > .hostmain >.example{
+    @import "responsive-components";
+  }
+  // シェアデータ
+  .section-layout > .hostmain > .hostshare{
+    @import "responsive-components";
   }
 }
 
@@ -81,6 +106,10 @@
   .section-layout > .hostmain > .relief {
     margin-top:100px;
     padding:initial;
+    @import "responsive-components";
+  }
+  // Airbnbについて
+  .section-layout > .hostmain > .about{
     @import "responsive-components";
   }
 }

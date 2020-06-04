@@ -63,8 +63,10 @@
 }
 // インタビュー右画像サイズ縮小
 .interviewright > img{
-  max-width: 700px; 
-  max-height: 700px;
+  width: initial; 
+  height: initial;
+  max-width:700px;
+  max-height:700px;
 }
 // ステップタイトル左揃え
 .steptitle{
@@ -72,5 +74,49 @@
 }
 // 安心タイトル左揃え
 .relieftitle{
+  text-align:left;
+}
+// 実施例画像サイズ
+.exampleleft > img{
+  width: initial; 
+  height: initial;
+  max-width:700px;
+  max-height:700px;
+}
+// 実施例左テキスト
+.exampleright{
+  >.exampletext{
+    font-size:18px;
+    line-height:1.25;
+    width:100%;
+  }
+  >.minitext{
+    font-size:14px;
+    width:100%;
+  }
+}
+// シェアデータ/タイトル文字サイズ(~1300px)
+.sharetitle{
+  font-size:37px;
+  font-weight: bold;
+  margin-bottom:50px;
+  text-align: left;
+}
+// シェアデータ/数字サイズ(~1300px)
+.hostdatas{
+  display: initial;
+  > .hostdata{
+    width:initial;
+    > .hostnumber{
+    font-size:40px;
+    text-align: left;
+    } 
+    > .numbercomment{
+    text-align: left;
+    }
+  }
+} 
+// ステップタイトル左揃え
+.abouttitle{
   text-align:left;
 }

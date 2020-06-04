@@ -35235,6 +35235,10 @@
   margin-right: 15px;
   margin-bottom: 25px;
 }
+.section-layout > .hostheader .exampleleft img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .hostheader .exampleright {
   margin-left: 50px;
   color: #606060;
@@ -35699,6 +35703,10 @@
   font-size: 18px;
   margin-right: 15px;
   margin-bottom: 25px;
+}
+.section-layout > .hostbackground > .form .exampleleft img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .hostbackground > .form .exampleright {
   margin-left: 50px;
@@ -36168,6 +36176,10 @@
   margin-right: 15px;
   margin-bottom: 25px;
 }
+.section-layout > .responsiveform .exampleleft img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .responsiveform .exampleright {
   margin-left: 50px;
   color: #606060;
@@ -36603,6 +36615,10 @@
   font-size: 18px;
   margin-right: 15px;
   margin-bottom: 25px;
+}
+.section-layout > .hostmain > .introduction .exampleleft img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .hostmain > .introduction .exampleright {
   margin-left: 50px;
@@ -37041,6 +37057,10 @@
   margin-right: 15px;
   margin-bottom: 25px;
 }
+.section-layout > .hostmain > .step .exampleleft img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .hostmain > .step .exampleright {
   margin-left: 50px;
   color: #606060;
@@ -37477,6 +37497,10 @@
   font-size: 18px;
   margin-right: 15px;
   margin-bottom: 25px;
+}
+.section-layout > .hostmain > .interview .exampleleft img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .hostmain > .interview .exampleright {
   margin-left: 50px;
@@ -37915,6 +37939,10 @@
   font-size: 18px;
   margin-right: 15px;
   margin-bottom: 25px;
+}
+.section-layout > .hostmain > .relief .exampleleft img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .hostmain > .relief .exampleright {
   margin-left: 50px;
@@ -38357,6 +38385,10 @@
   margin-right: 15px;
   margin-bottom: 25px;
 }
+.section-layout > .hostmain > .example .exampleleft img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .hostmain > .example .exampleright {
   margin-left: 50px;
   color: #606060;
@@ -38795,6 +38827,10 @@
   margin-right: 15px;
   margin-bottom: 25px;
 }
+.section-layout > .hostmain > .hostshare .exampleleft img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .hostmain > .hostshare .exampleright {
   margin-left: 50px;
   color: #606060;
@@ -38983,7 +39019,6 @@
 }
 
 .section-layout > .hostmain > .about {
-  height: 400px;
   color: #3f3f3f;
   /*フッター左側*/
   /*フッター右側*/
@@ -39231,6 +39266,10 @@
   font-size: 18px;
   margin-right: 15px;
   margin-bottom: 25px;
+}
+.section-layout > .hostmain > .about .exampleleft img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .hostmain > .about .exampleright {
   margin-left: 50px;
@@ -39668,6 +39707,10 @@
   margin-right: 15px;
   margin-bottom: 25px;
 }
+.section-layout > .hostmain > .question .exampleleft img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .hostmain > .question .exampleright {
   margin-left: 50px;
   color: #606060;
@@ -40103,6 +40146,10 @@
   font-size: 18px;
   margin-right: 15px;
   margin-bottom: 25px;
+}
+.section-layout > .hostmain > .hosting .exampleleft img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .hostmain > .hosting .exampleright {
   margin-left: 50px;
@@ -40540,6 +40587,10 @@
   font-size: 18px;
   margin-right: 15px;
   margin-bottom: 25px;
+}
+.section-layout > .hostmain > .listing .exampleleft img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .hostmain > .listing .exampleright {
   margin-left: 50px;
@@ -40979,6 +41030,10 @@
   font-size: 18px;
   margin-right: 15px;
   margin-bottom: 25px;
+}
+.section-layout > .lodginglinks .exampleleft img {
+  width: 525px;
+  height: 500px;
 }
 .section-layout > .lodginglinks .exampleright {
   margin-left: 50px;
@@ -41426,6 +41481,10 @@
   margin-right: 15px;
   margin-bottom: 25px;
 }
+.section-layout > .topfooters .exampleleft img {
+  width: 525px;
+  height: 500px;
+}
 .section-layout > .topfooters .exampleright {
   margin-left: 50px;
   color: #606060;
@@ -41686,6 +41745,8 @@
     width: 100%;
   }
   .section-layout > .responsiveform .interviewright > img {
+    width: initial;
+    height: initial;
     max-width: 700px;
     max-height: 700px;
   }
@@ -41693,6 +41754,43 @@
     text-align: left;
   }
   .section-layout > .responsiveform .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .responsiveform .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .responsiveform .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .responsiveform .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .responsiveform .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .responsiveform .hostdatas {
+    display: initial;
+  }
+  .section-layout > .responsiveform .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .responsiveform .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .responsiveform .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .responsiveform .abouttitle {
     text-align: left;
   }
 
@@ -41763,6 +41861,8 @@
     width: 100%;
   }
   .section-layout > .hostmain > .interview .interviewright > img {
+    width: initial;
+    height: initial;
     max-width: 700px;
     max-height: 700px;
   }
@@ -41770,6 +41870,43 @@
     text-align: left;
   }
   .section-layout > .hostmain > .interview .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .interview .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .interview .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .interview .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .interview .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .interview .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .interview .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .interview .abouttitle {
     text-align: left;
   }
 
@@ -41833,6 +41970,8 @@
     width: 100%;
   }
   .section-layout > .hostmain > .step .interviewright > img {
+    width: initial;
+    height: initial;
     max-width: 700px;
     max-height: 700px;
   }
@@ -41840,6 +41979,43 @@
     text-align: left;
   }
   .section-layout > .hostmain > .step .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .step .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .step .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .step .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .step .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .step .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .step .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .step .abouttitle {
     text-align: left;
   }
 
@@ -41907,6 +42083,8 @@
     width: 100%;
   }
   .section-layout > .hostmain > .relief .interviewright > img {
+    width: initial;
+    height: initial;
     max-width: 700px;
     max-height: 700px;
   }
@@ -41914,6 +42092,373 @@
     text-align: left;
   }
   .section-layout > .hostmain > .relief .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .relief .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .relief .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .relief .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .relief .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .relief .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .relief .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .relief .abouttitle {
+    text-align: left;
+  }
+
+  .section-layout > .hostmain > .example {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .example .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .example .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .example .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .example .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .example .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .example .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .example .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .example .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .example .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .example .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .example .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .example .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .example .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .example .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .example .abouttitle {
+    text-align: left;
+  }
+
+  .section-layout > .hostmain > .hostshare .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .hostshare .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .hostshare .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .hostshare .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .hostshare .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .hostshare .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .hostshare .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .hostshare .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hostshare .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hostshare .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .hostshare .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .hostshare .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hostshare .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .hostshare .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hostshare .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .hostshare .abouttitle {
+    text-align: left;
+  }
+
+  .section-layout > .hostmain > .about .responsiveaddress {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .miniform {
+    display: initial;
+  }
+  .section-layout > .hostmain > .about .miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-layout > .hostmain > .about .miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .about .miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .about .miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+  .section-layout > .hostmain > .about .miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+  .section-layout > .hostmain > .about .interviewleft {
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .interviewleft > .interviewicon {
+    font-size: 10px;
+  }
+  .section-layout > .hostmain > .about .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .interviewleft > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .interviewright > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .about .steptitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .about .relieftitle {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .about .exampleleft > img {
+    width: initial;
+    height: initial;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  .section-layout > .hostmain > .about .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .exampleright > .minitext {
+    font-size: 14px;
+    width: 100%;
+  }
+  .section-layout > .hostmain > .about .sharetitle {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .about .hostdatas {
+    display: initial;
+  }
+  .section-layout > .hostmain > .about .hostdatas > .hostdata {
+    width: initial;
+  }
+  .section-layout > .hostmain > .about .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+    text-align: left;
+  }
+  .section-layout > .hostmain > .about .hostdatas > .hostdata > .numbercomment {
+    text-align: left;
+  }
+  .section-layout > .hostmain > .about .abouttitle {
     text-align: left;
   }
 }
@@ -41924,6 +42469,267 @@
 
   .section-layout > .hostmain {
     padding: 0px 15vw;
+  }
+
+  .section-layout > .hostmain > .interview .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .interview .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .interview .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .interview .interviewleft > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .interview .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .interview .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .interview .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .interview .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .interview .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .interview .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .interview .exampleright > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .interview .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .interview .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .interview .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .interview .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+
+  .section-layout > .hostmain > .example .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .example .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .example .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .example .interviewleft > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .example .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .example .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .example .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .example .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .example .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .example .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .example .exampleright > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .example .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .example .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .example .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .example .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+
+  .section-layout > .hostmain > .hostshare .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .hostshare .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .hostshare .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .hostshare .interviewleft > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .hostshare .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .hostshare .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .hostshare .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .hostshare .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .hostshare .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .hostshare .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .hostshare .exampleright > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .hostshare .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .hostshare .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .hostshare .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .hostshare .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
   }
 }
 @media (max-width: 1130px) {
@@ -41987,6 +42793,43 @@
   .section-layout > .hostmain > .introduction .relieftexts > .reliefleft > .how {
     margin: 10px 0px 20px 0px;
   }
+  .section-layout > .hostmain > .introduction .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .introduction .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .introduction .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .introduction .exampleright > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .introduction .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .introduction .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .introduction .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .introduction .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
 
   .section-layout > .hostmain > .step {
     margin-top: 100px;
@@ -42039,6 +42882,43 @@
   }
   .section-layout > .hostmain > .step .relieftexts > .reliefleft > .how {
     margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .step .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .step .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .step .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .step .exampleright > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .step .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .step .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .step .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .step .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
   }
 
   .section-layout > .hostmain > .relief {
@@ -42093,6 +42973,130 @@
   }
   .section-layout > .hostmain > .relief .relieftexts > .reliefleft > .how {
     margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .relief .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .relief .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .relief .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .relief .exampleright > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .relief .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .relief .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .relief .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .relief .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+
+  .section-layout > .hostmain > .about .whyhost > .text {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .about .steptitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .about .steptexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .about .steptexts > .steptext {
+    width: initial;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .about .steptexts > .steptext > .minititle {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .about .steptexts > .steptext > .minitext {
+    margin-top: initial;
+  }
+  .section-layout > .hostmain > .about .interviewleft > .interviewtext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .about .interviewleft > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .about .interviewright > img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .about .relieftitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .about .relieftexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .about .relieftexts > .reliefleft {
+    width: initial;
+  }
+  .section-layout > .hostmain > .about .relieftexts > .reliefleft > .how {
+    margin: 10px 0px 20px 0px;
+  }
+  .section-layout > .hostmain > .about .exampleleft img {
+    width: 350px;
+    height: 350px;
+  }
+  .section-layout > .hostmain > .about .exampleright {
+    margin-top: 30px;
+  }
+  .section-layout > .hostmain > .about .exampleright > .exampletext {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .about .exampleright > .minitext {
+    font-size: 14px;
+    width: 80%;
+  }
+  .section-layout > .hostmain > .about .sharetitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .about .hostdatas > .hostdata > .hostnumber {
+    font-size: 40px;
+  }
+  .section-layout > .hostmain > .about .abouttitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .section-layout > .hostmain > .about .abouttexts {
+    display: initial;
+  }
+  .section-layout > .hostmain > .about .abouttexts .abouttext {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
   }
 }
 @media (min-width: 1130px) {
