@@ -47550,9 +47550,34 @@
   line-height: 2;
   width: 300px;
 }
+.section-layout > .lets .procedure {
+  display: flex;
+  margin: 40px 0px;
+}
+.section-layout > .lets .procedure > .procedureleft {
+  height: 400px;
+  width: 450px;
+}
+.section-layout > .lets .procedure > .procedureright {
+  padding-left: 60px;
+  margin-top: 110px;
+}
+.section-layout > .lets .procedure > .procedureright > .proceduretitle {
+  font-size: 23px;
+  font-weight: bold;
+}
+.section-layout > .lets .procedure > .procedureright > .proceduretext {
+  margin-top: 20px;
+  max-width: 450px;
+  line-height: 1.5;
+}
+.section-layout > .lets .procedure > .procedureright > .proceduretext > span {
+  color: #006a70;
+  text-decoration: underline;
+}
 
 .section-layout > .flow {
-  max-width: 700px;
+  max-width: 1000px;
   margin: 100px auto;
   color: #606060;
 }
@@ -47563,8 +47588,57 @@
 }
 .section-layout > .flow > .flowcomment {
   font-size: 25px;
+  width: 725px;
+  margin: 100px auto;
   text-align: center;
-  margin-top: 150px;
+}
+
+.section-layout > .flow > .procedures .letslist {
+  padding: 0px 30px;
+}
+.section-layout > .flow > .procedures .letslist > .letstitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .flow > .procedures .letslist > .letscomment {
+  margin-top: 20px;
+  line-height: 2;
+  width: 300px;
+}
+.section-layout > .flow > .procedures .procedure {
+  display: flex;
+  margin: 40px 0px;
+}
+.section-layout > .flow > .procedures .procedure > .procedureleft {
+  height: 400px;
+  width: 450px;
+}
+.section-layout > .flow > .procedures .procedure > .procedureright {
+  padding-left: 60px;
+  margin-top: 110px;
+}
+.section-layout > .flow > .procedures .procedure > .procedureright > .proceduretitle {
+  font-size: 23px;
+  font-weight: bold;
+}
+.section-layout > .flow > .procedures .procedure > .procedureright > .proceduretext {
+  margin-top: 20px;
+  max-width: 450px;
+  line-height: 1.5;
+}
+.section-layout > .flow > .procedures .procedure > .procedureright > .proceduretext > span {
+  color: #006a70;
+  text-decoration: underline;
+}
+.section-layout > .flow > .procedures > .create {
+  margin: 50px auto;
+  border: #3f3f3f solid 2px;
+  padding: 15px;
+  width: 160px;
+  color: #3f3f3f;
+  font-weight: bold;
+  border-radius: 5px;
 }
 /*
 html5doctor.com Reset Stylesheet
