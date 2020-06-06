@@ -70,9 +70,6 @@
   .section-layout > .reservation > .title {
     font-size:22px;
   }
-  .section-layout > .linkcollections{
-    display: none;
-  }
   .section-layout >.note{
     display: initial;
   }
@@ -85,10 +82,6 @@
       padding-left:50px;
     }
   }
-  .section-layout > .topfooter{ 
-    text-align:initial;
-    @import "responsive-components";
-  } 
   .section-layout  >.fixedfooter{
   width:97%;
   }
@@ -108,27 +101,6 @@
 
   .section-layout > .challenge-background  > .challenge{
     @import "responsive-components";
-  }
- 
-  .section-layout > .linkcollections{
-    display: inline;
-    > .linkcollection{
-      width:100%;
-      border-bottom:solid 1px $bodergray;
-      margin:20px;
-      padding-bottom:20px;
-      @import "responsive-components";
-    }
-  }
-
-  .section-layout > .topfooter{
-      flex-wrap :wrap-reverse;
-      width:700px;
-      margin:0 auto;
-      text-align: center;
-    > .right{
-        margin:0 auto;
-    }
   }
 }
 

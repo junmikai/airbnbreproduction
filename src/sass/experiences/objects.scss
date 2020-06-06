@@ -231,20 +231,6 @@
 }
 
 
-/*フッター*/
-.section-layout > .topfooter{
-  display: flex;
-  justify-content:space-between;
-  margin:0px 100px 30px 20px; 
-  padding:30px 0px 100px 0px;
-  border-top: solid 1px $bodergray;
-  color:$light-black;
-  width:90%;
-  height:auto;
-  @import "components";
-}
-
-
 // 固定フッター全体
 .section-layout > .fixedfooter{
   height:70px;

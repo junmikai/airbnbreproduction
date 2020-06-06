@@ -180,17 +180,3 @@
   padding:0px 3vw;
   @import "components";
 }
-/*フッター*/
-.section-layout > .topfooters{
-  display: flex;
-  padding:15px 0px 70px 0px;
-  border-top: solid 1px $bodergray;
-  color:$gray-76;
-  max-width:1100px;
-  height:auto;
-  font-weight: bold;
-  font-size:17px;
-  @import "components";
-  margin:0 auto;
-  position: relative;
-}

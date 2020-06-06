@@ -89,13 +89,16 @@
   @import "responsive-components";
   }
   .section-layout > .linkcollections{
-  display: inline;
+  display: inline-block;
   @import "responsive-components";
+  width:100%;
+  color:$light-black;
   > .linkcollection{
     width:100%;
     border-bottom:solid 1px $bodergray;
     margin:20px;
     padding-bottom:20px;
+    color:$light-black;
     }
   }
   .section-layout > .linkcollections > .linkcollection{
@@ -103,12 +106,13 @@
   }
   .section-layout > .topfooter{
   flex-wrap :wrap-reverse;
-  width:700px;
+  padding:30px 100px;
   margin:0 auto;
   text-align: center;
   border-top:initial;
   > .footerright{
       margin:0 auto;
+      text-align: center;
     }
   }
 }

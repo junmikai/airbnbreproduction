@@ -164,12 +164,13 @@
 
 /*リンク集*/
 .section-layout > .linkcollections{
-  height:300px;
-  width:90%;
   display: flex;
   justify-content:space-between;
   margin-top:30px;
-  padding-left:50px;
+  padding:30px 50px;
+  border-top:$bodergray solid 1px;
+  border-bottom:$bodergray solid 1px;
+  background-color:$light-gray;
   @import "components";
 }
 
@@ -179,11 +180,11 @@
 .section-layout > .topfooter{
   display: flex;
   justify-content:space-between;
-  padding:30px 0px 70px 0px;
+  padding:30px 50px 70px 100px;
   border-top: solid 1px $bodergray;
   color:$light-black;
-  width:90%;
   height:auto;
+  background-color:$light-gray;
   @import "components";
 }
 
