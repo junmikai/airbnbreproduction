@@ -35381,30 +35381,6 @@
   line-height: 50px;
   border-radius: 5px;
 }
-.section-layout > .hostheader .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .hostheader .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .hostheader .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .hostheader .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
-}
 .section-layout > .hostheader .fab {
   font-size: 25px;
   margin-right: 3px;
@@ -35855,30 +35831,6 @@
   height: 50px;
   line-height: 50px;
   border-radius: 5px;
-}
-.section-layout > .hostbackground > .form .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .hostbackground > .form .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .hostbackground > .form .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .hostbackground > .form .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
 }
 .section-layout > .hostbackground > .form .fab {
   font-size: 25px;
@@ -36334,30 +36286,6 @@
   line-height: 50px;
   border-radius: 5px;
 }
-.section-layout > .responsiveform .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .responsiveform .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .responsiveform .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .responsiveform .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
-}
 .section-layout > .responsiveform .fab {
   font-size: 25px;
   margin-right: 3px;
@@ -36779,30 +36707,6 @@
   height: 50px;
   line-height: 50px;
   border-radius: 5px;
-}
-.section-layout > .hostmain > .introduction .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .hostmain > .introduction .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .hostmain > .introduction .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .hostmain > .introduction .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
 }
 .section-layout > .hostmain > .introduction .fab {
   font-size: 25px;
@@ -37227,30 +37131,6 @@
   line-height: 50px;
   border-radius: 5px;
 }
-.section-layout > .hostmain > .step .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .hostmain > .step .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .hostmain > .step .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .hostmain > .step .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
-}
 .section-layout > .hostmain > .step .fab {
   font-size: 25px;
   margin-right: 3px;
@@ -37673,30 +37553,6 @@
   height: 50px;
   line-height: 50px;
   border-radius: 5px;
-}
-.section-layout > .hostmain > .interview .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .hostmain > .interview .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .hostmain > .interview .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .hostmain > .interview .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
 }
 .section-layout > .hostmain > .interview .fab {
   font-size: 25px;
@@ -38121,30 +37977,6 @@
   height: 50px;
   line-height: 50px;
   border-radius: 5px;
-}
-.section-layout > .hostmain > .relief .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .hostmain > .relief .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .hostmain > .relief .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .hostmain > .relief .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
 }
 .section-layout > .hostmain > .relief .fab {
   font-size: 25px;
@@ -38573,30 +38405,6 @@
   line-height: 50px;
   border-radius: 5px;
 }
-.section-layout > .hostmain > .example .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .hostmain > .example .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .hostmain > .example .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .hostmain > .example .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
-}
 .section-layout > .hostmain > .example .fab {
   font-size: 25px;
   margin-right: 3px;
@@ -39020,30 +38828,6 @@
   line-height: 50px;
   border-radius: 5px;
 }
-.section-layout > .hostmain > .hostshare .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .hostmain > .hostshare .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .hostmain > .hostshare .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .hostmain > .hostshare .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
-}
 .section-layout > .hostmain > .hostshare .fab {
   font-size: 25px;
   margin-right: 3px;
@@ -39466,30 +39250,6 @@
   line-height: 50px;
   border-radius: 5px;
 }
-.section-layout > .hostmain > .about .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .hostmain > .about .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .hostmain > .about .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .hostmain > .about .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
-}
 .section-layout > .hostmain > .about .fab {
   font-size: 25px;
   margin-right: 3px;
@@ -39910,30 +39670,6 @@
   height: 50px;
   line-height: 50px;
   border-radius: 5px;
-}
-.section-layout > .hostmain > .question .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .hostmain > .question .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .hostmain > .question .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .hostmain > .question .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
 }
 .section-layout > .hostmain > .question .fab {
   font-size: 25px;
@@ -40356,30 +40092,6 @@
   height: 50px;
   line-height: 50px;
   border-radius: 5px;
-}
-.section-layout > .hostmain > .hosting .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .hostmain > .hosting .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .hostmain > .hosting .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .hostmain > .hosting .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
 }
 .section-layout > .hostmain > .hosting .fab {
   font-size: 25px;
@@ -40805,30 +40517,6 @@
   line-height: 50px;
   border-radius: 5px;
 }
-.section-layout > .listing .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .listing .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .listing .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .listing .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
-}
 .section-layout > .listing .fab {
   font-size: 25px;
   margin-right: 3px;
@@ -40853,455 +40541,6 @@
   right: 0px;
 }
 .section-layout > .listing .footerright > .sns > .fab {
-  font-size: 17px;
-}
-
-.section-layout > .lodginglinks {
-  margin: 100px auto;
-  max-width: 1200px;
-  display: flex;
-  /*フッター左側*/
-  /*フッター右側*/
-  margin-bottom: 20px;
-}
-.section-layout > .lodginglinks .headerleft {
-  display: flex;
-  padding-left: 30px;
-}
-.section-layout > .lodginglinks .headerleft > p {
-  margin-right: 30px;
-  font-size: 14px;
-}
-.section-layout > .lodginglinks .headerleft > p > .fab {
-  font-size: 35px;
-  line-height: 2.25;
-  color: #01999e;
-}
-.section-layout > .lodginglinks > .formtitle {
-  font-size: 38px;
-}
-.section-layout > .lodginglinks > .fillin {
-  color: #3f3f3f;
-  font-size: 16px;
-  margin-top: 30px;
-}
-.section-layout > .lodginglinks > .addressform {
-  margin-top: 30px;
-  width: 95%;
-  height: 40px;
-  font-size: 16px;
-  padding-left: 10px;
-  border: solid 1px #cdcdcd;
-}
-.section-layout > .lodginglinks > .miniform {
-  display: flex;
-  margin-top: 10px;
-  width: 100%;
-}
-.section-layout > .lodginglinks .miniform > .charter {
-  position: relative;
-}
-.section-layout > .lodginglinks .miniform > .charter > input {
-  height: 40px;
-  font-size: 16px;
-  padding-left: 10px;
-  padding-right: 35px;
-  margin-right: 15px;
-  border: solid 1px #cdcdcd;
-}
-.section-layout > .lodginglinks .miniform > .charter > .fas {
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 30px;
-}
-.section-layout > .lodginglinks .miniform > .guestpeople {
-  position: relative;
-}
-.section-layout > .lodginglinks .miniform > .guestpeople > input {
-  height: 40px;
-  font-size: 16px;
-  padding-left: 10px;
-  width: 88%;
-  border: solid 1px #cdcdcd;
-}
-.section-layout > .lodginglinks .miniform > .guestpeople > .fas {
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 30px;
-}
-.section-layout > .lodginglinks .startbtn {
-  font-size: 14px;
-  color: #fff;
-  text-align: center;
-  border-radius: 5px;
-  background-color: #E61E4D;
-  width: 100%;
-  height: 50px;
-  margin: 30px 0px;
-  line-height: 50px;
-}
-.section-layout > .lodginglinks .responsivefillin {
-  color: #606060;
-  font-weight: bold;
-  margin: 20px 0px 0px 0px;
-}
-.section-layout > .lodginglinks .responsiveaddress {
-  margin-top: 30px;
-  width: 99%;
-  height: 40px;
-  font-size: 16px;
-  border: solid 1px #cdcdcd;
-}
-.section-layout > .lodginglinks .miniform > .responsivecharter {
-  position: relative;
-  width: 60%;
-  margin-right: 20px;
-}
-.section-layout > .lodginglinks .miniform > .responsivecharter > input {
-  height: 40px;
-  font-size: 16px;
-  width: 100%;
-  border: solid 1px #cdcdcd;
-}
-.section-layout > .lodginglinks .miniform > .responsivecharter > .fas {
-  position: absolute;
-  top: 10px;
-  right: 5px;
-  font-size: 30px;
-}
-.section-layout > .lodginglinks .miniform > .responsiveguestpeople {
-  position: relative;
-  width: 35.5%;
-}
-.section-layout > .lodginglinks .miniform > .responsiveguestpeople > input {
-  height: 40px;
-  font-size: 16px;
-  width: 100%;
-  border: solid 1px #cdcdcd;
-}
-.section-layout > .lodginglinks .miniform > .responsiveguestpeople > .fas {
-  position: absolute;
-  top: 10px;
-  right: 5px;
-  font-size: 30px;
-}
-.section-layout > .lodginglinks .whyhost {
-  padding: 0px 20px;
-  color: #3f3f3f;
-}
-.section-layout > .lodginglinks .whyhost > .title {
-  font-size: 23px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-.section-layout > .lodginglinks .whyhost > .text {
-  width: 85%;
-  font-size: 16px;
-  line-height: 1.75;
-}
-.section-layout > .lodginglinks .warranty {
-  padding: 0px 20px;
-  color: #3f3f3f;
-}
-.section-layout > .lodginglinks .warranty > .title {
-  font-size: 23px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-.section-layout > .lodginglinks .warranty > .text {
-  width: 85%;
-  font-size: 16px;
-  line-height: 1.75;
-}
-.section-layout > .lodginglinks .warranty > .text {
-  width: 100%;
-}
-.section-layout > .lodginglinks .steptitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 50px;
-}
-.section-layout > .lodginglinks .steptexts {
-  display: flex;
-}
-.section-layout > .lodginglinks .steptexts > .steptext {
-  width: 30%;
-  margin-right: 40px;
-  line-height: 1.75;
-}
-.section-layout > .lodginglinks .steptexts > .steptext .far {
-  font-size: 50px;
-}
-.section-layout > .lodginglinks .steptexts > .steptext .minititle {
-  font-size: 25px;
-  margin-top: 20px;
-  font-weight: bold;
-}
-.section-layout > .lodginglinks .steptexts > .steptext .minitext {
-  font-size: 17px;
-  margin-top: 20px;
-}
-.section-layout > .lodginglinks .steptexts > .steptext .green {
-  color: #01999e;
-  padding-top: 10px;
-}
-.section-layout > .lodginglinks .interviewleft {
-  width: 43%;
-  margin-right: 50px;
-  color: #606060;
-}
-.section-layout > .lodginglinks .interviewleft > .interviewtext {
-  font-size: 33px;
-  line-height: 1.25;
-}
-.section-layout > .lodginglinks .interviewleft > .minitext {
-  margin-top: 15px;
-  color: #a0a0a0;
-}
-.section-layout > .lodginglinks .interviewleft > .checkbtn {
-  margin-top: 10px;
-  color: #3f3f3f;
-  margin: 20px 0px;
-  border: #3f3f3f solid 2px;
-  border-radius: 5px;
-  width: 180px;
-  padding: 15px 20px;
-  font-weight: bold;
-}
-.section-layout > .lodginglinks .interviewright > img {
-  width: 525px;
-  height: 500px;
-}
-.section-layout > .lodginglinks .relieftitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 50px;
-}
-.section-layout > .lodginglinks .relieftexts {
-  display: flex;
-  justify-content: space-between;
-}
-.section-layout > .lodginglinks .relieftexts > .reliefleft {
-  width: 400px;
-  line-height: 1.75;
-  margin-right: 50px;
-  color: #606060;
-  margin: 10px 0px 0px 0px;
-}
-.section-layout > .lodginglinks .relieftexts > .reliefleft > .how {
-  color: #01999e;
-  padding-top: 10px;
-}
-.section-layout > .lodginglinks .relieftexts > .reliefright {
-  margin-right: 150px;
-}
-.section-layout > .lodginglinks .relieftexts > .reliefright > .relieftext {
-  display: flex;
-}
-.section-layout > .lodginglinks .relieftexts > .reliefright > .relieftext .fas {
-  color: #01999e;
-  font-size: 18px;
-  margin-right: 15px;
-  margin-bottom: 25px;
-}
-.section-layout > .lodginglinks .exampleleft img {
-  width: 525px;
-  height: 500px;
-}
-.section-layout > .lodginglinks .exampleright {
-  margin-left: 50px;
-  color: #606060;
-}
-.section-layout > .lodginglinks .exampleright > .exampletext {
-  font-size: 33px;
-  line-height: 1.25;
-}
-.section-layout > .lodginglinks .exampleright > .minitext {
-  margin-top: 15px;
-  color: #a0a0a0;
-}
-.section-layout > .lodginglinks .exampleright > .checkbtn {
-  margin-top: 10px;
-  color: #3f3f3f;
-  margin: 20px 0px;
-  border: #3f3f3f solid 2px;
-  border-radius: 5px;
-  width: 180px;
-  padding: 15px 20px;
-  font-weight: bold;
-}
-.section-layout > .lodginglinks .sharetitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-}
-.section-layout > .lodginglinks .hostdatas {
-  display: flex;
-}
-.section-layout > .lodginglinks .hostdatas > .hostdata {
-  width: 30%;
-  margin-right: 40px;
-  line-height: 1.75;
-  text-align: center;
-}
-.section-layout > .lodginglinks .hostdatas > .hostdata > .hostnumber {
-  font-size: 55px;
-}
-.section-layout > .lodginglinks .hostdatas > .hostdata > .numbercomment {
-  text-align: center;
-}
-.section-layout > .lodginglinks .abouttitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .lodginglinks .abouttexts {
-  display: flex;
-}
-.section-layout > .lodginglinks .abouttexts > .abouttext {
-  width: 37.5%;
-  line-height: 1.75;
-  padding: 0px 30px;
-}
-.section-layout > .lodginglinks .abouttexts > .abouttext > .aboutheadline {
-  font-size: 22px;
-  font-weight: bold;
-}
-.section-layout > .lodginglinks .abouttexts > .abouttext > .aboutexplanation {
-  font-size: 15px;
-  margin-top: 20px;
-}
-.section-layout > .lodginglinks .abouttexts > .abouttext > .green {
-  color: #01999e;
-  padding-top: 20px;
-}
-.section-layout > .lodginglinks .questiontitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .lodginglinks .question-nav {
-  display: flex;
-  flex-wrap: wrap;
-}
-.section-layout > .lodginglinks .question-nav > li {
-  width: 48%;
-  list-style: none;
-  font-size: 18px;
-  color: #01999e;
-  padding: 30px 0px;
-  margin: 0px 10px;
-  border-bottom: #cdcdcd solid 1px;
-}
-.section-layout > .lodginglinks .hostingtitle {
-  font-size: 25px;
-  font-weight: bold;
-  margin: 50px 0px;
-  text-align: center;
-}
-.section-layout > .lodginglinks .hostinglists {
-  display: flex;
-}
-.section-layout > .lodginglinks .hostinglists > .hostinglist {
-  margin: 0px 5px;
-}
-.section-layout > .lodginglinks .hostinglists > .hostinglist > img {
-  width: 333px;
-  height: 171px;
-}
-.section-layout > .lodginglinks .hostinglists > .hostinglist > .hostingheadline {
-  font-size: 17px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-.section-layout > .lodginglinks .hostinglists > .hostinglist > .hostingcomment {
-  font-size: 14px;
-  margin-top: 10px;
-}
-.section-layout > .lodginglinks .hostinglists > .hostinglist > .learnmore {
-  font-size: 14px;
-  margin-top: 20px;
-  color: #01999e;
-}
-.section-layout > .lodginglinks .listingtitle {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  font-size: 63px;
-  font-weight: bold;
-  color: #fff;
-  width: 390px;
-}
-.section-layout > .lodginglinks .listingbtn {
-  position: absolute;
-  top: 250px;
-  left: 100px;
-  color: #3f3f3f;
-  background-color: #fff;
-  font-weight: bold;
-  text-align: center;
-  width: 200px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 5px;
-}
-.section-layout > .lodginglinks .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .lodginglinks .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .lodginglinks .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .lodginglinks .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
-}
-.section-layout > .lodginglinks .fab {
-  font-size: 25px;
-  margin-right: 3px;
-  line-height: 1.5;
-}
-.section-layout > .lodginglinks .footerleft {
-  font-size: 13px;
-}
-.section-layout > .lodginglinks .footerleft > span {
-  padding: 0px 8px;
-}
-.section-layout > .lodginglinks .footerright {
-  display: flex;
-  justify-content: space-around;
-  font-size: 13px;
-  font-weight: bold;
-  height: 30px;
-}
-.section-layout > .lodginglinks .footerright > .sns {
-  letter-spacing: 10px;
-  position: absolute;
-  right: 0px;
-}
-.section-layout > .lodginglinks .footerright > .sns > .fab {
   font-size: 17px;
 }
 
@@ -41709,30 +40948,6 @@
   height: 50px;
   line-height: 50px;
   border-radius: 5px;
-}
-.section-layout > .topfooters .link-nav {
-  padding: 0px 1vw;
-  font-size: 14px;
-  list-style: none;
-  font-weight: bold;
-  margin: 0 auto;
-}
-.section-layout > .topfooters .link-nav > .linktitle {
-  color: #3f3f3f;
-  margin-bottom: 20px;
-}
-.section-layout > .topfooters .link-nav > li {
-  color: #767676;
-  margin-bottom: 7px;
-}
-.section-layout > .topfooters .link-nav > li > span {
-  font-size: 12px;
-  color: #fff;
-  background-color: #006a70;
-  text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  margin-left: 5px;
 }
 .section-layout > .topfooters .fab {
   font-size: 25px;
@@ -47467,6 +46682,7 @@
     display: none;
   }
 }
+@charset "UTF-8";
 .body {
   width: 100vw;
   height: 100vh;
@@ -47536,6 +46752,7 @@
   max-width: 1100px;
   margin: 300px auto;
   color: #606060;
+  /*リンク集*/
 }
 .section-layout > .lets .letslist {
   padding: 0px 30px;
@@ -47575,10 +46792,109 @@
   color: #006a70;
   text-decoration: underline;
 }
+.section-layout > .lets .myworldlist {
+  width: 100%;
+  padding: 0px 15px;
+}
+.section-layout > .lets .myworldlist > .myworldimage {
+  height: 30vw;
+  width: 30vw;
+}
+.section-layout > .lets .myworldlist > .minititle {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.section-layout > .lets .myworldlist > .minitext {
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.section-layout > .lets .myworldlist > .green {
+  color: #006a70;
+  margin-top: 5px;
+}
+.section-layout > .lets .supportlists {
+  display: flex;
+}
+.section-layout > .lets .supportlists > .supportlist {
+  padding: 30px;
+  max-width: 350px;
+}
+.section-layout > .lets .supportlists > .supportlist > .supporticon {
+  height: 45px;
+  width: 45px;
+}
+.section-layout > .lets .supportlists > .supportlist > .minititle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.section-layout > .lets .supportlists > .supportlist > .minitext {
+  margin-top: 10px;
+  line-height: 1.75;
+}
+.section-layout > .lets .questiontitle {
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  margin: 100px 0px;
+  color: #3f3f3f;
+}
+.section-layout > .lets .question-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-layout > .lets .question-nav > li {
+  width: 48%;
+  list-style: none;
+  font-size: 18px;
+  color: #01999e;
+  padding: 30px 0px;
+  margin: 0px 10px;
+  border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .lets .link-nav {
+  padding: 0px 1vw;
+  font-size: 14px;
+  list-style: none;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.section-layout > .lets .link-nav > .linktitle {
+  color: #3f3f3f;
+  margin-bottom: 20px;
+}
+.section-layout > .lets .link-nav > li {
+  color: #767676;
+  margin-bottom: 7px;
+}
+.section-layout > .lets .link-nav > li > span {
+  font-size: 12px;
+  color: #fff;
+  background-color: #006a70;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 5px;
+}
+.section-layout > .lets .linkcollection {
+  width: 25%;
+}
+.section-layout > .lets .linkcollection > .title {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.section-layout > .lets .linkcollection .link-nav > li {
+  font-size: 14px;
+  list-style: none;
+  color: gray;
+  line-height: 35px;
+}
 
 .section-layout > .flow {
   max-width: 1000px;
-  margin: 100px auto;
+  margin: 300px auto;
   color: #606060;
 }
 .section-layout > .flow > .flowtitle {
@@ -47593,6 +46909,9 @@
   text-align: center;
 }
 
+.section-layout > .flow > .procedures {
+  /*リンク集*/
+}
 .section-layout > .flow > .procedures .letslist {
   padding: 0px 30px;
 }
@@ -47631,6 +46950,105 @@
   color: #006a70;
   text-decoration: underline;
 }
+.section-layout > .flow > .procedures .myworldlist {
+  width: 100%;
+  padding: 0px 15px;
+}
+.section-layout > .flow > .procedures .myworldlist > .myworldimage {
+  height: 30vw;
+  width: 30vw;
+}
+.section-layout > .flow > .procedures .myworldlist > .minititle {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.section-layout > .flow > .procedures .myworldlist > .minitext {
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.section-layout > .flow > .procedures .myworldlist > .green {
+  color: #006a70;
+  margin-top: 5px;
+}
+.section-layout > .flow > .procedures .supportlists {
+  display: flex;
+}
+.section-layout > .flow > .procedures .supportlists > .supportlist {
+  padding: 30px;
+  max-width: 350px;
+}
+.section-layout > .flow > .procedures .supportlists > .supportlist > .supporticon {
+  height: 45px;
+  width: 45px;
+}
+.section-layout > .flow > .procedures .supportlists > .supportlist > .minititle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.section-layout > .flow > .procedures .supportlists > .supportlist > .minitext {
+  margin-top: 10px;
+  line-height: 1.75;
+}
+.section-layout > .flow > .procedures .questiontitle {
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  margin: 100px 0px;
+  color: #3f3f3f;
+}
+.section-layout > .flow > .procedures .question-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-layout > .flow > .procedures .question-nav > li {
+  width: 48%;
+  list-style: none;
+  font-size: 18px;
+  color: #01999e;
+  padding: 30px 0px;
+  margin: 0px 10px;
+  border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .flow > .procedures .link-nav {
+  padding: 0px 1vw;
+  font-size: 14px;
+  list-style: none;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.section-layout > .flow > .procedures .link-nav > .linktitle {
+  color: #3f3f3f;
+  margin-bottom: 20px;
+}
+.section-layout > .flow > .procedures .link-nav > li {
+  color: #767676;
+  margin-bottom: 7px;
+}
+.section-layout > .flow > .procedures .link-nav > li > span {
+  font-size: 12px;
+  color: #fff;
+  background-color: #006a70;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 5px;
+}
+.section-layout > .flow > .procedures .linkcollection {
+  width: 25%;
+}
+.section-layout > .flow > .procedures .linkcollection > .title {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.section-layout > .flow > .procedures .linkcollection .link-nav > li {
+  font-size: 14px;
+  list-style: none;
+  color: gray;
+  line-height: 35px;
+}
 .section-layout > .flow > .procedures > .create {
   margin: 50px auto;
   border: #3f3f3f solid 2px;
@@ -47639,6 +47057,659 @@
   color: #3f3f3f;
   font-weight: bold;
   border-radius: 5px;
+}
+
+.section-layout > .myworld {
+  margin: 0 auto;
+  color: #606060;
+}
+.section-layout > .myworld > .myworldtitle {
+  font-weight: bold;
+  font-size: 45px;
+  max-width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+.section-layout > .myworld > .myworldtext {
+  font-size: 25px;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.section-layout > .myworld > .allshow {
+  margin: 50px auto;
+  border: #3f3f3f solid 2px;
+  padding: 15px;
+  width: 200px;
+  color: #3f3f3f;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.section-layout > .myworld > .myworldlists {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  /*リンク集*/
+}
+.section-layout > .myworld > .myworldlists .letslist {
+  padding: 0px 30px;
+}
+.section-layout > .myworld > .myworldlists .letslist > .letstitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .myworld > .myworldlists .letslist > .letscomment {
+  margin-top: 20px;
+  line-height: 2;
+  width: 300px;
+}
+.section-layout > .myworld > .myworldlists .procedure {
+  display: flex;
+  margin: 40px 0px;
+}
+.section-layout > .myworld > .myworldlists .procedure > .procedureleft {
+  height: 400px;
+  width: 450px;
+}
+.section-layout > .myworld > .myworldlists .procedure > .procedureright {
+  padding-left: 60px;
+  margin-top: 110px;
+}
+.section-layout > .myworld > .myworldlists .procedure > .procedureright > .proceduretitle {
+  font-size: 23px;
+  font-weight: bold;
+}
+.section-layout > .myworld > .myworldlists .procedure > .procedureright > .proceduretext {
+  margin-top: 20px;
+  max-width: 450px;
+  line-height: 1.5;
+}
+.section-layout > .myworld > .myworldlists .procedure > .procedureright > .proceduretext > span {
+  color: #006a70;
+  text-decoration: underline;
+}
+.section-layout > .myworld > .myworldlists .myworldlist {
+  width: 100%;
+  padding: 0px 15px;
+}
+.section-layout > .myworld > .myworldlists .myworldlist > .myworldimage {
+  height: 30vw;
+  width: 30vw;
+}
+.section-layout > .myworld > .myworldlists .myworldlist > .minititle {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.section-layout > .myworld > .myworldlists .myworldlist > .minitext {
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.section-layout > .myworld > .myworldlists .myworldlist > .green {
+  color: #006a70;
+  margin-top: 5px;
+}
+.section-layout > .myworld > .myworldlists .supportlists {
+  display: flex;
+}
+.section-layout > .myworld > .myworldlists .supportlists > .supportlist {
+  padding: 30px;
+  max-width: 350px;
+}
+.section-layout > .myworld > .myworldlists .supportlists > .supportlist > .supporticon {
+  height: 45px;
+  width: 45px;
+}
+.section-layout > .myworld > .myworldlists .supportlists > .supportlist > .minititle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.section-layout > .myworld > .myworldlists .supportlists > .supportlist > .minitext {
+  margin-top: 10px;
+  line-height: 1.75;
+}
+.section-layout > .myworld > .myworldlists .questiontitle {
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  margin: 100px 0px;
+  color: #3f3f3f;
+}
+.section-layout > .myworld > .myworldlists .question-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-layout > .myworld > .myworldlists .question-nav > li {
+  width: 48%;
+  list-style: none;
+  font-size: 18px;
+  color: #01999e;
+  padding: 30px 0px;
+  margin: 0px 10px;
+  border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .myworld > .myworldlists .link-nav {
+  padding: 0px 1vw;
+  font-size: 14px;
+  list-style: none;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.section-layout > .myworld > .myworldlists .link-nav > .linktitle {
+  color: #3f3f3f;
+  margin-bottom: 20px;
+}
+.section-layout > .myworld > .myworldlists .link-nav > li {
+  color: #767676;
+  margin-bottom: 7px;
+}
+.section-layout > .myworld > .myworldlists .link-nav > li > span {
+  font-size: 12px;
+  color: #fff;
+  background-color: #006a70;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 5px;
+}
+.section-layout > .myworld > .myworldlists .linkcollection {
+  width: 25%;
+}
+.section-layout > .myworld > .myworldlists .linkcollection > .title {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.section-layout > .myworld > .myworldlists .linkcollection .link-nav > li {
+  font-size: 14px;
+  list-style: none;
+  color: gray;
+  line-height: 35px;
+}
+
+.section-layout > .support {
+  margin: 0 auto;
+  color: #606060;
+  max-width: 1200px;
+  /*リンク集*/
+}
+.section-layout > .support .letslist {
+  padding: 0px 30px;
+}
+.section-layout > .support .letslist > .letstitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .support .letslist > .letscomment {
+  margin-top: 20px;
+  line-height: 2;
+  width: 300px;
+}
+.section-layout > .support .procedure {
+  display: flex;
+  margin: 40px 0px;
+}
+.section-layout > .support .procedure > .procedureleft {
+  height: 400px;
+  width: 450px;
+}
+.section-layout > .support .procedure > .procedureright {
+  padding-left: 60px;
+  margin-top: 110px;
+}
+.section-layout > .support .procedure > .procedureright > .proceduretitle {
+  font-size: 23px;
+  font-weight: bold;
+}
+.section-layout > .support .procedure > .procedureright > .proceduretext {
+  margin-top: 20px;
+  max-width: 450px;
+  line-height: 1.5;
+}
+.section-layout > .support .procedure > .procedureright > .proceduretext > span {
+  color: #006a70;
+  text-decoration: underline;
+}
+.section-layout > .support .myworldlist {
+  width: 100%;
+  padding: 0px 15px;
+}
+.section-layout > .support .myworldlist > .myworldimage {
+  height: 30vw;
+  width: 30vw;
+}
+.section-layout > .support .myworldlist > .minititle {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.section-layout > .support .myworldlist > .minitext {
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.section-layout > .support .myworldlist > .green {
+  color: #006a70;
+  margin-top: 5px;
+}
+.section-layout > .support .supportlists {
+  display: flex;
+}
+.section-layout > .support .supportlists > .supportlist {
+  padding: 30px;
+  max-width: 350px;
+}
+.section-layout > .support .supportlists > .supportlist > .supporticon {
+  height: 45px;
+  width: 45px;
+}
+.section-layout > .support .supportlists > .supportlist > .minititle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.section-layout > .support .supportlists > .supportlist > .minitext {
+  margin-top: 10px;
+  line-height: 1.75;
+}
+.section-layout > .support .questiontitle {
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  margin: 100px 0px;
+  color: #3f3f3f;
+}
+.section-layout > .support .question-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-layout > .support .question-nav > li {
+  width: 48%;
+  list-style: none;
+  font-size: 18px;
+  color: #01999e;
+  padding: 30px 0px;
+  margin: 0px 10px;
+  border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .support .link-nav {
+  padding: 0px 1vw;
+  font-size: 14px;
+  list-style: none;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.section-layout > .support .link-nav > .linktitle {
+  color: #3f3f3f;
+  margin-bottom: 20px;
+}
+.section-layout > .support .link-nav > li {
+  color: #767676;
+  margin-bottom: 7px;
+}
+.section-layout > .support .link-nav > li > span {
+  font-size: 12px;
+  color: #fff;
+  background-color: #006a70;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 5px;
+}
+.section-layout > .support .linkcollection {
+  width: 25%;
+}
+.section-layout > .support .linkcollection > .title {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.section-layout > .support .linkcollection .link-nav > li {
+  font-size: 14px;
+  list-style: none;
+  color: gray;
+  line-height: 35px;
+}
+.section-layout > .support > .supporttitle {
+  font-weight: bold;
+  font-size: 45px;
+  max-width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+.section-layout > .support > .supportcomment {
+  font-size: 25px;
+  max-width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.section-layout > .question {
+  /*リンク集*/
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-layout > .question .letslist {
+  padding: 0px 30px;
+}
+.section-layout > .question .letslist > .letstitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .question .letslist > .letscomment {
+  margin-top: 20px;
+  line-height: 2;
+  width: 300px;
+}
+.section-layout > .question .procedure {
+  display: flex;
+  margin: 40px 0px;
+}
+.section-layout > .question .procedure > .procedureleft {
+  height: 400px;
+  width: 450px;
+}
+.section-layout > .question .procedure > .procedureright {
+  padding-left: 60px;
+  margin-top: 110px;
+}
+.section-layout > .question .procedure > .procedureright > .proceduretitle {
+  font-size: 23px;
+  font-weight: bold;
+}
+.section-layout > .question .procedure > .procedureright > .proceduretext {
+  margin-top: 20px;
+  max-width: 450px;
+  line-height: 1.5;
+}
+.section-layout > .question .procedure > .procedureright > .proceduretext > span {
+  color: #006a70;
+  text-decoration: underline;
+}
+.section-layout > .question .myworldlist {
+  width: 100%;
+  padding: 0px 15px;
+}
+.section-layout > .question .myworldlist > .myworldimage {
+  height: 30vw;
+  width: 30vw;
+}
+.section-layout > .question .myworldlist > .minititle {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.section-layout > .question .myworldlist > .minitext {
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.section-layout > .question .myworldlist > .green {
+  color: #006a70;
+  margin-top: 5px;
+}
+.section-layout > .question .supportlists {
+  display: flex;
+}
+.section-layout > .question .supportlists > .supportlist {
+  padding: 30px;
+  max-width: 350px;
+}
+.section-layout > .question .supportlists > .supportlist > .supporticon {
+  height: 45px;
+  width: 45px;
+}
+.section-layout > .question .supportlists > .supportlist > .minititle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.section-layout > .question .supportlists > .supportlist > .minitext {
+  margin-top: 10px;
+  line-height: 1.75;
+}
+.section-layout > .question .questiontitle {
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  margin: 100px 0px;
+  color: #3f3f3f;
+}
+.section-layout > .question .question-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-layout > .question .question-nav > li {
+  width: 48%;
+  list-style: none;
+  font-size: 18px;
+  color: #01999e;
+  padding: 30px 0px;
+  margin: 0px 10px;
+  border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .question .link-nav {
+  padding: 0px 1vw;
+  font-size: 14px;
+  list-style: none;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.section-layout > .question .link-nav > .linktitle {
+  color: #3f3f3f;
+  margin-bottom: 20px;
+}
+.section-layout > .question .link-nav > li {
+  color: #767676;
+  margin-bottom: 7px;
+}
+.section-layout > .question .link-nav > li > span {
+  font-size: 12px;
+  color: #fff;
+  background-color: #006a70;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 5px;
+}
+.section-layout > .question .linkcollection {
+  width: 25%;
+}
+.section-layout > .question .linkcollection > .title {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.section-layout > .question .linkcollection .link-nav > li {
+  font-size: 14px;
+  list-style: none;
+  color: gray;
+  line-height: 35px;
+}
+
+.section-layout > .checkimmediately {
+  background-image: url("/Users/mikaijun/airbnb/src/image/checkimmediately.png");
+  background-size: cover;
+  width: 100vw;
+  height: 50vw;
+  position: relative;
+}
+.section-layout > .checkimmediately > .listingtitle {
+  position: absolute;
+  top: 22vw;
+  left: 30vw;
+  font-size: 57px;
+  font-weight: bold;
+  color: #fff;
+  width: 45vw;
+  text-align: center;
+}
+.section-layout > .checkimmediately > .listingbtn {
+  position: absolute;
+  top: 35vw;
+  left: 48vw;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  width: 150px;
+  height: 45px;
+  line-height: 45px;
+  border: solid 2px #fff;
+  border-radius: 5px;
+}
+
+/*リンク集*/
+.section-layout > .linkcollections {
+  height: 300px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-left: 50px;
+  /*リンク集*/
+}
+.section-layout > .linkcollections .letslist {
+  padding: 0px 30px;
+}
+.section-layout > .linkcollections .letslist > .letstitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.section-layout > .linkcollections .letslist > .letscomment {
+  margin-top: 20px;
+  line-height: 2;
+  width: 300px;
+}
+.section-layout > .linkcollections .procedure {
+  display: flex;
+  margin: 40px 0px;
+}
+.section-layout > .linkcollections .procedure > .procedureleft {
+  height: 400px;
+  width: 450px;
+}
+.section-layout > .linkcollections .procedure > .procedureright {
+  padding-left: 60px;
+  margin-top: 110px;
+}
+.section-layout > .linkcollections .procedure > .procedureright > .proceduretitle {
+  font-size: 23px;
+  font-weight: bold;
+}
+.section-layout > .linkcollections .procedure > .procedureright > .proceduretext {
+  margin-top: 20px;
+  max-width: 450px;
+  line-height: 1.5;
+}
+.section-layout > .linkcollections .procedure > .procedureright > .proceduretext > span {
+  color: #006a70;
+  text-decoration: underline;
+}
+.section-layout > .linkcollections .myworldlist {
+  width: 100%;
+  padding: 0px 15px;
+}
+.section-layout > .linkcollections .myworldlist > .myworldimage {
+  height: 30vw;
+  width: 30vw;
+}
+.section-layout > .linkcollections .myworldlist > .minititle {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.section-layout > .linkcollections .myworldlist > .minitext {
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.section-layout > .linkcollections .myworldlist > .green {
+  color: #006a70;
+  margin-top: 5px;
+}
+.section-layout > .linkcollections .supportlists {
+  display: flex;
+}
+.section-layout > .linkcollections .supportlists > .supportlist {
+  padding: 30px;
+  max-width: 350px;
+}
+.section-layout > .linkcollections .supportlists > .supportlist > .supporticon {
+  height: 45px;
+  width: 45px;
+}
+.section-layout > .linkcollections .supportlists > .supportlist > .minititle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.section-layout > .linkcollections .supportlists > .supportlist > .minitext {
+  margin-top: 10px;
+  line-height: 1.75;
+}
+.section-layout > .linkcollections .questiontitle {
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  margin: 100px 0px;
+  color: #3f3f3f;
+}
+.section-layout > .linkcollections .question-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-layout > .linkcollections .question-nav > li {
+  width: 48%;
+  list-style: none;
+  font-size: 18px;
+  color: #01999e;
+  padding: 30px 0px;
+  margin: 0px 10px;
+  border-bottom: #cdcdcd solid 1px;
+}
+.section-layout > .linkcollections .link-nav {
+  padding: 0px 1vw;
+  font-size: 14px;
+  list-style: none;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.section-layout > .linkcollections .link-nav > .linktitle {
+  color: #3f3f3f;
+  margin-bottom: 20px;
+}
+.section-layout > .linkcollections .link-nav > li {
+  color: #767676;
+  margin-bottom: 7px;
+}
+.section-layout > .linkcollections .link-nav > li > span {
+  font-size: 12px;
+  color: #fff;
+  background-color: #006a70;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 5px;
+}
+.section-layout > .linkcollections .linkcollection {
+  width: 25%;
+}
+.section-layout > .linkcollections .linkcollection > .title {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.section-layout > .linkcollections .linkcollection .link-nav > li {
+  font-size: 14px;
+  list-style: none;
+  color: gray;
+  line-height: 35px;
 }
 /*
 html5doctor.com Reset Stylesheet

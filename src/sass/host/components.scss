@@ -424,31 +424,6 @@
   line-height:50px;
   border-radius: 5px;
 }
-// リンク集
-.link-nav{
-  padding:0px 1vw;
-  font-size:14px;
-  list-style: none; 
-  font-weight: bold;
-  margin:0 auto;
-  >.linktitle{
-    color:$light-black;
-    margin-bottom:20px;
-  }
-  >li{
-    color:$gray-76;
-    margin-bottom:7px;
-    >span{
-      font-size:12px;
-      color:$white;
-      background-color:$dark-green;
-      text-align: center;
-      border-radius: 5px;
-      padding:3px;
-      margin-left:5px;
-    }
-  }
-}
 // フッター企業ロゴ
 .fab{
   font-size:25px;

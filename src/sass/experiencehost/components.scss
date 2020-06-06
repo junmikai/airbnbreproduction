@@ -38,3 +38,113 @@
     }
   }
 }
+// 自分の世界/下部
+.myworldlist{
+  width:100%;
+  padding:0px 15px;
+  >.myworldimage{
+    height:30vw;
+    width:30vw;
+  }
+  >.minititle{
+    font-size:22px;
+    font-weight: bold;
+    margin:20px 0px;
+  }
+  >.minitext{
+    letter-spacing:1px;
+    line-height:1.5;
+  }
+  >.green{
+    color:$dark-green;
+    margin-top:5px;
+  }
+}
+// サポート/下部
+.supportlists{
+  display: flex;
+  >.supportlist{
+    padding:30px;
+    max-width:350px;
+    > .supporticon{
+      height:45px;
+      width:45px;
+    }
+    > .minititle{
+      font-size:25px;
+      font-weight: bold;
+      margin-top:10px;
+    }
+    > .minitext{
+      margin-top:10px;
+      line-height:1.75;
+    }
+  }
+}
+
+// 質問タイトル
+.questiontitle{
+  font-size:45px;
+  text-align: center;
+  font-weight: bold;
+  margin:100px 0px;
+  color:$light-black;
+}
+// 質問/文字
+.question-nav{
+  display:flex;
+  flex-wrap: wrap;
+  > li{
+    width:48%;
+    list-style: none; 
+    font-size:18px;
+    color:$light-green;
+    padding:30px 0px;
+    margin:0px 10px;
+    border-bottom:$bodergray solid 1px;
+  }
+}
+
+// リンク集
+.link-nav{
+  padding:0px 1vw;
+  font-size:14px;
+  list-style: none; 
+  font-weight: bold;
+  margin:0 auto;
+  >.linktitle{
+    color:$light-black;
+    margin-bottom:20px;
+  }
+  >li{
+    color:$gray-76;
+    margin-bottom:7px;
+    >span{
+      font-size:12px;
+      color:$white;
+      background-color:$dark-green;
+      text-align: center;
+      border-radius: 5px;
+      padding:3px;
+      margin-left:5px;
+    }
+  }
+}
+
+/*リンク集*/
+.linkcollection{
+  width:25%;
+  > .title{
+    font-weight:bold;
+    font-size:12px;
+    margin-bottom:10px;
+  }
+  .link-nav{
+    > li{
+      font-size:14px;
+      list-style: none;
+      color:$gray; 
+      line-height:35px;
+    }
+  }
+}

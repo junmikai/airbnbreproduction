@@ -75,7 +75,7 @@
 // 流れ/上部
 .section-layout > .flow{
   max-width:1000px;
-  margin:100px auto;
+  margin:300px auto;
   color:$light-60;
   >.flowtitle{
     font-weight: bold;
@@ -102,4 +102,112 @@
     font-weight: bold;
     border-radius:5px;
   }
+}
+
+// 自分の世界/上部
+.section-layout >.myworld{
+  margin:0 auto;
+  color:$light-60;
+  >.myworldtitle{
+    font-weight: bold;
+    font-size:45px;
+    max-width:800px;
+    margin:10px auto;
+    text-align: center;
+  }
+  >.myworldtext{
+    font-size:25px;
+    max-width:1000px;
+    margin:40px auto;
+    text-align: center;
+    padding-bottom:100px;
+  }
+  >.allshow{
+    margin:50px auto;
+    border:$light-black solid 2px;
+    padding:15px;
+    width:200px;
+    color:$light-black;
+    font-weight: bold;
+    border-radius:5px;
+  }
+}
+// 自分の世界/下部
+.section-layout >.myworld >.myworldlists{
+  width:75%;
+  margin:0 auto;
+  display: flex;
+  justify-content:space-around;
+  @import "components";
+}
+// サポート
+.section-layout > .support{
+  margin:0 auto;
+  color:$light-60;
+  max-width:1200px;
+  @import "components";
+  >.supporttitle{
+    font-weight: bold;
+    font-size:45px;
+    max-width:800px;
+    margin:10px auto;
+    text-align: center;
+  }
+  >.supportcomment{
+    font-size:25px;
+    max-width:1000px;
+    margin:30px auto;
+    text-align: center;
+    padding-bottom:100px;
+  }
+}
+
+// よくある質問
+.section-layout > .question{
+  @import "components";
+  max-width:1200px;
+  margin:0 auto;
+}
+
+// チェック
+.section-layout > .checkimmediately{
+  background-image:url("/Users/mikaijun/airbnb/src/image/checkimmediately.png");
+  background-size:cover;
+  width:100vw;
+  height:50vw;
+  position: relative;
+  >.listingtitle{
+    position: absolute;
+    top:22vw;
+    left:30vw;
+    font-size:57px;
+    font-weight: bold;
+    color:$white;
+    width:45vw;
+    text-align: center;
+  }
+  >.listingbtn{
+    position: absolute;
+    top:35vw;
+    left:48vw;
+    color:$white;
+    font-weight: bold;
+    text-align: center;
+    width:150px;
+    height:45px;
+    line-height:45px;
+    border: solid 2px $white;
+    border-radius: 5px;
+  }
+}
+
+/*リンク集*/
+.section-layout > .linkcollections{
+  height:300px;
+  width:90%;
+  display: flex;
+  justify-content:space-between;
+  margin-top:30px;
+  padding-left:50px;
+  @import "components";
 }
