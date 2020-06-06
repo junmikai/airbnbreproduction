@@ -1567,7 +1567,7 @@
 }
 .section-layout > .topheader .linkcollection {
   width: 25%;
-  padding: 30px 0px;
+  padding: 30px;
 }
 .section-layout > .topheader .linkcollection > .title {
   font-weight: bold;
@@ -2201,7 +2201,7 @@
 }
 .section-layout > .topheader > .menu .linkcollection {
   width: 25%;
-  padding: 30px 0px;
+  padding: 30px;
 }
 .section-layout > .topheader > .menu .linkcollection > .title {
   font-weight: bold;
@@ -2842,7 +2842,7 @@
 }
 .section-layout > .searchform .linkcollection {
   width: 25%;
-  padding: 30px 0px;
+  padding: 30px;
 }
 .section-layout > .searchform .linkcollection > .title {
   font-weight: bold;
@@ -3486,7 +3486,7 @@
 }
 .section-layout > .search > .menu .linkcollection {
   width: 25%;
-  padding: 30px 0px;
+  padding: 30px;
 }
 .section-layout > .search > .menu .linkcollection > .title {
   font-weight: bold;
@@ -4123,7 +4123,7 @@
 }
 .section-layout > .search > .searchforms .linkcollection {
   width: 25%;
-  padding: 30px 0px;
+  padding: 30px;
 }
 .section-layout > .search > .searchforms .linkcollection > .title {
   font-weight: bold;
@@ -4776,7 +4776,7 @@
 }
 .section-layout > .onlineexperience > .top .linkcollection {
   width: 25%;
-  padding: 30px 0px;
+  padding: 30px;
 }
 .section-layout > .onlineexperience > .top .linkcollection > .title {
   font-weight: bold;
@@ -5412,7 +5412,7 @@
 }
 .section-layout > .onlineexperience > .imagebox .linkcollection {
   width: 25%;
-  padding: 30px 0px;
+  padding: 30px;
 }
 .section-layout > .onlineexperience > .imagebox .linkcollection > .title {
   font-weight: bold;
@@ -6059,7 +6059,7 @@
 }
 .section-layout > .news > .informations .linkcollection {
   width: 25%;
-  padding: 30px 0px;
+  padding: 30px;
 }
 .section-layout > .news > .informations .linkcollection > .title {
   font-weight: bold;
@@ -6127,8 +6127,6 @@
 .section-layout > .linkcollections {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
-  padding: 30px 50px;
   border-top: #cdcdcd solid 1px;
   border-bottom: #cdcdcd solid 1px;
   background-color: #f5f5f5;
@@ -6696,7 +6694,7 @@
 }
 .section-layout > .linkcollections .linkcollection {
   width: 25%;
-  padding: 30px 0px;
+  padding: 30px;
 }
 .section-layout > .linkcollections .linkcollection > .title {
   font-weight: bold;
@@ -6764,7 +6762,7 @@
 .section-layout > .topfooter {
   display: flex;
   justify-content: space-between;
-  padding: 30px 50px 70px 100px;
+  padding: 30px 50px 100px 100px;
   border-top: solid 1px #cdcdcd;
   color: #3f3f3f;
   height: auto;
@@ -7333,7 +7331,7 @@
 }
 .section-layout > .topfooter .linkcollection {
   width: 25%;
-  padding: 30px 0px;
+  padding: 30px;
 }
 .section-layout > .topfooter .linkcollection > .title {
   font-weight: bold;
@@ -7970,7 +7968,7 @@
 }
 .section-layout > .hidingfooter .linkcollection {
   width: 25%;
-  padding: 30px 0px;
+  padding: 30px;
 }
 .section-layout > .hidingfooter .linkcollection > .title {
   font-weight: bold;
@@ -44048,11 +44046,11 @@
 .section-layout > .headline {
   margin: 0 auto;
   text-align: center;
-  width: 1100px;
 }
 .section-layout > .headline .minititle {
   font-weight: bold;
   font-size: 14px;
+  margin-bottom: 10px;
 }
 .section-layout > .headline .bigtitle {
   font-weight: bold;
@@ -44075,8 +44073,8 @@
 }
 
 .section-layout > .allstar {
-  max-width: 1500px;
-  max-height: 1000px;
+  max-width: 95vw;
+  max-height: 90vw;
   margin: 200px auto;
   display: block;
 }
@@ -44094,12 +44092,13 @@
   color: #606060;
 }
 .section-layout > .lets .letslist {
-  padding: 0px 30px;
+  padding: 0px 2vw;
 }
 .section-layout > .lets .letslist > .letstitle {
   font-size: 25px;
   font-weight: bold;
   margin-top: 20px;
+  max-width: 333px;
 }
 .section-layout > .lets .letslist > .letscomment {
   margin-top: 20px;
@@ -44211,12 +44210,13 @@
 }
 
 .section-layout > .flow > .procedures .letslist {
-  padding: 0px 30px;
+  padding: 0px 2vw;
 }
 .section-layout > .flow > .procedures .letslist > .letstitle {
   font-size: 25px;
   font-weight: bold;
   margin-top: 20px;
+  max-width: 333px;
 }
 .section-layout > .flow > .procedures .letslist > .letscomment {
   margin-top: 20px;
@@ -44354,12 +44354,13 @@
   justify-content: space-around;
 }
 .section-layout > .myworld > .myworldlists .letslist {
-  padding: 0px 30px;
+  padding: 0px 2vw;
 }
 .section-layout > .myworld > .myworldlists .letslist > .letstitle {
   font-size: 25px;
   font-weight: bold;
   margin-top: 20px;
+  max-width: 333px;
 }
 .section-layout > .myworld > .myworldlists .letslist > .letscomment {
   margin-top: 20px;
@@ -44459,12 +44460,13 @@
   max-width: 1200px;
 }
 .section-layout > .support .letslist {
-  padding: 0px 30px;
+  padding: 0px 2vw;
 }
 .section-layout > .support .letslist > .letstitle {
   font-size: 25px;
   font-weight: bold;
   margin-top: 20px;
+  max-width: 333px;
 }
 .section-layout > .support .letslist > .letscomment {
   margin-top: 20px;
@@ -44577,12 +44579,13 @@
   margin: 0 auto;
 }
 .section-layout > .question .letslist {
-  padding: 0px 30px;
+  padding: 0px 2vw;
 }
 .section-layout > .question .letslist > .letstitle {
   font-size: 25px;
   font-weight: bold;
   margin-top: 20px;
+  max-width: 333px;
 }
 .section-layout > .question .letslist > .letscomment {
   margin-top: 20px;
@@ -44705,6 +44708,53 @@
   line-height: 45px;
   border: solid 2px #fff;
   border-radius: 5px;
+}
+@media (max-width: 741px) {
+  .section-layout > .headline {
+    margin: initial;
+    float: left;
+    padding: 20px;
+  }
+  .section-layout > .headline .minititle {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+  }
+  .section-layout > .headline .bigtitle {
+    font-weight: bold;
+    font-size: 40px;
+    width: 670px;
+    text-align: left;
+  }
+  .section-layout > .headline .join {
+    font-size: 20px;
+    color: #767676;
+    text-align: left;
+    width: 100%;
+    margin: initial;
+  }
+  .section-layout > .headline .startbtn {
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #E61E4D;
+    height: 50px;
+    line-height: 50px;
+    width: 125px;
+    margin: initial;
+  }
+}
+@media (min-width: 741px) and (max-width: 1130px) {
+  .section-layout > .headline .bigtitle {
+    font-size: 40px;
+    width: 670px;
+    margin: 0 auto;
+  }
+  .section-layout > .headline .join {
+    font-size: 20px;
+    color: #767676;
+    width: 100%;
+  }
 }
 /*
 html5doctor.com Reset Stylesheet

@@ -25,10 +25,10 @@
 .section-layout > .headline{
   margin:0 auto;
   text-align: center;
-  width:1100px;
   .minititle{
     font-weight: bold;
     font-size:14px;
+    margin-bottom:10px;
   }
   .bigtitle{
     font-weight: bold;
@@ -53,8 +53,8 @@
 
 // 集合写真
 .section-layout > .allstar{
-  max-width:1500px; 
-  max-height:1000px;
+  max-width:95vw; 
+  max-height:90vw;
   margin:200px auto;
   display:block;
 }
