@@ -11,6 +11,7 @@
 </head>
 <body>
   <div class="section-layout">
+    <div class="container">
     <!-- コロナウイルス注意事項ここから -->
     <div class="covid">
       <p>Airbnbの新型コロナウイルスに対する取り組みやキャンセルポリシーの最新情報をお届けします。<span style="font-weight:bold; text-decoration: underline;">もっと詳しく</span></p>
@@ -18,7 +19,7 @@
     <!-- コロナウイルス注意事項ここまで -->
 
     <!-- ヘッダーここから -->
-    <div class="topheader">
+    <div class="header-container">
       <div class="logo">
         <img src="/Users/mikaijun/airbnb/src/image/companylogo.png" style="width: 125px; height: 50px;" alt="Airbnblogo">
       </div>
@@ -34,16 +35,15 @@
         </div>
         <i class="fas fa-search"></i>
       </div>
-      <div class="menu">
-          <ul class="header-nav">
-            <li><i class="fas fa-globe"></i><i class="fas fa-angle-down"></i></li>
-            <li class="host">宿泊をホストする</li>
-            <li class="host">体験をホストする</li>
-            <li>ヘルプ</li>
-            <li class="host">ログイン</li>
-            <li class="register">登録する</li>
-          </ul>
-      </div>
+        <ul class="header-nav">
+          <li><i class="fas fa-globe"></i><i class="fas fa-angle-down"></i></li>
+          <li class="host">宿泊をホストする</li>
+          <li class="host">体験をホストする</li>
+          <li>ヘルプ</li>
+          <li class="host">ログイン</li>
+          <li class="register">登録する</li>
+        </ul>
+      
     </div>
     <!-- ヘッダーここまで -->
 
@@ -57,58 +57,60 @@
     <!-- width740px以下のヘッダーここまで -->
 
     <!-- 検索フォームここから -->
-    <div class="search">
-      <div class="menu">
-        <ul class="search-nav">
-          <li><a href="#">宿泊先</a></li>
-          <li><a href="#">体験</a></li>
-          <li><a href="#">オンライン体験<span>NEW</span></a></li>
-        </ul>
-      </div>
-      <div class="searchforms">
-        <div class="centerform">
-          <div class="title">
-            ロケーション
-          </div>
-          <div class="text">
-            行き先はどちらですか?
-          </div>
+    <div class="hero">
+      <div class="search-container">
+        <div class="menu">
+          <ul class="search-nav">
+            <li><a href="#">宿泊先</a></li>
+            <li><a href="#">体験</a></li>
+            <li><a href="#">オンライン体験<span>NEW</span></a></li>
+          </ul>
         </div>
-        <div class="centerform">
-          <div class="title">
-            チェックイン日/チェックアウト日
-          </div>
-          <div class="text">
-            日付を追加
-          </div>
-        </div>
-        <div class="centerform" id="plusbtn">
-          <div class="left">
+        <div class="search-form">
+          <div class="centerform">
             <div class="title">
-              人数
+              ロケーション
             </div>
             <div class="text">
-              ゲスト数を追加
+              行き先はどちらですか?
             </div>
-        </div>
-          <div class="right">
-            <div class="btn">
-              <i class="fas fa-search"></i>探す
+          </div>
+          <div class="centerform">
+            <div class="title">
+              チェックイン日/チェックアウト日
             </div>
-          </div> 
+            <div class="text">
+              日付を追加
+            </div>
+          </div>
+          <div class="centerform" id="plusbtn">
+            <div class="left">
+              <div class="title">
+                人数
+              </div>
+              <div class="text">
+                ゲスト数を追加
+              </div>
+          </div>
+            <div class="right">
+              <div class="btn">
+                <i class="fas fa-search"></i>探す
+              </div>
+            </div> 
+          </div>
         </div>
       </div>
-    </div>
-    <!-- 検索フォームここまで -->
+      <!-- 検索フォームここまで -->
 
-    <!-- キャッチコピーここから -->
-    <div class="catchcopy">
-      <p>たとえ離れていても、力を合わせてこの困難を乗り越えましょう。</p>
+      <!-- キャッチコピーここから -->
+      <div class="catchcopy">
+        <p>たとえ離れていても、力を合わせてこの困難を乗り越えましょう。</p>
+      </div>
     </div>
     <!-- キャッチコピーここまで -->
 
     <!-- オンライン体験ここから -->
-    <div class="onlineexperience">
+    <div class="experience-container">
       <div class="top">
         <div class="topleft">
           <div class="title">
@@ -277,6 +279,7 @@
       </div>
     </div>
     <!-- width740px以下フッターーここまで -->   
+  </div>
   </div>
   <script src="main.js"></script>
 </body>
