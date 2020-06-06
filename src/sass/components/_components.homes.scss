@@ -1,4 +1,4 @@
-@import "../color";
+@import "../settings/_settings.color.scss";
 // ヘッダー/左側
 .headerleft{
   display: flex;
@@ -259,7 +259,7 @@
     }
   }
   >.reliefright{
-    @import "trumps";
+    @import "_components.homes-details";
     margin-right:150px;
   }
 }

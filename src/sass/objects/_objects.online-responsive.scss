@@ -1,4 +1,4 @@
-@import "../color";
+@import "../settings/_settings.color.scss";
 
 // 740px以下
 @media (max-width: 740px){
@@ -16,18 +16,18 @@
     display: flex;
     justify-content:space-between;
     width:95%;
-    @import "responsive-components";
+    @import "../components/_components.online-responsive";
   }
   .section-layout > .blackbox > .imagebox{
-    @import "responsive-components";
+    @import "../components/_components.online-responsive";
   }
   .section-layout > .blackbox > .explanation{
     display: initial;
-    @import "responsive-components";
+    @import "../components/_components.online-responsive";
   }
   .section-layout > .canexperience{
     display: initial;
-    @import "responsive-components";
+    @import "../components/_components.online-responsive";
     >.experiencetext{
       padding-left:initial;
       margin:30px 20px;
@@ -38,15 +38,15 @@
   }
   .section-layout > .challenge-background > .challenge{
     display: initial;
-    @import "responsive-components";
+    @import "../components/_components.online-responsive";
   }
   .section-layout > .hosts{
     display: initial;
-    @import "responsive-components";
+    @import "../components/_components.online-responsive";
   }
   .section-layout >.belongings{
     display: initial;
-    @import "responsive-components";
+    @import "../components/_components.online-responsive";
     >.belongingstexts{
       padding-left:20px;
       width:90%;
@@ -54,17 +54,17 @@
   }
   .section-layout >.participation{
     display: initial;
-    @import "responsive-components";
+    @import "../components/_components.online-responsive";
   }
 
   .section-layout >.guestreview{ 
     display: initial;
-    @import "responsive-components";
+    @import "../components/_components.online-responsive";
   }
 
   .section-layout > .guestreview  >.reviews{
     padding:30px 20px;
-    @import "responsive-components";
+    @import "../components/_components.online-responsive";
   }
 
   .section-layout > .reservation > .title {
@@ -96,11 +96,11 @@
     height:900px; 
   }
   .section-layout >.blackbox > .explanation{
-    @import "responsive-components";
+    @import "../components/_components.online-responsive";
   }
 
   .section-layout > .challenge-background  > .challenge{
-    @import "responsive-components";
+    @import "../components/_components.online-responsive";
   }
 }
 
@@ -110,11 +110,11 @@
 @media (max-width: 1130px){
 .section-layout > .note > .notetexts{
   width:100%;
-  @import "responsive-components";
+  @import "../components/_components.online-responsive";
   }
 .section-layout >.fixedfooter{
   line-height:initial;
-  @import "responsive-components";
+  @import "../components/_components.online-responsive";
   >.fixedleft{
     display: none;
   }
@@ -139,7 +139,7 @@
 // 1130px以上
 @media (min-width: 1130px){
 .section-layout > .note > .notetexts{
-  @import "responsive-components";
+  @import "../components/_components.online-responsive";
   }
 .section-layout > .fixedfooter >.minileft{
     display: none;
@@ -151,5 +151,5 @@
 
 // その他のオンライン体験
 .section-layout > .otherexperiences > .experiences{
-  @import "responsive-components";
+  @import "../components/_components.online-responsive";
 }

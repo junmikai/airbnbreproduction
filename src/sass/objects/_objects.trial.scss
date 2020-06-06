@@ -1,4 +1,4 @@
-@import "../color";
+@import "../settings/_settings.color.scss";
 
 .body{
   width:100vw;
@@ -70,7 +70,7 @@
   max-width:1100px;
   margin:300px auto;
   color:$light-60;
-  @import "components";
+  @import "../components/components.trial";
 }
 // 流れ/上部
 .section-layout > .flow{
@@ -92,7 +92,7 @@
 
 // 流れ/下部
 .section-layout > .flow >.procedures{
-  @import "components";
+  @import "../components/components.trial";
   >.create{
     margin:50px auto;
     border:$light-black solid 2px;
@@ -138,14 +138,14 @@
   margin:0 auto;
   display: flex;
   justify-content:space-around;
-  @import "components";
+  @import "../components/components.trial";
 }
 // サポート
 .section-layout > .support{
   margin:0 auto;
   color:$light-60;
   max-width:1200px;
-  @import "components";
+  @import "../components/components.trial";
   >.supporttitle{
     font-weight: bold;
     font-size:45px;
@@ -164,7 +164,7 @@
 
 // よくある質問
 .section-layout > .question{
-  @import "components";
+  @import "../components/components.trial";
   max-width:1200px;
   margin:0 auto;
 }

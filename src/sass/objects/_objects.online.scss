@@ -1,4 +1,4 @@
-@import "../color";
+@import "../settings/_settings.color.scss";
 
 .body{
   width:100vw;
@@ -41,7 +41,7 @@
   justify-content:space-between;
   max-width:1300px;
   margin:0 auto;
-  @import "components";
+  @import "../components/components.online";
 }
 // 黒枠/画像枠
 .section-layout >.blackbox > .imagebox{
@@ -51,7 +51,7 @@
   margin:20px auto;
   position: relative;
   height:30vw;
-  @import "components";
+  @import "../components/components.online";
 }
 // 黒枠/説明文
 .section-layout > .blackbox > .explanation{
@@ -60,7 +60,7 @@
   display:flex;
   margin:20px auto;
   position: relative;
-  @import "components";
+  @import "../components/components.online";
 }
 
 
@@ -73,7 +73,7 @@
   padding:0px 45px 45px 45px;
   color:$light-black;
   margin-bottom:40px;
-  @import "components";
+  @import "../components/components.online";
 }
 
 
@@ -91,7 +91,7 @@
     color:$light-black;
     display: flex;
     padding-top:120px;
-    @import "components";
+    @import "../components/components.online";
 }
 
 
@@ -103,7 +103,7 @@
   padding:0px 45px 45px 45px;
   color:$light-black;
   display: flex;
-  @import "components";
+  @import "../components/components.online";
 }
 
 
@@ -115,7 +115,7 @@
   padding:0px 45px 45px 45px;
   color:$light-black;
   display: flex;
-  @import "components";
+  @import "../components/components.online";
 }
 
 
@@ -127,7 +127,7 @@
   padding:0px 45px 45px 45px;
   color:$light-black;
   display: flex;
-  @import "components";
+  @import "../components/components.online";
 }
 
   
@@ -143,14 +143,14 @@
   padding-top:45px;
   margin-bottom:40px;
   >.titles{
-    @import "components";
+    @import "../components/components.online";
   }
 }
 // レビュー/右側全体
 .section-layout > .guestreview > .reviews{
   padding-top:45px;
   padding-left:120px;
-  @import "components";
+  @import "../components/components.online";
 }
 
 
@@ -176,7 +176,7 @@
 }
 // 予約全体設定/月表示
 .section-layout > .reservation > .calendars{
-  @import "components";
+  @import "../components/components.online";
 }
 // 予約全体設定/日付選択
 .section-layout > .reservation > .daychoice{
@@ -200,7 +200,7 @@
   padding:0px 45px 45px 45px;
   color:$light-black;
   display: flex;
-  @import "components";
+  @import "../components/components.online";
 }
 
 
@@ -220,7 +220,7 @@
     margin-top:30px;
     display: flex;
     overflow-x:auto;
-    @import "components";
+    @import "../components/components.online";
   }
 }
 // その他体験全て表示
@@ -244,7 +244,7 @@
   background-color:$white;
   line-height:70px;
   padding:0px 0px;
-  @import "components";
+  @import "../components/components.online";
 }
 
 // 黒枠をスクロール過ぎると固定フッター背景が黒くなる
