@@ -1,0 +1,202 @@
+@import "../color";
+
+.body{
+  width:100vw;
+  height:100vh;
+}
+
+.section-layout{
+  width:100%;
+  position: relative;
+}
+// ヘッダー
+.section-layout > .header{
+  height:200px;
+  position: relative;
+  .fab{
+    font-size:35px;
+    color:$red;
+    position: absolute;
+    top:20px;
+    left:20px;
+  }
+}
+// 見出し
+.section-layout > .headline{
+  margin:0 auto;
+  text-align: center;
+  width:1100px;
+  .minititle{
+    font-weight: bold;
+    font-size:14px;
+  }
+  .bigtitle{
+    font-weight: bold;
+    font-size:60px;
+  }
+  .join{
+    font-size:25px;
+    width:65%;
+    margin:50px auto;
+  }
+  .startbtn{
+    font-size:14px;
+    color:$white;
+    border-radius: 5px;
+    background-color:$btn-red;
+    height:50px;
+    line-height:50px;
+    width:125px;
+    margin:50px auto;
+  }
+}
+
+// 集合写真
+.section-layout > .allstar{
+  max-width:1500px; 
+  max-height:1000px;
+  margin:200px auto;
+  display:block;
+}
+// 活動説明
+.section-layout > .activity{
+  max-width:700px;
+  font-size:25px;
+  margin:0 auto;
+}
+// 〜しよう
+.section-layout > .lets{
+  display:flex;
+  max-width:1100px;
+  margin:300px auto;
+  color:$light-60;
+  @import "components";
+}
+// 流れ/上部
+.section-layout > .flow{
+  max-width:1000px;
+  margin:300px auto;
+  color:$light-60;
+  >.flowtitle{
+    font-weight: bold;
+    font-size:45px;
+    text-align: center;
+  }
+  >.flowcomment{
+    font-size:25px;
+    width:725px;
+    margin:100px auto;
+    text-align: center;
+  }
+}
+
+// 流れ/下部
+.section-layout > .flow >.procedures{
+  @import "components";
+  >.create{
+    margin:50px auto;
+    border:$light-black solid 2px;
+    padding:15px;
+    width:160px;
+    color:$light-black;
+    font-weight: bold;
+    border-radius:5px;
+  }
+}
+
+// 自分の世界/上部
+.section-layout >.myworld{
+  margin:0 auto;
+  color:$light-60;
+  >.myworldtitle{
+    font-weight: bold;
+    font-size:45px;
+    max-width:800px;
+    margin:10px auto;
+    text-align: center;
+  }
+  >.myworldtext{
+    font-size:25px;
+    max-width:1000px;
+    margin:40px auto;
+    text-align: center;
+    padding-bottom:100px;
+  }
+  >.allshow{
+    margin:50px auto;
+    border:$light-black solid 2px;
+    padding:15px;
+    width:200px;
+    color:$light-black;
+    font-weight: bold;
+    border-radius:5px;
+  }
+}
+// 自分の世界/下部
+.section-layout >.myworld >.myworldlists{
+  width:75%;
+  margin:0 auto;
+  display: flex;
+  justify-content:space-around;
+  @import "components";
+}
+// サポート
+.section-layout > .support{
+  margin:0 auto;
+  color:$light-60;
+  max-width:1200px;
+  @import "components";
+  >.supporttitle{
+    font-weight: bold;
+    font-size:45px;
+    max-width:800px;
+    margin:10px auto;
+    text-align: center;
+  }
+  >.supportcomment{
+    font-size:25px;
+    max-width:1000px;
+    margin:30px auto;
+    text-align: center;
+    padding-bottom:100px;
+  }
+}
+
+// よくある質問
+.section-layout > .question{
+  @import "components";
+  max-width:1200px;
+  margin:0 auto;
+}
+
+// チェック
+.section-layout > .checkimmediately{
+  background-image:url("/Users/mikaijun/airbnb/src/image/checkimmediately.png");
+  background-size:cover;
+  width:100vw;
+  height:50vw;
+  position: relative;
+  >.listingtitle{
+    position: absolute;
+    top:22vw;
+    left:30vw;
+    font-size:57px;
+    font-weight: bold;
+    color:$white;
+    width:45vw;
+    text-align: center;
+  }
+  >.listingbtn{
+    position: absolute;
+    top:35vw;
+    left:48vw;
+    color:$white;
+    font-weight: bold;
+    text-align: center;
+    width:150px;
+    height:45px;
+    line-height:45px;
+    border: solid 2px $white;
+    border-radius: 5px;
+  }
+}
