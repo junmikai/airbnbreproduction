@@ -158,7 +158,7 @@
 // オンライン体験/画像右側(PCサイズ：サングリア)
 .imageleft{
   width:100%;
-  @import "trumps";
+  @import "_components.index-details";
 }
 
 // オンライン体験/画像右側(PCサイズ：ヨガ、音楽、ペンギン)
@@ -166,13 +166,13 @@
   width:90%;
   border-radius:25px;
   height:100%;
-  @import "trumps";
+  @import "_components.index-details";
     > .imagetop{
       display: flex;
       justify-content:space-between;
       height:50%;
       width:100%;
-      @import "trumps";
+      @import "_components.index-details";
     }
   }
 
@@ -181,7 +181,7 @@
   width:23%;
   margin-right:15px;
   float: left;
-  @import "trumps";
+  @import "_components.index-details";
 }
 
 /*リンク集*/

@@ -94,117 +94,18 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_index_objects_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sass/index/objects.scss */ \"./src/sass/index/objects.scss\");\n/* harmony import */ var _sass_index_objects_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_sass_index_objects_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _sass_index_responsive_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sass/index/responsive.scss */ \"./src/sass/index/responsive.scss\");\n/* harmony import */ var _sass_index_responsive_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_index_responsive_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _sass_experiences_objects_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sass/experiences/objects.scss */ \"./src/sass/experiences/objects.scss\");\n/* harmony import */ var _sass_experiences_objects_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_experiences_objects_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _sass_experiences_responsive_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sass/experiences/responsive.scss */ \"./src/sass/experiences/responsive.scss\");\n/* harmony import */ var _sass_experiences_responsive_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_experiences_responsive_scss__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _sass_host_objects_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sass/host/objects.scss */ \"./src/sass/host/objects.scss\");\n/* harmony import */ var _sass_host_objects_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sass_host_objects_scss__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _sass_host_responsive_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sass/host/responsive.scss */ \"./src/sass/host/responsive.scss\");\n/* harmony import */ var _sass_host_responsive_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_sass_host_responsive_scss__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _sass_experiencehost_objects_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./sass/experiencehost/objects.scss */ \"./src/sass/experiencehost/objects.scss\");\n/* harmony import */ var _sass_experiencehost_objects_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_sass_experiencehost_objects_scss__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _sass_experiencehost_responsive_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./sass/experiencehost/responsive.scss */ \"./src/sass/experiencehost/responsive.scss\");\n/* harmony import */ var _sass_experiencehost_responsive_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_sass_experiencehost_responsive_scss__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _sass_reset_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sass/reset.scss */ \"./src/sass/reset.scss\");\n/* harmony import */ var _sass_reset_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_sass_reset_scss__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var _sass_color_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sass/color.scss */ \"./src/sass/color.scss\");\n/* harmony import */ var _sass_color_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_sass_color_scss__WEBPACK_IMPORTED_MODULE_9__);\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sass/main.scss */ \"./src/sass/main.scss\");\n/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_sass_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/sass/color.scss":
-/*!*****************************!*\
-  !*** ./src/sass/color.scss ***!
-  \*****************************/
+/***/ "./src/sass/main.scss":
+/*!****************************!*\
+  !*** ./src/sass/main.scss ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/color.scss?");
-
-/***/ }),
-
-/***/ "./src/sass/experiencehost/objects.scss":
-/*!**********************************************!*\
-  !*** ./src/sass/experiencehost/objects.scss ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/experiencehost/objects.scss?");
-
-/***/ }),
-
-/***/ "./src/sass/experiencehost/responsive.scss":
-/*!*************************************************!*\
-  !*** ./src/sass/experiencehost/responsive.scss ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/experiencehost/responsive.scss?");
-
-/***/ }),
-
-/***/ "./src/sass/experiences/objects.scss":
-/*!*******************************************!*\
-  !*** ./src/sass/experiences/objects.scss ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/experiences/objects.scss?");
-
-/***/ }),
-
-/***/ "./src/sass/experiences/responsive.scss":
-/*!**********************************************!*\
-  !*** ./src/sass/experiences/responsive.scss ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/experiences/responsive.scss?");
-
-/***/ }),
-
-/***/ "./src/sass/host/objects.scss":
-/*!************************************!*\
-  !*** ./src/sass/host/objects.scss ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/host/objects.scss?");
-
-/***/ }),
-
-/***/ "./src/sass/host/responsive.scss":
-/*!***************************************!*\
-  !*** ./src/sass/host/responsive.scss ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/host/responsive.scss?");
-
-/***/ }),
-
-/***/ "./src/sass/index/objects.scss":
-/*!*************************************!*\
-  !*** ./src/sass/index/objects.scss ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/index/objects.scss?");
-
-/***/ }),
-
-/***/ "./src/sass/index/responsive.scss":
-/*!****************************************!*\
-  !*** ./src/sass/index/responsive.scss ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/index/responsive.scss?");
-
-/***/ }),
-
-/***/ "./src/sass/reset.scss":
-/*!*****************************!*\
-  !*** ./src/sass/reset.scss ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/reset.scss?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/main.scss?");
 
 /***/ })
 

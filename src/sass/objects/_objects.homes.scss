@@ -1,4 +1,4 @@
-@import "../color";
+@import "../settings/_settings.color.scss";
 
 .body{
   width:100vw;
@@ -17,7 +17,7 @@
   justify-content:space-between;
   line-height:80px;
   font-weight: bold;
-  @import "components";
+  @import "../components/components.homes";
 }
 // ヘッダー/右側
 .section-layout > .hostheader > .headerright{
@@ -55,7 +55,7 @@
   right:100px;
   top:80px;
   font-weight: bold;
-  @import "components";
+  @import "../components/components.homes";
 }
 // 背景画像/width1130px以下キャッチコピー
 .section-layout > .hostbackground >.levelup{
@@ -95,7 +95,7 @@
 
 // width1130px以下入力フォーム
 .section-layout >.responsiveform{
-  @import "components";
+  @import "../components/components.homes";
   width:80%;
   margin:0 auto;
 }
@@ -104,7 +104,7 @@
 // 冒頭説明
 .section-layout > .hostmain >.introduction{
   display: flex;
-  @import "components";
+  @import "../components/components.homes";
 }
 
 
@@ -113,7 +113,7 @@
 .section-layout > .hostmain > .step{
   margin-top:30px;
   color:$light-black;
-  @import "components";
+  @import "../components/components.homes";
 }
 
 
@@ -122,7 +122,7 @@
 .section-layout > .hostmain >.interview{
   margin-top:100px;
   display: flex;
-  @import "components";
+  @import "../components/components.homes";
 }
 
 
@@ -133,7 +133,7 @@
   margin-top:30px;
   color:$light-black;
   padding:0px 30px;
-  @import "components";
+  @import "../components/components.homes";
 }
 // 安心/マッサージ画像
 .section-layout > .hostmain > .relief > .massage{
@@ -148,29 +148,29 @@
 // 実施例/
 .section-layout > .hostmain > .example{
   display:flex;
-  @import "components";
+  @import "../components/components.homes";
 }
 
 // シェアデータ
 .section-layout > .hostmain > .hostshare{
   margin-top:100px;
   color:$light-black;
-  @import "components";
+  @import "../components/components.homes";
 }
 
 // Airbnbについて
 .section-layout > .hostmain > .about{
   color:$light-black;
-  @import "components";
+  @import "../components/components.homes";
 }
 
 // よくある質問
 .section-layout > .hostmain > .question{
-  @import "components";
+  @import "../components/components.homes";
 }
 // ホスティング
 .section-layout > .hostmain > .hosting{
-  @import "components";
+  @import "../components/components.homes";
   color:$light-black;  
 }
 // リスティング
@@ -178,5 +178,5 @@
   margin-top:50px;
   position: relative;
   padding:0px 3vw;
-  @import "components";
+  @import "../components/components.homes";
 }

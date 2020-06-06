@@ -1,4 +1,4 @@
-@import "../color";
+@import "../settings/_settings.color.scss";
 
 @media (max-width: 740px){
 .section-layout > .covid{ 
@@ -20,7 +20,7 @@
   white-space: nowrap;
   display: flex;
   margin-top:initial;
-  @import "responsive-components";
+  @import "../components/_components.index-responsive";
   }
 .section-layout > .linkcollections{
   display: none;
@@ -36,7 +36,7 @@
   position: absolute;
   top:20px;
   left:30px;
-  @import "responsive-components";
+  @import "../components/_components.index-responsive";
   }
 .section-layout > .topfooter > .footerleft{
   padding:20px 0px 0px 30px;
@@ -67,30 +67,30 @@
     }
   }
 .section-layout > .onlineexperience >.top{
-  @import "responsive-components";
+  @import "../components/_components.index-responsive";
   }
 .section-layout > .onlineexperience > .imagebox{
   overflow-x: auto;
   white-space: nowrap;
   height:650px;
   margin-bottom:50px;
-  @import "responsive-components";
+  @import "../components/_components.index-responsive";
   } 
 }
 
 @media (min-width:741px) and (max-width: 1130px){
   .section-layout > .onlineexperience > .imagebox{
-    @import "responsive-components";
+    @import "../components/_components.index-responsive";
   }
   .section-layout > .news{
   height:850px;
   }
   .section-layout > .news > .informations{
-  @import "responsive-components";
+  @import "../components/_components.index-responsive";
   }
   .section-layout > .linkcollections{
   display: inline-block;
-  @import "responsive-components";
+  @import "../components/_components.index-responsive";
   width:100%;
   color:$light-black;
   > .linkcollection{
@@ -102,7 +102,7 @@
     }
   }
   .section-layout > .linkcollections > .linkcollection{
-    @import "responsive-components";
+    @import "../components/_components.index-responsive";
   }
   .section-layout > .topfooter{
   flex-wrap :wrap-reverse;
@@ -119,7 +119,7 @@
 
 @media (min-width:900px) and (max-width: 1130px) {
   .section-layout > .onlineexperience > .imagebox{
-    @import "responsive-components";
+    @import "../components/_components.index-responsive";
   }
 }
 
