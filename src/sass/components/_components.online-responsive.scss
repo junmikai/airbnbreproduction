@@ -16,42 +16,7 @@
   .share-save {
     display: none;
   }
-  // 黒枠説明文左側
-  .explanation-left{
-    width:initial;
-    padding:0px 20px;
-    > .tags{
-      width:initial;
-    }
-  }
-  // 黒枠説明文右側
-  .explanation-right{
-    width: initial;
-    margin-left:initial;
-    padding:0px 20px;
-    > .devise{
-      padding:initial;
-      position: relative;
-      line-height:initial;
-      height:60px;
-      > p{
-        width:100%;
-        padding:15px;
-        line-height:initial;
-      }
-      > img{
-        position: absolute;
-        right:0px;
-      }
-    }
-    > .specs{
-      width:500px;
-      flex-wrap :wrap;
-      >.spec{
-        width:200px;
-      }
-    }
-  }
+
   // メインページタイトル
   .sticky {
     width:initial;
@@ -152,28 +117,6 @@
 }
 
 @media (min-width:741px) and (max-width: 1130px){
-  // 黒枠説明文左側
-  .explanation-left {
-    width:55%;
-    .tags {
-      width:initial;
-    }
-  }
-  // 黒枠説明文右側
-  .explanation-left {
-    margin-left: initial;
-    > .devise{
-    height:70px;
-    line-height:initial;
-    }
-    > .specs{
-    width:55vw;
-    height:initial;
-    position: absolute;
-    left:30px;
-    bottom:-100px;
-    }
-  }
   // 挑戦タイトル
   .challengetitle {
     width:280px;

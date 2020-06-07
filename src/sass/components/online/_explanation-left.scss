@@ -1,3 +1,13 @@
+.explanation-left {
+  @media(max-width: 1130px){
+    width:55%;
+  }
+  @media (max-width: 740px){
+    width:initial;
+    padding:0px 20px;
+  }
+}
+
 .explanation-left > .icon{
   height:20px;
   width:120px;
@@ -59,6 +69,12 @@
   font-size:12px;
   flex-wrap :wrap;
   margin-bottom:10px;
+  @media(max-width: 1130px){
+    width:initial;
+  }
+  @media (max-width: 740px){
+    width:initial;
+  }
 }
 
 .explanation-left > .tags > .tag{

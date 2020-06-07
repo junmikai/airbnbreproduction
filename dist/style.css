@@ -292,6 +292,17 @@ input, select {
     display: initial;
   }
 }
+@media (max-width: 1130px) {
+  .section-layout > .container .explanation-left {
+    width: 55%;
+  }
+}
+@media (max-width: 740px) {
+  .section-layout > .container .explanation-left {
+    width: initial;
+    padding: 0px 20px;
+  }
+}
 .section-layout > .container .explanation-left > .icon {
   height: 20px;
   width: 120px;
@@ -346,6 +357,16 @@ input, select {
   flex-wrap: wrap;
   margin-bottom: 10px;
 }
+@media (max-width: 1130px) {
+  .section-layout > .container .explanation-left > .tags {
+    width: initial;
+  }
+}
+@media (max-width: 740px) {
+  .section-layout > .container .explanation-left > .tags {
+    width: initial;
+  }
+}
 .section-layout > .container .explanation-left > .tags > .tag {
   background-color: #3f3f3f;
   border-radius: 3px;
@@ -376,6 +397,18 @@ input, select {
 .section-layout > .container .explanation-right {
   width: 80%;
 }
+@media (max-width: 1130px) {
+  .section-layout > .container .explanation-right {
+    margin-left: initial;
+  }
+}
+@media (max-width: 740px) {
+  .section-layout > .container .explanation-right {
+    width: initial;
+    margin-left: initial;
+    padding: 0px 20px;
+  }
+}
 .section-layout > .container .explanation-right > .devise {
   margin: 30px 0px;
   display: flex;
@@ -386,6 +419,35 @@ input, select {
   line-height: 57px;
   padding: 10px 0px;
 }
+@media (max-width: 1130px) {
+  .section-layout > .container .explanation-right > .devise {
+    line-height: initial;
+  }
+}
+@media (max-width: 740px) {
+  .section-layout > .container .explanation-right > .devise {
+    padding: initial;
+    position: relative;
+    line-height: initial;
+    height: 60px;
+  }
+}
+@media (max-width: 1130px) {
+  .section-layout > .container .explanation-right > .devise > .devisefont {
+    padding: 15px;
+  }
+}
+@media (max-width: 740px) {
+  .section-layout > .container .explanation-right > .devise > .devisefont {
+    width: 100%;
+    padding: 15px;
+    line-height: initial;
+  }
+}
+.section-layout > .container .explanation-right > .devise > img {
+  position: absolute;
+  right: 0px;
+}
 .section-layout > .container .explanation-right > .specs {
   height: 150px;
   width: 70%;
@@ -395,7 +457,31 @@ input, select {
   font-size: 13px;
   color: #fff;
 }
-.section-layout > .container > .explanation-right > .specs > .spec > .fas {
+@media (max-width: 1130px) {
+  .section-layout > .container .explanation-right > .specs {
+    width: 55vw;
+    height: initial;
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
+  }
+}
+@media (max-width: 740px) {
+  .section-layout > .container .explanation-right > .specs {
+    width: 500px;
+    flex-wrap: wrap;
+    position: initial;
+    left: initial;
+    bottom: initial;
+  }
+}
+@media (max-width: 740px) {
+  .section-layout > .container .explanation-right > .specs > .spec {
+    width: 200px;
+    padding: 10px 0px;
+  }
+}
+.section-layout > .container .explanation-right > .specs > .spec > .fas {
   color: gray;
   margin-bottom: 10px;
 }
@@ -7793,40 +7879,6 @@ input, select {
   .section-layout > .container > .black-box > .white-header .share-save {
     display: none;
   }
-  .section-layout > .container > .black-box > .white-header .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .black-box > .white-header .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .black-box > .white-header .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .black-box > .white-header .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .black-box > .white-header .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .black-box > .white-header .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .black-box > .white-header .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .black-box > .white-header .explanation-right > .specs > .spec {
-    width: 200px;
-  }
   .section-layout > .container > .black-box > .white-header .sticky {
     width: initial;
     position: initial;
@@ -7916,26 +7968,6 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .black-box > .white-header .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .black-box > .white-header .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .black-box > .white-header .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .black-box > .white-header .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .black-box > .white-header .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
   .section-layout > .container > .black-box > .white-header .challengetitle {
     width: 280px;
   }
@@ -8024,252 +8056,6 @@ input, select {
     width: 45vw;
   }
 }
-@media (max-width: 740px) and (max-width: 740px) {
-  .section-layout > .container > .black-box > .sangría-box .whiteleft {
-    font-size: 14px;
-    font-weight: bold;
-  }
-  .section-layout > .container > .black-box > .sangría-box .whiteright {
-    color: gray;
-    font-size: 17px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .whiteright > .fas {
-    margin-right: 15px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .share-save {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .sangría-box .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .black-box > .sangría-box .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .black-box > .sangría-box .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .black-box > .sangría-box .explanation-right > .specs > .spec {
-    width: 200px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .sticky {
-    width: initial;
-    position: initial;
-  }
-  .section-layout > .container > .black-box > .sangría-box .sticky > .title {
-    font-size: 23px;
-    padding: 20px 0px 0px 20px;
-  }
-  .section-layout > .container > .black-box > .sangría-box > .challengetitle {
-    width: 90%;
-    height: 60px;
-    margin: 10px 0px 0px 20px;
-    font-size: 23px;
-    border-bottom: #cdcdcd solid 1px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .challengetexts {
-    display: initial;
-  }
-  .section-layout > .container > .black-box > .sangría-box .challengetexts > .challengetext {
-    width: 95%;
-    display: flex;
-    margin-bottom: 30px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .challengetexts > .challengetext > .minititle {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .sangría-box .challengetexts > .challengetext > .minitext {
-    margin-left: 20px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .hostdata {
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .hostdata img {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .hostdata > .hostname {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .participationtexts {
-    padding-left: 20px;
-    width: 90%;
-    width: 95%;
-    margin-top: 30px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .participationtexts > .videocall > .participationtitle {
-    font-size: 18px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .participationtexts > .charter > .participationtitle {
-    font-size: 18px;
-    margin: 20px 0px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .titles {
-    padding-left: 20px;
-    width: 90%;
-    margin-top: 30px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .titles > .sticky {
-    width: initial;
-  }
-  .section-layout > .container > .black-box > .sangría-box .titles > .sticky > .title {
-    font-size: 23px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .titles > .sticky > .totalreview {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .sangría-box .titles > .sticky > .traditional {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .sangría-box .review > .pagination > span {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .sangría-box .review > .pagination > .bot {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .sangría-box .review > .pagination > .no233 {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .sangría-box .review > .pagination > .fas {
-    margin-left: initial;
-  }
-  .section-layout > .container > .black-box > .sangría-box .footer-right {
-    margin: initial;
-  }
-  .section-layout > .container > .black-box > .sangría-box .footer-right > .sns {
-    display: none;
-  }
-}
-@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .black-box > .sangría-box .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .black-box > .sangría-box .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .black-box > .sangría-box .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .black-box > .sangría-box .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .black-box > .sangría-box .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .challengetitle {
-    width: 280px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .challengetexts {
-    display: initial;
-    padding-left: initial;
-  }
-  .section-layout > .container > .black-box > .sangría-box .challengetexts > .challengetext {
-    width: 95%;
-    display: flex;
-    margin-bottom: 30px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .challengetexts > .challengetext > .minititle {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .sangría-box .challengetexts > .challengetext > .minitext {
-    margin-left: 20px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .challengetexts > .challengetext > .minitext {
-    font-size: 16px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .link-nav {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .black-box > .sangría-box .link-nav > li {
-    width: 33%;
-  }
-}
-@media (max-width: 740px) and (max-width: 1130px) {
-  .section-layout > .container > .black-box > .sangría-box .notetext {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .notetext > .minititle {
-    font-size: 18px;
-    width: 90%;
-  }
-  .section-layout > .container > .black-box > .sangría-box .notetext > .text {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .sangría-box .minileft {
-    font-size: 10px;
-    padding: 17px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .minileft > .price {
-    font-weight: bold;
-    font-size: 13px;
-  }
-  .section-layout > .container > .black-box > .sangría-box .minileft > .review {
-    color: #01999e;
-    display: flex;
-  }
-  .section-layout > .container > .black-box > .sangría-box .minileft > .review > p {
-    font-weight: bold;
-  }
-  .section-layout > .container > .black-box > .sangría-box .minileft > .review > .fas {
-    line-height: 1.5;
-  }
-  .section-layout > .container > .black-box > .sangría-box .minileft > .review > span {
-    font-size: 10px;
-    color: gray;
-  }
-}
-@media (max-width: 740px) and (min-width: 1130px) {
-  .section-layout > .container > .black-box > .sangría-box .notetext > .fas {
-    display: none;
-  }
-}
-@media (max-width: 740px) and (min-width: 1110px) and (max-width: 1440px) {
-  .section-layout > .container > .black-box > .sangría-box .experience > .image {
-    height: 22vw;
-    width: 18vw;
-  }
-}
-@media (max-width: 740px) and (min-width: 740px) and (max-width: 1110px) {
-  .section-layout > .container > .black-box > .sangría-box .experience > .image {
-    height: 28vw;
-    width: 23vw;
-  }
-}
-@media (max-width: 740px) and (max-width: 740px) {
-  .section-layout > .container > .black-box > .sangría-box .experience > .image {
-    height: 55vw;
-    width: 45vw;
-  }
-}
 @media (max-width: 740px) {
   .section-layout > .container > .canexperience {
     display: initial;
@@ -8289,40 +8075,6 @@ input, select {
   }
   .section-layout > .container > .canexperience .share-save {
     display: none;
-  }
-  .section-layout > .container > .canexperience .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .canexperience .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .canexperience .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .canexperience .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .canexperience .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .canexperience .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .canexperience .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .canexperience .explanation-right > .specs > .spec {
-    width: 200px;
   }
   .section-layout > .container > .canexperience .sticky {
     width: initial;
@@ -8413,26 +8165,6 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .canexperience .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .canexperience .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .canexperience .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .canexperience .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .canexperience .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
   .section-layout > .container > .canexperience .challengetitle {
     width: 280px;
   }
@@ -8552,40 +8284,6 @@ input, select {
   .section-layout > .container > .challenge-background > .challenge .share-save {
     display: none;
   }
-  .section-layout > .container > .challenge-background > .challenge .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-right > .specs > .spec {
-    width: 200px;
-  }
   .section-layout > .container > .challenge-background > .challenge .sticky {
     width: initial;
     position: initial;
@@ -8675,26 +8373,6 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .challenge-background > .challenge .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
   .section-layout > .container > .challenge-background > .challenge .challengetitle {
     width: 280px;
   }
@@ -8803,40 +8481,6 @@ input, select {
   .section-layout > .container > .hosts .share-save {
     display: none;
   }
-  .section-layout > .container > .hosts .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .hosts .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .hosts .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .hosts .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .hosts .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .hosts .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .hosts .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .hosts .explanation-right > .specs > .spec {
-    width: 200px;
-  }
   .section-layout > .container > .hosts .sticky {
     width: initial;
     position: initial;
@@ -8926,26 +8570,6 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .hosts .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .hosts .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .hosts .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .hosts .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .hosts .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
   .section-layout > .container > .hosts .challengetitle {
     width: 280px;
   }
@@ -9054,40 +8678,6 @@ input, select {
   .section-layout > .container > .belongings .share-save {
     display: none;
   }
-  .section-layout > .container > .belongings .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .belongings .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .belongings .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .belongings .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .belongings .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .belongings .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .belongings .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .belongings .explanation-right > .specs > .spec {
-    width: 200px;
-  }
   .section-layout > .container > .belongings .sticky {
     width: initial;
     position: initial;
@@ -9177,26 +8767,6 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .belongings .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .belongings .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .belongings .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .belongings .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .belongings .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
   .section-layout > .container > .belongings .challengetitle {
     width: 280px;
   }
@@ -9311,40 +8881,6 @@ input, select {
   .section-layout > .container > .participation .share-save {
     display: none;
   }
-  .section-layout > .container > .participation .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .participation .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .participation .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .participation .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .participation .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .participation .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .participation .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .participation .explanation-right > .specs > .spec {
-    width: 200px;
-  }
   .section-layout > .container > .participation .sticky {
     width: initial;
     position: initial;
@@ -9434,26 +8970,6 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .participation .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .participation .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .participation .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .participation .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .participation .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
   .section-layout > .container > .participation .challengetitle {
     width: 280px;
   }
@@ -9562,40 +9078,6 @@ input, select {
   .section-layout > .container > .guestreview .share-save {
     display: none;
   }
-  .section-layout > .container > .guestreview .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .guestreview .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .guestreview .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .guestreview .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .guestreview .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .guestreview .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .guestreview .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .guestreview .explanation-right > .specs > .spec {
-    width: 200px;
-  }
   .section-layout > .container > .guestreview .sticky {
     width: initial;
     position: initial;
@@ -9685,26 +9167,6 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .guestreview .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .guestreview .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .guestreview .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .guestreview .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .guestreview .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
   .section-layout > .container > .guestreview .challengetitle {
     width: 280px;
   }
@@ -9813,40 +9275,6 @@ input, select {
   .section-layout > .container > .guestreview > .reviews .share-save {
     display: none;
   }
-  .section-layout > .container > .guestreview > .reviews .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .guestreview > .reviews .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .guestreview > .reviews .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .guestreview > .reviews .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .guestreview > .reviews .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .guestreview > .reviews .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .guestreview > .reviews .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .guestreview > .reviews .explanation-right > .specs > .spec {
-    width: 200px;
-  }
   .section-layout > .container > .guestreview > .reviews .sticky {
     width: initial;
     position: initial;
@@ -9936,26 +9364,6 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .guestreview > .reviews .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .guestreview > .reviews .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .guestreview > .reviews .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .guestreview > .reviews .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .guestreview > .reviews .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
   .section-layout > .container > .guestreview > .reviews .challengetitle {
     width: 280px;
   }
@@ -10070,504 +9478,6 @@ input, select {
     width: 97%;
   }
 }
-@media (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .black-box {
-    position: relative;
-    height: 900px;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
-  .section-layout > .container > .black-box > .online-explanation .whiteleft {
-    font-size: 14px;
-    font-weight: bold;
-  }
-  .section-layout > .container > .black-box > .online-explanation .whiteright {
-    color: gray;
-    font-size: 17px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .whiteright > .fas {
-    margin-right: 15px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .share-save {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .online-explanation .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .black-box > .online-explanation .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .black-box > .online-explanation .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .black-box > .online-explanation .explanation-right > .specs > .spec {
-    width: 200px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .sticky {
-    width: initial;
-    position: initial;
-  }
-  .section-layout > .container > .black-box > .online-explanation .sticky > .title {
-    font-size: 23px;
-    padding: 20px 0px 0px 20px;
-  }
-  .section-layout > .container > .black-box > .online-explanation > .challengetitle {
-    width: 90%;
-    height: 60px;
-    margin: 10px 0px 0px 20px;
-    font-size: 23px;
-    border-bottom: #cdcdcd solid 1px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .challengetexts {
-    display: initial;
-  }
-  .section-layout > .container > .black-box > .online-explanation .challengetexts > .challengetext {
-    width: 95%;
-    display: flex;
-    margin-bottom: 30px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .challengetexts > .challengetext > .minititle {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .online-explanation .challengetexts > .challengetext > .minitext {
-    margin-left: 20px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .hostdata {
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .hostdata img {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .hostdata > .hostname {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .participationtexts {
-    padding-left: 20px;
-    width: 90%;
-    width: 95%;
-    margin-top: 30px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .participationtexts > .videocall > .participationtitle {
-    font-size: 18px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .participationtexts > .charter > .participationtitle {
-    font-size: 18px;
-    margin: 20px 0px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .titles {
-    padding-left: 20px;
-    width: 90%;
-    margin-top: 30px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .titles > .sticky {
-    width: initial;
-  }
-  .section-layout > .container > .black-box > .online-explanation .titles > .sticky > .title {
-    font-size: 23px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .titles > .sticky > .totalreview {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .online-explanation .titles > .sticky > .traditional {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .online-explanation .review > .pagination > span {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .online-explanation .review > .pagination > .bot {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .online-explanation .review > .pagination > .no233 {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .online-explanation .review > .pagination > .fas {
-    margin-left: initial;
-  }
-  .section-layout > .container > .black-box > .online-explanation .footer-right {
-    margin: initial;
-  }
-  .section-layout > .container > .black-box > .online-explanation .footer-right > .sns {
-    display: none;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .black-box > .online-explanation .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .black-box > .online-explanation .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .black-box > .online-explanation .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .black-box > .online-explanation .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .black-box > .online-explanation .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .challengetitle {
-    width: 280px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .challengetexts {
-    display: initial;
-    padding-left: initial;
-  }
-  .section-layout > .container > .black-box > .online-explanation .challengetexts > .challengetext {
-    width: 95%;
-    display: flex;
-    margin-bottom: 30px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .challengetexts > .challengetext > .minititle {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .online-explanation .challengetexts > .challengetext > .minitext {
-    margin-left: 20px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .challengetexts > .challengetext > .minitext {
-    font-size: 16px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .link-nav {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .black-box > .online-explanation .link-nav > li {
-    width: 33%;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (max-width: 1130px) {
-  .section-layout > .container > .black-box > .online-explanation .notetext {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .notetext > .minititle {
-    font-size: 18px;
-    width: 90%;
-  }
-  .section-layout > .container > .black-box > .online-explanation .notetext > .text {
-    display: none;
-  }
-  .section-layout > .container > .black-box > .online-explanation .minileft {
-    font-size: 10px;
-    padding: 17px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .minileft > .price {
-    font-weight: bold;
-    font-size: 13px;
-  }
-  .section-layout > .container > .black-box > .online-explanation .minileft > .review {
-    color: #01999e;
-    display: flex;
-  }
-  .section-layout > .container > .black-box > .online-explanation .minileft > .review > p {
-    font-weight: bold;
-  }
-  .section-layout > .container > .black-box > .online-explanation .minileft > .review > .fas {
-    line-height: 1.5;
-  }
-  .section-layout > .container > .black-box > .online-explanation .minileft > .review > span {
-    font-size: 10px;
-    color: gray;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (min-width: 1130px) {
-  .section-layout > .container > .black-box > .online-explanation .notetext > .fas {
-    display: none;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (min-width: 1110px) and (max-width: 1440px) {
-  .section-layout > .container > .black-box > .online-explanation .experience > .image {
-    height: 22vw;
-    width: 18vw;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (min-width: 740px) and (max-width: 1110px) {
-  .section-layout > .container > .black-box > .online-explanation .experience > .image {
-    height: 28vw;
-    width: 23vw;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
-  .section-layout > .container > .black-box > .online-explanation .experience > .image {
-    height: 55vw;
-    width: 45vw;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
-  .section-layout > .container > .challenge-background > .challenge .whiteleft {
-    font-size: 14px;
-    font-weight: bold;
-  }
-  .section-layout > .container > .challenge-background > .challenge .whiteright {
-    color: gray;
-    font-size: 17px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .whiteright > .fas {
-    margin-right: 15px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .share-save {
-    display: none;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-right > .specs > .spec {
-    width: 200px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .sticky {
-    width: initial;
-    position: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .sticky > .title {
-    font-size: 23px;
-    padding: 20px 0px 0px 20px;
-  }
-  .section-layout > .container > .challenge-background > .challenge > .challengetitle {
-    width: 90%;
-    height: 60px;
-    margin: 10px 0px 0px 20px;
-    font-size: 23px;
-    border-bottom: #cdcdcd solid 1px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .challengetexts {
-    display: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .challengetexts > .challengetext {
-    width: 95%;
-    display: flex;
-    margin-bottom: 30px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .challengetexts > .challengetext > .minititle {
-    display: none;
-  }
-  .section-layout > .container > .challenge-background > .challenge .challengetexts > .challengetext > .minitext {
-    margin-left: 20px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .hostdata {
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .hostdata img {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .hostdata > .hostname {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .participationtexts {
-    padding-left: 20px;
-    width: 90%;
-    width: 95%;
-    margin-top: 30px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .participationtexts > .videocall > .participationtitle {
-    font-size: 18px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .participationtexts > .charter > .participationtitle {
-    font-size: 18px;
-    margin: 20px 0px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .titles {
-    padding-left: 20px;
-    width: 90%;
-    margin-top: 30px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .titles > .sticky {
-    width: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .titles > .sticky > .title {
-    font-size: 23px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .titles > .sticky > .totalreview {
-    display: none;
-  }
-  .section-layout > .container > .challenge-background > .challenge .titles > .sticky > .traditional {
-    display: none;
-  }
-  .section-layout > .container > .challenge-background > .challenge .review > .pagination > span {
-    display: none;
-  }
-  .section-layout > .container > .challenge-background > .challenge .review > .pagination > .bot {
-    display: none;
-  }
-  .section-layout > .container > .challenge-background > .challenge .review > .pagination > .no233 {
-    display: none;
-  }
-  .section-layout > .container > .challenge-background > .challenge .review > .pagination > .fas {
-    margin-left: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .footer-right {
-    margin: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .footer-right > .sns {
-    display: none;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .challenge-background > .challenge .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .challengetitle {
-    width: 280px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .challengetexts {
-    display: initial;
-    padding-left: initial;
-  }
-  .section-layout > .container > .challenge-background > .challenge .challengetexts > .challengetext {
-    width: 95%;
-    display: flex;
-    margin-bottom: 30px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .challengetexts > .challengetext > .minititle {
-    display: none;
-  }
-  .section-layout > .container > .challenge-background > .challenge .challengetexts > .challengetext > .minitext {
-    margin-left: 20px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .challengetexts > .challengetext > .minitext {
-    font-size: 16px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .link-nav {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .challenge-background > .challenge .link-nav > li {
-    width: 33%;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (max-width: 1130px) {
-  .section-layout > .container > .challenge-background > .challenge .notetext {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .notetext > .minititle {
-    font-size: 18px;
-    width: 90%;
-  }
-  .section-layout > .container > .challenge-background > .challenge .notetext > .text {
-    display: none;
-  }
-  .section-layout > .container > .challenge-background > .challenge .minileft {
-    font-size: 10px;
-    padding: 17px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .minileft > .price {
-    font-weight: bold;
-    font-size: 13px;
-  }
-  .section-layout > .container > .challenge-background > .challenge .minileft > .review {
-    color: #01999e;
-    display: flex;
-  }
-  .section-layout > .container > .challenge-background > .challenge .minileft > .review > p {
-    font-weight: bold;
-  }
-  .section-layout > .container > .challenge-background > .challenge .minileft > .review > .fas {
-    line-height: 1.5;
-  }
-  .section-layout > .container > .challenge-background > .challenge .minileft > .review > span {
-    font-size: 10px;
-    color: gray;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (min-width: 1130px) {
-  .section-layout > .container > .challenge-background > .challenge .notetext > .fas {
-    display: none;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (min-width: 1110px) and (max-width: 1440px) {
-  .section-layout > .container > .challenge-background > .challenge .experience > .image {
-    height: 22vw;
-    width: 18vw;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (min-width: 740px) and (max-width: 1110px) {
-  .section-layout > .container > .challenge-background > .challenge .experience > .image {
-    height: 28vw;
-    width: 23vw;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
-  .section-layout > .container > .challenge-background > .challenge .experience > .image {
-    height: 55vw;
-    width: 45vw;
-  }
-}
 @media (max-width: 1130px) {
   .section-layout > .container > .note > .notetexts {
     width: 100%;
@@ -10587,40 +9497,6 @@ input, select {
   }
   .section-layout > .container > .note > .notetexts .share-save {
     display: none;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-right > .specs > .spec {
-    width: 200px;
   }
   .section-layout > .container > .note > .notetexts .sticky {
     width: initial;
@@ -10711,26 +9587,6 @@ input, select {
   }
 }
 @media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .note > .notetexts .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
   .section-layout > .container > .note > .notetexts .challengetitle {
     width: 280px;
   }
@@ -10839,40 +9695,6 @@ input, select {
   .section-layout > .container > .fixedfooter .share-save {
     display: none;
   }
-  .section-layout > .container > .fixedfooter .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .fixedfooter .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .fixedfooter .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .fixedfooter .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .fixedfooter .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .fixedfooter .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .fixedfooter .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .fixedfooter .explanation-right > .specs > .spec {
-    width: 200px;
-  }
   .section-layout > .container > .fixedfooter .sticky {
     width: initial;
     position: initial;
@@ -10962,26 +9784,6 @@ input, select {
   }
 }
 @media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .fixedfooter .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .fixedfooter .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .fixedfooter .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .fixedfooter .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .fixedfooter .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
   .section-layout > .container > .fixedfooter .challengetitle {
     width: 280px;
   }
@@ -11109,40 +9911,6 @@ input, select {
   .section-layout > .container > .note > .notetexts .share-save {
     display: none;
   }
-  .section-layout > .container > .note > .notetexts .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-right > .specs > .spec {
-    width: 200px;
-  }
   .section-layout > .container > .note > .notetexts .sticky {
     width: initial;
     position: initial;
@@ -11232,26 +10000,6 @@ input, select {
   }
 }
 @media (min-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .note > .notetexts .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .note > .notetexts .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
   .section-layout > .container > .note > .notetexts .challengetitle {
     width: 280px;
   }
@@ -11365,40 +10113,6 @@ input, select {
   .section-layout > .container > .otherexperiences > .experiences .share-save {
     display: none;
   }
-  .section-layout > .container > .otherexperiences > .experiences .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .otherexperiences > .experiences .explanation-left > .tags {
-    width: initial;
-  }
-  .section-layout > .container > .otherexperiences > .experiences .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .section-layout > .container > .otherexperiences > .experiences .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .section-layout > .container > .otherexperiences > .experiences .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .section-layout > .container > .otherexperiences > .experiences .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .section-layout > .container > .otherexperiences > .experiences .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .section-layout > .container > .otherexperiences > .experiences .explanation-right > .specs > .spec {
-    width: 200px;
-  }
   .section-layout > .container > .otherexperiences > .experiences .sticky {
     width: initial;
     position: initial;
@@ -11488,26 +10202,6 @@ input, select {
   }
 }
 @media (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .otherexperiences > .experiences .explanation-left {
-    width: 55%;
-  }
-  .section-layout > .container > .otherexperiences > .experiences .explanation-left .tags {
-    width: initial;
-  }
-  .section-layout > .container > .otherexperiences > .experiences .explanation-left {
-    margin-left: initial;
-  }
-  .section-layout > .container > .otherexperiences > .experiences .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .section-layout > .container > .otherexperiences > .experiences .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
   .section-layout > .container > .otherexperiences > .experiences .challengetitle {
     width: 280px;
   }
@@ -24787,42 +23481,6 @@ input, select {
     display: none;
   }
 
-  .explanation-left {
-    width: initial;
-    padding: 0px 20px;
-  }
-  .explanation-left > .tags {
-    width: initial;
-  }
-
-  .explanation-right {
-    width: initial;
-    margin-left: initial;
-    padding: 0px 20px;
-  }
-  .explanation-right > .devise {
-    padding: initial;
-    position: relative;
-    line-height: initial;
-    height: 60px;
-  }
-  .explanation-right > .devise > p {
-    width: 100%;
-    padding: 15px;
-    line-height: initial;
-  }
-  .explanation-right > .devise > img {
-    position: absolute;
-    right: 0px;
-  }
-  .explanation-right > .specs {
-    width: 500px;
-    flex-wrap: wrap;
-  }
-  .explanation-right > .specs > .spec {
-    width: 200px;
-  }
-
   .sticky {
     width: initial;
     position: initial;
@@ -24919,28 +23577,6 @@ input, select {
   }
 }
 @media (min-width: 741px) and (max-width: 1130px) {
-  .explanation-left {
-    width: 55%;
-  }
-  .explanation-left .tags {
-    width: initial;
-  }
-
-  .explanation-left {
-    margin-left: initial;
-  }
-  .explanation-left > .devise {
-    height: 70px;
-    line-height: initial;
-  }
-  .explanation-left > .specs {
-    width: 55vw;
-    height: initial;
-    position: absolute;
-    left: 30px;
-    bottom: -100px;
-  }
-
   .challengetitle {
     width: 280px;
   }

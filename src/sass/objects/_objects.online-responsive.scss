@@ -2,13 +2,6 @@
 
 // 740px以下
 @media (max-width: 740px){
-  // .section-layout > .container > .fixed-header{
-  //   opacity: 0;
-  //   width:10%;
-  // }
-  // .section-layout > .container > .black-box > .experiences-header{
-  //   display: none;
-  // }
   .section-layout > .container > .black-box > .white-header{
     background-color:$white;
     height:20px;
@@ -18,13 +11,6 @@
     width:95%;
     @import "../components/_components.online-responsive";
   }
-  .section-layout > .container > .black-box > .sangría-box{
-    @import "../components/_components.online-responsive";
-  }
-  // .section-layout > .container > .black-box > .online-explanation{
-  //   display: initial;
-  //   @import "../components/_components.online-responsive";
-  // }
   .section-layout > .container > .canexperience{
     display: initial;
     @import "../components/_components.online-responsive";
@@ -86,25 +72,6 @@
   width:97%;
   }
 }
-
-
-
-// 741px~1130px
-@media (min-width:741px) and (max-width: 1130px){
-  .section-layout>.container > .black-box{
-    position: relative;
-    height:900px; 
-  }
-  .section-layout >.container > .black-box > .online-explanation{
-    @import "../components/_components.online-responsive";
-  }
-
-  .section-layout > .container > .challenge-background  > .challenge{
-    @import "../components/_components.online-responsive";
-  }
-}
-
-
 
 // 1130px以下
 @media (max-width: 1130px){
