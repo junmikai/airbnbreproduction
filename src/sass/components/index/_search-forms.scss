@@ -1,0 +1,71 @@
+.search-forms{
+  height:40px;
+  width:90%;
+  margin-top:25px;
+  padding:13px 10px;
+  background-color:$white;
+  border-radius: 10px;
+  box-shadow:$black-shadow;
+  display: flex;
+}
+
+.search-forms > .centerform{
+  width:30%;
+  border-right: thin solid;
+  height: 40px;
+  margin:3px 0px 0px 19px;
+}
+
+.centerform:nth-child(3){
+  border-right:initial;
+}
+
+.search-forms > .centerform > .title{
+  font-size:5px;
+  font-weight:bold;
+  margin-bottom:2px;
+}
+
+.search-forms > .centerform > .text{
+  font-size:14px;
+  color:$gray;
+}
+
+#plusbtn.centerform{
+  width:40%;
+  display: flex;
+  justify-content:space-between;
+}
+
+#plusbtn.centerform > .left >.title{
+  font-size:5px;
+  font-weight:bold;
+  margin-bottom:2px;
+}
+
+#plusbtn.centerform > .left > .text{
+  font-size:14px;
+  color:$gray;
+}
+
+#plusbtn.centerform > .right{
+  margin-top:-5px;
+  margin-right:5px;
+}
+
+#plusbtn.centerform > .right > .btn{
+  background: -webkit-linear-gradient(0deg,$catchcopyend,$wine);
+  color:$white;
+  width:75px;
+  height:25px;
+  padding:10px;
+  border-radius: 8px;
+  font-size:14px;
+  text-align: center;
+  line-height:25px;
+}
+
+#plusbtn.centerform > .right > .fa-search{
+  margin-right:5px;
+}
+

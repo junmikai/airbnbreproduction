@@ -6,10 +6,7 @@
   font-size:15px; 
   width: 95vw;
   height: 45vw;
-}
-
-@media (max-width: 900px){
-  .image-box{
+  @media (max-width: 900px){
     overflow-x: auto;
     white-space: nowrap;
     height:650px;

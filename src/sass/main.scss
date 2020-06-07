@@ -12,32 +12,32 @@
 
 
 .section-layout >.container{
-  @import "components/_covid-container";
-  @import "components/_header-container";
-  @import "components/_header-nav";
-  @import "components/_search-form";
-  @import "components/_search-container";
-  @import "components/_search-nav";
-  @import "components/_search-forms";
-  @import "components/_search-header";
-  @import "components/catchcopy-container";
+  @import "components/index/_covid-container";
+  @import "components/index/_header-container";
+  @import "components/index/_header-nav";
+  @import "components/index/_search-form";
+  @import "components/index/_search-container";
+  @import "components/index/_search-nav";
+  @import "components/index/_search-forms";
+  @import "components/index/_search-header";
+  @import "components/index/_catchcopy-container";
   @import "components/_online-experience";
   @import "components/_online-top";
-  @import "components/_image-box";
-  @import "components/_image-right";
-  @import "components/_image-left";
-  @import "components/_sangría-image";
-  @import "components/_yoga-image";
-  @import "components/_music-image";
-  @import "components/_penguin-image";
-  @import "components/_news-container";
-  @import "components/_information-nav";
-  @import "components/_link-collections";
-  @import "components/_link-nav";
-  @import "components/footer-container";
-  @import "components/footer-left";
-  @import "components/footer-right";
-  @import "components/hiding-footer";
+  @import "components/index/_image-box";
+  @import "components/index/_image-right";
+  @import "components/index/_image-left";
+  @import "components/index/_sangría-image";
+  @import "components/index/_yoga-image";
+  @import "components/index/_music-image";
+  @import "components/index/_penguin-image";
+  @import "components/index/_news-container";
+  @import "components/index/_information-nav";
+  @import "components/index/_link-collections";
+  @import "components/index/_link-nav";
+  @import "components/index/footer-container";
+  @import "components/index/footer-left";
+  @import "components/index/footer-right";
+  @import "components/index/hiding-footer";
 }
 
 @import "components/_components.online";

@@ -1,0 +1,19 @@
+.link-nav{
+  @media (max-width: 1130px){
+    display:flex;
+    flex-wrap: wrap;
+  }
+}
+
+.link-nav > .linklist{
+  font-size:14px;
+  list-style: none;
+  color:$gray; 
+  line-height:35px;
+  @media (max-width: 1130px){
+    width:33%;
+  }
+  @media (max-width: 740px){
+    width:100%;
+  }
+}

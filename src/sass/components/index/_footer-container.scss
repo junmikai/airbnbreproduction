@@ -1,4 +1,4 @@
-.footer-container{
+.footer-container {
   display: flex;
   justify-content:space-between;
   padding:30px 50px 100px 100px;
@@ -6,22 +6,16 @@
   color:$light-black;
   height:auto;
   background-color:$light-gray;  
-}
-
-@media (max-width: 740px){
-  .footer-container{
-    position: relative;
-    text-align:initial;
-    border-top:initial;
-  }
-}
-
-@media (min-width:741px) and (max-width: 1130px){
-  .footer-container{
+  @media (max-width: 1130px){
     flex-wrap :wrap-reverse;
     padding:30px 100px;
     margin:0 auto;
     text-align: center;
+    border-top:initial;
+  }
+  @media (max-width: 740px){
+    position: relative;
+    text-align:initial;
     border-top:initial;
   }
 }
