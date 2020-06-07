@@ -1,0 +1,23 @@
+.header-nav > .headerlist {
+  display: inline;
+  padding-right:20px;
+  text-decoration:none;
+  font-weight: bold;
+  font-size:14px;
+  color:$light-black;
+}
+
+.header-nav > .headerlist >.fas{
+  margin-right:7px;
+}
+
+.header-nav > .headerlist >.host{
+  display: none;
+}
+
+.header-nav > .headerlist > .register{
+  display: inline-block;
+  padding: 0.7em 1.1em;
+  border-radius: 20px;
+  box-shadow:$black-shadow;
+}

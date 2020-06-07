@@ -3,10 +3,8 @@
   align-items: center;
   margin:50px 40px 60px 70px;
   padding-top:30px;
-}
-
-@media (max-width: 740px){
-  .search-container{
+  @media (max-width: 740px){
     display: none;
   }
 }
+

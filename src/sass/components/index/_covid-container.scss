@@ -1,4 +1,4 @@
-.covid-container{ 
+.covid-container {
   background-color:$light-gray;
   text-align:center;
   font-size:14px;
@@ -6,13 +6,11 @@
   color:$light-black;
   display: flex;
   align-items: center;
-  > p{
-    margin: 0 auto;
+  @media (max-width: 740px){
+      height:70px;
   }
 }
 
-@media (max-width: 740px){
-  .covid-container{ 
-    height:70px;
-  }
+.covid-container > .covidfont {
+  margin: 0 auto;
 }
