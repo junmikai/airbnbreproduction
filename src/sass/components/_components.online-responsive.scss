@@ -17,7 +17,7 @@
     display: none;
   }
   // 黒枠説明文左側
-  .explanationleft{
+  .explanation-left{
     width:initial;
     padding:0px 20px;
     > .tags{
@@ -152,7 +152,7 @@
 
 @media (min-width:741px) and (max-width: 1130px){
   // 黒枠説明文左側
-  .explanationleft {
+  .explanation-left {
     width:55%;
     .tags {
       width:initial;

@@ -180,21 +180,19 @@ input, select {
   display: flex;
   list-style: none;
 }
-.section-layout > .container .header-nav li {
+.section-layout > .container .header-nav > .onlineheaderlist {
   padding: 10px;
-}
-.section-layout > .container .header-nav li a {
   text-decoration: none;
   font-size: 15px;
   color: #fff;
 }
-.section-layout > .container .header-nav li .fa-globe {
-  margin-right: 7px;
-}
-.section-layout > .container .header-nav li .grayregister {
-  padding: 15px;
+.section-layout > .container .header-nav > .grayregister {
   border-radius: 20px;
   background-color: #3f3f3f;
+  height: 20px;
+}
+.section-layout > .container .header-nav > .onlineheaderlist > .fa-globe {
+  margin-right: 7px;
 }
 .section-layout > .container .sangría-box {
   width: 95vw;
@@ -271,174 +269,17 @@ input, select {
 .section-layout > .container .share-save > .like > .far {
   padding-right: 10px;
 }
-
-.section-layout > .container > .black-box > .online-explanation {
+.section-layout > .container .online-explanation {
   width: 95vw;
   max-width: 1200px;
   display: flex;
   margin: 20px auto;
   position: relative;
-  /*フッター左側*/
-  /*フッター右側*/
 }
-.section-layout > .container > .black-box > .online-explanation .explanationleft {
-  width: 25%;
+.section-layout > .container .online-explanation > .explanationright {
+  width: 55%;
 }
-.section-layout > .container > .black-box > .online-explanation .explanationleft > .icon {
-  height: 20px;
-  width: 120px;
-  background-color: #fcfcfc;
-  border-radius: 5px;
-  display: flex;
-  font-weight: bold;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft > .icon > .fas {
-  padding-right: 5px;
-  font-size: 9px;
-  line-height: 1.5;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft > .icon > p {
-  font-size: 12px;
-  line-height: 1.5;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft > .title {
-  width: 90%;
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.1;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft > .country {
-  height: 25px;
-  width: 200px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft > .review {
-  height: 25px;
-  width: 150px;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft > .review span {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft > .review .fas {
-  margin-right: 5px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft > .tags {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  font-size: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft > .tags > .tag {
-  background-color: #3f3f3f;
-  border-radius: 3px;
-  height: 20px;
-  padding: 0px 5px;
-  margin-right: 7px;
-  color: #fff;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationleft .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright {
-  width: 50%;
-  margin-left: 80px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .devise {
+.section-layout > .container .online-explanation > .explanationright > .devise {
   margin: 30px 0px;
   display: flex;
   border-top: #cdcdcd solid 1px;
@@ -448,7 +289,7 @@ input, select {
   line-height: 57px;
   padding: 10px 0px;
 }
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs {
+.section-layout > .container .online-explanation > .explanationright > .specs {
   height: 150px;
   width: 70%;
   margin-top: 20px;
@@ -457,747 +298,94 @@ input, select {
   font-size: 13px;
   color: #fff;
 }
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .black-box > .online-explanation .explanationright > .specs .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .black-box > .online-explanation .sticky {
-  width: 20vw;
-  height: 10vh;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 55px;
-  left: 0;
-}
-.section-layout > .container > .black-box > .online-explanation .sticky > .title {
-  font-size: 30px;
-  font-weight: bold;
-  min-width: 150px;
-  padding-top: 40px;
-}
-.section-layout > .container > .black-box > .online-explanation .sticky > .traditional {
-  margin-top: 20px;
-  border: #3f3f3f solid 2px;
-  padding: 10px 20px;
-  max-width: 260px;
-  color: #3f3f3f;
-  font-weight: bold;
-  border-radius: 5px;
-}
-.section-layout > .container > .black-box > .online-explanation .experiencetext {
-  padding-top: 45px;
-  max-width: 900px;
-  line-height: 2;
-  padding-left: 60px;
-}
-.section-layout > .container > .black-box > .online-explanation .challengetitle {
-  font-size: 30px;
-  font-weight: bold;
-  min-width: 150px;
-}
-.section-layout > .container > .black-box > .online-explanation .challengetexts {
-  padding-top: 45px;
-  display: flex;
-  width: 85%;
-  padding-left: 70px;
-}
-.section-layout > .container > .black-box > .online-explanation .challengetexts .challengetext {
-  margin: 0px 20px;
-  width: 33%;
-}
-.section-layout > .container > .black-box > .online-explanation .challengetexts .challengetext > .minititle {
-  font-weight: bold;
-}
-.section-layout > .container > .black-box > .online-explanation .hostdata {
-  padding-top: 45px;
-  padding-left: 100px;
-}
-.section-layout > .container > .black-box > .online-explanation .hostdata > img {
-  border-radius: 50%;
-}
-.section-layout > .container > .black-box > .online-explanation .hostdata > .hostname {
-  font-size: 22px;
-  font-weight: bold;
-  margin-top: 10px;
-}
-.section-layout > .container > .black-box > .online-explanation .hostdata > .hosttext {
-  line-height: 2;
-  max-width: 1000px;
-}
-.section-layout > .container > .black-box > .online-explanation .hostdata > .contact {
-  color: #01999e;
-  margin: 20px 0px;
-  border: #01999e solid 2px;
-  border-radius: 5px;
-  width: 100px;
-  padding: 10px 10px;
-  font-weight: bold;
-}
-.section-layout > .container > .black-box > .online-explanation .belongingstexts {
-  padding-top: 45px;
-  padding-left: 100px;
-  width: 100%;
-}
-.section-layout > .container > .black-box > .online-explanation .belongingstexts .belongingstext {
-  height: 65px;
-  margin-top: 30px;
-  border-bottom: #cdcdcd solid 1px;
-  display: flex;
-}
-.section-layout > .container > .black-box > .online-explanation .belongingstexts .belongingstext > .far {
-  font-size: 30px;
-  margin-right: 10px;
-}
-.section-layout > .container > .black-box > .online-explanation .belongingstexts .belongingstext > p {
-  line-height: 2;
-  font-size: 15px;
-}
-.section-layout > .container > .black-box > .online-explanation .belongingstexts .belongingstext span {
-  color: #01999e;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts {
-  padding-top: 45px;
-  padding-left: 100px;
-  width: 100%;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts > .charter > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .black-box > .online-explanation .participationtexts > .charter > .details {
-  font-size: 18px;
-}
-.section-layout > .container > .black-box > .online-explanation .totalreview {
-  font-weight: bold;
-  width: 255px;
-}
-.section-layout > .container > .black-box > .online-explanation .totalreview > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .black-box > .online-explanation .review {
-  margin-bottom: 30px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top {
-  display: flex;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top img {
-  border-radius: 50%;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .top .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .down {
-  margin-top: 15px;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 30px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .down span {
-  color: #01999e;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .pagination {
-  color: #01999e;
-  font-size: 14px;
-  display: flex;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .pagination span {
-  letter-spacing: 40px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .pagination > .bot {
-  margin-right: 20px;
-}
-.section-layout > .container > .black-box > .online-explanation .review > .pagination > .fas {
-  font-size: 30px;
-  margin-left: 30px;
-  line-height: 0.7;
-}
-.section-layout > .container > .black-box > .online-explanation .review:nth-child(5) > .down {
-  border-bottom: initial;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar {
-  display: inline-block;
-  padding: 0px 30px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .black-box > .online-explanation .calendar > .month {
-  font-size: 18px;
-  margin: 0px 0px 20px 15px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts {
-  padding-top: 45px;
-  padding-left: 30px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .black-box > .online-explanation .notetexts > .notetext:nth-child(4) {
-  border-bottom: initial;
-}
-.section-layout > .container > .black-box > .online-explanation .experience {
-  height: 100%;
-  margin: 0px 7px;
-  color: #3f3f3f;
-}
-.section-layout > .container > .black-box > .online-explanation .experience > .image {
-  background-image: url("/Users/mikaijun/airbnb/src/image/Chernobyl.png");
-  background-size: cover;
-  border-radius: 10px;
-  height: 15vw;
-  width: 13vw;
-  position: relative;
-}
-.section-layout > .container > .black-box > .online-explanation .experience > .image > .online {
-  background-color: black;
-  width: 65px;
+.section-layout > .container .online-explanation > .explanationright > .specs > .spec > .fas {
+  color: gray;
+  margin-bottom: 10px;
+}
+.section-layout > .container .online-explanation > .explanationright > .specs > .spec > .title {
+  color: gray;
+  margin-bottom: 10px;
+}
+.section-layout > .container .explanation-left > .icon {
   height: 20px;
-  font-size: 12px;
-  color: #fff;
-  position: absolute;
-  left: 15px;
-  top: 10px;
+  width: 120px;
+  background-color: #fcfcfc;
   border-radius: 5px;
+  display: flex;
   font-weight: bold;
-  padding-left: 3px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.section-layout > .container .explanation-left > .icon > .fas {
+  padding-right: 5px;
+  font-size: 9px;
+  line-height: 1.5;
+}
+.section-layout > .container .explanation-left > .icon > .playfont {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.section-layout > .container .explanation-left > .title {
+  width: 90%;
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+.section-layout > .container .explanation-left > .country {
+  height: 25px;
+  width: 200px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.section-layout > .container .explanation-left > .review {
+  height: 25px;
+  width: 150px;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.section-layout > .container .explanation-left > .review > .reviewscore {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.section-layout > .container .explanation-left > .review > .fas {
+  margin-right: 5px;
+}
+.section-layout > .container .explanation-left > .tags {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  font-size: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.section-layout > .container .explanation-left > .tags > .tag {
+  background-color: #3f3f3f;
+  border-radius: 3px;
+  height: 20px;
+  padding: 0px 5px;
+  margin-right: 7px;
+  color: #fff;
   line-height: 20px;
 }
-.section-layout > .container > .black-box > .online-explanation .experience > .country {
-  margin: 5px 0px;
-  font-size: 12px;
-  font-weight: bold;
-  max-width: 200px;
-  white-space: pre-wrap;
+.section-layout > .container .explanation-left > .translation {
+  width: 270px;
 }
-.section-layout > .container > .black-box > .online-explanation .experience > .minititle {
-  margin-bottom: 6px;
-  max-width: 200px;
-  white-space: pre-wrap;
-}
-.section-layout > .container > .black-box > .online-explanation .experience > .price {
-  font-size: 15px;
-}
-.section-layout > .container > .black-box > .online-explanation .experience > .review {
-  font-size: 12px;
-}
-.section-layout > .container > .black-box > .online-explanation .experience > .review > .fas {
-  margin-right: 3px;
-}
-.section-layout > .container > .black-box > .online-explanation .experience > .review span {
-  color: gray;
-  margin-left: 3px;
-}
-.section-layout > .container > .black-box > .online-explanation .experience:nth-child(2) > .image {
-  background-image: url("/Users/mikaijun/airbnb/src/image/farm.png");
-}
-.section-layout > .container > .black-box > .online-explanation .experience:nth-child(3) > .image {
-  background-image: url("/Users/mikaijun/airbnb/src/image/zazen.png");
-}
-.section-layout > .container > .black-box > .online-explanation .experience:nth-child(4) > .image {
-  background-image: url("/Users/mikaijun/airbnb/src/image/gogh.png");
-}
-.section-layout > .container > .black-box > .online-explanation .experience:nth-child(5) > .image {
-  background-image: url("/Users/mikaijun/airbnb/src/image/yagi.png");
-}
-.section-layout > .container > .black-box > .online-explanation .experience:nth-child(6) > .image {
-  background-image: url("/Users/mikaijun/airbnb/src/image/table.png");
-}
-.section-layout > .container > .black-box > .online-explanation .footer-left {
-  font-size: 13px;
-}
-.section-layout > .container > .black-box > .online-explanation .footer-left > span {
-  padding: 0px 8px;
-}
-.section-layout > .container > .black-box > .online-explanation .footer-right {
+.section-layout > .container .explanation-left > .translation > .border {
+  margin-top: 5px;
+  border: solid 2px;
+  padding: 10px 15px;
   display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  font-weight: bold;
-  height: 30px;
-  width: 300px;
-}
-.section-layout > .container > .black-box > .online-explanation .footer-right > .japan {
-  display: flex;
-  justify-content: space-between;
-}
-.section-layout > .container > .black-box > .online-explanation .footer-right > .japan > .fa-globe {
-  margin: 3px 5px 0px 0px;
-}
-.section-layout > .container > .black-box > .online-explanation .footer-right > .japan > p {
-  margin: 0px 4px;
-  text-decoration: underline;
-}
-.section-layout > .container > .black-box > .online-explanation .footer-right > .sns {
-  letter-spacing: 10px;
-  font-size: 18px;
-}
-.section-layout > .container > .black-box > .online-explanation .fixedleft {
-  display: flex;
-  padding-left: 30px;
-}
-.section-layout > .container > .black-box > .online-explanation .fixedleft > img {
-  margin-top: 10px;
-  border-radius: 50%;
-}
-.section-layout > .container > .black-box > .online-explanation .fixedleft > .title {
-  margin: 0px 10px;
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .black-box > .online-explanation .fixedleft > .review {
-  font-size: 10px;
-  font-weight: bold;
-  color: #01999e;
-}
-.section-layout > .container > .black-box > .online-explanation .fixedleft > .reviewcount {
-  font-size: 10px;
-  color: gray;
-}
-.section-layout > .container > .black-box > .online-explanation .fixedright {
-  display: flex;
-  padding-right: 30px;
-}
-.section-layout > .container > .black-box > .online-explanation .fixedright > .price {
-  font-weight: bold;
-  font-size: 13px;
-}
-.section-layout > .container > .black-box > .online-explanation .fixedright > .daybtn {
-  background-color: #f73131;
   color: #fff;
-  font-weight: bold;
   text-align: center;
-  width: 200px;
-  height: 50px;
-  line-height: 50px;
-  margin: 10px 0px 0px 30px;
-  border-radius: 5px;
+}
+.section-layout > .container .explanation-left > .translation > .border > .fas {
+  margin-right: 5px;
+  font-size: 30px;
+}
+.section-layout > .container .explanation-left > .translation > .border > .translationfont {
+  line-height: 1.7;
 }
 
 .section-layout > .container > .canexperience {
@@ -1209,270 +397,6 @@ input, select {
   margin-bottom: 40px;
   /*フッター左側*/
   /*フッター右側*/
-}
-.section-layout > .container > .canexperience .explanationleft {
-  width: 25%;
-}
-.section-layout > .container > .canexperience .explanationleft > .icon {
-  height: 20px;
-  width: 120px;
-  background-color: #fcfcfc;
-  border-radius: 5px;
-  display: flex;
-  font-weight: bold;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .canexperience .explanationleft > .icon > .fas {
-  padding-right: 5px;
-  font-size: 9px;
-  line-height: 1.5;
-}
-.section-layout > .container > .canexperience .explanationleft > .icon > p {
-  font-size: 12px;
-  line-height: 1.5;
-}
-.section-layout > .container > .canexperience .explanationleft > .title {
-  width: 90%;
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.1;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .canexperience .explanationleft > .country {
-  height: 25px;
-  width: 200px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .canexperience .explanationleft > .review {
-  height: 25px;
-  width: 150px;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .canexperience .explanationleft > .review span {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .canexperience .explanationleft > .review .fas {
-  margin-right: 5px;
-}
-.section-layout > .container > .canexperience .explanationleft > .tags {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  font-size: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .canexperience .explanationleft > .tags > .tag {
-  background-color: #3f3f3f;
-  border-radius: 3px;
-  height: 20px;
-  padding: 0px 5px;
-  margin-right: 7px;
-  color: #fff;
-}
-.section-layout > .container > .canexperience .explanationleft .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .canexperience .explanationleft .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .canexperience .explanationleft .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .canexperience .explanationleft .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .canexperience .explanationleft .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .canexperience .explanationleft .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .canexperience .explanationleft .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .canexperience .explanationleft .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .canexperience .explanationleft .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .canexperience .explanationleft .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .canexperience .explanationleft .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .canexperience .explanationleft .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .canexperience .explanationleft .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .canexperience .explanationleft .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .canexperience .explanationleft .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .canexperience .explanationleft .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .canexperience .explanationleft .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .canexperience .explanationleft .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .canexperience .explanationleft .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .canexperience .explanationleft .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .canexperience .explanationright {
-  width: 50%;
-  margin-left: 80px;
-}
-.section-layout > .container > .canexperience .explanationright > .devise {
-  margin: 30px 0px;
-  display: flex;
-  border-top: #cdcdcd solid 1px;
-  border-bottom: #cdcdcd solid 1px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 57px;
-  padding: 10px 0px;
-}
-.section-layout > .container > .canexperience .explanationright > .specs {
-  height: 150px;
-  width: 70%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  color: #fff;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .canexperience .explanationright > .specs .notetext > .fas {
-  font-size: 25px;
 }
 .section-layout > .container > .canexperience .sticky {
   width: 20vw;
@@ -2144,270 +1068,6 @@ input, select {
   /*フッター左側*/
   /*フッター右側*/
 }
-.section-layout > .container > .challenge-background > .challenge .explanationleft {
-  width: 25%;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft > .icon {
-  height: 20px;
-  width: 120px;
-  background-color: #fcfcfc;
-  border-radius: 5px;
-  display: flex;
-  font-weight: bold;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft > .icon > .fas {
-  padding-right: 5px;
-  font-size: 9px;
-  line-height: 1.5;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft > .icon > p {
-  font-size: 12px;
-  line-height: 1.5;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft > .title {
-  width: 90%;
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.1;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft > .country {
-  height: 25px;
-  width: 200px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft > .review {
-  height: 25px;
-  width: 150px;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft > .review span {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft > .review .fas {
-  margin-right: 5px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft > .tags {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  font-size: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft > .tags > .tag {
-  background-color: #3f3f3f;
-  border-radius: 3px;
-  height: 20px;
-  padding: 0px 5px;
-  margin-right: 7px;
-  color: #fff;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationleft .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright {
-  width: 50%;
-  margin-left: 80px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .devise {
-  margin: 30px 0px;
-  display: flex;
-  border-top: #cdcdcd solid 1px;
-  border-bottom: #cdcdcd solid 1px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 57px;
-  padding: 10px 0px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs {
-  height: 150px;
-  width: 70%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  color: #fff;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .challenge-background > .challenge .explanationright > .specs .notetext > .fas {
-  font-size: 25px;
-}
 .section-layout > .container > .challenge-background > .challenge .sticky {
   width: 20vw;
   height: 10vh;
@@ -3071,270 +1731,6 @@ input, select {
   display: flex;
   /*フッター左側*/
   /*フッター右側*/
-}
-.section-layout > .container > .hosts .explanationleft {
-  width: 25%;
-}
-.section-layout > .container > .hosts .explanationleft > .icon {
-  height: 20px;
-  width: 120px;
-  background-color: #fcfcfc;
-  border-radius: 5px;
-  display: flex;
-  font-weight: bold;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .hosts .explanationleft > .icon > .fas {
-  padding-right: 5px;
-  font-size: 9px;
-  line-height: 1.5;
-}
-.section-layout > .container > .hosts .explanationleft > .icon > p {
-  font-size: 12px;
-  line-height: 1.5;
-}
-.section-layout > .container > .hosts .explanationleft > .title {
-  width: 90%;
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.1;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .hosts .explanationleft > .country {
-  height: 25px;
-  width: 200px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .hosts .explanationleft > .review {
-  height: 25px;
-  width: 150px;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .hosts .explanationleft > .review span {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .hosts .explanationleft > .review .fas {
-  margin-right: 5px;
-}
-.section-layout > .container > .hosts .explanationleft > .tags {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  font-size: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .hosts .explanationleft > .tags > .tag {
-  background-color: #3f3f3f;
-  border-radius: 3px;
-  height: 20px;
-  padding: 0px 5px;
-  margin-right: 7px;
-  color: #fff;
-}
-.section-layout > .container > .hosts .explanationleft .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .hosts .explanationleft .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .hosts .explanationleft .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .hosts .explanationleft .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .hosts .explanationleft .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .hosts .explanationleft .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .hosts .explanationleft .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .hosts .explanationleft .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .hosts .explanationleft .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .hosts .explanationleft .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .hosts .explanationleft .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .hosts .explanationleft .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .hosts .explanationleft .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .hosts .explanationleft .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .hosts .explanationleft .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .hosts .explanationleft .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .hosts .explanationleft .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .hosts .explanationleft .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .hosts .explanationleft .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .hosts .explanationleft .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .hosts .explanationright {
-  width: 50%;
-  margin-left: 80px;
-}
-.section-layout > .container > .hosts .explanationright > .devise {
-  margin: 30px 0px;
-  display: flex;
-  border-top: #cdcdcd solid 1px;
-  border-bottom: #cdcdcd solid 1px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 57px;
-  padding: 10px 0px;
-}
-.section-layout > .container > .hosts .explanationright > .specs {
-  height: 150px;
-  width: 70%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  color: #fff;
-}
-.section-layout > .container > .hosts .explanationright > .specs .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .hosts .explanationright > .specs .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .hosts .explanationright > .specs .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .hosts .explanationright > .specs .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .hosts .explanationright > .specs .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .hosts .explanationright > .specs .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .hosts .explanationright > .specs .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .hosts .explanationright > .specs .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .hosts .explanationright > .specs .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .hosts .explanationright > .specs .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .hosts .explanationright > .specs .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .hosts .explanationright > .specs .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .hosts .explanationright > .specs .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .hosts .explanationright > .specs .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .hosts .explanationright > .specs .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .hosts .explanationright > .specs .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .hosts .explanationright > .specs .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .hosts .explanationright > .specs .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .hosts .explanationright > .specs .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .hosts .explanationright > .specs .notetext > .fas {
-  font-size: 25px;
 }
 .section-layout > .container > .hosts .sticky {
   width: 20vw;
@@ -4000,270 +2396,6 @@ input, select {
   /*フッター左側*/
   /*フッター右側*/
 }
-.section-layout > .container > .belongings .explanationleft {
-  width: 25%;
-}
-.section-layout > .container > .belongings .explanationleft > .icon {
-  height: 20px;
-  width: 120px;
-  background-color: #fcfcfc;
-  border-radius: 5px;
-  display: flex;
-  font-weight: bold;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .belongings .explanationleft > .icon > .fas {
-  padding-right: 5px;
-  font-size: 9px;
-  line-height: 1.5;
-}
-.section-layout > .container > .belongings .explanationleft > .icon > p {
-  font-size: 12px;
-  line-height: 1.5;
-}
-.section-layout > .container > .belongings .explanationleft > .title {
-  width: 90%;
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.1;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .belongings .explanationleft > .country {
-  height: 25px;
-  width: 200px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .belongings .explanationleft > .review {
-  height: 25px;
-  width: 150px;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .belongings .explanationleft > .review span {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .belongings .explanationleft > .review .fas {
-  margin-right: 5px;
-}
-.section-layout > .container > .belongings .explanationleft > .tags {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  font-size: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .belongings .explanationleft > .tags > .tag {
-  background-color: #3f3f3f;
-  border-radius: 3px;
-  height: 20px;
-  padding: 0px 5px;
-  margin-right: 7px;
-  color: #fff;
-}
-.section-layout > .container > .belongings .explanationleft .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .belongings .explanationleft .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .belongings .explanationleft .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .belongings .explanationleft .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .belongings .explanationleft .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .belongings .explanationleft .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .belongings .explanationleft .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .belongings .explanationleft .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .belongings .explanationleft .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .belongings .explanationleft .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .belongings .explanationleft .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .belongings .explanationleft .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .belongings .explanationleft .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .belongings .explanationleft .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .belongings .explanationleft .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .belongings .explanationleft .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .belongings .explanationleft .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .belongings .explanationleft .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .belongings .explanationleft .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .belongings .explanationleft .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .belongings .explanationright {
-  width: 50%;
-  margin-left: 80px;
-}
-.section-layout > .container > .belongings .explanationright > .devise {
-  margin: 30px 0px;
-  display: flex;
-  border-top: #cdcdcd solid 1px;
-  border-bottom: #cdcdcd solid 1px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 57px;
-  padding: 10px 0px;
-}
-.section-layout > .container > .belongings .explanationright > .specs {
-  height: 150px;
-  width: 70%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  color: #fff;
-}
-.section-layout > .container > .belongings .explanationright > .specs .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .belongings .explanationright > .specs .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .belongings .explanationright > .specs .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .belongings .explanationright > .specs .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .belongings .explanationright > .specs .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .belongings .explanationright > .specs .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .belongings .explanationright > .specs .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .belongings .explanationright > .specs .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .belongings .explanationright > .specs .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .belongings .explanationright > .specs .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .belongings .explanationright > .specs .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .belongings .explanationright > .specs .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .belongings .explanationright > .specs .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .belongings .explanationright > .specs .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .belongings .explanationright > .specs .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .belongings .explanationright > .specs .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .belongings .explanationright > .specs .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .belongings .explanationright > .specs .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .belongings .explanationright > .specs .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .belongings .explanationright > .specs .notetext > .fas {
-  font-size: 25px;
-}
 .section-layout > .container > .belongings .sticky {
   width: 20vw;
   height: 10vh;
@@ -4927,270 +3059,6 @@ input, select {
   display: flex;
   /*フッター左側*/
   /*フッター右側*/
-}
-.section-layout > .container > .participation .explanationleft {
-  width: 25%;
-}
-.section-layout > .container > .participation .explanationleft > .icon {
-  height: 20px;
-  width: 120px;
-  background-color: #fcfcfc;
-  border-radius: 5px;
-  display: flex;
-  font-weight: bold;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .participation .explanationleft > .icon > .fas {
-  padding-right: 5px;
-  font-size: 9px;
-  line-height: 1.5;
-}
-.section-layout > .container > .participation .explanationleft > .icon > p {
-  font-size: 12px;
-  line-height: 1.5;
-}
-.section-layout > .container > .participation .explanationleft > .title {
-  width: 90%;
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.1;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .participation .explanationleft > .country {
-  height: 25px;
-  width: 200px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .participation .explanationleft > .review {
-  height: 25px;
-  width: 150px;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .participation .explanationleft > .review span {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .participation .explanationleft > .review .fas {
-  margin-right: 5px;
-}
-.section-layout > .container > .participation .explanationleft > .tags {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  font-size: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .participation .explanationleft > .tags > .tag {
-  background-color: #3f3f3f;
-  border-radius: 3px;
-  height: 20px;
-  padding: 0px 5px;
-  margin-right: 7px;
-  color: #fff;
-}
-.section-layout > .container > .participation .explanationleft .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .participation .explanationleft .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .participation .explanationleft .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .participation .explanationleft .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .participation .explanationleft .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .participation .explanationleft .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .participation .explanationleft .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .participation .explanationleft .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .participation .explanationleft .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .participation .explanationleft .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .participation .explanationleft .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .participation .explanationleft .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .participation .explanationleft .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .participation .explanationleft .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .participation .explanationleft .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .participation .explanationleft .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .participation .explanationleft .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .participation .explanationleft .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .participation .explanationleft .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .participation .explanationleft .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .participation .explanationright {
-  width: 50%;
-  margin-left: 80px;
-}
-.section-layout > .container > .participation .explanationright > .devise {
-  margin: 30px 0px;
-  display: flex;
-  border-top: #cdcdcd solid 1px;
-  border-bottom: #cdcdcd solid 1px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 57px;
-  padding: 10px 0px;
-}
-.section-layout > .container > .participation .explanationright > .specs {
-  height: 150px;
-  width: 70%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  color: #fff;
-}
-.section-layout > .container > .participation .explanationright > .specs .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .participation .explanationright > .specs .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .participation .explanationright > .specs .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .participation .explanationright > .specs .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .participation .explanationright > .specs .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .participation .explanationright > .specs .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .participation .explanationright > .specs .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .participation .explanationright > .specs .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .participation .explanationright > .specs .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .participation .explanationright > .specs .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .participation .explanationright > .specs .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .participation .explanationright > .specs .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .participation .explanationright > .specs .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .participation .explanationright > .specs .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .participation .explanationright > .specs .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .participation .explanationright > .specs .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .participation .explanationright > .specs .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .participation .explanationright > .specs .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .participation .explanationright > .specs .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .participation .explanationright > .specs .notetext > .fas {
-  font-size: 25px;
 }
 .section-layout > .container > .participation .sticky {
   width: 20vw;
@@ -5860,270 +3728,6 @@ input, select {
   /*フッター左側*/
   /*フッター右側*/
 }
-.section-layout > .container > .guestreview > .titles .explanationleft {
-  width: 25%;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft > .icon {
-  height: 20px;
-  width: 120px;
-  background-color: #fcfcfc;
-  border-radius: 5px;
-  display: flex;
-  font-weight: bold;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft > .icon > .fas {
-  padding-right: 5px;
-  font-size: 9px;
-  line-height: 1.5;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft > .icon > p {
-  font-size: 12px;
-  line-height: 1.5;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft > .title {
-  width: 90%;
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.1;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft > .country {
-  height: 25px;
-  width: 200px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft > .review {
-  height: 25px;
-  width: 150px;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft > .review span {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft > .review .fas {
-  margin-right: 5px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft > .tags {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  font-size: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft > .tags > .tag {
-  background-color: #3f3f3f;
-  border-radius: 3px;
-  height: 20px;
-  padding: 0px 5px;
-  margin-right: 7px;
-  color: #fff;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .guestreview > .titles .explanationleft .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright {
-  width: 50%;
-  margin-left: 80px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .devise {
-  margin: 30px 0px;
-  display: flex;
-  border-top: #cdcdcd solid 1px;
-  border-bottom: #cdcdcd solid 1px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 57px;
-  padding: 10px 0px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs {
-  height: 150px;
-  width: 70%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  color: #fff;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .guestreview > .titles .explanationright > .specs .notetext > .fas {
-  font-size: 25px;
-}
 .section-layout > .container > .guestreview > .titles .sticky {
   width: 20vw;
   height: 10vh;
@@ -6784,270 +4388,6 @@ input, select {
   padding-left: 120px;
   /*フッター左側*/
   /*フッター右側*/
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft {
-  width: 25%;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft > .icon {
-  height: 20px;
-  width: 120px;
-  background-color: #fcfcfc;
-  border-radius: 5px;
-  display: flex;
-  font-weight: bold;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft > .icon > .fas {
-  padding-right: 5px;
-  font-size: 9px;
-  line-height: 1.5;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft > .icon > p {
-  font-size: 12px;
-  line-height: 1.5;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft > .title {
-  width: 90%;
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.1;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft > .country {
-  height: 25px;
-  width: 200px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft > .review {
-  height: 25px;
-  width: 150px;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft > .review span {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft > .review .fas {
-  margin-right: 5px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft > .tags {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  font-size: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft > .tags > .tag {
-  background-color: #3f3f3f;
-  border-radius: 3px;
-  height: 20px;
-  padding: 0px 5px;
-  margin-right: 7px;
-  color: #fff;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationleft .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright {
-  width: 50%;
-  margin-left: 80px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .devise {
-  margin: 30px 0px;
-  display: flex;
-  border-top: #cdcdcd solid 1px;
-  border-bottom: #cdcdcd solid 1px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 57px;
-  padding: 10px 0px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs {
-  height: 150px;
-  width: 70%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  color: #fff;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .guestreview > .reviews .explanationright > .specs .notetext > .fas {
-  font-size: 25px;
 }
 .section-layout > .container > .guestreview > .reviews .sticky {
   width: 20vw;
@@ -7727,270 +5067,6 @@ input, select {
   /*フッター左側*/
   /*フッター右側*/
 }
-.section-layout > .container > .reservation > .calendars .explanationleft {
-  width: 25%;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft > .icon {
-  height: 20px;
-  width: 120px;
-  background-color: #fcfcfc;
-  border-radius: 5px;
-  display: flex;
-  font-weight: bold;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft > .icon > .fas {
-  padding-right: 5px;
-  font-size: 9px;
-  line-height: 1.5;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft > .icon > p {
-  font-size: 12px;
-  line-height: 1.5;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft > .title {
-  width: 90%;
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.1;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft > .country {
-  height: 25px;
-  width: 200px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft > .review {
-  height: 25px;
-  width: 150px;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft > .review span {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft > .review .fas {
-  margin-right: 5px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft > .tags {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  font-size: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft > .tags > .tag {
-  background-color: #3f3f3f;
-  border-radius: 3px;
-  height: 20px;
-  padding: 0px 5px;
-  margin-right: 7px;
-  color: #fff;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .reservation > .calendars .explanationleft .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright {
-  width: 50%;
-  margin-left: 80px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .devise {
-  margin: 30px 0px;
-  display: flex;
-  border-top: #cdcdcd solid 1px;
-  border-bottom: #cdcdcd solid 1px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 57px;
-  padding: 10px 0px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs {
-  height: 150px;
-  width: 70%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  color: #fff;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .reservation > .calendars .explanationright > .specs .notetext > .fas {
-  font-size: 25px;
-}
 .section-layout > .container > .reservation > .calendars .sticky {
   width: 20vw;
   height: 10vh;
@@ -8666,270 +5742,6 @@ input, select {
   /*フッター左側*/
   /*フッター右側*/
 }
-.section-layout > .container > .note .explanationleft {
-  width: 25%;
-}
-.section-layout > .container > .note .explanationleft > .icon {
-  height: 20px;
-  width: 120px;
-  background-color: #fcfcfc;
-  border-radius: 5px;
-  display: flex;
-  font-weight: bold;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .note .explanationleft > .icon > .fas {
-  padding-right: 5px;
-  font-size: 9px;
-  line-height: 1.5;
-}
-.section-layout > .container > .note .explanationleft > .icon > p {
-  font-size: 12px;
-  line-height: 1.5;
-}
-.section-layout > .container > .note .explanationleft > .title {
-  width: 90%;
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.1;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .note .explanationleft > .country {
-  height: 25px;
-  width: 200px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .note .explanationleft > .review {
-  height: 25px;
-  width: 150px;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .note .explanationleft > .review span {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .note .explanationleft > .review .fas {
-  margin-right: 5px;
-}
-.section-layout > .container > .note .explanationleft > .tags {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  font-size: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .note .explanationleft > .tags > .tag {
-  background-color: #3f3f3f;
-  border-radius: 3px;
-  height: 20px;
-  padding: 0px 5px;
-  margin-right: 7px;
-  color: #fff;
-}
-.section-layout > .container > .note .explanationleft .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .note .explanationleft .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .note .explanationleft .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .note .explanationleft .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .note .explanationleft .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .note .explanationleft .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .note .explanationleft .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .note .explanationleft .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .note .explanationleft .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .note .explanationleft .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .note .explanationleft .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .note .explanationleft .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .note .explanationleft .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .note .explanationleft .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .note .explanationleft .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .note .explanationleft .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .note .explanationleft .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .note .explanationleft .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .note .explanationleft .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .note .explanationleft .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .note .explanationright {
-  width: 50%;
-  margin-left: 80px;
-}
-.section-layout > .container > .note .explanationright > .devise {
-  margin: 30px 0px;
-  display: flex;
-  border-top: #cdcdcd solid 1px;
-  border-bottom: #cdcdcd solid 1px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 57px;
-  padding: 10px 0px;
-}
-.section-layout > .container > .note .explanationright > .specs {
-  height: 150px;
-  width: 70%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  color: #fff;
-}
-.section-layout > .container > .note .explanationright > .specs .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .note .explanationright > .specs .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .note .explanationright > .specs .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .note .explanationright > .specs .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .note .explanationright > .specs .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .note .explanationright > .specs .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .note .explanationright > .specs .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .note .explanationright > .specs .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .note .explanationright > .specs .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .note .explanationright > .specs .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .note .explanationright > .specs .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .note .explanationright > .specs .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .note .explanationright > .specs .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .note .explanationright > .specs .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .note .explanationright > .specs .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .note .explanationright > .specs .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .note .explanationright > .specs .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .note .explanationright > .specs .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .note .explanationright > .specs .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .note .explanationright > .specs .notetext > .fas {
-  font-size: 25px;
-}
 .section-layout > .container > .note .sticky {
   width: 20vw;
   height: 10vh;
@@ -9602,270 +6414,6 @@ input, select {
   overflow-x: auto;
   /*フッター左側*/
   /*フッター右側*/
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft {
-  width: 25%;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft > .icon {
-  height: 20px;
-  width: 120px;
-  background-color: #fcfcfc;
-  border-radius: 5px;
-  display: flex;
-  font-weight: bold;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft > .icon > .fas {
-  padding-right: 5px;
-  font-size: 9px;
-  line-height: 1.5;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft > .icon > p {
-  font-size: 12px;
-  line-height: 1.5;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft > .title {
-  width: 90%;
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.1;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft > .country {
-  height: 25px;
-  width: 200px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft > .review {
-  height: 25px;
-  width: 150px;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft > .review span {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft > .review .fas {
-  margin-right: 5px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft > .tags {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  font-size: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft > .tags > .tag {
-  background-color: #3f3f3f;
-  border-radius: 3px;
-  height: 20px;
-  padding: 0px 5px;
-  margin-right: 7px;
-  color: #fff;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationleft .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright {
-  width: 50%;
-  margin-left: 80px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .devise {
-  margin: 30px 0px;
-  display: flex;
-  border-top: #cdcdcd solid 1px;
-  border-bottom: #cdcdcd solid 1px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 57px;
-  padding: 10px 0px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs {
-  height: 150px;
-  width: 70%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  color: #fff;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .otherexperiences > .experiences .explanationright > .specs .notetext > .fas {
-  font-size: 25px;
 }
 .section-layout > .container > .otherexperiences > .experiences .sticky {
   width: 20vw;
@@ -10542,270 +7090,6 @@ input, select {
   padding: 0px 0px;
   /*フッター左側*/
   /*フッター右側*/
-}
-.section-layout > .container > .fixedfooter .explanationleft {
-  width: 25%;
-}
-.section-layout > .container > .fixedfooter .explanationleft > .icon {
-  height: 20px;
-  width: 120px;
-  background-color: #fcfcfc;
-  border-radius: 5px;
-  display: flex;
-  font-weight: bold;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .fixedfooter .explanationleft > .icon > .fas {
-  padding-right: 5px;
-  font-size: 9px;
-  line-height: 1.5;
-}
-.section-layout > .container > .fixedfooter .explanationleft > .icon > p {
-  font-size: 12px;
-  line-height: 1.5;
-}
-.section-layout > .container > .fixedfooter .explanationleft > .title {
-  width: 90%;
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.1;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .fixedfooter .explanationleft > .country {
-  height: 25px;
-  width: 200px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .fixedfooter .explanationleft > .review {
-  height: 25px;
-  width: 150px;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .fixedfooter .explanationleft > .review span {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .fixedfooter .explanationleft > .review .fas {
-  margin-right: 5px;
-}
-.section-layout > .container > .fixedfooter .explanationleft > .tags {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  font-size: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.section-layout > .container > .fixedfooter .explanationleft > .tags > .tag {
-  background-color: #3f3f3f;
-  border-radius: 3px;
-  height: 20px;
-  padding: 0px 5px;
-  margin-right: 7px;
-  color: #fff;
-}
-.section-layout > .container > .fixedfooter .explanationleft .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .fixedfooter .explanationleft .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .fixedfooter .explanationleft .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .fixedfooter .explanationleft .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .fixedfooter .explanationleft .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .fixedfooter .explanationleft .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .fixedfooter .explanationleft .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .fixedfooter .explanationleft .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .fixedfooter .explanationleft .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .fixedfooter .explanationleft .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .fixedfooter .explanationleft .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .fixedfooter .explanationleft .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .fixedfooter .explanationleft .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .fixedfooter .explanationleft .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .fixedfooter .explanationleft .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .fixedfooter .explanationleft .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .fixedfooter .explanationleft .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .fixedfooter .explanationleft .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .fixedfooter .explanationleft .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .fixedfooter .explanationleft .notetext > .fas {
-  font-size: 25px;
-}
-.section-layout > .container > .fixedfooter .explanationright {
-  width: 50%;
-  margin-left: 80px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .devise {
-  margin: 30px 0px;
-  display: flex;
-  border-top: #cdcdcd solid 1px;
-  border-bottom: #cdcdcd solid 1px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 57px;
-  padding: 10px 0px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs {
-  height: 150px;
-  width: 70%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  color: #fff;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .reviewright {
-  margin-left: 20px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .calendartable tr > .none {
-  opacity: 0;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .notetext > .text {
-  width: 31vw;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.section-layout > .container > .fixedfooter .explanationright > .specs .notetext > .fas {
-  font-size: 25px;
 }
 .section-layout > .container > .fixedfooter .sticky {
   width: 20vw;
@@ -11502,11 +7786,11 @@ input, select {
   .section-layout > .container > .black-box > .white-header .share-save {
     display: none;
   }
-  .section-layout > .container > .black-box > .white-header .explanationleft {
+  .section-layout > .container > .black-box > .white-header .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .black-box > .white-header .explanationleft > .tags {
+  .section-layout > .container > .black-box > .white-header .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .black-box > .white-header .explanationright {
@@ -11624,10 +7908,10 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .black-box > .white-header .explanationleft {
+  .section-layout > .container > .black-box > .white-header .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .black-box > .white-header .explanationleft .tags {
+  .section-layout > .container > .black-box > .white-header .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .black-box > .white-header .explanationright {
@@ -11747,11 +8031,11 @@ input, select {
   .section-layout > .container > .black-box > .sangría-box .share-save {
     display: none;
   }
-  .section-layout > .container > .black-box > .sangría-box .explanationleft {
+  .section-layout > .container > .black-box > .sangría-box .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .black-box > .sangría-box .explanationleft > .tags {
+  .section-layout > .container > .black-box > .sangría-box .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .black-box > .sangría-box .explanationright {
@@ -11869,10 +8153,10 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .black-box > .sangría-box .explanationleft {
+  .section-layout > .container > .black-box > .sangría-box .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .black-box > .sangría-box .explanationleft .tags {
+  .section-layout > .container > .black-box > .sangría-box .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .black-box > .sangría-box .explanationright {
@@ -11997,11 +8281,11 @@ input, select {
   .section-layout > .container > .black-box > .online-explanation .share-save {
     display: none;
   }
-  .section-layout > .container > .black-box > .online-explanation .explanationleft {
+  .section-layout > .container > .black-box > .online-explanation .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .black-box > .online-explanation .explanationleft > .tags {
+  .section-layout > .container > .black-box > .online-explanation .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .black-box > .online-explanation .explanationright {
@@ -12119,10 +8403,10 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .black-box > .online-explanation .explanationleft {
+  .section-layout > .container > .black-box > .online-explanation .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .black-box > .online-explanation .explanationleft .tags {
+  .section-layout > .container > .black-box > .online-explanation .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .black-box > .online-explanation .explanationright {
@@ -12247,11 +8531,11 @@ input, select {
   .section-layout > .container > .canexperience .share-save {
     display: none;
   }
-  .section-layout > .container > .canexperience .explanationleft {
+  .section-layout > .container > .canexperience .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .canexperience .explanationleft > .tags {
+  .section-layout > .container > .canexperience .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .canexperience .explanationright {
@@ -12369,10 +8653,10 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .canexperience .explanationleft {
+  .section-layout > .container > .canexperience .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .canexperience .explanationleft .tags {
+  .section-layout > .container > .canexperience .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .canexperience .explanationright {
@@ -12508,11 +8792,11 @@ input, select {
   .section-layout > .container > .challenge-background > .challenge .share-save {
     display: none;
   }
-  .section-layout > .container > .challenge-background > .challenge .explanationleft {
+  .section-layout > .container > .challenge-background > .challenge .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .challenge-background > .challenge .explanationleft > .tags {
+  .section-layout > .container > .challenge-background > .challenge .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .challenge-background > .challenge .explanationright {
@@ -12630,10 +8914,10 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .challenge-background > .challenge .explanationleft {
+  .section-layout > .container > .challenge-background > .challenge .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .challenge-background > .challenge .explanationleft .tags {
+  .section-layout > .container > .challenge-background > .challenge .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .challenge-background > .challenge .explanationright {
@@ -12758,11 +9042,11 @@ input, select {
   .section-layout > .container > .hosts .share-save {
     display: none;
   }
-  .section-layout > .container > .hosts .explanationleft {
+  .section-layout > .container > .hosts .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .hosts .explanationleft > .tags {
+  .section-layout > .container > .hosts .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .hosts .explanationright {
@@ -12880,10 +9164,10 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .hosts .explanationleft {
+  .section-layout > .container > .hosts .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .hosts .explanationleft .tags {
+  .section-layout > .container > .hosts .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .hosts .explanationright {
@@ -13008,11 +9292,11 @@ input, select {
   .section-layout > .container > .belongings .share-save {
     display: none;
   }
-  .section-layout > .container > .belongings .explanationleft {
+  .section-layout > .container > .belongings .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .belongings .explanationleft > .tags {
+  .section-layout > .container > .belongings .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .belongings .explanationright {
@@ -13130,10 +9414,10 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .belongings .explanationleft {
+  .section-layout > .container > .belongings .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .belongings .explanationleft .tags {
+  .section-layout > .container > .belongings .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .belongings .explanationright {
@@ -13264,11 +9548,11 @@ input, select {
   .section-layout > .container > .participation .share-save {
     display: none;
   }
-  .section-layout > .container > .participation .explanationleft {
+  .section-layout > .container > .participation .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .participation .explanationleft > .tags {
+  .section-layout > .container > .participation .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .participation .explanationright {
@@ -13386,10 +9670,10 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .participation .explanationleft {
+  .section-layout > .container > .participation .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .participation .explanationleft .tags {
+  .section-layout > .container > .participation .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .participation .explanationright {
@@ -13514,11 +9798,11 @@ input, select {
   .section-layout > .container > .guestreview .share-save {
     display: none;
   }
-  .section-layout > .container > .guestreview .explanationleft {
+  .section-layout > .container > .guestreview .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .guestreview .explanationleft > .tags {
+  .section-layout > .container > .guestreview .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .guestreview .explanationright {
@@ -13636,10 +9920,10 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .guestreview .explanationleft {
+  .section-layout > .container > .guestreview .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .guestreview .explanationleft .tags {
+  .section-layout > .container > .guestreview .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .guestreview .explanationright {
@@ -13764,11 +10048,11 @@ input, select {
   .section-layout > .container > .guestreview > .reviews .share-save {
     display: none;
   }
-  .section-layout > .container > .guestreview > .reviews .explanationleft {
+  .section-layout > .container > .guestreview > .reviews .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .guestreview > .reviews .explanationleft > .tags {
+  .section-layout > .container > .guestreview > .reviews .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .guestreview > .reviews .explanationright {
@@ -13886,10 +10170,10 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .guestreview > .reviews .explanationleft {
+  .section-layout > .container > .guestreview > .reviews .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .guestreview > .reviews .explanationleft .tags {
+  .section-layout > .container > .guestreview > .reviews .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .guestreview > .reviews .explanationright {
@@ -14041,11 +10325,11 @@ input, select {
   .section-layout > .container > .black-box > .online-explanation .share-save {
     display: none;
   }
-  .section-layout > .container > .black-box > .online-explanation .explanationleft {
+  .section-layout > .container > .black-box > .online-explanation .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .black-box > .online-explanation .explanationleft > .tags {
+  .section-layout > .container > .black-box > .online-explanation .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .black-box > .online-explanation .explanationright {
@@ -14163,10 +10447,10 @@ input, select {
   }
 }
 @media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .black-box > .online-explanation .explanationleft {
+  .section-layout > .container > .black-box > .online-explanation .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .black-box > .online-explanation .explanationleft .tags {
+  .section-layout > .container > .black-box > .online-explanation .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .black-box > .online-explanation .explanationright {
@@ -14286,11 +10570,11 @@ input, select {
   .section-layout > .container > .challenge-background > .challenge .share-save {
     display: none;
   }
-  .section-layout > .container > .challenge-background > .challenge .explanationleft {
+  .section-layout > .container > .challenge-background > .challenge .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .challenge-background > .challenge .explanationleft > .tags {
+  .section-layout > .container > .challenge-background > .challenge .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .challenge-background > .challenge .explanationright {
@@ -14408,10 +10692,10 @@ input, select {
   }
 }
 @media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .challenge-background > .challenge .explanationleft {
+  .section-layout > .container > .challenge-background > .challenge .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .challenge-background > .challenge .explanationleft .tags {
+  .section-layout > .container > .challenge-background > .challenge .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .challenge-background > .challenge .explanationright {
@@ -14536,11 +10820,11 @@ input, select {
   .section-layout > .container > .note > .notetexts .share-save {
     display: none;
   }
-  .section-layout > .container > .note > .notetexts .explanationleft {
+  .section-layout > .container > .note > .notetexts .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .note > .notetexts .explanationleft > .tags {
+  .section-layout > .container > .note > .notetexts .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .note > .notetexts .explanationright {
@@ -14658,10 +10942,10 @@ input, select {
   }
 }
 @media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .note > .notetexts .explanationleft {
+  .section-layout > .container > .note > .notetexts .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .note > .notetexts .explanationleft .tags {
+  .section-layout > .container > .note > .notetexts .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .note > .notetexts .explanationright {
@@ -14786,11 +11070,11 @@ input, select {
   .section-layout > .container > .fixedfooter .share-save {
     display: none;
   }
-  .section-layout > .container > .fixedfooter .explanationleft {
+  .section-layout > .container > .fixedfooter .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .fixedfooter .explanationleft > .tags {
+  .section-layout > .container > .fixedfooter .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .fixedfooter .explanationright {
@@ -14908,10 +11192,10 @@ input, select {
   }
 }
 @media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .fixedfooter .explanationleft {
+  .section-layout > .container > .fixedfooter .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .fixedfooter .explanationleft .tags {
+  .section-layout > .container > .fixedfooter .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .fixedfooter .explanationright {
@@ -15055,11 +11339,11 @@ input, select {
   .section-layout > .container > .note > .notetexts .share-save {
     display: none;
   }
-  .section-layout > .container > .note > .notetexts .explanationleft {
+  .section-layout > .container > .note > .notetexts .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .note > .notetexts .explanationleft > .tags {
+  .section-layout > .container > .note > .notetexts .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .note > .notetexts .explanationright {
@@ -15177,10 +11461,10 @@ input, select {
   }
 }
 @media (min-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .note > .notetexts .explanationleft {
+  .section-layout > .container > .note > .notetexts .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .note > .notetexts .explanationleft .tags {
+  .section-layout > .container > .note > .notetexts .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .note > .notetexts .explanationright {
@@ -15310,11 +11594,11 @@ input, select {
   .section-layout > .container > .otherexperiences > .experiences .share-save {
     display: none;
   }
-  .section-layout > .container > .otherexperiences > .experiences .explanationleft {
+  .section-layout > .container > .otherexperiences > .experiences .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .section-layout > .container > .otherexperiences > .experiences .explanationleft > .tags {
+  .section-layout > .container > .otherexperiences > .experiences .explanation-left > .tags {
     width: initial;
   }
   .section-layout > .container > .otherexperiences > .experiences .explanationright {
@@ -15432,10 +11716,10 @@ input, select {
   }
 }
 @media (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .otherexperiences > .experiences .explanationleft {
+  .section-layout > .container > .otherexperiences > .experiences .explanation-left {
     width: 55%;
   }
-  .section-layout > .container > .otherexperiences > .experiences .explanationleft .tags {
+  .section-layout > .container > .otherexperiences > .experiences .explanation-left .tags {
     width: initial;
   }
   .section-layout > .container > .otherexperiences > .experiences .explanationright {
@@ -27942,277 +24226,6 @@ input, select {
   font-size: 10px;
 }
 
-.explanationleft {
-  width: 25%;
-}
-.explanationleft > .icon {
-  height: 20px;
-  width: 120px;
-  background-color: #fcfcfc;
-  border-radius: 5px;
-  display: flex;
-  font-weight: bold;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.explanationleft > .icon > .fas {
-  padding-right: 5px;
-  font-size: 9px;
-  line-height: 1.5;
-}
-.explanationleft > .icon > p {
-  font-size: 12px;
-  line-height: 1.5;
-}
-
-.explanationleft > .title {
-  width: 90%;
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.1;
-  margin-bottom: 10px;
-}
-
-.explanationleft > .country {
-  height: 25px;
-  width: 200px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-
-.explanationleft > .review {
-  height: 25px;
-  width: 150px;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-.explanationleft > .review span {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.explanationleft > .review .fas {
-  margin-right: 5px;
-}
-
-.explanationleft > .tags {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  font-size: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.explanationleft > .tags > .tag {
-  background-color: #3f3f3f;
-  border-radius: 3px;
-  height: 20px;
-  padding: 0px 5px;
-  margin-right: 7px;
-  color: #fff;
-}
-
-.explanationleft .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.explanationleft .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.explanationleft .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.explanationleft .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.explanationleft .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.explanationleft .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.explanationleft .reviewright {
-  margin-left: 20px;
-}
-.explanationleft .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.explanationleft .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.explanationleft .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.explanationleft .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.explanationleft .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.explanationleft .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.explanationleft .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.explanationleft .calendartable tr > .none {
-  opacity: 0;
-}
-.explanationleft .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.explanationleft .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.explanationleft .notetext > .text {
-  width: 31vw;
-}
-.explanationleft .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.explanationleft .notetext > .fas {
-  font-size: 25px;
-}
-
-.explanationright {
-  width: 50%;
-  margin-left: 80px;
-}
-.explanationright > .devise {
-  margin: 30px 0px;
-  display: flex;
-  border-top: #cdcdcd solid 1px;
-  border-bottom: #cdcdcd solid 1px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 57px;
-  padding: 10px 0px;
-}
-.explanationright > .specs {
-  height: 150px;
-  width: 70%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  color: #fff;
-}
-.explanationright > .specs .videocall {
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 50px;
-}
-.explanationright > .specs .videocall > .participationtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0px;
-}
-.explanationright > .specs .videocall > .details {
-  margin: 20px 0px;
-  font-size: 18px;
-}
-.explanationright > .specs .videocall > .details span {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.explanationright > .specs .videocall > .comment {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  max-width: 800px;
-}
-.explanationright > .specs .videocall > .comment span {
-  font-size: 13px;
-  font-weight: bold;
-}
-.explanationright > .specs .reviewright {
-  margin-left: 20px;
-}
-.explanationright > .specs .reviewright > .reviewuser {
-  display: flex;
-  font-size: 15px;
-}
-.explanationright > .specs .reviewright > .reviewuser > .username {
-  font-weight: bold;
-  margin-right: 5px;
-}
-.explanationright > .specs .reviewright > .reviewuser > .month {
-  font-size: 13px;
-  line-height: 2;
-}
-.explanationright > .specs .reviewright > .reviewstar > .fas {
-  color: #01999e;
-}
-.explanationright > .specs .calendartable {
-  width: 90%;
-  padding: 10px;
-}
-.explanationright > .specs .calendartable tr th {
-  font-weight: normal;
-  font-size: 12px;
-}
-.explanationright > .specs .calendartable tr td {
-  background-color: #f5f5f5;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 10px;
-  padding: 7px;
-}
-.explanationright > .specs .calendartable tr > .none {
-  opacity: 0;
-}
-.explanationright > .specs .notetext {
-  display: flex;
-  border-bottom: #cdcdcd solid 1px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
-}
-.explanationright > .specs .notetext > .minititle {
-  width: 250px;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-}
-.explanationright > .specs .notetext > .text {
-  width: 31vw;
-}
-.explanationright > .specs .notetext > .text > span {
-  color: #01999e;
-  font-weight: bold;
-  font-size: 14px;
-}
-.explanationright > .specs .notetext > .fas {
-  font-size: 25px;
-}
-
 .sticky {
   width: 20vw;
   height: 10vh;
@@ -29002,11 +25015,11 @@ input, select {
     display: none;
   }
 
-  .explanationleft {
+  .explanation-left {
     width: initial;
     padding: 0px 20px;
   }
-  .explanationleft > .tags {
+  .explanation-left > .tags {
     width: initial;
   }
 
@@ -29133,10 +25146,10 @@ input, select {
   }
 }
 @media (min-width: 741px) and (max-width: 1130px) {
-  .explanationleft {
+  .explanation-left {
     width: 55%;
   }
-  .explanationleft .tags {
+  .explanation-left .tags {
     width: initial;
   }
 

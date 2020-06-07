@@ -101,110 +101,110 @@
 // }
 
 // 黒枠/説明文/左側アイコン
-.explanationleft{
-  width:25%;
-  > .icon{
-    height:20px;
-    width:120px;
-    background-color:$light-white;
-    border-radius: 5px;
-    display: flex;
-    font-weight: bold;
-    padding:5px;
-    margin-bottom:10px;
-    > .fas{
-      padding-right:5px;
-      font-size:9px;
-      line-height:1.5;
-    }
-    > p{
-      font-size:12px;
-      line-height:1.5;
-    }
-  }
-}
+// .explanation-left{
+//   width:25%;
+//   > .icon{
+//     height:20px;
+//     width:120px;
+//     background-color:$light-white;
+//     border-radius: 5px;
+//     display: flex;
+//     font-weight: bold;
+//     padding:5px;
+//     margin-bottom:10px;
+//     > .fas{
+//       padding-right:5px;
+//       font-size:9px;
+//       line-height:1.5;
+//     }
+//     > p{
+//       font-size:12px;
+//       line-height:1.5;
+//     }
+//   }
+// }
 
-// 黒枠/説明文/左側タイトル
-.explanationleft > .title{
-  width:90%;
-  color:$white;
-  font-size:30px;
-  line-height:1.1;
-  margin-bottom:10px;
-}
+// // 黒枠/説明文/左側タイトル
+// .explanation-left > .title{
+//   width:90%;
+//   color:$white;
+//   font-size:30px;
+//   line-height:1.1;
+//   margin-bottom:10px;
+// }
 
-// 黒枠/説明文/左側国名
-.explanationleft > .country{
-  height:25px;
-  width:200px;
-  color:$white;
-  margin-bottom:10px;
-}
+// // 黒枠/説明文/左側国名
+// .explanation-left > .country{
+//   height:25px;
+//   width:200px;
+//   color:$white;
+//   margin-bottom:10px;
+// }
 
-// 黒枠/説明文/左側レビュー
-.explanationleft > .review{
-  height:25px;
-  width:150px;
-  font-size:14px;
-  color:$white;
-  margin-bottom:10px;
-  span{
-    font-weight: bold;
-    margin-right:5px;
-  }
-  .fas{
-    margin-right:5px;
-  }
-}
+// // 黒枠/説明文/左側レビュー
+// .explanation-left > .review{
+//   height:25px;
+//   width:150px;
+//   font-size:14px;
+//   color:$white;
+//   margin-bottom:10px;
+//   span{
+//     font-weight: bold;
+//     margin-right:5px;
+//   }
+//   .fas{
+//     margin-right:5px;
+//   }
+// }
 
-// 黒枠/説明文/左側タグ
-.explanationleft > .tags{
-  height:50px;
-  width:200px;
-  display: flex;
-  font-size:12px;
-  flex-wrap :wrap;
-  margin-bottom:10px;
-  > .tag{
-    background-color:$light-black;
-    border-radius: 3px;
-    height:20px;
-    padding:0px 5px;
-    margin-right:7px;
-    color:$white;
-  }
-}
+// // 黒枠/説明文/左側タグ
+// .explanation-left > .tags{
+//   height:50px;
+//   width:200px;
+//   display: flex;
+//   font-size:12px;
+//   flex-wrap :wrap;
+//   margin-bottom:10px;
+//   > .tag{
+//     background-color:$light-black;
+//     border-radius: 3px;
+//     height:20px;
+//     padding:0px 5px;
+//     margin-right:7px;
+//     color:$white;
+//   }
+// }
 
-// 黒枠/説明文/左側翻訳
-.explanationleft{
-  @import "_components.online-details";
-}
+// // 黒枠/説明文/左側翻訳
+// .explanation-left{
+//   @import "_components.online-details";
+// }
 
-// 黒枠/説明文/右側
-.explanationright{
-  width:50%;
-  margin-left:80px;
-  > .devise{
-    margin:30px 0px;
-    display: flex;
-    border-top:$bodergray solid 1px;
-    border-bottom:$bodergray solid 1px;
-    color:$white;
-    font-size:14px;
-    line-height:57px;
-    padding:10px 0px;
-  }
-  > .specs{
-    height:150px;
-    width:70%;
-    margin-top:20px;
-    display: flex;
-    justify-content:space-between;
-    font-size:13px;
-    color:$white;
-    @import "_components.online-details";
-  }
-}
+// // 黒枠/説明文/右側
+// .explanationright{
+//   width:50%;
+//   margin-left:80px;
+//   > .devise{
+//     margin:30px 0px;
+//     display: flex;
+//     border-top:$bodergray solid 1px;
+//     border-bottom:$bodergray solid 1px;
+//     color:$white;
+//     font-size:14px;
+//     line-height:57px;
+//     padding:10px 0px;
+//   }
+//   > .specs{
+//     height:150px;
+//     width:70%;
+//     margin-top:20px;
+//     display: flex;
+//     justify-content:space-between;
+//     font-size:13px;
+//     color:$white;
+//     @import "_components.online-details";
+//   }
+// }
 
 // メインページ左タイトル共通(ホスト、持ち物、参加方法、レビュー、注意)
 .sticky {
