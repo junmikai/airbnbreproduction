@@ -16,61 +16,13 @@
   @import "../components/online/_experiences-header";
   @import "../components/online/_search-box";
   @import "../components/online/_header-nav";
-  @import "../components/online/sangría-box";
-  @import "../components/online/share-save";
+  @import "../components/online/_sangría-box";
+  @import "../components/online/_share-save";
+  @import "../components/online/_online-explanation";
+  @import "../components/online/_explanation-left";
+  @import "../components/online/_explanation-right";
 }
-// 固定ヘッダー
-// .section-layout > .container > .fixedheader{
-//   width:100%;
-//   height:20px;
-//   position: fixed;
-//   background-color:$white;
-//   top: 0px;
-//   left: 0px;
-//   z-index: 1;
-//   display:none;
-//   border-bottom:$bodergray solid 1px;
-//   padding:15px 50px;
-//   font-size:14px;
-//   color:$light-green;
-//   margin-bottom:30px;
-// }
 
-
-
-// 黒枠
-// .section-layout > .container > .black-box{
-//   background-color:$black;
-//   padding-bottom:30px;
-// }
-// 黒枠/ヘッダー
-// .section-layout > .container > .black-box > .experiences-header{
-//   padding-top:20px;
-//   display:flex;
-//   justify-content:space-between;
-//   max-width:1300px;
-//   margin:0 auto;
-//   @import "../components/components.online";
-// }
-// 黒枠/画像枠
-// .section-layout > .container > .black-box > .sangría-box{
-//   width:95vw;
-//   max-width:1200px;
-//   display:flex;
-//   margin:20px auto;
-//   position: relative;
-//   height:30vw;
-//   @import "../components/components.online";
-// }
-// 黒枠/説明文
-.section-layout > .container > .black-box > .online-explanation{
-  width:95vw;
-  max-width:1200px;
-  display:flex;
-  margin:20px auto;
-  position: relative;
-  @import "../components/components.online";
-}
 
 
 

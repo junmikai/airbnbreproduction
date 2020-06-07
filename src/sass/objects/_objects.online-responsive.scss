@@ -2,13 +2,13 @@
 
 // 740px以下
 @media (max-width: 740px){
-  .section-layout > .container > .fixed-header{
-    opacity: 0;
-    width:10%;
-  }
-  .section-layout > .container > .black-box > .experiences-header{
-    display: none;
-  }
+  // .section-layout > .container > .fixed-header{
+  //   opacity: 0;
+  //   width:10%;
+  // }
+  // .section-layout > .container > .black-box > .experiences-header{
+  //   display: none;
+  // }
   .section-layout > .container > .black-box > .white-header{
     background-color:$white;
     height:20px;
@@ -21,10 +21,10 @@
   .section-layout > .container > .black-box > .sangría-box{
     @import "../components/_components.online-responsive";
   }
-  .section-layout > .container > .black-box > .online-explanation{
-    display: initial;
-    @import "../components/_components.online-responsive";
-  }
+  // .section-layout > .container > .black-box > .online-explanation{
+  //   display: initial;
+  //   @import "../components/_components.online-responsive";
+  // }
   .section-layout > .container > .canexperience{
     display: initial;
     @import "../components/_components.online-responsive";
