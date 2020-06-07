@@ -1,0 +1,37 @@
+.yoga-image{
+  width:48%;
+  height:100%;
+  border-radius:25px;
+  background-size:cover;
+  position: relative;
+  background-image:url("/Users/mikaijun/airbnb/src/image/yoga.png");
+  > .explanation{
+    background-color:$explanation;
+    height:75px;
+    border-radius:0px 0px 25px 25px;
+    position: relative;
+    position: absolute;
+    width:100%;
+    bottom:0;
+    p{
+      width:90%;
+      padding:10px;
+    }
+  }
+}
+
+@media (max-width: 900px){
+  .yoga-image{
+    display: inline-block;
+    width: 90vw;
+    height: 80vw;
+    margin:16px;
+  }
+}
+
+@media (min-width:900px) and (max-width: 1130px) {
+  .yoga-image{
+    width: 25vw;
+    height: 22.5vw;
+    }
+}

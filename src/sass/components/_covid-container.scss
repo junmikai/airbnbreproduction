@@ -1,0 +1,18 @@
+.covid-container{ 
+  background-color:$light-gray;
+  text-align:center;
+  font-size:14px;
+  height:55px;
+  color:$light-black;
+  display: flex;
+  align-items: center;
+  > p{
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 740px){
+  .covid-container{ 
+    height:70px;
+  }
+}

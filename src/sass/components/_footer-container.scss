@@ -1,0 +1,27 @@
+.footer-container{
+  display: flex;
+  justify-content:space-between;
+  padding:30px 50px 100px 100px;
+  border-top: solid 1px $bodergray;
+  color:$light-black;
+  height:auto;
+  background-color:$light-gray;  
+}
+
+@media (max-width: 740px){
+  .footer-container{
+    position: relative;
+    text-align:initial;
+    border-top:initial;
+  }
+}
+
+@media (min-width:741px) and (max-width: 1130px){
+  .footer-container{
+    flex-wrap :wrap-reverse;
+    padding:30px 100px;
+    margin:0 auto;
+    text-align: center;
+    border-top:initial;
+  }
+}

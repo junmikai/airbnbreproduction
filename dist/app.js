@@ -1,5 +1,5 @@
 $(function() {
-  $( '.searchheader' ).hide();
+  $( '.search-header' ).hide();
 });
 
 //トップから50pxスクロールするとヘッダーが固定される
@@ -21,19 +21,19 @@ $( window ).on( 'scroll', function() {
 
 $( window ).on( 'scroll', function() {
   if ( 75 < jQuery( this ).scrollTop() ) { 
-    $( '.searchform' ).addClass( 'm_fixed' );
+    $( '.search-form' ).addClass( 'm_fixed' );
   } else {
-    $( '.searchform' ).removeClass( 'm_fixed' );
+    $( '.search-form' ).removeClass( 'm_fixed' );
   }
 });
 
 //トップから210pxスクロールするとヘッダーに検索フォームが追加される
 $( window ).on( 'scroll', function() {
   if ( 210 < jQuery( this ).scrollTop() ) { 
-    $( '.searchheader' ).show();
+    $( '.search-header' ).show();
     $('.host').hide();
   } else {
-    $( '.searchheader' ).hide();
+    $( '.search-header' ).hide();
     $('.host').show();
   }
 });
@@ -44,9 +44,9 @@ $(window).on('scroll', function () {
   var winh = $(window).innerHeight(); 
   var bottom = doch - winh; 
   if (bottom <= $(window).scrollTop()) {
-    $(".hidingfooter").slideUp();
+    $(".hiding-footer").slideUp();
   }else {
-    $('.hidingfooter').slideDown();
+    $('.hiding-footer').slideDown();
   }
   });
 

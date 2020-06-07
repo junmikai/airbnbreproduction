@@ -1,0 +1,25 @@
+.information-nav{
+  > .title{
+    font-size:19px;
+    padding-bottom:10px;
+  }
+  > li{
+    list-style: none; 
+    border-top: solid 1px $bodergray;
+    padding:15px 0px;
+    font-weight: bold;
+    > span{
+      color:$gray;
+      font-size:14px;
+      font-weight: normal;
+    }
+  }
+}
+
+
+
+@media (max-width: 740px){
+  .information-nav{
+    width:500px;
+  }
+}

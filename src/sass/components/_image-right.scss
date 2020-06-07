@@ -1,0 +1,32 @@
+.image-right{
+  width:90%;
+  border-radius:25px;
+  height:100%;
+  > .imagetop{
+    display: flex;
+    justify-content:space-between;
+    height:50%;
+    width:100%;
+  }
+}
+
+
+
+@media (max-width: 900px){
+  .image-right > .imagetop{
+    display:initial;
+    justify-content:initial;
+  }
+}
+@media (min-width:741px) and (max-width: 1130px){
+  .image-right > .imagetop{
+    display:initial;
+    justify-content:initial;
+  }
+}
+
+@media (min-width:900px) and (max-width: 1130px) {
+  .image-right > .imagetop{
+    display:initial;
+  }
+}
