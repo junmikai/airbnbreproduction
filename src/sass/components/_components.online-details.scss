@@ -1,55 +1,55 @@
 // 黒枠/ヘッダー/右メニュー
-.header-nav{
-  display: flex;
-  list-style: none;
-    li{
-    padding:10px;
-      a{
-      text-decoration:none;
-      font-size:15px;
-      color:$white;
-    }
-      .fa-globe{
-      margin-right:7px;
-    }
-    .register{
-      padding:15px;
-      border-radius: 20px;
-      background-color:$light-black;
-    }
-  }
-}
+// .header-nav{
+//   display: flex;
+//   list-style: none;
+//     li{
+//     padding:10px;
+//       a{
+//       text-decoration:none;
+//       font-size:15px;
+//       color:$white;
+//     }
+//       .fa-globe{
+//       margin-right:7px;
+//     }
+//     .register{
+//       padding:15px;
+//       border-radius: 20px;
+//       background-color:$light-black;
+//     }
+//   }
+// }
 
-// 黒枠/説明文/左側翻訳
-.translation{
-  width:270px;
-  > .border{
-    margin-top:5px;
-    border:  solid 2px;
-    padding:10px 15px;
-    display: flex;
-    color:$white;
-    text-align: center;
-    > .fas{
-      margin-right:5px;
-      font-size:30px;
-    }
-    > p{
-      line-height:1.7;
-    }
-  }
-}
+// // 黒枠/説明文/左側翻訳
+// .translation{
+//   width:270px;
+//   > .border{
+//     margin-top:5px;
+//     border:  solid 2px;
+//     padding:10px 15px;
+//     display: flex;
+//     color:$white;
+//     text-align: center;
+//     > .fas{
+//       margin-right:5px;
+//       font-size:30px;
+//     }
+//     > p{
+//       line-height:1.7;
+//     }
+//   }
+// }
 
 // 黒枠/説明文/右側概要
- .spec{
-  > .fas{
-    color:$gray;
-    margin-bottom:10px;
-  }
-  > .title{
-    color:$gray;
-  }
-}
+//  .spec{
+//   > .fas{
+//     color:$gray;
+//     margin-bottom:10px;
+//   }
+//   > .title{
+//     color:$gray;
+//   }
+// }
 
 // 参加方法/ビデオ通話
 .videocall{

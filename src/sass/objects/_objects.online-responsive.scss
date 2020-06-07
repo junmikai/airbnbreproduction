@@ -2,14 +2,14 @@
 
 // 740px以下
 @media (max-width: 740px){
-  .section-layout > .fixedheader{
+  .section-layout > .container > .fixed-header{
     opacity: 0;
     width:10%;
   }
-  .section-layout > .blackbox > .experiencesheader{
+  .section-layout > .container > .black-box > .experiences-header{
     display: none;
   }
-  .section-layout > .blackbox > .whiteheader{
+  .section-layout > .container > .black-box > .white-header{
     background-color:$white;
     height:20px;
     padding:20px 20px;
@@ -18,14 +18,14 @@
     width:95%;
     @import "../components/_components.online-responsive";
   }
-  .section-layout > .blackbox > .imagebox{
+  .section-layout > .container > .black-box > .sangría-box{
     @import "../components/_components.online-responsive";
   }
-  .section-layout > .blackbox > .explanation{
+  .section-layout > .container > .black-box > .online-explanation{
     display: initial;
     @import "../components/_components.online-responsive";
   }
-  .section-layout > .canexperience{
+  .section-layout > .container > .canexperience{
     display: initial;
     @import "../components/_components.online-responsive";
     >.experiencetext{
@@ -33,18 +33,18 @@
       margin:30px 20px;
     }
   }
-  .section-layout > .challenge-background{
+  .section-layout > .container > .challenge-background{
     height:auto;
   }
-  .section-layout > .challenge-background > .challenge{
+  .section-layout > .container > .challenge-background > .challenge{
     display: initial;
     @import "../components/_components.online-responsive";
   }
-  .section-layout > .hosts{
+  .section-layout > .container > .hosts{
     display: initial;
     @import "../components/_components.online-responsive";
   }
-  .section-layout >.belongings{
+  .section-layout >.container > .belongings{
     display: initial;
     @import "../components/_components.online-responsive";
     >.belongingstexts{
@@ -52,28 +52,28 @@
       width:90%;
     }
   }
-  .section-layout >.participation{
+  .section-layout >.container > .participation{
     display: initial;
     @import "../components/_components.online-responsive";
   }
 
-  .section-layout >.guestreview{ 
+  .section-layout >.container > .guestreview{ 
     display: initial;
     @import "../components/_components.online-responsive";
   }
 
-  .section-layout > .guestreview  >.reviews{
+  .section-layout > .container > .guestreview  >.reviews{
     padding:30px 20px;
     @import "../components/_components.online-responsive";
   }
 
-  .section-layout > .reservation > .title {
+  .section-layout > .container > .reservation > .title {
     font-size:22px;
   }
-  .section-layout >.note{
+  .section-layout >.container > .note{
     display: initial;
   }
-  .section-layout >.note >.sticky {
+  .section-layout >.container > .note >.sticky {
     width:initial;
     height:80px;
     position: initial;
@@ -82,7 +82,7 @@
       padding-left:50px;
     }
   }
-  .section-layout  >.fixedfooter{
+  .section-layout  >.container > .fixedfooter{
   width:97%;
   }
 }
@@ -91,15 +91,15 @@
 
 // 741px~1130px
 @media (min-width:741px) and (max-width: 1130px){
-  .section-layout>.blackbox{
+  .section-layout>.container > .black-box{
     position: relative;
     height:900px; 
   }
-  .section-layout >.blackbox > .explanation{
+  .section-layout >.container > .black-box > .online-explanation{
     @import "../components/_components.online-responsive";
   }
 
-  .section-layout > .challenge-background  > .challenge{
+  .section-layout > .container > .challenge-background  > .challenge{
     @import "../components/_components.online-responsive";
   }
 }
@@ -108,11 +108,11 @@
 
 // 1130px以下
 @media (max-width: 1130px){
-.section-layout > .note > .notetexts{
+.section-layout > .container > .note > .notetexts{
   width:100%;
   @import "../components/_components.online-responsive";
   }
-.section-layout >.fixedfooter{
+.section-layout >.container > .fixedfooter{
   line-height:initial;
   @import "../components/_components.online-responsive";
   >.fixedleft{
@@ -122,7 +122,7 @@
     display: none;
   }
 }
-.section-layout > .fixedfooter  > .miniright{
+.section-layout > .container > .fixedfooter  > .miniright{
     background-color:$wine;
     color:$white;
     font-weight: bold;
@@ -138,18 +138,18 @@
 
 // 1130px以上
 @media (min-width: 1130px){
-.section-layout > .note > .notetexts{
+.section-layout > .container > .note > .notetexts{
   @import "../components/_components.online-responsive";
   }
-.section-layout > .fixedfooter >.minileft{
+.section-layout > .container > .fixedfooter >.minileft{
     display: none;
   }
-.section-layout > .fixedfooter >.miniright{
+.section-layout > .container > .fixedfooter >.miniright{
     display: none;
   }
 }
 
 // その他のオンライン体験
-.section-layout > .otherexperiences > .experiences{
+.section-layout > .container > .otherexperiences > .experiences{
   @import "../components/_components.online-responsive";
 }
