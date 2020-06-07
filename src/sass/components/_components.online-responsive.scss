@@ -25,7 +25,7 @@
     }
   }
   // 黒枠説明文右側
-  .explanationright{
+  .explanation-right{
     width: initial;
     margin-left:initial;
     padding:0px 20px;
@@ -35,8 +35,9 @@
       line-height:initial;
       height:60px;
       > p{
+        width:100%;
         padding:15px;
-        width:90%;
+        line-height:initial;
       }
       > img{
         position: absolute;
@@ -159,7 +160,7 @@
     }
   }
   // 黒枠説明文右側
-  .explanationright {
+  .explanation-left {
     margin-left: initial;
     > .devise{
     height:70px;

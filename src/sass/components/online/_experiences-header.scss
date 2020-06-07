@@ -4,4 +4,7 @@
   justify-content:space-between;
   max-width:1300px;
   margin:0 auto;
+  @media (max-width: 740px){
+    display: none;
+  }
 }
