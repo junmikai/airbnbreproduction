@@ -9,192 +9,40 @@
   position: relative;
 }
 
-/*コロナウイルスに関する注意事項*/
-.section-layout > .covid{ 
-  background-color:$light-gray;
-  text-align:center;
-  font-size:14px;
-  height:55px;
-  color:$light-black;
-  display: flex;
-  align-items: center;
-  > p{
-    margin: 0 auto;
-  }
-}
-
-
-
-/*ヘッダー*/
-.section-layout  > .topheader{
-  height:80px;
-  align-items: center;
-  display: flex;
-  justify-content:space-between;
-  background: $white;
-  top:0;
-  left: 0px;
-  z-index:100;
-  width: 100%;
-  position: absolute;
-  position:fixed;
-  @import "../components/components.index";
-}
-.section-layout > .topheader > .logo{
-  margin-left:15px;
-  margin-top:10px;
-}
-.section-layout > .topheader > .menu{
-  @import "../components/components.index";
-}
-.section-layout > .m_fixed {
+.section-layout > .container >.m_fixed {
   left: 0;
   position: fixed;
   top: 0;
   border-bottom:solid 1px $bodergray;
 }
 
+// .section-layout >.container{
+//   @import "../components/_covid-container";
+//   @import "../components/_header-container";
+//   @import "../components/_header-nav";
+//   @import "../components/_search-form";
+//   @import "../components/_search-container";
+//   @import "../components/_search-nav";
+//   @import "../components/_search-forms";
+//   @import "../components/_search-header";
+//   @import "../components/catchcopy-container";
+//   @import "../components/_online-experience";
+//   @import "../components/_online-top";
+//   @import "../components/_image-box";
+//   @import "../components/_image-right";
+//   @import "../components/_image-left";
+//   @import "../components/_sangría-image";
+//   @import "../components/_yoga-image";
+//   @import "../components/_music-image";
+//   @import "../components/_penguin-image";
+//   @import "../components/_news-container";
+//   @import "../components/_information-nav";
+//   @import "../components/_link-collections";
+//   @import "../components/_link-nav";
+//   @import "../components/footer-container";
+//   @import "../components/footer-left";
+//   @import "../components/footer-right";
+//   @import "../components/hiding-footer";
+// }
 
 
-/*width740px以下のヘッダー*/
-.section-layout > .searchform{
-  background-color:$white;
-  width:100%;
-  height:70px;
-  z-index:99;
-  @import "../components/components.index";
-}
-.section-layout > .searchform > .m_fixed {
-  left: 0;
-  position: fixed;
-  top: 0;
-  border-bottom:solid 1px $bodergray;
-}
-
-
-
-/*検索フォーム*/
-.section-layout > .search{
-  height:150px;
-  align-items: center;
-  margin:50px 40px 60px 70px;
-  padding-top:30px;
-}
-.section-layout > .search > .menu{
-  @import "../components/components.index";
-}
-.section-layout > .search > .searchforms{
-  height:40px;
-  width:90%;
-  margin-top:25px;
-  padding:13px 10px;
-  background-color:$white;
-  border-radius: 10px;
-  box-shadow:$black-shadow;
-  display: flex;
-  @import "../components/components.index";
-}
-
-
-
-/*キャッチコピー*/
-.section-layout > .catchcopy{
-  margin:50px 0px 70px 70px;
-  width:45%;
-  > p{
-    color:$catchcopystart;
-    background: -webkit-linear-gradient(0deg,$catchcopystart,$catchcopyend);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }   
-}
-
-
-
-/*オンライン体験*/
-.section-layout > .onlineexperience{
-  background-color:$black;
-  padding:60px 60px 80px 60px;
-  color:$white;
-  position: relative;
-}
-.section-layout > .onlineexperience > .top{
-  height:120px;
-  display: flex;
-  justify-content:space-between;
-  margin-bottom:20px;
-  @import "../components/components.index";
-}
-.section-layout > .onlineexperience > .imagebox{
-  display: flex;
-  justify-content:space-between;
-  font-weight:bold; 
-  letter-spacing:0.5px;
-  font-size:15px; 
-  width: 95vw;
-  height: 45vw;
-  @import "../components/components.index";
-}
-
-
-
-/*最新情報*/
-.section-layout > .news{
-  height:500px;
-  width:100%;
-  background-color:$light-gray;
-  border-bottom:solid 1px $bodergray;
-  > .latestinformation{
-    font-size:22px;
-    font-weight: bold;
-    padding:30px 0px 0px 50px;
-  }
-}
-.section-layout > .news > .informations{
-  height:300px;
-  width:100%;
-  margin-top:30px;
-  padding-left:50px;
-  width:95%;
-  @import "../components/components.index";
-}
-
-
-
-/*リンク集*/
-.section-layout > .linkcollections{
-  display: flex;
-  justify-content:space-between;
-  border-top:$bodergray solid 1px;
-  border-bottom:$bodergray solid 1px;
-  background-color:$light-gray;
-  @import "../components/components.index";
-}
-
-
-
-/*フッター*/
-.section-layout > .topfooter{
-  display: flex;
-  justify-content:space-between;
-  padding:30px 50px 100px 100px;
-  border-top: solid 1px $bodergray;
-  color:$light-black;
-  height:auto;
-  background-color:$light-gray;
-  @import "../components/components.index";
-}
-
-
-
-/*width740px以下フッター*/
-.section-layout > .hidingfooter{
-  width:100%;
-  height:70px;
-  border-top:solid 1px $bodergray;
-  position: absolute;
-  position: fixed;
-  bottom: 0; 
-  background-color:$white;
-  @import "../components/components.index";
-}

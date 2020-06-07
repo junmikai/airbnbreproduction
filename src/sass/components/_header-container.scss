@@ -1,0 +1,23 @@
+.header-container{
+  height:80px;
+  align-items: center;
+  display: flex;
+  justify-content:space-between;
+  background: $white;
+  top:0px;
+  left: 0px;
+  z-index:100;
+  width: 100%;
+  position: absolute;
+  position:fixed;
+  > .logo{
+    margin-left:15px;
+    margin-top:10px;
+  }
+}
+
+@media (max-width: 740px){
+  .header-container{
+    display: none;
+  }
+}

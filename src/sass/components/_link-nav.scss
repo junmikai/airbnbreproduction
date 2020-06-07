@@ -1,0 +1,18 @@
+.link-nav{
+  > li{
+    font-size:14px;
+    list-style: none;
+    color:$gray; 
+    line-height:35px;
+  }
+}
+
+@media (min-width:741px) and (max-width: 1130px){
+  .link-nav{
+    display:flex;
+    flex-wrap: wrap;
+    > li{
+        width:33%;
+    }
+  }
+}
