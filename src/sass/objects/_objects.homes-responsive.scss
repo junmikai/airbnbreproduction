@@ -2,58 +2,58 @@
 
 @media (max-width: 740px){
   // 背景画像/高さ変更
-  .section-layout > .hostbackground{
-    height:250px;
-  }
+  // .section-layout  > .container > .host-background{
+  //   height:250px;
+  // }
   // 背景画像/高さ変更
-  .section-layout > .hostbackground > .levelup{
-    left:30px;
-    font-size:35px;
-    width:90%;
-  }
+  // .section-layout  > .container > .host-background > .levelup{
+  //   left:30px;
+  //   font-size:35px;
+  //   width:90%;
+  // }
  // 入力フォーム貸し切り&ゲスト横展開解除
-  .section-layout > .responsiveform{
-    width:90%;
+  .section-layout  > .container > .responsive-form{
+    // width:90%;
     @import "../components/_components.homes-responsive";
   }
   // メインページ余白変更
-  .section-layout > .hostmain{
+  .section-layout  > .container > .hostmain{
     padding:0px 5vw;
   }
   // インタビュー
-  .section-layout > .hostmain >.interview{
+  .section-layout  > .container > .hostmain >.interview{
 	  flex-direction: column-reverse;
     @import "../components/_components.homes-responsive";
   }
   // ステップ
-  .section-layout > .hostmain > .step{
+  .section-layout  > .container > .hostmain > .step{
     @import "../components/_components.homes-responsive";
   }
    // 安心
-  .section-layout > .hostmain > .relief {
+  .section-layout  > .container > .hostmain > .relief {
     margin-top:100px;
     padding:initial;
     @import "../components/_components.homes-responsive";
   }
    // 実践例
-   .section-layout > .hostmain >.example{
+   .section-layout  > .container > .hostmain >.example{
     display:initial;
     @import "../components/_components.homes-responsive";
   }
   // シェアデータ
-  .section-layout > .hostmain > .hostshare{
+  .section-layout  > .container > .hostmain > .hostshare{
     @import "../components/_components.homes-responsive";
   }
    // Airbnbについて
-   .section-layout > .hostmain > .about{
+   .section-layout  > .container > .hostmain > .about{
     @import "../components/_components.homes-responsive";
   }
   // ホスティング
-  .section-layout > .hostmain > .hosting{
+  .section-layout  > .container > .hostmain > .hosting{
     @import "../components/_components.homes-responsive";
   }
   // リンク集
-  .section-layout >.lodginglinks{
+  .section-layout  > .container >.lodginglinks{
     display:none;
   }
 }
@@ -65,27 +65,27 @@
 
 @media (min-width:741px) and (max-width: 1130px){
   // 背景画像/高さ変更
-  .section-layout > .hostbackground{
-    height:275px;
-  }
+  // .section-layout  > .container > .host-background{
+  //   height:275px;
+  // }
   // メインページ余白変更
-  .section-layout > .hostmain{
+  .section-layout  > .container > .hostmain{
     padding:0px 15vw;
   }
    // インタビュー
-   .section-layout > .hostmain >.interview{
+   .section-layout  > .container > .hostmain >.interview{
     @import "../components/_components.homes-responsive";
   }
    // 実践例
-   .section-layout > .hostmain >.example{
+   .section-layout  > .container > .hostmain >.example{
     @import "../components/_components.homes-responsive";
   }
   // シェアデータ
-  .section-layout > .hostmain > .hostshare{
+  .section-layout  > .container > .hostmain > .hostshare{
     @import "../components/_components.homes-responsive";
   }
   // ホスティング
-  .section-layout > .hostmain > .hosting{
+  .section-layout  > .container > .hostmain > .hosting{
     @import "../components/_components.homes-responsive";
   }
 }
@@ -96,39 +96,35 @@
 
 
 @media (max-width: 1130px){
-  .section-layout > .hostheader{
-  // 固定ヘッダー非表示
-    display:none;
-  }
   // 背景画像/フォーム非表示
-  .section-layout > .hostbackground > .form{
-    display:none;
-  }
+  // .section-layout  > .container > .host-background > .background-form{
+  //   display:none;
+  // }
   // 冒頭説明/横並び解除
-  .section-layout > .hostmain >.introduction{
+  .section-layout  > .container > .hostmain >.introduction{
     display:initial;
     @import "../components/_components.homes-responsive";
   }
   // ステップ
-  .section-layout > .hostmain > .step{
+  .section-layout  > .container > .hostmain > .step{
     margin-top:100px;
     @import "../components/_components.homes-responsive";
   }
   // 安心
-  .section-layout > .hostmain > .relief {
+  .section-layout  > .container > .hostmain > .relief {
     margin-top:100px;
     padding:initial;
     @import "../components/_components.homes-responsive";
   }
   // Airbnbについて
-  .section-layout > .hostmain > .about{
+  .section-layout  > .container > .hostmain > .about{
     @import "../components/_components.homes-responsive";
   }
-  .section-layout > .hostmain > .question{
+  .section-layout  > .container > .hostmain > .question{
     @import "../components/_components.homes-responsive";
   }
    // リスティング
-   .section-layout > .listing{
+   .section-layout  > .container > .listing{
     padding:initial;
     @import "../components/_components.homes-responsive";
   }
@@ -141,17 +137,9 @@
 
 @media (min-width: 1130px){
   // 背景画像/白文字非表示
-  .section-layout > .hostbackground > .levelup{
-    display: none;
-  }
-  .section-layout > .hostbackground >.fas{
-    display: none;
-  }
-  .section-layout > .hostbackground >.fab{
-    display: none;
-  }
+
   // width1300px以下入力フォーム非表示
-  .section-layout >.responsiveform{
-    display: none;
-  }
+  // .section-layout  > .container >.responsive-form{
+  //   display: none;
+  // }
 }

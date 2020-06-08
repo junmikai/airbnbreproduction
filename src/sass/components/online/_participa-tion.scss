@@ -1,0 +1,60 @@
+.participa-tion{
+  margin:0 auto;
+  max-width:1200px;
+  padding:0px 45px 45px 45px;
+  color:$light-black;
+  display: flex;
+  @media (max-width: 740px){
+    display: initial;
+  }
+}
+
+.participa-tion > .sticky{
+  width: 20vw;
+  height: 10vh;
+  position: -webkit-sticky; 
+  position: sticky; 
+  top: 55px; 
+  left: 0;
+  @media (max-width: 740px){
+    width:initial;
+    position: initial;
+  } 
+}
+
+.participa-tion > .sticky > .title{
+  font-size:30px;
+  font-weight: bold;
+  min-width:150px;
+  padding-top:40px;
+  @media (max-width: 740px){
+    font-size:23px;
+    padding:20px 0px 0px 20px;
+  }
+}
+
+.participa-tion > .participationtexts{
+  padding-top:45px;
+  padding-left:100px;
+  width:100%;
+  @media (max-width: 740px){
+    padding-left:20px;
+    width:90%;
+    width:95%;
+    margin-top:30px;
+  }
+}
+
+.participa-tion > .participationtexts >.charter > .title{
+  font-size:22px;
+  font-weight: bold;
+  margin:10px 0px;
+  @media (max-width: 740px){
+    font-size:18px;
+    margin:20px 0px;
+  }
+}
+
+.participa-tion > .participationtexts >.charter > .details{
+  font-size:18px;
+}

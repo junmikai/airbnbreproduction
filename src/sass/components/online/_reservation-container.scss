@@ -1,0 +1,26 @@
+.reservation-container{
+  margin:0 auto;
+  max-width:1200px;
+  padding:0px 45px 45px 45px;
+  color:$light-black;
+}
+.reservation-container > .daychoice{
+  color:$light-green;
+  margin:20px 0px;
+  border: $light-green solid 2px;
+  border-radius:5px;
+  width:100px;
+  padding:10px 10px;
+  font-weight: bold;
+  width:130px;
+}
+
+.reservation-container > .title{
+  font-size:30px;
+  font-weight: bold;
+  min-width:150px;
+  margin-bottom:50px;
+  @media (max-width: 740px){
+    font-size:22px;
+  }
+}

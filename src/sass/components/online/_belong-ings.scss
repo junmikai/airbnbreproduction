@@ -1,0 +1,76 @@
+.belong-ings{
+  margin:0 auto;
+  max-width:1200px;
+  padding:0px 45px 45px 45px;
+  color:$light-black;
+  display: flex;
+  @media (max-width: 740px){
+    display: initial;
+  }
+}
+
+.belong-ings > .sticky {
+  width: 20vw;
+  height: 10vh;
+  position: -webkit-sticky; 
+  position: sticky; 
+  top: 55px; 
+  left: 0;
+  @media (max-width: 740px){
+    width:initial;
+    position: initial;
+  }
+}
+
+.belong-ings > .sticky > .title{
+  font-size:30px;
+  font-weight: bold;
+  min-width:150px;
+  padding-top:40px;
+  @media (max-width: 740px){
+    font-size:23px;
+    padding:20px 0px 0px 20px;
+  }
+}
+
+.belong-ings > .sticky > .traditional{
+  margin-top:20px;
+  border:$light-black solid 2px;
+  padding:10px 20px;
+  max-width:260px;
+  color:$light-black;
+  font-weight: bold;
+  border-radius:5px;
+}
+
+.belong-ings > .belong-texts{
+  padding-top:45px;
+  padding-left:100px;
+  width:100%;
+  @media (max-width: 740px){
+    padding-left:20px;
+    width:90%;
+  }
+}
+
+.belong-ings > .belong-texts > .text{
+  height:65px;
+  margin-top:30px;
+  border-bottom:$bodergray solid 1px;
+  display: flex;
+}
+
+.belong-ings > .belong-texts > .text > .far{
+  font-size:30px;
+  margin-right:10px;
+}
+
+.belong-ings > .belong-texts > .text > .belongfont{
+  line-height:2;
+  font-size:15px;
+}
+
+.belong-ings > .belong-texts > .text > .belongfont > .moresee{
+  color:$light-green;
+}
+

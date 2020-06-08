@@ -1,0 +1,52 @@
+.host-background{
+  max-width:1600px;
+  background-image:url("../src/image/hostbackground.png");
+  background-size:cover;
+  height:600px;
+  position: relative;
+  margin:0 auto;
+  box-shadow:0px -50px 100px  inset;
+  @media (max-width: 1130px){
+    height:275px;
+  }
+  @media (max-width: 740px){
+    height:250px;
+  }
+}
+
+.host-background >.levelup{
+  position: absolute;
+  bottom:30px;
+  left:100px;
+  font-size:40px;
+  font-weight: bold;
+  color:$white;
+  @media (min-width: 1130px){
+    display: none;
+  }
+  @media (max-width: 740px){
+    left:30px;
+    font-size:35px;
+    width:90%;
+  }
+}
+.host-background >.fab{
+  position: absolute;
+  top:20px;
+  left:30px;
+  font-size:35px;
+  color:$white;
+  @media (min-width: 1130px){
+    display: none;
+  }
+}
+.host-background >.fas{
+  position: absolute;
+  top:30px;
+  left:65px;
+  font-size:20px;
+  color:$white;
+  @media (min-width: 1130px){
+    display: none;
+  }
+}

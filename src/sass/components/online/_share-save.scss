@@ -6,30 +6,37 @@
   top:20px;
   display: flex;
   justify-content:space-between;
-  > .share{
-    background-color:$light-gray;
-    border-radius: 5px;
-    display: flex;
-    justify-content:space-between;
-    padding:12px 15px 15px 15px;
-    line-height:1;
-    font-size:14px;
-    font-weight: bold;
-    > .fas{
-    padding-right:10px;
+  @media (max-width: 740px){
+    display: none;
   }
 }
-  > .like{
-    background-color:$light-gray;
-    border-radius: 5px;
-    display: flex;
-    justify-content:space-between;
-    padding:12px 15px 15px 15px;
-    line-height:1;
-    font-size:14px;
-    font-weight: bold;
-    > .far{
-    padding-right:10px;
-    }
-  }
+
+.share-save > .share{
+  background-color:$light-gray;
+  border-radius: 5px;
+  display: flex;
+  justify-content:space-between;
+  padding:12px 15px 15px 15px;
+  line-height:1;
+  font-size:14px;
+  font-weight: bold;
 }
+
+.share-save > .share > .fas{
+  padding-right:10px;
+}
+
+.share-save > .like{
+  background-color:$light-gray;
+  border-radius: 5px;
+  display: flex;
+  justify-content:space-between;
+  padding:12px 15px 15px 15px;
+  line-height:1;
+  font-size:14px;
+  font-weight: bold;
+}
+
+.share-save > .like > .far{
+  padding-right:10px;
+  }

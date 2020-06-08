@@ -1,0 +1,44 @@
+.challenge-texts{
+  display:flex;
+  width:85%;
+  padding-left:70px;
+  @media (max-width: 1130px){
+    display: inline-block;
+    padding-left:initial;
+  }
+  @media (max-width: 1130px){
+    margin-top:20px;
+  }
+}
+
+.challenge-texts > .challengetext{
+  margin:0px 20px;
+  width:33%;
+  @media (max-width: 1130px){
+    width:95%;
+    display: flex;
+    margin-bottom:30px;
+  }
+}
+
+.challenge-texts > .challengetext > .minititle{
+  font-weight: bold;
+  margin:10px 0px;
+  @media (max-width: 1130px){
+    display: none;
+  }
+}
+
+.challenge-texts > .challengetext > .minitext{
+  width:250px;
+  letter-spacing:2px;
+  line-height:1.5;
+  @media (max-width: 1130px){
+    margin-left:20px;
+    width:initial;
+    line-height:initial;
+  }
+  @media (max-width: 740px){
+    font-size:14px;
+  }
+}

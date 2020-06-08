@@ -52,10 +52,10 @@ $(window).on('scroll', function () {
 
 
   $( document ).on( 'scroll', function() {
-    if ( 240 > jQuery( this ).scrollTop() ) { 
-      $( '.fixedfooter' ).addClass( 'black' );
+    if ( 350 > jQuery( this ).scrollTop() ) { 
+      $( '.fixed-footer' ).addClass( 'black' );
     } else {
-      $( '.fixedfooter' ).removeClass( 'black' );
+      $( '.fixed-footer' ).removeClass( 'black' );
     }
   });
 
