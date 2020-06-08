@@ -1,0 +1,15 @@
+.header-left{
+  display: flex;
+  padding-left:30px;
+}
+
+.header-left > .headerfont {
+  margin-right:30px;
+  font-size:14px;
+}
+
+.header-left > .headerfont > .fab{
+  font-size:35px;
+  line-height:2.25;
+  color:$light-green;
+}

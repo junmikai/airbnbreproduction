@@ -4,105 +4,20 @@
   width:100vw;
   height:100vh;
 }
-// .section-layout{
-//   width:100%;
-//   position: relative;
-// }
-
-// ヘッダー
-.section-layout > .hostheader{
-  height:80px;
-  color:$light-black;
-  display:flex;
-  justify-content:space-between;
-  line-height:80px;
-  font-weight: bold;
-  @import "../components/components.homes";
-}
-// ヘッダー/右側
-.section-layout > .hostheader > .headerright{
-  font-size:14px;
-  color:$white;
-  text-align: center;
-  border-radius: 5px;
-  background-color:$btn-red;
-  width:90px;
-  height:35px;
-  line-height:35px;
-  margin:20px 80px 0px 30px;
-}
-
-
-
-
-// 背景画像
-.section-layout > .hostbackground{
-  max-width:1600px;
-  background-image:url("../src/image/hostbackground.png");
-  background-size:cover;
-  height:600px;
+.section-layout{
+  width:100%;
   position: relative;
-  margin:0 auto;
-  box-shadow:0px -50px 100px  inset;
 }
-// 背景画像/フォーム全体
-.section-layout > .hostbackground > .form{
-  position: absolute;
-  height:380px;
-  width:400px;
-  padding:30px;
-  background-color: $white;
-  right:100px;
-  top:80px;
-  font-weight: bold;
-  @import "../components/components.homes";
-}
-// 背景画像/width1130px以下キャッチコピー
-.section-layout > .hostbackground >.levelup{
-  position: absolute;
-  bottom:30px;
-  left:100px;
-  font-size:40px;
-  font-weight: bold;
-  color:$white;
-}
-// 背景画像/width1130px以下企業アイコン
-.section-layout > .hostbackground >.fab{
-  position: absolute;
-  top:20px;
-  left:30px;
-  font-size:35px;
-  color:$white;
-}
-// 背景画像/width1130px以下矢印アイコン
-.section-layout > .hostbackground >.fas{
-  position: absolute;
-  top:30px;
-  left:65px;
-  font-size:20px;
-  color:$white;
-}
-
 
 // メインページ余白
-.section-layout > .hostmain{
+.section-layout > .container  > .hostmain{
   max-width:1200px;
   margin:0 auto;
   padding:20px 30px 100px 30px;
 }
 
-
-
-// width1130px以下入力フォーム
-.section-layout >.responsiveform{
-  @import "../components/components.homes";
-  width:80%;
-  margin:0 auto;
-}
-
-
 // 冒頭説明
-.section-layout > .hostmain >.introduction{
+.section-layout > .container  > .hostmain >.introduction{
   display: flex;
   @import "../components/components.homes";
 }
@@ -110,7 +25,7 @@
 
 
 // ステップ
-.section-layout > .hostmain > .step{
+.section-layout > .container  > .hostmain > .step{
   margin-top:30px;
   color:$light-black;
   @import "../components/components.homes";
@@ -119,7 +34,7 @@
 
 
 // インタビュー全体
-.section-layout > .hostmain >.interview{
+.section-layout > .container  > .hostmain >.interview{
   margin-top:100px;
   display: flex;
   @import "../components/components.homes";
@@ -129,14 +44,14 @@
 
 
 // 安心
-.section-layout > .hostmain > .relief{
+.section-layout > .container  > .hostmain > .relief{
   margin-top:30px;
   color:$light-black;
   padding:0px 30px;
   @import "../components/components.homes";
 }
 // 安心/マッサージ画像
-.section-layout > .hostmain > .relief > .massage{
+.section-layout > .container  > .hostmain > .relief > .massage{
   margin:50px auto;
   text-align: center;
 }
@@ -146,35 +61,35 @@
 // -----------------------
 
 // 実施例/
-.section-layout > .hostmain > .example{
+.section-layout > .container  > .hostmain > .example{
   display:flex;
   @import "../components/components.homes";
 }
 
 // シェアデータ
-.section-layout > .hostmain > .hostshare{
+.section-layout > .container  > .hostmain > .hostshare{
   margin-top:100px;
   color:$light-black;
   @import "../components/components.homes";
 }
 
 // Airbnbについて
-.section-layout > .hostmain > .about{
+.section-layout > .container  > .hostmain > .about{
   color:$light-black;
   @import "../components/components.homes";
 }
 
 // よくある質問
-.section-layout > .hostmain > .question{
+.section-layout > .container  > .hostmain > .question{
   @import "../components/components.homes";
 }
 // ホスティング
-.section-layout > .hostmain > .hosting{
+.section-layout > .container  > .hostmain > .hosting{
   @import "../components/components.homes";
   color:$light-black;  
 }
 // リスティング
-.section-layout > .listing{
+.section-layout > .container  > .listing{
   margin-top:50px;
   position: relative;
   padding:0px 3vw;

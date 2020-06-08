@@ -11,33 +11,58 @@
 </head>
 <body>
 <div class="section-layout">
+  <div class="container">
   <!-- ヘッダーここから -->
-  <div class="hostheader">
-    <div class="headerleft">
-      <p><i class="fab fa-airbnb"></i></p>
-      <p>概要</p>
-      <p>準備</p>
-      <p>安全</p>
-      <p>マネープラン</p>
+    <div class="host-header">
+      <div class="header-left">
+        <p class="headerfont"><i class="fab fa-airbnb"></i></p>
+        <p class="headerfont">概要</p>
+        <p class="headerfont">準備</p>
+        <p class="headerfont">安全</p>
+        <p class="headerfont">マネープラン</p>
+      </div>
+      <div class="headerright">
+        はじめる
+      </div>
     </div>
-    <div class="headerright">
-      はじめる
-    </div>
-  </div>
-  <!-- ヘッダーここまで -->
+    <!-- ヘッダーここまで -->
 
-  <!-- 背景画像ここから -->
-  <div class="hostbackground">
-    <div class="form">
-      <div class="formtitle">Airbnbホストになって、暮らしをレベルアップ</div>
-      <div class="fillin">宿泊施設の内容を記入</div>
-      <input class="addressform" type="text" placeholder="東京"/>
-      <div class="miniform">
-        <div class="charter">
+    <!-- 背景画像ここから -->
+    <div class="host-background">
+      <div class="background-form">
+        <div class="formtitle">Airbnbホストになって、暮らしをレベルアップ</div>
+        <div class="fillin">宿泊施設の内容を記入</div>
+        <input class="addressform" type="text" placeholder="東京"/>
+        <div class="mini-form">
+          <div class="charter">
+            <input type="text" placeholder="まるまる貸し切り"/>
+            <i class="fas fa-angle-down"></i>
+          </div>
+          <div class="guestpeople">
+            <input  type="text" placeholder="ゲスト4人"/>
+            <i class="fas fa-angle-down"></i>
+          </div>
+        </div>
+        <div class="startbtn">
+          はじめる
+        </div>
+      </div>
+        <div class="levelup">Airbnbホストになって、暮らしをレベルアップ</div>
+        <i class="fab fa-airbnb"></i>
+        <i class="fas fa-angle-down"></i>
+    </div>
+    <!-- 背景画像ここまで -->
+
+    <!-- width1300px以下入力フォームここから -->
+    <div class="responsive-form">
+      <div class="responsivefillin">宿泊施設の内容を記入</div>
+      <input class="responsiveaddress" type="text" placeholder="東京"/>
+      <div class="responsive-miniform">
+        <div class="responsivecharter">
           <input type="text" placeholder="まるまる貸し切り"/>
           <i class="fas fa-angle-down"></i>
         </div>
-        <div class="guestpeople">
+        <div class="responsiveguestpeople">
           <input  type="text" placeholder="ゲスト4人"/>
           <i class="fas fa-angle-down"></i>
         </div>
@@ -46,340 +71,316 @@
         はじめる
       </div>
     </div>
-      <div class="levelup">Airbnbホストになって、暮らしをレベルアップ</div>
+    <!-- width1300px以下入力フォームここまで -->
+
+    <!-- メインページここから -->
+    <div class="hostmain">
+      <!-- 冒頭説明ここから -->
+      <div class="introduction">
+        <div class="whyhost">
+          <div class="title">なぜAirbnbでホスト?</div>
+          <div class="text">
+            どんなお家やお部屋でも、Airbnbなら簡単かつ安全にシェアして、
+            世界中の旅好きな仲間とつながれます。 
+            予約可能日から料金、ハウスルール、ゲストとの交流頻度まで、すべて自分で決めることができます。
+          </div>
+        </div>
+        <div class="warranty">
+          <div class="title">困ったときも安心</div>
+          <div class="text">
+            万一に備えるUS$1,000,000の財物補償、US$1,000,000の賠償責任保険が全予約に自動付帯。
+            ホストのみなさまと建物・家財の安全をお守りするため全力で取り組んでいます。
+          </div>
+        </div>
+      </div>
+      <!-- 冒頭説明ここまで -->
+
+      <!-- ステップここから -->
+      <div class="step">
+        <div class="steptitle">3ステップで簡単ホスティング</div>
+        <div class="steptexts">
+          <div class="steptext">
+            <i class="far fa-check-circle"></i>
+            <div class="minititle">無料でお部屋を掲載</div>
+            <div class="minitext">
+              共有のリビングルームから別荘に至るまで、
+              どんなスペースでも登録料なしで共有しましょう。</div>
+          </div>
+          <div class="steptext">
+            <i class="far fa-check-circle"></i>
+            <div class="minititle">ホスティング方法を設定</div>
+            <div class="minitext">ご希望のスケジュール、料金、ゲストの要件を選びます。設定の際にはヒントも表示されます。</div>
+          </div>
+          <div class="steptext">
+            <i class="far fa-check-circle"></i>
+            <div class="minititle">はじめてのゲストをもてなそう</div>
+            <div class="minitext">リスティングが掲載され次第、条件にかなったゲストから連絡を受けとることができます。
+              ゲストの宿泊前にご質問があればメッセージを送信できます。<br></div>
+              <div class="green">ホスティングの始め方を学ぶ</div>
+          </div>
+        </div>
+      </div>
+      <!-- ステップここまで -->
+
+      <!-- インタビューここから -->
+      <div class="interview">
+        <div class="interviewleft">
+          <div class="interviewicon"><img src="/Users/mikaijun/airbnb/src/image/dot.png" style="width: 80px; height: 50px;" alt="interview"></div>
+          <div class="interviewtext">「ホスト保証」があったからAirbnb参加を決めたといっても過言でないほどで、
+            被害やトラブルがあったときに頼れるサポートがあるのは本当にありがたいですね。</div>
+          <div class="minitext">Dennisさんはロンドンのホスト。自由度の高さに魅力を感じています</div>
+          <div class="checkbtn">ホスト実践例をチェック</div>
+        </div>
+        <div class="interviewright">
+          <img src="/Users/mikaijun/airbnb/src/image/interview.png"  alt="interview">
+        </div>
+      </div>
+      <!-- インタビューここまで -->
+
+      <!-- 安心ここから -->
+      <div class="relief">
+        <div class="relieftitle">万一のときも安心です</div>
+        <div class="relieftexts">
+          <div class="reliefleft">
+          大切なお家にお迎えする相手選びは、信頼第一で進めたいですよね。 
+          その思いに応えるため、Airbnbでは宿泊者に求める厳格な要件をホスト自身の手で設定し、
+          滞在前にお互い交流できるシステムを採用しています。 
+          万一のトラブルのときには、Airbnbが全力でサポートします。 
+          建物・家財の被害は「ホスト保証」、賠償責任は「ホスト補償保険」でカバー。
+          ホストのみなさまのあらゆるシチュエーションに対処しています。<br>
+          <div class="how">ホストをお守りするしくみを見る</div>
+          </div>
+          <div class="reliefright">
+            <div class="relieftext">
+              <i class="fas fa-check"></i>
+              <div class="checklist">予約前に政府発行の身分証明書を求める権限</div>
+            </div>
+            <div class="relieftext">
+              <i class="fas fa-check"></i>
+              <div class="checklist">ハウスルールに同意しないと泊まれない</div>
+            </div>
+            <div class="relieftext">
+              <i class="fas fa-check"></i>
+              <div class="checklist">過去の宿泊のレビューもばっちり読める</div>
+            </div>
+            <div class="relieftext">
+              <i class="fas fa-check"></i>
+              <div class="checklist">財物損害は¥100,000,000まで無料で補償</div>
+            </div>
+            <div class="relieftext">
+              <i class="fas fa-check"></i>
+              <div class="checklist">$1,000,000の賠償責任保険が無料で付帯</div>
+            </div>
+            <div class="relieftext">
+              <i class="fas fa-check"></i>
+              <div class="checklist">24時間365日対応グローバルカスタマーサポート</div>
+            </div>
+          </div>
+        </div>
+        <div class="massage"><img src="/Users/mikaijun/airbnb/src/image/massage.png" style="width: 100%; height: 500px;" alt="massage"></div>
+      </div>
+      <!-- 安心ここまで -->
+
+      <!-- シンプルここから -->
+      <div class="step">
+        <div class="steptitle">シンプルな決済</div>
+        <div class="steptexts">
+          <div class="steptext">
+            <div class="minititle">料金設定は完全に自由</div>
+            <div class="minitext">
+              いつでも好きなように価格設定できます。
+              お手伝いが必要ですか？お住まいの地域の需要に合わせるためのツールがあります。</div>
+          </div>
+          <div class="steptext">
+            <div class="minititle">手数料が安い</div>
+            <div class="minitext">
+              登録に費用は一切かかりません。Airbnbは通常、
+              予約ごとに業界で最低の均一3％をサービス料としていただいております。</div>
+          </div>
+          <div class="steptext">
+            <div class="minititle">迅速な支払い</div>
+            <div class="minitext">
+              ゲストのチェックイン後に、Paypal、
+              直接振り込み、またはその他の利用可能な方法で受取金を送金できます。
+              <div class="green">Airbnb収入を得るまでの流れを見る</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- シンプルここまで -->
+
+      <!-- 実施例ここから -->
+      <div class="example">
+        <div class="exampleleft">
+          <img src="/Users/mikaijun/airbnb/src/image/example.png" alt="interview">
+        </div>
+        <div class="exampleright">
+          <div class="icon"><img src="/Users/mikaijun/airbnb/src/image/dot.png" style="width: 80px; height: 50px;" alt="interview"></div>
+          <div class="exampletext">ホスト収入でキッチンリフォーム。お家をいろいろアップグレードしました。</div>
+          <div class="minitext">Tessaさんはロンドン在住。ホストになって世界が（懐も）広がりました</div>
+          <div class="checkbtn">ホスト実践例をチェック</div>
+        </div>
+      </div>
+      <!-- 実施例ここまで -->
+
+      <!-- シェアデータここから -->
+      <div class="hostshare">
+        <div class="sharetitle">夢を共有する仲間が世界中に</div>
+        <div class="hostdatas">
+          <div class="hostdata">
+            <div class="hostnumber">290万</div>
+            <div class="numbercomment">Airbnbのホスト</div>
+          </div>
+          <div class="hostdata">
+            <div class="hostnumber">80万</div>
+            <div class="numbercomment">Airbnbにおける毎晩の平均宿泊数</div>
+          </div>
+          <div class="hostdata">
+            <div class="hostnumber">14,000</div>
+            <div class="numbercomment">月あたりの新規登録ホスト数</div>
+          </div>
+        </div>
+      </div>
+      <!-- シェアデータここまで -->
+
+      <!-- Airbnbについてここから -->
+      <div class="about">
+        <div class="abouttitle">Airbnbについて</div>
+        <div class="abouttexts">
+          <div class="abouttext">
+            <div class="aboutheadline">Airbnbとは?</div>
+            <div class="aboutexplanation">
+              Airbnbは世界中の宿泊先や体験と人々をつなぎます。 
+              ホストたちが原動力となるコミュニティが、
+              地元のように旅するユニークな機会をゲストに提供しています。
+            </div>
+          </div>
+          <div class="abouttext">
+            <div class="aboutheadline">ホスティングとは？</div>
+            <div class="aboutexplanation">
+              空いているお部屋やお家、得意分野があるなら、
+              世界中の仲間とシェアして暮らしをステップアップできます。 
+              掲載できるのはお部屋や体験です。掛け持ちもOK。 
+              無理のないペースでできます。<br>
+            </div>
+            <div class="green">体験ホスティングの詳細はこちら</div>
+          </div>
+        </div>
+      </div>
+      <!-- Airbnbについてここまで -->
+
+      <!-- 質問ここから -->
+      <div class="question">
+        <div class="questiontitle">よくある質問</div>
+        <ul class="question-nav">
+          <li>Airbnbホストになれるのはどんな人？</li>
+          <li>家財破損があった場合、どのような補償がありますか？</li>
+          <li>予約前にゲストに求められる要件は？</li>
+          <li>リスティングの料金はどうやって決めたらいいの？</li>
+          <li>お部屋を掲載するには、いくらかかるの？</li>
+          <li>Airbnbはお部屋の料金の設定をサポートしてくれる？</li>
+        </ul>
+      </div>
+      <!-- 質問ここまで -->
+
+      <!-- ホスティングここから -->
+      <div class="hosting">
+        <div class="hostingtitle">ホスティングの詳細はこちら</div>
+        <div class="hostinglists">
+          <div class="hostinglist">
+            <img src="/Users/mikaijun/airbnb/src/image/preparation.png" alt="preparation">
+            <div class="hostingheadline">準備</div>
+            <div class="hostingcomment">ホスティングの始め方</div>
+            <div class="learnmore">もっと詳しく</div>
+          </div>
+          <div class="hostinglist">
+            <img src="/Users/mikaijun/airbnb/src/image/safety.png" alt="safety">
+            <div class="hostingheadline">安全対策</div>
+            <div class="hostingcomment">ホストを守るAirbnbのしくみ</div>
+            <div class="learnmore">もっと詳しく</div>
+          </div>
+          <div class="hostinglist">
+            <img src="/Users/mikaijun/airbnb/src/image/plan.png" alt="plan">
+            <div class="hostingheadline">マネープラン</div>
+            <div class="hostingcomment">Airbnbで収入源を増やす方法</div>
+            <div class="learnmore">もっと詳しく</div>
+          </div>
+        </div>
+      </div>
+      <!-- ホスティングここまで -->  
+    </div>
+    <!-- メインページここまで -->
+
+    <!-- リスティングここから -->
+    <div class="listing">
+      <img src="/Users/mikaijun/airbnb/src/image/listing.png"  style="width:100%; height: 425px;" alt="listing">
+      <div class="listingtitle">収入増やしたい？</div>
+      <div class="listingbtn">リスティングを作成</div>
+    </div>
+      <!-- リスティングここまで -->
+
+    <!-- リンク集ここから -->
+    <div class="linkcollections">
+      <div class="linkcollection">
+        <div class="title">企業情報</div>
+          <ul class="link-nav">
+            <li>ダイバーシティ＆ビロンギング</li>
+            <li>アクセシビリティ対応</li>
+            <li>信頼＆安全</li>
+            <li>Airbnb Citizen</li>
+            <li>ニュースルーム</li>
+          </ul>
+      </div>
+      <div class="linkcollection">
+        <div class="title">コミュニティ</div>
+          <ul class="link-nav">
+            <li>Airbnb Magazine</li>
+            <li>Airbnbアソシエイト</li>
+            <li>Airbnbビジネスプログラム</li>
+            <li>お友達を招待</li>
+            <li>採用情報</li>
+          </ul>
+      </div>
+      <div class="linkcollection">
+        <div class="title">ホスト</div>
+          <ul class="link-nav">
+            <li>お部屋を掲載</li>
+            <li>体験をホストする</li>
+            <li>責任あるホスティング</li>
+            <li>オープンホーム</li>
+            <li>オリンピック</li>
+            <li>リソースセンター</li>
+          </ul>  
+      </div>
+      <div class="linkcollection">
+        <div class="title">サポート</div>
+          <ul class="link-nav">
+            <li>ヘルプセンター</li>
+            <li>近隣コミュニティサポート</li>
+          </ul>
+      </div>
+    </div>
+    <!-- リンク集ここまで -->
+
+    <!-- フッターここから -->
+    <div class="topfooters">
       <i class="fab fa-airbnb"></i>
-      <i class="fas fa-angle-down"></i>
+      <div class="footer-left">
+        Airbnb Global Services Limited<br>
+        観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)<br>
+        © 2020 Airbnb, Inc. All rights reserved
+        <span><span>プライバシー · 利用規約 · サイトマップ</span>
+      </div>
+      <div class="footer-right">
+        <div class="sns">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+    <!-- フッターここまで -->
   </div>
-  <!-- 背景画像ここまで -->
-
-  <!-- width1300px以下入力フォームここから -->
-  <div class="responsiveform">
-    <div class="responsivefillin">宿泊施設の内容を記入</div>
-    <input class="responsiveaddress" type="text" placeholder="東京"/>
-    <div class="miniform">
-      <div class="responsivecharter">
-        <input type="text" placeholder="まるまる貸し切り"/>
-        <i class="fas fa-angle-down"></i>
-      </div>
-      <div class="responsiveguestpeople">
-        <input  type="text" placeholder="ゲスト4人"/>
-        <i class="fas fa-angle-down"></i>
-      </div>
-    </div>
-    <div class="startbtn">
-      はじめる
-    </div>
-  </div>
-  <!-- width1300px以下入力フォームここまで -->
-
-  <!-- メインページここから -->
-  <div class="hostmain">
-    <!-- 冒頭説明ここから -->
-    <div class="introduction">
-      <div class="whyhost">
-        <div class="title">なぜAirbnbでホスト?</div>
-        <div class="text">
-          どんなお家やお部屋でも、Airbnbなら簡単かつ安全にシェアして、
-          世界中の旅好きな仲間とつながれます。 
-          予約可能日から料金、ハウスルール、ゲストとの交流頻度まで、すべて自分で決めることができます。
-        </div>
-      </div>
-      <div class="warranty">
-        <div class="title">困ったときも安心</div>
-        <div class="text">
-          万一に備えるUS$1,000,000の財物補償、US$1,000,000の賠償責任保険が全予約に自動付帯。
-          ホストのみなさまと建物・家財の安全をお守りするため全力で取り組んでいます。
-        </div>
-      </div>
-    </div>
-    <!-- 冒頭説明ここまで -->
-
-    <!-- ステップここから -->
-    <div class="step">
-      <div class="steptitle">3ステップで簡単ホスティング</div>
-      <div class="steptexts">
-        <div class="steptext">
-          <i class="far fa-check-circle"></i>
-          <div class="minititle">無料でお部屋を掲載</div>
-          <div class="minitext">
-            共有のリビングルームから別荘に至るまで、
-            どんなスペースでも登録料なしで共有しましょう。</div>
-        </div>
-        <div class="steptext">
-          <i class="far fa-check-circle"></i>
-          <div class="minititle">ホスティング方法を設定</div>
-          <div class="minitext">ご希望のスケジュール、料金、ゲストの要件を選びます。設定の際にはヒントも表示されます。</div>
-        </div>
-        <div class="steptext">
-          <i class="far fa-check-circle"></i>
-          <div class="minititle">はじめてのゲストをもてなそう</div>
-          <div class="minitext">リスティングが掲載され次第、条件にかなったゲストから連絡を受けとることができます。
-            ゲストの宿泊前にご質問があればメッセージを送信できます。<br></div>
-            <div class="green">ホスティングの始め方を学ぶ</div>
-        </div>
-      </div>
-    </div>
-    <!-- ステップここまで -->
-
-    <!-- インタビューここから -->
-    <div class="interview">
-      <div class="interviewleft">
-        <div class="interviewicon"><img src="/Users/mikaijun/airbnb/src/image/dot.png" style="width: 80px; height: 50px;" alt="interview"></div>
-        <div class="interviewtext">「ホスト保証」があったからAirbnb参加を決めたといっても過言でないほどで、
-          被害やトラブルがあったときに頼れるサポートがあるのは本当にありがたいですね。</div>
-        <div class="minitext">Dennisさんはロンドンのホスト。自由度の高さに魅力を感じています</div>
-        <div class="checkbtn">ホスト実践例をチェック</div>
-      </div>
-      <div class="interviewright">
-        <img src="/Users/mikaijun/airbnb/src/image/interview.png"  alt="interview">
-      </div>
-    </div>
-    <!-- インタビューここまで -->
-
-    <!-- 安心ここから -->
-    <div class="relief">
-      <div class="relieftitle">万一のときも安心です</div>
-      <div class="relieftexts">
-        <div class="reliefleft">
-        大切なお家にお迎えする相手選びは、信頼第一で進めたいですよね。 
-        その思いに応えるため、Airbnbでは宿泊者に求める厳格な要件をホスト自身の手で設定し、
-        滞在前にお互い交流できるシステムを採用しています。 
-        万一のトラブルのときには、Airbnbが全力でサポートします。 
-        建物・家財の被害は「ホスト保証」、賠償責任は「ホスト補償保険」でカバー。
-        ホストのみなさまのあらゆるシチュエーションに対処しています。<br>
-         <div class="how">ホストをお守りするしくみを見る</div>
-        </div>
-        <div class="reliefright">
-          <div class="relieftext">
-            <i class="fas fa-check"></i>
-            <div class="checklist">予約前に政府発行の身分証明書を求める権限</div>
-          </div>
-          <div class="relieftext">
-            <i class="fas fa-check"></i>
-            <div class="checklist">ハウスルールに同意しないと泊まれない</div>
-          </div>
-          <div class="relieftext">
-            <i class="fas fa-check"></i>
-            <div class="checklist">過去の宿泊のレビューもばっちり読める</div>
-          </div>
-          <div class="relieftext">
-            <i class="fas fa-check"></i>
-            <div class="checklist">財物損害は¥100,000,000まで無料で補償</div>
-          </div>
-          <div class="relieftext">
-            <i class="fas fa-check"></i>
-            <div class="checklist">$1,000,000の賠償責任保険が無料で付帯</div>
-          </div>
-          <div class="relieftext">
-            <i class="fas fa-check"></i>
-            <div class="checklist">24時間365日対応グローバルカスタマーサポート</div>
-          </div>
-        </div>
-      </div>
-      <div class="massage"><img src="/Users/mikaijun/airbnb/src/image/massage.png" style="width: 100%; height: 500px;" alt="massage"></div>
-    </div>
-    <!-- 安心ここまで -->
-
-    <!-- シンプルここから -->
-    <div class="step">
-      <div class="steptitle">シンプルな決済</div>
-      <div class="steptexts">
-        <div class="steptext">
-          <div class="minititle">料金設定は完全に自由</div>
-          <div class="minitext">
-            いつでも好きなように価格設定できます。
-            お手伝いが必要ですか？お住まいの地域の需要に合わせるためのツールがあります。</div>
-        </div>
-        <div class="steptext">
-          <div class="minititle">手数料が安い</div>
-          <div class="minitext">
-            登録に費用は一切かかりません。Airbnbは通常、
-            予約ごとに業界で最低の均一3％をサービス料としていただいております。</div>
-        </div>
-        <div class="steptext">
-          <div class="minititle">迅速な支払い</div>
-          <div class="minitext">
-            ゲストのチェックイン後に、Paypal、
-            直接振り込み、またはその他の利用可能な方法で受取金を送金できます。
-            <div class="green">Airbnb収入を得るまでの流れを見る</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- シンプルここまで -->
-
-    <!-- 実施例ここから -->
-    <div class="example">
-      <div class="exampleleft">
-        <img src="/Users/mikaijun/airbnb/src/image/example.png" alt="interview">
-      </div>
-      <div class="exampleright">
-        <div class="icon"><img src="/Users/mikaijun/airbnb/src/image/dot.png" style="width: 80px; height: 50px;" alt="interview"></div>
-        <div class="exampletext">ホスト収入でキッチンリフォーム。お家をいろいろアップグレードしました。</div>
-        <div class="minitext">Tessaさんはロンドン在住。ホストになって世界が（懐も）広がりました</div>
-        <div class="checkbtn">ホスト実践例をチェック</div>
-      </div>
-    </div>
-    <!-- 実施例ここまで -->
-
-    <!-- シェアデータここから -->
-    <div class="hostshare">
-      <div class="sharetitle">夢を共有する仲間が世界中に</div>
-      <div class="hostdatas">
-        <div class="hostdata">
-          <div class="hostnumber">290万</div>
-          <div class="numbercomment">Airbnbのホスト</div>
-        </div>
-        <div class="hostdata">
-          <div class="hostnumber">80万</div>
-          <div class="numbercomment">Airbnbにおける毎晩の平均宿泊数</div>
-        </div>
-        <div class="hostdata">
-          <div class="hostnumber">14,000</div>
-          <div class="numbercomment">月あたりの新規登録ホスト数</div>
-        </div>
-      </div>
-    </div>
-    <!-- シェアデータここまで -->
-
-    <!-- Airbnbについてここから -->
-    <div class="about">
-      <div class="abouttitle">Airbnbについて</div>
-      <div class="abouttexts">
-        <div class="abouttext">
-          <div class="aboutheadline">Airbnbとは?</div>
-          <div class="aboutexplanation">
-            Airbnbは世界中の宿泊先や体験と人々をつなぎます。 
-            ホストたちが原動力となるコミュニティが、
-            地元のように旅するユニークな機会をゲストに提供しています。
-          </div>
-        </div>
-        <div class="abouttext">
-          <div class="aboutheadline">ホスティングとは？</div>
-          <div class="aboutexplanation">
-            空いているお部屋やお家、得意分野があるなら、
-            世界中の仲間とシェアして暮らしをステップアップできます。 
-            掲載できるのはお部屋や体験です。掛け持ちもOK。 
-            無理のないペースでできます。<br>
-          </div>
-          <div class="green">体験ホスティングの詳細はこちら</div>
-        </div>
-      </div>
-    </div>
-    <!-- Airbnbについてここまで -->
-
-    <!-- 質問ここから -->
-    <div class="question">
-      <div class="questiontitle">よくある質問</div>
-      <ul class="question-nav">
-        <li>Airbnbホストになれるのはどんな人？</li>
-        <li>家財破損があった場合、どのような補償がありますか？</li>
-        <li>予約前にゲストに求められる要件は？</li>
-        <li>リスティングの料金はどうやって決めたらいいの？</li>
-        <li>お部屋を掲載するには、いくらかかるの？</li>
-        <li>Airbnbはお部屋の料金の設定をサポートしてくれる？</li>
-      </ul>
-    </div>
-    <!-- 質問ここまで -->
-
-    <!-- ホスティングここから -->
-    <div class="hosting">
-      <div class="hostingtitle">ホスティングの詳細はこちら</div>
-      <div class="hostinglists">
-        <div class="hostinglist">
-          <img src="/Users/mikaijun/airbnb/src/image/preparation.png" alt="preparation">
-          <div class="hostingheadline">準備</div>
-          <div class="hostingcomment">ホスティングの始め方</div>
-          <div class="learnmore">もっと詳しく</div>
-        </div>
-        <div class="hostinglist">
-          <img src="/Users/mikaijun/airbnb/src/image/safety.png" alt="safety">
-          <div class="hostingheadline">安全対策</div>
-          <div class="hostingcomment">ホストを守るAirbnbのしくみ</div>
-          <div class="learnmore">もっと詳しく</div>
-        </div>
-        <div class="hostinglist">
-          <img src="/Users/mikaijun/airbnb/src/image/plan.png" alt="plan">
-          <div class="hostingheadline">マネープラン</div>
-          <div class="hostingcomment">Airbnbで収入源を増やす方法</div>
-          <div class="learnmore">もっと詳しく</div>
-        </div>
-      </div>
-    </div>
-    <!-- ホスティングここまで -->  
-  </div>
-  <!-- メインページここまで -->
-
-  <!-- リスティングここから -->
-  <div class="listing">
-    <img src="/Users/mikaijun/airbnb/src/image/listing.png"  style="width:100%; height: 425px;" alt="listing">
-    <div class="listingtitle">収入増やしたい？</div>
-    <div class="listingbtn">リスティングを作成</div>
-  </div>
-    <!-- リスティングここまで -->
-
-  <!-- リンク集ここから -->
-  <div class="linkcollections">
-    <div class="linkcollection">
-      <div class="title">企業情報</div>
-        <ul class="link-nav">
-          <li>ダイバーシティ＆ビロンギング</li>
-          <li>アクセシビリティ対応</li>
-          <li>信頼＆安全</li>
-          <li>Airbnb Citizen</li>
-          <li>ニュースルーム</li>
-        </ul>
-    </div>
-    <div class="linkcollection">
-      <div class="title">コミュニティ</div>
-        <ul class="link-nav">
-          <li>Airbnb Magazine</li>
-          <li>Airbnbアソシエイト</li>
-          <li>Airbnbビジネスプログラム</li>
-          <li>お友達を招待</li>
-          <li>採用情報</li>
-        </ul>
-    </div>
-    <div class="linkcollection">
-      <div class="title">ホスト</div>
-        <ul class="link-nav">
-          <li>お部屋を掲載</li>
-          <li>体験をホストする</li>
-          <li>責任あるホスティング</li>
-          <li>オープンホーム</li>
-          <li>オリンピック</li>
-          <li>リソースセンター</li>
-        </ul>  
-    </div>
-    <div class="linkcollection">
-      <div class="title">サポート</div>
-        <ul class="link-nav">
-          <li>ヘルプセンター</li>
-          <li>近隣コミュニティサポート</li>
-        </ul>
-    </div>
-  </div>
-  <!-- リンク集ここまで -->
-
-  <!-- フッターここから -->
-  <div class="topfooters">
-    <i class="fab fa-airbnb"></i>
-    <div class="footer-left">
-      Airbnb Global Services Limited<br>
-      観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)<br>
-      © 2020 Airbnb, Inc. All rights reserved
-      <span><span>プライバシー · 利用規約 · サイトマップ</span>
-    </div>
-    <div class="footer-right">
-      <div class="sns">
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-      </div>
-    </div>
-  </div>
-  <!-- フッターここまで -->
-
 </div>
 <script src="main.js"></script>
 </body>
