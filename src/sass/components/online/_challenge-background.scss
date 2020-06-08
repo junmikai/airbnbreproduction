@@ -1,0 +1,36 @@
+.challenge-background{
+  height:400px;
+  background-color:$light-gray;
+  @media (max-width: 740px){
+    height:auto;
+  }
+}
+
+.challenge-background >.challenge{
+  margin:0 auto;
+  max-width:1200px;
+  padding:0px 45px 45px 45px;
+  color:$light-black;
+  display: flex;
+  padding-top:120px;
+  @media (max-width: 740px){
+    display: initial;
+  }
+}
+
+.challenge-background > .challenge > .challengetitle{
+  font-size:30px;
+  font-weight: bold;
+  width:300px;
+  @media (max-width: 740px){
+    margin-top:100px;
+    width:280px;
+  }
+  @media (max-width: 740px){
+    width:90%;
+    height:60px;
+    margin:10px 0px 0px 20px;
+    font-size:23px;
+    border-bottom:$bodergray solid 1px;
+  }
+}

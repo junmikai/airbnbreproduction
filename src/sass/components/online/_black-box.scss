@@ -1,4 +1,7 @@
 .black-box{
   background-color:$black;
   padding-bottom:30px;
+  @media (max-width: 1130px){
+    height:900px;
+  }
 }

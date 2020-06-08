@@ -1,0 +1,21 @@
+.footer-online{
+  display: flex;
+  justify-content:space-between;
+  padding:30px 50px 100px 100px;
+  border-top: solid 1px $bodergray;
+  color:$light-black;
+  height:auto;
+  background-color:$light-gray;  
+  @media (max-width: 1130px){
+    flex-wrap :wrap-reverse;
+    padding:30px 100px 100px 100px;
+    margin:0 auto;
+    text-align: center;
+    border-top:initial;
+  }
+  @media (max-width: 740px){
+    position: relative;
+    text-align:initial;
+    border-top:initial;
+  }
+}

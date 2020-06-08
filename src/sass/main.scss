@@ -1,10 +1,9 @@
-@import "settings/_settings.color.scss";
+@import "settings/_settings.color";
 
-@import "generic/_generic.reset.scss";
+@import "generic/_generic.reset";
 
 @import "objects/_objects.index";
 @import "objects/_objects.online";
-@import "objects/_objects.online-responsive";
 @import "objects/_objects.homes";
 @import "objects/_objects.homes-responsive";
 @import "objects/_objects.trial";
@@ -38,9 +37,43 @@
   @import "components/index/footer-left";
   @import "components/index/footer-right";
   @import "components/index/hiding-footer";
-}
 
-@import "components/_components.online";
-@import "components/_components.online-details";
-@import "components/_components.online-responsive";
-@import "components/_components.trial";
+  @import "components/online/_fixed-header";
+  @import "components/online/_black-box";
+  @import "components/online/_experiences-header";
+  @import "components/online/_search-box";
+  @import "components/online/_header-nav";
+  @import "components/online/_sangría-box";
+  @import "components/online/_share-save";
+  @import "components/online/_online-explanation";
+  @import "components/online/_explanation-left";
+  @import "components/online/_explanation-right";
+  @import "components/online/_can-experience";
+  @import "components/online/_challenge-background";
+  @import "components/online/_challenge-texts";
+  @import "components/online/_host-introduction";
+  @import "components/online/_belong-ings";
+  @import "components/online/_participa-tion";
+  @import "components/online/_video-call";
+  @import "components/online/_guest-review";
+  @import "components/online/_reviews-container";
+  @import "components/online/_review-container";
+  @import "components/online/_guest-title";
+  @import "components/online/_review-right";
+  @import "components/online/_reservation-container";
+  @import "components/online/_calendar-table";
+  @import "components/online/_calendars-container";
+  @import "components/online/_note-container";
+  @import "components/online/_note-texts";
+  @import "components/online/_note-text";
+  @import "components/online/_other-experiences";
+  @import "components/online/_experiences-container";
+  @import "components/online/_experience-container";
+  @import "components/online/_online-link";
+  @import "components/online/_link-nav";
+  @import "components/online/_footer-container";
+  @import "components/online/_footer-left";
+  @import "components/online/_footer-right";
+  @import "components/online/_fixed-footer";
+  @import "components/online/white-header";
+}

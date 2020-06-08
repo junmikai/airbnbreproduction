@@ -1,0 +1,10 @@
+.footer-left {
+  font-size:13px;
+  @media (max-width: 740px){
+    padding:20px 0px 0px 30px;
+  }
+}
+
+.footer-left > .footerdot{
+  padding:0px 8px;
+}

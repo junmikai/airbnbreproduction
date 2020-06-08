@@ -5,36 +5,42 @@
   margin:20px auto;
   position: relative;
   height:30vw;
-  .imagesmile{ 
-    width:28vw;
-    margin:0px 5px;
-    background-size:cover;
-    background-image:url("/Users/mikaijun/airbnb/src/image/dance.png");
-  }
-  .imagephoenix{ 
-    width:28vw;
-    margin:0px 5px;
-    background-size:cover;
-    background-image:url("/Users/mikaijun/airbnb/src/image/phoenix.png");
-  }
-  .smallimages{
-    width:15vw;
-    > .imagedrink{
-      height:49.5%;
-      background-size:cover;
-      background-image:url("/Users/mikaijun/airbnb/src/image/drink.png");
-      margin-bottom:5px;
-    }
-    .imageshoot{
-      height:49.5%;
-      background-size:cover;
-      background-image:url("/Users/mikaijun/airbnb/src/image/shoot.png");
-    }
-  }
-  .imagecooking{ 
-    width:28vw;
-    margin:0px 5px;
-    background-size:cover;
-    background-image:url("/Users/mikaijun/airbnb/src/image/cooking.png");
-  }    
 }
+
+.sangría-box > .imagesmile{ 
+  width:28vw;
+  margin:0px 5px;
+  background-size:cover;
+  background-image:url("../src/image/dance.png");
+}
+
+.sangría-box > .imagephoenix{ 
+  width:28vw;
+  margin:0px 5px;
+  background-size:cover;
+  background-image:url("../src/image/phoenix.png");
+}
+
+.sangría-box > .smallimages{
+  width:15vw;
+}
+
+.sangría-box > .smallimages > .imagedrink{
+  height:49.5%;
+  background-size:cover;
+  background-image:url("../src/image/drink.png");
+  margin-bottom:5px;
+}
+
+.sangría-box > .smallimages > .imageshoot{
+  height:49.5%;
+  background-size:cover;
+  background-image:url("../src/image/shoot.png");
+}
+
+.sangría-box > .imagecooking{ 
+  width:28vw;
+  margin:0px 5px;
+  background-size:cover;
+  background-image:url("../src/image/cooking.png");
+}    

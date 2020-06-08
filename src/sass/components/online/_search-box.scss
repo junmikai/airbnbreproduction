@@ -7,16 +7,18 @@
   font-size:14px;
   width:280px;
   z-index: 1;
-  > .form{
-    width:40%;
-    border-right: thin solid $bodergray;
-    text-align: center;
-    line-height:45px;
-  }
-  > .form:nth-child(3){
-    border-right:initial;
-    font-size:20px;
-    width:10%;
-    padding-left:20px;
-  }
+}
+
+.search-box > .form{
+  width:40%;
+  border-right: thin solid $bodergray;
+  text-align: center;
+  line-height:45px;
+}
+
+.search-box > .form:nth-child(3){
+  border-right:initial;
+  font-size:20px;
+  width:10%;
+  padding-left:20px;
 }

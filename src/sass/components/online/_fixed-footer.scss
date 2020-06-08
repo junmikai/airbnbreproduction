@@ -1,0 +1,138 @@
+.fixed-footer{
+  height:70px;
+  width:100%;
+  border-top:$bodergray solid 1px;
+  position: absolute;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content:space-between;
+  background-color:$white;
+  line-height:70px;
+  padding:0px 0px;
+  @media (max-width: 1130px){
+    line-height:initial;
+  }
+}
+
+.fixed-footer > .fixedleft{
+  display: flex;
+  padding-left:30px;
+  @media (max-width: 1130px){
+    display: none;
+  }
+}
+
+.fixed-footer > .fixedleft > img{
+  margin-top:10px;
+  border-radius: 50%;
+}
+
+.fixed-footer > .fixedleft > .title{
+  margin:0px 10px;
+  font-size:13px;
+  font-weight: bold;
+}
+
+.fixed-footer > .fixedleft > .review{
+  font-size:10px;
+  font-weight: bold;
+  color:$light-green;
+}
+
+.fixed-footer > .fixedleft > .reviewcount{
+  font-size:10px;
+  color:$gray;
+}
+
+.fixed-footer > .fixedright{
+  display: flex;
+  padding-right:30px;
+  @media (max-width: 1130px){
+    display: none;
+  }
+}
+
+.fixed-footer > .fixedright > .price{
+  font-weight: bold;
+  font-size:13px;
+}
+
+.fixed-footer > .fixedright > .daybtn{
+  background-color:$wine;
+  color:$white;
+  font-weight: bold;
+  text-align: center;
+  width:200px;
+  height:50px;
+  line-height:50px;
+  margin:10px 0px 0px 30px;
+  border-radius: 5px;
+}
+
+.fixed-footer >.minileft{
+  @media (min-width: 1130px){
+    display: none;
+  }
+  @media (max-width: 1130px){
+    font-size:10px;
+    padding:17px;
+  }
+}
+
+.fixed-footer > .minileft > .price{
+  @media (max-width: 1130px){
+  font-weight: bold;
+  font-size:13px;
+  }
+}
+
+.fixed-footer > .minileft > .review{
+  @media (max-width: 1130px){
+  color:$light-green;
+  display: flex;
+  }
+}
+
+.fixed-footer > .minileft > .review > .footerreview{
+  @media (max-width: 1130px){
+  font-weight: bold;
+  }
+}
+
+.fixed-footer > .minileft > .review > .fas{
+  @media (max-width: 1130px){
+  line-height:1.5;
+  }
+}
+
+.fixed-footer > .minileft > .review > .no1235{
+  @media (max-width: 1130px){
+  font-size:10px;
+  color:$gray;
+  }
+}
+
+.fixed-footer  > .miniright{
+  @media (max-width: 1130px){
+  background-color:$wine;
+  color:$white;
+  font-weight: bold;
+  text-align: center;
+  width:200px;
+  height:50px;
+  line-height:50px;
+  margin:10px 0px 0px 30px;
+  border-radius: 5px;
+  margin-right:10px;
+  }
+  @media (min-width: 1130px){
+    display: none;
+  }
+}
+
+.black{
+  background-color:$black;
+  color:$white;
+  border-top:initial;
+}

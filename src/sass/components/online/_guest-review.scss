@@ -1,0 +1,12 @@
+.guest-review{
+  margin:0 auto;
+  max-width:1200px;
+  padding:0px 45px 150px 45px;
+  color:$light-black;
+  display: flex;
+  padding-top:45px;
+  margin-bottom:40px;
+  @media (max-width: 740px){
+    display: initial;
+  }
+}
