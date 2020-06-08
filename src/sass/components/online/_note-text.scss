@@ -35,8 +35,9 @@
 }
 
 .note-text > .fas {
-  font-size:25px;
-  @media (min-width: 1130px){
-    display:none;
+  opacity:0;
+  @media (max-width: 1130px){
+    font-size:25px;
+    opacity: 1;
   }
 }

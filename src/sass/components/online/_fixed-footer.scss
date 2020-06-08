@@ -71,12 +71,13 @@
 }
 
 .fixed-footer >.minileft{
-  @media (min-width: 1130px){
+  @media (max-width: 1920px){
     display: none;
   }
   @media (max-width: 1130px){
     font-size:10px;
     padding:17px;
+    display: initial;
   }
 }
 
@@ -114,6 +115,9 @@
 }
 
 .fixed-footer  > .miniright{
+  @media (max-width: 1920px){
+    display: none;
+  }
   @media (max-width: 1130px){
   background-color:$wine;
   color:$white;
@@ -125,9 +129,7 @@
   margin:10px 0px 0px 30px;
   border-radius: 5px;
   margin-right:10px;
-  }
-  @media (min-width: 1130px){
-    display: none;
+  display: initial;
   }
 }
 

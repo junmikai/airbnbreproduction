@@ -11107,6 +11107,11 @@ input, select {
   height: 100vh;
 }
 
+.section-layout {
+  width: 100%;
+  position: relative;
+}
+
 .section-layout > .header {
   height: 200px;
   position: relative;
@@ -13552,6 +13557,7 @@ input, select {
 .section-layout > .container .note-texts {
   padding-top: 45px;
   padding-left: 30px;
+  width: 90%;
 }
 .section-layout > .container .note-texts > .note-text:nth-child(4) {
   border-bottom: initial;
@@ -13595,11 +13601,12 @@ input, select {
   font-size: 14px;
 }
 .section-layout > .container .note-text > .fas {
-  font-size: 25px;
+  opacity: 0;
 }
-@media (min-width: 1130px) {
+@media (max-width: 1130px) {
   .section-layout > .container .note-text > .fas {
-    display: none;
+    font-size: 25px;
+    opacity: 1;
   }
 }
 .section-layout > .container .other-experiences {
@@ -13636,13 +13643,13 @@ input, select {
   width: 13vw;
   position: relative;
 }
-@media (min-width: 1110px) and (max-width: 1440px) {
+@media (max-width: 1440px) {
   .section-layout > .container .experience-container > .image {
     height: 22vw;
     width: 18vw;
   }
 }
-@media (min-width: 740px) and (max-width: 1110px) {
+@media (max-width: 1110px) {
   .section-layout > .container .experience-container > .image {
     height: 28vw;
     width: 23vw;
@@ -13905,7 +13912,7 @@ input, select {
   margin: 10px 0px 0px 30px;
   border-radius: 5px;
 }
-@media (min-width: 1130px) {
+@media (max-width: 1920px) {
   .section-layout > .container .fixed-footer > .minileft {
     display: none;
   }
@@ -13914,6 +13921,7 @@ input, select {
   .section-layout > .container .fixed-footer > .minileft {
     font-size: 10px;
     padding: 17px;
+    display: initial;
   }
 }
 @media (max-width: 1130px) {
@@ -13944,6 +13952,11 @@ input, select {
     color: gray;
   }
 }
+@media (max-width: 1920px) {
+  .section-layout > .container .fixed-footer > .miniright {
+    display: none;
+  }
+}
 @media (max-width: 1130px) {
   .section-layout > .container .fixed-footer > .miniright {
     background-color: #f73131;
@@ -13956,11 +13969,7 @@ input, select {
     margin: 10px 0px 0px 30px;
     border-radius: 5px;
     margin-right: 10px;
-  }
-}
-@media (min-width: 1130px) {
-  .section-layout > .container .fixed-footer > .miniright {
-    display: none;
+    display: initial;
   }
 }
 .section-layout > .container .black {
