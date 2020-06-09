@@ -9,82 +9,35 @@
   position: relative;
 }
 
-// メインページ余白
-.section-layout > .container  > .hostmain{
-  max-width:1200px;
-  margin:0 auto;
-  padding:20px 30px 100px 30px;
-}
-
-// 冒頭説明
-.section-layout > .container  > .hostmain >.introduction{
-  display: flex;
-  @import "../components/components.homes";
-}
-
-
-
-// ステップ
-.section-layout > .container  > .hostmain > .step{
-  margin-top:30px;
-  color:$light-black;
-  @import "../components/components.homes";
-}
-
-
-
-// インタビュー全体
-.section-layout > .container  > .hostmain >.interview{
-  margin-top:100px;
-  display: flex;
-  @import "../components/components.homes";
-}
-
-
-
-
-// 安心
-.section-layout > .container  > .hostmain > .relief{
-  margin-top:30px;
-  color:$light-black;
-  padding:0px 30px;
-  @import "../components/components.homes";
-}
-// 安心/マッサージ画像
-.section-layout > .container  > .hostmain > .relief > .massage{
-  margin:50px auto;
-  text-align: center;
-}
-
 // ----------------------
 // シンプルのcssはステップ参照
 // -----------------------
 
 // 実施例/
-.section-layout > .container  > .hostmain > .example{
+.section-layout > .container  > .whitespace-container > .example{
   display:flex;
   @import "../components/components.homes";
 }
 
 // シェアデータ
-.section-layout > .container  > .hostmain > .hostshare{
+.section-layout > .container  > .whitespace-container > .hostshare{
   margin-top:100px;
   color:$light-black;
   @import "../components/components.homes";
 }
 
 // Airbnbについて
-.section-layout > .container  > .hostmain > .about{
+.section-layout > .container  > .whitespace-container > .about{
   color:$light-black;
   @import "../components/components.homes";
 }
 
 // よくある質問
-.section-layout > .container  > .hostmain > .question{
+.section-layout > .container  > .whitespace-container > .question{
   @import "../components/components.homes";
 }
 // ホスティング
-.section-layout > .container  > .hostmain > .hosting{
+.section-layout > .container  > .whitespace-container > .hosting{
   @import "../components/components.homes";
   color:$light-black;  
 }

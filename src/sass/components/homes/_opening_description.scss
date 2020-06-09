@@ -1,0 +1,45 @@
+.opening_description{
+  display: flex;
+  margin-top:50px;
+  @media (max-width: 1130px){
+    display:initial;
+  }
+}
+
+.opening_description > .why_host{
+  padding:0px 20px;
+  color:$light-black;
+}
+
+.opening_description > .why_host > .title{
+  font-size:23px;
+  font-weight: bold;
+  margin-bottom:20px;
+}
+
+.opening_description > .why_host >.summary{
+  width:85%;
+  font-size:16px;
+  line-height:1.75;
+  @media(max-width: 1130px){
+    width:initial;
+    margin-bottom:50px;
+  }
+}
+
+.opening_description > .warranty{
+  padding:0px 20px;
+  color:$light-black;
+}
+
+.opening_description > .warranty > .title{
+  font-size:23px;
+  font-weight: bold;
+  margin-bottom:20px;
+}
+
+.opening_description > .warranty >.summary{
+  width:100%;
+  font-size:16px;
+  line-height:1.75;
+}

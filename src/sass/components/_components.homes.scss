@@ -1,132 +1,32 @@
 @import "../settings/_settings.color.scss";
 
-// 冒頭説明/なぜ
-.whyhost{
-  padding:0px 20px;
-  color:$light-black;
-  > .title{
-    font-size:23px;
-    font-weight: bold;
-    margin-bottom:20px;
-  }
-  >.text{
-    width:85%;
-    font-size:16px;
-    line-height:1.75;
-  }
-}
-// 冒頭説明/安心
-.warranty{
-  padding:0px 20px;
-  color:$light-black;
-  > .title{
-    font-size:23px;
-    font-weight: bold;
-    margin-bottom:20px;
-  }
-  >.text{
-    width:85%;
-    font-size:16px;
-    line-height:1.75;
-  }
-  >.text{
-    width:100%;
-  }
-}
-
-
-
-// ステップ/タイトル
-.steptitle{
-  font-size:60px;
-  text-align: center;
-  font-weight: bold;
-  margin-bottom:50px;
-}
-
-// ステップ/テキスト全体
-.steptexts{
-  display: flex;
-  >.steptext{
-    width:30%;
-    margin-right:40px;
-    line-height:1.75;
-    .far{
-      font-size:50px;
-    }
-    .minititle{
-      font-size:25px;
-      margin-top:20px;
-      font-weight: bold;
-    }
-    .minitext{
-      font-size:17px;
-      margin-top:20px;
-    }
-    .green{
-      color:$light-green;
-      padding-top:10px;
-    }
-  }
-}
-
-// インタビュー/左側
-.interviewleft{
-  width:43%;
-  margin-right:50px;
-  color:$light-60;
-  >.interviewtext{
-    font-size:33px;
-    line-height:1.25;
-  }
-  > .minitext{
-    margin-top:15px;
-    color:$light-a0;
-  }
-  > .checkbtn{
-    margin-top:10px;
-    color:$light-black;
-    margin:20px 0px;
-    border:$light-black solid 2px;
-    border-radius:5px;
-    width:180px;
-    padding:15px 20px;
-    font-weight: bold;
-  }
-}
-// インタビュー/右側画像
-.interviewright > img{
-  width: 525px; 
-  height: 500px;
-}
-
 // 安心/タイトル
-.relieftitle{
-  font-size:60px;
-  text-align: center;
-  font-weight: bold;
-  margin-bottom:50px;
-}
+// .relieftitle{
+//   font-size:60px;
+//   text-align: center;
+//   font-weight: bold;
+//   margin-bottom:50px;
+// }
 // 安心/テキスト全体
-.relieftexts{
-  display:flex;
-  justify-content:space-between;
-  >.reliefleft{
-    width:400px;
-    line-height:1.75;
-    margin-right:50px;
-    color:$light-60;
-    margin:10px 0px 0px 0px;
-    >.how{
-      color:$light-green;
-      padding-top:10px;
-    }
-  }
-  >.reliefright{
-    @import "_components.homes-details";
-    margin-right:150px;
-  }
-}
+// .relieftexts{
+//   display:flex;
+//   justify-content:space-between;
+//   >.reliefleft{
+//     width:400px;
+//     line-height:1.75;
+//     margin-right:50px;
+//     color:$light-60;
+//     margin:10px 0px 0px 0px;
+//     >.how{
+//       color:$light-green;
+//       padding-top:10px;
+//     }
+//   }
+//   >.reliefright{
+//     @import "_components.homes-details";
+//     margin-right:150px;
+//   }
+// }
 
 
 // 実施例/右側
@@ -141,11 +41,11 @@
     font-size:33px;
     line-height:1.25;
   }
-  > .minitext{
+  > .summary{
     margin-top:15px;
     color:$light-a0;
   }
-  > .checkbtn{
+  > .btn{
     margin-top:10px;
     color:$light-black;
     margin:20px 0px;

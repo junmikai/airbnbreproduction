@@ -1,0 +1,25 @@
+.safety-container{
+  margin-top:30px;
+  color:$light-black;
+  padding:0px 30px;
+}
+
+.safety-container > .title{
+  font-size:60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom:50px;
+  @media(max-width: 1130px){
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom:50px;
+  }
+  @media (max-width: 740px){
+    text-align:left;
+  }
+}
+
+.safety-container > .massage_image{
+  margin:50px auto;
+  text-align: center;
+}
