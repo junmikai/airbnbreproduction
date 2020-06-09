@@ -3,10 +3,6 @@
   .title{
     text-align:left;
   }
-  // 安心タイトル左揃え
-  .relieftitle{
-    text-align:left;
-  }
   // 実施例画像サイズ
   .exampleleft > img{
     width: initial; 
@@ -210,22 +206,7 @@
       }
     }
   }
-  // 安心/タイトル文字サイズ
-  .relieftitle{
-    font-size:40px;
-    font-weight: bold;
-    margin-bottom:50px;
-  }
-  // 安心の横並び解除
-  .relieftexts{
-    display: initial;
-    >.reliefleft{
-      width:initial;
-      >.how{
-        margin:10px 0px 20px 0px;
-      }
-    }
-  }
+
   // シェアデータ/タイトル文字サイズ
   .sharetitle{
     font-size:35px;

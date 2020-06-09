@@ -1,0 +1,27 @@
+.safety-block{
+  display:flex;
+  justify-content:space-between;
+  @media(max-width: 1130px){
+    display: initial;
+  }
+}
+
+.safety-block >.interview{
+  width:400px;
+  line-height:1.75;
+  margin-right:50px;
+  color:$light-60;
+  margin:10px 0px 0px 0px;
+  @media(max-width: 1130px){
+    width:initial;
+  }
+}
+
+.safety-block >.interview > .how{
+  color:$light-green;
+  padding-top:10px;
+  @media(max-width: 1130px){
+    margin:10px 0px 20px 0px;
+  }
+}
+
