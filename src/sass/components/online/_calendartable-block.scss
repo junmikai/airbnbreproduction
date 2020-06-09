@@ -1,0 +1,22 @@
+.calendartable-block {
+  width:90%;
+  padding:10px;
+}
+
+.calendartable-block  tr  th{
+  font-weight: normal;
+  font-size:12px;
+}
+
+.calendartable-block  tr  td{
+  background-color:$light-gray;
+  border-radius: 3px;
+  text-align: center;
+  font-size:10px;
+  padding:7px;
+}
+
+.calendartable-block  tr > .none{
+  opacity: 0;
+}
+

@@ -1,0 +1,10 @@
+.commentary-container{
+  width:95vw;
+  max-width:1200px;
+  display:flex;
+  margin:20px auto;
+  position: relative;
+  @media (max-width: 740px){
+    display: initial;
+  }
+}

@@ -1,0 +1,88 @@
+.overview-block{
+  width:80%;
+  @media (max-width: 1130px){
+    margin-left: initial;
+  }
+  @media (max-width: 740px){
+    width: initial;
+    margin-left:initial;
+    padding:0px 20px;
+  }
+}
+
+.overview-block >.reservation{
+  margin:30px 0px;
+  display: flex;
+  border-top:$bodergray solid 1px;
+  border-bottom:$bodergray solid 1px;
+  color:$white;
+  font-size:14px;
+  line-height:57px;
+  padding:10px 0px;
+  @media (max-width: 1130px){
+    line-height:initial;
+  }
+  @media (max-width: 740px){
+    padding:initial;
+    position: relative;
+    line-height:initial;
+    height:60px;
+  }
+}
+
+.overview-block >.reservation >.summary{
+  @media (max-width: 1130px){
+    padding:15px;
+  }
+  @media (max-width: 740px){
+  width:100%;
+  padding:15px;
+  line-height:initial;
+  }
+}
+.overview-block >.reservation > img{
+  position: absolute;
+  right:0px;
+}
+
+.overview-block > .overview_item{
+  height:150px;
+  width:70%;
+  margin-top:20px;
+  display: flex;
+  justify-content:space-between;
+  font-size:13px;
+  color:$white;
+  @media (max-width: 1130px){
+    width:55vw;
+    height:initial;
+    position: absolute;
+    left:30px;
+    bottom:-100px;
+    
+  }
+  @media (max-width: 740px){
+    width:500px;
+    flex-wrap :wrap;
+    position:initial;
+    left:initial;
+    bottom:initial;
+  }
+}
+
+.overview-block > .overview_item >.overview{
+  @media (max-width: 740px){
+    width:200px;
+    padding:10px 0px;
+  }
+}
+
+.overview-block > .overview_item >.overview > .fas{
+  color:$gray;
+  margin-bottom:10px;
+}
+
+.overview-block > .overview_item >.overview > .title{
+  color:$gray;
+  margin-bottom:10px;
+}

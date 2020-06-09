@@ -1,0 +1,40 @@
+.image-container{
+  width:95vw;
+  max-width:1200px;
+  display:flex;
+  margin:20px auto;
+  position: relative;
+  height:30vw;
+}
+
+.image-container > .middle_image{ 
+  width:28vw;
+  margin:0px 5px;
+  background-size:cover;
+  background-image:url("../src/image/dance.png");
+}
+
+.image-container > .middle_image:nth-child(2){
+  background-image:url("../src/image/phoenix.png");
+}
+
+.image-container > .middle_image:nth-child(4){
+  background-image:url("../src/image/cooking.png");
+}
+
+.image-container > .small_image-block{
+  width:15vw;
+}
+
+.image-container > .small_image-block > .small_image{
+  height:49.5%;
+  background-size:cover;
+  background-image:url("../src/image/drink.png");
+  margin-bottom:5px;
+}
+
+.image-container > .small_image-block > .small_image:nth-child(2){
+  height:49.5%;
+  background-size:cover;
+  background-image:url("../src/image/shoot.png");
+} 

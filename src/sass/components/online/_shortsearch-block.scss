@@ -1,0 +1,24 @@
+.shortsearch-block{
+  display: flex;
+  height:45px;
+  background-color:$explanation;
+  border-radius: 15px;
+  color:$light-gray;
+  font-size:14px;
+  width:280px;
+  z-index: 1;
+}
+
+.shortsearch-block > .form{
+  width:40%;
+  border-right: thin solid $bodergray;
+  text-align: center;
+  line-height:45px;
+}
+
+.shortsearch-block > .form:nth-child(3){
+  border-right:initial;
+  font-size:20px;
+  width:10%;
+  padding-left:20px;
+}

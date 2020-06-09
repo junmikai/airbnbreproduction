@@ -1,0 +1,31 @@
+.btn-item{
+  width:200px;
+  height:40px;
+  position: absolute;
+  right:30px;
+  top:20px;
+  display: flex;
+  justify-content:space-between;
+  @media (max-width: 740px){
+    display: none;
+  }
+}
+
+.btn-item > .sns_btn{
+  background-color:$light-gray;
+  border-radius: 5px;
+  display: flex;
+  justify-content:space-between;
+  padding:12px 15px 15px 15px;
+  line-height:1;
+  font-size:14px;
+  font-weight: bold;
+}
+
+.btn-item > .sns_btn > .fas{
+  padding-right:10px;
+}
+
+.btn-item > .sns_btn > .far{
+  padding-right:10px;
+}

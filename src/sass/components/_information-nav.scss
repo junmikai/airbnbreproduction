@@ -1,0 +1,35 @@
+.information-nav{
+  width:23%;
+  margin-right:15px;
+  float: left;
+  @media (max-width: 1130px){
+    width:45%;
+    margin-top:50px;
+  }
+  @media (max-width: 740px){
+    width:100%;
+    margin-top:50px;
+    padding-right:50px;
+  }
+}
+
+.information-nav > .title{
+  font-size:19px;
+  padding-bottom:10px;
+}
+.information-nav > .list{
+  
+  list-style: none; 
+  border-top: solid 1px $bodergray;
+  padding:15px 0px;
+  font-weight: bold;
+  @media (max-width: 740px){
+    width:500px;
+  }
+}
+
+.information-nav > .list > .supplement{
+  color:$gray;
+  font-size:14px;
+  font-weight: normal;
+}

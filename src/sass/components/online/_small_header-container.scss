@@ -1,0 +1,30 @@
+.small_header-container{
+@media (max-width: 740px){
+  background-color:$white;
+  height:20px;
+  padding:20px 20px;
+  display: flex;
+  justify-content:space-between;
+  width:95%;
+  }
+}
+
+.small_header-container > .return_link{
+  @media (max-width: 740px){
+  font-size:14px;
+  font-weight: bold;
+  }
+}
+
+.small_header-container > .register{
+  @media (max-width: 740px){
+  color:$gray;
+  font-size:17px;
+  }
+}
+
+.small_header-container > .register > .fas{
+  @media (max-width: 740px){
+  margin-right:15px;
+  }
+}

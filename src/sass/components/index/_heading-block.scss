@@ -1,0 +1,39 @@
+.heading-block{
+  height:120px;
+  display: flex;
+  justify-content:space-between;
+  @media (max-width: 900px){
+    margin-bottom:initial;
+    height:initial;
+  }
+}
+
+.heading-block > .heading_item{
+  width:450px;
+  @media (max-width: 900px){
+    width:100%;
+  }
+}
+
+.heading-block > .heading_item > .title{
+  font-size:30px;
+  font-weight: bold;
+  @media (max-width: 900px){
+    font-size:22px;
+  }
+}
+
+.heading-block > .btn{
+  border: solid 1px $white;
+  width:100px;
+  height:35px;
+  border-radius: 8px;
+  text-align: center;
+  line-height:35px;
+  font-size:14px;
+  @media (max-width: 900px){
+    position: absolute;
+    bottom:35px;
+    left:50px;
+  }
+}
