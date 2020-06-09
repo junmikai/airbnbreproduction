@@ -1,3 +1,14 @@
+// 黒系
+$light-black: #3f3f3f;
+
+// 白系
+$white: #fff;
+
+// コメントアウトで何系の色なのかを示し、https://codepen.io/meodai/full/mEvZRx これを参考に命名して頂いでもよろしいですか。
+// 命名方法は codepenで色の命名に系統の名前が含まれていない場合、(カラーの系統)-(codepenで出た名前)のような感じにしてください。
+// #E61E4D → Spanish Crimson, 赤系なので $red-spanish-crimson: #E61E4D; とういう感じでお願いします。
+// #3f3f3fこれの場合はそのまま、$dark-engine: #3f3f3f;で大丈夫です。
+
 $light-black:#3f3f3f;
 $light-60:#606060;
 $light-a0:#a0a0a0;
