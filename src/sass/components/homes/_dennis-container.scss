@@ -1,0 +1,63 @@
+.dennis-container{
+  margin-top:100px;
+  display: flex;
+  @media (max-width: 740px){
+    flex-direction: column-reverse;
+  }
+}
+
+.dennis-container > .interview_block{
+  width:43%;
+  margin-right:50px;
+  color:$light-60;
+  @media (max-width: 740px){
+    width:100%;
+  }
+}
+
+.dennis-container > .interview_block > .interview{
+  font-size:33px;
+  line-height:1.25;
+  @media (max-width: 740px){
+    font-size:18px;
+    line-height:1.25;
+    width:100%;
+  }
+}
+
+.dennis-container > .interview_block > .summary{
+  margin-top:15px;
+  color:$light-a0;
+  @media (max-width: 740px){
+    font-size:14px;
+    width:100%;
+  }
+}
+
+.dennis-container > .interview_block > .btn{
+  margin-top:10px;
+  color:$light-black;
+  margin:20px 0px;
+  border:$light-black solid 2px;
+  border-radius:5px;
+  width:180px;
+  padding:15px 20px;
+  font-weight: bold;
+}
+
+.dennis-container > .interview_block > .icon{
+  @media (max-width: 740px){
+    font-size:10px;
+  }
+}
+
+.dennis-container > .interview_image > img{
+  width: 525px; 
+  height: 500px;
+  @media (max-width: 740px){
+    width: initial; 
+    height: initial;
+    max-width:600px;
+    max-height:600px;
+  }
+}

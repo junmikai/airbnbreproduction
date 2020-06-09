@@ -1,0 +1,41 @@
+.three_segmentation{
+  margin-top:70px;
+  color:$light-black;
+}
+
+.three_segmentation > .title{
+  font-size:60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom:50px;
+}
+
+.three_segmentation > .summary_block{
+  display: flex;
+}
+
+.three_segmentation > .summary_block > .summary{
+  width:30%;
+  margin-right:40px;
+  line-height:1.75;
+}
+
+.three_segmentation > .summary_block > .summary > .far{
+  font-size:50px;
+}
+
+.three_segmentation > .summary_block > .summary > .title{
+  font-size:25px;
+  margin-top:20px;
+  font-weight: bold;
+}
+
+.three_segmentation > .summary_block > .summary > .text{
+  font-size:17px;
+  margin-top:20px;
+}
+
+.three_segmentation > .summary_block > .summary > .green{
+  color:$light-green;
+  padding-top:10px;
+}
