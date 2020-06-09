@@ -1,0 +1,12 @@
+.onlineexperience-container{
+  background-color:$black;
+  padding:60px 60px 80px 60px;
+  color:$white;
+  position: relative;
+}
+
+@media (max-width: 900px){
+  .onlineexperience-container{
+    padding:20px;
+  }
+}

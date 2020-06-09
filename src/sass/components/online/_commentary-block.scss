@@ -1,0 +1,107 @@
+.commentary-block {
+  @media(max-width: 1130px){
+    width:55%;
+  }
+  @media (max-width: 740px){
+    width:initial;
+    padding:0px 20px;
+  }
+}
+
+.commentary-block > .video{
+  height:20px;
+  width:120px;
+  background-color:$light-white;
+  border-radius: 5px;
+  display: flex;
+  font-weight: bold;
+  padding:5px;
+  margin-bottom:10px;
+}
+
+.commentary-block > .video >.fas{
+  padding-right:5px;
+  font-size:9px;
+  line-height:1.8;
+}
+
+.commentary-block > .video > .heading{
+  font-size:12px;
+  line-height:1.5;
+}
+
+.commentary-block > .title{
+  width:90%;
+  color:$white;
+  font-size:30px;
+  line-height:1.1;
+  margin-bottom:10px;
+}
+
+.commentary-block > .country{
+  height:25px;
+  width:200px;
+  color:$white;
+  margin-bottom:10px;
+}
+
+.commentary-block > .review{
+  height:25px;
+  width:150px;
+  font-size:14px;
+  color:$white;
+  margin-bottom:10px;
+}
+
+.commentary-block > .review > .review_value{
+  font-weight: bold;
+  margin-right:5px;
+}
+
+.commentary-block > .review > .fas{
+  margin-right:5px;
+}
+
+.commentary-block > .tag_block{
+  height:50px;
+  width:200px;
+  display: flex;
+  font-size:12px;
+  flex-wrap :wrap;
+  margin-bottom:10px;
+  @media(max-width: 1130px){
+    width:initial;
+  }
+  @media (max-width: 740px){
+    width:initial;
+  }
+}
+
+.commentary-block > .tag_block > .tag{
+  background-color:$light-black;
+  border-radius: 3px;
+  height:20px;
+  padding:0px 5px;
+  margin-right:7px;
+  color:$white;
+  line-height:20px;
+}
+
+.commentary-block >.translation{
+  width:250px;
+  margin-top:5px;
+  border:  solid 2px;
+  padding:10px 15px;
+  display: flex;
+  color:$white;
+  text-align: center;
+}
+
+.commentary-block >.translation > .fas{
+  margin-right:5px;
+  font-size:30px;
+}
+
+.commentary-block >.translation > .heading{
+  line-height:1.7;
+}

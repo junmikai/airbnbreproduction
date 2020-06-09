@@ -1,40 +1,40 @@
 $(function() {
-  $( '.search-header' ).hide();
+  $( '.form-container' ).hide();
 });
 
 //トップから50pxスクロールするとヘッダーが固定される
 $( window ).on( 'scroll', function() {
   if ( 50 < jQuery( this ).scrollTop() ) { 
-    $( '.fixed-header' ).show();
+    $( '.fixed_header-container' ).show();
   } else {
-    $( '.fixed-header' ).hide();
+    $( '.fixed_header-container' ).hide();
   }
 
 
   if ( 1000 < $( this ).scrollTop() ) { 
-    $( '.fixed-header' ).show();
+    $( '.fixed_header-container' ).show();
   } else {
-    $( '.fixed-header' ).hide();
+    $( '.fixed_header-container' ).hide();
   }
   
 });
 
 $( window ).on( 'scroll', function() {
   if ( 75 < jQuery( this ).scrollTop() ) { 
-    $( '.search-form' ).addClass( 'm_fixed' );
+    $( '.fixedform-container' ).addClass( 'm_fixed' );
   } else {
-    $( '.search-form' ).removeClass( 'm_fixed' );
+    $( '.fixedform-container' ).removeClass( 'm_fixed' );
   }
 });
 
 //トップから210pxスクロールするとヘッダーに検索フォームが追加される
 $( window ).on( 'scroll', function() {
   if ( 210 < jQuery( this ).scrollTop() ) { 
-    $( '.search-header' ).show();
-    $('.host').hide();
+    $( '.form-container' ).show();
+    $('.hide').hide();
   } else {
-    $( '.search-header' ).hide();
-    $('.host').show();
+    $( '.form-container' ).hide();
+    $('.hide').show();
   }
 });
 
@@ -44,9 +44,9 @@ $(window).on('scroll', function () {
   var winh = $(window).innerHeight(); 
   var bottom = doch - winh; 
   if (bottom <= $(window).scrollTop()) {
-    $(".hiding-footer").slideUp();
+    $(".hidefooter-container").slideUp();
   }else {
-    $('.hiding-footer').slideDown();
+    $('.hidefooter-container').slideDown();
   }
   });
 

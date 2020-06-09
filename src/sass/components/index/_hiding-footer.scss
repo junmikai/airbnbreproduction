@@ -1,5 +1,7 @@
-.hiding-footer{
+.hidefooter-container{
+  opacity: 0;
   @media (max-width:740px){
+    opacity: 1;
     width:100%;
     height:70px;
     border-top:solid 1px $bodergray;
@@ -10,28 +12,27 @@
   }
 }
 
-.hiding-footer > .icons{
+.hidefooter-container > .icon-item{
   display: flex;
   text-align: center;
-  margin:0 auto;
-  width:50%;
-  padding:20px;
+  margin:20px auto;
+  text-align: center;
 }
 
-.hiding-footer > .icons >.icon{
+.hidefooter-container > .icon-item >.icon{
   width:33%;
 }
 
-.hiding-footer > .icons >.icon > .far{
+.hidefooter-container > .icon-item >.icon > .far{
   font-size:25px;
   color:$gray;
 }
 
-.hiding-footer > .icons >.icon >.fab{
+.hidefooter-container > .icon-item >.icon >.fab{
   font-size:25px;
   color:$gray;
 }
 
-.hiding-footer > .icons >.icon >.word{
+.hidefooter-container > .icon-item >.icon >.summary{
   font-size:10px;
 }

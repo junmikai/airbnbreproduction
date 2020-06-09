@@ -1,0 +1,25 @@
+.image-item {
+  width:90%;
+  border-radius:25px;
+  height:100%;
+}
+
+.image-item > .imagegroup {
+  display: flex;
+  justify-content:space-between;
+  height:50%;
+  width:100%;
+  @media (max-width: 900px){
+    display:initial;
+    justify-content:initial;
+  }
+  @media (max-width: 1130px){
+    display:initial;
+    justify-content:initial;
+  }
+}
+
+.image-item:nth-child(1){
+  width:100%;
+  height:initial;
+}

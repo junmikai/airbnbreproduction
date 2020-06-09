@@ -1,0 +1,33 @@
+@media (max-width:740px){
+  .fixedform-container{
+    background-color:$white;
+    width:100%;
+    height:70px;
+    z-index:99;
+  }
+  .fixedform-container > .form{
+    position:relative;
+    background: $white;
+    width: 85%;
+    position: absolute;
+    margin:10px;
+  }
+  .fixedform-container > .form > .notes{
+    width:100%;
+    height:45px;
+    border-radius:20px;
+    background:$white;
+    padding-left:50px;
+    font-size:15px;
+  }
+  .fixedform-container > .form > .btn{
+    height:45px;
+    position:absolute; 
+    top:5px;
+    left:15px;
+    color:$gray;
+    border:none;
+    font-size:17px;
+    z-index: 1;
+  }
+}

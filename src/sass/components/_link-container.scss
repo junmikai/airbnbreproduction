@@ -1,0 +1,30 @@
+.link-container{
+  display: flex;
+  justify-content:space-between;
+  border-top:$bodergray solid 1px;
+  border-bottom:$bodergray solid 1px;
+  background-color:$light-gray;
+  @media (max-width: 1130px){
+    display: inline-block;
+    width:100%;
+    color:$light-black;
+  }
+}
+
+.link-container > .link-block{
+  width:25%;
+  padding:30px;
+  @media(max-width: 1130px){
+    width:100%;
+    border-bottom:solid 1px $bodergray;
+    margin:20px;
+    padding-bottom:20px;
+    color:$light-black;
+  }
+}
+
+.link-container > .link-block >.title{
+  font-weight:bold;
+  font-size:12px;
+  margin-bottom:10px;
+}

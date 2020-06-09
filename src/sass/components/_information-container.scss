@@ -1,0 +1,34 @@
+.information-container{
+  height:500px;
+  width:100%;
+  background-color:$light-gray;
+  border-bottom:solid 1px $bodergray;
+  @media (max-width: 1130px){
+    height:850px;
+  }
+  @media (max-width: 740px){
+    padding:10px;
+    height:auto;
+    width:96%;
+  }
+}
+
+.information-container > .heading {
+  font-size:22px;
+  font-weight: bold;
+  padding:30px 0px 0px 50px;
+}
+
+.information-container > .information{
+  height:300px;
+  width:100%;
+  margin-top:30px;
+  padding-left:50px;
+  width:95%;
+  @media (max-width: 740px){
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    margin-top:initial;
+  }
+}

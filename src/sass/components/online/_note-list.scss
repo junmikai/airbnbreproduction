@@ -1,0 +1,43 @@
+.note-list{
+  display: flex;
+  border-bottom:$bodergray solid 1px;
+  padding-bottom:40px;
+  margin-bottom:40px;
+  padding-left:30px;
+  @media (max-width: 1130px){
+    margin-bottom:20px;
+    padding-bottom:20px;
+  }
+}
+
+.note-list > .title{
+  width:250px;
+  font-size:24px;
+  font-weight: bold;
+  margin-right:20px;
+  @media (max-width: 1130px){
+    font-size:18px;
+    width:90%;
+  }
+}
+
+.note-list > .summary{
+  width:31vw;
+  @media (max-width: 1130px){
+    display:none;
+  }
+}
+
+.note-list > .summary > .seemore{
+  color:$light-green;
+  font-weight: bold;
+  font-size:14px; 
+}
+
+.note-list > .fas {
+  opacity:0;
+  @media (max-width: 1130px){
+    font-size:25px;
+    opacity: 1;
+  }
+}
