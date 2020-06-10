@@ -4,35 +4,10 @@
     opacity: 1;
     width:100%;
     height:70px;
-    border-top:solid 1px $bodergray;
+    border-top:solid 1px $compact-disc-grey;
     position: absolute;
     position: fixed;
     bottom: 0; 
     background-color:$white;
   }
-}
-
-.hidefooter-container > .icon-item{
-  display: flex;
-  text-align: center;
-  margin:20px auto;
-  text-align: center;
-}
-
-.hidefooter-container > .icon-item >.icon{
-  width:33%;
-}
-
-.hidefooter-container > .icon-item >.icon > .far{
-  font-size:25px;
-  color:$gray;
-}
-
-.hidefooter-container > .icon-item >.icon >.fab{
-  font-size:25px;
-  color:$gray;
-}
-
-.hidefooter-container > .icon-item >.icon >.summary{
-  font-size:10px;
 }

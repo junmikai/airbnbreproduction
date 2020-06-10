@@ -6,16 +6,16 @@
   }
 }
 
-.dennis-container > .interview_block{
+.dennis-container > .interviewblock{
   width:43%;
   margin-right:50px;
-  color:$light-60;
+  color:$black-kettleman;
   @media (max-width: 740px){
     width:100%;
   }
 }
 
-.dennis-container > .interview_block > .interview{
+.dennis-container > .interviewblock > .interview{
   font-size:33px;
   line-height:1.25;
   @media (max-width: 740px){
@@ -25,33 +25,33 @@
   }
 }
 
-.dennis-container > .interview_block > .summary{
+.dennis-container > .interviewblock > .summary{
   margin-top:15px;
-  color:$light-a0;
+  color:$su-nezumi-grey;
   @media (max-width: 740px){
     font-size:14px;
     width:100%;
   }
 }
 
-.dennis-container > .interview_block > .btn{
+.dennis-container > .interviewblock > .btn{
   margin-top:10px;
-  color:$light-black;
+  color:$dark-engine;
   margin:20px 0px;
-  border:$light-black solid 2px;
+  border:$dark-engine solid 2px;
   border-radius:5px;
   width:180px;
   padding:15px 20px;
   font-weight: bold;
 }
 
-.dennis-container > .interview_block > .icon{
+.dennis-container > .interviewblock > .icon{
   @media (max-width: 740px){
     font-size:10px;
   }
 }
 
-.dennis-container > .interview_image > img{
+.dennis-container > .interviewimage > img{
   width: 525px; 
   height: 500px;
   @media (max-width: 740px){

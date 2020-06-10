@@ -13,8 +13,8 @@
 .overview-block >.reservation{
   margin:30px 0px;
   display: flex;
-  border-top:$bodergray solid 1px;
-  border-bottom:$bodergray solid 1px;
+  border-top:$compact-disc-grey solid 1px;
+  border-bottom:$compact-disc-grey solid 1px;
   color:$white;
   font-size:14px;
   line-height:57px;
@@ -45,7 +45,7 @@
   right:0px;
 }
 
-.overview-block > .overview_item{
+.overview-block > .overviewitem{
   height:150px;
   width:70%;
   margin-top:20px;
@@ -70,19 +70,19 @@
   }
 }
 
-.overview-block > .overview_item >.overview{
+.overview-block > .overviewitem >.overview{
   @media (max-width: 740px){
     width:200px;
     padding:10px 0px;
   }
 }
 
-.overview-block > .overview_item >.overview > .fas{
-  color:$gray;
+.overview-block > .overviewitem >.overview > .fas{
+  color:$grey;
   margin-bottom:10px;
 }
 
-.overview-block > .overview_item >.overview > .title{
-  color:$gray;
+.overview-block > .overviewitem >.overview > .title{
+  color:$grey;
   margin-bottom:10px;
 }

@@ -58,7 +58,7 @@
       display: flex;
       position: relative;
       margin-bottom:20px;
-      box-shadow:$black-shadow;
+      box-shadow:0 0 10px $brainstem-grey;
       > img{
         width:75px;
         height:75px;
@@ -103,7 +103,7 @@
 
 @media (min-width:741px) and (max-width: 1130px){
   // インタビュー左側
-  .interview_block{
+  .interviewblock{
     margin-right:20px;
     >.interview{
       font-size:18px;
@@ -116,7 +116,7 @@
     }
   }
   // インタビュー右画像サイズ縮小
-  .interview_image > img{
+  .interviewimage > img{
     width: 350px; 
     height: 350px;
   }
@@ -146,7 +146,7 @@
     width:100%;
     >.hostinglist{
       margin:0px 10px;
-      box-shadow:$black-shadow;
+      box-shadow:0 0 10px $brainstem-grey;
       padding-bottom:10px;
       > img{
         width:200px;
@@ -193,7 +193,7 @@
     margin-bottom:50px;
   }
   // ステップの横並び解除
-  .step_block{
+  .stepblock{
     display: initial;
     >.summary{
       width:initial;

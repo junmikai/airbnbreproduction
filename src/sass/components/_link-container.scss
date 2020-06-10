@@ -1,13 +1,13 @@
 .link-container{
   display: flex;
   justify-content:space-between;
-  border-top:$bodergray solid 1px;
-  border-bottom:$bodergray solid 1px;
-  background-color:$light-gray;
+  border-top:$compact-disc-grey solid 1px;
+  border-bottom:$compact-disc-grey solid 1px;
+  background-color:$white-smoke;
   @media (max-width: 1130px){
     display: inline-block;
     width:100%;
-    color:$light-black;
+    color:$dark-engine;
   }
 }
 
@@ -16,10 +16,10 @@
   padding:30px;
   @media(max-width: 1130px){
     width:100%;
-    border-bottom:solid 1px $bodergray;
+    border-bottom:solid 1px $compact-disc-grey;
     margin:20px;
     padding-bottom:20px;
-    color:$light-black;
+    color:$dark-engine;
   }
 }
 

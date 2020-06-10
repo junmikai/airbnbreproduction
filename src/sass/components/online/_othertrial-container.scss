@@ -1,0 +1,18 @@
+.othertrial-container{
+  margin:0 auto;
+  max-width:1500px;
+  padding:100px 20px;
+  border-bottom:$compact-disc-grey solid 1px;
+}
+
+.othertrial-container > .title{
+  font-size:30px;
+  font-weight: bold;
+  color:$dark-engine;
+}
+
+.othertrial-container > .displayall{
+  margin-top:50px;
+  color:$green-riviera-paradise;
+  font-weight: bold;
+}

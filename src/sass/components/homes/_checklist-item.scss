@@ -1,13 +1,13 @@
-.check_list-item{
+.checklist-item{
   margin-right:150px;
 }
 
-.check_list-item >.list{
+.checklist-item >.list{
   display:flex;
 }
 
-.check_list-item >.list > .fas{
-  color:$light-green;
+.checklist-item >.list > .fas{
+  color:$green-riviera-paradise;
   font-size:18px;
   margin-right:15px;
   margin-bottom:25px;

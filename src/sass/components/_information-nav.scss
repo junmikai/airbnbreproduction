@@ -20,7 +20,7 @@
 .information-nav > .list{
   
   list-style: none; 
-  border-top: solid 1px $bodergray;
+  border-top: solid 1px $compact-disc-grey;
   padding:15px 0px;
   font-weight: bold;
   @media (max-width: 740px){
@@ -29,7 +29,7 @@
 }
 
 .information-nav > .list > .supplement{
-  color:$gray;
+  color:$grey;
   font-size:14px;
   font-weight: normal;
 }

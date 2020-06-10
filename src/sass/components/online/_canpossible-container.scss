@@ -1,16 +1,16 @@
-.can_possible-container{
+.canpossible-container{
   display: flex;
   margin:0 auto;
   max-width:1200px;
   padding:0px 45px 45px 45px;
-  color:$light-black;
+  color:$dark-engine;
   margin-bottom:40px;
   @media (max-width: 740px){
     display: initial;
   }
 }
 
-.can_possible-container > .sticky {
+.canpossible-container > .sticky {
   width: 20vw;
   height: 10vh;
   position: -webkit-sticky; 
@@ -23,7 +23,7 @@
   }
 }
 
-.can_possible-container > .sticky >.title{
+.canpossible-container > .sticky >.title{
   font-size:30px;
   font-weight: bold;
   min-width:150px;
@@ -34,7 +34,7 @@
   }
 }
 
-.can_possible-container > .summary{
+.canpossible-container > .summary{
   padding-top:45px;
   max-width:900px;
   line-height:2.0;

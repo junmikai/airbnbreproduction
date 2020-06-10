@@ -1,6 +1,6 @@
 .note-list{
   display: flex;
-  border-bottom:$bodergray solid 1px;
+  border-bottom:$compact-disc-grey solid 1px;
   padding-bottom:40px;
   margin-bottom:40px;
   padding-left:30px;
@@ -29,7 +29,7 @@
 }
 
 .note-list > .summary > .seemore{
-  color:$light-green;
+  color:$green-riviera-paradise;
   font-weight: bold;
   font-size:14px; 
 }

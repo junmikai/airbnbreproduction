@@ -2,10 +2,10 @@
   display: flex;
   justify-content:space-between;
   padding:30px 50px 50px 100px;
-  border-top: solid 1px $bodergray;
-  color:$light-black;
+  border-top: solid 1px $compact-disc-grey;
+  color:$dark-engine;
   height:auto;
-  background-color:$light-gray;  
+  background-color:$white-smoke;  
   @media (max-width: 1130px){
     flex-wrap :wrap-reverse;
     padding:30px 100px;
@@ -24,10 +24,10 @@
   display: flex;
   justify-content:space-between;
   padding:30px 50px 100px 100px;
-  border-top: solid 1px $bodergray;
-  color:$light-black;
+  border-top: solid 1px $compact-disc-grey;
+  color:$dark-engine;
   height:auto;
-  background-color:$light-gray; 
+  background-color:$white-smoke; 
   @media (max-width: 1130px){
    padding:30px 50px 100px 100px;
    flex-wrap :wrap-reverse;

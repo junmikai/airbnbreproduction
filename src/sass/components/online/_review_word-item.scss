@@ -1,21 +1,21 @@
-.review_word-item{
+.reviewword-item{
   margin-left:20px;
 }
 
-.review_word-item > .review_user{
+.reviewword-item > .reviewuser{
   display:flex;
   font-size:15px;
 }
 
-.review_word-item > .review_user > .user_name{
+.reviewword-item > .reviewuser > .username{
   font-weight: bold;
   margin-right:5px;
 }
 
-.review_word-item > .review_user > .review_created{
+.reviewword-item > .reviewuser > .reviewcreated{
   font-size:13px;
   line-height:2;
 }
-.review_word-item > .reviewstar > .fas{
-  color:$light-green;
+.reviewword-item > .reviewstar > .fas{
+  color:$green-riviera-paradise;
   }

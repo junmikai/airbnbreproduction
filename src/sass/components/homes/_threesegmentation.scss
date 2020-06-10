@@ -1,9 +1,9 @@
-.three_segmentation{
+.threesegmentation{
   margin-top:70px;
-  color:$light-black;
+  color:$dark-engine;
 }
 
-.three_segmentation > .title{
+.threesegmentation > .title{
   font-size:60px;
   text-align: center;
   font-weight: bold;
@@ -18,14 +18,14 @@
   }
 }
 
-.three_segmentation > .summary_block{
+.threesegmentation > .summaryblock{
   display: flex;
   @media(max-width: 1130px){
     display: initial;
   }
 }
 
-.three_segmentation > .summary_block > .summary{
+.threesegmentation > .summaryblock > .summary{
   width:30%;
   margin-right:40px;
   line-height:1.75;
@@ -35,11 +35,11 @@
   }
 }
 
-.three_segmentation > .summary_block > .summary > .far{
+.threesegmentation > .summaryblock > .summary > .far{
   font-size:50px;
 }
 
-.three_segmentation > .summary_block > .summary > .title{
+.threesegmentation > .summaryblock > .summary > .title{
   font-size:25px;
   margin-top:20px;
   font-weight: bold;
@@ -48,7 +48,7 @@
   }
 }
 
-.three_segmentation > .summary_block > .summary > .text{
+.threesegmentation > .summaryblock > .summary > .text{
   font-size:17px;
   margin-top:20px;
   @media(max-width: 1130px){
@@ -56,7 +56,7 @@
   }
 }
 
-.three_segmentation > .summary_block > .summary > .green{
-  color:$light-green;
+.threesegmentation > .summaryblock > .summary > .green{
+  color:$green-riviera-paradise;
   padding-top:10px;
 }

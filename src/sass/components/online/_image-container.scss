@@ -7,33 +7,33 @@
   height:30vw;
 }
 
-.image-container > .middle_image{ 
+.image-container > .middleimage{ 
   width:28vw;
   margin:0px 5px;
   background-size:cover;
   background-image:url("../src/image/dance.png");
 }
 
-.image-container > .middle_image:nth-child(2){
+.image-container > .middleimage:nth-child(2){
   background-image:url("../src/image/phoenix.png");
 }
 
-.image-container > .middle_image:nth-child(4){
+.image-container > .middleimage:nth-child(4){
   background-image:url("../src/image/cooking.png");
 }
 
-.image-container > .small_image-block{
+.image-container > .smallimageblock{
   width:15vw;
 }
 
-.image-container > .small_image-block > .small_image{
+.image-container > .smallimageblock > .smallimage{
   height:49.5%;
   background-size:cover;
   background-image:url("../src/image/drink.png");
   margin-bottom:5px;
 }
 
-.image-container > .small_image-block > .small_image:nth-child(2){
+.image-container > .smallimageblock > .smallimage:nth-child(2){
   height:49.5%;
   background-size:cover;
   background-image:url("../src/image/shoot.png");

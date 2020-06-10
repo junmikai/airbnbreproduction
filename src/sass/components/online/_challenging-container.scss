@@ -1,16 +1,16 @@
 .challenging-container{
   height:400px;
-  background-color:$light-gray;
+  background-color:$white-smoke;
   @media (max-width: 740px){
     height:auto;
   }
 }
 
-.challenging-container > .challenge_block{
+.challenging-container > .challengeblock{
   margin:0 auto;
   max-width:1200px;
   padding:0px 45px 45px 45px;
-  color:$light-black;
+  color:$dark-engine;
   display: flex;
   padding-top:120px;
   @media (max-width: 740px){
@@ -18,7 +18,7 @@
   }
 }
 
-.challenging-container > .challenge_block > .title{
+.challenging-container > .challengeblock > .title{
   font-size:30px;
   font-weight: bold;
   width:300px;
@@ -31,6 +31,6 @@
     height:60px;
     margin:10px 0px 0px 20px;
     font-size:23px;
-    border-bottom:$bodergray solid 1px;
+    border-bottom:$compact-disc-grey solid 1px;
   }
 }

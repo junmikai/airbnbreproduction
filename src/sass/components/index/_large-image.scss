@@ -17,8 +17,8 @@
   }
 }
 
-.large-image > .summary_item{
-  background-color:$explanation;
+.large-image > .summaryitem{
+  background-color:$black-nero;
   height:75px;
   border-radius:0px 0px 25px 25px;
   position: relative;
@@ -27,7 +27,7 @@
   bottom:0;
 }
 
-.large-image > .summary_item > .summary{
+.large-image > .summaryitem > .summary{
   max-width:50%;
   padding:10px;
 }
