@@ -1,0 +1,32 @@
+.about-block{
+  display:flex;
+  @media(max-width: 1130px){
+    display: initial;
+  }
+} 
+
+.about-block > .aboutitem{
+  width:37.5%;
+  line-height:1.75;
+  padding:0px 30px;
+  @media(max-width: 1130px){
+    width:initial;
+    margin-bottom:50px;
+    padding:initial;
+  }
+}
+
+.about-block > .aboutitem > .headline{
+  font-size:22px;
+  font-weight: bold;
+}
+
+.about-block > .aboutitem > .summary{
+  font-size:15px;
+  margin-top:20px;
+}
+
+.about-block > .aboutitem > .green{
+  color:$green-riviera-paradise;
+  padding-top:20px;
+}

@@ -128,4696 +128,6 @@ input, select {
   position: relative;
 }
 
-.body {
-  width: 100vw;
-  height: 100vh;
-}
-
-.section-layout {
-  width: 100%;
-  position: relative;
-}
-
-.section-layout > .container > .whitespace-container > .example {
-  display: flex;
-  /*フッター左側*/
-  /*フッター右側*/
-}
-.section-layout > .container > .whitespace-container > .example .exampleleft img {
-  width: 525px;
-  height: 500px;
-}
-.section-layout > .container > .whitespace-container > .example .exampleright {
-  margin-left: 50px;
-  color: #606060;
-}
-.section-layout > .container > .whitespace-container > .example .exampleright > .exampletext {
-  font-size: 33px;
-  line-height: 1.25;
-}
-.section-layout > .container > .whitespace-container > .example .exampleright > .summary {
-  margin-top: 15px;
-  color: #a0a0a0;
-}
-.section-layout > .container > .whitespace-container > .example .exampleright > .btn {
-  margin-top: 10px;
-  color: #3f3f3f;
-  margin: 20px 0px;
-  border: #3f3f3f solid 2px;
-  border-radius: 5px;
-  width: 180px;
-  padding: 15px 20px;
-  font-weight: bold;
-}
-.section-layout > .container > .whitespace-container > .example .sharetitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-}
-.section-layout > .container > .whitespace-container > .example .hostdatas {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .example .hostdatas > .hostdata {
-  width: 30%;
-  margin-right: 40px;
-  line-height: 1.75;
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .example .hostdatas > .hostdata > .hostnumber {
-  font-size: 55px;
-}
-.section-layout > .container > .whitespace-container > .example .hostdatas > .hostdata > .numbercomment {
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .example .abouttitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .container > .whitespace-container > .example .abouttexts {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .example .abouttexts > .abouttext {
-  width: 37.5%;
-  line-height: 1.75;
-  padding: 0px 30px;
-}
-.section-layout > .container > .whitespace-container > .example .abouttexts > .abouttext > .aboutheadline {
-  font-size: 22px;
-  font-weight: bold;
-}
-.section-layout > .container > .whitespace-container > .example .abouttexts > .abouttext > .aboutexplanation {
-  font-size: 15px;
-  margin-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .example .abouttexts > .abouttext > .green {
-  color: #01999e;
-  padding-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .example .questiontitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .container > .whitespace-container > .example .question-nav {
-  display: flex;
-  flex-wrap: wrap;
-}
-.section-layout > .container > .whitespace-container > .example .question-nav > li {
-  width: 48%;
-  list-style: none;
-  font-size: 18px;
-  color: #01999e;
-  padding: 30px 0px;
-  margin: 0px 10px;
-  border-bottom: #cdcdcd solid 1px;
-}
-.section-layout > .container > .whitespace-container > .example .hostingtitle {
-  font-size: 25px;
-  font-weight: bold;
-  margin: 50px 0px;
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .example .hostinglists {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist {
-  margin: 0px 5px;
-}
-.section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > img {
-  width: 333px;
-  height: 171px;
-}
-.section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .hostingheadline {
-  font-size: 17px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .hostingcomment {
-  font-size: 14px;
-  margin-top: 10px;
-}
-.section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .learnmore {
-  font-size: 14px;
-  margin-top: 20px;
-  color: #01999e;
-}
-.section-layout > .container > .whitespace-container > .example .listingtitle {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  font-size: 63px;
-  font-weight: bold;
-  color: #fff;
-  width: 390px;
-}
-.section-layout > .container > .whitespace-container > .example .listingbtn {
-  position: absolute;
-  top: 250px;
-  left: 100px;
-  color: #3f3f3f;
-  background-color: #fff;
-  font-weight: bold;
-  text-align: center;
-  width: 200px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 5px;
-}
-.section-layout > .container > .whitespace-container > .example .fab {
-  font-size: 25px;
-  margin-right: 3px;
-  line-height: 1.5;
-}
-.section-layout > .container > .whitespace-container > .example .footer-left {
-  font-size: 13px;
-}
-.section-layout > .container > .whitespace-container > .example .footer-left > span {
-  padding: 0px 8px;
-}
-.section-layout > .container > .whitespace-container > .example .footer-right {
-  display: flex;
-  justify-content: space-around;
-  font-size: 13px;
-  font-weight: bold;
-  height: 30px;
-}
-.section-layout > .container > .whitespace-container > .example .footer-right > .sns {
-  letter-spacing: 10px;
-  position: absolute;
-  right: 0px;
-}
-.section-layout > .container > .whitespace-container > .example .footer-right > .sns > .fab {
-  font-size: 17px;
-}
-
-.section-layout > .container > .whitespace-container > .hostshare {
-  margin-top: 100px;
-  color: #3f3f3f;
-  /*フッター左側*/
-  /*フッター右側*/
-}
-.section-layout > .container > .whitespace-container > .hostshare .exampleleft img {
-  width: 525px;
-  height: 500px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .exampleright {
-  margin-left: 50px;
-  color: #606060;
-}
-.section-layout > .container > .whitespace-container > .hostshare .exampleright > .exampletext {
-  font-size: 33px;
-  line-height: 1.25;
-}
-.section-layout > .container > .whitespace-container > .hostshare .exampleright > .summary {
-  margin-top: 15px;
-  color: #a0a0a0;
-}
-.section-layout > .container > .whitespace-container > .hostshare .exampleright > .btn {
-  margin-top: 10px;
-  color: #3f3f3f;
-  margin: 20px 0px;
-  border: #3f3f3f solid 2px;
-  border-radius: 5px;
-  width: 180px;
-  padding: 15px 20px;
-  font-weight: bold;
-}
-.section-layout > .container > .whitespace-container > .hostshare .sharetitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .hostdatas {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .hostshare .hostdatas > .hostdata {
-  width: 30%;
-  margin-right: 40px;
-  line-height: 1.75;
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .hostshare .hostdatas > .hostdata > .hostnumber {
-  font-size: 55px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .hostdatas > .hostdata > .numbercomment {
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .hostshare .abouttitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .container > .whitespace-container > .hostshare .abouttexts {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .hostshare .abouttexts > .abouttext {
-  width: 37.5%;
-  line-height: 1.75;
-  padding: 0px 30px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .abouttexts > .abouttext > .aboutheadline {
-  font-size: 22px;
-  font-weight: bold;
-}
-.section-layout > .container > .whitespace-container > .hostshare .abouttexts > .abouttext > .aboutexplanation {
-  font-size: 15px;
-  margin-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .abouttexts > .abouttext > .green {
-  color: #01999e;
-  padding-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .questiontitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .container > .whitespace-container > .hostshare .question-nav {
-  display: flex;
-  flex-wrap: wrap;
-}
-.section-layout > .container > .whitespace-container > .hostshare .question-nav > li {
-  width: 48%;
-  list-style: none;
-  font-size: 18px;
-  color: #01999e;
-  padding: 30px 0px;
-  margin: 0px 10px;
-  border-bottom: #cdcdcd solid 1px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .hostingtitle {
-  font-size: 25px;
-  font-weight: bold;
-  margin: 50px 0px;
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .hostshare .hostinglists {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist {
-  margin: 0px 5px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > img {
-  width: 333px;
-  height: 171px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .hostingheadline {
-  font-size: 17px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .hostingcomment {
-  font-size: 14px;
-  margin-top: 10px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .learnmore {
-  font-size: 14px;
-  margin-top: 20px;
-  color: #01999e;
-}
-.section-layout > .container > .whitespace-container > .hostshare .listingtitle {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  font-size: 63px;
-  font-weight: bold;
-  color: #fff;
-  width: 390px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .listingbtn {
-  position: absolute;
-  top: 250px;
-  left: 100px;
-  color: #3f3f3f;
-  background-color: #fff;
-  font-weight: bold;
-  text-align: center;
-  width: 200px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 5px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .fab {
-  font-size: 25px;
-  margin-right: 3px;
-  line-height: 1.5;
-}
-.section-layout > .container > .whitespace-container > .hostshare .footer-left {
-  font-size: 13px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .footer-left > span {
-  padding: 0px 8px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .footer-right {
-  display: flex;
-  justify-content: space-around;
-  font-size: 13px;
-  font-weight: bold;
-  height: 30px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .footer-right > .sns {
-  letter-spacing: 10px;
-  position: absolute;
-  right: 0px;
-}
-.section-layout > .container > .whitespace-container > .hostshare .footer-right > .sns > .fab {
-  font-size: 17px;
-}
-
-.section-layout > .container > .whitespace-container > .about {
-  color: #3f3f3f;
-  /*フッター左側*/
-  /*フッター右側*/
-}
-.section-layout > .container > .whitespace-container > .about .exampleleft img {
-  width: 525px;
-  height: 500px;
-}
-.section-layout > .container > .whitespace-container > .about .exampleright {
-  margin-left: 50px;
-  color: #606060;
-}
-.section-layout > .container > .whitespace-container > .about .exampleright > .exampletext {
-  font-size: 33px;
-  line-height: 1.25;
-}
-.section-layout > .container > .whitespace-container > .about .exampleright > .summary {
-  margin-top: 15px;
-  color: #a0a0a0;
-}
-.section-layout > .container > .whitespace-container > .about .exampleright > .btn {
-  margin-top: 10px;
-  color: #3f3f3f;
-  margin: 20px 0px;
-  border: #3f3f3f solid 2px;
-  border-radius: 5px;
-  width: 180px;
-  padding: 15px 20px;
-  font-weight: bold;
-}
-.section-layout > .container > .whitespace-container > .about .sharetitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-}
-.section-layout > .container > .whitespace-container > .about .hostdatas {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .about .hostdatas > .hostdata {
-  width: 30%;
-  margin-right: 40px;
-  line-height: 1.75;
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .about .hostdatas > .hostdata > .hostnumber {
-  font-size: 55px;
-}
-.section-layout > .container > .whitespace-container > .about .hostdatas > .hostdata > .numbercomment {
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .about .abouttitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .container > .whitespace-container > .about .abouttexts {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .about .abouttexts > .abouttext {
-  width: 37.5%;
-  line-height: 1.75;
-  padding: 0px 30px;
-}
-.section-layout > .container > .whitespace-container > .about .abouttexts > .abouttext > .aboutheadline {
-  font-size: 22px;
-  font-weight: bold;
-}
-.section-layout > .container > .whitespace-container > .about .abouttexts > .abouttext > .aboutexplanation {
-  font-size: 15px;
-  margin-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .about .abouttexts > .abouttext > .green {
-  color: #01999e;
-  padding-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .about .questiontitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .container > .whitespace-container > .about .question-nav {
-  display: flex;
-  flex-wrap: wrap;
-}
-.section-layout > .container > .whitespace-container > .about .question-nav > li {
-  width: 48%;
-  list-style: none;
-  font-size: 18px;
-  color: #01999e;
-  padding: 30px 0px;
-  margin: 0px 10px;
-  border-bottom: #cdcdcd solid 1px;
-}
-.section-layout > .container > .whitespace-container > .about .hostingtitle {
-  font-size: 25px;
-  font-weight: bold;
-  margin: 50px 0px;
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .about .hostinglists {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist {
-  margin: 0px 5px;
-}
-.section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > img {
-  width: 333px;
-  height: 171px;
-}
-.section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .hostingheadline {
-  font-size: 17px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .hostingcomment {
-  font-size: 14px;
-  margin-top: 10px;
-}
-.section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .learnmore {
-  font-size: 14px;
-  margin-top: 20px;
-  color: #01999e;
-}
-.section-layout > .container > .whitespace-container > .about .listingtitle {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  font-size: 63px;
-  font-weight: bold;
-  color: #fff;
-  width: 390px;
-}
-.section-layout > .container > .whitespace-container > .about .listingbtn {
-  position: absolute;
-  top: 250px;
-  left: 100px;
-  color: #3f3f3f;
-  background-color: #fff;
-  font-weight: bold;
-  text-align: center;
-  width: 200px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 5px;
-}
-.section-layout > .container > .whitespace-container > .about .fab {
-  font-size: 25px;
-  margin-right: 3px;
-  line-height: 1.5;
-}
-.section-layout > .container > .whitespace-container > .about .footer-left {
-  font-size: 13px;
-}
-.section-layout > .container > .whitespace-container > .about .footer-left > span {
-  padding: 0px 8px;
-}
-.section-layout > .container > .whitespace-container > .about .footer-right {
-  display: flex;
-  justify-content: space-around;
-  font-size: 13px;
-  font-weight: bold;
-  height: 30px;
-}
-.section-layout > .container > .whitespace-container > .about .footer-right > .sns {
-  letter-spacing: 10px;
-  position: absolute;
-  right: 0px;
-}
-.section-layout > .container > .whitespace-container > .about .footer-right > .sns > .fab {
-  font-size: 17px;
-}
-
-.section-layout > .container > .whitespace-container > .question {
-  /*フッター左側*/
-  /*フッター右側*/
-}
-.section-layout > .container > .whitespace-container > .question .exampleleft img {
-  width: 525px;
-  height: 500px;
-}
-.section-layout > .container > .whitespace-container > .question .exampleright {
-  margin-left: 50px;
-  color: #606060;
-}
-.section-layout > .container > .whitespace-container > .question .exampleright > .exampletext {
-  font-size: 33px;
-  line-height: 1.25;
-}
-.section-layout > .container > .whitespace-container > .question .exampleright > .summary {
-  margin-top: 15px;
-  color: #a0a0a0;
-}
-.section-layout > .container > .whitespace-container > .question .exampleright > .btn {
-  margin-top: 10px;
-  color: #3f3f3f;
-  margin: 20px 0px;
-  border: #3f3f3f solid 2px;
-  border-radius: 5px;
-  width: 180px;
-  padding: 15px 20px;
-  font-weight: bold;
-}
-.section-layout > .container > .whitespace-container > .question .sharetitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-}
-.section-layout > .container > .whitespace-container > .question .hostdatas {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .question .hostdatas > .hostdata {
-  width: 30%;
-  margin-right: 40px;
-  line-height: 1.75;
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .question .hostdatas > .hostdata > .hostnumber {
-  font-size: 55px;
-}
-.section-layout > .container > .whitespace-container > .question .hostdatas > .hostdata > .numbercomment {
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .question .abouttitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .container > .whitespace-container > .question .abouttexts {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .question .abouttexts > .abouttext {
-  width: 37.5%;
-  line-height: 1.75;
-  padding: 0px 30px;
-}
-.section-layout > .container > .whitespace-container > .question .abouttexts > .abouttext > .aboutheadline {
-  font-size: 22px;
-  font-weight: bold;
-}
-.section-layout > .container > .whitespace-container > .question .abouttexts > .abouttext > .aboutexplanation {
-  font-size: 15px;
-  margin-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .question .abouttexts > .abouttext > .green {
-  color: #01999e;
-  padding-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .question .questiontitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .container > .whitespace-container > .question .question-nav {
-  display: flex;
-  flex-wrap: wrap;
-}
-.section-layout > .container > .whitespace-container > .question .question-nav > li {
-  width: 48%;
-  list-style: none;
-  font-size: 18px;
-  color: #01999e;
-  padding: 30px 0px;
-  margin: 0px 10px;
-  border-bottom: #cdcdcd solid 1px;
-}
-.section-layout > .container > .whitespace-container > .question .hostingtitle {
-  font-size: 25px;
-  font-weight: bold;
-  margin: 50px 0px;
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .question .hostinglists {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist {
-  margin: 0px 5px;
-}
-.section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist > img {
-  width: 333px;
-  height: 171px;
-}
-.section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist > .hostingheadline {
-  font-size: 17px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist > .hostingcomment {
-  font-size: 14px;
-  margin-top: 10px;
-}
-.section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist > .learnmore {
-  font-size: 14px;
-  margin-top: 20px;
-  color: #01999e;
-}
-.section-layout > .container > .whitespace-container > .question .listingtitle {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  font-size: 63px;
-  font-weight: bold;
-  color: #fff;
-  width: 390px;
-}
-.section-layout > .container > .whitespace-container > .question .listingbtn {
-  position: absolute;
-  top: 250px;
-  left: 100px;
-  color: #3f3f3f;
-  background-color: #fff;
-  font-weight: bold;
-  text-align: center;
-  width: 200px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 5px;
-}
-.section-layout > .container > .whitespace-container > .question .fab {
-  font-size: 25px;
-  margin-right: 3px;
-  line-height: 1.5;
-}
-.section-layout > .container > .whitespace-container > .question .footer-left {
-  font-size: 13px;
-}
-.section-layout > .container > .whitespace-container > .question .footer-left > span {
-  padding: 0px 8px;
-}
-.section-layout > .container > .whitespace-container > .question .footer-right {
-  display: flex;
-  justify-content: space-around;
-  font-size: 13px;
-  font-weight: bold;
-  height: 30px;
-}
-.section-layout > .container > .whitespace-container > .question .footer-right > .sns {
-  letter-spacing: 10px;
-  position: absolute;
-  right: 0px;
-}
-.section-layout > .container > .whitespace-container > .question .footer-right > .sns > .fab {
-  font-size: 17px;
-}
-
-.section-layout > .container > .whitespace-container > .hosting {
-  /*フッター左側*/
-  /*フッター右側*/
-  color: #3f3f3f;
-}
-.section-layout > .container > .whitespace-container > .hosting .exampleleft img {
-  width: 525px;
-  height: 500px;
-}
-.section-layout > .container > .whitespace-container > .hosting .exampleright {
-  margin-left: 50px;
-  color: #606060;
-}
-.section-layout > .container > .whitespace-container > .hosting .exampleright > .exampletext {
-  font-size: 33px;
-  line-height: 1.25;
-}
-.section-layout > .container > .whitespace-container > .hosting .exampleright > .summary {
-  margin-top: 15px;
-  color: #a0a0a0;
-}
-.section-layout > .container > .whitespace-container > .hosting .exampleright > .btn {
-  margin-top: 10px;
-  color: #3f3f3f;
-  margin: 20px 0px;
-  border: #3f3f3f solid 2px;
-  border-radius: 5px;
-  width: 180px;
-  padding: 15px 20px;
-  font-weight: bold;
-}
-.section-layout > .container > .whitespace-container > .hosting .sharetitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-}
-.section-layout > .container > .whitespace-container > .hosting .hostdatas {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .hosting .hostdatas > .hostdata {
-  width: 30%;
-  margin-right: 40px;
-  line-height: 1.75;
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .hosting .hostdatas > .hostdata > .hostnumber {
-  font-size: 55px;
-}
-.section-layout > .container > .whitespace-container > .hosting .hostdatas > .hostdata > .numbercomment {
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .hosting .abouttitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .container > .whitespace-container > .hosting .abouttexts {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .hosting .abouttexts > .abouttext {
-  width: 37.5%;
-  line-height: 1.75;
-  padding: 0px 30px;
-}
-.section-layout > .container > .whitespace-container > .hosting .abouttexts > .abouttext > .aboutheadline {
-  font-size: 22px;
-  font-weight: bold;
-}
-.section-layout > .container > .whitespace-container > .hosting .abouttexts > .abouttext > .aboutexplanation {
-  font-size: 15px;
-  margin-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .hosting .abouttexts > .abouttext > .green {
-  color: #01999e;
-  padding-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .hosting .questiontitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .container > .whitespace-container > .hosting .question-nav {
-  display: flex;
-  flex-wrap: wrap;
-}
-.section-layout > .container > .whitespace-container > .hosting .question-nav > li {
-  width: 48%;
-  list-style: none;
-  font-size: 18px;
-  color: #01999e;
-  padding: 30px 0px;
-  margin: 0px 10px;
-  border-bottom: #cdcdcd solid 1px;
-}
-.section-layout > .container > .whitespace-container > .hosting .hostingtitle {
-  font-size: 25px;
-  font-weight: bold;
-  margin: 50px 0px;
-  text-align: center;
-}
-.section-layout > .container > .whitespace-container > .hosting .hostinglists {
-  display: flex;
-}
-.section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist {
-  margin: 0px 5px;
-}
-.section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > img {
-  width: 333px;
-  height: 171px;
-}
-.section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .hostingheadline {
-  font-size: 17px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-.section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .hostingcomment {
-  font-size: 14px;
-  margin-top: 10px;
-}
-.section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .learnmore {
-  font-size: 14px;
-  margin-top: 20px;
-  color: #01999e;
-}
-.section-layout > .container > .whitespace-container > .hosting .listingtitle {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  font-size: 63px;
-  font-weight: bold;
-  color: #fff;
-  width: 390px;
-}
-.section-layout > .container > .whitespace-container > .hosting .listingbtn {
-  position: absolute;
-  top: 250px;
-  left: 100px;
-  color: #3f3f3f;
-  background-color: #fff;
-  font-weight: bold;
-  text-align: center;
-  width: 200px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 5px;
-}
-.section-layout > .container > .whitespace-container > .hosting .fab {
-  font-size: 25px;
-  margin-right: 3px;
-  line-height: 1.5;
-}
-.section-layout > .container > .whitespace-container > .hosting .footer-left {
-  font-size: 13px;
-}
-.section-layout > .container > .whitespace-container > .hosting .footer-left > span {
-  padding: 0px 8px;
-}
-.section-layout > .container > .whitespace-container > .hosting .footer-right {
-  display: flex;
-  justify-content: space-around;
-  font-size: 13px;
-  font-weight: bold;
-  height: 30px;
-}
-.section-layout > .container > .whitespace-container > .hosting .footer-right > .sns {
-  letter-spacing: 10px;
-  position: absolute;
-  right: 0px;
-}
-.section-layout > .container > .whitespace-container > .hosting .footer-right > .sns > .fab {
-  font-size: 17px;
-}
-
-.section-layout > .container > .listing {
-  margin-top: 50px;
-  position: relative;
-  padding: 0px 3vw;
-  /*フッター左側*/
-  /*フッター右側*/
-}
-.section-layout > .container > .listing .exampleleft img {
-  width: 525px;
-  height: 500px;
-}
-.section-layout > .container > .listing .exampleright {
-  margin-left: 50px;
-  color: #606060;
-}
-.section-layout > .container > .listing .exampleright > .exampletext {
-  font-size: 33px;
-  line-height: 1.25;
-}
-.section-layout > .container > .listing .exampleright > .summary {
-  margin-top: 15px;
-  color: #a0a0a0;
-}
-.section-layout > .container > .listing .exampleright > .btn {
-  margin-top: 10px;
-  color: #3f3f3f;
-  margin: 20px 0px;
-  border: #3f3f3f solid 2px;
-  border-radius: 5px;
-  width: 180px;
-  padding: 15px 20px;
-  font-weight: bold;
-}
-.section-layout > .container > .listing .sharetitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-}
-.section-layout > .container > .listing .hostdatas {
-  display: flex;
-}
-.section-layout > .container > .listing .hostdatas > .hostdata {
-  width: 30%;
-  margin-right: 40px;
-  line-height: 1.75;
-  text-align: center;
-}
-.section-layout > .container > .listing .hostdatas > .hostdata > .hostnumber {
-  font-size: 55px;
-}
-.section-layout > .container > .listing .hostdatas > .hostdata > .numbercomment {
-  text-align: center;
-}
-.section-layout > .container > .listing .abouttitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .container > .listing .abouttexts {
-  display: flex;
-}
-.section-layout > .container > .listing .abouttexts > .abouttext {
-  width: 37.5%;
-  line-height: 1.75;
-  padding: 0px 30px;
-}
-.section-layout > .container > .listing .abouttexts > .abouttext > .aboutheadline {
-  font-size: 22px;
-  font-weight: bold;
-}
-.section-layout > .container > .listing .abouttexts > .abouttext > .aboutexplanation {
-  font-size: 15px;
-  margin-top: 20px;
-}
-.section-layout > .container > .listing .abouttexts > .abouttext > .green {
-  color: #01999e;
-  padding-top: 20px;
-}
-.section-layout > .container > .listing .questiontitle {
-  font-size: 60px;
-  text-align: center;
-  font-weight: bold;
-  margin: 50px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .container > .listing .question-nav {
-  display: flex;
-  flex-wrap: wrap;
-}
-.section-layout > .container > .listing .question-nav > li {
-  width: 48%;
-  list-style: none;
-  font-size: 18px;
-  color: #01999e;
-  padding: 30px 0px;
-  margin: 0px 10px;
-  border-bottom: #cdcdcd solid 1px;
-}
-.section-layout > .container > .listing .hostingtitle {
-  font-size: 25px;
-  font-weight: bold;
-  margin: 50px 0px;
-  text-align: center;
-}
-.section-layout > .container > .listing .hostinglists {
-  display: flex;
-}
-.section-layout > .container > .listing .hostinglists > .hostinglist {
-  margin: 0px 5px;
-}
-.section-layout > .container > .listing .hostinglists > .hostinglist > img {
-  width: 333px;
-  height: 171px;
-}
-.section-layout > .container > .listing .hostinglists > .hostinglist > .hostingheadline {
-  font-size: 17px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-.section-layout > .container > .listing .hostinglists > .hostinglist > .hostingcomment {
-  font-size: 14px;
-  margin-top: 10px;
-}
-.section-layout > .container > .listing .hostinglists > .hostinglist > .learnmore {
-  font-size: 14px;
-  margin-top: 20px;
-  color: #01999e;
-}
-.section-layout > .container > .listing .listingtitle {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  font-size: 63px;
-  font-weight: bold;
-  color: #fff;
-  width: 390px;
-}
-.section-layout > .container > .listing .listingbtn {
-  position: absolute;
-  top: 250px;
-  left: 100px;
-  color: #3f3f3f;
-  background-color: #fff;
-  font-weight: bold;
-  text-align: center;
-  width: 200px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 5px;
-}
-.section-layout > .container > .listing .fab {
-  font-size: 25px;
-  margin-right: 3px;
-  line-height: 1.5;
-}
-.section-layout > .container > .listing .footer-left {
-  font-size: 13px;
-}
-.section-layout > .container > .listing .footer-left > span {
-  padding: 0px 8px;
-}
-.section-layout > .container > .listing .footer-right {
-  display: flex;
-  justify-content: space-around;
-  font-size: 13px;
-  font-weight: bold;
-  height: 30px;
-}
-.section-layout > .container > .listing .footer-right > .sns {
-  letter-spacing: 10px;
-  position: absolute;
-  right: 0px;
-}
-.section-layout > .container > .listing .footer-right > .sns > .fab {
-  font-size: 17px;
-}
-
-@media (max-width: 740px) and (max-width: 740px) {
-  .section-layout > .container > .responsive-form .title {
-    text-align: left;
-  }
-  .section-layout > .container > .responsive-form .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .responsive-form .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .responsive-form .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .responsive-form .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .responsive-form .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .responsive-form .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .responsive-form .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .responsive-form .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .responsive-form .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .responsive-form .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .responsive-form .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .responsive-form .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .responsive-form .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .responsive-form .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .responsive-form .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .responsive-form .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .responsive-form .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .responsive-form .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .responsive-form .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .responsive-form .footerleft > span {
-    display: none;
-  }
-}
-@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .responsive-form .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .responsive-form .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .responsive-form .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .responsive-form .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .responsive-form .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .responsive-form .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .responsive-form .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .responsive-form .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .responsive-form .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .responsive-form .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .responsive-form .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .responsive-form .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .responsive-form .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .responsive-form .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .responsive-form .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .responsive-form .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (max-width: 740px) and (max-width: 1130px) {
-  .section-layout > .container > .responsive-form .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .responsive-form .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .responsive-form .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .responsive-form .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .responsive-form .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .responsive-form .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .responsive-form .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .responsive-form .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .responsive-form .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .responsive-form .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .responsive-form .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .responsive-form .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (max-width: 740px) {
-  .section-layout > .container > .whitespace-container {
-    padding: 0px 5vw;
-  }
-}
-@media (max-width: 740px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .dennis-container .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .footerleft > span {
-    display: none;
-  }
-}
-@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .dennis-container .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (max-width: 740px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .dennis-container .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (max-width: 740px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .step-container .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .footerleft > span {
-    display: none;
-  }
-}
-@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .step-container .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (max-width: 740px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .step-container .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .safety-container {
-    margin-top: 100px;
-    padding: initial;
-  }
-}
-@media (max-width: 740px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .safety-container .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .footerleft > span {
-    display: none;
-  }
-}
-@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .safety-container .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (max-width: 740px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .safety-container .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .example {
-    display: initial;
-  }
-}
-@media (max-width: 740px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .example .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .example .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .example .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .example .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .example .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .example .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .example .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .example .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .example .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .example .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .example .footerleft > span {
-    display: none;
-  }
-}
-@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .example .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .example .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .example .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .example .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .example .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .example .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .example .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .example .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .example .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .example .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (max-width: 740px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .example .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .example .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .example .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .example .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .example .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .example .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (max-width: 740px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .hostshare .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .footerleft > span {
-    display: none;
-  }
-}
-@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .hostshare .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (max-width: 740px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .hostshare .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (max-width: 740px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .about .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .about .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .about .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .about .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .about .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .about .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .about .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .about .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .about .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .about .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .about .footerleft > span {
-    display: none;
-  }
-}
-@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .about .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .about .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .about .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .about .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .about .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .about .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .about .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .about .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .about .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .about .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (max-width: 740px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .about .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .about .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .about .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .about .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .about .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .about .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (max-width: 740px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .hosting .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .footerleft > span {
-    display: none;
-  }
-}
-@media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .hosting .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (max-width: 740px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .hosting .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (max-width: 740px) {
-  .section-layout > .container > .lodginglinks {
-    display: none;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container {
-    padding: 0px 15vw;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .dennis-container .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .footerleft > span {
-    display: none;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .dennis-container .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .dennis-container .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .dennis-container .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .example .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .example .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .example .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .example .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .example .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .example .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .example .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .example .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .example .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .example .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .example .footerleft > span {
-    display: none;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .example .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .example .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .example .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .example .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .example .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .example .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .example .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .example .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .example .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .example .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .example .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .example .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .example .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .example .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .example .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .example .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .example .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .example .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .hostshare .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .footerleft > span {
-    display: none;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .hostshare .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .hostshare .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hostshare .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .hosting .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .footerleft > span {
-    display: none;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .hosting .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (min-width: 741px) and (max-width: 1130px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .hosting .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .hosting .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .step-container {
-    margin-top: 100px;
-  }
-}
-@media (max-width: 1130px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .step-container .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .footerleft > span {
-    display: none;
-  }
-}
-@media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .step-container .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (max-width: 1130px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .step-container .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .step-container .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .safety-container {
-    margin-top: 100px;
-    padding: initial;
-  }
-}
-@media (max-width: 1130px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .safety-container .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .footerleft > span {
-    display: none;
-  }
-}
-@media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .safety-container .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (max-width: 1130px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .safety-container .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .safety-container .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (max-width: 1130px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .about .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .about .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .about .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .about .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .about .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .about .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .about .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .about .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .about .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .about .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .about .footerleft > span {
-    display: none;
-  }
-}
-@media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .about .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .about .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .about .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .about .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .about .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .about .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .about .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .about .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .about .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .about .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (max-width: 1130px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .about .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .about .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .about .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .about .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .about .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .about .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .about .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .about .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (max-width: 1130px) and (max-width: 740px) {
-  .section-layout > .container > .whitespace-container > .question .title {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .question .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .whitespace-container > .question .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .question .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .question .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .question .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .question .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .question .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .whitespace-container > .question .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .whitespace-container > .question .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .question .footerleft > span {
-    display: none;
-  }
-}
-@media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .question .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .whitespace-container > .question .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .question .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .question .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .question .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .whitespace-container > .question .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .whitespace-container > .question .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .question .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .whitespace-container > .question .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .whitespace-container > .question .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (max-width: 1130px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .question .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .question .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .question .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .question .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .question .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .whitespace-container > .question .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .question .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .whitespace-container > .question .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .question .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .whitespace-container > .question .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .whitespace-container > .question .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .whitespace-container > .question .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (max-width: 1130px) {
-  .section-layout > .container > .listing {
-    padding: initial;
-  }
-}
-@media (max-width: 1130px) and (max-width: 740px) {
-  .section-layout > .container > .listing .title {
-    text-align: left;
-  }
-  .section-layout > .container > .listing .exampleleft > img {
-    width: initial;
-    height: initial;
-    max-width: 600px;
-    max-height: 600px;
-  }
-  .section-layout > .container > .listing .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .listing .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .listing .sharetitle {
-    font-size: 37px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: left;
-  }
-  .section-layout > .container > .listing .hostdatas {
-    display: initial;
-  }
-  .section-layout > .container > .listing .hostdatas > .hostdata {
-    width: initial;
-  }
-  .section-layout > .container > .listing .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-    text-align: left;
-  }
-  .section-layout > .container > .listing .hostdatas > .hostdata > .numbercomment {
-    text-align: left;
-  }
-  .section-layout > .container > .listing .abouttitle {
-    text-align: left;
-  }
-  .section-layout > .container > .listing .questiontitle {
-    text-align: left;
-  }
-  .section-layout > .container > .listing .hostinglists {
-    display: initial;
-  }
-  .section-layout > .container > .listing .hostinglists > .hostinglist {
-    display: flex;
-    position: relative;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px #b4b4b4;
-  }
-  .section-layout > .container > .listing .hostinglists > .hostinglist > img {
-    width: 75px;
-    height: 75px;
-  }
-  .section-layout > .container > .listing .hostinglists > .hostinglist > .hostingheadline {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  .section-layout > .container > .listing .hostinglists > .hostinglist > .hostingcomment {
-    position: absolute;
-    top: 35px;
-    left: 85px;
-  }
-  .section-layout > .container > .listing .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .listing .listingtitle {
-    font-size: 40px;
-    left: 50px;
-    top: 100px;
-    width: 300px;
-  }
-  .section-layout > .container > .listing .listingbtn {
-    left: 50px;
-    top: 200px;
-  }
-  .section-layout > .container > .listing .footer-right > .sns {
-    display: none;
-  }
-  .section-layout > .container > .listing .footerleft > span {
-    display: none;
-  }
-}
-@media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .listing .interviewblock {
-    margin-right: 20px;
-  }
-  .section-layout > .container > .listing .interviewblock > .interview {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .listing .interviewblock > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .listing .interviewimage > img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .listing .exampleleft img {
-    width: 350px;
-    height: 350px;
-  }
-  .section-layout > .container > .listing .exampleright {
-    margin-top: 30px;
-  }
-  .section-layout > .container > .listing .exampleright > .exampletext {
-    font-size: 18px;
-    line-height: 1.25;
-    width: 100%;
-  }
-  .section-layout > .container > .listing .exampleright > .summary {
-    font-size: 14px;
-    width: 100%;
-  }
-  .section-layout > .container > .listing .hostinglists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .section-layout > .container > .listing .hostinglists > .hostinglist {
-    margin: 0px 10px;
-    box-shadow: 0 0 10px #b4b4b4;
-    padding-bottom: 10px;
-  }
-  .section-layout > .container > .listing .hostinglists > .hostinglist > img {
-    width: 200px;
-    height: 100px;
-  }
-  .section-layout > .container > .listing .hostinglists > .hostinglist > .hostingheadline {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-  .section-layout > .container > .listing .hostinglists > .hostinglist > .hostingcomment {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 180px;
-  }
-  .section-layout > .container > .listing .hostinglists > .hostinglist > .learnmore {
-    display: none;
-  }
-  .section-layout > .container > .listing .listingtitle {
-    font-size: 40px;
-    width: 310px;
-    left: 150px;
-    top: 100px;
-  }
-  .section-layout > .container > .listing .listingbtn {
-    top: 200px;
-    left: 150px;
-  }
-}
-@media (max-width: 1130px) and (max-width: 1130px) {
-  .section-layout > .container > .listing .itle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .listing .stepblock {
-    display: initial;
-  }
-  .section-layout > .container > .listing .stepblock > .summary {
-    width: initial;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .listing .stepblock > .summary > .minititle {
-    margin-top: initial;
-  }
-  .section-layout > .container > .listing .stepblock > .summary > .summary {
-    margin-top: initial;
-  }
-  .section-layout > .container > .listing .sharetitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .listing .hostdatas > .hostdata > .hostnumber {
-    font-size: 40px;
-  }
-  .section-layout > .container > .listing .abouttitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .listing .abouttexts {
-    display: initial;
-  }
-  .section-layout > .container > .listing .abouttexts .abouttext {
-    width: initial;
-    margin-bottom: 50px;
-    padding: initial;
-  }
-  .section-layout > .container > .listing .questiontitle {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-  .section-layout > .container > .listing .question-nav > li {
-    width: 100%;
-    font-size: 15px;
-  }
-}
-@media (min-width: 1130px) {
-  .section-layout > .container > .responsive-form {
-    display: none;
-  }
-}
-.body {
-  width: 100vw;
-  height: 100vh;
-}
-
-.section-layout {
-  width: 100%;
-  position: relative;
-}
-
 .section-layout > .header {
   height: 200px;
   position: relative;
@@ -5361,111 +671,6 @@ input, select {
   padding-bottom: 100px;
 }
 
-.section-layout > .question {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.section-layout > .question .letslist {
-  padding: 0px 2vw;
-}
-.section-layout > .question .letslist > .letstitle {
-  font-size: 25px;
-  font-weight: bold;
-  margin-top: 20px;
-  max-width: 333px;
-}
-.section-layout > .question .letslist > .letscomment {
-  margin-top: 20px;
-  line-height: 2;
-  width: 300px;
-}
-.section-layout > .question .procedure {
-  display: flex;
-  margin: 40px 0px;
-}
-.section-layout > .question .procedure > .procedureleft {
-  height: 400px;
-  width: 450px;
-}
-.section-layout > .question .procedure > .procedureright {
-  padding-left: 60px;
-  margin-top: 110px;
-}
-.section-layout > .question .procedure > .procedureright > .proceduretitle {
-  font-size: 23px;
-  font-weight: bold;
-}
-.section-layout > .question .procedure > .procedureright > .proceduretext {
-  margin-top: 20px;
-  max-width: 450px;
-  line-height: 1.5;
-}
-.section-layout > .question .procedure > .procedureright > .proceduretext > span {
-  color: #006a70;
-  text-decoration: underline;
-}
-.section-layout > .question .myworldlist {
-  width: 100%;
-  padding: 0px 15px;
-}
-.section-layout > .question .myworldlist > .myworldimage {
-  height: 30vw;
-  width: 30vw;
-}
-.section-layout > .question .myworldlist > .minititle {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 20px 0px;
-}
-.section-layout > .question .myworldlist > .minitext {
-  letter-spacing: 1px;
-  line-height: 1.5;
-}
-.section-layout > .question .myworldlist > .green {
-  color: #006a70;
-  margin-top: 5px;
-}
-.section-layout > .question .supportlists {
-  display: flex;
-}
-.section-layout > .question .supportlists > .supportlist {
-  padding: 30px;
-  max-width: 350px;
-}
-.section-layout > .question .supportlists > .supportlist > .supporticon {
-  height: 45px;
-  width: 45px;
-}
-.section-layout > .question .supportlists > .supportlist > .minititle {
-  font-size: 25px;
-  font-weight: bold;
-  margin-top: 10px;
-}
-.section-layout > .question .supportlists > .supportlist > .minitext {
-  margin-top: 10px;
-  line-height: 1.75;
-}
-.section-layout > .question .questiontitle {
-  font-size: 45px;
-  text-align: center;
-  font-weight: bold;
-  margin: 100px 0px;
-  color: #3f3f3f;
-}
-.section-layout > .question .question-nav {
-  display: flex;
-  flex-wrap: wrap;
-}
-.section-layout > .question .question-nav > li {
-  width: 48%;
-  list-style: none;
-  font-size: 18px;
-  color: #01999e;
-  padding: 30px 0px;
-  margin: 0px 10px;
-  border-bottom: #cdcdcd solid 1px;
-}
-
 .section-layout > .checkimmediately {
   background-image: url("../src/image/checkimmediately.png");
   background-size: cover;
@@ -5648,7 +853,7 @@ input, select {
 }
 @media (max-width: 1130px) {
   .link-container > .link-block {
-    width: 100%;
+    width: 90%;
     border-bottom: solid 1px #cdcdcd;
     margin: 20px;
     padding-bottom: 20px;
@@ -7177,16 +2382,16 @@ input, select {
   display: flex;
 }
 
-.review-item > .pagination > .numeric {
+.review-item > .pagination > .achievement {
   letter-spacing: 40px;
 }
 @media (max-width: 740px) {
-  .review-item > .pagination > .numeric {
+  .review-item > .pagination > .achievement {
     display: none;
   }
 }
 
-.review-item > .pagination > .numeric:nth-child(3) {
+.review-item > .pagination > .achievement:nth-child(3) {
   letter-spacing: initial;
 }
 
@@ -8150,17 +3355,21 @@ input, select {
   font-size: 30px;
 }
 
-.responsive-form {
-  width: 80%;
-  margin: 0 auto;
-}
-@media (min-width: 1130px) {
+@media (max-width: 1920px) {
   .responsive-form {
     display: none;
   }
 }
+@media (max-width: 1130px) {
+  .responsive-form {
+    display: initial;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 740px) {
   .responsive-form {
+    display: initial;
     width: 90%;
   }
 }
@@ -8172,11 +3381,13 @@ input, select {
 }
 
 .responsive-form > .responsiveaddress {
+  display: block;
   margin-top: 30px;
-  width: 99%;
   height: 40px;
   font-size: 16px;
   border: solid 1px #cdcdcd;
+  width: 90%;
+  margin: 20px auto;
 }
 @media (max-width: 740px) {
   .responsive-form > .responsiveaddress {
@@ -8185,7 +3396,6 @@ input, select {
     border: solid 1px #cdcdcd;
     font-size: 14px;
     font-weight: bold;
-    width: 100%;
   }
 }
 
@@ -8195,7 +3405,6 @@ input, select {
   text-align: center;
   border-radius: 5px;
   background-color: #E61E4D;
-  width: 100%;
   height: 50px;
   margin: 30px 0px;
   line-height: 50px;
@@ -8205,6 +3414,16 @@ input, select {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 30px 100px 30px;
+}
+@media (max-width: 1130px) {
+  .whitespace-container {
+    padding: 0px 15vw;
+  }
+}
+@media (max-width: 740px) {
+  .whitespace-container {
+    padding: 0px 5vw;
+  }
 }
 
 .openingdescription {
@@ -8332,20 +3551,25 @@ input, select {
   padding-top: 10px;
 }
 
-.dennis-container {
+.secondary.dennis-container {
   margin-top: 100px;
   display: flex;
 }
 @media (max-width: 740px) {
-  .dennis-container {
-    flex-direction: column-reverse;
+  .secondary.dennis-container {
+    flex-direction: column;
   }
 }
 
 .dennis-container > .interviewblock {
   width: 43%;
-  margin-right: 50px;
+  margin: 0px 50px;
   color: #606060;
+}
+@media (min-width: 741px) and (max-width: 1130px) {
+  .dennis-container > .interviewblock {
+    margin-right: 20px;
+  }
 }
 @media (max-width: 740px) {
   .dennis-container > .interviewblock {
@@ -8356,6 +3580,13 @@ input, select {
 .dennis-container > .interviewblock > .interview {
   font-size: 33px;
   line-height: 1.25;
+}
+@media (min-width: 741px) and (max-width: 1130px) {
+  .dennis-container > .interviewblock > .interview {
+    font-size: 18px;
+    line-height: 1.25;
+    width: 100%;
+  }
 }
 @media (max-width: 740px) {
   .dennis-container > .interviewblock > .interview {
@@ -8368,6 +3599,12 @@ input, select {
 .dennis-container > .interviewblock > .summary {
   margin-top: 15px;
   color: #a0a0a0;
+}
+@media (min-width: 741px) and (max-width: 1130px) {
+  .dennis-container > .interviewblock > .summary {
+    font-size: 14px;
+    width: 100%;
+  }
 }
 @media (max-width: 740px) {
   .dennis-container > .interviewblock > .summary {
@@ -8397,12 +3634,18 @@ input, select {
   width: 525px;
   height: 500px;
 }
+@media (min-width: 741px) and (max-width: 1130px) {
+  .dennis-container > .interviewimage > img {
+    width: 350px;
+    height: 350px;
+  }
+}
 @media (max-width: 740px) {
   .dennis-container > .interviewimage > img {
     width: initial;
     height: initial;
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 550px;
+    max-height: 550px;
   }
 }
 
@@ -8486,6 +3729,8 @@ input, select {
 
 .responsive-miniform {
   display: flex;
+  width: 90%;
+  margin: 0 auto;
 }
 @media (max-width: 740px) {
   .responsive-miniform {
@@ -8495,28 +3740,28 @@ input, select {
 
 .responsive-miniform > .responsivecharter {
   position: relative;
-  width: 60%;
   margin-right: 20px;
+  width: 100%;
 }
 @media (max-width: 740px) {
   .responsive-miniform > .responsivecharter {
     position: relative;
-    width: 100%;
     margin-bottom: 10px;
+    width: 90%;
+    margin: 10px auto;
   }
 }
 
 .responsive-miniform > .responsivecharter > input {
   height: 40px;
   font-size: 16px;
-  width: 100%;
   border: solid 1px #cdcdcd;
+  width: 100%;
 }
 @media (max-width: 740px) {
   .responsive-miniform > .responsivecharter > input {
     height: 30px;
     font-size: 14px;
-    width: 100%;
     border: solid 1px #cdcdcd;
   }
 }
@@ -8531,33 +3776,33 @@ input, select {
   .responsive-miniform > .responsivecharter > .fas {
     position: absolute;
     top: 5px;
-    right: 5px;
+    right: 10px;
     font-size: 25px;
   }
 }
 
 .responsive-miniform > .responsiveguestpeople {
   position: relative;
-  width: 35.5%;
+  width: 100%;
 }
 @media (max-width: 740px) {
   .responsive-miniform > .responsiveguestpeople {
     position: relative;
-    width: 100%;
+    width: 90%;
+    margin: 5px auto;
   }
 }
 
 .responsive-miniform > .responsiveguestpeople > input {
   height: 40px;
   font-size: 16px;
-  width: 100%;
   border: solid 1px #cdcdcd;
+  width: 100%;
 }
 @media (max-width: 740px) {
   .responsive-miniform > .responsiveguestpeople > input {
     height: 30px;
     font-size: 14px;
-    width: 100%;
     border: solid 1px #cdcdcd;
   }
 }
@@ -8571,8 +3816,353 @@ input, select {
 @media (max-width: 740px) {
   .responsive-miniform > .responsiveguestpeople > .fas {
     position: absolute;
-    top: 5px;
+    top: 10px;
     right: 5px;
     font-size: 25px;
+  }
+}
+
+.sharedream-container {
+  margin-top: 100px;
+  color: #3f3f3f;
+}
+
+.sharedream-container > .title {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+@media (max-width: 1130px) {
+  .sharedream-container > .title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 740px) {
+  .sharedream-container > .title {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+}
+
+.sharedream-container > .achievementblock {
+  display: flex;
+}
+@media (max-width: 740px) {
+  .sharedream-container > .achievementblock {
+    display: initial;
+  }
+}
+
+.sharedream-container > .achievementblock > .achievement {
+  width: 30%;
+  margin-right: 40px;
+  line-height: 1.75;
+  text-align: center;
+}
+@media (max-width: 740px) {
+  .sharedream-container > .achievementblock > .achievement {
+    width: initial;
+  }
+}
+
+.sharedream-container > .achievementblock > .achievement > .numeric {
+  font-size: 55px;
+}
+@media (max-width: 1130px) {
+  .sharedream-container > .achievementblock > .achievement > .numeric {
+    font-size: 40px;
+  }
+}
+@media (max-width: 740px) {
+  .sharedream-container > .achievementblock > .achievement > .numeric {
+    font-size: 40px;
+    text-align: left;
+  }
+}
+
+.sharedream-container > .achievementblock > .achievement > .comment {
+  text-align: center;
+}
+@media (max-width: 740px) {
+  .sharedream-container > .achievementblock > .achievement > .comment {
+    text-align: left;
+  }
+}
+
+.about-container {
+  color: #3f3f3f;
+}
+
+.about-container > .title {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+  color: #3f3f3f;
+}
+@media (max-width: 1130px) {
+  .about-container > .title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 740px) {
+  .about-container > .title {
+    text-align: left;
+  }
+}
+
+.about-block {
+  display: flex;
+}
+@media (max-width: 1130px) {
+  .about-block {
+    display: initial;
+  }
+}
+
+.about-block > .aboutitem {
+  width: 37.5%;
+  line-height: 1.75;
+  padding: 0px 30px;
+}
+@media (max-width: 1130px) {
+  .about-block > .aboutitem {
+    width: initial;
+    margin-bottom: 50px;
+    padding: initial;
+  }
+}
+
+.about-block > .aboutitem > .headline {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.about-block > .aboutitem > .summary {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.about-block > .aboutitem > .green {
+  color: #01999e;
+  padding-top: 20px;
+}
+
+.question-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.question-container > .title {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0px;
+  color: #3f3f3f;
+}
+@media (max-width: 1130px) {
+  .question-container > .title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+}
+
+.question-container > .question-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.question-container > .question-nav > .list {
+  width: 48%;
+  list-style: none;
+  font-size: 18px;
+  color: #01999e;
+  padding: 30px 0px;
+  margin: 0px 10px;
+  border-bottom: #cdcdcd solid 1px;
+}
+@media (max-width: 1130px) {
+  .question-container > .question-nav > .list {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+.hosting-container {
+  color: #3f3f3f;
+}
+
+.hosting-container > .title {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.hosting-block {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1130px) {
+  .hosting-block {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+@media (max-width: 740px) {
+  .hosting-block {
+    display: initial;
+  }
+}
+
+.hosting-block > .list {
+  margin: 0px 5px;
+}
+@media (max-width: 1130px) {
+  .hosting-block > .list {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 740px) {
+  .hosting-block > .list {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: initial;
+    box-shadow: 0 0 10px #b4b4b4;
+  }
+}
+
+.hosting-block > .list > img {
+  width: 333px;
+  height: 171px;
+}
+@media (max-width: 1130px) {
+  .hosting-block > .list > img {
+    width: 200px;
+    height: 100px;
+  }
+}
+@media (max-width: 740px) {
+  .hosting-block > .list > img {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+.hosting-block > .list > .headline {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+@media (max-width: 1130px) {
+  .hosting-block > .list > .headline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 740px) {
+  .hosting-block > .list > .headline {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+}
+
+.hosting-block > .list > .hostingcomment {
+  font-size: 14px;
+  margin-top: 10px;
+}
+@media (max-width: 1130px) {
+  .hosting-block > .list > .hostingcomment {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 180px;
+  }
+}
+@media (max-width: 740px) {
+  .hosting-block > .list > .hostingcomment {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+    width: initial;
+  }
+}
+
+.hosting-block > .list > .learnmore {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #01999e;
+}
+@media (max-width: 1130px) {
+  .hosting-block > .list > .learnmore {
+    display: none;
+  }
+}
+@media (max-width: 740px) {
+  .hosting-block > .list > .learnmore {
+    display: none;
+  }
+}
+
+.listing-container {
+  margin-top: 50px;
+  position: relative;
+  padding: 0px 3vw;
+}
+@media (max-width: 1130px) {
+  .listing-container {
+    padding: initial;
+  }
+}
+
+.listing-container > .listingtitle {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-size: 63px;
+  font-weight: bold;
+  color: #fff;
+  width: 390px;
+}
+@media (max-width: 740px) {
+  .listing-container > .listingtitle {
+    font-size: 40px;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+  }
+}
+
+.listing-container > .listingbtn {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  color: #3f3f3f;
+  background-color: #fff;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+}
+@media (max-width: 740px) {
+  .listing-container > .listingbtn {
+    left: 50px;
+    top: 200px;
   }
 }
