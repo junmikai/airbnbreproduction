@@ -30,14 +30,14 @@
   display: flex;
 }
 
-.review-item > .pagination > .numeric{
+.review-item > .pagination > .achievement{
   letter-spacing:40px;
   @media (max-width: 740px){
     display: none;
   }
 }
 
-.review-item > .pagination > .numeric:nth-child(3){
+.review-item > .pagination > .achievement:nth-child(3){
   letter-spacing:initial;
 }
 
