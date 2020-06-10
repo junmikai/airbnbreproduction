@@ -17,8 +17,8 @@
   }
 }
 
-.middle-image > .summary_item {
-  background-color:$explanation;
+.middle-image > .summaryitem {
+  background-color:$black-nero;
   height:75px;
   border-radius:0px 0px 25px 25px;
   position: relative;
@@ -27,7 +27,7 @@
   bottom:0;
 }
 
-.middle-image > .summary_item >.summary {
+.middle-image > .summaryitem >.summary {
   width:90%;
   padding:10px;
 }

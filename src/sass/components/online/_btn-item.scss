@@ -11,8 +11,8 @@
   }
 }
 
-.btn-item > .sns_btn{
-  background-color:$light-gray;
+.btn-item > .snsbtn{
+  background-color:$white-smoke;
   border-radius: 5px;
   display: flex;
   justify-content:space-between;
@@ -22,10 +22,10 @@
   font-weight: bold;
 }
 
-.btn-item > .sns_btn > .fas{
+.btn-item > .snsbtn > .fas{
   padding-right:10px;
 }
 
-.btn-item > .sns_btn > .far{
+.btn-item > .snsbtn > .far{
   padding-right:10px;
 }

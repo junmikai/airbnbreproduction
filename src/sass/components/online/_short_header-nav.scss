@@ -1,21 +1,21 @@
-.short_header-nav{
+.shortheader-nav{
   display: flex;
   list-style: none;
 }
 
-.short_header-nav > .list{
+.shortheader-nav > .list{
   padding:10px;
   text-decoration:none;
   font-size:15px;
   color:$white;
 }
 
-.short_header-nav > .signup{
+.shortheader-nav > .signup{
   border-radius: 20px;
-  background-color:$light-black;
+  background-color:$dark-engine;
   height:20px;
 }
 
-.short_header-nav > .list > .fa-globe{
+.shortheader-nav > .list > .fa-globe{
   margin-right:7px;
 }

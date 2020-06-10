@@ -3,18 +3,18 @@
   width:350px;
   background-color:$white;
   border-radius: 10px;
-  box-shadow:$black-shadow;
+  box-shadow:0 0 10px $brainstem-grey;
   display:none;
   display:flex;
 }
 
 .form-container > .form{
-  border-right: thin solid $bodergray;
+  border-right: thin solid $compact-disc-grey;
   text-align: center;
   line-height:45px;
   font-size:14px;
   padding:0px 10px;
-  color:$gray;
+  color:$grey;
 }
 
 .form-container > .fas{

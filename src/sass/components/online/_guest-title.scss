@@ -30,9 +30,9 @@
 
 .guest-title > .sticky > .traditional{
   margin-top:20px;
-  border:$light-black solid 2px;
+  border:$dark-engine solid 2px;
   padding:15px;
-  color:$light-black;
+  color:$dark-engine;
   font-weight: bold;
   border-radius:5px;
   text-align: center;
@@ -49,6 +49,6 @@
     display:none;
   }
   >.fas{
-    color:$light-green;
+    color:$green-riviera-paradise;
   }
 }

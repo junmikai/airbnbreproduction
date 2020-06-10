@@ -1,10 +1,10 @@
-.other_trial-item{
+.othertrial-item{
   height:100%;
   margin:0px 7px;
-  color:$light-black;
+  color:$dark-engine;
 }
 
-.other_trial-item > .image{
+.othertrial-item > .image{
   background-image: url("../src/image/Chernobyl.png");
   background-size:cover;
   border-radius: 10px;
@@ -25,7 +25,7 @@
   } 
 }
 
-.other_trial-item > .image > .online{
+.othertrial-item > .image > .online{
   background-color:$black;
   width:65px;
   height:20px;
@@ -40,7 +40,7 @@
   line-height:20px;
 }
 
-.other_trial-item > .country{
+.othertrial-item > .country{
   margin:5px 0px;
   font-size:12px;
   font-weight: bold;
@@ -48,41 +48,41 @@
   white-space:pre-wrap;
 }
 
-.other_trial-item > .title{
+.othertrial-item > .title{
   margin-bottom:6px;
   max-width:200px;
   white-space:pre-wrap;
 }
 
-.other_trial-item > .price{
+.othertrial-item > .price{
   font-size:15px;
 }
 
-.other_trial-item > .review{
+.othertrial-item > .review{
   font-size:12px;
 }
 
-.other_trial-item > .review > .fas{
+.othertrial-item > .review > .fas{
   margin-right:3px;
 }
 
-.other_trial-item > .review > .reviewcount{
-  color:$gray;
+.othertrial-item > .review > .reviewcount{
+  color:$grey;
   margin-left:3px;
 }
 
-.other_trial-item:nth-child(2) > .image{
+.othertrial-item:nth-child(2) > .image{
   background-image: url("../src/image/farm.png");
 }
-.other_trial-item:nth-child(3) > .image{
+.othertrial-item:nth-child(3) > .image{
   background-image: url("../src/image/zazen.png");
 }
-.other_trial-item:nth-child(4) > .image{
+.othertrial-item:nth-child(4) > .image{
   background-image: url("../src/image/gogh.png");
 }
-.other_trial-item:nth-child(5) > .image{
+.othertrial-item:nth-child(5) > .image{
   background-image: url("../src/image/yagi.png");
 }
-.other_trial-item:nth-child(6) > .image{
+.othertrial-item:nth-child(6) > .image{
   background-image: url("../src/image/table.png");
 }

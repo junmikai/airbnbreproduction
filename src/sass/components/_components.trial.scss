@@ -33,7 +33,7 @@
       max-width:450px;
       line-height:1.5;
       > span{
-        color:$dark-green;
+        color:$green-fanfare;
         text-decoration: underline;
       }
     }
@@ -57,7 +57,7 @@
     line-height:1.5;
   }
   >.green{
-    color:$dark-green;
+    color:$green-fanfare;
     margin-top:5px;
   }
 }
@@ -89,7 +89,7 @@
   text-align: center;
   font-weight: bold;
   margin:100px 0px;
-  color:$light-black;
+  color:$dark-engine;
 }
 // 質問/文字
 .question-nav{
@@ -99,9 +99,9 @@
     width:48%;
     list-style: none; 
     font-size:18px;
-    color:$light-green;
+    color:$green-riviera-paradise;
     padding:30px 0px;
     margin:0px 10px;
-    border-bottom:$bodergray solid 1px;
+    border-bottom:$compact-disc-grey solid 1px;
   }
 }

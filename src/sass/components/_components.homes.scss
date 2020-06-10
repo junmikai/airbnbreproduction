@@ -15,10 +15,10 @@
 //     width:400px;
 //     line-height:1.75;
 //     margin-right:50px;
-//     color:$light-60;
+//     color:$black-kettleman;
 //     margin:10px 0px 0px 0px;
 //     >.how{
-//       color:$light-green;
+//       color:$green-riviera-paradise;
 //       padding-top:10px;
 //     }
 //   }
@@ -36,20 +36,20 @@
 }
 .exampleright{
   margin-left:50px;
-  color:$light-60;
+  color:$black-kettleman;
   > .exampletext{
     font-size:33px;
     line-height:1.25;
   }
   > .summary{
     margin-top:15px;
-    color:$light-a0;
+    color:$su-nezumi-grey;
   }
   > .btn{
     margin-top:10px;
-    color:$light-black;
+    color:$dark-engine;
     margin:20px 0px;
-    border:$light-black solid 2px;
+    border:$dark-engine solid 2px;
     border-radius:5px;
     width:180px;
     padding:15px 20px;
@@ -86,7 +86,7 @@
   text-align: center;
   font-weight: bold;
   margin:50px 0px;
-  color:$light-black;
+  color:$dark-engine;
 }
 // Airbnbについて/文字詳細
 .abouttexts{
@@ -104,7 +104,7 @@
       margin-top:20px;
     }
     >.green{
-      color:$light-green;
+      color:$green-riviera-paradise;
       padding-top:20px;
     }
   }
@@ -116,7 +116,7 @@
   text-align: center;
   font-weight: bold;
   margin:50px 0px;
-  color:$light-black;
+  color:$dark-engine;
 }
 // 質問/文字
 .question-nav{
@@ -126,10 +126,10 @@
     width:48%;
     list-style: none; 
     font-size:18px;
-    color:$light-green;
+    color:$green-riviera-paradise;
     padding:30px 0px;
     margin:0px 10px;
-    border-bottom:$bodergray solid 1px;
+    border-bottom:$compact-disc-grey solid 1px;
   }
 }
 // ホスティング/タイトル
@@ -160,7 +160,7 @@
     >.learnmore{
       font-size:14px;
       margin-top:20px;
-      color:$light-green;
+      color:$green-riviera-paradise;
     }
   }
 }
@@ -179,7 +179,7 @@
   position: absolute;
   top:250px;
   left:100px;
-  color:$light-black;
+  color:$dark-engine;
   background-color:$white;
   font-weight: bold;
   text-align: center;

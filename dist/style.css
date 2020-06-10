@@ -1295,19 +1295,19 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .responsive-form .interview_block {
+  .section-layout > .container > .responsive-form .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .responsive-form .interview_block > .interview {
+  .section-layout > .container > .responsive-form .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .responsive-form .interview_block > .summary {
+  .section-layout > .container > .responsive-form .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .responsive-form .interview_image > img {
+  .section-layout > .container > .responsive-form .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -1373,17 +1373,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .responsive-form .step_block {
+  .section-layout > .container > .responsive-form .stepblock {
     display: initial;
   }
-  .section-layout > .container > .responsive-form .step_block > .summary {
+  .section-layout > .container > .responsive-form .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .responsive-form .step_block > .summary > .minititle {
+  .section-layout > .container > .responsive-form .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .responsive-form .step_block > .summary > .summary {
+  .section-layout > .container > .responsive-form .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .responsive-form .sharetitle {
@@ -1509,19 +1509,19 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .dennis-container .interview_block {
+  .section-layout > .container > .whitespace-container > .dennis-container .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .dennis-container .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .dennis-container .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .dennis-container .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .dennis-container .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .dennis-container .interview_image > img {
+  .section-layout > .container > .whitespace-container > .dennis-container .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -1587,17 +1587,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .dennis-container .step_block {
+  .section-layout > .container > .whitespace-container > .dennis-container .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .dennis-container .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .dennis-container .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .dennis-container .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .dennis-container .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .dennis-container .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .dennis-container .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .dennis-container .sharetitle {
@@ -1718,19 +1718,19 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .step-container .interview_block {
+  .section-layout > .container > .whitespace-container > .step-container .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .step-container .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .step-container .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .step-container .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .step-container .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .step-container .interview_image > img {
+  .section-layout > .container > .whitespace-container > .step-container .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -1796,17 +1796,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .step-container .step_block {
+  .section-layout > .container > .whitespace-container > .step-container .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .step-container .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .step-container .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .step-container .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .step-container .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .step-container .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .step-container .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .step-container .sharetitle {
@@ -1933,19 +1933,19 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .safety-container .interview_block {
+  .section-layout > .container > .whitespace-container > .safety-container .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .safety-container .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .safety-container .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .safety-container .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .safety-container .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .safety-container .interview_image > img {
+  .section-layout > .container > .whitespace-container > .safety-container .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -2011,17 +2011,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .safety-container .step_block {
+  .section-layout > .container > .whitespace-container > .safety-container .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .safety-container .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .safety-container .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .safety-container .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .safety-container .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .safety-container .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .safety-container .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .safety-container .sharetitle {
@@ -2147,19 +2147,19 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .example .interview_block {
+  .section-layout > .container > .whitespace-container > .example .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .example .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .example .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .example .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .example .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .example .interview_image > img {
+  .section-layout > .container > .whitespace-container > .example .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -2225,17 +2225,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .example .step_block {
+  .section-layout > .container > .whitespace-container > .example .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .example .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .example .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .example .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .example .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .example .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .example .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .example .sharetitle {
@@ -2356,19 +2356,19 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .hostshare .interview_block {
+  .section-layout > .container > .whitespace-container > .hostshare .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .hostshare .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .hostshare .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .hostshare .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .hostshare .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .hostshare .interview_image > img {
+  .section-layout > .container > .whitespace-container > .hostshare .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -2434,17 +2434,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .hostshare .step_block {
+  .section-layout > .container > .whitespace-container > .hostshare .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .hostshare .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .hostshare .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .hostshare .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .hostshare .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .hostshare .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .hostshare .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .hostshare .sharetitle {
@@ -2565,19 +2565,19 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .about .interview_block {
+  .section-layout > .container > .whitespace-container > .about .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .about .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .about .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .about .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .about .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .about .interview_image > img {
+  .section-layout > .container > .whitespace-container > .about .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -2643,17 +2643,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .about .step_block {
+  .section-layout > .container > .whitespace-container > .about .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .about .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .about .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .about .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .about .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .about .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .about .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .about .sharetitle {
@@ -2774,19 +2774,19 @@ input, select {
   }
 }
 @media (max-width: 740px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .hosting .interview_block {
+  .section-layout > .container > .whitespace-container > .hosting .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .hosting .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .hosting .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .hosting .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .hosting .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .hosting .interview_image > img {
+  .section-layout > .container > .whitespace-container > .hosting .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -2852,17 +2852,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .hosting .step_block {
+  .section-layout > .container > .whitespace-container > .hosting .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .hosting .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .hosting .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .hosting .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .hosting .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .hosting .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .hosting .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .hosting .sharetitle {
@@ -2993,19 +2993,19 @@ input, select {
   }
 }
 @media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .dennis-container .interview_block {
+  .section-layout > .container > .whitespace-container > .dennis-container .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .dennis-container .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .dennis-container .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .dennis-container .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .dennis-container .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .dennis-container .interview_image > img {
+  .section-layout > .container > .whitespace-container > .dennis-container .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -3071,17 +3071,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .dennis-container .step_block {
+  .section-layout > .container > .whitespace-container > .dennis-container .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .dennis-container .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .dennis-container .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .dennis-container .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .dennis-container .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .dennis-container .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .dennis-container .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .dennis-container .sharetitle {
@@ -3202,19 +3202,19 @@ input, select {
   }
 }
 @media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .example .interview_block {
+  .section-layout > .container > .whitespace-container > .example .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .example .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .example .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .example .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .example .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .example .interview_image > img {
+  .section-layout > .container > .whitespace-container > .example .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -3280,17 +3280,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .example .step_block {
+  .section-layout > .container > .whitespace-container > .example .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .example .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .example .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .example .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .example .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .example .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .example .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .example .sharetitle {
@@ -3411,19 +3411,19 @@ input, select {
   }
 }
 @media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .hostshare .interview_block {
+  .section-layout > .container > .whitespace-container > .hostshare .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .hostshare .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .hostshare .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .hostshare .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .hostshare .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .hostshare .interview_image > img {
+  .section-layout > .container > .whitespace-container > .hostshare .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -3489,17 +3489,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .hostshare .step_block {
+  .section-layout > .container > .whitespace-container > .hostshare .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .hostshare .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .hostshare .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .hostshare .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .hostshare .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .hostshare .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .hostshare .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .hostshare .sharetitle {
@@ -3620,19 +3620,19 @@ input, select {
   }
 }
 @media (min-width: 741px) and (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .hosting .interview_block {
+  .section-layout > .container > .whitespace-container > .hosting .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .hosting .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .hosting .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .hosting .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .hosting .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .hosting .interview_image > img {
+  .section-layout > .container > .whitespace-container > .hosting .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -3698,17 +3698,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .hosting .step_block {
+  .section-layout > .container > .whitespace-container > .hosting .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .hosting .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .hosting .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .hosting .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .hosting .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .hosting .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .hosting .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .hosting .sharetitle {
@@ -3834,19 +3834,19 @@ input, select {
   }
 }
 @media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .step-container .interview_block {
+  .section-layout > .container > .whitespace-container > .step-container .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .step-container .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .step-container .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .step-container .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .step-container .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .step-container .interview_image > img {
+  .section-layout > .container > .whitespace-container > .step-container .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -3912,17 +3912,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .step-container .step_block {
+  .section-layout > .container > .whitespace-container > .step-container .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .step-container .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .step-container .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .step-container .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .step-container .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .step-container .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .step-container .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .step-container .sharetitle {
@@ -4049,19 +4049,19 @@ input, select {
   }
 }
 @media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .safety-container .interview_block {
+  .section-layout > .container > .whitespace-container > .safety-container .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .safety-container .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .safety-container .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .safety-container .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .safety-container .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .safety-container .interview_image > img {
+  .section-layout > .container > .whitespace-container > .safety-container .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -4127,17 +4127,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .safety-container .step_block {
+  .section-layout > .container > .whitespace-container > .safety-container .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .safety-container .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .safety-container .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .safety-container .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .safety-container .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .safety-container .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .safety-container .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .safety-container .sharetitle {
@@ -4258,19 +4258,19 @@ input, select {
   }
 }
 @media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .about .interview_block {
+  .section-layout > .container > .whitespace-container > .about .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .about .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .about .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .about .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .about .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .about .interview_image > img {
+  .section-layout > .container > .whitespace-container > .about .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -4336,17 +4336,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .about .step_block {
+  .section-layout > .container > .whitespace-container > .about .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .about .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .about .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .about .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .about .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .about .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .about .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .about .sharetitle {
@@ -4467,19 +4467,19 @@ input, select {
   }
 }
 @media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .whitespace-container > .question .interview_block {
+  .section-layout > .container > .whitespace-container > .question .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .whitespace-container > .question .interview_block > .interview {
+  .section-layout > .container > .whitespace-container > .question .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .question .interview_block > .summary {
+  .section-layout > .container > .whitespace-container > .question .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .whitespace-container > .question .interview_image > img {
+  .section-layout > .container > .whitespace-container > .question .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -4545,17 +4545,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .question .step_block {
+  .section-layout > .container > .whitespace-container > .question .stepblock {
     display: initial;
   }
-  .section-layout > .container > .whitespace-container > .question .step_block > .summary {
+  .section-layout > .container > .whitespace-container > .question .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .whitespace-container > .question .step_block > .summary > .minititle {
+  .section-layout > .container > .whitespace-container > .question .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .whitespace-container > .question .step_block > .summary > .summary {
+  .section-layout > .container > .whitespace-container > .question .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .whitespace-container > .question .sharetitle {
@@ -4681,19 +4681,19 @@ input, select {
   }
 }
 @media (max-width: 1130px) and (min-width: 741px) and (max-width: 1130px) {
-  .section-layout > .container > .listing .interview_block {
+  .section-layout > .container > .listing .interviewblock {
     margin-right: 20px;
   }
-  .section-layout > .container > .listing .interview_block > .interview {
+  .section-layout > .container > .listing .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
-  .section-layout > .container > .listing .interview_block > .summary {
+  .section-layout > .container > .listing .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
-  .section-layout > .container > .listing .interview_image > img {
+  .section-layout > .container > .listing .interviewimage > img {
     width: 350px;
     height: 350px;
   }
@@ -4759,17 +4759,17 @@ input, select {
     font-weight: bold;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .listing .step_block {
+  .section-layout > .container > .listing .stepblock {
     display: initial;
   }
-  .section-layout > .container > .listing .step_block > .summary {
+  .section-layout > .container > .listing .stepblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
-  .section-layout > .container > .listing .step_block > .summary > .minititle {
+  .section-layout > .container > .listing .stepblock > .summary > .minititle {
     margin-top: initial;
   }
-  .section-layout > .container > .listing .step_block > .summary > .summary {
+  .section-layout > .container > .listing .stepblock > .summary > .summary {
     margin-top: initial;
   }
   .section-layout > .container > .listing .sharetitle {
@@ -5622,7 +5622,7 @@ input, select {
 }
 
 .information-nav > .list > .supplement {
-  color: gray;
+  color: #808080;
   font-size: 14px;
   font-weight: normal;
 }
@@ -5672,7 +5672,7 @@ input, select {
 .link-nav > .linklist {
   font-size: 14px;
   list-style: none;
-  color: gray;
+  color: #808080;
   line-height: 35px;
 }
 @media (max-width: 1130px) {
@@ -5895,7 +5895,7 @@ input, select {
     position: absolute;
     top: 5px;
     left: 15px;
-    color: gray;
+    color: #808080;
     border: none;
     font-size: 17px;
     z-index: 1;
@@ -5941,51 +5941,51 @@ input, select {
   display: flex;
 }
 
-.search-block > .search_form {
+.search-block > .searchform {
   width: 30%;
   border-right: thin solid;
   height: 40px;
   margin: 3px 0px 0px 19px;
 }
 
-.search_form:nth-child(3) {
+.searchform:nth-child(3) {
   border-right: initial;
 }
 
-.search-block > .search_form > .title {
+.search-block > .searchform > .title {
   font-size: 5px;
   font-weight: bold;
   margin-bottom: 2px;
 }
 
-.search-block > .search_form > .notes {
+.search-block > .searchform > .notes {
   font-size: 14px;
-  color: gray;
+  color: #808080;
 }
 
-.btn.search_form {
+.btn.searchform {
   width: 40%;
   display: flex;
   justify-content: space-between;
 }
 
-.btn.search_form > .tertiary_label > .title {
+.btn.searchform > .tertiarylabel > .title {
   font-size: 5px;
   font-weight: bold;
   margin-bottom: 2px;
 }
 
-.btn.search_form > .tertiary_label > .notes {
+.btn.searchform > .tertiarylabel > .notes {
   font-size: 14px;
-  color: gray;
+  color: #808080;
 }
 
-.btn.search_form > .btn_item {
+.btn.searchform > .btnitem {
   margin-top: -5px;
   margin-right: 5px;
 }
 
-.btn.search_form > .btn_item > .btn {
+.btn.searchform > .btnitem > .btn {
   background: -webkit-linear-gradient(0deg, #e41d5c, #f73131);
   color: #fff;
   width: 75px;
@@ -5997,7 +5997,7 @@ input, select {
   line-height: 25px;
 }
 
-.btn.search_form > .btn_item > .fa-search {
+.btn.searchform > .btnitem > .fa-search {
   margin-right: 5px;
 }
 
@@ -6017,7 +6017,7 @@ input, select {
   line-height: 45px;
   font-size: 14px;
   padding: 0px 10px;
-  color: gray;
+  color: #808080;
 }
 
 .form-container > .fas {
@@ -6075,21 +6075,21 @@ input, select {
   }
 }
 
-.heading-block > .heading_item {
+.heading-block > .headingitem {
   width: 450px;
 }
 @media (max-width: 900px) {
-  .heading-block > .heading_item {
+  .heading-block > .headingitem {
     width: 100%;
   }
 }
 
-.heading-block > .heading_item > .title {
+.heading-block > .headingitem > .title {
   font-size: 30px;
   font-weight: bold;
 }
 @media (max-width: 900px) {
-  .heading-block > .heading_item > .title {
+  .heading-block > .headingitem > .title {
     font-size: 22px;
   }
 }
@@ -6182,7 +6182,7 @@ input, select {
   }
 }
 
-.large-image > .summary_item {
+.large-image > .summaryitem {
   background-color: #252525;
   height: 75px;
   border-radius: 0px 0px 25px 25px;
@@ -6192,7 +6192,7 @@ input, select {
   bottom: 0;
 }
 
-.large-image > .summary_item > .summary {
+.large-image > .summaryitem > .summary {
   max-width: 50%;
   padding: 10px;
 }
@@ -6221,7 +6221,7 @@ input, select {
   }
 }
 
-.small-image > .summary_item {
+.small-image > .summaryitem {
   background-color: #252525;
   height: 75px;
   border-radius: 0px 0px 25px 25px;
@@ -6231,7 +6231,7 @@ input, select {
   bottom: 0;
 }
 
-.small-image > .summary_item > .summary {
+.small-image > .summaryitem > .summary {
   width: 90%;
   padding: 10px;
 }
@@ -6263,7 +6263,7 @@ input, select {
   }
 }
 
-.middle-image > .summary_item {
+.middle-image > .summaryitem {
   background-color: #252525;
   height: 75px;
   border-radius: 0px 0px 25px 25px;
@@ -6273,7 +6273,7 @@ input, select {
   bottom: 0;
 }
 
-.middle-image > .summary_item > .summary {
+.middle-image > .summaryitem > .summary {
   width: 90%;
   padding: 10px;
 }
@@ -6294,32 +6294,32 @@ input, select {
   }
 }
 
-.hidefooter-container > .icon-item {
+.icon-item {
   display: flex;
   text-align: center;
   margin: 20px auto;
   text-align: center;
 }
 
-.hidefooter-container > .icon-item > .icon {
+.icon-item > .icon {
   width: 33%;
 }
 
-.hidefooter-container > .icon-item > .icon > .far {
+.icon-item > .icon > .far {
   font-size: 25px;
-  color: gray;
+  color: #808080;
 }
 
-.hidefooter-container > .icon-item > .icon > .fab {
+.icon-item > .icon > .fab {
   font-size: 25px;
-  color: gray;
+  color: #808080;
 }
 
-.hidefooter-container > .icon-item > .icon > .summary {
+.icon-item > .icon > .summary {
   font-size: 10px;
 }
 
-.fixed_header-container {
+.fixedheader-container {
   width: 100%;
   height: 20px;
   position: fixed;
@@ -6335,7 +6335,7 @@ input, select {
   margin-bottom: 30px;
 }
 @media (max-width: 740px) {
-  .fixed_header-container {
+  .fixedheader-container {
     opacity: 0;
     width: 10%;
   }
@@ -6351,7 +6351,7 @@ input, select {
   }
 }
 
-.secondary_header-container {
+.secondaryheader-container {
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -6359,7 +6359,7 @@ input, select {
   margin: 0 auto;
 }
 @media (max-width: 740px) {
-  .secondary_header-container {
+  .secondaryheader-container {
     display: none;
   }
 }
@@ -6389,25 +6389,25 @@ input, select {
   padding-left: 20px;
 }
 
-.short_header-nav {
+.shortheader-nav {
   display: flex;
   list-style: none;
 }
 
-.short_header-nav > .list {
+.shortheader-nav > .list {
   padding: 10px;
   text-decoration: none;
   font-size: 15px;
   color: #fff;
 }
 
-.short_header-nav > .signup {
+.shortheader-nav > .signup {
   border-radius: 20px;
   background-color: #3f3f3f;
   height: 20px;
 }
 
-.short_header-nav > .list > .fa-globe {
+.shortheader-nav > .list > .fa-globe {
   margin-right: 7px;
 }
 
@@ -6420,33 +6420,33 @@ input, select {
   height: 30vw;
 }
 
-.image-container > .middle_image {
+.image-container > .middleimage {
   width: 28vw;
   margin: 0px 5px;
   background-size: cover;
   background-image: url("../src/image/dance.png");
 }
 
-.image-container > .middle_image:nth-child(2) {
+.image-container > .middleimage:nth-child(2) {
   background-image: url("../src/image/phoenix.png");
 }
 
-.image-container > .middle_image:nth-child(4) {
+.image-container > .middleimage:nth-child(4) {
   background-image: url("../src/image/cooking.png");
 }
 
-.image-container > .small_image-block {
+.image-container > .smallimageblock {
   width: 15vw;
 }
 
-.image-container > .small_image-block > .small_image {
+.image-container > .smallimageblock > .smallimage {
   height: 49.5%;
   background-size: cover;
   background-image: url("../src/image/drink.png");
   margin-bottom: 5px;
 }
 
-.image-container > .small_image-block > .small_image:nth-child(2) {
+.image-container > .smallimageblock > .smallimage:nth-child(2) {
   height: 49.5%;
   background-size: cover;
   background-image: url("../src/image/shoot.png");
@@ -6467,7 +6467,7 @@ input, select {
   }
 }
 
-.btn-item > .sns_btn {
+.btn-item > .snsbtn {
   background-color: #f5f5f5;
   border-radius: 5px;
   display: flex;
@@ -6478,11 +6478,11 @@ input, select {
   font-weight: bold;
 }
 
-.btn-item > .sns_btn > .fas {
+.btn-item > .snsbtn > .fas {
   padding-right: 10px;
 }
 
-.btn-item > .sns_btn > .far {
+.btn-item > .snsbtn > .far {
   padding-right: 10px;
 }
 
@@ -6556,7 +6556,7 @@ input, select {
   margin-bottom: 10px;
 }
 
-.commentary-block > .review > .review_value {
+.commentary-block > .review > .reviewvalue {
   font-weight: bold;
   margin-right: 5px;
 }
@@ -6565,7 +6565,7 @@ input, select {
   margin-right: 5px;
 }
 
-.commentary-block > .tag_block {
+.commentary-block > .tagblock {
   height: 50px;
   width: 200px;
   display: flex;
@@ -6574,17 +6574,17 @@ input, select {
   margin-bottom: 10px;
 }
 @media (max-width: 1130px) {
-  .commentary-block > .tag_block {
+  .commentary-block > .tagblock {
     width: initial;
   }
 }
 @media (max-width: 740px) {
-  .commentary-block > .tag_block {
+  .commentary-block > .tagblock {
     width: initial;
   }
 }
 
-.commentary-block > .tag_block > .tag {
+.commentary-block > .tagblock > .tag {
   background-color: #3f3f3f;
   border-radius: 3px;
   height: 20px;
@@ -6671,7 +6671,7 @@ input, select {
   right: 0px;
 }
 
-.overview-block > .overview_item {
+.overview-block > .overviewitem {
   height: 150px;
   width: 70%;
   margin-top: 20px;
@@ -6681,7 +6681,7 @@ input, select {
   color: #fff;
 }
 @media (max-width: 1130px) {
-  .overview-block > .overview_item {
+  .overview-block > .overviewitem {
     width: 55vw;
     height: initial;
     position: absolute;
@@ -6690,7 +6690,7 @@ input, select {
   }
 }
 @media (max-width: 740px) {
-  .overview-block > .overview_item {
+  .overview-block > .overviewitem {
     width: 500px;
     flex-wrap: wrap;
     position: initial;
@@ -6700,23 +6700,23 @@ input, select {
 }
 
 @media (max-width: 740px) {
-  .overview-block > .overview_item > .overview {
+  .overview-block > .overviewitem > .overview {
     width: 200px;
     padding: 10px 0px;
   }
 }
 
-.overview-block > .overview_item > .overview > .fas {
-  color: gray;
+.overview-block > .overviewitem > .overview > .fas {
+  color: #808080;
   margin-bottom: 10px;
 }
 
-.overview-block > .overview_item > .overview > .title {
-  color: gray;
+.overview-block > .overviewitem > .overview > .title {
+  color: #808080;
   margin-bottom: 10px;
 }
 
-.can_possible-container {
+.canpossible-container {
   display: flex;
   margin: 0 auto;
   max-width: 1200px;
@@ -6725,12 +6725,12 @@ input, select {
   margin-bottom: 40px;
 }
 @media (max-width: 740px) {
-  .can_possible-container {
+  .canpossible-container {
     display: initial;
   }
 }
 
-.can_possible-container > .sticky {
+.canpossible-container > .sticky {
   width: 20vw;
   height: 10vh;
   position: -webkit-sticky;
@@ -6739,33 +6739,33 @@ input, select {
   left: 0;
 }
 @media (max-width: 740px) {
-  .can_possible-container > .sticky {
+  .canpossible-container > .sticky {
     width: initial;
     position: initial;
   }
 }
 
-.can_possible-container > .sticky > .title {
+.canpossible-container > .sticky > .title {
   font-size: 30px;
   font-weight: bold;
   min-width: 150px;
   padding-top: 40px;
 }
 @media (max-width: 740px) {
-  .can_possible-container > .sticky > .title {
+  .canpossible-container > .sticky > .title {
     font-size: 23px;
     padding: 20px 0px 0px 20px;
   }
 }
 
-.can_possible-container > .summary {
+.canpossible-container > .summary {
   padding-top: 45px;
   max-width: 900px;
   line-height: 2;
   padding-left: 60px;
 }
 @media (max-width: 740px) {
-  .can_possible-container > .summary {
+  .canpossible-container > .summary {
     padding: initial;
     margin: 30px 20px;
   }
@@ -6781,7 +6781,7 @@ input, select {
   }
 }
 
-.challenging-container > .challenge_block {
+.challenging-container > .challengeblock {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0px 45px 45px 45px;
@@ -6790,24 +6790,24 @@ input, select {
   padding-top: 120px;
 }
 @media (max-width: 740px) {
-  .challenging-container > .challenge_block {
+  .challenging-container > .challengeblock {
     display: initial;
   }
 }
 
-.challenging-container > .challenge_block > .title {
+.challenging-container > .challengeblock > .title {
   font-size: 30px;
   font-weight: bold;
   width: 300px;
 }
 @media (max-width: 740px) {
-  .challenging-container > .challenge_block > .title {
+  .challenging-container > .challengeblock > .title {
     margin-top: 100px;
     width: 280px;
   }
 }
 @media (max-width: 740px) {
-  .challenging-container > .challenge_block > .title {
+  .challenging-container > .challengeblock > .title {
     width: 90%;
     height: 60px;
     margin: 10px 0px 0px 20px;
@@ -6833,47 +6833,47 @@ input, select {
   }
 }
 
-.summary-block > .summary_item {
+.summary-block > .summaryitem {
   margin: 0px 20px;
   width: 33%;
 }
 @media (max-width: 1130px) {
-  .summary-block > .summary_item {
+  .summary-block > .summaryitem {
     width: 95%;
     display: flex;
     margin-bottom: 30px;
   }
 }
 
-.summary-block > .summary_item > .title {
+.summary-block > .summaryitem > .title {
   font-weight: bold;
   margin: 10px 0px;
 }
 @media (max-width: 1130px) {
-  .summary-block > .summary_item > .title {
+  .summary-block > .summaryitem > .title {
     display: none;
   }
 }
 
-.summary-block > .summary_item > .summary {
+.summary-block > .summaryitem > .summary {
   width: 250px;
   letter-spacing: 2px;
   line-height: 1.5;
 }
 @media (max-width: 1130px) {
-  .summary-block > .summary_item > .summary {
+  .summary-block > .summaryitem > .summary {
     margin-left: 20px;
     width: initial;
     line-height: initial;
   }
 }
 @media (max-width: 740px) {
-  .summary-block > .summary_item > .summary {
+  .summary-block > .summaryitem > .summary {
     font-size: 14px;
   }
 }
 
-.host_introduction-container {
+.hostintroduction-container {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0px 45px 45px 45px;
@@ -6881,12 +6881,12 @@ input, select {
   display: flex;
 }
 @media (max-width: 740px) {
-  .host_introduction-container {
+  .hostintroduction-container {
     display: initial;
   }
 }
 
-.host_introduction-container > .sticky {
+.hostintroduction-container > .sticky {
   width: 20vw;
   height: 10vh;
   position: -webkit-sticky;
@@ -6895,61 +6895,61 @@ input, select {
   left: 0;
 }
 @media (max-width: 740px) {
-  .host_introduction-container > .sticky {
+  .hostintroduction-container > .sticky {
     width: initial;
     position: initial;
   }
 }
 
-.host_introduction-container > .sticky > .title {
+.hostintroduction-container > .sticky > .title {
   font-size: 30px;
   font-weight: bold;
   min-width: 150px;
   padding-top: 40px;
 }
 @media (max-width: 740px) {
-  .host_introduction-container > .sticky > .title {
+  .hostintroduction-container > .sticky > .title {
     font-size: 23px;
     padding: 20px 0px 0px 20px;
   }
 }
 
-.host_introduction-container > .message_block {
+.hostintroduction-container > .messageblock {
   padding-top: 45px;
   padding-left: 100px;
 }
 @media (max-width: 740px) {
-  .host_introduction-container > .message_block {
+  .hostintroduction-container > .messageblock {
     padding: 0px 20px;
   }
 }
 
-.host_introduction-container > .message_block > img {
+.hostintroduction-container > .messageblock > img {
   border-radius: 50%;
 }
 @media (max-width: 740px) {
-  .host_introduction-container > .message_block > img {
+  .hostintroduction-container > .messageblock > img {
     margin-top: 30px;
   }
 }
 
-.host_introduction-container > .message_block > .icon {
+.hostintroduction-container > .messageblock > .icon {
   font-size: 22px;
   font-weight: bold;
   margin-top: 10px;
 }
 @media (max-width: 740px) {
-  .host_introduction-container > .message_block > .icon {
+  .hostintroduction-container > .messageblock > .icon {
     margin-top: 30px;
   }
 }
 
-.host_introduction-container > .message_block > .message {
+.hostintroduction-container > .messageblock > .message {
   line-height: 2;
   max-width: 1000px;
 }
 
-.host_introduction-container > .message_block > .contact {
+.hostintroduction-container > .messageblock > .contact {
   color: #01999e;
   margin: 20px 0px;
   border: #01999e solid 2px;
@@ -7010,7 +7010,7 @@ input, select {
   border-radius: 5px;
 }
 
-.entry_method-container {
+.entrymethod-container {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0px 45px 45px 45px;
@@ -7018,12 +7018,12 @@ input, select {
   display: flex;
 }
 @media (max-width: 740px) {
-  .entry_method-container {
+  .entrymethod-container {
     display: initial;
   }
 }
 
-.entry_method-container > .sticky {
+.entrymethod-container > .sticky {
   width: 20vw;
   height: 10vh;
   position: -webkit-sticky;
@@ -7032,32 +7032,32 @@ input, select {
   left: 0;
 }
 @media (max-width: 740px) {
-  .entry_method-container > .sticky {
+  .entrymethod-container > .sticky {
     width: initial;
     position: initial;
   }
 }
 
-.entry_method-container > .sticky > .title {
+.entrymethod-container > .sticky > .title {
   font-size: 30px;
   font-weight: bold;
   min-width: 150px;
   padding-top: 40px;
 }
 @media (max-width: 740px) {
-  .entry_method-container > .sticky > .title {
+  .entrymethod-container > .sticky > .title {
     font-size: 23px;
     padding: 20px 0px 0px 20px;
   }
 }
 
-.entry_method-container > .method_block {
+.entrymethod-container > .methodblock {
   padding-top: 45px;
   padding-left: 100px;
   width: 100%;
 }
 @media (max-width: 740px) {
-  .entry_method-container > .method_block {
+  .entrymethod-container > .methodblock {
     padding-left: 20px;
     width: 90%;
     width: 95%;
@@ -7065,49 +7065,49 @@ input, select {
   }
 }
 
-.entry_method-container > .method_block > .reserved＿block > .title {
+.entrymethod-container > .methodblock > .reserved＿block > .title {
   font-size: 22px;
   font-weight: bold;
   margin: 10px 0px;
 }
 @media (max-width: 740px) {
-  .entry_method-container > .method_block > .reserved＿block > .title {
+  .entrymethod-container > .methodblock > .reserved＿block > .title {
     font-size: 18px;
     margin: 20px 0px;
   }
 }
 
-.entry_method-container > .method_block > .reserved＿block > .details {
+.entrymethod-container > .methodblock > .reserved＿block > .details {
   font-size: 18px;
 }
 
-.video_call-item {
+.videocall-item {
   border-bottom: #cdcdcd solid 1px;
   padding-bottom: 50px;
 }
 
-.video_call-item > .title {
+.videocall-item > .title {
   font-size: 22px;
   font-weight: bold;
   margin: 10px 0px;
 }
 @media (max-width: 740px) {
-  .video_call-item > .title {
+  .videocall-item > .title {
     font-size: 18px;
   }
 }
 
-.video_call-item > .summary {
+.videocall-item > .summary {
   margin: 20px 0px;
   font-size: 18px;
 }
 
-.video_call-item > .summary > .underline {
+.videocall-item > .summary > .underline {
   font-weight: bold;
   text-decoration: underline;
 }
 
-.video_call-item > .description {
+.videocall-item > .description {
   background-color: #f5f5f5;
   padding: 20px;
   border-radius: 10px;
@@ -7115,7 +7115,7 @@ input, select {
   max-width: 800px;
 }
 
-.video_call-item > .description > .pedrofont {
+.videocall-item > .description > .pedrofont {
   font-size: 13px;
   font-weight: bold;
 }
@@ -7149,11 +7149,11 @@ input, select {
   margin-bottom: 30px;
 }
 
-.review-item > .review_information {
+.review-item > .reviewinformation {
   display: flex;
 }
 
-.review-item > .review_information img {
+.review-item > .reviewinformation img {
   border-radius: 50%;
 }
 
@@ -7273,26 +7273,26 @@ input, select {
   color: #01999e;
 }
 
-.review_word-item {
+.reviewword-item {
   margin-left: 20px;
 }
 
-.review_word-item > .review_user {
+.reviewword-item > .reviewuser {
   display: flex;
   font-size: 15px;
 }
 
-.review_word-item > .review_user > .user_name {
+.reviewword-item > .reviewuser > .username {
   font-weight: bold;
   margin-right: 5px;
 }
 
-.review_word-item > .review_user > .review_created {
+.reviewword-item > .reviewuser > .reviewcreated {
   font-size: 13px;
   line-height: 2;
 }
 
-.review_word-item > .reviewstar > .fas {
+.reviewword-item > .reviewstar > .fas {
   color: #01999e;
 }
 
@@ -7355,12 +7355,12 @@ input, select {
   -webkit-overflow-scrolling: touch;
 }
 
-.calendar-container > .calendar_block {
+.calendar-container > .calendarblock {
   display: inline-block;
   padding: 0px 30px;
 }
 
-.calendar-container > .calendar_block > .month {
+.calendar-container > .calendarblock > .month {
   font-size: 18px;
   margin: 0px 0px 20px 15px;
 }
@@ -7469,38 +7469,38 @@ input, select {
   }
 }
 
-.other_trial-container {
+.othertrial-container {
   margin: 0 auto;
   max-width: 1500px;
   padding: 100px 20px;
   border-bottom: #cdcdcd solid 1px;
 }
 
-.other_trial-container > .title {
+.othertrial-container > .title {
   font-size: 30px;
   font-weight: bold;
   color: #3f3f3f;
 }
 
-.other_trial-container > .display_all {
+.othertrial-container > .displayall {
   margin-top: 50px;
   color: #01999e;
   font-weight: bold;
 }
 
-.other_trial-block {
+.othertrial-block {
   margin-top: 30px;
   display: flex;
   overflow-x: auto;
 }
 
-.other_trial-item {
+.othertrial-item {
   height: 100%;
   margin: 0px 7px;
   color: #3f3f3f;
 }
 
-.other_trial-item > .image {
+.othertrial-item > .image {
   background-image: url("../src/image/Chernobyl.png");
   background-size: cover;
   border-radius: 10px;
@@ -7509,25 +7509,25 @@ input, select {
   position: relative;
 }
 @media (max-width: 1440px) {
-  .other_trial-item > .image {
+  .othertrial-item > .image {
     height: 22vw;
     width: 18vw;
   }
 }
 @media (max-width: 1110px) {
-  .other_trial-item > .image {
+  .othertrial-item > .image {
     height: 28vw;
     width: 23vw;
   }
 }
 @media (max-width: 740px) {
-  .other_trial-item > .image {
+  .othertrial-item > .image {
     height: 55vw;
     width: 45vw;
   }
 }
 
-.other_trial-item > .image > .online {
+.othertrial-item > .image > .online {
   background-color: black;
   width: 65px;
   height: 20px;
@@ -7542,7 +7542,7 @@ input, select {
   line-height: 20px;
 }
 
-.other_trial-item > .country {
+.othertrial-item > .country {
   margin: 5px 0px;
   font-size: 12px;
   font-weight: bold;
@@ -7550,46 +7550,46 @@ input, select {
   white-space: pre-wrap;
 }
 
-.other_trial-item > .title {
+.othertrial-item > .title {
   margin-bottom: 6px;
   max-width: 200px;
   white-space: pre-wrap;
 }
 
-.other_trial-item > .price {
+.othertrial-item > .price {
   font-size: 15px;
 }
 
-.other_trial-item > .review {
+.othertrial-item > .review {
   font-size: 12px;
 }
 
-.other_trial-item > .review > .fas {
+.othertrial-item > .review > .fas {
   margin-right: 3px;
 }
 
-.other_trial-item > .review > .reviewcount {
-  color: gray;
+.othertrial-item > .review > .reviewcount {
+  color: #808080;
   margin-left: 3px;
 }
 
-.other_trial-item:nth-child(2) > .image {
+.othertrial-item:nth-child(2) > .image {
   background-image: url("../src/image/farm.png");
 }
 
-.other_trial-item:nth-child(3) > .image {
+.othertrial-item:nth-child(3) > .image {
   background-image: url("../src/image/zazen.png");
 }
 
-.other_trial-item:nth-child(4) > .image {
+.othertrial-item:nth-child(4) > .image {
   background-image: url("../src/image/gogh.png");
 }
 
-.other_trial-item:nth-child(5) > .image {
+.othertrial-item:nth-child(5) > .image {
   background-image: url("../src/image/yagi.png");
 }
 
-.other_trial-item:nth-child(6) > .image {
+.othertrial-item:nth-child(6) > .image {
   background-image: url("../src/image/table.png");
 }
 
@@ -7638,7 +7638,7 @@ input, select {
 .link-nav > .linklist {
   font-size: 14px;
   list-style: none;
-  color: gray;
+  color: #808080;
   line-height: 35px;
 }
 @media (max-width: 1130px) {
@@ -7782,7 +7782,7 @@ input, select {
 
 .fixed-footer > .fixedleft > .reviewcount {
   font-size: 10px;
-  color: gray;
+  color: #808080;
 }
 
 .fixed-footer > .fixedright {
@@ -7854,7 +7854,7 @@ input, select {
 @media (max-width: 1130px) {
   .fixed-footer > .minileft > .review > .no1235 {
     font-size: 10px;
-    color: gray;
+    color: #808080;
   }
 }
 
@@ -7886,7 +7886,7 @@ input, select {
 }
 
 @media (max-width: 740px) {
-  .small_header-container {
+  .smallheader-container {
     background-color: #fff;
     height: 20px;
     padding: 20px 20px;
@@ -7897,21 +7897,21 @@ input, select {
 }
 
 @media (max-width: 740px) {
-  .small_header-container > .return_link {
+  .smallheader-container > .returnlink {
     font-size: 14px;
     font-weight: bold;
   }
 }
 
 @media (max-width: 740px) {
-  .small_header-container > .register {
-    color: gray;
+  .smallheader-container > .register {
+    color: #808080;
     font-size: 17px;
   }
 }
 
 @media (max-width: 740px) {
-  .small_header-container > .register > .fas {
+  .smallheader-container > .register > .fas {
     margin-right: 15px;
   }
 }
@@ -8189,99 +8189,6 @@ input, select {
   }
 }
 
-.responsive-form > .responsive-miniform {
-  display: flex;
-}
-@media (max-width: 740px) {
-  .responsive-form > .responsive-miniform {
-    display: initial;
-  }
-}
-
-.responsive-form > .responsive-miniform > .responsivecharter {
-  position: relative;
-  width: 60%;
-  margin-right: 20px;
-}
-@media (max-width: 740px) {
-  .responsive-form > .responsive-miniform > .responsivecharter {
-    position: relative;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-}
-
-.responsive-form > .responsive-miniform > .responsivecharter > input {
-  height: 40px;
-  font-size: 16px;
-  width: 100%;
-  border: solid 1px #cdcdcd;
-}
-@media (max-width: 740px) {
-  .responsive-form > .responsive-miniform > .responsivecharter > input {
-    height: 30px;
-    font-size: 14px;
-    width: 100%;
-    border: solid 1px #cdcdcd;
-  }
-}
-
-.responsive-form > .responsive-miniform > .responsivecharter > .fas {
-  position: absolute;
-  top: 10px;
-  right: 5px;
-  font-size: 30px;
-}
-@media (max-width: 740px) {
-  .responsive-form > .responsive-miniform > .responsivecharter > .fas {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 25px;
-  }
-}
-
-.responsive-form > .responsive-miniform > .responsiveguestpeople {
-  position: relative;
-  width: 35.5%;
-}
-@media (max-width: 740px) {
-  .responsive-form > .responsive-miniform > .responsiveguestpeople {
-    position: relative;
-    width: 100%;
-  }
-}
-
-.responsive-form > .responsive-miniform > .responsiveguestpeople > input {
-  height: 40px;
-  font-size: 16px;
-  width: 100%;
-  border: solid 1px #cdcdcd;
-}
-@media (max-width: 740px) {
-  .responsive-form > .responsive-miniform > .responsiveguestpeople > input {
-    height: 30px;
-    font-size: 14px;
-    width: 100%;
-    border: solid 1px #cdcdcd;
-  }
-}
-
-.responsive-form > .responsive-miniform > .responsiveguestpeople > .fas {
-  position: absolute;
-  top: 10px;
-  right: 5px;
-  font-size: 30px;
-}
-@media (max-width: 740px) {
-  .responsive-form > .responsive-miniform > .responsiveguestpeople > .fas {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 25px;
-  }
-}
-
 .responsive-form > .startbtn {
   font-size: 14px;
   color: #fff;
@@ -8300,127 +8207,127 @@ input, select {
   padding: 20px 30px 100px 30px;
 }
 
-.opening_description {
+.openingdescription {
   display: flex;
   margin-top: 50px;
 }
 @media (max-width: 1130px) {
-  .opening_description {
+  .openingdescription {
     display: initial;
   }
 }
 
-.opening_description > .why_host {
+.openingdescription > .whyhost {
   padding: 0px 20px;
   color: #3f3f3f;
 }
 
-.opening_description > .why_host > .title {
+.openingdescription > .whyhost > .title {
   font-size: 23px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.opening_description > .why_host > .summary {
+.openingdescription > .whyhost > .summary {
   width: 85%;
   font-size: 16px;
   line-height: 1.75;
 }
 @media (max-width: 1130px) {
-  .opening_description > .why_host > .summary {
+  .openingdescription > .whyhost > .summary {
     width: initial;
     margin-bottom: 50px;
   }
 }
 
-.opening_description > .warranty {
+.openingdescription > .warranty {
   padding: 0px 20px;
   color: #3f3f3f;
 }
 
-.opening_description > .warranty > .title {
+.openingdescription > .warranty > .title {
   font-size: 23px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.opening_description > .warranty > .summary {
+.openingdescription > .warranty > .summary {
   width: 100%;
   font-size: 16px;
   line-height: 1.75;
 }
 
-.three_segmentation {
+.threesegmentation {
   margin-top: 70px;
   color: #3f3f3f;
 }
 
-.three_segmentation > .title {
+.threesegmentation > .title {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
   margin-bottom: 50px;
 }
 @media (max-width: 1130px) {
-  .three_segmentation > .title {
+  .threesegmentation > .title {
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 50px;
   }
 }
 @media (max-width: 740px) {
-  .three_segmentation > .title {
+  .threesegmentation > .title {
     text-align: left;
   }
 }
 
-.three_segmentation > .summary_block {
+.threesegmentation > .summaryblock {
   display: flex;
 }
 @media (max-width: 1130px) {
-  .three_segmentation > .summary_block {
+  .threesegmentation > .summaryblock {
     display: initial;
   }
 }
 
-.three_segmentation > .summary_block > .summary {
+.threesegmentation > .summaryblock > .summary {
   width: 30%;
   margin-right: 40px;
   line-height: 1.75;
 }
 @media (max-width: 1130px) {
-  .three_segmentation > .summary_block > .summary {
+  .threesegmentation > .summaryblock > .summary {
     width: initial;
     margin-bottom: 50px;
   }
 }
 
-.three_segmentation > .summary_block > .summary > .far {
+.threesegmentation > .summaryblock > .summary > .far {
   font-size: 50px;
 }
 
-.three_segmentation > .summary_block > .summary > .title {
+.threesegmentation > .summaryblock > .summary > .title {
   font-size: 25px;
   margin-top: 20px;
   font-weight: bold;
 }
 @media (max-width: 1130px) {
-  .three_segmentation > .summary_block > .summary > .title {
+  .threesegmentation > .summaryblock > .summary > .title {
     margin-top: initial;
   }
 }
 
-.three_segmentation > .summary_block > .summary > .text {
+.threesegmentation > .summaryblock > .summary > .text {
   font-size: 17px;
   margin-top: 20px;
 }
 @media (max-width: 1130px) {
-  .three_segmentation > .summary_block > .summary > .text {
+  .threesegmentation > .summaryblock > .summary > .text {
     margin-top: initial;
   }
 }
 
-.three_segmentation > .summary_block > .summary > .green {
+.threesegmentation > .summaryblock > .summary > .green {
   color: #01999e;
   padding-top: 10px;
 }
@@ -8435,41 +8342,41 @@ input, select {
   }
 }
 
-.dennis-container > .interview_block {
+.dennis-container > .interviewblock {
   width: 43%;
   margin-right: 50px;
   color: #606060;
 }
 @media (max-width: 740px) {
-  .dennis-container > .interview_block {
+  .dennis-container > .interviewblock {
     width: 100%;
   }
 }
 
-.dennis-container > .interview_block > .interview {
+.dennis-container > .interviewblock > .interview {
   font-size: 33px;
   line-height: 1.25;
 }
 @media (max-width: 740px) {
-  .dennis-container > .interview_block > .interview {
+  .dennis-container > .interviewblock > .interview {
     font-size: 18px;
     line-height: 1.25;
     width: 100%;
   }
 }
 
-.dennis-container > .interview_block > .summary {
+.dennis-container > .interviewblock > .summary {
   margin-top: 15px;
   color: #a0a0a0;
 }
 @media (max-width: 740px) {
-  .dennis-container > .interview_block > .summary {
+  .dennis-container > .interviewblock > .summary {
     font-size: 14px;
     width: 100%;
   }
 }
 
-.dennis-container > .interview_block > .btn {
+.dennis-container > .interviewblock > .btn {
   margin-top: 10px;
   color: #3f3f3f;
   margin: 20px 0px;
@@ -8481,17 +8388,17 @@ input, select {
 }
 
 @media (max-width: 740px) {
-  .dennis-container > .interview_block > .icon {
+  .dennis-container > .interviewblock > .icon {
     font-size: 10px;
   }
 }
 
-.dennis-container > .interview_image > img {
+.dennis-container > .interviewimage > img {
   width: 525px;
   height: 500px;
 }
 @media (max-width: 740px) {
-  .dennis-container > .interview_image > img {
+  .dennis-container > .interviewimage > img {
     width: initial;
     height: initial;
     max-width: 600px;
@@ -8524,7 +8431,7 @@ input, select {
   }
 }
 
-.safety-container > .massage_image {
+.safety-container > .massageimage {
   margin: 50px auto;
   text-align: center;
 }
@@ -8562,17 +8469,110 @@ input, select {
   }
 }
 
-.check_list-item {
+.checklist-item {
   margin-right: 150px;
 }
 
-.check_list-item > .list {
+.checklist-item > .list {
   display: flex;
 }
 
-.check_list-item > .list > .fas {
+.checklist-item > .list > .fas {
   color: #01999e;
   font-size: 18px;
   margin-right: 15px;
   margin-bottom: 25px;
+}
+
+.responsive-miniform {
+  display: flex;
+}
+@media (max-width: 740px) {
+  .responsive-miniform {
+    display: initial;
+  }
+}
+
+.responsive-miniform > .responsivecharter {
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+@media (max-width: 740px) {
+  .responsive-miniform > .responsivecharter {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.responsive-miniform > .responsivecharter > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+}
+@media (max-width: 740px) {
+  .responsive-miniform > .responsivecharter > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+}
+
+.responsive-miniform > .responsivecharter > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+@media (max-width: 740px) {
+  .responsive-miniform > .responsivecharter > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
+}
+
+.responsive-miniform > .responsiveguestpeople {
+  position: relative;
+  width: 35.5%;
+}
+@media (max-width: 740px) {
+  .responsive-miniform > .responsiveguestpeople {
+    position: relative;
+    width: 100%;
+  }
+}
+
+.responsive-miniform > .responsiveguestpeople > input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border: solid 1px #cdcdcd;
+}
+@media (max-width: 740px) {
+  .responsive-miniform > .responsiveguestpeople > input {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+  }
+}
+
+.responsive-miniform > .responsiveguestpeople > .fas {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+@media (max-width: 740px) {
+  .responsive-miniform > .responsiveguestpeople > .fas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+  }
 }

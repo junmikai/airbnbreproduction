@@ -8,7 +8,7 @@
   text-decoration:none;
   font-weight: bold;
   font-size:14px;
-  color:$light-black;
+  color:$dark-engine;
   
 }
 
@@ -22,6 +22,6 @@
 
 .header-nav >.signup{
   border-radius: 20px;
-  box-shadow:$black-shadow;
+  box-shadow:0 0 10px $brainstem-grey;
   background-color:$white;
 }

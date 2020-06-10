@@ -5,16 +5,16 @@ $(function() {
 //トップから50pxスクロールするとヘッダーが固定される
 $( window ).on( 'scroll', function() {
   if ( 50 < jQuery( this ).scrollTop() ) { 
-    $( '.fixed_header-container' ).show();
+    $( '.fixedheader-container' ).show();
   } else {
-    $( '.fixed_header-container' ).hide();
+    $( '.fixedheader-container' ).hide();
   }
 
 
   if ( 1000 < $( this ).scrollTop() ) { 
-    $( '.fixed_header-container' ).show();
+    $( '.fixedheader-container' ).show();
   } else {
-    $( '.fixed_header-container' ).hide();
+    $( '.fixedheader-container' ).hide();
   }
   
 });

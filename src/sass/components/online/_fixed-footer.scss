@@ -1,7 +1,7 @@
 .fixed-footer{
   height:70px;
   width:100%;
-  border-top:$bodergray solid 1px;
+  border-top:$compact-disc-grey solid 1px;
   position: absolute;
   position: fixed;
   bottom: 0;
@@ -37,12 +37,12 @@
 .fixed-footer > .fixedleft > .review{
   font-size:10px;
   font-weight: bold;
-  color:$light-green;
+  color:$green-riviera-paradise;
 }
 
 .fixed-footer > .fixedleft > .reviewcount{
   font-size:10px;
-  color:$gray;
+  color:$grey;
 }
 
 .fixed-footer > .fixedright{
@@ -59,7 +59,7 @@
 }
 
 .fixed-footer > .fixedright > .daybtn{
-  background-color:$wine;
+  background-color:$red-pelati;
   color:$white;
   font-weight: bold;
   text-align: center;
@@ -90,7 +90,7 @@
 
 .fixed-footer > .minileft > .review{
   @media (max-width: 1130px){
-  color:$light-green;
+  color:$green-riviera-paradise;
   display: flex;
   }
 }
@@ -110,7 +110,7 @@
 .fixed-footer > .minileft > .review > .no1235{
   @media (max-width: 1130px){
   font-size:10px;
-  color:$gray;
+  color:$grey;
   }
 }
 
@@ -119,7 +119,7 @@
     display: none;
   }
   @media (max-width: 1130px){
-  background-color:$wine;
+  background-color:$red-pelati;
   color:$white;
   font-weight: bold;
   text-align: center;

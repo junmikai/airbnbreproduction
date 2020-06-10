@@ -1,15 +1,15 @@
-.entry_method-container{
+.entrymethod-container{
   margin:0 auto;
   max-width:1200px;
   padding:0px 45px 45px 45px;
-  color:$light-black;
+  color:$dark-engine;
   display: flex;
   @media (max-width: 740px){
     display: initial;
   }
 }
 
-.entry_method-container > .sticky{
+.entrymethod-container > .sticky{
   width: 20vw;
   height: 10vh;
   position: -webkit-sticky; 
@@ -22,7 +22,7 @@
   } 
 }
 
-.entry_method-container > .sticky > .title{
+.entrymethod-container > .sticky > .title{
   font-size:30px;
   font-weight: bold;
   min-width:150px;
@@ -33,7 +33,7 @@
   }
 }
 
-.entry_method-container > .method_block{
+.entrymethod-container > .methodblock{
   padding-top:45px;
   padding-left:100px;
   width:100%;
@@ -45,7 +45,7 @@
   }
 }
 
-.entry_method-container > .method_block >.reserved＿block > .title{
+.entrymethod-container > .methodblock >.reserved＿block > .title{
   font-size:22px;
   font-weight: bold;
   margin:10px 0px;
@@ -55,6 +55,6 @@
   }
 }
 
-.entry_method-container > .method_block >.reserved＿block > .details{
+.entrymethod-container > .methodblock >.reserved＿block > .details{
   font-size:18px;
 }

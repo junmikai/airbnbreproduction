@@ -5,8 +5,8 @@
 }
 
 .catchcopy-container > .catchcopy {
-  color:$catchcopystart;
-  background: -webkit-linear-gradient(0deg,$catchcopystart,$catchcopyend);
+  color:$red-wine-grape;
+  background: -webkit-linear-gradient(0deg,$red-wine-grape,$red-rose-rush);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   @media (max-width: 1920px) {

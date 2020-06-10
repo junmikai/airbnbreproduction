@@ -1,0 +1,24 @@
+.icon-item{
+  display: flex;
+  text-align: center;
+  margin:20px auto;
+  text-align: center;
+}
+
+.icon-item >.icon{
+  width:33%;
+}
+
+.icon-item >.icon > .far{
+  font-size:25px;
+  color:$grey;
+}
+
+.icon-item >.icon >.fab{
+  font-size:25px;
+  color:$grey;
+}
+
+.icon-item >.icon >.summary{
+  font-size:10px;
+}

@@ -44,7 +44,7 @@
     font-size:14px;
     color:$white;
     border-radius: 5px;
-    background-color:$btn-red;
+    background-color:$red-spanish-crimson;
     height:50px;
     line-height:50px;
     width:125px;
@@ -70,14 +70,14 @@
   display:flex;
   max-width:1100px;
   margin:300px auto;
-  color:$light-60;
+  color:$black-kettleman;
   @import "../components/components.trial";
 }
 // 流れ/上部
 .section-layout > .flow{
   max-width:1000px;
   margin:300px auto;
-  color:$light-60;
+  color:$black-kettleman;
   >.flowtitle{
     font-weight: bold;
     font-size:45px;
@@ -96,10 +96,10 @@
   @import "../components/components.trial";
   >.create{
     margin:50px auto;
-    border:$light-black solid 2px;
+    border:$dark-engine solid 2px;
     padding:15px;
     width:160px;
-    color:$light-black;
+    color:$dark-engine;
     font-weight: bold;
     border-radius:5px;
   }
@@ -108,7 +108,7 @@
 // 自分の世界/上部
 .section-layout >.myworld{
   margin:0 auto;
-  color:$light-60;
+  color:$black-kettleman;
   >.myworldtitle{
     font-weight: bold;
     font-size:45px;
@@ -125,10 +125,10 @@
   }
   >.allshow{
     margin:50px auto;
-    border:$light-black solid 2px;
+    border:$dark-engine solid 2px;
     padding:15px;
     width:200px;
-    color:$light-black;
+    color:$dark-engine;
     font-weight: bold;
     border-radius:5px;
   }
@@ -144,7 +144,7 @@
 // サポート
 .section-layout > .support{
   margin:0 auto;
-  color:$light-60;
+  color:$black-kettleman;
   max-width:1200px;
   @import "../components/components.trial";
   >.supporttitle{

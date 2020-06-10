@@ -36,10 +36,11 @@
 @import "components/index/_small-image";
 @import "components/index/_middle-image";
 @import "components/index/hiding-footer";
+@import "components/index/_icon-item";
 
-@import "components/online/_fixed_header-container";
+@import "components/online/_fixedheader-container";
 @import "components/online/_blackbox-container";
-@import "components/online/_secondary_header-container";
+@import "components/online/_secondaryheader-container";
 @import "components/online/_shortsearch-block";
 @import "components/online/_short_header-nav";
 @import "components/online/_image-container";
@@ -47,13 +48,13 @@
 @import "components/online/_commentary-container";
 @import "components/online/_commentary-block";
 @import "components/online/_overview-block";
-@import "components/online/_can_possible-container";
+@import "components/online/_canpossible-container";
 @import "components/online/_challenging-container";
-@import "components/online/summary-block";
-@import "components/online/_host_introduction-container";
+@import "components/online/_summary-block";
+@import "components/online/_hostintroduction-container";
 @import "components/online/_belongings-container";
-@import "components/online/_entry_method-container";
-@import "components/online/video_call-item";
+@import "components/online/_entrymethod-container";
+@import "components/online/videocall-item";
 @import "components/online/_guest-review";
 @import "components/online/_review-block";
 @import "components/online/_review-item";
@@ -65,9 +66,9 @@
 @import "components/online/_note-container";
 @import "components/online/_note-texts";
 @import "components/online/_note-list";
-@import "components/online/_other_trial-container";
-@import "components/online/_other_trial-block";
-@import "components/online/_other_trial-item";
+@import "components/online/_othertrial-container";
+@import "components/online/_othertrial-block";
+@import "components/online/_othertrial-item";
 @import "components/online/_online-link";
 @import "components/online/_link-nav";
 @import "components/online/_footer-container";
@@ -84,11 +85,15 @@
 @import "components/homes/_mini-form";
 @import "components/homes/_responsive-form";
 @import "components/homes/_whitespace-container";
-@import "components/homes/_opening_description";
-@import "components/homes/three_segmentation";
+@import "components/homes/_openingdescription";
+@import "components/homes/threesegmentation";
 @import "components/homes/dennis-container";
 @import "components/homes/_safety-container";
 @import "components/homes/_safety-block";
-@import "components/homes/_check_list-item";
+@import "components/homes/_checklist-item";
+@import "components/homes/_responsive-miniform";
+
+
+
 
 

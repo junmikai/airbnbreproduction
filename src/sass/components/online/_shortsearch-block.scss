@@ -1,9 +1,9 @@
 .shortsearch-block{
   display: flex;
   height:45px;
-  background-color:$explanation;
+  background-color:$black-nero;
   border-radius: 15px;
-  color:$light-gray;
+  color:$white-smoke;
   font-size:14px;
   width:280px;
   z-index: 1;
@@ -11,7 +11,7 @@
 
 .shortsearch-block > .form{
   width:40%;
-  border-right: thin solid $bodergray;
+  border-right: thin solid $compact-disc-grey;
   text-align: center;
   line-height:45px;
 }

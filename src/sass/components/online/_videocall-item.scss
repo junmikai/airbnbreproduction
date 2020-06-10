@@ -1,9 +1,9 @@
-.video_call-item{
-  border-bottom:$bodergray solid 1px;
+.videocall-item{
+  border-bottom:$compact-disc-grey solid 1px;
   padding-bottom:50px;
 }
 
-.video_call-item >.title{
+.videocall-item >.title{
   font-size:22px;
   font-weight: bold;
   margin:10px 0px;
@@ -12,25 +12,25 @@
   }
 }
 
-.video_call-item > .summary{
+.videocall-item > .summary{
   margin:20px 0px;
   font-size:18px;
 }
 
-.video_call-item > .summary > .underline{
+.videocall-item > .summary > .underline{
   font-weight:bold;
   text-decoration: underline
 }
 
-.video_call-item > .description{
-  background-color:$light-gray;
+.videocall-item > .description{
+  background-color:$white-smoke;
   padding:20px;
   border-radius: 10px;
   font-size:15px;
   max-width:800px;
 }
 
-.video_call-item > .description > .pedrofont{
+.videocall-item > .description > .pedrofont{
   font-size:13px;
   font-weight: bold;
 }

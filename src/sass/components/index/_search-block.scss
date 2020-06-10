@@ -5,56 +5,56 @@
   padding:13px 10px;
   background-color:$white;
   border-radius: 10px;
-  box-shadow:$black-shadow;
+  box-shadow:0 0 10px $brainstem-grey;
   display: flex;
 }
 
-.search-block > .search_form{
+.search-block > .searchform{
   width:30%;
   border-right: thin solid;
   height: 40px;
   margin:3px 0px 0px 19px;
 }
 
-.search_form:nth-child(3){
+.searchform:nth-child(3){
   border-right:initial;
 }
 
-.search-block > .search_form > .title{
+.search-block > .searchform > .title{
   font-size:5px;
   font-weight:bold;
   margin-bottom:2px;
 }
 
-.search-block > .search_form > .notes{
+.search-block > .searchform > .notes{
   font-size:14px;
-  color:$gray;
+  color:$grey;
 }
 
-.btn.search_form{
+.btn.searchform{
   width:40%;
   display: flex;
   justify-content:space-between;
 }
 
-.btn.search_form > .tertiary_label >.title{
+.btn.searchform > .tertiarylabel >.title{
   font-size:5px;
   font-weight:bold;
   margin-bottom:2px;
 }
 
-.btn.search_form > .tertiary_label > .notes{
+.btn.searchform > .tertiarylabel > .notes{
   font-size:14px;
-  color:$gray;
+  color:$grey;
 }
 
-.btn.search_form > .btn_item{
+.btn.searchform > .btnitem{
   margin-top:-5px;
   margin-right:5px;
 }
 
-.btn.search_form > .btn_item > .btn{
-  background: -webkit-linear-gradient(0deg,$catchcopyend,$wine);
+.btn.searchform > .btnitem > .btn{
+  background: -webkit-linear-gradient(0deg,$red-rose-rush,$red-pelati);
   color:$white;
   width:75px;
   height:25px;
@@ -65,7 +65,7 @@
   line-height:25px;
 }
 
-.btn.search_form > .btn_item > .fa-search{
+.btn.searchform > .btnitem > .fa-search{
   margin-right:5px;
 }
 

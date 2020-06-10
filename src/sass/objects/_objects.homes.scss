@@ -22,13 +22,13 @@
 // シェアデータ
 .section-layout > .container  > .whitespace-container > .hostshare{
   margin-top:100px;
-  color:$light-black;
+  color:$dark-engine;
   @import "../components/components.homes";
 }
 
 // Airbnbについて
 .section-layout > .container  > .whitespace-container > .about{
-  color:$light-black;
+  color:$dark-engine;
   @import "../components/components.homes";
 }
 
@@ -39,7 +39,7 @@
 // ホスティング
 .section-layout > .container  > .whitespace-container > .hosting{
   @import "../components/components.homes";
-  color:$light-black;  
+  color:$dark-engine;  
 }
 // リスティング
 .section-layout > .container  > .listing{
