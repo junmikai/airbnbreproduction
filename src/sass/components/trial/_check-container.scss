@@ -1,0 +1,55 @@
+.check-container{
+  background-image:url("../src/image/checkimmediately.png");
+  background-size:cover;
+  width:100vw;
+  height:50vw;
+  position: relative;
+  margin-top:200px;
+  @media(max-width: 740px){
+    background-image:url("../src/image/checkimmediately_zoom.png");
+    height:800px
+  }
+}
+
+.check-container > .title{
+  position: absolute;
+  top:22vw;
+  left:30vw;
+  font-size:57px;
+  font-weight: bold;
+  color:$white;
+  width:45vw;
+  text-align: center;
+  @media(max-width: 1130px){
+    font-size:40px;
+  }
+  @media(max-width: 740px){
+    top:50vw;
+    width:80%;
+    left:10vw;
+    font-size:37.5px;
+    margin:0 auto;
+  }
+}
+
+.check-container > .btn{
+  position: absolute;
+  top:33vw;
+  left:46vw;
+  color:$white;
+  font-weight: bold;
+  text-align: center;
+  width:150px;
+  height:40px;
+  line-height:40px;
+  border: solid 1px $white;
+  border-radius: 5px;
+  cursor: pointer;
+  @media(max-width: 1130px){
+   left:44vw;
+  }
+  @media(max-width: 740px){
+    top:60vw;
+    left:40vw;
+  }
+}

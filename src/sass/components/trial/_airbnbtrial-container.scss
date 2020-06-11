@@ -1,0 +1,94 @@
+.airbnbtrial-container{
+  margin:0 auto;
+  text-align: center;
+  @media (max-width:741px){
+    margin:initial;
+    float:left;
+    width:95%;
+  }
+}
+
+.airbnbtrial-container > .smalltitle{
+  font-weight: bold;
+  font-size:14px;
+  margin-bottom:10px;
+  color:$black-pig-iron;
+  @media (max-width:741px){
+    font-weight: bold;
+    font-size:14px;
+    text-align: left;
+  }
+}
+
+.airbnbtrial-container > .largetitle{
+  font-weight: bold;
+  font-size:60px;
+  color:$black-carbon;
+  @media (max-width: 1130px){
+    font-size:40px;
+    width:670px;
+    margin:0 auto;
+  }
+  @media (max-width:741px){
+    font-weight: bold;
+    font-size:40px;
+    width:100%;
+    text-align: left;
+  }
+}
+
+.airbnbtrial-container > .entry{
+  font-size:25px;
+  width:65%;
+  margin:50px auto;
+  color:$black-pig-iron;
+  @media (max-width: 1130px){
+    font-size:20px;
+    width:100%;
+  }
+  @media (max-width:741px){
+    font-size:20px;
+    text-align: left;
+    width:100%;
+    margin:10px;
+  }
+}
+
+.airbnbtrial-container >.gap{
+  height:58px;
+  width:133px;
+  margin:50px auto;
+  border-radius: 5px;
+}
+
+.airbnbtrial-container >.gap:hover{
+  border:1px solid $black;
+}
+
+
+.airbnbtrial-container >.gap > .btn{
+  font-size:14px;
+  color:$white;
+  border-radius: 5px;
+  background-color:$fusion-red;
+  height:50px;
+  line-height:50px;
+  width:125px;
+  font-weight: bold;
+  cursor: pointer;
+  margin:3.5px auto;
+  @media (max-width:741px){
+    font-size:14px;
+    color:$white;
+    border-radius: 5px;
+    height:50px;
+    line-height:50px;
+    width:125px;
+    margin:initial;
+  }
+}
+
+.airbnbtrial-container > .gap > .btn:hover{
+  transition-duration: 0.5s;
+  background-color:$red-rusty-chainmail;
+}

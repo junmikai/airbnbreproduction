@@ -69,13 +69,13 @@
 
 .responsive-miniform >.responsiveguestpeople >.fas {
   position: absolute;
-  top:10px;
-  right:5px;
+  top:5px;
+  right:10px;
   font-size:30px;
   @media (max-width: 740px){
     position: absolute;
-    top:10px;
-    right:5px;
+    top:5px;
+    right:10px;
     font-size:25px;
   }
 }

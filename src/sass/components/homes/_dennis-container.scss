@@ -1,3 +1,11 @@
+.dennis-container {
+  margin-top:100px;
+  display: flex;
+  @media (max-width: 740px){
+    flex-direction: column-reverse;
+  }
+}
+
 .secondary.dennis-container {
   margin-top:100px;
   display: flex;
@@ -10,18 +18,18 @@
   width:43%;
   margin:0px 50px;
   color:$black-kettleman;
-  @media (min-width:741px) and (max-width: 1130px){
+  @media (max-width: 1130px){
     margin-right:20px;
   }
   @media (max-width: 740px){
-    width:100%;
+    width:95%;
   }
 }
 
 .dennis-container > .interviewblock > .interview{
   font-size:33px;
   line-height:1.25;
-  @media (min-width:741px) and (max-width: 1130px){
+  @media (max-width: 1130px){
     font-size:18px;
     line-height:1.25;
     width:100%;
@@ -36,7 +44,7 @@
 .dennis-container > .interviewblock > .summary{
   margin-top:15px;
   color:$su-nezumi-grey;
-  @media (min-width:741px) and (max-width: 1130px){
+  @media  (max-width: 1130px){
     font-size:14px;
     width:100%;
   }
@@ -66,7 +74,7 @@
 .dennis-container > .interviewimage > img{
   width: 525px; 
   height: 500px;
-  @media (min-width:741px) and (max-width: 1130px){
+  @media (max-width: 1130px){
     width: 350px; 
     height: 350px;
   }

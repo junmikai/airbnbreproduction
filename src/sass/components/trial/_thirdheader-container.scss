@@ -1,0 +1,12 @@
+.thirdheader-container{
+  height:200px;
+  position: relative;
+}
+
+.thirdheader-container > .fab{
+  font-size:35px;
+  color:$red;
+  position: absolute;
+  top:20px;
+  left:20px;
+}
