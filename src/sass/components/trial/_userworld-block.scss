@@ -19,6 +19,7 @@
 .userworld-block > .list > .image{
   height:30vw;
   width:30vw;
+  cursor: pointer;
   @media (max-width: 740px) {
     height:93vw;
     width:93vw;
@@ -43,6 +44,7 @@
 .userworld-block > .list > .green{
   color:$green-riviera-paradise;
   margin-top:10px;
+  cursor: pointer;
   @media (max-width: 740px) {
     margin-top:initial;
     margin-bottom:30px;

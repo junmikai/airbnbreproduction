@@ -34,8 +34,8 @@
 
 .check-container > .btn{
   position: absolute;
-  top:35vw;
-  left:42vw;
+  top:33vw;
+  left:46vw;
   color:$white;
   font-weight: bold;
   text-align: center;
@@ -44,8 +44,12 @@
   line-height:40px;
   border: solid 1px $white;
   border-radius: 5px;
+  cursor: pointer;
+  @media(max-width: 1130px){
+   left:44vw;
+  }
   @media(max-width: 740px){
-    top:70vw;
+    top:60vw;
     left:40vw;
   }
 }

@@ -54,7 +54,19 @@
   }
 }
 
-.airbnbtrial-container > .btn{
+.airbnbtrial-container >.gap{
+  height:58px;
+  width:133px;
+  margin:50px auto;
+  border-radius: 5px;
+}
+
+.airbnbtrial-container >.gap:hover{
+  border:1px solid $black;
+}
+
+
+.airbnbtrial-container >.gap > .btn{
   font-size:14px;
   color:$white;
   border-radius: 5px;
@@ -62,8 +74,9 @@
   height:50px;
   line-height:50px;
   width:125px;
-  margin:50px auto;
   font-weight: bold;
+  cursor: pointer;
+  margin:3.5px auto;
   @media (max-width:741px){
     font-size:14px;
     color:$white;
@@ -73,4 +86,9 @@
     width:125px;
     margin:initial;
   }
+}
+
+.airbnbtrial-container > .gap > .btn:hover{
+  transition-duration: 0.5s;
+  background-color:$red-rusty-chainmail;
 }

@@ -36,4 +36,12 @@
     display: none;
   }
 }
-  
+
+.footericon-block  > .iconcontact > .hover:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+.footericon-block  > .iconitem > .hover:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}

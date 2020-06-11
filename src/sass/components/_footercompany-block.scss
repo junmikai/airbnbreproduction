@@ -1,5 +1,6 @@
 .footercompany-block {
   font-size:13px;
+  line-height:1.5;
   @media (max-width: 740px){
     padding:20px 0px 0px 30px;
   }
@@ -7,4 +8,10 @@
 
 .footercompany-block > .point{
   padding:0px 8px;
+}
+
+.footercompany-block >.hover:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  text-decoration: underline;
 }
