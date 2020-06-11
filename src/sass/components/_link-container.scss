@@ -8,14 +8,15 @@
     display: inline-block;
     width:100%;
     color:$dark-engine;
+    border-bottom:initial;
   }
 }
 
-.link-container > .link-block{
+.link-container > .linkblock{
   width:25%;
   padding:30px;
   @media(max-width: 1130px){
-    width:90%;
+    width:85%;
     border-bottom:solid 1px $compact-disc-grey;
     margin:20px;
     padding-bottom:20px;
@@ -23,7 +24,7 @@
   }
 }
 
-.link-container > .link-block >.title{
+.link-container > .linkblock >.title{
   font-weight:bold;
   font-size:12px;
   margin-bottom:10px;

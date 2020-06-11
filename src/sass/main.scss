@@ -3,16 +3,16 @@
 @import "generic/_generic.reset";
 
 @import "objects/_objects.body";
-@import "objects/_objects.trial";
-@import "objects/_objects.trial-responsive";
 
 @import "components/_information-container";
 @import "components/_information-nav";
 @import "components/_link-container";
 @import "components/_link-nav";
 @import "components/_footer-container";
-@import "components/_company-block";
-@import "components/_icon-block";
+@import "components/_footercompany-block";
+@import "components/_footericon-block";
+@import "components/_question-container";
+@import "components/_question-nav";
 
 @import "components/index/_covid-container";
 @import "components/index/_header-container";
@@ -90,10 +90,43 @@
 @import "components/homes/_sharedream-container";
 @import "components/homes/_about-container";
 @import "components/homes/_about-block";
-@import "components/homes/_question-container";
 @import "components/homes/_hosting-container";
 @import "components/homes/_hosting-block";
 @import "components/homes/_listing-container";
+
+@import "components/trial/_thirdheader-container";
+@import "components/trial/_airbnbtrial-container";
+@import "components/trial/_groupphoto-container";
+@import "components/trial/_workdescription-container";
+@import "components/trial/_process-container";
+@import "components/trial/_flow-container";
+@import "components/trial/_procedure-block";
+@import "components/trial/_procedure-item";
+@import "components/trial/_userworld-container";
+@import "components/trial/_userworld-block";
+@import "components/trial/_support-container";
+@import "components/trial/_support-block";
+@import "components/trial/_check-container";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

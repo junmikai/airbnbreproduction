@@ -2,7 +2,6 @@
   display: flex;
   justify-content:space-between;
   padding:30px 50px 50px 100px;
-  border-top: solid 1px $compact-disc-grey;
   color:$dark-engine;
   height:auto;
   background-color:$white-smoke;  
@@ -11,12 +10,10 @@
     padding:30px 100px;
     margin:0 auto;
     text-align: center;
-    border-top:initial;
   }
   @media (max-width: 740px){
     position: relative;
     text-align:initial;
-    border-top:initial;
   }
 }
 
@@ -24,7 +21,6 @@
   display: flex;
   justify-content:space-between;
   padding:30px 50px 100px 100px;
-  border-top: solid 1px $compact-disc-grey;
   color:$dark-engine;
   height:auto;
   background-color:$white-smoke; 
@@ -33,13 +29,11 @@
    flex-wrap :wrap-reverse;
    margin:0 auto;
    text-align: center;
-   border-top:initial;
   }
   @media (max-width: 740px){
    padding:30px 50px 100px 100px;
    position: relative;
    text-align:initial;
-   border-top:initial;
   }
 }
 

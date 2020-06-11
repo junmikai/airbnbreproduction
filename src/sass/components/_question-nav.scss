@@ -1,0 +1,18 @@
+.question-nav{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.question-nav > .list{
+  width:48%;
+  list-style: none; 
+  font-size:18px;
+  color:$green-riviera-paradise;
+  padding:30px 0px;
+  margin:0px 10px;
+  border-bottom:$compact-disc-grey solid 1px;
+  @media(max-width: 1130px){
+    width:95%;
+    font-size:15px;
+  }
+}

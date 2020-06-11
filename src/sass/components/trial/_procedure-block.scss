@@ -1,0 +1,45 @@
+ .procedure{
+  display: flex;
+  margin:40px 0px;
+  overflow: hidden;
+  width:auto;
+  height:auto;
+  @media (max-width: 1130px) {
+    margin:0 auto;
+    padding:20px 10vw;
+  }
+  @media (max-width: 740px) {
+    display:initial;
+  }
+}
+
+ .procedure > .procedureleft{
+  max-height:400px;
+  max-width:450px;
+  @media (max-width: 1130px) {
+    max-height:275px;
+    max-width:250px;
+  }
+  @media (max-width: 740px) {
+    max-height:95vw;
+    max-width:95vw;
+    text-align:left;
+    display: block;
+  }
+}
+ 
+.create{
+  margin:50px auto;
+  border:$dark-engine solid 1px;
+  padding:15px;
+  width:160px;
+  color:$dark-engine;
+  font-weight: bold;
+  border-radius:5px;
+  @media (max-width: 740px) {
+    width:90%;
+    text-align: center;
+    font-size:13px;
+    margin-bottom:300px;
+  }
+}

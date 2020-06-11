@@ -1,0 +1,35 @@
+.procedure-item{
+  padding-left:60px;
+  margin-top:110px;
+  @media (max-width: 1130px) {
+    width:280px;
+    margin:initial;
+  }
+  @media (max-width: 740px) {
+    width:initial;
+  }
+}
+
+.procedure-item > .title{
+  font-size:23px;
+  font-weight: bold;
+}
+
+.procedure-item > .summary{
+  margin-top:20px;
+  max-width:450px;
+  line-height:1.5;
+  @media (max-width: 1130px) {
+    line-height:1.75;
+  }
+  @media (max-width: 740px) {
+    max-width:initial;
+    font-size:16px;
+
+  }
+}
+
+.procedure-item > .summary > .green{
+  color:$green-fanfare;
+  text-decoration: underline;
+}

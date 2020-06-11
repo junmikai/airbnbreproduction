@@ -1,0 +1,50 @@
+.userworld-block{
+  width:75%;
+  margin:0 auto;
+  display: flex;
+  justify-content:space-around;
+  @media (max-width: 740px) {
+    display: initial;
+  }
+}
+
+.userworld-block > .list{
+  width:100%;
+  padding:0px 15px;
+  @media (max-width: 740px) {
+    width:auto;
+  }
+}
+
+.userworld-block > .list > .image{
+  height:30vw;
+  width:30vw;
+  @media (max-width: 740px) {
+    height:93vw;
+    width:93vw;
+  }
+}
+
+.userworld-block > .list > .title{
+  font-size:22px;
+  font-weight: bold;
+  margin:20px 0px;
+  @media (max-width: 740px) {
+    font-size:19px;
+    padding-top:20px;
+  }
+}
+
+.userworld-block > .list > .summary{
+  letter-spacing:1px;
+  line-height:1.5;
+}
+
+.userworld-block > .list > .green{
+  color:$green-riviera-paradise;
+  margin-top:10px;
+  @media (max-width: 740px) {
+    margin-top:initial;
+    margin-bottom:30px;
+  }
+}
