@@ -15,16 +15,16 @@
   }
 }
 
-.footericon-block  > .iconitem {
+.footericon-block  > .item {
   display: flex;
   justify-content:space-between;
 }
 
-.footericon-block  > .iconitem > .fa-globe {
+.footericon-block  > .item > .fa-globe {
   margin:0px 5px 0px 0px;
 }
 
-.footericon-block  > .iconitem > .japanfont {
+.footericon-block  > .item > .point {
   margin:0px 4px;
   text-decoration: underline;
 }

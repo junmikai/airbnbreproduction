@@ -1,13 +1,13 @@
 .listing-container{
   margin-top:50px;
   position: relative;
-  padding:0px 3vw;
+  padding:0px 3%;
   @media (max-width: 1130px){
     padding:initial;
   }
 }
 
-.listing-container > .listingtitle{
+.listing-container > .title{
   position: absolute;
   top:100px;
   left:100px;
@@ -23,7 +23,7 @@
   }
 }
 
-.listing-container > .listingbtn{
+.listing-container > .btn{
   position: absolute;
   top:250px;
   left:100px;

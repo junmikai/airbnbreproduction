@@ -11,7 +11,7 @@
   }
 }
 
-.summary-block > .summaryitem{
+.summary-block > .item{
   margin:0px 20px;
   width:33%;
   @media (max-width: 1130px){
@@ -21,7 +21,7 @@
   }
 }
 
-.summary-block > .summaryitem > .title{
+.summary-block > .item > .title{
   font-weight: bold;
   margin:10px 0px;
   @media (max-width: 1130px){
@@ -29,7 +29,7 @@
   }
 }
 
-.summary-block > .summaryitem > .summary{
+.summary-block > .item > .summary{
   width:250px;
   letter-spacing:2px;
   line-height:1.5;

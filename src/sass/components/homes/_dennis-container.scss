@@ -14,7 +14,7 @@
   }
 }
 
-.dennis-container > .interviewblock{
+.dennis-container > .block{
   width:43%;
   margin:0px 50px;
   color:$black-kettleman;
@@ -26,7 +26,7 @@
   }
 }
 
-.dennis-container > .interviewblock > .interview{
+.dennis-container > .block > .interview{
   font-size:33px;
   line-height:1.25;
   @media (max-width: 1130px){
@@ -41,7 +41,7 @@
   }
 }
 
-.dennis-container > .interviewblock > .summary{
+.dennis-container > .block > .summary{
   margin-top:15px;
   color:$su-nezumi-grey;
   @media  (max-width: 1130px){
@@ -54,7 +54,7 @@
   }
 }
 
-.dennis-container > .interviewblock > .btn{
+.dennis-container > .block > .btn{
   margin-top:10px;
   color:$dark-engine;
   margin:20px 0px;
@@ -65,13 +65,13 @@
   font-weight: bold;
 }
 
-.dennis-container > .interviewblock > .icon{
+.dennis-container > .block > .icon{
   @media (max-width: 740px){
     font-size:10px;
   }
 }
 
-.dennis-container > .interviewimage > img{
+.dennis-container > .image > img{
   width: 525px; 
   height: 500px;
   @media (max-width: 1130px){

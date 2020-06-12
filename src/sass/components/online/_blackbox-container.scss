@@ -1,7 +1,8 @@
 .blackbox-container{
   background-color:$black;
   padding-bottom:30px;
+  height:1000px;
   @media (max-width: 1130px){
-    height:900px;
+    height:1350px;
   }
 }

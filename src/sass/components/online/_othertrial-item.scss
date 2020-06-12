@@ -8,20 +8,20 @@
   background-image: url("../src/image/Chernobyl.png");
   background-size:cover;
   border-radius: 10px;
-  height:15vw;
-  width:13vw;
+  height:300px;
+  width:250px;
   position: relative;
   @media (max-width: 1440px){
-    height:22vw;
-    width:18vw;
+    height:350px;
+    width:300px;
   } 
   @media (max-width: 1110px){
-    height:28vw;
-    width:23vw;
+    height:400px;
+    width:350px;
   } 
   @media (max-width: 740px){
-    height:55vw;
-    width:45vw;
+    height:450px;
+    width:400px;
   } 
 }
 
@@ -66,7 +66,7 @@
   margin-right:3px;
 }
 
-.othertrial-item > .review > .reviewcount{
+.othertrial-item > .review > .count{
   color:$grey;
   margin-left:3px;
 }

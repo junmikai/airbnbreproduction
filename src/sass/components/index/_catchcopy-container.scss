@@ -10,8 +10,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   @media (max-width: 1920px) {
-    font-size: calc(1.875rem + ((1vw - 9.5px) * 2.5773));
-    min-height: 0vw;
+    font-size: calc(1.875rem + ((30% - 9.5px) * 2.5773));
+    min-height: 0%;
   }
   @media (max-width: 950px) {
     font-size: 30px;

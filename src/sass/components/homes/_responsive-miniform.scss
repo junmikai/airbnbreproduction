@@ -7,7 +7,7 @@
   }
 }
 
-.responsive-miniform >.responsivecharter{
+.responsive-miniform >.charter{
   position: relative;
   margin-right:20px;
   width:100%;
@@ -19,7 +19,7 @@
   }
 }
 
-.responsive-miniform >.responsivecharter > input{
+.responsive-miniform >.charter > input{
   height:40px;
   font-size:16px;
   border:solid 1px $compact-disc-grey;
@@ -31,7 +31,7 @@
   }
 }
 
-.responsive-miniform >.responsivecharter >.fas {
+.responsive-miniform >.charter >.fas {
   position: absolute;
   top:10px;
   right:5px;
@@ -44,7 +44,7 @@
   }
 }
 
-.responsive-miniform >.responsiveguestpeople{
+.responsive-miniform >.guest{
   position: relative;
   width:100%;
   @media (max-width: 740px){
@@ -55,7 +55,7 @@
 }
 
 
-.responsive-miniform >.responsiveguestpeople > input{
+.responsive-miniform >.guest > input{
   height:40px;
   font-size:16px;
   border:solid 1px $compact-disc-grey;
@@ -67,7 +67,7 @@
   }
 }
 
-.responsive-miniform >.responsiveguestpeople >.fas {
+.responsive-miniform >.guest >.fas {
   position: absolute;
   top:5px;
   right:10px;

@@ -5,7 +5,7 @@
   }
 } 
 
-.about-block > .aboutitem{
+.about-block > .item{
   width:37.5%;
   line-height:1.75;
   padding:0px 30px;
@@ -16,17 +16,17 @@
   }
 }
 
-.about-block > .aboutitem > .headline{
+.about-block > .item > .headline{
   font-size:22px;
   font-weight: bold;
 }
 
-.about-block > .aboutitem > .summary{
+.about-block > .item > .summary{
   font-size:15px;
   margin-top:20px;
 }
 
-.about-block > .aboutitem > .green{
+.about-block > .item > .green{
   color:$green-riviera-paradise;
   padding-top:20px;
 }
