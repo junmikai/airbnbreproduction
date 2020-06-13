@@ -15,6 +15,7 @@
   }
 }
 
+
 .userworld-block > .list > .image{  
   width:100%;
   min-width:250px;
@@ -43,6 +44,7 @@
 .userworld-block > .list > .green{
   color:$green-riviera-paradise;
   margin-top:10px;
+  cursor: pointer;
   @media (max-width: 740px) {
     margin-top:initial;
     margin-bottom:30px;

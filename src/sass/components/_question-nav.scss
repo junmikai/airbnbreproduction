@@ -16,3 +16,8 @@
     font-size:15px;
   }
 }
+
+.question-nav > .list > .hover:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -44,6 +44,10 @@
   line-height:40px;
   border: solid 1px $white;
   border-radius: 5px;
+  cursor: pointer;
+  @media(max-width: 1130px){
+   left:44vw;
+  }
   @media(max-width: 740px){
     top:65%;
     left:35%;

@@ -8,7 +8,6 @@
 .link-nav > .list{
   font-size:14px;
   list-style: none;
-  color:$grey; 
   line-height:35px;
   @media (max-width: 1130px){
     width:33%;
@@ -16,4 +15,14 @@
   @media (max-width: 740px){
     width:100%;
   }
+}
+
+
+.link-nav > .linklist > .hover{
+  color:$black-out; 
+}
+.link-nav > .linklist > .hover:hover{
+  text-decoration: underline;
+  opacity:0.9;
+  cursor: pointer;
 }

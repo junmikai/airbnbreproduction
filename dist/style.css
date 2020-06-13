@@ -247,7 +247,6 @@ input, select {
 .link-nav > .list {
   font-size: 14px;
   list-style: none;
-  color: #808080;
   line-height: 35px;
 }
 @media (max-width: 1130px) {
@@ -259,6 +258,16 @@ input, select {
   .link-nav > .list {
     width: 100%;
   }
+}
+
+.link-nav > .linklist > .hover {
+  color: #222222;
+}
+
+.link-nav > .linklist > .hover:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+  cursor: pointer;
 }
 
 .footer-container {
@@ -310,6 +319,7 @@ input, select {
 
 .footercompany-block {
   font-size: 13px;
+  line-height: 1.5;
 }
 @media (max-width: 740px) {
   .footercompany-block {
@@ -319,6 +329,12 @@ input, select {
 
 .footercompany-block > .point {
   padding: 0px 8px;
+}
+
+.footercompany-block > .hover:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  text-decoration: underline;
 }
 
 .footericon-block {
@@ -364,6 +380,16 @@ input, select {
   }
 }
 
+.footericon-block > .iconcontact > .hover:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.footericon-block > .iconitem > .hover:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .question-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -403,6 +429,11 @@ input, select {
     width: 95%;
     font-size: 15px;
   }
+}
+
+.question-nav > .list > .hover:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .covid-container {
@@ -3483,7 +3514,18 @@ input, select {
   }
 }
 
-.airbnbtrial-container > .btn {
+.airbnbtrial-container > .gap {
+  height: 58px;
+  width: 133px;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+.airbnbtrial-container > .gap:hover {
+  border: 1px solid black;
+}
+
+.airbnbtrial-container > .gap > .btn {
   font-size: 14px;
   color: #fff;
   border-radius: 5px;
@@ -3491,11 +3533,12 @@ input, select {
   height: 50px;
   line-height: 50px;
   width: 125px;
-  margin: 50px auto;
   font-weight: bold;
+  cursor: pointer;
+  margin: 3.5px auto;
 }
 @media (max-width: 741px) {
-  .airbnbtrial-container > .btn {
+  .airbnbtrial-container > .gap > .btn {
     font-size: 14px;
     color: #fff;
     border-radius: 5px;
@@ -3504,6 +3547,11 @@ input, select {
     width: 125px;
     margin: initial;
   }
+}
+
+.airbnbtrial-container > .gap > .btn:hover {
+  transition-duration: 0.5s;
+  background-color: #c54c4c;
 }
 
 .groupphoto-container {
@@ -3683,6 +3731,28 @@ input, select {
   }
 }
 
+
+=======
+.create {
+  margin: 50px auto;
+  border: #3f3f3f solid 1px;
+  padding: 15px;
+  width: 160px;
+  color: #3f3f3f;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (max-width: 740px) {
+  .create {
+    width: 90%;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 300px;
+  }
+}
+
+
 .procedure-item {
   padding-left: 60px;
   margin-top: 110px;
@@ -3724,6 +3794,7 @@ input, select {
 .procedure-item > .summary > .green {
   color: #006a70;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .userworld-container {
@@ -3775,6 +3846,7 @@ input, select {
   color: #3f3f3f;
   font-weight: bold;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .userworld-block {
@@ -3802,6 +3874,7 @@ input, select {
   width: 100%;
   min-width: 250px;
   height: 70%;
+  cursor: pointer;
 }
 @media (max-width: 740px) {
   .userworld-block > .list > .image {
@@ -3830,6 +3903,7 @@ input, select {
 .userworld-block > .list > .green {
   color: #01999e;
   margin-top: 10px;
+  cursor: pointer;
 }
 @media (max-width: 740px) {
   .userworld-block > .list > .green {
@@ -3957,6 +4031,12 @@ input, select {
   line-height: 40px;
   border: solid 1px #fff;
   border-radius: 5px;
+  cursor: pointer;
+}
+@media (max-width: 1130px) {
+  .check-container > .btn {
+    left: 44vw;
+  }
 }
 @media (max-width: 740px) {
   .check-container > .btn {
