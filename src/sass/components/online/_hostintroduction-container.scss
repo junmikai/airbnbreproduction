@@ -10,8 +10,8 @@
 }
 
 .hostintroduction-container > .sticky{
-  width: 20vw;
-  height: 10vh;
+  width: 20%;
+  height: 10%;
   position: -webkit-sticky; 
   position: sticky; 
   top: 55px; 
@@ -34,7 +34,7 @@
  
 }
 
-.hostintroduction-container > .messageblock {
+.hostintroduction-container > .block {
   padding-top:45px;
   padding-left:100px;
   @media (max-width: 740px){
@@ -42,14 +42,14 @@
   }
 }
 
-.hostintroduction-container > .messageblock > img {
+.hostintroduction-container > .block > img {
   border-radius: 50%; 
   @media (max-width: 740px){
     margin-top:30px;
   }
 }
 
-.hostintroduction-container > .messageblock > .icon {
+.hostintroduction-container > .block > .icon {
   font-size:22px;
   font-weight: bold;
   margin-top:10px;
@@ -58,12 +58,12 @@
   }
 }
 
-.hostintroduction-container > .messageblock > .message{
+.hostintroduction-container > .block > .message{
   line-height:2.0;
   max-width:1000px;
 }
 
-.hostintroduction-container > .messageblock > .contact{
+.hostintroduction-container > .block > .contact{
   color:$green-riviera-paradise;
   margin:20px 0px;
   border: $green-riviera-paradise solid 2px;

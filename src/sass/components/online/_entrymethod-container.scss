@@ -10,8 +10,8 @@
 }
 
 .entrymethod-container > .sticky{
-  width: 20vw;
-  height: 10vh;
+  width: 20%;
+  height: 10%;
   position: -webkit-sticky; 
   position: sticky; 
   top: 55px; 
@@ -33,7 +33,7 @@
   }
 }
 
-.entrymethod-container > .methodblock{
+.entrymethod-container > .block{
   padding-top:45px;
   padding-left:100px;
   width:100%;
@@ -45,7 +45,7 @@
   }
 }
 
-.entrymethod-container > .methodblock >.reserved＿block > .title{
+.entrymethod-container > .block >.reserved > .title{
   font-size:22px;
   font-weight: bold;
   margin:10px 0px;
@@ -55,6 +55,6 @@
   }
 }
 
-.entrymethod-container > .methodblock >.reserved＿block > .details{
+.entrymethod-container > .block >.reserved > .details{
   font-size:18px;
 }

@@ -22,13 +22,13 @@
 }
 
 .note-list > .summary{
-  width:31vw;
+  width:90%;
   @media (max-width: 1130px){
     display:none;
   }
 }
 
-.note-list > .summary > .seemore{
+.note-list > .summary > .more{
   color:$green-riviera-paradise;
   font-weight: bold;
   font-size:14px; 

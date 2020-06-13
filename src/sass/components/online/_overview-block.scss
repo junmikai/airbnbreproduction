@@ -45,7 +45,7 @@
   right:0px;
 }
 
-.overview-block > .overviewitem{
+.overview-block > .item{
   height:150px;
   width:70%;
   margin-top:20px;
@@ -54,7 +54,7 @@
   font-size:13px;
   color:$white;
   @media (max-width: 1130px){
-    width:55vw;
+    width:55%;
     height:initial;
     position: absolute;
     left:30px;
@@ -70,19 +70,19 @@
   }
 }
 
-.overview-block > .overviewitem >.overview{
+.overview-block > .item >.overview{
   @media (max-width: 740px){
     width:200px;
     padding:10px 0px;
   }
 }
 
-.overview-block > .overviewitem >.overview > .fas{
+.overview-block > .item >.overview > .fas{
   color:$grey;
   margin-bottom:10px;
 }
 
-.overview-block > .overviewitem >.overview > .title{
+.overview-block > .item >.overview > .title{
   color:$grey;
   margin-bottom:10px;
 }

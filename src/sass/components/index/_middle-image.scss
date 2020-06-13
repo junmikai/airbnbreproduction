@@ -11,13 +11,13 @@
   }
   @media (max-width: 900px) {
     display: inline-block;
-    width: 90vw;
-    height: 80vw;
+    width: 600px;
+    height: 600px;
     margin:16px;
   }
 }
 
-.middle-image > .summaryitem {
+.middle-image > .item {
   background-color:$black-nero;
   height:75px;
   border-radius:0px 0px 25px 25px;
@@ -27,7 +27,7 @@
   bottom:0;
 }
 
-.middle-image > .summaryitem >.summary {
+.middle-image > .item >.summary {
   width:90%;
   padding:10px;
 }

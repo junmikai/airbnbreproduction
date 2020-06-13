@@ -8,14 +8,14 @@
   }
 }
 
-.heading-block > .headingitem{
+.heading-block > .item{
   width:450px;
   @media (max-width: 900px){
     width:100%;
   }
 }
 
-.heading-block > .headingitem > .title{
+.heading-block > .item > .title{
   font-size:30px;
   font-weight: bold;
   @media (max-width: 900px){
