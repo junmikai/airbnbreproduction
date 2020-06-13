@@ -7,8 +7,8 @@
 }
 
 .guest-title > .sticky {
-  width: 20vw;
-  height: 10vh;
+  width: 20%;
+  height: 10%;
   position: -webkit-sticky; 
   position: sticky; 
   top: 55px; 
@@ -36,12 +36,13 @@
   font-weight: bold;
   border-radius:5px;
   text-align: center;
+  width:250px;
   @media (max-width: 740px){
     display:none;
   }
 }
 
-.guest-title > .sticky > .totalreview {
+.guest-title > .sticky > .review {
   font-weight: bold;
   width:255px;
   margin-top:10px;

@@ -1,4 +1,4 @@
-.openingdescription{
+.opening-block{
   display: flex;
   margin-top:50px;
   @media (max-width: 1130px){
@@ -6,18 +6,18 @@
   }
 }
 
-.openingdescription > .whyhost{
+.opening-block > .why{
   padding:0px 20px;
   color:$dark-engine;
 }
 
-.openingdescription > .whyhost > .title{
+.opening-block > .why > .title{
   font-size:23px;
   font-weight: bold;
   margin-bottom:20px;
 }
 
-.openingdescription > .whyhost >.summary{
+.opening-block > .why >.summary{
   width:85%;
   font-size:16px;
   line-height:1.75;
@@ -27,18 +27,18 @@
   }
 }
 
-.openingdescription > .warranty{
+.opening-block > .warranty{
   padding:0px 20px;
   color:$dark-engine;
 }
 
-.openingdescription > .warranty > .title{
+.opening-block > .warranty > .title{
   font-size:23px;
   font-weight: bold;
   margin-bottom:20px;
 }
 
-.openingdescription > .warranty >.summary{
+.opening-block > .warranty >.summary{
   width:100%;
   font-size:16px;
   line-height:1.75;

@@ -1,4 +1,4 @@
- .procedure{
+ .procedure-block{
   display: flex;
   margin:40px 0px;
   overflow: hidden;
@@ -6,14 +6,14 @@
   height:auto;
   @media (max-width: 1130px) {
     margin:0 auto;
-    padding:20px 10vw;
+    padding:20px 10%;
   }
   @media (max-width: 740px) {
     display:initial;
   }
 }
 
- .procedure > .procedureleft{
+ .procedure-block > .image{
   max-height:400px;
   max-width:450px;
   @media (max-width: 1130px) {
@@ -21,8 +21,8 @@
     max-width:250px;
   }
   @media (max-width: 740px) {
-    max-height:95vw;
-    max-width:95vw;
+    max-height:95%;
+    max-width:95%;
     text-align:left;
     display: block;
   }

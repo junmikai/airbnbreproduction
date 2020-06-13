@@ -9,20 +9,20 @@
 }
 
 .userworld-block > .list{
-  width:100%;
-  padding:0px 15px;
+  margin:2%;
   @media (max-width: 740px) {
     width:auto;
   }
 }
 
-.userworld-block > .list > .image{
-  height:30vw;
-  width:30vw;
-  cursor: pointer;
+
+.userworld-block > .list > .image{  
+  width:100%;
+  min-width:250px;
+  height:70%;
   @media (max-width: 740px) {
-    height:93vw;
-    width:93vw;
+    height:93%;
+    width:93%;
   }
 }
 

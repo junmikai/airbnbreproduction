@@ -2,11 +2,11 @@
   margin-bottom:30px;
 }
 
-.review-item > .reviewinformation{
+.review-item > .information{
   display:flex;
 }
 
-.review-item > .reviewinformation img{
+.review-item > .information img{
   border-radius: 50%; 
 }
 
@@ -20,7 +20,7 @@
   border-bottom:initial;
   }
 
-.review-item > .comment > .seemore{
+.review-item > .comment > .more{
   color:$green-riviera-paradise;
 }
 

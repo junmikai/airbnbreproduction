@@ -11,7 +11,7 @@
   }
 }
 
-.btn-item > .snsbtn{
+.btn-item > .btn{
   background-color:$white-smoke;
   border-radius: 5px;
   display: flex;
@@ -22,10 +22,10 @@
   font-weight: bold;
 }
 
-.btn-item > .snsbtn > .fas{
+.btn-item > .btn > .fas{
   padding-right:10px;
 }
 
-.btn-item > .snsbtn > .far{
+.btn-item > .btn > .far{
   padding-right:10px;
 }

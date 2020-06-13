@@ -12,7 +12,7 @@
   }
 }
 
-.link-container > .linkblock{
+.link-container > .block{
   width:25%;
   padding:30px;
   @media(max-width: 1130px){
@@ -24,7 +24,7 @@
   }
 }
 
-.link-container > .linkblock >.title{
+.link-container > .block >.title{
   font-weight:bold;
   font-size:12px;
   margin-bottom:10px;

@@ -15,7 +15,7 @@
   }
 }
 
-.fixed-footer > .fixedleft{
+.fixed-footer > .heading{
   display: flex;
   padding-left:30px;
   @media (max-width: 1130px){
@@ -23,29 +23,29 @@
   }
 }
 
-.fixed-footer > .fixedleft > img{
+.fixed-footer > .heading > img{
   margin-top:10px;
   border-radius: 50%;
 }
 
-.fixed-footer > .fixedleft > .title{
+.fixed-footer > .heading > .title{
   margin:0px 10px;
   font-size:13px;
   font-weight: bold;
 }
 
-.fixed-footer > .fixedleft > .review{
+.fixed-footer > .heading > .review{
   font-size:10px;
   font-weight: bold;
   color:$green-riviera-paradise;
 }
 
-.fixed-footer > .fixedleft > .reviewcount{
+.fixed-footer > .heading > .count{
   font-size:10px;
   color:$grey;
 }
 
-.fixed-footer > .fixedright{
+.fixed-footer > .detail{
   display: flex;
   padding-right:30px;
   @media (max-width: 1130px){
@@ -53,12 +53,12 @@
   }
 }
 
-.fixed-footer > .fixedright > .price{
+.fixed-footer > .detail > .price{
   font-weight: bold;
   font-size:13px;
 }
 
-.fixed-footer > .fixedright > .daybtn{
+.fixed-footer > .detail > .btn{
   background-color:$red-pelati;
   color:$white;
   font-weight: bold;
@@ -70,7 +70,7 @@
   border-radius: 5px;
 }
 
-.fixed-footer >.minileft{
+.fixed-footer >.entry{
   @media (max-width: 1920px){
     display: none;
   }
@@ -81,40 +81,40 @@
   }
 }
 
-.fixed-footer > .minileft > .price{
+.fixed-footer > .entry > .price{
   @media (max-width: 1130px){
   font-weight: bold;
   font-size:13px;
   }
 }
 
-.fixed-footer > .minileft > .review{
+.fixed-footer > .entry > .review{
   @media (max-width: 1130px){
   color:$green-riviera-paradise;
   display: flex;
   }
 }
 
-.fixed-footer > .minileft > .review > .footerreview{
+.fixed-footer > .entry > .review > .value{
   @media (max-width: 1130px){
   font-weight: bold;
   }
 }
 
-.fixed-footer > .minileft > .review > .fas{
+.fixed-footer > .entry > .review > .fas{
   @media (max-width: 1130px){
   line-height:1.5;
   }
 }
 
-.fixed-footer > .minileft > .review > .no1235{
+.fixed-footer > .entry > .review > .count{
   @media (max-width: 1130px){
   font-size:10px;
   color:$grey;
   }
 }
 
-.fixed-footer  > .miniright{
+.fixed-footer  > .implementation{
   @media (max-width: 1920px){
     display: none;
   }
